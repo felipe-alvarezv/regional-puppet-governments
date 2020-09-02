@@ -1,0 +1,202 @@
+rpg_category = {
+	rpg_greece_turkey = {
+		allowed = {
+			NOT = {
+				original_tag = CYP #Cyprus
+				original_tag = GRE #Greece
+				original_tag = TUR #Turkey
+				original_tag = D30 #Greece-Turkey
+			}
+		}
+		available = {
+			is_subject = no
+			#Thessaly
+			custom_trigger_tooltip = {
+				tooltip = rpg_greece_turkey_required_states_thessaly
+				controls_state = 47 #Thessaly
+			}
+			#Ankara
+			custom_trigger_tooltip = {
+				tooltip = rpg_greece_turkey_required_states_ankara
+				controls_state = 49 #Ankara
+			}
+			#Thrace
+			custom_trigger_tooltip = {
+				tooltip = rpg_greece_turkey_required_states_thrace
+				controls_state = 184 #Thrace
+			}
+			#Epirus
+			custom_trigger_tooltip = {
+				tooltip = rpg_greece_turkey_required_states_epirus
+				controls_state = 185 #Epirus
+			}
+			#Peloponnese
+			custom_trigger_tooltip = {
+				tooltip = rpg_greece_turkey_required_states_peloponnese
+				controls_state = 186 #Peloponnese
+			}
+			#Izmir
+			custom_trigger_tooltip = {
+				tooltip = rpg_greece_turkey_required_states_izmir
+				controls_state = 339 #Izmir
+			}
+			#Bursa
+			custom_trigger_tooltip = {
+				tooltip = rpg_greece_turkey_required_states_bursa
+				controls_state = 340 #Bursa
+			}
+			#Istanbul
+			custom_trigger_tooltip = {
+				tooltip = rpg_greece_turkey_required_states_istanbul
+				controls_state = 341 #Istanbul
+			}
+			#Antalya
+			custom_trigger_tooltip = {
+				tooltip = rpg_greece_turkey_required_states_antalya
+				controls_state = 342 #Antalya
+			}
+			#Afyon
+			custom_trigger_tooltip = {
+				tooltip = rpg_greece_turkey_required_states_afyon
+				controls_state = 343 #Afyon
+			}
+			#Adana
+			custom_trigger_tooltip = {
+				tooltip = rpg_greece_turkey_required_states_adana
+				controls_state = 344 #Adana
+			}
+			#Mersin
+			custom_trigger_tooltip = {
+				tooltip = rpg_greece_turkey_required_states_mersin
+				controls_state = 345 #Mersin
+			}
+			#Konya
+			custom_trigger_tooltip = {
+				tooltip = rpg_greece_turkey_required_states_konya
+				controls_state = 346 #Konya
+			}
+			#Izmit
+			custom_trigger_tooltip = {
+				tooltip = rpg_greece_turkey_required_states_izmit
+				controls_state = 347 #Izmit
+			}
+			#Kayseri
+			custom_trigger_tooltip = {
+				tooltip = rpg_greece_turkey_required_states_kayseri
+				controls_state = 348 #Kayseri
+			}
+			#Sivas
+			custom_trigger_tooltip = {
+				tooltip = rpg_greece_turkey_required_states_sivas
+				controls_state = 349 #Sivas
+			}
+			#Malatya
+			custom_trigger_tooltip = {
+				tooltip = rpg_greece_turkey_required_states_malatya
+				controls_state = 350 #Malatya
+			}
+			#Van
+			custom_trigger_tooltip = {
+				tooltip = rpg_greece_turkey_required_states_van
+				controls_state = 352 #Van
+			}
+			#Erzurum
+			custom_trigger_tooltip = {
+				tooltip = rpg_greece_turkey_required_states_erzurum
+				controls_state = 353 #Erzurum
+			}
+			#Trabzon
+			custom_trigger_tooltip = {
+				tooltip = rpg_greece_turkey_required_states_trabzon
+				controls_state = 354 #Trabzon
+			}
+			#Samsun
+			custom_trigger_tooltip = {
+				tooltip = rpg_greece_turkey_required_states_samsun
+				controls_state = 355 #Samsun
+			}
+			#Kastamonu
+			custom_trigger_tooltip = {
+				tooltip = rpg_greece_turkey_required_states_kastamonu
+				controls_state = 356 #Kastamonu
+			}
+			#Central Macedonia
+			custom_trigger_tooltip = {
+				tooltip = rpg_greece_turkey_required_states_central_macedonia
+				controls_state = 731 #Central Macedonia
+			}
+		}
+		visible = {
+			OR = {
+                controls_state = 47 #Thessaly
+				controls_state = 49 #Ankara
+				controls_state = 341 #Istantanbul
+
+			}
+			NOT = { 
+            	original_tag = CYP #Cyprus
+				original_tag = GRE #Greece
+				original_tag = TUR #Turkey
+				original_tag = D30 #Greece-Turkey
+                has_global_flag = rpg_greece_turkey_flag
+            }
+		}
+		complete_effect = {
+			hidden_effect = {
+				D30 = {
+					transfer_state = 47 #Thessaly
+					transfer_state = 49 #Ankara
+					transfer_state = 184 #Thrace
+					transfer_state = 185 #Epirus
+					transfer_state = 186 #Peloponnese
+					transfer_state = 339 #Izmir
+					transfer_state = 340 #Bursa
+					transfer_state = 341 #Istanbul
+					transfer_state = 342 #Antalya
+					transfer_state = 343 #Afyon
+					transfer_state = 344 #Adan
+					transfer_state = 345 #Mersin
+					transfer_state = 346 #Konya
+					transfer_state = 347 #Izmit
+					transfer_state = 348 #Kayseri
+					transfer_state = 349 #Sivas
+					transfer_state = 350 #Malatya
+					transfer_state = 352 #Van
+					transfer_state = 353 #Erzurum
+					transfer_state = 354 #Trabzon
+					transfer_state = 355 #Samsun
+					transfer_state = 356 #Kastamonu
+					transfer_state = 731 #Central Macedonia
+				}
+			}
+			custom_effect_tooltip = rpg_greece_turkey_coring_states
+			custom_effect_tooltip = rpg_greece_turkey_transfer_states
+			#Core All Owned States and Puppet
+			custom_effect_tooltip = rpg_greece_turkey_puppet
+			hidden_effect = {
+				every_state = {
+					limit = {
+						is_owned_by = D30
+					}
+					add_core_of = D30
+				}
+				puppet = D30
+			}
+			#News event, set local flag, and set global flag
+			hidden_effect = {
+				ROOT = {
+					set_country_flag = rpg_greece_turkey_country_flag
+				}
+				news_event = { id = rpg_news.10 hours = 6 }
+				set_global_flag = rpg_greece_turkey_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}

@@ -1,0 +1,688 @@
+rpg_category_territories_north_africa = {
+	rpg_north_africa_spanish_africa = {
+		allowed = {
+			NOT = {
+				original_tag = MOR #Morocco
+				original_tag = D26 #North Africa
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_north_africa_required_states_spanish_africa
+                controls_state = 290 #Spanish Africa
+			}
+		}
+		visible = {
+            has_global_flag = rpg_north_africa_flag
+			D26 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = MOR #Morocco
+				original_tag = D26 #North Africa
+                has_global_flag = rpg_north_africa_spanish_africa_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_north_africa_coring_states_spanish_africa
+			custom_effect_tooltip = rpg_north_africa_transfer_states_spanish_africa
+			hidden_effect = {
+				290 = { add_core_of = D26 } #Spanish Africa
+				D26 = {
+					transfer_state = 290 #Spanish Africa
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_north_africa_spanish_africa_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_north_africa_sinai = {
+		allowed = {
+			NOT = {
+				original_tag = EGY #Egypt
+				original_tag = D26 #North Africa
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_north_africa_required_states_sinai
+                controls_state = 453 #Sinai
+			}
+		}
+		visible = {
+            has_global_flag = rpg_north_africa_flag
+			D26 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = EGY #Egypt
+				original_tag = D26 #North Africa
+                has_global_flag = rpg_north_africa_sinai_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_north_africa_coring_states_sinai
+			custom_effect_tooltip = rpg_north_africa_transfer_states_sinai
+			hidden_effect = {
+				453 = { add_core_of = D26 } #Sinai
+				D26 = {
+					transfer_state = 453 #Sinai
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_north_africa_sinai_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_north_africa_tunisia = {
+		allowed = {
+			NOT = {
+				original_tag = TUN #Tunisia
+				original_tag = D26 #North Africa
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_north_africa_required_states_tunisia
+                controls_state = 458 #Tunisia
+			}
+		}
+		visible = {
+            has_global_flag = rpg_north_africa_flag
+			D26 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = TUN #Tunisia
+				original_tag = D26 #North Africa
+                has_global_flag = rpg_north_africa_tunisia_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_north_africa_coring_states_tunisia
+			custom_effect_tooltip = rpg_north_africa_transfer_states_tunisia
+			hidden_effect = {
+				458 = { add_core_of = D26 } #Tunisia
+				D26 = {
+					transfer_state = 458 #Tunisia
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_north_africa_tunisia_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_north_africa_algiers = {
+		allowed = {
+			NOT = {
+				original_tag = ALG #Algeria
+				original_tag = D26 #North Africa
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_north_africa_required_states_algiers
+				controls_state = 459 #Algiers
+			}
+		}
+		visible = {
+            has_global_flag = rpg_north_africa_flag
+			D26 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = ALG #Algeria
+				original_tag = D26 #North Africa
+                has_global_flag = rpg_north_africa_algiers_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_north_africa_coring_states_algiers
+			custom_effect_tooltip = rpg_north_africa_transfer_states_algiers
+			hidden_effect = {
+				459 = { add_core_of = D26 } #Algiers
+				D26 = {
+					transfer_state = 459 #Algiers
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_north_africa_algiers_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_north_africa_constantine = {
+		allowed = {
+			NOT = {
+				original_tag = ALG #Algeria
+				original_tag = D26 #North Africa
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_north_africa_required_states_constatine
+				controls_state = 460 #Constantine
+			}
+		}
+		visible = {
+            has_global_flag = rpg_north_africa_flag
+			D26 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = ALG #Algeria
+				original_tag = D26 #North Africa
+                has_global_flag = rpg_north_africa_constantine_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_north_africa_coring_states_constantine
+			custom_effect_tooltip = rpg_north_africa_transfer_states_constantine
+			hidden_effect = {
+				460 = { add_core_of = D26 } #Constantine
+				D26 = {
+					transfer_state = 460 #Constantine
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_north_africa_constantine_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_north_africa_casablanca = {
+		allowed = {
+			NOT = {
+				original_tag = MOR #Morocco
+				original_tag = D26 #North Africa
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_north_africa_required_states_casablanca
+                controls_state = 461 #Casablanca
+			}
+		}
+		visible = {
+            has_global_flag = rpg_north_africa_flag
+			D26 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = MOR #Morocco
+				original_tag = D26 #North Africa
+                has_global_flag = rpg_north_africa_casablanca_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_north_africa_coring_states_casablanca
+			custom_effect_tooltip = rpg_north_africa_transfer_states_casablanca
+			hidden_effect = {
+				461 = { add_core_of = D26 } #Casablanca
+				D26 = {
+					transfer_state = 461 #Casablanca
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_north_africa_casablanca_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_north_africa_marrakech = {
+		allowed = {
+			NOT = {
+				original_tag = MOR #Morocco
+				original_tag = D26 #North Africa
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_north_africa_required_states_marrakech
+                controls_state = 462 #Marrakech
+			}
+		}
+		visible = {
+            has_global_flag = rpg_north_africa_flag
+			D26 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = MOR #Morocco
+				original_tag = D26 #North Africa
+                has_global_flag = rpg_north_africa_marrakech_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_north_africa_coring_states_marrakech
+			custom_effect_tooltip = rpg_north_africa_transfer_states_marrakech
+			hidden_effect = {
+				462 = { add_core_of = D26 } #Marrakech
+				D26 = {
+					transfer_state = 462 #Marrakech
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_north_africa_marrakech_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_north_africa_tlemcen = {
+		allowed = {
+			NOT = {
+				original_tag = ALG #Algeria
+				original_tag = D26 #North Africa
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_north_africa_required_states_tlemcen
+				controls_state = 513 #Tlemcen
+			}
+		}
+		visible = {
+            has_global_flag = rpg_north_africa_flag
+			D26 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = ALG #Algeria
+				original_tag = D26 #North Africa
+                has_global_flag = rpg_north_africa_tlemcen_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_north_africa_coring_states_tlemcen
+			custom_effect_tooltip = rpg_north_africa_transfer_states_tlemcen
+			hidden_effect = {
+				513 = { add_core_of = D26 } #Tlemcen
+				D26 = {
+					transfer_state = 513 #Tlemcen
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_north_africa_tlemcen_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_north_africa_algerian_desert = {
+		allowed = {
+			NOT = {
+				original_tag = ALG #Algeria
+				original_tag = D26 #North Africa
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_north_africa_required_states_algerian_desert
+				controls_state = 514 #Algerian Desert
+			}
+		}
+		visible = {
+            has_global_flag = rpg_north_africa_flag
+			D26 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = ALG #Algeria
+				original_tag = D26 #North Africa
+                has_global_flag = rpg_north_africa_algerian_desert_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_north_africa_coring_states_algerian_desert
+			custom_effect_tooltip = rpg_north_africa_transfer_states_algerian_desert
+			hidden_effect = {
+				514 = { add_core_of = D26 } #Algerian Desert
+				D26 = {
+					transfer_state = 514 #Algerian Desert
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_north_africa_algerian_desert_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_north_africa_mauritania = {
+		allowed = {
+			NOT = {
+				original_tag = MRT #Mauritania
+				original_tag = D26 #North Africa
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_north_africa_required_states_mauritania
+                controls_state = 557 #Mauritania
+			}
+		}
+		visible = {
+            has_global_flag = rpg_north_africa_flag
+			D26 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = MRT #Mauritania
+				original_tag = D26 #North Africa
+                has_global_flag = rpg_north_africa_mauritania_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_north_africa_coring_states_mauritania
+			custom_effect_tooltip = rpg_north_africa_transfer_states_mauritania
+			hidden_effect = {
+				557 = { add_core_of = D26 } #Mauritania
+				D26 = {
+					transfer_state = 557 #Mauritania
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_north_africa_mauritania_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_north_africa_gabes = {
+		allowed = {
+			NOT = {
+				original_tag = TUN #Tunisia
+				original_tag = D26 #North Africa
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_north_africa_required_states_gabes
+				controls_state = 665 #Gabes
+			}
+		}
+		visible = {
+            has_global_flag = rpg_north_africa_flag
+			D26 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = TUN #Tunisia
+				original_tag = D26 #North Africa
+                has_global_flag = rpg_north_africa_gabes_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_north_africa_coring_states_gabes
+			custom_effect_tooltip = rpg_north_africa_transfer_states_gabes
+			hidden_effect = {
+				665 = { add_core_of = D26 } #Gabes
+				D26 = {
+					transfer_state = 665 #Gabes
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_north_africa_gabes_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_north_africa_rio_de_oro = {
+		allowed = {
+			NOT = {
+				original_tag = WES #Sahrawi
+				original_tag = D26 #North Africa
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_north_africa_required_states_rio_de_oro
+                controls_state = 699 #Rio de Oro
+			}
+		}
+		visible = {
+            has_global_flag = rpg_north_africa_flag
+			D26 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = WES #Sahrawi
+				original_tag = D26 #North Africa
+                has_global_flag = rpg_north_africa_rio_de_oro_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_north_africa_coring_states_rio_de_oro
+			custom_effect_tooltip = rpg_north_africa_transfer_states_rio_de_oro
+			hidden_effect = {
+				699 = { add_core_of = D26 } #Rio de Oro
+				D26 = {
+					transfer_state = 699 #Rio de Oro
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_north_africa_rio_de_oro_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_north_africa_sidi_ifni = {
+		allowed = {
+			NOT = {
+				original_tag = MOR #Morocco
+				original_tag = D26 #North Africa
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_north_africa_required_states_sidi_ifni
+                controls_state = 783 #Sidi Ifni
+			}
+		}
+		visible = {
+            has_global_flag = rpg_north_africa_flag
+			D26 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = MOR #Morocco
+				original_tag = D26 #North Africa
+                has_global_flag = rpg_north_africa_sidi_ifni_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_north_africa_coring_states_sidi_ifni
+			custom_effect_tooltip = rpg_north_africa_transfer_states_sidi_ifni
+			hidden_effect = {
+				783 = { add_core_of = D26 } #Sidi Ifni
+				D26 = {
+					transfer_state = 783 #Sidi Ifni
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_north_africa_sidi_ifni_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_north_africa_mauritanian_desert = {
+		allowed = {
+			NOT = {
+				original_tag = MRT #Mauritania
+				original_tag = D26 #North Africa
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_north_africa_required_states_mauritanian_desert
+				controls_state = 786 #Mauritanian Desert
+			}
+		}
+		visible = {
+            has_global_flag = rpg_north_africa_flag
+			D26 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = MRT #Mauritania
+				original_tag = D26 #North Africa
+                has_global_flag = rpg_north_africa_mauritanian_desert_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_north_africa_coring_states_mauritanian_desert
+			custom_effect_tooltip = rpg_north_africa_transfer_states_mauritanian_desert
+			hidden_effect = {
+				786 = { add_core_of = D26 } #Mauritanian Desert
+				D26 = {
+					transfer_state = 786 #Mauritanian Desert
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_north_africa_mauritanian_desert_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}

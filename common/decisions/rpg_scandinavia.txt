@@ -1,0 +1,137 @@
+rpg_category = {
+	rpg_scandinavia = {
+		allowed = {
+			NOT = {
+				original_tag = DEN #Denmark
+				original_tag = ICE #Iceland
+				original_tag = NOR #Norway
+				original_tag = SWE #Sweden
+				original_tag = D28 #Scandinavia
+			}
+		}
+		available = {
+			is_subject = no
+			#Sjaelland
+			custom_trigger_tooltip = {
+				tooltip = rpg_scandinavia_required_states_sjaelland
+				controls_state = 37 #Sjaelland
+			}
+			#Norrland
+			custom_trigger_tooltip = {
+				tooltip = rpg_scandinavia_required_states_norrland
+				controls_state = 38 #Norrland
+			}
+			#Jutland
+			custom_trigger_tooltip = {
+				tooltip = rpg_scandinavia_required_states_jutland
+				controls_state = 99 #Jutland
+			}
+			#Ostlandet
+			custom_trigger_tooltip = {
+				tooltip = rpg_scandinavia_required_states_ostlandet
+				controls_state = 110 #Ostlandet
+			}
+			#Scania
+			custom_trigger_tooltip = {
+				tooltip = rpg_scandinavia_required_states_scania
+				controls_state = 138 #Scania
+			}
+			#Smaland
+			custom_trigger_tooltip = {
+				tooltip = rpg_scandinavia_required_states_smaland
+				controls_state = 139 #Smaland
+			}
+			#Vastergotland
+			custom_trigger_tooltip = {
+				tooltip = rpg_scandinavia_required_states_vastergotland
+				controls_state = 140 #Vastergotland
+			}
+			#Svealand
+			custom_trigger_tooltip = {
+				tooltip = rpg_scandinavia_required_states_svealand
+				controls_state = 141 #Svealand
+			}
+			#Vestlandet
+			custom_trigger_tooltip = {
+				tooltip = rpg_scandinavia_required_states_vestlandet
+				controls_state = 142 #Vestlandet
+			}
+			#Trondelag
+			custom_trigger_tooltip = {
+				tooltip = rpg_scandinavia_required_states_trondelag
+				controls_state = 143 #Trondelag
+			}
+			#Nord-Norge
+			custom_trigger_tooltip = {
+				tooltip = rpg_scandinavia_required_states_nord_norge
+				controls_state = 144 #Nord-Norge
+			}
+			#Lappland
+			custom_trigger_tooltip = {
+				tooltip = rpg_scandinavia_required_states_lappland
+				controls_state = 666 #Lappland
+			}
+		}
+		visible = {
+			OR = {
+				controls_state = 37 #Sjaelland
+				controls_state = 110 #Ostlandet
+				controls_state = 141 #Svealand
+			}
+			NOT = { 
+                original_tag = DEN #Denmark
+				original_tag = ICE #Iceland
+				original_tag = NOR #Norway
+				original_tag = SWE #Sweden
+				original_tag = D28 #Scandinavia
+                has_global_flag = rpg_scandinavia_flag
+            }
+		}
+		complete_effect = {
+			hidden_effect = {
+				D28 = {
+					transfer_state = 37 #Sjaelland
+					transfer_state = 38 #Norrland
+					transfer_state = 99 #Jutland
+					transfer_state = 110 #Ostlandet
+					transfer_state = 138 #Scania
+					transfer_state = 139 #Smaland
+					transfer_state = 140 #Vastergotland
+					transfer_state = 141 #Svealand
+					transfer_state = 142 #Vestlandet
+					transfer_state = 143 #Trondelag
+					transfer_state = 144 #Nord-Norge
+					transfer_state = 666 #Lappland
+				}
+			}
+			custom_effect_tooltip = rpg_scandinavia_coring_states
+			custom_effect_tooltip = rpg_scandinavia_transfer_states
+			#Core All Owned States and Puppet
+			custom_effect_tooltip = rpg_scandinavia_puppet
+			hidden_effect = {
+				every_state = {
+					limit = {
+						is_owned_by = D28
+					}
+					add_core_of = D28
+				}
+				puppet = D28
+			}
+			#News event, set local flag, and set global flag
+			hidden_effect = {
+				ROOT = {
+					set_country_flag = rpg_scandinavia_country_flag
+				}
+				news_event = { id = rpg_news.08 hours = 6 }
+				set_global_flag = rpg_scandinavia_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}

@@ -1,0 +1,247 @@
+rpg_category_territories_indochina = {
+	rpg_indochina_burma = {
+		allowed = {
+			NOT = {
+				original_tag = BRM #Burma
+				original_tag = D32 #Indochina
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_indochina_required_states_burma
+                controls_state = 288 #Burma
+			}
+		}
+		visible = {
+            has_global_flag = rpg_indochina_flag
+			D32 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = BRM #Burma
+				original_tag = D32 #Indochina
+                has_global_flag = rpg_indochina_burma_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_indochina_coring_states_burma
+			custom_effect_tooltip = rpg_indochina_transfer_states_burma
+			hidden_effect = {
+				288 = { add_core_of = D32 } #Burma
+				D32 = {
+					transfer_state = 288 #Burma
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_indochina_burma_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_indochina_siam = {
+		allowed = {
+			NOT = {
+				original_tag = SIA #Siam
+				original_tag = D32 #Indochina
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_indochina_required_states_siam
+                controls_state = 289 #Siam
+			}
+		}
+		visible = {
+            has_global_flag = rpg_indochina_flag
+			D32 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = SIA #Siam
+				original_tag = D32 #Indochina
+                has_global_flag = rpg_indochina_siam_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_indochina_coring_states_siam
+			custom_effect_tooltip = rpg_indochina_transfer_states_siam
+			hidden_effect = {
+				289 = { add_core_of = D32 } #Siam
+				D32 = {
+					transfer_state = 289 #Siam
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_indochina_siam_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_indochina_singapore = {
+		allowed = {
+			NOT = {
+				original_tag = MAL #Malaysia
+				original_tag = D32 #Indochina
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_indochina_required_states_singapore
+                controls_state = 336 #Singapore
+			}
+		}
+		visible = {
+            has_global_flag = rpg_indochina_flag
+			D32 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = MAL #Malaysia
+				original_tag = D32 #Indochina
+                has_global_flag = rpg_indochina_singapore_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_indochina_coring_states_singapore
+			custom_effect_tooltip = rpg_indochina_transfer_states_singapore
+			hidden_effect = {
+				336 = { add_core_of = D32 } #Singapore
+				D32 = {
+					transfer_state = 336 #Singapore
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_indochina_singapore_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_indochina_mandalay = {
+		allowed = {
+			NOT = {
+				original_tag = BRM #Burma
+				original_tag = D32 #Indochina
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_indochina_required_states_mandalay
+                controls_state = 640 #Mandalay
+			}
+		}
+		visible = {
+            has_global_flag = rpg_indochina_flag
+			D32 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = BRM #Burma
+				original_tag = D32 #Indochina
+                has_global_flag = rpg_indochina_mandalay_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_indochina_coring_states_mandalay
+			custom_effect_tooltip = rpg_indochina_transfer_states_mandalay
+			hidden_effect = {
+				640 = { add_core_of = D32 } #Mandalay
+				D32 = {
+					transfer_state = 640 #Mandalay
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_indochina_mandalay_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_indochina_northern_malay = {
+		allowed = {
+			NOT = {
+				original_tag = SIA #Siam
+				original_tag = D32 #Indochina
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_indochina_required_states_northern_malay
+                controls_state = 724 #Northern Malay
+			}
+		}
+		visible = {
+            has_global_flag = rpg_indochina_flag
+			D32 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = SIA #Siam
+				original_tag = D32 #Indochina
+                has_global_flag = rpg_indochina_northern_malay_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_indochina_coring_states_northern_malay
+			custom_effect_tooltip = rpg_indochina_transfer_states_northern_malay
+			hidden_effect = {
+				724 = { add_core_of = D32 } #Northern Malay
+				D32 = {
+					transfer_state = 724 #Northern Malay
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_indochina_northern_malay_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}

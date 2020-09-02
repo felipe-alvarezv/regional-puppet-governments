@@ -1,0 +1,412 @@
+rpg_category_territories_germany = {
+	rpg_germany_luxemburg = {
+		allowed = {
+			NOT = {
+				original_tag = GER #Germany
+				original_tag = LUX #Luxemburg
+				original_tag = D23 #Germany
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_germany_required_states_luxemburg
+                controls_state = 8 #Luxemburg
+			}
+		}
+		visible = {
+			has_global_flag = rpg_germany_flag
+			D23 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+				original_tag = GER #Germany
+				original_tag = LUX #Luxemburg
+				original_tag = D23 #Germany
+				has_global_flag = rpg_germany_luxemburg_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_germany_coring_states_luxemburg
+			custom_effect_tooltip = rpg_germany_transfer_states_luxemburg
+			hidden_effect = {
+				8 = { add_core_of = D23 } #Luxemburg
+				D23 = {
+					transfer_state = 8 #Luxemburg
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_germany_luxemburg_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_germany_bohemia = {
+		allowed = {
+			NOT = {
+				original_tag = CZE #Czechoslovakia
+				original_tag = GER #Germany
+				original_tag = D23 #Germany
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_germany_required_states_bohemia
+                controls_state = 9 #Bohemia
+			}
+		}
+		visible = {
+			has_global_flag = rpg_germany_flag
+			D23 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+				original_tag = CZE #Czechoslovakia
+				original_tag = GER #Germany
+				original_tag = D23 #Germany
+				has_global_flag = rpg_germany_bohemia_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_germany_claiming_states_bohemia
+			custom_effect_tooltip = rpg_germany_transfer_states_bohemia
+			hidden_effect = {
+				9 = { add_claim_by = D23 } #Bohemia
+				D23 = {
+					transfer_state = 9 #Bohemia
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_germany_bohemia_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_germany_alsace_lorraine = {
+		allowed = {
+			NOT = {
+				original_tag = FRA #France
+				original_tag = GER #Germany
+				original_tag = D23 #Germany
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_germany_required_states_alsace_lorraine
+                controls_state = 28 #Alsace-Lorraine
+			}
+		}
+		visible = {
+			has_global_flag = rpg_germany_flag
+			D23 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+				original_tag = FRA #France
+				original_tag = GER #Germany
+				original_tag = D23 #Germany
+				has_global_flag = rpg_germany_alsace_lorraine_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_germany_coring_states_alsace_lorraine
+			custom_effect_tooltip = rpg_germany_transfer_states_alsace_lorraine
+			hidden_effect = {
+				28 = { add_core_of = D23 } #Alsace-Lorraine
+				D23 = {
+					transfer_state = 28 #Alsace-Lorraine
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_germany_alsace_lorraine_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_germany_south_tyrol= {
+		allowed = {
+			NOT = {
+				original_tag = AUS #Austria
+				original_tag = ITA #Italy
+				original_tag = D23 #Germany
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_germany_required_states_south_tyrol
+                controls_state = 39 #South Tyrol
+			}
+		}
+		visible = {
+            has_global_flag = rpg_germany_flag
+			D23 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = AUS #Austria
+				original_tag = ITA #Italy
+				original_tag = D23 #Germany
+				has_global_flag = rpg_south_germany_flag
+                has_global_flag = rpg_south_germany_south_tyrol_flag
+				has_global_flag = rpg_germany_south_tyrol_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_germany_coring_states_south_tyrol
+			custom_effect_tooltip = rpg_germany_transfer_states_south_tyrol
+			hidden_effect = {
+				39 = { add_core_of = D23 } #South Tyrol
+				D23 = {
+					transfer_state = 39 #South Tyrol
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_germany_south_tyrol_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_germany_sudetenland = {
+		allowed = {
+			NOT = {
+				original_tag = CZE #Czechoslovakia
+				original_tag = GER #Germany
+				original_tag = D23 #Germany
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_germany_required_states_sudetenland
+                controls_state = 69 #Sudetenland
+			}
+		}
+		visible = {
+			has_global_flag = rpg_germany_flag
+			D23 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+				original_tag = CZE #Czechoslovakia
+				original_tag = GER #Germany
+				original_tag = D23 #Germany
+				has_global_flag = rpg_germany_sudetenland_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_germany_coring_states_sudetenland
+			custom_effect_tooltip = rpg_germany_transfer_states_sudetenland
+			hidden_effect = {
+				69 = { add_core_of = D23 } #Sudetenland
+				D23 = {
+					transfer_state = 69 #Sudetenland
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_germany_sudetenland_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_germany_eastern_sudetenland = {
+		allowed = {
+			NOT = {
+				original_tag = CZE #Czechoslovakia
+				original_tag = GER #Germany
+				original_tag = D23 #Germany
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_germany_required_states_eastern_sudetenland
+                controls_state = 74 #Eastern Sudetenland
+			}
+		}
+		visible = {
+			has_global_flag = rpg_germany_flag
+			D23 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+				original_tag = CZE #Czechoslovakia
+				original_tag = GER #Germany
+				original_tag = D23 #Germany
+				has_global_flag = rpg_germany_eastern_sudetenland_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_germany_coring_states_eastern_sudetenland
+			custom_effect_tooltip = rpg_germany_transfer_states_eastern_sudetenland
+			hidden_effect = {
+				74 = { add_core_of = D23 } #Eastern Sudetenland
+				D23 = {
+					transfer_state = 74 #Eastern Sudetenland
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_germany_eastern_sudetenland_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_germany_moravia = {
+		allowed = {
+			NOT = {
+				original_tag = CZE #Czechoslovakia
+				original_tag = GER #Germany
+				original_tag = D23 #Germany
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_germany_required_states_moravia
+                controls_state = 75 #Moravia
+			}
+		}
+		visible = {
+			has_global_flag = rpg_germany_flag
+			D23 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+				original_tag = CZE #Czechoslovakia
+				original_tag = GER #Germany
+				original_tag = D23 #Germany
+				has_global_flag = rpg_germany_moravia_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_germany_claiming_states_moravia
+			custom_effect_tooltip = rpg_germany_transfer_states_moravia
+			hidden_effect = {
+				75 = { add_claim_by = D23 } #Moravia
+				D23 = {
+					transfer_state = 75 #Moravia
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_germany_moravia_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_germany_slovenia = {
+		allowed = {
+			NOT = {
+				original_tag = SLV #Slovenia
+				original_tag = D23 #Germany
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_germany_required_states_slovenia
+                controls_state = 102 #Slovenia
+			}
+		}
+		visible = {
+			has_global_flag = rpg_germany_flag
+			D23 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = {
+				original_tag = SLV #Slovenia
+				original_tag = D23 #Germany
+				has_global_flag = rpg_south_germany_flag
+                has_global_flag = rpg_south_germany_slovenia_flag
+				has_global_flag = rpg_germany_slovenia_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_germany_coring_states_slovenia
+			custom_effect_tooltip = rpg_germany_transfer_states_slovenia
+			hidden_effect = {
+				102 = { add_core_of = D23 } #Slovenia
+				D23 = {
+					transfer_state = 102 #Slovenia
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_germany_slovenia_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}

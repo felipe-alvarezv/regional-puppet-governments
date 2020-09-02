@@ -1,0 +1,611 @@
+rpg_category_territories_danube = {
+	rpg_danube_lower_austria = {
+		allowed = {
+			NOT = {
+				original_tag = AUS #Austria
+				original_tag = D22 #Danube
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_danube_required_states_lower_austria
+                controls_state = 4 #Lower Austria
+			}
+		}
+		visible = {
+            has_global_flag = rpg_danube_flag
+			D22 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = AUS #Austria
+				original_tag = D22 #Danube
+                has_global_flag = rpg_danube_lower_austria_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_danube_coring_states_lower_austria
+			custom_effect_tooltip = rpg_danube_transfer_states_lower_austria
+			hidden_effect = {
+				4 = { add_core_of = D22 } #Lower Austria
+				D22 = {
+					transfer_state = 4 #Lower Austria
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_danube_lower_austria_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_danube_south_tyrol = {
+		allowed = {
+			NOT = {
+				original_tag = AUS #Austria
+				original_tag = ITA #Italy
+				original_tag = D22 #Danube
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_danube_required_states_south_tyrol
+                controls_state = 39 #South Tyrol
+			}
+		}
+		visible = {
+            has_global_flag = rpg_danube_flag
+			D22 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = AUS #Austria
+				original_tag = ITA #Italy
+				original_tag = D22 #Danube
+                has_global_flag = rpg_danube_south_tyrol_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_danube_coring_states_south_tyrol
+			custom_effect_tooltip = rpg_danube_transfer_states_south_tyrol
+			hidden_effect = {
+				39 = { add_core_of = D22 } #South Tyrol
+				D22 = {
+					transfer_state = 39 #South Tyrol
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_danube_south_tyrol_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_danube_vojvodina = {
+		allowed = {
+			NOT = {
+				original_tag = SER #Serbia
+				original_tag = YUG #Yugoslavia
+				original_tag = D22 #Danube
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_danube_required_states_vojvodina
+                controls_state = 45 #Vojvodina
+			}
+		}
+		visible = {
+            has_global_flag = rpg_danube_flag
+			D22 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = SER #Serbia
+				original_tag = YUG #Yugoslavia
+				original_tag = D22 #Danube
+                has_global_flag = rpg_danube_vojvodina_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_danube_coring_states_vojvodina
+			custom_effect_tooltip = rpg_danube_transfer_states_vojvodina
+			hidden_effect = {
+				45 = { add_core_of = D22 } #Vojvodina
+				D22 = {
+					transfer_state = 45 #Vojvodina
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_danube_vojvodina_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_danube_western_slovakia = {
+		allowed = {
+			NOT = {
+				original_tag = CZE #Czechoslovakia
+				original_tag = SLO #Slovakia
+				original_tag = D22 #Danube
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_danube_required_states_western_slovakia
+                controls_state = 70 #Western Slovakia
+			}
+		}
+		visible = {
+            has_global_flag = rpg_danube_flag
+			D22 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = CZE #Czechoslovakia
+				original_tag = SLO #Slovakia
+				original_tag = D22 #Danube
+                has_global_flag = rpg_danube_western_slovakia_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_danube_coring_states_western_slovakia
+			custom_effect_tooltip = rpg_danube_transfer_states_western_slovakia
+			hidden_effect = {
+				70 = { add_core_of = D22 } #Western Slovakia
+				D22 = {
+					transfer_state = 70 #Western Slovakia
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_danube_western_slovakia_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_danube_eastern_slovakia = {
+		allowed = {
+			NOT = {
+				original_tag = CZE #Czechoslovakia
+				original_tag = SLO #Slovakia
+				original_tag = D22 #Danube
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_danube_required_states_eastern_slovakia
+                controls_state = 71 #Eastern Slovakia
+			}
+		}
+		visible = {
+            has_global_flag = rpg_danube_flag
+			D22 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = CZE #Czechoslovakia
+				original_tag = SLO #Slovakia
+				original_tag = D22 #Danube
+                has_global_flag = rpg_danube_eastern_slovakia_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_danube_coring_states_eastern_slovakia
+			custom_effect_tooltip = rpg_danube_transfer_states_eastern_slovakia
+			hidden_effect = {
+				71 = { add_core_of = D22 } #Eastern Slovakia
+				D22 = {
+					transfer_state = 71 #Eastern Slovakia
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_danube_eastern_slovakia_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_danube_carpathian_ruthenia = {
+		allowed = {
+			NOT = {
+				original_tag = CZE #Czechoslovakia
+				original_tag = HUN #Hungary
+				original_tag = D22 #Danube
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_danube_required_states_carpathian_ruthenia
+                controls_state = 73 #Carpathian Ruthenia
+			}
+		}
+		visible = {
+            has_global_flag = rpg_danube_flag
+			D22 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = CZE #Czechoslovakia
+				original_tag = HUN #Hungary
+				original_tag = D22 #Danube
+                has_global_flag = rpg_danube_carpathian_ruthenia_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_danube_coring_states_carpathian_ruthenia
+			custom_effect_tooltip = rpg_danube_transfer_states_carpathian_ruthenia
+			hidden_effect = {
+				73 = { add_core_of = D22 } #Carpathian Ruthenia
+				D22 = {
+					transfer_state = 73 #Carpathian Ruthenia
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_danube_carpathian_ruthenia_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+
+	}
+	rpg_danube_dalmatia = {
+		allowed = {
+			NOT = {
+				original_tag = CRO #Croatia
+				original_tag = YUG #Yugoslavia
+				original_tag = D22 #Danube
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_danube_required_states_dalmatia
+                controls_state = 103 #Dalmatia
+			}
+		}
+		visible = {
+            has_global_flag = rpg_danube_flag
+			D22 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = CRO #Croatia
+				original_tag = YUG #Yugoslavia
+				original_tag = D22 #Danube
+                has_global_flag = rpg_danube_dalmatia_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_danube_coring_states_dalmatia
+			custom_effect_tooltip = rpg_danube_transfer_states_dalmatia
+			hidden_effect = {
+				103 = { add_core_of = D22 } #Dalmatia
+				D22 = {
+					transfer_state = 103 #Dalmatia
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_danube_dalmatia_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_danube_croatia = {
+		allowed = {
+			NOT = {
+				original_tag = CRO #Croatia
+				original_tag = YUG #Yugoslavia
+				original_tag = D22 #Danube
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_danube_required_states_croatia
+                controls_state = 109 #Croatia
+			}
+		}
+		visible = {
+            has_global_flag = rpg_danube_flag
+			D22 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = CRO #Croatia
+				original_tag = YUG #Yugoslavia
+				original_tag = D22 #Danube
+                has_global_flag = rpg_danube_croatia_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_danube_coring_states_croatia
+			custom_effect_tooltip = rpg_danube_transfer_states_croatia
+			hidden_effect = {
+				109 = { add_core_of = D22 } #Croatia
+				D22 = {
+					transfer_state = 109 #Croatia
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_danube_croatia_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_danube_upper_austria = {
+		allowed = {
+			NOT = {
+				original_tag = AUS #Austria
+				original_tag = D22 #Danube
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_danube_required_states_upper_austria
+                controls_state = 152 #Upper Austria
+			}
+		}
+		visible = {
+            has_global_flag = rpg_danube_flag
+			D22 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = AUS #Austria
+				original_tag = D22 #Danube
+                has_global_flag = rpg_danube_upper_austria_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_danube_coring_states_upper_austria
+			custom_effect_tooltip = rpg_danube_transfer_states_upper_austria
+			hidden_effect = {
+				152 = { add_core_of = D22 } #Upper Austria
+				D22 = {
+					transfer_state = 152 #Upper Austria
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_danube_upper_austria_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_danube_tyrol = {
+		allowed = {
+			NOT = {
+				original_tag = AUS #Austria
+				original_tag = D22 #Danube
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_danube_required_states_tyrol
+                controls_state = 153 #Tyrol
+			}
+		}
+		visible = {
+            has_global_flag = rpg_danube_flag
+			D22 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = AUS #Austria
+				original_tag = D22 #Danube
+                has_global_flag = rpg_danube_tyrol_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_danube_coring_states_tyrol
+			custom_effect_tooltip = rpg_danube_transfer_states_tyrol
+			hidden_effect = {
+				153 = { add_core_of = D22 } #Tyrol
+				D22 = {
+					transfer_state = 153 #Tyrol
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_danube_tyrol_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_danube_southern_slovakia = {
+		allowed = {
+			NOT = {
+				original_tag = CZE #Czechoslovakia
+				original_tag = HUN #Hungary
+				original_tag = SLO #Slovakia
+				original_tag = D22 #Danube
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_danube_required_states_southern_slovakia
+                controls_state = 664 #Southern Slovakia
+			}
+		}
+		visible = {
+            has_global_flag = rpg_danube_flag
+			D22 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = CZE #Czechoslovakia
+				original_tag = HUN #Hungary
+				original_tag = SLO #Slovakia
+				original_tag = D22 #Danube
+                has_global_flag = rpg_danube_southern_slovakia_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_danube_coring_states_southern_slovakia
+			custom_effect_tooltip = rpg_danube_transfer_states_southern_slovakia
+			hidden_effect = {
+				664 = { add_core_of = D22 } #Southern Slovakia
+				D22 = {
+					transfer_state = 664 #Southern Slovakia
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_danube_southern_slovakia_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_danube_west_banat = {
+		allowed = {
+			NOT = {
+				original_tag = SER #Serbia
+				original_tag = YUG #Yugoslavia
+				original_tag = D22 #Danube
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_danube_required_states_west_banat
+                controls_state = 764 #West Banat
+			}
+		}
+		visible = {
+            has_global_flag = rpg_danube_flag
+			D22 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = SER #Serbia
+				original_tag = YUG #Yugoslavia
+				original_tag = D22 #Danube
+                has_global_flag = rpg_danube_west_banat_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_danube_coring_states_west_banat
+			custom_effect_tooltip = rpg_danube_transfer_states_west_banat
+			hidden_effect = {
+				764 = { add_core_of = D22 } #West Banat
+				D22 = {
+					transfer_state = 764 #West Banat
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_danube_west_banat_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}

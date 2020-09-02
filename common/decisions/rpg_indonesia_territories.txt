@@ -1,0 +1,98 @@
+rpg_category_territories_indonesia = {
+	rpg_indonesia_singapore = {
+		allowed = {
+			NOT = {
+				original_tag = MAL #Malaysia
+				original_tag = D33 #Greater Indonesia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_indonesia_required_states_singapore
+                controls_state = 336 #Singapore
+			}
+		}
+		visible = {
+            has_global_flag = rpg_indonesia_flag
+			D33 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = MAL #Malaysia
+				original_tag = D33 #Greater Indonesia
+                has_global_flag = rpg_indonesia_singapore_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_indonesia_coring_states_singapore
+			custom_effect_tooltip = rpg_indonesia_transfer_states_singapore
+			hidden_effect = {
+				336 = { add_core_of = D33 } #Singapore
+				D33 = {
+					transfer_state = 336 #Singapore
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_indonesia_singapore_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_indonesia_portuguese_timor = {
+		allowed = {
+			NOT = {
+				original_tag = D33 #Greater Indonesia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_indonesia_required_states_portuguese_timor
+                controls_state = 721 #Portuguese Timor
+			}
+		}
+		visible = {
+            has_global_flag = rpg_indonesia_flag
+			D33 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+				original_tag = D33 #Greater Indonesia
+                has_global_flag = rpg_indonesia_portuguese_timor_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_indonesia_coring_states_portuguese_timor
+			custom_effect_tooltip = rpg_indonesia_transfer_states_portuguese_timor
+			hidden_effect = {
+				721 = { add_core_of = D33 } #Portuguese Timor
+				D33 = {
+					transfer_state = 721 #Portuguese Timor
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_indonesia_portuguese_timor_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}

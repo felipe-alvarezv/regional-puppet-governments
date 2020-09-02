@@ -1,0 +1,690 @@
+rpg_category_territories_arabia = {
+	rpg_arabia_baghdad = {
+		allowed = {
+			NOT = {
+				original_tag = IRQ #Iraq
+				original_tag = D31 #Arabia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_arabia_required_states_baghdad
+                controls_state = 291 #Baghdad
+			}
+		}
+		visible = {
+            has_global_flag = rpg_arabia_flag
+			D31 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = IRQ #Iraq
+				original_tag = D31 #Arabia
+                has_global_flag = rpg_arabia_baghdad_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_arabia_coring_states_baghdad
+			custom_effect_tooltip = rpg_arabia_transfer_states_baghdad
+			hidden_effect = {
+				291 = { add_core_of = D31 } #Baghdad
+				D31 = {
+					transfer_state = 291 #Baghdad
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_arabia_baghdad_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_arabia_sinai = {
+		allowed = {
+			NOT = {
+				original_tag = EGY #Egypt
+				original_tag = D31 #Arabia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_arabia_required_states_sinai
+                controls_state = 453 #Sinai
+			}
+		}
+		visible = {
+            has_global_flag = rpg_arabia_flag
+			D31 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = EGY #Egypt
+				original_tag = D31 #Arabia
+                has_global_flag = rpg_arabia_sinai_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_arabia_coring_states_sinai
+			custom_effect_tooltip = rpg_arabia_transfer_states_sinai
+			hidden_effect = {
+				453 = { add_core_of = D31 } #Sinai
+				D31 = {
+					transfer_state = 453 #Sinai
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_arabia_sinai_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_arabia_palestine = {
+		allowed = {
+			NOT = {
+				original_tag = ISR #Israel
+				original_tag = PAL #Palestine
+				original_tag = D31 #Arabia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_arabia_required_states_palestine
+                controls_state = 454 #Palestine
+			}
+		}
+		visible = {
+            has_global_flag = rpg_arabia_flag
+			D31 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = ISR #Israel
+				original_tag = PAL #Palestine
+				original_tag = D31 #Arabia
+                has_global_flag = rpg_arabia_palestine_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_arabia_coring_states_palestine
+			custom_effect_tooltip = rpg_arabia_transfer_states_palestine
+			hidden_effect = {
+				454 = { add_core_of = D31 } #Palestine
+				D31 = {
+					transfer_state = 454 #Palestine
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_arabia_palestine_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_arabia_jordan = {
+		allowed = {
+			NOT = {
+				original_tag = JOR #Jordan
+				original_tag = D31 #Arabia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_arabia_required_states_jordan
+                controls_state = 455 #Jordan
+			}
+		}
+		visible = {
+            has_global_flag = rpg_arabia_flag
+			D31 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = JOR #Jordan
+				original_tag = D31 #Arabia
+                has_global_flag = rpg_arabia_jordan_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_arabia_coring_states_jordan
+			custom_effect_tooltip = rpg_arabia_transfer_states_jordan
+			hidden_effect = {
+				455 = { add_core_of = D31 } #Jordan
+				D31 = {
+					transfer_state = 455 #Jordan
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_arabia_jordan_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_arabia_damascus = {
+		allowed = {
+			NOT = {
+				original_tag = SYR #Syria
+				original_tag = D31 #Arabia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_arabia_required_states_damascus
+                controls_state = 554 #Damascus
+			}
+		}
+		visible = {
+            has_global_flag = rpg_arabia_flag
+			D31 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = SYR #Syria
+				original_tag = D31 #Arabia
+                has_global_flag = rpg_arabia_damascus_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_arabia_coring_states_damascus
+			custom_effect_tooltip = rpg_arabia_transfer_states_damascus
+			hidden_effect = {
+				554 = { add_core_of = D31 } #Damascus
+				D31 = {
+					transfer_state = 554 #Damascus
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_arabia_damascus_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_arabia_lebanon = {
+		allowed = {
+			NOT = {
+				original_tag = LEB #Lebanon
+				original_tag = D31 #Arabia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_arabia_required_states_lebanon
+                controls_state = 553 #Lebanon
+			}
+		}
+		visible = {
+            has_global_flag = rpg_arabia_flag
+			D31 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = LEB #Lebanon
+				original_tag = D31 #Arabia
+                has_global_flag = rpg_arabia_lebanon_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_arabia_coring_states_lebanon
+			custom_effect_tooltip = rpg_arabia_transfer_states_lebanon
+			hidden_effect = {
+				553 = { add_core_of = D31 } #Lebanon
+				D31 = {
+					transfer_state = 553 #Lebanon
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_arabia_lebanon_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_arabia_kuwait = {
+		allowed = {
+			NOT = {
+				original_tag = kuw #Kuwait
+				original_tag = D31 #Arabia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_arabia_required_states_kuwait
+                controls_state = 656 #Kuwait
+			}
+		}
+		visible = {
+            has_global_flag = rpg_arabia_flag
+			D31 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = KUW #Kuwait
+				original_tag = D31 #Arabia
+                has_global_flag = rpg_arabia_kuwait_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_arabia_coring_states_kuwait
+			custom_effect_tooltip = rpg_arabia_transfer_states_kuwait
+			hidden_effect = {
+				656 = { add_core_of = D31 } #Kuwait
+				D31 = {
+					transfer_state = 656 #Kuwait
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_arabia_kuwait_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_arabia_abu_dhabi = {
+		allowed = {
+			NOT = {
+				original_tag = UAE #United Arab Emirates
+				original_tag = D31 #Arabia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_arabia_required_states_abu_dhabi
+                controls_state = 658 #Abu Dhabi
+			}
+		}
+		visible = {
+            has_global_flag = rpg_arabia_flag
+			D31 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = UAE #United Arab Emirates
+				original_tag = D31 #Arabia
+                has_global_flag = rpg_arabia_abu_dhabi_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_arabia_coring_states_abu_dhabi
+			custom_effect_tooltip = rpg_arabia_transfer_states_abu_dhabi
+			hidden_effect = {
+				658 = { add_core_of = D31 } #Abu Dhabi
+				D31 = {
+					transfer_state = 658 #Abu Dhabi
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_arabia_abu_dhabi_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_arabia_aden = {
+		allowed = {
+			NOT = {
+				original_tag = YEM #Yemen
+				original_tag = D31 #Arabia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_arabia_required_states_aden
+                controls_state = 659 #Aden
+			}
+		}
+		visible = {
+            has_global_flag = rpg_arabia_flag
+			D31 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = YEM #Yemen
+				original_tag = D31 #Arabia
+                has_global_flag = rpg_arabia_aden_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_arabia_coring_states_aden
+			custom_effect_tooltip = rpg_arabia_transfer_states_aden
+			hidden_effect = {
+				659 = { add_core_of = D31 } #Aden
+				D31 = {
+					transfer_state = 659 #Aden
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_arabia_aden_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_arabia_al_hajara = {
+		allowed = {
+			NOT = {
+				original_tag = IRQ #Iraq
+				original_tag = D31 #Arabia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_arabia_required_states_al_hajara
+                controls_state = 675 #Al Hajara
+			}
+		}
+		visible = {
+            has_global_flag = rpg_arabia_flag
+			D31 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = IRQ #Iraq
+				original_tag = D31 #Arabia
+                has_global_flag = rpg_arabia_al_hajara_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_arabia_coring_states_al_hajara
+			custom_effect_tooltip = rpg_arabia_transfer_states_al_hajara
+			hidden_effect = {
+				675 = { add_core_of = D31 } #Al Hajara
+				D31 = {
+					transfer_state = 675 #Al Hajara
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_arabia_al_hajara_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_arabia_mosul = {
+		allowed = {
+			NOT = {
+				original_tag = IRQ #Iraq
+				original_tag = D31 #Arabia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_arabia_required_states_mosul
+                controls_state = 676 #Mosul
+			}
+		}
+		visible = {
+            has_global_flag = rpg_arabia_flag
+			D31 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = IRQ #Iraq
+				original_tag = D31 #Arabia
+                has_global_flag = rpg_arabia_mosul_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_arabia_coring_states_mosul
+			custom_effect_tooltip = rpg_arabia_transfer_states_mosul
+			hidden_effect = {
+				676 = { add_core_of = D31 } #Mosul
+				D31 = {
+					transfer_state = 676 #Mosul
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_arabia_mosul_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_arabia_aleppo = {
+		allowed = {
+			NOT = {
+				original_tag = SYR #Syria
+				original_tag = D31 #Arabia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_arabia_required_states_aleppo
+                controls_state = 677 #Aleppo
+			}
+		}
+		visible = {
+            has_global_flag = rpg_arabia_flag
+			D31 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = SYR #Syria
+				original_tag = D31 #Arabia
+                has_global_flag = rpg_arabia_aleppo_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_arabia_coring_states_aleppo
+			custom_effect_tooltip = rpg_arabia_transfer_states_aleppo
+			hidden_effect = {
+				677 = { add_core_of = D31 } #Aleppo
+				D31 = {
+					transfer_state = 677 #Aleppo
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_arabia_aleppo_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_arabia_deir_az_zur = {
+		allowed = {
+			NOT = {
+				original_tag = SYR #Syria
+				original_tag = D31 #Arabia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_arabia_required_states_deir_az_zur
+                controls_state = 680 #Deir-Az-Zur
+			}
+		}
+		visible = {
+            has_global_flag = rpg_arabia_flag
+			D31 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = SYR #Syria
+				original_tag = D31 #Arabia
+                has_global_flag = rpg_arabia_deir_az_zur_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_arabia_coring_states_deir_az_zur
+			custom_effect_tooltip = rpg_arabia_transfer_states_deir_az_zur
+			hidden_effect = {
+				680 = { add_core_of = D31 } #Deir-Az-Zur
+				D31 = {
+					transfer_state = 680 #Deir-Az-Zur
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_arabia_deir_az_zur_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_arabia_qatar = {
+		allowed = {
+			NOT = {
+				original_tag = QAT #Qatar
+				original_tag = D31 #Arabia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_arabia_required_states_qatar
+                controls_state = 765 #Qatar
+			}
+		}
+		visible = {
+            has_global_flag = rpg_arabia_flag
+			D31 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = QAT #Qatar
+				original_tag = D31 #Arabia
+                has_global_flag = rpg_arabia_qatar_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_arabia_coring_states_qatar
+			custom_effect_tooltip = rpg_arabia_transfer_states_qatar
+			hidden_effect = {
+				765 = { add_core_of = D31 } #Qatar
+				D31 = {
+					transfer_state = 765 #Qatar
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_arabia_qatar_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}

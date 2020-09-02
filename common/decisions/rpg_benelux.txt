@@ -1,0 +1,92 @@
+rpg_category = {
+	rpg_benelux = {
+		allowed = {
+			NOT = {
+				original_tag = BEL #Belgium
+				original_tag = HOL #Holland
+				original_tag = LUX #Luxemburg
+				original_tag = D25 #Benelux
+			}
+		}
+		available = {
+			is_subject = no
+			#Vlaanderen
+			custom_trigger_tooltip = {
+				tooltip = rpg_benelux_required_states_vlaanderen
+				controls_state = 6 #Vlaanderen
+			}
+			#Holland
+			custom_trigger_tooltip = {
+				tooltip = rpg_benelux_required_states_holland
+				controls_state = 7 #Holland
+			}
+			#Wallonie
+			custom_trigger_tooltip = {
+				tooltip = rpg_benelux_required_states_wallonie
+				controls_state = 34 #Wallonie
+			}
+			#Brabant
+			custom_trigger_tooltip = {
+				tooltip = rpg_benelux_required_states_brabant
+				controls_state = 35 #Brabant
+			}
+			#Friesland
+			custom_trigger_tooltip = {
+				tooltip = rpg_benelux_required_states_friesland
+				controls_state = 36 #Friesland
+			}
+		}
+		visible = {
+			OR = {
+				controls_state = 6 #Vlaanderen
+                controls_state = 7 #Holland
+			}
+			NOT = { 
+                original_tag = BEL #Belgium
+				original_tag = HOL #Holland
+				original_tag = LUX #Luxemburg
+				original_tag = D25 #Benelux
+                has_global_flag = rpg_benelux_flag
+            }
+		}
+		complete_effect = {
+			hidden_effect = {
+				D25 = {
+					transfer_state = 6 #Vlaanderen
+					transfer_state = 7 #Holland
+					transfer_state = 34 #Wallonie
+					transfer_state = 35 #Brabant
+					transfer_state = 36 #Friesland
+				}
+			}
+			custom_effect_tooltip = rpg_benelux_coring_states
+			custom_effect_tooltip = rpg_benelux_transfer_states
+			#Core All Owned States and Puppet
+			custom_effect_tooltip = rpg_benelux_puppet
+			hidden_effect = {
+				every_state = {
+					limit = {
+						is_owned_by = D25
+					}
+					add_core_of = D25
+				}
+				puppet = D25
+			}
+			#News event, set local flag, and set global flag
+			hidden_effect = {
+				ROOT = {
+					set_country_flag = rpg_benelux_country_flag
+				}
+				news_event = { id = rpg_news.05 hours = 6 }
+				set_global_flag = rpg_benelux_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}

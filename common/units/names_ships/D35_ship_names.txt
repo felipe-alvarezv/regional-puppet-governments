@@ -1,0 +1,63 @@
+﻿D35_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+	for_countries = { D35 }
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+	prefix = ""
+	fallback_name = "Destroyer %d"		
+	unique = { }
+}
+D35_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+	for_countries = { D35 }
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	prefix = ""
+	fallback_name = "Light Cruiser %d"
+	unique = { }
+}
+D35_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+	for_countries = { D35 }
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	prefix = ""
+	fallback_name = "Heavy Cruiser %d"
+	unique = { }
+}
+D35_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+	for_countries = { D35 }
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	prefix = ""
+	fallback_name = "Battleship %d"		
+	unique = { }
+}
+D35_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+	for_countries = { D35 }
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	prefix = ""
+	fallback_name = "Battle Cruiser %d"		
+	unique = { }
+}
+D35_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+	for_countries = { D35 }
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	prefix = ""
+	fallback_name = "Carrier %d"	
+	unique = { }
+}
+D35_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+	for_countries = { D35 }
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	prefix = ""
+	fallback_name = "Submarine %d"
+	unique = { }
+}

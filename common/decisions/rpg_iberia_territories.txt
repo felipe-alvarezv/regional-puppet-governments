@@ -1,0 +1,247 @@
+rpg_category_territories_iberia = {
+	rpg_iberia_gibraltar = {
+		allowed = {
+			NOT = {
+				original_tag = SPR #Spain
+				original_tag = D24 #Iberia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_iberia_required_states_gibraltar
+                controls_state = 118 #Gibraltar
+			}
+		}
+		visible = {
+            has_global_flag = rpg_iberia_flag
+            D24 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+				original_tag = SPR #Spain
+				original_tag = D24 #Iberia
+                has_global_flag = rpg_iberia_gibraltar_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_iberia_coring_states_gibraltar
+			custom_effect_tooltip = rpg_iberia_transfer_states_gibraltar
+			hidden_effect = {
+				118 = { add_core_of = D24 } #Gibraltar
+				D24 = {
+					transfer_state = 118 #Gibraltar
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_iberia_gibraltar_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_iberia_islas_baleares = {
+		allowed = {
+			NOT = {
+				original_tag = SPR #Spain
+				original_tag = D24 #Iberia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_iberia_required_states_islas_baleares
+                controls_state = 177 #Islas Baleares
+			}
+		}
+		visible = {
+            has_global_flag = rpg_iberia_flag
+            D24 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+				original_tag = SPR #Spain
+				original_tag = D24 #Iberia
+                has_global_flag = rpg_iberia_islas_baleares_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_iberia_coring_states_islas_baleares
+			custom_effect_tooltip = rpg_iberia_transfer_states_islas_baleares
+			hidden_effect = {
+				177 = { add_core_of = D24 } #Islas Baleares
+				D24 = {
+					transfer_state = 177 #Islas Baleares
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_iberia_islas_baleares_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_iberia_islas_canarias = {
+		allowed = {
+			NOT = {
+				original_tag = SPR #Spain
+				original_tag = D24 #Iberia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_iberia_required_states_islas_canarias
+                controls_state = 178 #Islas Canarias
+			}
+		}
+		visible = {
+            has_global_flag = rpg_iberia_flag
+            D24 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+				original_tag = SPR #Spain
+				original_tag = D24 #Iberia
+                has_global_flag = rpg_iberia_islas_canarias_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_iberia_coring_states_islas_canarias
+			custom_effect_tooltip = rpg_iberia_transfer_states_islas_canarias
+			hidden_effect = {
+				178 = { add_core_of = D24 } #Islas Canarias
+				D24 = {
+					transfer_state = 178 #Islas Canarias
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_iberia_islas_canarias_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_iberia_madeira = {
+		allowed = {
+			NOT = {
+				original_tag = POR #Portugal
+				original_tag = D24 #Iberia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_iberia_required_states_madeira
+                controls_state = 697 #Madeira
+			}
+		}
+		visible = {
+            has_global_flag = rpg_iberia_flag
+            D24 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+				original_tag = POR #Portugal
+				original_tag = D24 #Iberia
+                has_global_flag = rpg_iberia_madeira_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_iberia_coring_states_madeira
+			custom_effect_tooltip = rpg_iberia_transfer_states_madeira
+			hidden_effect = {
+				697 = { add_core_of = D24 } #Madeira
+				D24 = {
+					transfer_state = 697 #Madeira
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_iberia_madeira_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_iberia_azores = {
+		allowed = {
+			NOT = {
+				original_tag = POR #Portugal
+				original_tag = D24 #Iberia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_iberia_required_states_azores
+                controls_state = 698 #Azores
+			}
+		}
+		visible = {
+            has_global_flag = rpg_iberia_flag
+            D24 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+				original_tag = POR #Portugal
+				original_tag = D24 #Iberia
+                has_global_flag = rpg_iberia_azores_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_iberia_coring_states_azores
+			custom_effect_tooltip = rpg_iberia_transfer_states_azores
+			hidden_effect = {
+				698 = { add_core_of = D24 } #Azores
+				D24 = {
+					transfer_state = 698 #Azores
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_iberia_azores_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}

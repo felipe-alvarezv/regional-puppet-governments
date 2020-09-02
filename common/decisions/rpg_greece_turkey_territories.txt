@@ -1,0 +1,200 @@
+rpg_category_territories_greece_turkey = {
+	rpg_greece_turkey_dodecanese = {
+		allowed = {
+			NOT = {
+				original_tag = GRE #Greece
+				original_tag = D30 #Greece-Turkey
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_greece_turkey_required_states_dodecanese
+                controls_state = 164 #Dodecanese
+			}
+		}
+		visible = {
+            has_global_flag = rpg_greece_turkey_flag
+			D30 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = GRE #Greece
+				original_tag = D30 #Greece-Turkey
+                has_global_flag = rpg_greece_turkey_dodecanese_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_greece_turkey_coring_states_dodecanese
+			custom_effect_tooltip = rpg_greece_turkey_transfer_states_dodecanese
+			hidden_effect = {
+				164 = { add_core_of = D30 } #Dodecanese
+				D30 = {
+					transfer_state = 164 #Dodecanese
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_greece_turkey_dodecanese_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_greece_turkey_crete = {
+		allowed = {
+			NOT = {
+				original_tag = GRE #Greece
+				original_tag = D30 #Greece-Turkey
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_greece_turkey_required_states_crete
+                controls_state = 182 #Crete
+			}
+		}
+		visible = {
+            has_global_flag = rpg_greece_turkey_flag
+			D30 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = GRE #Greece
+				original_tag = D30 #Greece-Turkey
+                has_global_flag = rpg_greece_turkey_crete_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_greece_turkey_coring_states_crete
+			custom_effect_tooltip = rpg_greece_turkey_transfer_states_crete
+			hidden_effect = {
+				182 = { add_core_of = D30 } #Crete
+				D30 = {
+					transfer_state = 182 #Crete
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_greece_turkey_crete_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_greece_turkey_cyprus = {
+		allowed = {
+			NOT = {
+				original_tag = CYP #Cyprus
+				original_tag = GRE #Greece
+				original_tag = D30 #Greece-Turkey
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_greece_turkey_required_states_cyprus
+                controls_state = 183 #Cyprus
+			}
+		}
+		visible = {
+            has_global_flag = rpg_greece_turkey_flag
+			D30 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+				original_tag = CYP #Cyprus
+                original_tag = GRE #Greece
+				original_tag = D30 #Greece-Turkey
+                has_global_flag = rpg_greece_turkey_cyprus_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_greece_turkey_coring_states_cyprus
+			custom_effect_tooltip = rpg_greece_turkey_transfer_states_cyprus
+			hidden_effect = {
+				183 = { add_core_of = D30 } #Cyprus
+				D30 = {
+					transfer_state = 183 #Cyprus
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_greece_turkey_cyprus_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_greece_turkey_aegean_islands = {
+		allowed = {
+			NOT = {
+				original_tag = GRE #Greece
+				original_tag = D30 #Greece-Turkey
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_greece_turkey_required_states_aegean_islands
+                controls_state = 187 #Aegean Islands
+			}
+		}
+		visible = {
+            has_global_flag = rpg_greece_turkey_flag
+			D30 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = GRE #Greece
+				original_tag = D30 #Greece-Turkey
+                has_global_flag = rpg_greece_turkey_aegean_islands_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_greece_turkey_coring_states_aegean_islands
+			custom_effect_tooltip = rpg_greece_turkey_transfer_states_aegean_islands
+			hidden_effect = {
+				187 = { add_core_of = D30 } #Aegean Islands
+				D30 = {
+					transfer_state = 187 #Aegean Islands
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_greece_turkey_aegean_islands_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}

@@ -1,0 +1,221 @@
+rpg_category = {
+	rpg_iberia = {
+		allowed = {
+			NOT = {
+				original_tag = ADU #Andalusia
+				original_tag = CAT #Catalonia
+				original_tag = GLC #Galicia
+				original_tag = NAV #Navarre
+				original_tag = POR #Portugal
+				original_tag = SPR #Spain
+				original_tag = D24 #Iberia
+			}
+		}
+		available = {
+			is_subject = no
+			#Madrid
+			custom_trigger_tooltip = {
+				tooltip = rpg_iberia_required_states_madrid
+				controls_state = 41 #Madrid
+			}
+			#Lisbon
+			custom_trigger_tooltip = {
+				tooltip = rpg_iberia_required_states_lisbon
+				controls_state = 112 #Lisbon
+			}
+			#Cataluna
+			custom_trigger_tooltip = {
+				tooltip = rpg_iberia_required_states_cataluna
+				controls_state = 165 #Cataluna
+			}
+			#Western Aragon
+			custom_trigger_tooltip = {
+				tooltip = rpg_iberia_required_states_western_aragon
+				controls_state = 166 #Western Aragon
+			}
+			#Valencia
+			custom_trigger_tooltip = {
+				tooltip = rpg_iberia_required_states_valencia
+				controls_state = 167 #Valencia
+			}
+			#Murcia
+			custom_trigger_tooltip = {
+				tooltip = rpg_iberia_required_states_murcia
+				controls_state = 168 #Murcia
+			}
+			#Sevilla
+			custom_trigger_tooltip = {
+				tooltip = rpg_iberia_required_states_sevilla
+				controls_state = 169 #Sevilla
+			}
+			#Extremadura
+			custom_trigger_tooltip = {
+				tooltip = rpg_iberia_required_states_extremadura
+				controls_state = 170 #Extremadura
+			}
+			#Galicia
+			custom_trigger_tooltip = {
+				tooltip = rpg_iberia_required_states_galicia
+				controls_state = 171 #Galicia
+			}
+			#Navarra
+			custom_trigger_tooltip = {
+				tooltip = rpg_iberia_required_states_navarra
+				controls_state = 172 #Navarra
+			}
+			#Granada
+			custom_trigger_tooltip = {
+				tooltip = rpg_iberia_required_states_granada
+				controls_state = 173 #Granada
+			}
+			#Leon
+			custom_trigger_tooltip = {
+				tooltip = rpg_iberia_required_states_leon
+				controls_state = 174 #Leon
+			}
+			#Ciudad Real
+			custom_trigger_tooltip = {
+				tooltip = rpg_iberia_required_states_ciudad_real
+				controls_state = 175 #Ciudad Real
+			}
+			#Burgos
+			custom_trigger_tooltip = {
+				tooltip = rpg_iberia_required_states_burgos
+				controls_state = 176 #Burgos
+			}
+			#Beja
+			custom_trigger_tooltip = {
+				tooltip = rpg_iberia_required_states_beja
+				controls_state = 179 #Beja
+			}
+			#Porto
+			custom_trigger_tooltip = {
+				tooltip = rpg_iberia_required_states_porto
+				controls_state = 180 #Porto
+			}
+			#Guarda
+			custom_trigger_tooltip = {
+				tooltip = rpg_iberia_required_states_guarda
+				controls_state = 181 #Guarda
+			}
+			#Salamanca
+			custom_trigger_tooltip = {
+				tooltip = rpg_iberia_required_states_salamanca
+				controls_state = 788 #Salamanca
+			}
+			#Cordoba
+			custom_trigger_tooltip = {
+				tooltip = rpg_iberia_required_states_cordoba
+				controls_state = 789 #Cordoba
+			}
+			#Asturias
+			custom_trigger_tooltip = {
+				tooltip = rpg_iberia_required_states_asturias
+				controls_state = 790 #Asturias
+			}
+			#Valladolid
+			custom_trigger_tooltip = {
+				tooltip = rpg_iberia_required_states_valladolid
+				controls_state = 791 #Valladolid
+			}
+			#Pais Vasco
+			custom_trigger_tooltip = {
+				tooltip = rpg_iberia_required_states_pais_vasco
+				controls_state = 792 #Pais Vasco
+			}
+			#Guadalajara
+			custom_trigger_tooltip = {
+				tooltip = rpg_iberia_required_states_guadalajara
+				controls_state = 793 #Guadalajara
+			}
+			#Eastern Aragon
+			custom_trigger_tooltip = {
+				tooltip = rpg_iberia_required_states_eastern_aragon
+				controls_state = 794 #Eastern Aragon
+			}
+			#Santarem
+			custom_trigger_tooltip = {
+				tooltip = rpg_iberia_required_states_santarem
+				controls_state = 795 #Santarem
+			}
+		}
+		visible = {
+			OR = {
+				controls_state = 41 #Madrid
+                controls_state = 112 #Lisbon
+				controls_state = 165 #Cataluna
+				controls_state = 171 #Galicia
+				controls_state = 792 #Pais Vasco
+			}
+			NOT = { 
+                original_tag = ADU #Andalusia
+				original_tag = CAT #Catalonia
+				original_tag = GLC #Galicia
+				original_tag = NAV #Navarre
+				original_tag = POR #Portugal
+				original_tag = SPR #Spain
+				original_tag = D24 #Iberia
+                has_global_flag = rpg_iberia_flag
+            }
+		}
+		complete_effect = {
+			hidden_effect = {
+				D24 = {
+					transfer_state = 41 #Madrid
+					transfer_state = 112 #Lisbon
+					transfer_state = 165 #Cataluna
+					transfer_state = 166 #Western Aragon
+					transfer_state = 167 #Valencia
+					transfer_state = 168 #Murcia
+					transfer_state = 169 #Sevilla
+					transfer_state = 170 #Extremadura
+					transfer_state = 171 #Galicia
+					transfer_state = 172 #Navarra
+					transfer_state = 173 #Granada
+					transfer_state = 174 #Leon
+					transfer_state = 175 #Ciudad Real
+					transfer_state = 176 #Burgos
+					transfer_state = 179 #Beja
+					transfer_state = 180 #Porto
+					transfer_state = 181 #Guarda
+					transfer_state = 788 #Salamanca
+					transfer_state = 789 #Cordoba
+					transfer_state = 790 #Asturias
+					transfer_state = 791 #Valladolid
+					transfer_state = 792 #Pais Vasco
+					transfer_state = 793 #Guadalajara
+					transfer_state = 794 #Eastern Aragon
+					transfer_state = 795 #Santarem
+				}
+			}
+			custom_effect_tooltip = rpg_iberia_coring_states
+			custom_effect_tooltip = rpg_iberia_transfer_states
+			#Core All Owned States and Puppet
+			custom_effect_tooltip = rpg_iberia_puppet
+			hidden_effect = {
+				every_state = {
+					limit = {
+						is_owned_by = D24
+					}
+					add_core_of = D24
+				}
+				puppet = D24
+			}
+			#News event, set local flag, and set global flag
+			hidden_effect = {
+				ROOT = {
+					set_country_flag = rpg_iberia_country_flag
+				}
+				news_event = { id = rpg_news.04 hours = 6 }
+				set_global_flag = rpg_iberia_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}

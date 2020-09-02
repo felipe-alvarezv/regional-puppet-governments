@@ -1,0 +1,93 @@
+rpg_category = {
+	rpg_arabia = {
+		allowed = {
+			NOT = {
+				original_tag = OMA #Oman
+				original_tag = SAU #Saudi Arabia
+				original_tag = YEM #Yemen
+				original_tag = D31 #Arabia
+			}
+		}
+		available = {
+			is_subject = no
+			#Nejd
+			custom_trigger_tooltip = {
+				tooltip = rpg_arabia_required_states_nejd
+				controls_state = 292 #Nejd
+			}
+			#Yemen
+			custom_trigger_tooltip = {
+				tooltip = rpg_arabia_required_states_yemen
+				controls_state = 293 #Yemen
+			}
+			#Oman
+			custom_trigger_tooltip = {
+				tooltip = rpg_arabia_required_states_oman
+				controls_state =  294 #Oman
+			}
+			#Rub Al Khali
+			custom_trigger_tooltip = {
+				tooltip = rpg_arabia_required_states_rub_al_khali
+				controls_state = 678 #Rub Al Khali
+			}
+			#Hejaz
+			custom_trigger_tooltip = {
+				tooltip = rpg_arabia_required_states_hejaz
+				controls_state = 679 #Hejaz
+			}
+		}
+		visible = {
+			OR = {
+				controls_state = 292 #Nejd
+                controls_state = 293 #Yemen
+				controls_state = 294 #Oman
+			}
+			NOT = { 
+                original_tag = OMA #Oman
+				original_tag = SAU #Saudi Arabia
+				original_tag = YEM #Yemen
+				original_tag = D31 #Arabia
+                has_global_flag = rpg_arabia_flag
+            }
+		}
+		complete_effect = {
+			hidden_effect = {
+				D31 = {
+					transfer_state = 292 #Nejd
+					transfer_state = 293 #Yemen
+					transfer_state = 294 #Oman
+					transfer_state = 678 #Rub Al Khali
+					transfer_state = 679 #Hejaz
+				}
+			}
+			custom_effect_tooltip = rpg_arabia_coring_states
+			custom_effect_tooltip = rpg_arabia_transfer_states
+			#Core All Owned States and Puppet
+			custom_effect_tooltip = rpg_arabia_puppet
+			hidden_effect = {
+				every_state = {
+					limit = {
+						is_owned_by = D31
+					}
+					add_core_of = D31
+				}
+				puppet = D31
+			}
+			#News event, set local flag, and set global flag
+			hidden_effect = {
+				ROOT = {
+					set_country_flag = rpg_arabia_country_flag
+				}
+				news_event = { id = rpg_news.11 hours = 6 }
+				set_global_flag = rpg_arabia_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}

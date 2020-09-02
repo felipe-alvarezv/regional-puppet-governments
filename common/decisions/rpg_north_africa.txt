@@ -1,0 +1,154 @@
+rpg_category = {
+	rpg_north_africa = {
+		allowed = {
+			NOT = {
+				original_tag = ALG #Algeria
+				original_tag = EGY #Egypt
+				original_tag = LBA #Libya
+				original_tag = MOR #Morocco
+				original_tag = MRT #Mauritania
+				original_tag = TUN #Tunisia
+				original_tag = WES #Sahrawi
+				original_tag = D26 #North Africa
+			}
+		}
+		available = {
+			is_subject = no
+			#Libyan Desert
+			custom_trigger_tooltip = {
+				tooltip = rpg_north_africa_required_states_libyan_desert
+				controls_state = 273 #Libyan Desert
+			}
+			#Cairo
+			custom_trigger_tooltip = {
+				tooltip = rpg_north_africa_required_states_cairo
+				controls_state = 446 #Cairo
+			}
+			#Alexandria
+			custom_trigger_tooltip = {
+				tooltip = rpg_north_africa_required_states_alexandria
+				controls_state = 447 #Alexandria
+			}
+			#Tripoli
+			custom_trigger_tooltip = {
+				tooltip = rpg_north_africa_required_states_tripoli
+				controls_state = 448 #Tripoli
+			}
+			#El Agheila
+			custom_trigger_tooltip = {
+				tooltip = rpg_north_africa_required_states_el_agheila
+				controls_state = 449 #El Agheila
+			}
+			#Benghasi
+			custom_trigger_tooltip = {
+				tooltip = rpg_north_africa_required_states_benghasi
+				controls_state = 450 #Benghasi
+			}
+			#Derna
+			custom_trigger_tooltip = {
+				tooltip = rpg_north_africa_required_states_derna
+				controls_state = 451 #Derna
+			}
+			#Marsa Matruh
+			custom_trigger_tooltip = {
+				tooltip = rpg_north_africa_required_states_marsa_matruh
+				controls_state = 452 #Marsa Matruh
+			}
+			#Aswan
+			custom_trigger_tooltip = {
+				tooltip = rpg_north_africa_required_states_aswan
+				controls_state = 456 #Aswan
+			}
+			#Eastern Desert
+			custom_trigger_tooltip = {
+				tooltip = rpg_north_africa_required_states_eastern_desert
+				controls_state = 457 #Eastern Desert
+			}
+			#Western Desert
+			custom_trigger_tooltip = {
+				tooltip = rpg_north_africa_required_states_western_desert
+				controls_state = 552 #Western Desert
+			}
+			#Tripolitania
+			custom_trigger_tooltip = {
+				tooltip = rpg_north_africa_required_states_tripolitania
+				controls_state = 661 #Tripolitania
+			}
+			#Sirte
+			custom_trigger_tooltip = {
+				tooltip = rpg_north_africa_required_states_sirte
+				controls_state = 662 #Sirte
+			}
+			#Cyrenaica
+			custom_trigger_tooltip = {
+				tooltip = rpg_north_africa_required_states_cyrenaica
+				controls_state = 663 #Cyrenaica
+			}
+		}
+		visible = {
+			OR = {
+				controls_state = 446 #Cairo
+                controls_state = 448 #Tripoli
+			}
+			NOT = { 
+				original_tag = ALG #Algeria
+				original_tag = EGY #Egypt
+				original_tag = LBA #Libya
+				original_tag = MOR #Morocco
+				original_tag = MRT #Mauritania
+				original_tag = TUN #Tunisia
+				original_tag = WES #Sahrawi
+				original_tag = D26 #North Africa
+                has_global_flag = rpg_north_africa_flag
+            }
+		}
+		complete_effect = {
+			hidden_effect = {
+				D26 = {
+					transfer_state = 273 #Lybian Desert
+					transfer_state = 446 #Cairo
+					transfer_state = 447 #Alexandria
+					transfer_state = 448 #Tripoli
+					transfer_state = 449 #El Agheila
+					transfer_state = 450 #Benghasi
+					transfer_state = 451 #Derna
+					transfer_state = 452 #Marsa Matruh
+					transfer_state = 456 #Aswan
+					transfer_state = 457 #Eastern Desert
+					transfer_state = 552 #Western Desert
+					transfer_state = 661 #Tripolitania
+					transfer_state = 662 #Sirte
+					transfer_state = 663 #Cyrenaica
+				}
+			}
+			custom_effect_tooltip = rpg_north_africa_coring_states
+			custom_effect_tooltip = rpg_north_africa_transfer_states
+			#Core All Owned States and Puppet
+			custom_effect_tooltip = rpg_north_africa_puppet
+			hidden_effect = {
+				every_state = {
+					limit = {
+						is_owned_by = D26
+					}
+					add_core_of = D26
+				}
+				puppet = D26
+			}
+			#News event, set local flag, and set global flag
+			hidden_effect = {
+				ROOT = {
+					set_country_flag = rpg_north_africa_country_flag
+				}
+				news_event = { id = rpg_news.06 hours = 6 }
+				set_global_flag = rpg_north_africa_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}

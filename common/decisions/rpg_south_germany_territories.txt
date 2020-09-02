@@ -1,0 +1,114 @@
+rpg_category_territories_south_germany = {
+	rpg_south_germany_south_tyrol= {
+		allowed = {
+			NOT = {
+				original_tag = AUS #Austria
+				original_tag = GER #Germany
+				original_tag = ITA #Italy
+				original_tag = D23 #Germany
+				original_tag = D29 #South Germany
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_south_germany_required_states_south_tyrol
+                controls_state = 39 #South Tyrol
+			}
+		}
+		visible = {
+            has_global_flag = rpg_south_germany_flag
+			D29 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = AUS #Austria
+				original_tag = GER #Germany
+				original_tag = ITA #Italy
+				original_tag = D23 #Germany
+				original_tag = D29 #South Germany
+				has_global_flag = rpg_united_germany_flag
+                has_global_flag = rpg_south_germany_south_tyrol_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_south_germany_coring_states_south_tyrol
+			custom_effect_tooltip = rpg_south_germany_transfer_states_south_tyrol
+			hidden_effect = {
+				39 = { add_core_of = D29 } #South Tyrol
+				D29 = {
+					transfer_state = 39 #South Tyrol
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_south_germany_south_tyrol_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_south_germany_slovenia = {
+		allowed = {
+			NOT = {
+				original_tag = GER #Germany
+				original_tag = SVL #Slovenia
+				original_tag = YUG #Yugoslavia
+				original_tag = D23 #Germany
+				original_tag = D29 #South Germany
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_south_germany_required_states_slovenia
+                controls_state = 102 #Slovenia
+			}
+		}
+		visible = {
+			has_global_flag = rpg_south_germany_flag
+			D29 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = GER #Germany
+				original_tag = SVL #Slovenia
+				original_tag = YUG #Yugoslavia
+				original_tag = D23 #Germany
+				original_tag = D29 #South Germany
+				has_global_flag = rpg_united_germany_flag
+                has_global_flag = rpg_south_germany_slovenia_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_south_germany_coring_states_slovenia
+			custom_effect_tooltip = rpg_south_germany_transfer_states_slovenia
+			hidden_effect = {
+				102 = { add_core_of = D29 } #Slovenia
+				D29 = {
+					transfer_state = 102 #Slovenia
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_south_germany_slovenia_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}

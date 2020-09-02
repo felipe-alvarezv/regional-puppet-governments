@@ -1,0 +1,131 @@
+rpg_category = {
+	rpg_midwestern_us = {
+		allowed = {
+			NOT = {
+				original_tag = USA #United States
+				original_tag = D38 #Midwestern U.S.
+			}
+		}
+		available = {
+			is_subject = no
+			#Ohio
+			custom_trigger_tooltip = {
+				tooltip = rpg_midwestern_us_required_states_ohio
+				controls_state = 261 #Ohio
+			}
+			#Missouri
+			custom_trigger_tooltip = {
+				tooltip = rpg_midwestern_us_required_states_missouri
+				controls_state = 373 #Missouri
+			}
+			#Kansas
+			custom_trigger_tooltip = {
+				tooltip = rpg_midwestern_us_required_states_kansas
+				controls_state = 383 #Kansas
+			}
+			#Nebraska
+			custom_trigger_tooltip = {
+				tooltip = rpg_midwestern_us_required_states_nebraska
+				controls_state = 384 #Nebraska
+			}
+			#North Dakota
+			custom_trigger_tooltip = {
+				tooltip = rpg_midwestern_us_required_states_north_dakota
+				controls_state = 389 #North Dakota
+			}
+			#South Dakota
+			custom_trigger_tooltip = {
+				tooltip = rpg_midwestern_us_required_states_south_dakota
+				controls_state = 390 #South Dakota
+			}
+			#Minnesota
+			custom_trigger_tooltip = {
+				tooltip = rpg_midwestern_us_required_states_minnesota
+				controls_state = 391 #Minnesota
+			}
+			#Iowa
+			custom_trigger_tooltip = {
+				tooltip = rpg_midwestern_us_required_states_iowa
+				controls_state = 392 #Iowa
+			}
+			#Michigan
+			custom_trigger_tooltip = {
+				tooltip = rpg_midwestern_us_required_states_michigan
+				controls_state = 393 #Michigan
+			}
+			#Wisconsin
+			custom_trigger_tooltip = {
+				tooltip = rpg_midwestern_us_required_states_wisconsin
+				controls_state = 394 #Wisconsin
+			}
+			#Illinois
+			custom_trigger_tooltip = {
+				tooltip = rpg_midwestern_us_required_states_illinois
+				controls_state = 395 #Illinois
+			}
+			#Indiana
+			custom_trigger_tooltip = {
+				tooltip = rpg_midwestern_us_required_states_indiana
+				controls_state = 396 #Indiana
+			}
+		}
+		visible = {
+			OR = {
+				controls_state = 261 #Ohio
+				controls_state = 395 #Illinois
+				controls_state = 396 #Indiana
+			}
+			NOT = { 
+                original_tag = USA #United States
+				original_tag = D38 #Midwestern U.S.
+                has_global_flag = rpg_midwestern_us_flag
+            }
+		}
+		complete_effect = {
+			hidden_effect = {
+				D38 = {
+					transfer_state = 261 #Ohio
+					transfer_state = 373 #Missouri
+					transfer_state = 383 #Kansas
+					transfer_state = 384 #Nebraska
+					transfer_state = 389 #North Dakota
+					transfer_state = 390 #South Dakota
+					transfer_state = 391 #Minnesota
+					transfer_state = 392 #Iowa
+					transfer_state = 393 #Michigan
+					transfer_state = 394 #Wisconsin
+					transfer_state = 395 #Illinois
+					transfer_state = 396 #Indiana
+				}
+			}
+			custom_effect_tooltip = rpg_midwestern_us_coring_states
+			custom_effect_tooltip = rpg_midwestern_us_transfer_states
+			#Core All Owned States and Puppet
+			custom_effect_tooltip = rpg_midwestern_us_puppet
+			hidden_effect = {
+				every_state = {
+					limit = {
+						is_owned_by = D38
+					}
+					add_core_of = D38
+				}
+				puppet = D38
+			}
+			#News event, set local flag, and set global flag
+			hidden_effect = {
+				ROOT = {
+					set_country_flag = rpg_midwestern_us_country_flag
+				}
+				news_event = { id = rpg_news.18 hours = 6 }
+				set_global_flag = rpg_midwestern_us_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}

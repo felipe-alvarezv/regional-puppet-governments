@@ -1,0 +1,99 @@
+rpg_category = {
+	rpg_baltic = {
+		allowed = {
+			NOT = {
+				original_tag = EST #Estonia
+				original_tag = LAT #Latvia
+				original_tag = LIT #Lithuania
+				original_tag = D21 #Baltic
+			}
+		}
+		available = {
+			is_subject = no
+			#Kaunas
+			custom_trigger_tooltip = {
+				tooltip = rpg_baltic_required_states_kaunas
+				controls_state = 11 #Kaunas
+			}
+			#Vidzeme
+			custom_trigger_tooltip = {
+				tooltip = rpg_baltic_required_states_vidzeme
+				controls_state = 12 #Vidzeme
+			}
+			#Harju
+			custom_trigger_tooltip = {
+				tooltip = rpg_baltic_required_states_harju
+				controls_state = 13 #Harju
+			}
+			#Siauliai
+			custom_trigger_tooltip = {
+				tooltip = rpg_baltic_required_states_siauliai
+				controls_state = 189 #Siauliai
+			}
+			#Kurzeme
+			custom_trigger_tooltip = {
+				tooltip = rpg_baltic_required_states_kurzeme
+				controls_state = 190 #Kurzeme
+			}
+			#Tartu
+			custom_trigger_tooltip = {
+				tooltip = rpg_baltic_required_states_tartu
+				controls_state = 191 #Tartu
+			}
+		}
+		visible = {
+			OR = {
+				controls_state = 11 #Kaunas
+				controls_state = 12 #Vidzeme
+                controls_state = 13 #Harju
+			}
+			NOT = { 
+                original_tag = EST #Estonia
+				original_tag = LAT #Latvia
+				original_tag = LIT #Lithuania
+				original_tag = D21 #Baltic
+                has_global_flag = rpg_baltic_flag
+            }
+		}
+		complete_effect = {
+			hidden_effect = {
+				D21 = {
+					transfer_state = 11 #Kaunas
+					transfer_state = 12 #Vidzeme
+					transfer_state = 13 #Harju
+					transfer_state = 189 #Siauliai
+					transfer_state = 190 #Kurzeme
+					transfer_state = 191 #Tartu
+				}
+			}
+			custom_effect_tooltip = rpg_baltic_coring_states
+			custom_effect_tooltip = rpg_baltic_transfer_states
+			#Core All Owned States and Puppet
+			custom_effect_tooltip = rpg_baltic_puppet
+			hidden_effect = {
+				every_state = {
+					limit = {
+						is_owned_by = D21
+					}
+					add_core_of = D21
+				}
+				puppet = D21
+			}
+			#News event, set local flag, and set global flag
+			hidden_effect = {
+				ROOT = {
+					set_country_flag = rpg_baltic_country_flag
+				}
+				news_event = { id = rpg_news.01 hours = 6 }
+				set_global_flag = rpg_baltic_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
