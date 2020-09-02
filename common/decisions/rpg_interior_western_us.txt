@@ -1,0 +1,96 @@
+rpg_category = {
+	rpg_interior_western_us = {
+		allowed = {
+			NOT = {
+				original_tag = USA #United States
+				original_tag = D40 #Interior Western U.S.
+			}
+		}
+		available = {
+			is_subject = no
+			#Nevada
+			custom_trigger_tooltip = {
+				tooltip = rpg_interior_western_us_required_states_nevada
+				controls_state = 379 #Nevada
+			}
+			#Utah
+			custom_trigger_tooltip = {
+				tooltip = rpg_interior_western_us_required_states_utah
+				controls_state = 380 #Utah
+			}
+			#Wyoming
+			custom_trigger_tooltip = {
+				tooltip = rpg_interior_western_us_required_states_wyoming
+				controls_state = 381 #Wyoming
+			}
+			#Colorado
+			custom_trigger_tooltip = {
+				tooltip = rpg_interior_western_us_required_states_colorado
+				controls_state = 382 #Colorado
+			}
+			#Montana
+			custom_trigger_tooltip = {
+				tooltip = rpg_interior_western_us_required_states_montana
+				controls_state = 388 #Montana
+			}
+			#Idaho
+			custom_trigger_tooltip = {
+				tooltip = rpg_interior_western_us_required_states_idaho
+				controls_state = 387 #Idaho
+			}
+		}
+		visible = {
+			OR = {
+				controls_state = 379 #Nevada
+				controls_state = 380 #Utah
+				controls_state = 382 #Colorado
+				controls_state = 388 #Montana
+			}
+			NOT = { 
+                original_tag = USA #United States
+				original_tag = D40 #Interior Western U.S.
+                has_global_flag = rpg_interior_western_us_flag
+            }
+		}
+		complete_effect = {
+			hidden_effect = {
+				D40 = {
+					transfer_state = 379 #Nevada
+					transfer_state = 380 #Utah
+					transfer_state = 382 #Colorado
+					transfer_state = 381 #Wyoming
+					transfer_state = 388 #Montana
+					transfer_state = 387 #Idaho
+				}
+			}
+			custom_effect_tooltip = rpg_interior_western_us_coring_states
+			custom_effect_tooltip = rpg_interior_western_us_transfer_states
+			#Core All Owned States and Puppet
+			custom_effect_tooltip = rpg_interior_western_us_puppet
+			hidden_effect = {
+				every_state = {
+					limit = {
+						is_owned_by = D40
+					}
+					add_core_of = D40
+				}
+				puppet = D40
+			}
+			#News event, set local flag, and set global flag
+			hidden_effect = {
+				ROOT = {
+					set_country_flag = rpg_interior_western_us_country_flag
+				}
+				news_event = { id = rpg_news.20 hours = 6 }
+				set_global_flag = rpg_interior_western_us_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}

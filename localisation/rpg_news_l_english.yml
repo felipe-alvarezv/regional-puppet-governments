@@ -139,3 +139,10 @@
  rpg_news.19.b:0 "A toast to our new friends!"
  rpg_news.19.c:0 "They are nothing but a lackey!"
  rpg_news.19.d:0 "Interesting"
+ #Interior Western U.S.
+ rpg_news.20.t:0 "Formation of the [D40.GetName]"
+ rpg_news.20.desc:0 "[Root.GetAdjective] military officials have announced the establishment of a regional government in the Rocky Mountain Region of the United States. Officially known as [D40.GetNameDef], they have been granted autonomy to maintain order and control in the region.  The leader of [D40.GetNameDef], [D40.GetLeader], has publicly announced their full support towards the [Root.GetAdjective] cause.  The nations who are aligned with [Root.GetNameDef] have supported this decision, while the rest of the world has called [D40.GetNameDef] just a [Root.GetAdjective] lapdog."
+ rpg_news.20.a:0 "We will prove our strength to the world!"
+ rpg_news.20.b:0 "A toast to our new friends!"
+ rpg_news.20.c:0 "They are nothing but a lackey!"
+ rpg_news.20.d:0 "Interesting"

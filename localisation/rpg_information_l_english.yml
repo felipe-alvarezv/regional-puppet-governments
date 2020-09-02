@@ -668,3 +668,15 @@
  rpg_southwestern_us_coring_states:0 "§YSouthwestern U.S.§! gains cores on all listed states.\n"
  rpg_southwestern_us_transfer_states:0 "§YSouthwestern U.S.§! becomes owner and controller of all listed states.\n"
  rpg_southwestern_us_puppet:0 "§YSouthwestern U.S.§! becomes a puppet of §Y[Root.GetName]§!.\n"
+ 
+ #Interior Western U.S.
+ rpg_interior_western_us:0 "Regional Puppet Government of the Southwestern U.S."
+ rpg_interior_western_us_required_states_nevada:0 "Controls §YNevada§!."
+ rpg_interior_western_us_required_states_utah:0 "Controls §YUtah§!."
+ rpg_interior_western_us_required_states_wyoming:0 "Controls §YWyoming§!."
+ rpg_interior_western_us_required_states_colorado:0 "Controls §YColorado§!."
+ rpg_interior_western_us_required_states_montana:0 "Controls §YMontana§!."
+ rpg_interior_western_us_required_states_idaho:0 "Controls §YIdaho§!."
+ rpg_interior_western_us_coring_states:0 "§YInterior Western U.S.§! gains cores on all listed states.\n"
+ rpg_interior_western_us_transfer_states:0 "§YInterior Western U.S.§! becomes owner and controller of all listed states.\n"
+ rpg_interior_western_us_puppet:0 "§YInterior Western U.S.§! becomes a puppet of §Y[Root.GetName]§!.\n"

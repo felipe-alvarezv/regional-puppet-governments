@@ -559,7 +559,7 @@ news_event = {
 		}
 	}
 }
-#Northeastern U.S Event
+#Northeastern U.S. Event
 news_event = {
 	id = rpg_news.16
 	title = rpg_news.16.t
@@ -594,7 +594,7 @@ news_event = {
 		}
 	}
 }
-#Southeastern U.S Event
+#Southeastern U.S. Event
 news_event = {
 	id = rpg_news.17
 	title = rpg_news.17.t
@@ -629,7 +629,7 @@ news_event = {
 		}
 	}
 }
-#Midwestern U.S Event
+#Midwestern U.S. Event
 news_event = {
 	id = rpg_news.18
 	title = rpg_news.18.t
@@ -664,7 +664,7 @@ news_event = {
 		}
 	}
 }
-#Southwestern U.S Event
+#Southwestern U.S. Event
 news_event = {
 	id = rpg_news.19
 	title = rpg_news.19.t
@@ -694,6 +694,41 @@ news_event = {
 		name = rpg_news.19.d
 		trigger = {
 			NOT = { original_tag = D39 }
+			NOT = { original_tag = FROM }
+			NOT = { has_war_with = FROM }
+		}
+	}
+}
+#Interior Western U.S. Event
+news_event = {
+	id = rpg_news.20
+	title = rpg_news.20.t
+	desc = rpg_news.20.desc
+	picture = GFX_news_event_generic_parliament
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = rpg_news.20.a
+		trigger = {
+			original_tag = D40
+		}
+	}
+	option = {
+		name = rpg_news.20.b
+		trigger = {
+			original_tag = FROM
+		}
+	}
+	option = {
+		name = rpg_news.20.c
+		trigger = {
+			has_war_with = FROM
+		}
+	}
+	option = {
+		name = rpg_news.20.d
+		trigger = {
+			NOT = { original_tag = D40 }
 			NOT = { original_tag = FROM }
 			NOT = { has_war_with = FROM }
 		}
