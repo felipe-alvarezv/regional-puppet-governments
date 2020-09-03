@@ -1,0 +1,102 @@
+rpg_category_territories_pacific_us = {
+	rpg_pacific_us_alaska = {
+		allowed = {
+			NOT = {
+				original_tag = USA #United States
+				original_tag = D41 #Pacific U.S.
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_pacific_us_required_states_alaska
+                controls_state = 463 #Alaska
+			}
+		}
+		visible = {
+            has_global_flag = rpg_pacific_us_alaska_flag
+			D41 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = USA #United States
+				original_tag = D41 #Pacific U.S.
+                has_global_flag = rpg_pacific_us_alaska_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_pacific_us_coring_states_alaska
+			custom_effect_tooltip = rpg_pacific_us_transfer_states_alaska
+			hidden_effect = {
+				463 = { add_core_of = D41 } #Alaska
+				D41 = {
+					transfer_state = 463 #Alaska
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_pacific_us_alaska_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_pacific_us_hawaii = {
+		allowed = {
+			NOT = {
+				original_tag = HAW #Hawaii
+				original_tag = USA #United States
+				original_tag = D41 #Pacific U.S.
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_pacific_us_required_states_hawaii
+                controls_state = 629 #Hawaii
+			}
+		}
+		visible = {
+            has_global_flag = rpg_pacific_us_hawaii_flag
+			D41 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+				original_tag = HAW #Hawaii
+                original_tag = USA #United States
+				original_tag = D41 #Pacific U.S.
+                has_global_flag = rpg_pacific_us_hawaii_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_pacific_us_coring_states_hawaii
+			custom_effect_tooltip = rpg_pacific_us_transfer_states_hawaii
+			hidden_effect = {
+				629 = { add_core_of = D41 } #Hawaii
+				D41 = {
+					transfer_state = 629 #Hawaii
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_pacific_us_hawaii_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}

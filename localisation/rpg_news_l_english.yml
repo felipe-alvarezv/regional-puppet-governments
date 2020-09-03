@@ -146,3 +146,10 @@
  rpg_news.20.b:0 "A toast to our new friends!"
  rpg_news.20.c:0 "They are nothing but a lackey!"
  rpg_news.20.d:0 "Interesting"
+ #Pacific U.S.
+ rpg_news.21.t:0 "Formation of the [D41.GetName]"
+ rpg_news.21.desc:0 "[Root.GetAdjective] military officials have announced the establishment of a regional government in the Pacific Region of the United States. Officially known as [D41.GetNameDef], they have been granted autonomy to maintain order and control in the region.  The leader of [D41.GetNameDef], [D41.GetLeader], has publicly announced their full support towards the [Root.GetAdjective] cause.  The nations who are aligned with [Root.GetNameDef] have supported this decision, while the rest of the world has called [D41.GetNameDef] just a [Root.GetAdjective] lapdog."
+ rpg_news.21.a:0 "We will prove our strength to the world!"
+ rpg_news.21.b:0 "A toast to our new friends!"
+ rpg_news.21.c:0 "They are nothing but a lackey!"
+ rpg_news.21.d:0 "Interesting"

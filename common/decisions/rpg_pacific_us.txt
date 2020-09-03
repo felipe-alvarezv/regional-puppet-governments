@@ -1,0 +1,77 @@
+rpg_category = {
+	rpg_pacific_us = {
+		allowed = {
+			NOT = {
+				original_tag = USA #United States
+				original_tag = D41 #Pacific U.S.
+			}
+		}
+		available = {
+			is_subject = no
+			#California
+			custom_trigger_tooltip = {
+				tooltip = rpg_pacific_us_required_states_california
+				controls_state = 378 #California
+			}
+			#Oregon
+			custom_trigger_tooltip = {
+				tooltip = rpg_pacific_us_required_states_oregon
+				controls_state = 385 #Oregon
+			}
+			#Washington
+			custom_trigger_tooltip = {
+				tooltip = rpg_pacific_us_required_states_washington
+				controls_state = 386 #Washington
+			}
+		}
+		visible = {
+			OR = {
+				controls_state = 378 #California
+				controls_state = 385 #Oregon
+				controls_state = 386 #Washington
+			}
+			NOT = { 
+                original_tag = USA #United States
+				original_tag = D41 #Pacific U.S.
+                has_global_flag = rpg_pacific_us_flag
+            }
+		}
+		complete_effect = {
+			hidden_effect = {
+				D41 = {
+					transfer_state = 378 #California
+					transfer_state = 385 #Oregon
+					transfer_state = 386 #Washington
+				}
+			}
+			custom_effect_tooltip = rpg_pacific_us_coring_states
+			custom_effect_tooltip = rpg_pacific_us_transfer_states
+			#Core All Owned States and Puppet
+			custom_effect_tooltip = rpg_pacific_us_puppet
+			hidden_effect = {
+				every_state = {
+					limit = {
+						is_owned_by = D41
+					}
+					add_core_of = D41
+				}
+				puppet = D41
+			}
+			#News event, set local flag, and set global flag
+			hidden_effect = {
+				ROOT = {
+					set_country_flag = rpg_pacific_us_country_flag
+				}
+				news_event = { id = rpg_news.21 hours = 6 }
+				set_global_flag = rpg_pacific_us_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
