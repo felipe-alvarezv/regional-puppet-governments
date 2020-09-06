@@ -1,100 +1,100 @@
 ideas = {
 	political_advisor = {
-		D41_captain_of_industry = {
+		D42_captain_of_industry = {
 			picture = generic_political_advisor_europe_1
 			allowed = {
-				original_tag = D41
+				original_tag = D42
 			}
 			traits = { captain_of_industry }
 		}
-		D41_war_industrialist = {
+		D42_war_industrialist = {
 			picture = generic_political_advisor_europe_2
 			allowed = {
-				original_tag = D41
+				original_tag = D42
 			}
 			traits = { war_industrialist }
 		}
-		D41_fortification_engineer = {
+		D42_fortification_engineer = {
 			picture = generic_political_advisor_europe_3
 			allowed = {
-				original_tag = D41
+				original_tag = D42
 			}
 			traits = { fortification_engineer }
 		}
-		D41_quartermaster_general = {
+		D42_quartermaster_general = {
 			picture = generic_political_advisor_europe_4
 			allowed = {
-				original_tag = D41
+				original_tag = D42
 			}
 			traits = { quartermaster_general }
 		}
-		D41_communist_revolutionary = {
+		D42_communist_revolutionary = {
 			picture = generic_communist_revolutionary_western_european_2d
 			available = {
 				is_subject = no
 			}
 			allowed = {
-				original_tag = D41
+				original_tag = D42
 			}
 			traits = { communist_revolutionary }
 		}
-		D41_democratic_reformer = {
+		D42_democratic_reformer = {
 			picture = generic_democratic_reformer_western_european_2d
 			available = {
 				is_subject = no
 			}
 			allowed = {
-				original_tag = D41
+				original_tag = D42
 			}
 			traits = { democratic_reformer }
 		}
-		D41_staunch_monarchist = {
+		D42_staunch_monarchist = {
 			picture = generic_political_advisor_europe_5
 			available = {
 				is_subject = no
 			}
 			allowed = {
-				original_tag = D41
+				original_tag = D42
 			}
 			traits = { staunch_monarchist }
 		}
-		D41_facist_demagogue = {
+		D42_facist_demagogue = {
 			picture = generic_fascist_demagogue_western_european_2d
 			available = {
 				is_subject = no
 			}
 			allowed = {
-				original_tag = D41
+				original_tag = D42
 			}
 			traits = { fascist_demagogue }
 		}
-		D41_illusive_gentleman = {	
+		D42_illusive_gentleman = {	
 			picture = generic_political_advisor_europe_6
 			available = {
 				has_intelligence_agency = yes
 			}
 			allowed = {
-				original_tag = D41
+				original_tag = D42
 				has_dlc = "La Resistance" 
 			}
 			traits = { head_of_intelligence }
 		}
 	}
 	army_chief = {
-		D41_army_offense = {
+		D42_army_offense = {
 			picture = generic_army_europe_1
 			allowed = {
-				original_tag = D41
+				original_tag = D42
 			}		
 			traits = { army_chief_offensive_2 }
 			ai_will_do = {
 				factor = 1
 			}
 		}
-		D41_army_defense = {
+		D42_army_defense = {
 			picture = generic_army_europe_2
 			allowed = {
-				original_tag = D41
+				original_tag = D42
 			}
 			traits = { army_chief_defensive_2 }
 			ai_will_do = {
@@ -103,20 +103,20 @@ ideas = {
 		}
 	}
 	navy_chief = {
-		D41_decisive_battle = {
+		D42_decisive_battle = {
 			picture = generic_navy_europe_1
 			allowed = {
-				original_tag = D41
+				original_tag = D42
 			}
 			traits = { navy_chief_decisive_battle_2 }
 			ai_will_do = {
 				factor = 1
 			}
 		}
-		D41_commerce_raiding = {
+		D42_commerce_raiding = {
 			picture = generic_navy_europe_2
 			allowed = {
-				original_tag = D41
+				original_tag = D42
 			}
 			traits = { navy_chief_commerce_raiding_2 }
 			ai_will_do = {
@@ -125,20 +125,20 @@ ideas = {
 		}
 	}
 	air_chief = {
-		D41_ground_support = {
+		D42_ground_support = {
 			picture = generic_air_europe_1
 			allowed = {
-				original_tag = D41
+				original_tag = D42
 			}
 			traits = { air_chief_ground_support_2 }
 			ai_will_do = {
 				factor = 1
 			}
 		}
-		D41_all_weather = {
+		D42_all_weather = {
 			picture = generic_air_europe_2
 			allowed = {
-				original_tag = D41
+				original_tag = D42
 			}
 			traits = { air_chief_all_weather_2 }
 			ai_will_do = {
@@ -147,66 +147,66 @@ ideas = {
 		}
 	}
 	high_command = {
-		D41_army_infantry = {
+		D42_army_infantry = {
 			ledger = army
 			picture = generic_army_europe_3
 			allowed = {
-				original_tag = D41
+				original_tag = D42
 			}
 			traits = { army_infantry_2 }
 			ai_will_do = {
 				factor = 1
 			}
 		}
-		D41_army_artillery = {
+		D42_army_artillery = {
 			ledger = army	
 			picture = generic_army_europe_4
 			allowed = {
-				original_tag = D41
+				original_tag = D42
 			}
 			traits = { army_artillery_2 }
 			ai_will_do = {
 				factor = 1
 			}
 		}
-		D41_amphibious_assault = {
+		D42_amphibious_assault = {
 			ledger = navy
 			picture = generic_navy_europe_1
 			allowed = {
-				original_tag = D41
+				original_tag = D42
 			}
 			traits = { navy_amphibious_assault_2 }
 			ai_will_do = {
 				factor = 1
 			}
 		}
-		D41_screen = {
+		D42_screen = {
 			ledger = navy
 			picture = generic_navy_europe_2
 			allowed = {
-				original_tag = D41
+				original_tag = D42
 			}
 			traits = { navy_screen_2 }
 			ai_will_do = {
 				factor = 1
 			}
 		}
-		D41_air_support = {
+		D42_air_support = {
 			ledger = air
 			picture = generic_air_europe_3
 			allowed = {
-				original_tag = D41
+				original_tag = D42
 			}
 			traits = { air_air_superiority_2 }
 			ai_will_do = {
 				factor = 1
 			}
 		}
-		D41_close_air_support = {
+		D42_close_air_support = {
 			ledger = air
 			picture = generic_air_europe_1
 			allowed = {
-				original_tag = D41
+				original_tag = D42
 			}
 			traits = { air_close_air_support_2 }
 			ai_will_do = {
@@ -215,33 +215,33 @@ ideas = {
 		}
 	}
 	theorist = {
-		D41_military_theorist = {
+		D42_military_theorist = {
 			ledger = army
 			picture = generic_army_europe_4
 			allowed = {
-				original_tag = D41
+				original_tag = D42
 			}
 			research_bonus = {
 				land_doctrine = 0.10
 			}
 			traits = { military_theorist }
 		}
-		D41_naval_theorist = {
+		D42_naval_theorist = {
 			ledger = navy
 			picture = generic_navy_europe_3
 			allowed = {
-				original_tag = D41
+				original_tag = D42
 			}
 			research_bonus = {
 				naval_doctrine = 0.10
 			}
 			traits = { naval_theorist }
 		}
-		D41_warfare_theorist = {
+		D42_warfare_theorist = {
 			ledger = air
 			picture = generic_air_europe_1
 			allowed = {
-				original_tag = D41
+				original_tag = D42
 			}
 			research_bonus = {
 				air_doctrine = 0.10
