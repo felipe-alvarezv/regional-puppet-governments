@@ -1,0 +1,70 @@
+rpg_category = {
+	rpg_quebec = {
+		allowed = {
+			NOT = {
+				original_tag = CAN #Canada
+				original_tag = D42 #Quebec
+			}
+		}
+		available = {
+			is_subject = no
+			#Quebec
+			custom_trigger_tooltip = {
+				tooltip = rpg_quebec_required_states_quebec
+				controls_state = 466 #Quebec
+			}
+			#Saint Lawrence
+			custom_trigger_tooltip = {
+				tooltip = rpg_quebec_required_states_saint_lawrence
+				controls_state = 468 #Saint Lawrence
+			}
+		}
+		visible = {
+			OR = {
+				controls_state = 466 #Quebec
+				controls_state = 468 #Saint Lawrence
+			}
+			NOT = { 
+                original_tag = CAN #Canada
+				original_tag = D42 #Quebec
+                has_global_flag = rpg_quebec_flag
+            }
+		}
+		complete_effect = {
+			hidden_effect = {
+				D42 = {
+					transfer_state = 466 #Quebec
+					transfer_state = 468 #Saint Lawrence
+				}
+			}
+			custom_effect_tooltip = rpg_quebec_coring_states
+			custom_effect_tooltip = rpg_quebec_transfer_states
+			#Core All Owned States and Puppet
+			custom_effect_tooltip = rpg_quebec_puppet
+			hidden_effect = {
+				every_state = {
+					limit = {
+						is_owned_by = D42
+					}
+					add_core_of = D42
+				}
+				puppet = D42
+			}
+			#News event, set local flag, and set global flag
+			hidden_effect = {
+				ROOT = {
+					set_country_flag = rpg_quebec_country_flag
+				}
+				news_event = { id = rpg_news.22 hours = 6 }
+				set_global_flag = rpg_quebec_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
