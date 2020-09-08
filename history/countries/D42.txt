@@ -1,4 +1,4 @@
-capital = 466 #Quebec
+capital = 468 #Saint Lawrence
 oob = "D42_1936"
 
 set_research_slots = 3

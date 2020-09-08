@@ -162,7 +162,7 @@
  rpg_news.22.d:0 "Interesting"
  #Eastern Provinces
  rpg_news.23.t:0 "Formation of the [D43.GetName]"
- rpg_news.23.desc:0 "[Root.GetAdjective] military officials have announced the establishment of a regional government in Quebec. Officially known as [D43.GetNameDef], they have been granted autonomy to maintain order and control in the region.  The leader of [D43.GetNameDef], [D43.GetLeader], has publicly announced their full support towards the [Root.GetAdjective] cause.  The nations who are aligned with [Root.GetNameDef] have supported this decision, while the rest of the world has called [D43.GetNameDef] just a [Root.GetAdjective] lapdog."
+ rpg_news.23.desc:0 "[Root.GetAdjective] military officials have announced the establishment of a regional government in Eastern Canada. Officially known as [D43.GetNameDef], they have been granted autonomy to maintain order and control in the region.  The leader of [D43.GetNameDef], [D43.GetLeader], has publicly announced their full support towards the [Root.GetAdjective] cause.  The nations who are aligned with [Root.GetNameDef] have supported this decision, while the rest of the world has called [D43.GetNameDef] just a [Root.GetAdjective] lapdog."
  rpg_news.23.a:0 "We will prove our strength to the world!"
  rpg_news.23.b:0 "A toast to our new friends!"
  rpg_news.23.c:0 "They are nothing but a lackey!"
