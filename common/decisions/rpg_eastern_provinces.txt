@@ -1,0 +1,70 @@
+rpg_category = {
+	rpg_eastern_provinces = {
+		allowed = {
+			NOT = {
+				original_tag = CAN #Canada
+				original_tag = D43 #Eastern Provinces
+			}
+		}
+		available = {
+			is_subject = no
+			#Southern Ontario
+			custom_trigger_tooltip = {
+				tooltip = rpg_eastern_provinces_required_states_southern_ontario
+				controls_state = 276 #Southern Ontario
+			}
+			#Northern Ontario
+			custom_trigger_tooltip = {
+				tooltip = rpg_eastern_provinces_required_states_northern_ontario
+				controls_state = 682 #Northern Ontario
+			}
+		}
+		visible = {
+			OR = {
+				controls_state = 276 #Southern Ontario
+				controls_state = 682 #Northern Ontario
+			}
+			NOT = { 
+                original_tag = CAN #Canada
+				original_tag = D43 #Eastern Provinces
+                has_global_flag = rpg_eastern_provinces_flag
+            }
+		}
+		complete_effect = {
+			hidden_effect = {
+				D43 = {
+					transfer_state = 276 #Southern Ontario
+					transfer_state = 682 #Northern Ontario
+				}
+			}
+			custom_effect_tooltip = rpg_eastern_provinces_coring_states
+			custom_effect_tooltip = rpg_eastern_provinces_transfer_states
+			#Core All Owned States and Puppet
+			custom_effect_tooltip = rpg_eastern_provinces_puppet
+			hidden_effect = {
+				every_state = {
+					limit = {
+						is_owned_by = D43
+					}
+					add_core_of = D43
+				}
+				puppet = D43
+			}
+			#News event, set local flag, and set global flag
+			hidden_effect = {
+				ROOT = {
+					set_country_flag = rpg_eastern_provinces_country_flag
+				}
+				news_event = { id = rpg_news.23 hours = 6 }
+				set_global_flag = rpg_eastern_provinces_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
