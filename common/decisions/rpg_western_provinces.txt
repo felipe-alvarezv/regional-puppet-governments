@@ -1,0 +1,89 @@
+rpg_category = {
+	rpg_western_provinces = {
+		allowed = {
+			NOT = {
+				original_tag = CAN #Canada
+				original_tag = D44 #Western Provinces
+			}
+		}
+		available = {
+			is_subject = no
+			#Manitoba
+			custom_trigger_tooltip = {
+				tooltip = rpg_western_provinces_required_states_manitoba
+				controls_state = 467 #Manitoba
+			}
+			#Saskatchewan
+			custom_trigger_tooltip = {
+				tooltip = rpg_western_provinces_required_states_saskatchewan
+				controls_state = 469 #Saskatchewan
+			}
+			#Alberta
+			custom_trigger_tooltip = {
+				tooltip = rpg_western_provinces_required_states_alberta
+				controls_state = 470 #Alberta
+			}
+			#Northern Canada
+			custom_trigger_tooltip = {
+				tooltip = rpg_western_provinces_required_states_northern_canada
+				controls_state = 472 #Northern Canada
+			}
+			#Northeastern Canada
+			custom_trigger_tooltip = {
+				tooltip = rpg_western_provinces_required_states_northeastern_canada
+				controls_state = 683 #Northeastern Canada
+			}
+		}
+		visible = {
+			OR = {
+				controls_state = 467 #Manitoba
+				controls_state = 469 #Saskatchewan
+				controls_state = 470 #Alberta
+			}
+			NOT = { 
+                original_tag = CAN #Canada
+				original_tag = D44 #Western Provinces
+                has_global_flag = rpg_western_provinces_flag
+            }
+		}
+		complete_effect = {
+			hidden_effect = {
+				D44 = {
+					transfer_state = 467 #Manitoba
+					transfer_state = 469 #Saskatchewan
+					transfer_state = 470 #Alberta
+					transfer_state = 472 #Northern Canada
+					transfer_state = 683 #Northeastern Canada
+				}
+			}
+			custom_effect_tooltip = rpg_western_provinces_coring_states
+			custom_effect_tooltip = rpg_western_provinces_transfer_states
+			#Core All Owned States and Puppet
+			custom_effect_tooltip = rpg_western_provinces_puppet
+			hidden_effect = {
+				every_state = {
+					limit = {
+						is_owned_by = D44
+					}
+					add_core_of = D44
+				}
+				puppet = D44
+			}
+			#News event, set local flag, and set global flag
+			hidden_effect = {
+				ROOT = {
+					set_country_flag = rpg_western_provinces_country_flag
+				}
+				news_event = { id = rpg_news.24 hours = 6 }
+				set_global_flag = rpg_western_provinces_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}

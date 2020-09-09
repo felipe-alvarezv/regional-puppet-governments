@@ -15,3 +15,4 @@ rpg_category_territories_pacific_us = { }
 rpg_category_territories_scandinavia = { }
 rpg_category_territories_south_germany = { }
 rpg_category_territories_quebec = { }
+rpg_category_territories_western_provinces = { }
