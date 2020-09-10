@@ -1,4 +1,53 @@
 rpg_category_territories_quebec = {
+	rpg_quebec_southern_ontario = {
+		allowed = {
+			NOT = {
+				original_tag = CAN #Canada
+				original_tag = D42 #Quebec
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_quebec_required_states_southern_ontario
+                controls_state = 276 #Southern Ontario
+			}
+		}
+		visible = {
+            has_global_flag = rpg_quebec_flag
+			D42 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = CAN #Canada
+				original_tag = D42 #Quebec
+                has_global_flag = rpg_quebec_southern_ontario_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_quebec_coring_states_southern_ontario
+			custom_effect_tooltip = rpg_quebec_transfer_states_southern_ontario
+			hidden_effect = {
+				276 = { add_core_of = D42 } #Southern Ontario
+				D42 = {
+					transfer_state = 276 #Southern Ontario
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_quebec_southern_ontario_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
 	rpg_quebec_newfoundland = {
 		allowed = {
 			NOT = {
@@ -185,6 +234,55 @@ rpg_category_territories_quebec = {
 			}
 			hidden_effect = {
 				set_global_flag = rpg_quebec_new_brunswick_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_quebec_northern_ontario = {
+		allowed = {
+			NOT = {
+				original_tag = CAN #Canada
+				original_tag = D42 #Quebec
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_quebec_required_states_northern_ontario
+                controls_state = 682 #Northern Ontario
+			}
+		}
+		visible = {
+            has_global_flag = rpg_quebec_flag
+			D42 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = CAN #Canada
+				original_tag = D42 #Quebec
+                has_global_flag = rpg_quebec_northern_ontario_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_quebec_coring_states_northern_ontario
+			custom_effect_tooltip = rpg_quebec_transfer_states_northern_ontario
+			hidden_effect = {
+				682 = { add_core_of = D42 } #Northern Ontario
+				D42 = {
+					transfer_state = 682 #Northern Ontario
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_quebec_northern_ontario_flag
 			}
 		}
 		ai_will_do = {

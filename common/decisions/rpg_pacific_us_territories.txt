@@ -48,6 +48,104 @@ rpg_category_territories_pacific_us = {
 			}
 		}
 	}
+	rpg_pacific_us_northwestern_canada = {
+		allowed = {
+			NOT = {
+				original_tag = CAN #Canada
+				original_tag = D41 #Pacific U.S.
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_pacific_us_required_states_northwestern_canada
+                controls_state = 471 #Northwestern Canada
+			}
+		}
+		visible = {
+            has_global_flag = rpg_pacific_us_flag
+			D41 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = CAN #Canada
+				original_tag = D41 #Pacific U.S.
+                has_global_flag = rpg_pacific_us_northwestern_canada_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_pacific_us_coring_states_northwestern_canada
+			custom_effect_tooltip = rpg_pacific_us_transfer_states_northwestern_canada
+			hidden_effect = {
+				471 = { add_core_of = D41 } #Northwestern Canada
+				D41 = {
+					transfer_state = 471 #Northwestern Canada
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_pacific_us_northwestern_canada_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_pacific_us_british_columbia = {
+		allowed = {
+			NOT = {
+				original_tag = CAN #Canada
+				original_tag = D41 #Pacific U.S.
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_pacific_us_required_states_british_columbia
+                controls_state = 473 #British Columbia
+			}
+		}
+		visible = {
+            has_global_flag = rpg_pacific_us_flag
+			D41 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = CAN #Canada
+				original_tag = D41 #Pacific U.S.
+                has_global_flag = rpg_pacific_us_british_columbia_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_pacific_us_coring_states_british_columbia
+			custom_effect_tooltip = rpg_pacific_us_transfer_states_british_columbia
+			hidden_effect = {
+				473 = { add_core_of = D41 } #British Columbia
+				D41 = {
+					transfer_state = 473 #British Columbia
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_pacific_us_british_columbia_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
 	rpg_pacific_us_hawaii = {
 		allowed = {
 			NOT = {
@@ -89,6 +187,104 @@ rpg_category_territories_pacific_us = {
 			}
 			hidden_effect = {
 				set_global_flag = rpg_pacific_us_hawaii_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_pacific_us_haida_gwaii = {
+		allowed = {
+			NOT = {
+				original_tag = CAN #Canada
+				original_tag = D41 #Pacific U.S.
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_pacific_us_required_states_haida_gwaii
+                controls_state = 739 #Haida Gwaii
+			}
+		}
+		visible = {
+            has_global_flag = rpg_pacific_us_flag
+			D41 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = CAN #Canada
+				original_tag = D41 #Pacific U.S.
+                has_global_flag = rpg_pacific_us_haida_gwaii_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_pacific_us_coring_states_haida_gwaii
+			custom_effect_tooltip = rpg_pacific_us_transfer_states_haida_gwaii
+			hidden_effect = {
+				739 = { add_core_of = D41 } #Haida Gwaii
+				D41 = {
+					transfer_state = 739 #Haida Gwaii
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_pacific_us_haida_gwaii_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_pacific_us_vancouver_island = {
+		allowed = {
+			NOT = {
+				original_tag = CAN #Canada
+				original_tag = D41 #Pacific U.S.
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_pacific_us_required_states_vancouver_island
+                controls_state = 740 #Vancouver Island
+			}
+		}
+		visible = {
+            has_global_flag = rpg_pacific_us_flag
+			D41 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = CAN #Canada
+				original_tag = D41 #Pacific U.S.
+                has_global_flag = rpg_pacific_us_vancouver_island_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_pacific_us_coring_states_vancouver_island
+			custom_effect_tooltip = rpg_pacific_us_transfer_states_vancouver_island
+			hidden_effect = {
+				740 = { add_core_of = D41 } #Vancouver Island
+				D41 = {
+					transfer_state = 740 #Vancouver Island
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_pacific_us_vancouver_island_flag
 			}
 		}
 		ai_will_do = {
