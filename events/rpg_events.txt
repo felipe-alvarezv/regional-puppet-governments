@@ -874,3 +874,38 @@ news_event = {
 		}
 	}
 }
+#Central America Event
+news_event = {
+	id = rpg_news.25
+	title = rpg_news.25.t
+	desc = rpg_news.25.desc
+	picture = GFX_news_event_generic_parliament
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = rpg_news.25.a
+		trigger = {
+			original_tag = D45
+		}
+	}
+	option = {
+		name = rpg_news.25.b
+		trigger = {
+			original_tag = FROM
+		}
+	}
+	option = {
+		name = rpg_news.25.c
+		trigger = {
+			has_war_with = FROM
+		}
+	}
+	option = {
+		name = rpg_news.25.d
+		trigger = {
+			NOT = { original_tag = D45 }
+			NOT = { original_tag = FROM }
+			NOT = { has_war_with = FROM }
+		}
+	}
+}

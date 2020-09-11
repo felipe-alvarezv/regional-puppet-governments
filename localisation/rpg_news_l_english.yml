@@ -174,3 +174,10 @@
  rpg_news.24.b:0 "A toast to our new friends!"
  rpg_news.24.c:0 "They are nothing but a lackey!"
  rpg_news.24.d:0 "Interesting"
+ #Central America
+ rpg_news.25.t:0 "Formation of the [D45.GetName]"
+ rpg_news.25.desc:0 "[Root.GetAdjective] military officials have announced the establishment of a regional government in Central America. Officially known as [D45.GetNameDef], they have been granted autonomy to maintain order and control in the region.  The leader of [D45.GetNameDef], [D45.GetLeader], has publicly announced their full support towards the [Root.GetAdjective] cause.  The nations who are aligned with [Root.GetNameDef] have supported this decision, while the rest of the world has called [D45.GetNameDef] just a [Root.GetAdjective] lapdog."
+ rpg_news.25.a:0 "We will prove our strength to the world!"
+ rpg_news.25.b:0 "A toast to our new friends!"
+ rpg_news.25.c:0 "They are nothing but a lackey!"
+ rpg_news.25.d:0 "Interesting"

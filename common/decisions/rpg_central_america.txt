@@ -1,0 +1,108 @@
+rpg_category = {
+	rpg_central_america = {
+		allowed = {
+			NOT = {
+				original_tag = COS #Costa Rica
+				original_tag = ELS #El Salvador
+				original_tag = GUA #Guatemala
+				original_tag = HON #Honduras
+				original_tag = NIC #Nicaragua
+				original_tag = PAN #Panama
+				original_tag = D45 #Central America
+			}
+		}
+		available = {
+			is_subject = no
+			#Panama
+			custom_trigger_tooltip = {
+				tooltip = rpg_central_america_required_states_panama
+				controls_state = 304 #Panama
+			}
+			#Honduras
+			custom_trigger_tooltip = {
+				tooltip = rpg_central_america_required_states_honduras
+				controls_state = 312 #Honduras
+			}
+			#Guatemala
+			custom_trigger_tooltip = {
+				tooltip = rpg_central_america_required_states_guatemala
+				controls_state = 313 #Guatemala
+			}
+			#El Salvador
+			custom_trigger_tooltip = {
+				tooltip = rpg_central_america_required_states_el_salvador
+				controls_state = 314 #El Salvador
+			}
+			#Costa Rica
+			custom_trigger_tooltip = {
+				tooltip = rpg_central_america_required_states_costa_rica
+				controls_state = 316 #Costa Rica
+			}
+			#Nicaragua
+			custom_trigger_tooltip = {
+				tooltip = rpg_central_america_required_states_nicaragua
+				controls_state = 317 #Nicaragua
+			}
+		}
+		visible = {
+			OR = {
+				controls_state = 304 #Panama
+				controls_state = 312 #Honduras
+				controls_state = 313 #Guatemala
+				controls_state = 314 #El Salvador
+				controls_state = 316 #Costa Rica
+				controls_state = 317 #Nicaragua
+			}
+			NOT = { 
+                original_tag = COS #Costa Rica
+				original_tag = ELS #El Salvador
+				original_tag = GUA #Guatemala
+				original_tag = HON #Honduras
+				original_tag = NIC #Nicaragua
+				original_tag = PAN #Panama
+				original_tag = D45 #Central America
+                has_global_flag = rpg_central_america_flag
+            }
+		}
+		complete_effect = {
+			hidden_effect = {
+				D45 = {
+					transfer_state = 304 #Panama
+					transfer_state = 312 #Honduras
+					transfer_state = 313 #Guatemala
+					transfer_state = 314 #El Salvador
+					transfer_state = 316 #Costa Rica
+					transfer_state = 317 #Nicaragua
+				}
+			}
+			custom_effect_tooltip = rpg_central_america_coring_states
+			custom_effect_tooltip = rpg_central_america_transfer_states
+			#Core All Owned States and Puppet
+			custom_effect_tooltip = rpg_central_america_puppet
+			hidden_effect = {
+				every_state = {
+					limit = {
+						is_owned_by = D45
+					}
+					add_core_of = D45
+				}
+				puppet = D45
+			}
+			#News event, set local flag, and set global flag
+			hidden_effect = {
+				ROOT = {
+					set_country_flag = rpg_central_america_country_flag
+				}
+				news_event = { id = rpg_news.25 hours = 6 }
+				set_global_flag = rpg_central_america_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}

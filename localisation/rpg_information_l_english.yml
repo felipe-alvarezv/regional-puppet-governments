@@ -811,4 +811,15 @@
  rpg_western_provinces_required_states_vancouver_island:0 "Controls §YVancouver Island§!."
  rpg_western_provinces_coring_states_vancouver_island:0 "§Y[D44.GetName]§! gains core on §YVancouver Island§!.\n"
  rpg_western_provinces_transfer_states_vancouver_island:0 "§Y[D44.GetName]§! becomes owner and controller of §YVancouver Island§!.\n"
+ #Central America
+ rpg_central_america:0 "Regional Puppet Government of Central America"
+ rpg_central_america_required_states_panama:0 "Controls §YPanama§!."
+ rpg_central_america_required_states_honduras:0 "Controls §YHonduras§!."
+ rpg_central_america_required_states_guatemala:0 "Controls §YGuatemala§!."
+ rpg_central_america_required_states_el_salvador:0 "Controls §YEl Salvador§!."
+ rpg_central_america_required_states_costa_rica:0 "Controls §YCosta Rica§!."
+ rpg_central_america_required_states_nicaragua:0 "Controls §YNicaragua§!."
+ rpg_central_america_coring_states:0 "§YCentral America§! gains cores on all listed states.\n"
+ rpg_central_america_transfer_states:0 "§YCentral America§! becomes owner and controller of all listed states.\n"
+ rpg_central_america_puppet:0 "§YCentral America§! becomes a puppet of §Y[Root.GetName]§!.\n"
  
