@@ -791,3 +791,17 @@ D46 = {
 	}
 	callsigns = { }
 }
+D47 = {
+	male = {
+		names = {
+			Amare Bekele Berhanu Saleh Haile Berihun Demissie Desta Geteye Girma Kelile Negasi
+		   }
+	}
+	female = {
+		names = { Habesha Abrihet Amhara Bekele Belkis Cheren Debtera Falasha Falashina Fannah Genat Hagos Jazarah Kayla Kelile Kelyle Kess Kifle Louama Nishan Nyala Qwara Retta Sheba Tsage Wagaye Yehudit Zala Zauditu Zeina Zena Zenia }
+	}
+	surnames = {
+		Selassie Mikael Mariam Melekot Seged Wossen Makonnen
+	 }
+	callsigns = { }
+}

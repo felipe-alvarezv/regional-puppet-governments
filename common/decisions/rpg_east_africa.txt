@@ -1,0 +1,137 @@
+rpg_category = {
+	rpg_east_africa = {
+		allowed = {
+			NOT = {
+				original_tag = ETH #Ethiopia
+				original_tag = ERI #Eritrea
+				original_tag = KEN #Kenya
+				original_tag = SOM #Somalia
+				original_tag = SUD #Sudan
+				original_tag = TZN #Tanzania
+				original_tag = UGA #Uganda
+				original_tag = D47 #East Africa
+			}
+		}
+		available = {
+			is_subject = no
+			#British Somaliland
+			custom_trigger_tooltip = {
+				tooltip = rpg_east_africa_required_states_british_somaliland
+				controls_state = 269 #British Somaliland
+			}
+			#Ethiopia
+			custom_trigger_tooltip = {
+				tooltip = rpg_east_africa_required_states_ethiopia
+				controls_state = 271 #Ethiopia
+			}
+			#Tanganyika
+			custom_trigger_tooltip = {
+				tooltip = rpg_east_africa_required_states_tanganyika
+				controls_state = 546 #Tanganyika
+			}
+			#Kenya
+			custom_trigger_tooltip = {
+				tooltip = rpg_east_africa_required_states_kenya
+				controls_state = 547 #Kenya
+			}
+			#Uganda
+			custom_trigger_tooltip = {
+				tooltip = rpg_east_africa_required_states_uganda
+				controls_state = 548 #Uganda
+			}
+			#Sudan
+			custom_trigger_tooltip = {
+				tooltip = rpg_east_africa_required_states_sudan
+				controls_state = 549 #Sudan
+			}
+			#Eritrea
+			custom_trigger_tooltip = {
+				tooltip = rpg_east_africa_required_states_eritrea
+				controls_state = 550 #Eritrea
+			}
+			#Khartoum
+			custom_trigger_tooltip = {
+				tooltip = rpg_east_africa_required_states_khartoum
+				controls_state = 551 #Khartoum
+			}
+			#Somaliland
+			custom_trigger_tooltip = {
+				tooltip = rpg_east_africa_required_states_somaliland
+				controls_state = 559 #Somaliland
+			}
+			#North Darfur
+			custom_trigger_tooltip = {
+				tooltip = rpg_east_africa_required_states_north_darfur
+				controls_state = 767 #North Darfur
+			}
+		}
+		visible = {
+			OR = {
+				controls_state = 271 #Ethiopia
+				controls_state = 546 #Tanganyika
+				controls_state = 547 #Kenya
+				controls_state = 548 #Uganda
+				controls_state = 549 #Sudan
+				controls_state = 550 #Eritrea
+				controls_state = 551 #Khartoum
+				controls_state = 559 #Somaliland
+				controls_state = 767 #North Darfur
+			}
+			NOT = { 
+				original_tag = ETH #Ethiopia
+				original_tag = ERI #Eritrea
+				original_tag = KEN #Kenya
+				original_tag = SOM #Somalia
+				original_tag = SUD #Sudan
+				original_tag = TZN #Tanzania
+				original_tag = UGA #Uganda
+				original_tag = D47 #East Africa
+                has_global_flag = rpg_east_africa_flag
+            }
+		}
+		complete_effect = {
+			hidden_effect = {
+				D47 = {
+					transfer_state = 269 #British Somaliland
+					transfer_state = 271 #Ethiopia
+					transfer_state = 546 #Tanganyika
+					transfer_state = 547 #Kenya
+					transfer_state = 548 #Uganda
+					transfer_state = 549 #Sudan
+					transfer_state = 550 #Eritrea
+					transfer_state = 551 #Khartoum
+					transfer_state = 559 #Somaliland
+					transfer_state = 767 #North Darfur
+				}
+			}
+			custom_effect_tooltip = rpg_east_africa_coring_states
+			custom_effect_tooltip = rpg_east_africa_transfer_states
+			#Core All Owned States and Puppet
+			custom_effect_tooltip = rpg_east_africa_puppet
+			hidden_effect = {
+				every_state = {
+					limit = {
+						is_owned_by = D47
+					}
+					add_core_of = D47
+				}
+				puppet = D47
+			}
+			#News event, set local flag, and set global flag
+			hidden_effect = {
+				ROOT = {
+					set_country_flag = rpg_east_africa_country_flag
+				}
+				news_event = { id = rpg_news.27 hours = 6 }
+				set_global_flag = rpg_east_africa_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}

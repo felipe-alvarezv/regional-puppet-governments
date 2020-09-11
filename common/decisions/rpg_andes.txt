@@ -14,7 +14,7 @@ rpg_category = {
 			#La Paz
 			custom_trigger_tooltip = {
 				tooltip = rpg_andes_required_states_la_paz
-				controls_state = 302
+				controls_state = 302 #La Paz
 			}
 			#Lima
 			custom_trigger_tooltip = {

@@ -1,0 +1,51 @@
+rpg_category_territories_east_africa = {
+	rpg_east_africa_french_somaliland = {
+		allowed = {
+			NOT = {
+				original_tag = DJI #Djibouti
+				original_tag = D47 #East Africa
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_east_africa_required_states_french_somaliland
+                controls_state = 268 #French Somaliland
+			}
+		}
+		visible = {
+            has_global_flag = rpg_east_africa_flag
+			D45 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = DJI #Djibouti
+				original_tag = D47 #East Africa
+                has_global_flag = rpg_east_africa_french_somaliland_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_east_africa_coring_states_french_somaliland
+			custom_effect_tooltip = rpg_east_africa_transfer_states_french_somaliland
+			hidden_effect = {
+				268 = { add_core_of = D45 } #French Somaliland
+				D45 = {
+					transfer_state = 268 #French Somaliland
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_east_africa_french_somaliland_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
