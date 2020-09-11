@@ -1,0 +1,132 @@
+rpg_category = {
+	rpg_andes = {
+		allowed = {
+			NOT = {
+				original_tag = BOL #Bolivia
+				original_tag = COL #Colombia
+				original_tag = ECU #Ecuador
+				original_tag = PRU #Peru
+				original_tag = D46 #Andes
+			}
+		}
+		available = {
+			is_subject = no
+			#La Paz
+			custom_trigger_tooltip = {
+				tooltip = rpg_andes_required_states_la_paz
+				controls_state = 302
+			}
+			#Lima
+			custom_trigger_tooltip = {
+				tooltip = rpg_andes_required_states_lima
+				controls_state = 303 #Lima
+			}
+			#Ecuador
+			custom_trigger_tooltip = {
+				tooltip = rpg_andes_required_states_ecuador
+				controls_state = 305 #Ecuador
+			}
+			#Cundinamarca
+			custom_trigger_tooltip = {
+				tooltip = rpg_andes_required_states_cundinamarca
+				controls_state = 306 #Cundinamarca
+			}
+			#Meta
+			custom_trigger_tooltip = {
+				tooltip = rpg_andes_required_states_meta
+				controls_state = 486 #Meta
+			}
+			#Santa Cruz
+			custom_trigger_tooltip = {
+				tooltip = rpg_andes_required_states_santa_cruz
+				controls_state = 487 #Santa Cruz
+			}
+			#Pastaza
+			custom_trigger_tooltip = {
+				tooltip = rpg_andes_required_states_pastaza
+				controls_state = 490 #Pastaza
+			}
+			#Loreto
+			custom_trigger_tooltip = {
+				tooltip = rpg_andes_required_states_loreto
+				controls_state = 491 #Loreto
+			}
+			#Arequipa
+			custom_trigger_tooltip = {
+				tooltip = rpg_andes_required_states_arequipa
+				controls_state = 492 #Arequipa
+			}
+			#La Libertad
+			custom_trigger_tooltip = {
+				tooltip = rpg_andes_required_states_la_libertad
+				controls_state = 493 #La Libertad
+			}
+			#Ucayali
+			custom_trigger_tooltip = {
+				tooltip = rpg_andes_required_states_ucayali
+				controls_state = 494 #Ucayali
+			}
+		}
+		visible = {
+			OR = {
+				controls_state = 302 #La Paz
+				controls_state = 303 #Lima
+				controls_state = 305 #Ecuador
+				controls_state = 306 #Cundinamarca
+			}
+			NOT = { 
+				original_tag = BOL #Bolivia
+                original_tag = COL #Colombia
+				original_tag = ECU #Ecuador
+				original_tag = PRU #Peru
+				original_tag = D46 #Andes
+                has_global_flag = rpg_andes_flag
+            }
+		}
+		complete_effect = {
+			hidden_effect = {
+				D46 = {
+					transfer_state = 302 #La Paz
+					transfer_state = 303 #Lima
+					transfer_state = 305 #Ecuador
+					transfer_state = 306 #Cundinamarca
+					transfer_state = 486 #Meta
+					transfer_state = 487 #Santa Cruz
+					transfer_state = 490 #Pastaza
+					transfer_state = 491 #Loreto
+					transfer_state = 492 #Arequipa
+					transfer_state = 493 #La Libertad
+					transfer_state = 494 #Ucayali
+				}
+			}
+			custom_effect_tooltip = rpg_andes_coring_states
+			custom_effect_tooltip = rpg_andes_transfer_states
+			#Core All Owned States and Puppet
+			custom_effect_tooltip = rpg_andes_puppet
+			hidden_effect = {
+				every_state = {
+					limit = {
+						is_owned_by = D46
+					}
+					add_core_of = D46
+				}
+				puppet = D46
+			}
+			#News event, set local flag, and set global flag
+			hidden_effect = {
+				ROOT = {
+					set_country_flag = rpg_andes_country_flag
+				}
+				news_event = { id = rpg_news.26 hours = 6 }
+				set_global_flag = rpg_andes_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}

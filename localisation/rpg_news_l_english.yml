@@ -181,3 +181,10 @@
  rpg_news.25.b:0 "A toast to our new friends!"
  rpg_news.25.c:0 "They are nothing but a lackey!"
  rpg_news.25.d:0 "Interesting"
+ #Andes
+ rpg_news.26.t:0 "Formation of the [D46.GetName]"
+ rpg_news.26.desc:0 "[Root.GetAdjective] military officials have announced the establishment of a regional government in the Andes. Officially known as [D46.GetNameDef], they have been granted autonomy to maintain order and control in the region.  The leader of [D46.GetNameDef], [D46.GetLeader], has publicly announced their full support towards the [Root.GetAdjective] cause.  The nations who are aligned with [Root.GetNameDef] have supported this decision, while the rest of the world has called [D46.GetNameDef] just a [Root.GetAdjective] lapdog."
+ rpg_news.26.a:0 "We will prove our strength to the world!"
+ rpg_news.26.b:0 "A toast to our new friends!"
+ rpg_news.26.c:0 "They are nothing but a lackey!"
+ rpg_news.26.d:0 "Interesting"
