@@ -1,0 +1,935 @@
+rpg_category_territories_andes = {
+	rpg_andes_pampas = {
+		allowed = {
+			NOT = {
+				original_tag = ARG #Argentina
+				original_tag = D46 #Andes
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_andes_required_states_pampas
+				controls_state = 278 #Pampas
+			}
+		}
+		visible = {
+			has_global_flag = rpg_andes_flag
+			D46 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+				original_tag = ARG #Argentina
+				original_tag = D46 #Andes
+				has_global_flag = rpg_andes_pampas_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_andes_coring_states_pampas
+			custom_effect_tooltip = rpg_andes_transfer_states_pampas
+			hidden_effect = {
+				278 = { add_core_of = D46 } #Pampas
+				D46 = {
+					transfer_state = 278 #Pampas
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_andes_pampas_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_andes_santiago = {
+		allowed = {
+			NOT = {
+				original_tag = CHL #Chile
+				original_tag = D46 #Andes
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_andes_required_states_santiago
+				controls_state = 279 #Santiago
+			}
+		}
+		visible = {
+			has_global_flag = rpg_andes_flag
+			D46 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+				original_tag = CHL #Chile
+				original_tag = D46 #Andes
+				has_global_flag = rpg_andes_santiago_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_andes_coring_states_santiago
+			custom_effect_tooltip = rpg_andes_transfer_states_santiago
+			hidden_effect = {
+				279 = { add_core_of = D46 } #Santiago
+				D46 = {
+					transfer_state = 279 #Santiago
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_andes_santiago_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_andes_falkland_islands = {
+		allowed = {
+			NOT = {
+				original_tag = ARG #Argentina
+				original_tag = D46 #Andes
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_andes_required_states_falkland_islands
+				controls_state = 299 #Falkland Islands
+			}
+		}
+		visible = {
+			has_global_flag = rpg_andes_flag
+			D46 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+				original_tag = ARG #Argentina
+				original_tag = D46 #Andes
+				has_global_flag = rpg_andes_falkland_islands_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_andes_coring_states_falkland_islands
+			custom_effect_tooltip = rpg_andes_transfer_states_falkland_islands
+			hidden_effect = {
+				299 = { add_core_of = D46 } #Falkland Islands
+				D46 = {
+					transfer_state = 299 #Falkland Islands
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_andes_falkland_islands_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_andes_uruguay = {
+		allowed = {
+			NOT = {
+				original_tag = URG #Uruguay
+				original_tag = D46 #Andes
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_andes_required_states_uruguay
+				controls_state = 300 #Uruguay
+			}
+		}
+		visible = {
+			has_global_flag = rpg_andes_flag
+			D46 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+				original_tag = URG #Uruguay
+				original_tag = D46 #Andes
+				has_global_flag = rpg_andes_uruguay_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_andes_coring_states_uruguay
+			custom_effect_tooltip = rpg_andes_transfer_states_uruguay
+			hidden_effect = {
+				300 = { add_core_of = D46 } #Uruguay
+				D46 = {
+					transfer_state = 300 #Uruguay
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_andes_uruguay_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_andes_paraguay = {
+		allowed = {
+			NOT = {
+				original_tag = PAR #Paraguay
+				original_tag = D46 #Andes
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_andes_required_states_paraguay
+				controls_state = 301 #Paraguay
+			}
+		}
+		visible = {
+			has_global_flag = rpg_andes_flag
+			D46 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+				original_tag = PAR #Paraguay
+				original_tag = D46 #Andes
+				has_global_flag = rpg_andes_paraguay_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_andes_coring_states_paraguay
+			custom_effect_tooltip = rpg_andes_transfer_states_paraguay
+			hidden_effect = {
+				301 = { add_core_of = D46 } #Paraguay
+				D46 = {
+					transfer_state = 301 #Paraguay
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_andes_paraguay_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_andes_miranda = {
+		allowed = {
+			NOT = {
+				original_tag = VEN #Venezuela
+				original_tag = D46 #Andes
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_andes_required_states_miranda
+				controls_state = 307 #Miranda
+			}
+		}
+		visible = {
+			has_global_flag = rpg_andes_flag
+			D46 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+				original_tag = VEN #Venezuela
+				original_tag = D46 #Andes
+				has_global_flag = rpg_andes_miranda_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_andes_coring_states_miranda
+			custom_effect_tooltip = rpg_andes_transfer_states_miranda
+			hidden_effect = {
+				307 = { add_core_of = D46 } #Miranda
+				D46 = {
+					transfer_state = 307 #Miranda
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_andes_miranda_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_andes_bolivar = {
+		allowed = {
+			NOT = {
+				original_tag = VEN #Venezuela
+				original_tag = D46 #Andes
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_andes_required_states_bolivar
+				controls_state = 488 #Bolivar
+			}
+		}
+		visible = {
+			has_global_flag = rpg_andes_flag
+			D46 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+				original_tag = VEN #Venezuela
+				original_tag = D46 #Andes
+				has_global_flag = rpg_andes_bolivar_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_andes_coring_states_bolivar
+			custom_effect_tooltip = rpg_andes_transfer_states_bolivar
+			hidden_effect = {
+				488 = { add_core_of = D46 } #Bolivar
+				D46 = {
+					transfer_state = 488 #Bolivar
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_andes_bolivar_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_andes_zulia = {
+		allowed = {
+			NOT = {
+				original_tag = VEN #Venezuela
+				original_tag = D46 #Andes
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_andes_required_states_zulia
+				controls_state = 489 #Zulia
+			}
+		}
+		visible = {
+			has_global_flag = rpg_andes_flag
+			D46 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+				original_tag = VEN #Venezuela
+				original_tag = D46 #Andes
+				has_global_flag = rpg_andes_zulia_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_andes_coring_states_zulia
+			custom_effect_tooltip = rpg_andes_transfer_states_zulia
+			hidden_effect = {
+				489 = { add_core_of = D46 } #Zulia
+				D46 = {
+					transfer_state = 489 #Zulia
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_andes_zulia_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_andes_antofagasta = {
+		allowed = {
+			NOT = {
+				original_tag = CHL #Chile
+				original_tag = D46 #Andes
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_andes_required_states_antofagasta
+				controls_state = 506 #Antofagasta
+			}
+		}
+		visible = {
+			has_global_flag = rpg_andes_flag
+			D46 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+				original_tag = CHL #Chile
+				original_tag = D46 #Andes
+				has_global_flag = rpg_andes_antofagasta_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_andes_coring_states_antofagasta
+			custom_effect_tooltip = rpg_andes_transfer_states_antofagasta
+			hidden_effect = {
+				506 = { add_core_of = D46 } #Antofagasta
+				D46 = {
+					transfer_state = 506 #Antofagasta
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_andes_antofagasta_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_andes_magallanes = {
+		allowed = {
+			NOT = {
+				original_tag = CHL #Chile
+				original_tag = D46 #Andes
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_andes_required_states_magallanes
+				controls_state = 507 #Magallanes
+			}
+		}
+		visible = {
+			has_global_flag = rpg_andes_flag
+			D46 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+				original_tag = CHL #Chile
+				original_tag = D46 #Andes
+				has_global_flag = rpg_andes_magallanes_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_andes_coring_states_magallanes
+			custom_effect_tooltip = rpg_andes_transfer_states_magallanes
+			hidden_effect = {
+				507 = { add_core_of = D46 } #Magallanes
+				D46 = {
+					transfer_state = 507 #Magallanes
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_andes_magallanes_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_andes_tucuman = {
+		allowed = {
+			NOT = {
+				original_tag = ARG #Argentina
+				original_tag = D46 #Andes
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_andes_required_states_tucuman
+				controls_state = 508 #Tucuman
+			}
+		}
+		visible = {
+			has_global_flag = rpg_andes_flag
+			D46 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+				original_tag = ARG #Argentina
+				original_tag = D46 #Andes
+				has_global_flag = rpg_andes_tucuman_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_andes_coring_states_tucuman
+			custom_effect_tooltip = rpg_andes_transfer_states_tucuman
+			hidden_effect = {
+				508 = { add_core_of = D46 } #Tucuman
+				D46 = {
+					transfer_state = 508 #Tucuman
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_andes_tucuman_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_andes_chaco_austral = {
+		allowed = {
+			NOT = {
+				original_tag = ARG #Argentina
+				original_tag = D46 #Andes
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_andes_required_states_chaco_austral
+				controls_state = 509 #Chaco Austral
+			}
+		}
+		visible = {
+			has_global_flag = rpg_andes_flag
+			D46 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+				original_tag = ARG #Argentina
+				original_tag = D46 #Andes
+				has_global_flag = rpg_andes_chaco_austral_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_andes_coring_states_chaco_austral
+			custom_effect_tooltip = rpg_andes_transfer_states_chaco_austral
+			hidden_effect = {
+				509 = { add_core_of = D46 } #Chaco Austral
+				D46 = {
+					transfer_state = 509 #Chaco Austral
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_andes_chaco_austral_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_andes_mesopotamia = {
+		allowed = {
+			NOT = {
+				original_tag = ARG #Argentina
+				original_tag = D46 #Andes
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_andes_required_states_mesopotamia
+				controls_state = 510 #Mesopotamia
+			}
+		}
+		visible = {
+			has_global_flag = rpg_andes_flag
+			D46 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+				original_tag = ARG #Argentina
+				original_tag = D46 #Andes
+				has_global_flag = rpg_andes_mesopotamia_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_andes_coring_states_mesopotamia
+			custom_effect_tooltip = rpg_andes_transfer_states_mesopotamia
+			hidden_effect = {
+				510 = { add_core_of = D46 } #Mesopotamia
+				D46 = {
+					transfer_state = 510 #Mesopotamia
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_andes_mesopotamia_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_andes_mendoza = {
+		allowed = {
+			NOT = {
+				original_tag = ARG #Argentina
+				original_tag = D46 #Andes
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_andes_required_states_mendoza
+				controls_state = 511 #Mendoza
+			}
+		}
+		visible = {
+			has_global_flag = rpg_andes_flag
+			D46 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+				original_tag = ARG #Argentina
+				original_tag = D46 #Andes
+				has_global_flag = rpg_andes_mendoza_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_andes_coring_states_mendoza
+			custom_effect_tooltip = rpg_andes_transfer_states_mendoza
+			hidden_effect = {
+				511 = { add_core_of = D46 } #Mendoza
+				D46 = {
+					transfer_state = 511 #Mendoza
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_andes_mendoza_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_andes_patagonia = {
+		allowed = {
+			NOT = {
+				original_tag = ARG #Argentina
+				original_tag = D46 #Andes
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_andes_required_states_patagonia
+				controls_state = 512 #Patagonia
+			}
+		}
+		visible = {
+			has_global_flag = rpg_andes_flag
+			D46 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+				original_tag = ARG #Argentina
+				original_tag = D46 #Andes
+				has_global_flag = rpg_andes_patagonia_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_andes_coring_states_patagonia
+			custom_effect_tooltip = rpg_andes_transfer_states_patagonia
+			hidden_effect = {
+				512 = { add_core_of = D46 } #Patagonia
+				D46 = {
+					transfer_state = 512 #Patagonia
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_andes_patagonia_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_andes_galapagos_islands = {
+		allowed = {
+			NOT = {
+				original_tag = ECU #Ecuador
+				original_tag = D46 #Andes
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_andes_required_states_galapagos_islands
+				controls_state = 649 #Galapagos Islands
+			}
+		}
+		visible = {
+			has_global_flag = rpg_andes_flag
+			D46 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+				original_tag = ECU #Ecuador
+				original_tag = D46 #Andes
+				has_global_flag = rpg_andes_galapagos_islands_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_andes_coring_states_galapagos_islands
+			custom_effect_tooltip = rpg_andes_transfer_states_galapagos_islands
+			hidden_effect = {
+				649 = { add_core_of = D46 } #Galapagos Islands
+				D46 = {
+					transfer_state = 649 #Galapagos Islands
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_andes_galapagos_islands_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_andes_chaco_boreal = {
+		allowed = {
+			NOT = {
+				original_tag = BOL #Bolivia
+				original_tag = PAR #Paraguay
+				original_tag = D46 #Andes
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_andes_required_states_chaco_boreal
+				controls_state = 688 #Chaco Boreal
+			}
+		}
+		visible = {
+			has_global_flag = rpg_andes_flag
+			D46 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+				original_tag = BOL #Bolivia
+				original_tag = PAR #Paraguay
+				original_tag = D46 #Andes
+				has_global_flag = rpg_andes_chaco_boreal_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_andes_coring_states_chaco_boreal
+			custom_effect_tooltip = rpg_andes_transfer_states_chaco_boreal
+			hidden_effect = {
+				688 = { add_core_of = D46 } #Chaco Boreal
+				D46 = {
+					transfer_state = 688 #Chaco Boreal
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_andes_chaco_boreal_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_andes_trinidad = {
+		allowed = {
+			NOT = {
+				original_tag = TRI #Trinidad
+				original_tag = D46 #Andes
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_andes_required_states_trinidad
+				controls_state = 691 #Trinidad
+			}
+		}
+		visible = {
+			has_global_flag = rpg_andes_flag
+			D46 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+				original_tag = TRI #Trinidad
+				original_tag = D46 #Andes
+				has_global_flag = rpg_andes_trinidad_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_andes_coring_states_trinidad
+			custom_effect_tooltip = rpg_andes_transfer_states_trinidad
+			hidden_effect = {
+				691 = { add_core_of = D46 } #Trinidad
+				D46 = {
+					transfer_state = 691 #Trinidad
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_andes_trinidad_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_andes_curacao = {
+		allowed = {
+			NOT = {
+				original_tag = CRC #Curacao
+				original_tag = D46 #Andes
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_andes_required_states_curacao
+				controls_state = 695 #Curacao
+			}
+		}
+		visible = {
+			has_global_flag = rpg_andes_flag
+			D46 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+				original_tag = CRC #Curacao
+				original_tag = D46 #Andes
+				has_global_flag = rpg_andes_curacao_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_andes_coring_states_curacao
+			custom_effect_tooltip = rpg_andes_transfer_states_curacao
+			hidden_effect = {
+				695 = { add_core_of = D46 } #Curacao
+				D46 = {
+					transfer_state = 695 #Curacao
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_andes_curacao_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}

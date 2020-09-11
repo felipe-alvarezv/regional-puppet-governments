@@ -1,4 +1,5 @@
 rpg_category = { }
+rpg_category_territories_andes = { }
 rpg_category_territories_arabia = { }
 rpg_category_territories_baltic = { }
 rpg_category_territories_benelux = { }
