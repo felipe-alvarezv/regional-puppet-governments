@@ -48,4 +48,249 @@ rpg_category_territories_east_africa = {
 			}
 		}
 	}
+	rpg_east_africa_madagascar = {
+		allowed = {
+			NOT = {
+				original_tag = MAD #Madagascar
+				original_tag = D47 #East Africa
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_east_africa_required_states_madagascar
+                controls_state = 543 #Madagascar
+			}
+		}
+		visible = {
+            has_global_flag = rpg_east_africa_flag
+			D45 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = MAD #Madagascar
+				original_tag = D47 #East Africa
+                has_global_flag = rpg_east_africa_madagascar_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_east_africa_coring_states_madagascar
+			custom_effect_tooltip = rpg_east_africa_transfer_states_madagascar
+			hidden_effect = {
+				543 = { add_core_of = D45 } #Madagascar
+				D45 = {
+					transfer_state = 543 #Madagascar
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_east_africa_madagascar_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_east_africa_reunion = {
+		allowed = {
+			NOT = {
+				original_tag = MAD #Madagascar
+				original_tag = D47 #East Africa
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_east_africa_required_states_reunion
+                controls_state = 706 #Reunion
+			}
+		}
+		visible = {
+            has_global_flag = rpg_east_africa_flag
+			D45 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = MAD #Madagascar
+				original_tag = D47 #East Africa
+                has_global_flag = rpg_east_africa_reunion_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_east_africa_coring_states_reunion
+			custom_effect_tooltip = rpg_east_africa_transfer_states_reunion
+			hidden_effect = {
+				706 = { add_core_of = D45 } #Reunion
+				D45 = {
+					transfer_state = 706 #Reunion
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_east_africa_reunion_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_east_africa_mauritius = {
+		allowed = {
+			NOT = {
+				original_tag = MAD #Madagascar
+				original_tag = D47 #East Africa
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_east_africa_required_states_mauritius
+                controls_state = 707 #Mauritius
+			}
+		}
+		visible = {
+            has_global_flag = rpg_east_africa_flag
+			D45 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = MAD #Madagascar
+				original_tag = D47 #East Africa
+                has_global_flag = rpg_east_africa_mauritius_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_east_africa_coring_states_mauritius
+			custom_effect_tooltip = rpg_east_africa_transfer_states_mauritius
+			hidden_effect = {
+				707 = { add_core_of = D45 } #Mauritius
+				D45 = {
+					transfer_state = 707 #Mauritius
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_east_africa_mauritius_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_east_africa_comoro_islands = {
+		allowed = {
+			NOT = {
+				original_tag = MAD #Madagascar
+				original_tag = D47 #East Africa
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_east_africa_required_states_comoro_islands
+                controls_state = 708 #Comoro Islands
+			}
+		}
+		visible = {
+            has_global_flag = rpg_east_africa_flag
+			D45 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = MAD #Madagascar
+				original_tag = D47 #East Africa
+                has_global_flag = rpg_east_africa_comoro_islands_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_east_africa_coring_states_comoro_islands
+			custom_effect_tooltip = rpg_east_africa_transfer_states_comoro_islands
+			hidden_effect = {
+				708 = { add_core_of = D45 } #Comoro Islands
+				D45 = {
+					transfer_state = 708 #Comoro Islands
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_east_africa_comoro_islands_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_east_africa_seychelles = {
+		allowed = {
+			NOT = {
+				original_tag = MAD #Madagascar
+				original_tag = D47 #East Africa
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_east_africa_required_states_seychelles
+                controls_state = 709 #Seychelles
+			}
+		}
+		visible = {
+            has_global_flag = rpg_east_africa_flag
+			D45 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = MAD #Madagascar
+				original_tag = D47 #East Africa
+                has_global_flag = rpg_east_africa_seychelles_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_east_africa_coring_states_seychelles
+			custom_effect_tooltip = rpg_east_africa_transfer_states_seychelles
+			hidden_effect = {
+				709 = { add_core_of = D45 } #Seychelles
+				D45 = {
+					transfer_state = 709 #Seychelles
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_east_africa_seychelles_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
 }
