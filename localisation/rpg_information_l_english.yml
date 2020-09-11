@@ -822,4 +822,15 @@
  rpg_central_america_coring_states:0 "§YCentral America§! gains cores on all listed states.\n"
  rpg_central_america_transfer_states:0 "§YCentral America§! becomes owner and controller of all listed states.\n"
  rpg_central_america_puppet:0 "§YCentral America§! becomes a puppet of §Y[Root.GetName]§!.\n"
+ rpg_category_territories_central_america:0 "Transfer Territory to [D45.GetName]"
+ rpg_category_territories_central_america_desc:0 ""
+ rpg_western_provinces_british_honduras:0 "Transfer British Honduras"
+ rpg_western_provinces_required_states_british_honduras:0 "Controls §YBritish Honduras§!."
+ rpg_western_provinces_coring_states_british_honduras:0 "§Y[D45.GetName]§! gains core on §YBritish Honduras§!.\n"
+ rpg_western_provinces_transfer_states_british_honduras:0 "§Y[D45.GetName]§! becomes owner and controller of §YBritish Honduras§!.\n"
+ rpg_western_provinces_panama_canal:0 "Transfer Panama Canal"
+ rpg_western_provinces_required_states_panama_canal:0 "Controls §YPanama Canal§!."
+ rpg_western_provinces_coring_states_panama_canal:0 "§Y[D45.GetName]§! gains core on §YPanama Canal§!.\n"
+ rpg_western_provinces_transfer_states_panama_canal:0 "§Y[D45.GetName]§! becomes owner and controller of §YPanama Canal§!.\n"
+ 
  

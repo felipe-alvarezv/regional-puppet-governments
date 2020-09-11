@@ -1,0 +1,100 @@
+rpg_category_territories_central_america = {
+	rpg_central_america_british_honduras = {
+		allowed = {
+			NOT = {
+				original_tag = BLZ #Belize
+				original_tag = D45 #Central America
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_central_america_required_states_british_honduras
+                controls_state = 311 #British Honduras
+			}
+		}
+		visible = {
+            has_global_flag = rpg_central_america_flag
+			D45 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = BLZ #Belize
+				original_tag = D45 #Central America
+                has_global_flag = rpg_central_america_british_honduras_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_central_america_coring_states_british_honduras
+			custom_effect_tooltip = rpg_central_america_transfer_states_british_honduras
+			hidden_effect = {
+				311 = { add_core_of = D45 } #British Honduras
+				D45 = {
+					transfer_state = 311 #British Honduras
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_central_america_british_honduras_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_central_america_panama_canal = {
+		allowed = {
+			NOT = {
+				original_tag = PAN #Panama
+				original_tag = D45 #Central America
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_central_america_required_states_panama_canal
+                controls_state = 685 #Panama Canal
+			}
+		}
+		visible = {
+            has_global_flag = rpg_central_america_flag
+			D45 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = PAM #Panama
+				original_tag = D45 #Central America
+                has_global_flag = rpg_central_america_panama_canal_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_central_america_coring_states_panama_canal
+			custom_effect_tooltip = rpg_central_america_transfer_states_panama_canal
+			hidden_effect = {
+				685 = { add_core_of = D45 } #Panama Canal
+				D45 = {
+					transfer_state = 685 #Panama Canal
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_central_america_panama_canal_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
