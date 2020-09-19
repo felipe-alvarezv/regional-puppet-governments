@@ -1,4 +1,58 @@
 rpg_category_territories_south_germany = {
+	rpg_south_germany_lower_austria= {
+		allowed = {
+			NOT = {
+				original_tag = AUS #Austria
+				original_tag = GER #Germany
+				original_tag = D23 #Germany
+				original_tag = D29 #South Germany
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_south_germany_required_states_lower_austria
+                controls_state = 4 #Lower Austria
+			}
+		}
+		visible = {
+            has_global_flag = rpg_south_germany_flag
+			D29 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = AUS #Austria
+				original_tag = GER #Germany
+				original_tag = D23 #Germany
+				original_tag = D29 #South Germany
+				has_global_flag = rpg_united_germany_flag
+                has_global_flag = rpg_south_germany_lower_austria_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_south_germany_coring_states_lower_austria
+			custom_effect_tooltip = rpg_south_germany_transfer_states_lower_austria
+			hidden_effect = {
+				4 = { add_core_of = D29 } #Lower Austria
+				D29 = {
+					transfer_state = 4 #Lower Austria
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_south_germany_lower_austria_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
 	rpg_south_germany_south_tyrol= {
 		allowed = {
 			NOT = {
@@ -101,6 +155,114 @@ rpg_category_territories_south_germany = {
 			}
 			hidden_effect = {
 				set_global_flag = rpg_south_germany_slovenia_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_south_germany_upper_austria= {
+		allowed = {
+			NOT = {
+				original_tag = AUS #Austria
+				original_tag = GER #Germany
+				original_tag = D23 #Germany
+				original_tag = D29 #South Germany
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_south_germany_required_states_upper_austria
+                controls_state = 152 #Upper Austria
+			}
+		}
+		visible = {
+            has_global_flag = rpg_south_germany_flag
+			D29 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = AUS #Austria
+				original_tag = GER #Germany
+				original_tag = D23 #Germany
+				original_tag = D29 #South Germany
+				has_global_flag = rpg_united_germany_flag
+                has_global_flag = rpg_south_germany_upper_austria_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_south_germany_coring_states_upper_austria
+			custom_effect_tooltip = rpg_south_germany_transfer_states_upper_austria
+			hidden_effect = {
+				152 = { add_core_of = D29 } #Upper Austria
+				D29 = {
+					transfer_state = 152 #Upper Austria
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_south_germany_upper_austria_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_south_germany_tyrol= {
+		allowed = {
+			NOT = {
+				original_tag = AUS #Austria
+				original_tag = GER #Germany
+				original_tag = D23 #Germany
+				original_tag = D29 #South Germany
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_south_germany_required_states_tyrol
+                controls_state = 153 #Tyrol
+			}
+		}
+		visible = {
+            has_global_flag = rpg_south_germany_flag
+			D29 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = AUS #Austria
+				original_tag = GER #Germany
+				original_tag = D23 #Germany
+				original_tag = D29 #South Germany
+				has_global_flag = rpg_united_germany_flag
+                has_global_flag = rpg_south_germany_tyrol_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_south_germany_coring_states_tyrol
+			custom_effect_tooltip = rpg_south_germany_transfer_states_tyrol
+			hidden_effect = {
+				153 = { add_core_of = D29 } #Tyrol
+				D29 = {
+					transfer_state = 153 #Tyrol
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_south_germany_tyrol_flag
 			}
 		}
 		ai_will_do = {

@@ -1,4 +1,4 @@
-capital = 365 #Georgia
+capital = 362 #Virginia
 oob = "D37_1936"
 
 set_research_slots = 3

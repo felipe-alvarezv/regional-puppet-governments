@@ -85,32 +85,39 @@ rpg_category = {
 		}
 		complete_effect = {
 			hidden_effect = {
-				D46 = {
-					transfer_state = 302 #La Paz
-					transfer_state = 303 #Lima
-					transfer_state = 305 #Ecuador
-					transfer_state = 306 #Cundinamarca
-					transfer_state = 486 #Meta
-					transfer_state = 487 #Santa Cruz
-					transfer_state = 490 #Pastaza
-					transfer_state = 491 #Loreto
-					transfer_state = 492 #Arequipa
-					transfer_state = 493 #La Libertad
-					transfer_state = 494 #Ucayali
-				}
+				302 = { add_core_of = D46 } #La Paz
+				303 = { add_core_of = D46 } #Lima
+				305 = { add_core_of = D46 } #Ecuador
+				306 = { add_core_of = D46 } #Cundinamarca
+				486 = { add_core_of = D46 } #Meta
+				487 = { add_core_of = D46 } #Santa Cruz
+				490 = { add_core_of = D46 } #Pastaza
+				491 = { add_core_of = D46 } #Loreto
+				492 = { add_core_of = D46 } #Arequipa
+				493 = { add_core_of = D46 } #La Libertad
+				494 = { add_core_of = D46 } #Ucayali
 			}
 			custom_effect_tooltip = rpg_andes_coring_states
 			custom_effect_tooltip = rpg_andes_transfer_states
-			#Core All Owned States and Puppet
-			custom_effect_tooltip = rpg_andes_puppet
+			#Set compliance to 80 in all cores and instantiate collaboration government
+			custom_effect_tooltip = rpg_north_africa_puppet
 			hidden_effect = {
 				every_state = {
 					limit = {
-						is_owned_by = D46
+						is_core_of = D46
 					}
-					add_core_of = D46
+					set_compliance = 80
 				}
-				puppet = D46
+				
+				if = {
+					limit = { has_dlc = "La Resistance" }
+					set_temp_variable = { country_to_initiate = D46 }
+					instantiate_collaboration_government = yes
+				}
+				else = {
+					release = D46
+					puppet = D46
+				}
 			}
 			#News event, set local flag, and set global flag
 			hidden_effect = {

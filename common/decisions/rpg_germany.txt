@@ -2,7 +2,6 @@ rpg_category = {
 	rpg_germany = {
 		allowed = {
 			NOT = {
-				original_tag = AUS #Austria
 				original_tag = GER #Germany
 				original_Tag = D23 #Germany
 				original_tag = D27 #North Germany
@@ -11,13 +10,6 @@ rpg_category = {
 		}
 		available = {
 			is_subject = no
-			#Lower Austria
-			custom_trigger_tooltip = {
-				tooltip = rpg_germany_required_states_franken
-				D29 = {
-					controls_state = 4 #Lower Austria
-				}
-			}
 			#Moselland
 			custom_trigger_tooltip = {
 				tooltip = rpg_germany_required_states_moselland
@@ -158,20 +150,6 @@ rpg_category = {
 					controls_state = 68 #Ostmark
 				}
 			}
-			#Upper Austria
-			custom_trigger_tooltip = {
-				tooltip = rpg_germany_required_states_upper_austria
-				D29 = {
-					controls_state = 152 #Upper Austria
-				}
-			}
-			#Tyrol
-			custom_trigger_tooltip = {
-				tooltip = rpg_germany_required_states_tyrol
-				D29 = {
-					controls_state = 153 #Tyrol
-				}
-			}
 		}
 		visible = {
 			D27 = {
@@ -183,7 +161,6 @@ rpg_category = {
 			has_country_flag = rpg_north_germany_country_flag
 			has_country_flag = rpg_south_germany_country_flag
 			NOT = {
-                original_tag = AUS #Austria
 				original_tag = GER #Germany
 				original_Tag = D23 #Germany
 				original_tag = D27 #North Germany

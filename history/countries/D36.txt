@@ -1,4 +1,4 @@
-capital = 361 #Maryland
+capital = 358 #New York
 oob = "D36_1936"
 
 set_research_slots = 3

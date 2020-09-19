@@ -127,40 +127,47 @@ rpg_category = {
 		}
 		complete_effect = {
 			hidden_effect = {
-				D20 = {
-					transfer_state = 113 #Leinster
-					transfer_state = 119 #Northern Ireland
-					transfer_state = 120 #Scottish Highlands
-					transfer_state = 121 #Lothian
-					transfer_state = 122 #Wales
-					transfer_state = 123 #South-West England
-					transfer_state = 125 #East Anglia
-					transfer_state = 126 #Greater London Area
-					transfer_state = 127 #Sussex
-					transfer_state = 128 #West Midlands
-					transfer_state = 129 #East Midlands
-					transfer_state = 130 #Yorkshire
-					transfer_state = 131 #Northern England
-					transfer_state = 132 #Lancashire
-					transfer_state = 133 #Lanark
-					transfer_state = 134 #Connaught
-					transfer_state = 135 #Munster
-					transfer_state = 136 #Aberdeenshire
-					transfer_state = 338 #Gloucestershire
-				}
+				113 = { add_core_of = D20 } #Leinster
+				119 = { add_core_of = D20 } #Northern Ireland
+				120 = { add_core_of = D20 } #Scottish Highlands
+				121 = { add_core_of = D20 } #Lothian
+				122 = { add_core_of = D20 } #Wales
+				123 = { add_core_of = D20 } #South-West England
+				125 = { add_core_of = D20 } #East Anglia
+				126 = { add_core_of = D20 } #Greater London Area
+				127 = { add_core_of = D20 } #Sussex
+				128 = { add_core_of = D20 } #West Midlands
+				129 = { add_core_of = D20 } #East Midlands
+				130 = { add_core_of = D20 } #Yorkshire
+				131 = { add_core_of = D20 } #Northern England
+				132 = { add_core_of = D20 } #Lancashire
+				133 = { add_core_of = D20 } #Lanark
+				134 = { add_core_of = D20 } #Connaught
+				135 = { add_core_of = D20 } #Munster
+				136 = { add_core_of = D20 } #Aberdeenshire
+				338 = { add_core_of = D20 } #Gloucestershire
 			}
 			custom_effect_tooltip = rpg_anglo_celtic_isles_coring_states
 			custom_effect_tooltip = rpg_anglo_celtic_isles_transfer_states
-			#Core All Owned States and Puppet
-			custom_effect_tooltip = rpg_anglo_celtic_isles_puppet
+			#Set compliance to 80 in all cores and instantiate collaboration government
+			custom_effect_tooltip = rpg_north_africa_puppet
 			hidden_effect = {
 				every_state = {
 					limit = {
-						is_owned_by = D20
+						is_core_of = D20
 					}
-					add_core_of = D20
+					set_compliance = 80
 				}
-				puppet = D20
+				
+				if = {
+					limit = { has_dlc = "La Resistance" }
+					set_temp_variable = { country_to_initiate = D20 }
+					instantiate_collaboration_government = yes
+				}
+				else = {
+					release = D20
+					puppet = D20
+				}
 			}
 			#News event, set local flag, and set global flag
 			hidden_effect = {

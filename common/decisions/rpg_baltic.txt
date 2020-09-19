@@ -57,27 +57,34 @@ rpg_category = {
 		}
 		complete_effect = {
 			hidden_effect = {
-				D21 = {
-					transfer_state = 11 #Kaunas
-					transfer_state = 12 #Vidzeme
-					transfer_state = 13 #Harju
-					transfer_state = 189 #Siauliai
-					transfer_state = 190 #Kurzeme
-					transfer_state = 191 #Tartu
-				}
+				11 = { add_core_of = D21 } #Kaunas
+				12 = { add_core_of = D21 } #Vidzeme
+				13 = { add_core_of = D21 } #Harju
+				189 = { add_core_of = D21 } #Siauliai
+				190 = { add_core_of = D21 } #Kurzeme
+				191 = { add_core_of = D21 } #Tartu
 			}
 			custom_effect_tooltip = rpg_baltic_coring_states
 			custom_effect_tooltip = rpg_baltic_transfer_states
-			#Core All Owned States and Puppet
-			custom_effect_tooltip = rpg_baltic_puppet
+			#Set compliance to 80 in all cores and instantiate collaboration government
+			custom_effect_tooltip = rpg_north_africa_puppet
 			hidden_effect = {
 				every_state = {
 					limit = {
-						is_owned_by = D21
+						is_core_of = D21
 					}
-					add_core_of = D21
+					set_compliance = 80
 				}
-				puppet = D21
+				
+				if = {
+					limit = { has_dlc = "La Resistance" }
+					set_temp_variable = { country_to_initiate = D21 }
+					instantiate_collaboration_government = yes
+				}
+				else = {
+					release = D21
+					puppet = D21
+				}
 			}
 			#News event, set local flag, and set global flag
 			hidden_effect = {

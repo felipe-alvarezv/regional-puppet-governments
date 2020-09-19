@@ -51,26 +51,33 @@ rpg_category = {
 		}
 		complete_effect = {
 			hidden_effect = {
-				D25 = {
-					transfer_state = 6 #Vlaanderen
-					transfer_state = 7 #Holland
-					transfer_state = 34 #Wallonie
-					transfer_state = 35 #Brabant
-					transfer_state = 36 #Friesland
-				}
+				6 = { add_core_of = D25 } #Vlaanderen
+				7 = { add_core_of = D25 } #Holland
+				34 = { add_core_of = D25 } #Wallonie
+				35 = { add_core_of = D25 } #Brabant
+				36 = { add_core_of = D25 } #Friesland
 			}
 			custom_effect_tooltip = rpg_benelux_coring_states
 			custom_effect_tooltip = rpg_benelux_transfer_states
-			#Core All Owned States and Puppet
-			custom_effect_tooltip = rpg_benelux_puppet
+			#Set compliance to 80 in all cores and instantiate collaboration government
+			custom_effect_tooltip = rpg_north_africa_puppet
 			hidden_effect = {
 				every_state = {
 					limit = {
-						is_owned_by = D25
+						is_core_of = D25
 					}
-					add_core_of = D25
+					set_compliance = 80
 				}
-				puppet = D25
+				
+				if = {
+					limit = { has_dlc = "La Resistance" }
+					set_temp_variable = { country_to_initiate = D25 }
+					instantiate_collaboration_government = yes
+				}
+				else = {
+					release = D25
+					puppet = D25
+				}
 			}
 			#News event, set local flag, and set global flag
 			hidden_effect = {
