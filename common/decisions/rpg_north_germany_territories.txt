@@ -17,10 +17,7 @@
 			}
 		}
 		visible = {
-            OR = {
-            	has_global_flag = rpg_north_germany_flag
-				has_global_flag = rpg_united_germany_flag
-			}
+            has_global_flag = rpg_north_germany_flag
             D27 = {
 				OR = {
 					is_puppet_of = FROM
@@ -75,10 +72,7 @@
 			}
 		}
 		visible = {
-            OR = {
-            	has_global_flag = rpg_north_germany_flag
-				has_global_flag = rpg_united_germany_flag
-			}
+            has_global_flag = rpg_north_germany_flag
             D27 = {
 				OR = {
 					is_puppet_of = FROM
@@ -133,10 +127,7 @@
 			}
 		}
 		visible = {
-            OR = {
-            	has_global_flag = rpg_north_germany_flag
-				has_global_flag = rpg_united_germany_flag
-			}
+            has_global_flag = rpg_north_germany_flag
             D27 = {
 				OR = {
 					is_puppet_of = FROM
@@ -191,10 +182,7 @@
 			}
 		}
 		visible = {
-            OR = {
-            	has_global_flag = rpg_north_germany_flag
-				has_global_flag = rpg_united_germany_flag
-			}
+            has_global_flag = rpg_north_germany_flag
             D27 = {
 				OR = {
 					is_puppet_of = FROM
@@ -249,10 +237,7 @@
 			}
 		}
 		visible = {
-			OR = {
-            	has_global_flag = rpg_north_germany_flag
-				has_global_flag = rpg_united_germany_flag
-			}
+            has_global_flag = rpg_north_germany_flag
             D27 = {
 				OR = {
 					is_puppet_of = FROM
@@ -306,10 +291,7 @@
 			}
 		}
 		visible = {
-           OR = {
-            	has_global_flag = rpg_north_germany_flag
-				has_global_flag = rpg_united_germany_flag
-			}
+            has_global_flag = rpg_north_germany_flag
             D27 = {
 				OR = {
 					is_puppet_of = FROM

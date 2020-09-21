@@ -144,6 +144,7 @@ rpg_category = {
 		complete_effect = {
 			hidden_effect = {
 				47 = { add_core_of = D30 } #Thessaly
+				49 = { add_core_of = D30 } #Ankara
 				184 = { add_core_of = D30 } #Thrace
 				185 = { add_core_of = D30 } #Epirus
 				186 = { add_core_of = D30 } #Peloponnese

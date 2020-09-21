@@ -4,6 +4,7 @@ rpg_category = {
 			NOT = {
 				original_tag = GER #Germany
 				original_tag = D23 #Germany
+				original_tag = D27 #North Germany
 				original_tag = D29 #South Germany
 			}
 		}
@@ -37,6 +38,7 @@ rpg_category = {
 			NOT = { 
 				original_tag = GER #Germany
 				original_tag = D23 #Germany
+				original_tag = D27 #North Germany
 				original_tag = D29 #South Germany
                 has_global_flag = rpg_south_germany_flag
             }

@@ -200,6 +200,15 @@ rpg_category = {
 							transfer_troops = yes
 						}
 					}
+					
+					every_state = {
+						limit = {
+							is_core_of = D27
+							is_core_of = D29
+						}
+						add_core_of = D23
+					}
+					
 				}
 				else = {
 					release = D23
@@ -215,10 +224,17 @@ rpg_category = {
 							transfer_troops = yes
 						}
 					}
+					
+					every_state = {
+						limit = {
+							is_core_of = D27
+							is_core_of = D29
+						}
+						add_core_of = D23
+					}
 				}
 			}
 			#News event, set local flag, and set global flag
-			custom_effect_tooltip = rpg_germany_puppet
 			hidden_effect = {
 				ROOT = {
 					set_country_flag = rpg_germany_country_flag
