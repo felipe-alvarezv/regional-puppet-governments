@@ -32,23 +32,30 @@ rpg_category = {
 		}
 		complete_effect = {
 			hidden_effect = {
-				D42 = {
-					transfer_state = 466 #Quebec
-					transfer_state = 468 #Saint Lawrence
-				}
+				466 = { add_core_of = D42 } #Quebec
+				468 = { add_core_of = D42 } #Saint Lawrence
 			}
 			custom_effect_tooltip = rpg_quebec_coring_states
 			custom_effect_tooltip = rpg_quebec_transfer_states
-			#Core All Owned States and Puppet
+			#Set compliance to 80 in all cores and instantiate collaboration government
 			custom_effect_tooltip = rpg_quebec_puppet
 			hidden_effect = {
 				every_state = {
 					limit = {
-						is_owned_by = D42
+						is_core_of = D42
 					}
-					add_core_of = D42
+					set_compliance = 80
 				}
-				puppet = D42
+				
+				if = {
+					limit = { has_dlc = "La Resistance" }
+					set_temp_variable = { country_to_initiate = D42 }
+					instantiate_collaboration_government = yes
+				}
+				else = {
+					release = D42
+					puppet = D42
+				}
 			}
 			#News event, set local flag, and set global flag
 			hidden_effect = {

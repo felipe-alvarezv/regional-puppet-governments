@@ -70,30 +70,37 @@ rpg_category = {
 		}
 		complete_effect = {
 			hidden_effect = {
-				D33 = {
-					transfer_state = 333 #North Borneo
-					transfer_state = 334 #Kalimantan
-					transfer_state = 335 #Java
-					transfer_state = 667 #Lesser Sunda
-					transfer_state = 668 #The Moluccas
-					transfer_state = 669 #West Papua
-					transfer_state = 672 #Sumatra
-					transfer_state = 673 #Sulawesi
-					transfer_state = 738 #Aru Islands
-				}
+				333 = { add_core_of = D33 } #North Borneo
+				334 = { add_core_of = D33 } #Kalimantan
+				335 = { add_core_of = D33 } #Java
+				667 = { add_core_of = D33 } #Lesser Sunda
+				668 = { add_core_of = D33 } #The Moluccas
+				669 = { add_core_of = D33 } #West Papua
+				672 = { add_core_of = D33 } #Sumatra
+				673 = { add_core_of = D33 } #Sulawesi
+				738 = { add_core_of = D33 } #Aru Islands
 			}
 			custom_effect_tooltip = rpg_indonesia_coring_states
 			custom_effect_tooltip = rpg_indonesia_transfer_states
-			#Core All Owned States and Puppet
+			#Set compliance to 80 in all cores and instantiate collaboration government
 			custom_effect_tooltip = rpg_indonesia_puppet
 			hidden_effect = {
 				every_state = {
 					limit = {
-						is_owned_by = D33
+						is_core_of = D33
 					}
-					add_core_of = D33
+					set_compliance = 80
 				}
-				puppet = D33
+				
+				if = {
+					limit = { has_dlc = "La Resistance" }
+					set_temp_variable = { country_to_initiate = D33 }
+					instantiate_collaboration_government = yes
+				}
+				else = {
+					release = D33
+					puppet = D33
+				}
 			}
 			#News event, set local flag, and set global flag
 			hidden_effect = {

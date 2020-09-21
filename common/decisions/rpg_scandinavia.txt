@@ -89,33 +89,40 @@ rpg_category = {
 		}
 		complete_effect = {
 			hidden_effect = {
-				D28 = {
-					transfer_state = 37 #Sjaelland
-					transfer_state = 38 #Norrland
-					transfer_state = 99 #Jutland
-					transfer_state = 110 #Ostlandet
-					transfer_state = 138 #Scania
-					transfer_state = 139 #Smaland
-					transfer_state = 140 #Vastergotland
-					transfer_state = 141 #Svealand
-					transfer_state = 142 #Vestlandet
-					transfer_state = 143 #Trondelag
-					transfer_state = 144 #Nord-Norge
-					transfer_state = 666 #Lappland
-				}
+				37 = { add_core_of = D28 } #Sjaelland
+				38 = { add_core_of = D28 } #Norrland
+				99 = { add_core_of = D28 } #Jutland
+				110 = { add_core_of = D28 } #Ostlandet
+				138 = { add_core_of = D28 } #Scania
+				139 = { add_core_of = D28 } #Smaland
+				140 = { add_core_of = D28 } #Vastergotland
+				141 = { add_core_of = D28 } #Svealand
+				142 = { add_core_of = D28 } #Vestlandet
+				143 = { add_core_of = D28 } #Trondelag
+				144 = { add_core_of = D28 } #Nord-Norge
+				666 = { add_core_of = D28 } #Lappland
 			}
 			custom_effect_tooltip = rpg_scandinavia_coring_states
 			custom_effect_tooltip = rpg_scandinavia_transfer_states
-			#Core All Owned States and Puppet
+			#Set compliance to 80 in all cores and instantiate collaboration government
 			custom_effect_tooltip = rpg_scandinavia_puppet
 			hidden_effect = {
 				every_state = {
 					limit = {
-						is_owned_by = D28
+						is_core_of = D28
 					}
-					add_core_of = D28
+					set_compliance = 80
 				}
-				puppet = D28
+				
+				if = {
+					limit = { has_dlc = "La Resistance" }
+					set_temp_variable = { country_to_initiate = D28 }
+					instantiate_collaboration_government = yes
+				}
+				else = {
+					release = D28
+					puppet = D28
+				}
 			}
 			#News event, set local flag, and set global flag
 			hidden_effect = {

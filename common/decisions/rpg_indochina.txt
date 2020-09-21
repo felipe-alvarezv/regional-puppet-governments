@@ -47,25 +47,32 @@ rpg_category = {
 		}
 		complete_effect = {
 			hidden_effect = {
-				D32 = {
-					transfer_state = 286 #Southern Indochina
-					transfer_state = 670 #Laos
-					transfer_state = 671 #Tonkin
-					transfer_state = 741 #Cambodia
-				}
+				286 = { add_core_of = D32 } #Southern Indochina
+				670 = { add_core_of = D32 } #Laos
+				671 = { add_core_of = D32 } #Tonkin
+				741 = { add_core_of = D32 } #Cambodia
 			}
 			custom_effect_tooltip = rpg_indochina_coring_states
 			custom_effect_tooltip = rpg_indochina_transfer_states
-			#Core All Owned States and Puppet
+			#Set compliance to 80 in all cores and instantiate collaboration government
 			custom_effect_tooltip = rpg_indochina_puppet
 			hidden_effect = {
 				every_state = {
 					limit = {
-						is_owned_by = D32
+						is_core_of = D32
 					}
-					add_core_of = D32
+					set_compliance = 80
 				}
-				puppet = D32
+				
+				if = {
+					limit = { has_dlc = "La Resistance" }
+					set_temp_variable = { country_to_initiate = D32 }
+					instantiate_collaboration_government = yes
+				}
+				else = {
+					release = D32
+					puppet = D32
+				}
 			}
 			#News event, set local flag, and set global flag
 			hidden_effect = {

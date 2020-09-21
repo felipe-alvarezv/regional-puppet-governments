@@ -48,26 +48,33 @@ rpg_category = {
 		}
 		complete_effect = {
 			hidden_effect = {
-				D44 = {
-					transfer_state = 467 #Manitoba
-					transfer_state = 469 #Saskatchewan
-					transfer_state = 470 #Alberta
-					transfer_state = 472 #Northern Canada
-					transfer_state = 683 #Northeastern Canada
-				}
+				467 = { add_core_of = D44 } #Manitoba
+				469 = { add_core_of = D44 } #Saskatchewan
+				470 = { add_core_of = D44 } #Alberta
+				472 = { add_core_of = D44 } #Northern Canada
+				683 = { add_core_of = D44 } #Northeastern Canada
 			}
 			custom_effect_tooltip = rpg_western_provinces_coring_states
 			custom_effect_tooltip = rpg_western_provinces_transfer_states
-			#Core All Owned States and Puppet
+			#Set compliance to 80 in all cores and instantiate collaboration government
 			custom_effect_tooltip = rpg_western_provinces_puppet
 			hidden_effect = {
 				every_state = {
 					limit = {
-						is_owned_by = D44
+						is_core_of = D44
 					}
-					add_core_of = D44
+					set_compliance = 80
 				}
-				puppet = D44
+				
+				if = {
+					limit = { has_dlc = "La Resistance" }
+					set_temp_variable = { country_to_initiate = D44 }
+					instantiate_collaboration_government = yes
+				}
+				else = {
+					release = D44
+					puppet = D44
+				}
 			}
 			#News event, set local flag, and set global flag
 			hidden_effect = {

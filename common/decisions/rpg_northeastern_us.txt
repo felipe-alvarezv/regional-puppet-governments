@@ -50,26 +50,33 @@ rpg_category = {
 		}
 		complete_effect = {
 			hidden_effect = {
-				D36 = {
-					transfer_state = 357 #New England
-					transfer_state = 358 #New York
-					transfer_state = 359 #New Jersey
-					transfer_state = 360 #Pennsylvania
-					transfer_state = 361 #Maryland
-				}
+				357 = { add_core_of = D36 } #New England
+				358 = { add_core_of = D36 } #New York
+				359 = { add_core_of = D36 } #New Jersey
+				360 = { add_core_of = D36 } #Pennsylvania
+				361 = { add_core_of = D36 } #Maryland
 			}
 			custom_effect_tooltip = rpg_northeastern_us_coring_states
 			custom_effect_tooltip = rpg_northeastern_us_transfer_states
-			#Core All Owned States and Puppet
+			#Set compliance to 80 in all cores and instantiate collaboration government
 			custom_effect_tooltip = rpg_northeastern_us_puppet
 			hidden_effect = {
 				every_state = {
 					limit = {
-						is_owned_by = D36
+						is_core_of = D36
 					}
-					add_core_of = D36
+					set_compliance = 80
 				}
-				puppet = D36
+				
+				if = {
+					limit = { has_dlc = "La Resistance" }
+					set_temp_variable = { country_to_initiate = D36 }
+					instantiate_collaboration_government = yes
+				}
+				else = {
+					release = D36
+					puppet = D36
+				}
 			}
 			#News event, set local flag, and set global flag
 			hidden_effect = {

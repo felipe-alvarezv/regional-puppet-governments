@@ -170,30 +170,52 @@ rpg_category = {
 		}
 		complete_effect = {
 			hidden_effect = {
-				D23 = {
-					annex_country = {
-						target = D27
-						transfer_troops = yes
-					}
-					annex_country = {
-						target = D29
-						transfer_troops = yes
-					}
-				}
+				64 = { add_core_of = D23 } #Berlin
+				transfer_state = 64 #Berlin
 			}
 			custom_effect_tooltip = rpg_germany_coring_states
 			custom_effect_tooltip = rpg_germany_transfer_states
-			#Core All Owned States and Puppet
+			#Set compliance to 80 in all cores and instantiate collaboration government
+			custom_effect_tooltip = rpg_germany_puppet
 			hidden_effect = {
 				every_state = {
 					limit = {
-						is_owned_by = D23
+						is_core_of = D23
 					}
-					remove_core_of = D27
-					remove_core_of = D29
-					add_core_of = D23
+					set_compliance = 80
 				}
-				puppet = D23
+				
+				if = {
+					limit = { has_dlc = "La Resistance" }
+					set_temp_variable = { country_to_initiate = D23 }
+					instantiate_collaboration_government = yes
+					
+					D23 = {
+						annex_country = {
+							target = D27
+							transfer_troops = yes
+						}
+						annex_country = {
+							target = D29
+							transfer_troops = yes
+						}
+					}
+				}
+				else = {
+					release = D23
+					puppet = D23
+					
+					D23 = {
+						annex_country = {
+							target = D27
+							transfer_troops = yes
+						}
+						annex_country = {
+							target = D29
+							transfer_troops = yes
+						}
+					}
+				}
 			}
 			#News event, set local flag, and set global flag
 			custom_effect_tooltip = rpg_germany_puppet

@@ -91,31 +91,38 @@ rpg_category = {
 		}
 		complete_effect = {
 			hidden_effect = {
-				D47 = {
-					transfer_state = 269 #British Somaliland
-					transfer_state = 271 #Ethiopia
-					transfer_state = 546 #Tanganyika
-					transfer_state = 547 #Kenya
-					transfer_state = 548 #Uganda
-					transfer_state = 549 #Sudan
-					transfer_state = 550 #Eritrea
-					transfer_state = 551 #Khartoum
-					transfer_state = 559 #Somaliland
-					transfer_state = 767 #North Darfur
-				}
+				269 = { add_core_of = D47 } #British Somaliland
+				271 = { add_core_of = D47 } #Ethiopia
+				546 = { add_core_of = D47 } #Tanganyika
+				547 = { add_core_of = D47 } #Kenya
+				548 = { add_core_of = D47 } #Uganda
+				549 = { add_core_of = D47 } #Sudan
+				550 = { add_core_of = D47 } #Eritrea
+				551 = { add_core_of = D47 } #Khartoum
+				559 = { add_core_of = D47 } #Somaliland
+				767 = { add_core_of = D47 } #North Darfur
 			}
 			custom_effect_tooltip = rpg_east_africa_coring_states
 			custom_effect_tooltip = rpg_east_africa_transfer_states
-			#Core All Owned States and Puppet
+			#Set compliance to 80 in all cores and instantiate collaboration government
 			custom_effect_tooltip = rpg_east_africa_puppet
 			hidden_effect = {
 				every_state = {
 					limit = {
-						is_owned_by = D47
+						is_core_of = D47
 					}
-					add_core_of = D47
+					set_compliance = 80
 				}
-				puppet = D47
+				
+				if = {
+					limit = { has_dlc = "La Resistance" }
+					set_temp_variable = { country_to_initiate = D47 }
+					instantiate_collaboration_government = yes
+				}
+				else = {
+					release = D47
+					puppet = D47
+				}
 			}
 			#News event, set local flag, and set global flag
 			hidden_effect = {

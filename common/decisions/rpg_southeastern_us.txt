@@ -79,32 +79,39 @@ rpg_category = {
 		}
 		complete_effect = {
 			hidden_effect = {
-				D37 = {
-					transfer_state = 362 #Virginia
-					transfer_state = 363 #North Carolina
-					transfer_state = 364 #South Carolina
-					transfer_state = 365 #Georgia
-					transfer_state = 366 #Florida
-					transfer_state = 367 #Alabama
-					transfer_state = 368 #Tennessee
-					transfer_state = 369 #Kentucky
-					transfer_state = 370 #Mississippi
-					transfer_state = 371 #Louisiana
-					transfer_state = 372 #Arkansas
-				}
+				362 = { add_core_of = D37 } #Virginia
+				363 = { add_core_of = D37 } #North Carolina
+				364 = { add_core_of = D37 } #South Carolina
+				365 = { add_core_of = D37 } #Georgia
+				366 = { add_core_of = D37 } #Florida
+				367 = { add_core_of = D37 } #Alabama
+				368 = { add_core_of = D37 } #Tennessee
+				369 = { add_core_of = D37 } #Kentucky
+				370 = { add_core_of = D37 } #Mississippi
+				371 = { add_core_of = D37 } #Louisiana
+				372 = { add_core_of = D37 } #Arkansas
 			}
 			custom_effect_tooltip = rpg_southeastern_us_coring_states
 			custom_effect_tooltip = rpg_southeastern_us_transfer_states
-			#Core All Owned States and Puppet
+			#Set compliance to 80 in all cores and instantiate collaboration government
 			custom_effect_tooltip = rpg_southeastern_us_puppet
 			hidden_effect = {
 				every_state = {
 					limit = {
-						is_owned_by = D37
+						is_core_of = D37
 					}
-					add_core_of = D37
+					set_compliance = 80
 				}
-				puppet = D37
+				
+				if = {
+					limit = { has_dlc = "La Resistance" }
+					set_temp_variable = { country_to_initiate = D37 }
+					instantiate_collaboration_government = yes
+				}
+				else = {
+					release = D37
+					puppet = D37
+				}
 			}
 			#News event, set local flag, and set global flag
 			hidden_effect = {

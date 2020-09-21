@@ -42,25 +42,32 @@ rpg_category = {
 		}
 		complete_effect = {
 			hidden_effect = {
-				D39 = {
-					transfer_state = 374 #Oklahoma
-					transfer_state = 375 #Texas
-					transfer_state = 376 #New Mexico
-					transfer_state = 377 #Arizona
-				}
+				374 = { add_core_of = D39 } #Oklahoma
+				375 = { add_core_of = D39 } #Texas
+				376 = { add_core_of = D39 } #New Mexico
+				377 = { add_core_of = D39 } #Arizona
 			}
 			custom_effect_tooltip = rpg_southwestern_us_coring_states
 			custom_effect_tooltip = rpg_southwestern_us_transfer_states
-			#Core All Owned States and Puppet
+			#Set compliance to 80 in all cores and instantiate collaboration government
 			custom_effect_tooltip = rpg_southwestern_us_puppet
 			hidden_effect = {
 				every_state = {
 					limit = {
-						is_owned_by = D39
+						is_core_of = D39
 					}
-					add_core_of = D39
+					set_compliance = 80
 				}
-				puppet = D39
+				
+				if = {
+					limit = { has_dlc = "La Resistance" }
+					set_temp_variable = { country_to_initiate = D39 }
+					instantiate_collaboration_government = yes
+				}
+				else = {
+					release = D39
+					puppet = D39
+				}
 			}
 			#News event, set local flag, and set global flag
 			hidden_effect = {

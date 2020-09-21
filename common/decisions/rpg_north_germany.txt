@@ -105,37 +105,44 @@ rpg_category = {
 		}
 		complete_effect = {
 			hidden_effect = {
-				D27 = {
-					transfer_state = 42 #Moselland
-					transfer_state = 51 #Rhineland
-					transfer_state = 55 #Hessen
-					transfer_state = 56 #Weser-Ems
-					transfer_state = 57 #Westfalen
-					transfer_state = 58 #Schleswig-Holstein
-					transfer_state = 59 #Hannover
-					transfer_state = 60 #Thuringen
-					transfer_state = 61 #Mecklenburg
-					transfer_state = 62 #Vorpommern
-					transfer_state = 63 #Hinterpommern
-					transfer_state = 64 #Bradenburg
-					transfer_state = 65 #Sachsen
-					transfer_state = 66 #Niederschlesien
-					transfer_state = 67 #Oberschlesien
-					transfer_state = 68 #Ostmark
-				}
+				42 = { add_core_of = D27 } #Moselland
+				51 = { add_core_of = D27 } #Rhineland
+				55 = { add_core_of = D27 } #Hessen
+				56 = { add_core_of = D27 } #Weser-Ems
+				57 = { add_core_of = D27 } #Westfalen
+				58 = { add_core_of = D27 } #Schleswig-Holstein
+				59 = { add_core_of = D27 } #Hannover
+				60 = { add_core_of = D27 } #Thuringen
+				61 = { add_core_of = D27 } #Mecklenburg
+				62 = { add_core_of = D27 } #Vorpommern
+				63 = { add_core_of = D27 } #Hinterpommern
+				64 = { add_core_of = D27 } #Brandenburg
+				65 = { add_core_of = D27 } #Sachsen
+				66 = { add_core_of = D27 } #Niederschlesien
+				67 = { add_core_of = D27 } #Oberschlesien
+				68 = { add_core_of = D27 } #Ostmark
 			}
 			custom_effect_tooltip = rpg_north_germany_coring_states
 			custom_effect_tooltip = rpg_north_germany_transfer_states
-			#Core All Owned States and Puppet
+			#Set compliance to 80 in all cores and instantiate collaboration government
 			custom_effect_tooltip = rpg_north_germany_puppet
 			hidden_effect = {
 				every_state = {
 					limit = {
-						is_owned_by = D27
+						is_core_of = D27
 					}
-					add_core_of = D27
+					set_compliance = 80
 				}
-				puppet = D27
+				
+				if = {
+					limit = { has_dlc = "La Resistance" }
+					set_temp_variable = { country_to_initiate = D27 }
+					instantiate_collaboration_government = yes
+				}
+				else = {
+					release = D27
+					puppet = D27
+				}
 			}
 			#News event, set local flag, and set global flag
 			hidden_effect = {

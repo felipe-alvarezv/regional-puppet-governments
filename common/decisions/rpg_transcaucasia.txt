@@ -65,28 +65,35 @@ rpg_category = {
 		}
 		complete_effect = {
 			hidden_effect = {
-				D35 = {
-					transfer_state = 229 #Azerbaijan
-					transfer_state = 230 #Armenia
-					transfer_state = 231 #Georgia
-					transfer_state = 232 #Grozny
-					transfer_state = 233 #Caucasus Mountains
-					transfer_state = 234 #Krasnodar
-					transfer_state = 235 #Stavropol
-				}
+				229 = { add_core_of = D35 } #Azerbaijan
+				230 = { add_core_of = D35 } #Armenia
+				231 = { add_core_of = D35 } #Georgia
+				232 = { add_core_of = D35 } #Grozny
+				233 = { add_core_of = D35 } #Caucasus Mountains
+				234 = { add_core_of = D35 } #Krasnodar
+				235 = { add_core_of = D35 } #Stavropol
 			}
 			custom_effect_tooltip = rpg_transcaucasia_coring_states
 			custom_effect_tooltip = rpg_transcaucasia_transfer_states
-			#Core All Owned States and Puppet
+			#Set compliance to 80 in all cores and instantiate collaboration government
 			custom_effect_tooltip = rpg_transcaucasia_puppet
 			hidden_effect = {
 				every_state = {
 					limit = {
-						is_owned_by = D35
+						is_core_of = D35
 					}
-					add_core_of = D35
+					set_compliance = 80
 				}
-				puppet = D35
+				
+				if = {
+					limit = { has_dlc = "La Resistance" }
+					set_temp_variable = { country_to_initiate = D35 }
+					instantiate_collaboration_government = yes
+				}
+				else = {
+					release = D35
+					puppet = D35
+				}
 			}
 			#News event, set local flag, and set global flag
 			hidden_effect = {

@@ -32,23 +32,30 @@ rpg_category = {
 		}
 		complete_effect = {
 			hidden_effect = {
-				D43 = {
-					transfer_state = 276 #Southern Ontario
-					transfer_state = 682 #Northern Ontario
-				}
+				276 = { add_core_of = D43 } #Southern Ontario
+				682 = { add_core_of = D43 } #Northern Ontario
 			}
 			custom_effect_tooltip = rpg_eastern_provinces_coring_states
 			custom_effect_tooltip = rpg_eastern_provinces_transfer_states
-			#Core All Owned States and Puppet
-			custom_effect_tooltip = rpg_eastern_provinces_puppet
+			#Set compliance to 80 in all cores and instantiate collaboration government
+			custom_effect_tooltip = rpg_eastern_pronvinces_puppet
 			hidden_effect = {
 				every_state = {
 					limit = {
-						is_owned_by = D43
+						is_core_of = D43
 					}
-					add_core_of = D43
+					set_compliance = 80
 				}
-				puppet = D43
+				
+				if = {
+					limit = { has_dlc = "La Resistance" }
+					set_temp_variable = { country_to_initiate = D43 }
+					instantiate_collaboration_government = yes
+				}
+				else = {
+					release = D43
+					puppet = D43
+				}
 			}
 			#News event, set local flag, and set global flag
 			hidden_effect = {

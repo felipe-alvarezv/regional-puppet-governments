@@ -38,24 +38,31 @@ rpg_category = {
 		}
 		complete_effect = {
 			hidden_effect = {
-				D41 = {
-					transfer_state = 378 #California
-					transfer_state = 385 #Oregon
-					transfer_state = 386 #Washington
-				}
+				378 = { add_core_of = D41 } #California
+				385 = { add_core_of = D41 } #Oregon
+				386 = { add_core_of = D41 } #Washington
 			}
 			custom_effect_tooltip = rpg_pacific_us_coring_states
 			custom_effect_tooltip = rpg_pacific_us_transfer_states
-			#Core All Owned States and Puppet
+			#Set compliance to 80 in all cores and instantiate collaboration government
 			custom_effect_tooltip = rpg_pacific_us_puppet
 			hidden_effect = {
 				every_state = {
 					limit = {
-						is_owned_by = D41
+						is_core_of = D41
 					}
-					add_core_of = D41
+					set_compliance = 80
 				}
-				puppet = D41
+				
+				if = {
+					limit = { has_dlc = "La Resistance" }
+					set_temp_variable = { country_to_initiate = D41 }
+					instantiate_collaboration_government = yes
+				}
+				else = {
+					release = D41
+					puppet = D41
+				}
 			}
 			#News event, set local flag, and set global flag
 			hidden_effect = {

@@ -27,7 +27,7 @@ rpg_category = {
 			#Franken
 			custom_trigger_tooltip = {
 				tooltip = rpg_south_germany_required_states_franken
-				controls_state = 54 #Fraken
+				controls_state = 54 #Franken
 			}
 		}
 		visible = {
@@ -43,25 +43,32 @@ rpg_category = {
 		}
 		complete_effect = {
 			hidden_effect = {
-				D29 = {
-					transfer_state = 50 #Wurttemberg
-					transfer_state = 52 #Oberbayern
-					transfer_state = 53 #Niederbayern
-					transfer_state = 54 #Franken
-				}
+				50 = { add_core_of = D29 } #Wurttemberg
+				52 = { add_core_of = D29 } #Oberbayern
+				53 = { add_core_of = D29 } #Niederbayern
+				54 = { add_core_of = D29 } #Franken
 			}
 			custom_effect_tooltip = rpg_south_germany_coring_states
 			custom_effect_tooltip = rpg_south_germany_transfer_states
-			#Core All Owned States and Puppet
+			#Set compliance to 80 in all cores and instantiate collaboration government
 			custom_effect_tooltip = rpg_south_germany_puppet
 			hidden_effect = {
 				every_state = {
 					limit = {
-						is_owned_by = D29
+						is_core_of = D29
 					}
-					add_core_of = D29
+					set_compliance = 80
 				}
-				puppet = D29
+				
+				if = {
+					limit = { has_dlc = "La Resistance" }
+					set_temp_variable = { country_to_initiate = D29 }
+					instantiate_collaboration_government = yes
+				}
+				else = {
+					release = D29
+					puppet = D29
+				}
 			}
 			#News event, set local flag, and set global flag
 			hidden_effect = {

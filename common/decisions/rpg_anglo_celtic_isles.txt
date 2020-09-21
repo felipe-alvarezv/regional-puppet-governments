@@ -150,7 +150,7 @@ rpg_category = {
 			custom_effect_tooltip = rpg_anglo_celtic_isles_coring_states
 			custom_effect_tooltip = rpg_anglo_celtic_isles_transfer_states
 			#Set compliance to 80 in all cores and instantiate collaboration government
-			custom_effect_tooltip = rpg_north_africa_puppet
+			custom_effect_tooltip = rpg_anglo_celtic_isles_puppet
 			hidden_effect = {
 				every_state = {
 					limit = {

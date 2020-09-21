@@ -66,27 +66,34 @@ rpg_category = {
 		}
 		complete_effect = {
 			hidden_effect = {
-				D45 = {
-					transfer_state = 304 #Panama
-					transfer_state = 312 #Honduras
-					transfer_state = 313 #Guatemala
-					transfer_state = 314 #El Salvador
-					transfer_state = 316 #Costa Rica
-					transfer_state = 317 #Nicaragua
-				}
+				304 = { add_core_of = D45 } #Panama
+				312 = { add_core_of = D45 } #Honduras
+				313 = { add_core_of = D45 } #Guatemala
+				314 = { add_core_of = D45 } #El Salvador
+				316 = { add_core_of = D45 } #Costa Rica
+				317 = { add_core_of = D45 } #Nicaragua
 			}
 			custom_effect_tooltip = rpg_central_america_coring_states
 			custom_effect_tooltip = rpg_central_america_transfer_states
-			#Core All Owned States and Puppet
+			#Set compliance to 80 in all cores and instantiate collaboration government
 			custom_effect_tooltip = rpg_central_america_puppet
 			hidden_effect = {
 				every_state = {
 					limit = {
-						is_owned_by = D45
+						is_core_of = D45
 					}
-					add_core_of = D45
+					set_compliance = 80
 				}
-				puppet = D45
+				
+				if = {
+					limit = { has_dlc = "La Resistance" }
+					set_temp_variable = { country_to_initiate = D45 }
+					instantiate_collaboration_government = yes
+				}
+				else = {
+					release = D45
+					puppet = D45
+				}
 			}
 			#News event, set local flag, and set global flag
 			hidden_effect = {

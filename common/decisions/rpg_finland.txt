@@ -79,32 +79,39 @@ rpg_category = {
 		}
 		complete_effect = {
 			hidden_effect = {
-				D34 = {
-					transfer_state = 111 #Uusimaa
-					transfer_state = 145 #Aland
-					transfer_state = 146 #Karjala
-					transfer_state = 147 #Salla
-					transfer_state = 148 #Lappi
-					transfer_state = 149 #Pohjanmaa
-					transfer_state = 150 #Savo
-					transfer_state = 213 #Murmansk
-					transfer_state = 215 #Onega
-					transfer_state = 216 #Olonets
-					transfer_state = 722 #Petsamo
-				}
+				111 = { add_core_of = D34 } #Uusimaa
+				145 = { add_core_of = D34 } #Aland
+				146 = { add_core_of = D34 } #Karjala
+				147 = { add_core_of = D34 } #Salla
+				148 = { add_core_of = D34 } #Lappi
+				149 = { add_core_of = D34 } #Pohjanmaa
+				150 = { add_core_of = D34 } #Savo
+				213 = { add_core_of = D34 } #Murmansk
+				215 = { add_core_of = D34 } #Onega
+				216 = { add_core_of = D34 } #Olonets
+				722 = { add_core_of = D34 } #Petsamo
 			}
 			custom_effect_tooltip = rpg_finland_coring_states
 			custom_effect_tooltip = rpg_finland_transfer_states
-			#Core All Owned States and Puppet
+			#Set compliance to 80 in all cores and instantiate collaboration government
 			custom_effect_tooltip = rpg_finland_puppet
 			hidden_effect = {
 				every_state = {
 					limit = {
-						is_owned_by = D34
+						is_core_of = D34
 					}
-					add_core_of = D34
+					set_compliance = 80
 				}
-				puppet = D34
+				
+				if = {
+					limit = { has_dlc = "La Resistance" }
+					set_temp_variable = { country_to_initiate = D34 }
+					instantiate_collaboration_government = yes
+				}
+				else = {
+					release = D34
+					puppet = D34
+				}
 			}
 			#News event, set local flag, and set global flag
 			hidden_effect = {

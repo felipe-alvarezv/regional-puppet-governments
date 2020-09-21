@@ -69,28 +69,35 @@ rpg_category = {
 		}
 		complete_effect = {
 			hidden_effect = {
-				D22 = {
-					transfer_state = 43 #Northern Hungary
-					transfer_state = 76 #North Transylvania
-					transfer_state = 82 #Banat
-					transfer_state = 83 #Crisana
-					transfer_state = 84 #Transylvania
-					transfer_state = 154 #Alfold
-					transfer_state = 155 #Transdanubia
-				}
+				43 = { add_core_of = D22 } #Northern Hungary
+				76 = { add_core_of = D22 } #North Transylvania
+				82 = { add_core_of = D22 } #Banat
+				83 = { add_core_of = D22 } #Crisana
+				84 = { add_core_of = D22 } #Transylvania
+				154 = { add_core_of = D22 } #Alfold
+				155 = { add_core_of = D22 } #Transdanubia
 			}
 			custom_effect_tooltip = rpg_danube_coring_states
 			custom_effect_tooltip = rpg_danube_transfer_states
-			#Core All Owned States and Puppet
+			#Set compliance to 80 in all cores and instantiate collaboration government
 			custom_effect_tooltip = rpg_danube_puppet
 			hidden_effect = {
 				every_state = {
 					limit = {
-						is_owned_by = D22
+						is_core_of = D22
 					}
-					add_core_of = D22
+					set_compliance = 80
 				}
-				puppet = D22
+				
+				if = {
+					limit = { has_dlc = "La Resistance" }
+					set_temp_variable = { country_to_initiate = D22 }
+					instantiate_collaboration_government = yes
+				}
+				else = {
+					release = D22
+					puppet = D22
+				}
 			}
 			#News event, set local flag, and set global flag
 			hidden_effect = {

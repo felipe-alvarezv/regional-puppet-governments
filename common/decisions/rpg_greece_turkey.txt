@@ -143,44 +143,50 @@ rpg_category = {
 		}
 		complete_effect = {
 			hidden_effect = {
-				D30 = {
-					transfer_state = 47 #Thessaly
-					transfer_state = 49 #Ankara
-					transfer_state = 184 #Thrace
-					transfer_state = 185 #Epirus
-					transfer_state = 186 #Peloponnese
-					transfer_state = 339 #Izmir
-					transfer_state = 340 #Bursa
-					transfer_state = 341 #Istanbul
-					transfer_state = 342 #Antalya
-					transfer_state = 343 #Afyon
-					transfer_state = 344 #Adan
-					transfer_state = 345 #Mersin
-					transfer_state = 346 #Konya
-					transfer_state = 347 #Izmit
-					transfer_state = 348 #Kayseri
-					transfer_state = 349 #Sivas
-					transfer_state = 350 #Malatya
-					transfer_state = 352 #Van
-					transfer_state = 353 #Erzurum
-					transfer_state = 354 #Trabzon
-					transfer_state = 355 #Samsun
-					transfer_state = 356 #Kastamonu
-					transfer_state = 731 #Central Macedonia
-				}
+				47 = { add_core_of = D30 } #Thessaly
+				184 = { add_core_of = D30 } #Thrace
+				185 = { add_core_of = D30 } #Epirus
+				186 = { add_core_of = D30 } #Peloponnese
+				339 = { add_core_of = D30 } #Izmir
+				340 = { add_core_of = D30 } #Bursa
+				341 = { add_core_of = D30 } #Istanbul
+				342 = { add_core_of = D30 } #Antalya
+				343 = { add_core_of = D30 } #Afyon
+				344 = { add_core_of = D30 } #Adan
+				345 = { add_core_of = D30 } #Mersin
+				346 = { add_core_of = D30 } #Konya
+				347 = { add_core_of = D30 } #Izmit
+				348 = { add_core_of = D30 } #Kayseri
+				349 = { add_core_of = D30 } #Sivas
+				350 = { add_core_of = D30 } #Malatya
+				352 = { add_core_of = D30 } #Van
+				353 = { add_core_of = D30 } #Erzurum
+				354 = { add_core_of = D30 } #Trabzon
+				355 = { add_core_of = D30 } #Samsun
+				356 = { add_core_of = D30 } #Kastamonu
+				731 = { add_core_of = D30 } #Central Macedonia
 			}
 			custom_effect_tooltip = rpg_greece_turkey_coring_states
 			custom_effect_tooltip = rpg_greece_turkey_transfer_states
-			#Core All Owned States and Puppet
+			#Set compliance to 80 in all cores and instantiate collaboration government
 			custom_effect_tooltip = rpg_greece_turkey_puppet
 			hidden_effect = {
 				every_state = {
 					limit = {
-						is_owned_by = D30
+						is_core_of = D30
 					}
-					add_core_of = D30
+					set_compliance = 80
 				}
-				puppet = D30
+				
+				if = {
+					limit = { has_dlc = "La Resistance" }
+					set_temp_variable = { country_to_initiate = D30 }
+					instantiate_collaboration_government = yes
+				}
+				else = {
+					release = D30
+					puppet = D30
+				}
 			}
 			#News event, set local flag, and set global flag
 			hidden_effect = {
