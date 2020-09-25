@@ -3,7 +3,7 @@ rpg_category_territories_central_america = {
 		allowed = {
 			NOT = {
 				original_tag = BLZ #Belize
-				original_tag = D45 #Central America
+				original_tag = R08 #Central America
 			}
 		}
 		available = {
@@ -15,7 +15,7 @@ rpg_category_territories_central_america = {
 		}
 		visible = {
             has_global_flag = rpg_central_america_flag
-			D45 = {
+			R08 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -23,7 +23,7 @@ rpg_category_territories_central_america = {
 			}
 			NOT = { 
                 original_tag = BLZ #Belize
-				original_tag = D45 #Central America
+				original_tag = R08 #Central America
                 has_global_flag = rpg_central_america_british_honduras_flag
             }
 		}
@@ -31,8 +31,8 @@ rpg_category_territories_central_america = {
 			custom_effect_tooltip = rpg_central_america_coring_states_british_honduras
 			custom_effect_tooltip = rpg_central_america_transfer_states_british_honduras
 			hidden_effect = {
-				311 = { add_core_of = D45 } #British Honduras
-				D45 = {
+				311 = { add_core_of = R08 } #British Honduras
+				R08 = {
 					transfer_state = 311 #British Honduras
 				}
 			}
@@ -52,7 +52,7 @@ rpg_category_territories_central_america = {
 		allowed = {
 			NOT = {
 				original_tag = PAN #Panama
-				original_tag = D45 #Central America
+				original_tag = R08 #Central America
 			}
 		}
 		available = {
@@ -64,7 +64,7 @@ rpg_category_territories_central_america = {
 		}
 		visible = {
             has_global_flag = rpg_central_america_flag
-			D45 = {
+			R08 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -72,7 +72,7 @@ rpg_category_territories_central_america = {
 			}
 			NOT = { 
                 original_tag = PAM #Panama
-				original_tag = D45 #Central America
+				original_tag = R08 #Central America
                 has_global_flag = rpg_central_america_panama_canal_flag
             }
 		}
@@ -80,8 +80,8 @@ rpg_category_territories_central_america = {
 			custom_effect_tooltip = rpg_central_america_coring_states_panama_canal
 			custom_effect_tooltip = rpg_central_america_transfer_states_panama_canal
 			hidden_effect = {
-				685 = { add_core_of = D45 } #Panama Canal
-				D45 = {
+				685 = { add_core_of = R08 } #Panama Canal
+				R08 = {
 					transfer_state = 685 #Panama Canal
 				}
 			}

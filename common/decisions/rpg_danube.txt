@@ -9,7 +9,7 @@ rpg_category = {
 				original_tag = SER #Serbia
 				original_tag = SLO #Slovakia
 				original_tag = YUG #Yugoslavia
-				original_tag = D22 #Danube
+				original_tag = R09 #Danube
 			}
 		}
 		available = {
@@ -63,19 +63,19 @@ rpg_category = {
 				original_tag = SER #Serbia
 				original_tag = SLO #Slovakia
 				original_tag = YUG #Yugoslavia
-				original_tag = D22 #Danube
+				original_tag = R09 #Danube
                 has_global_flag = rpg_danube_flag
             }
 		}
 		complete_effect = {
 			hidden_effect = {
-				43 = { add_core_of = D22 } #Northern Hungary
-				76 = { add_core_of = D22 } #North Transylvania
-				82 = { add_core_of = D22 } #Banat
-				83 = { add_core_of = D22 } #Crisana
-				84 = { add_core_of = D22 } #Transylvania
-				154 = { add_core_of = D22 } #Alfold
-				155 = { add_core_of = D22 } #Transdanubia
+				43 = { add_core_of = R09 } #Northern Hungary
+				76 = { add_core_of = R09 } #North Transylvania
+				82 = { add_core_of = R09 } #Banat
+				83 = { add_core_of = R09 } #Crisana
+				84 = { add_core_of = R09 } #Transylvania
+				154 = { add_core_of = R09 } #Alfold
+				155 = { add_core_of = R09 } #Transdanubia
 			}
 			custom_effect_tooltip = rpg_danube_coring_states
 			custom_effect_tooltip = rpg_danube_transfer_states
@@ -84,19 +84,19 @@ rpg_category = {
 			hidden_effect = {
 				every_state = {
 					limit = {
-						is_core_of = D22
+						is_core_of = R09
 					}
 					set_compliance = 80
 				}
 				
 				if = {
 					limit = { has_dlc = "La Resistance" }
-					set_temp_variable = { country_to_initiate = D22 }
+					set_temp_variable = { country_to_initiate = R09 }
 					instantiate_collaboration_government = yes
 				}
 				else = {
-					release = D22
-					puppet = D22
+					release = R09
+					puppet = R09
 				}
 			}
 			#News event, set local flag, and set global flag

@@ -5,7 +5,7 @@ rpg_category = {
 				original_tag = EST #Estonia
 				original_tag = LAT #Latvia
 				original_tag = LIT #Lithuania
-				original_tag = D21 #Baltic
+				original_tag = R04 #Baltic
 			}
 		}
 		available = {
@@ -51,18 +51,18 @@ rpg_category = {
                 original_tag = EST #Estonia
 				original_tag = LAT #Latvia
 				original_tag = LIT #Lithuania
-				original_tag = D21 #Baltic
+				original_tag = R04 #Baltic
                 has_global_flag = rpg_baltic_flag
             }
 		}
 		complete_effect = {
 			hidden_effect = {
-				11 = { add_core_of = D21 } #Kaunas
-				12 = { add_core_of = D21 } #Vidzeme
-				13 = { add_core_of = D21 } #Harju
-				189 = { add_core_of = D21 } #Siauliai
-				190 = { add_core_of = D21 } #Kurzeme
-				191 = { add_core_of = D21 } #Tartu
+				11 = { add_core_of = R04 } #Kaunas
+				12 = { add_core_of = R04 } #Vidzeme
+				13 = { add_core_of = R04 } #Harju
+				189 = { add_core_of = R04 } #Siauliai
+				190 = { add_core_of = R04 } #Kurzeme
+				191 = { add_core_of = R04 } #Tartu
 			}
 			custom_effect_tooltip = rpg_baltic_coring_states
 			custom_effect_tooltip = rpg_baltic_transfer_states
@@ -71,19 +71,19 @@ rpg_category = {
 			hidden_effect = {
 				every_state = {
 					limit = {
-						is_core_of = D21
+						is_core_of = R04
 					}
 					set_compliance = 80
 				}
 				
 				if = {
 					limit = { has_dlc = "La Resistance" }
-					set_temp_variable = { country_to_initiate = D21 }
+					set_temp_variable = { country_to_initiate = R04 }
 					instantiate_collaboration_government = yes
 				}
 				else = {
-					release = D21
-					puppet = D21
+					release = R04
+					puppet = R04
 				}
 			}
 			#News event, set local flag, and set global flag

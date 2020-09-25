@@ -6,7 +6,7 @@ rpg_category = {
 				original_tag = COL #Colombia
 				original_tag = ECU #Ecuador
 				original_tag = PRU #Peru
-				original_tag = D46 #Andes
+				original_tag = R01 #Andes
 			}
 		}
 		available = {
@@ -79,23 +79,23 @@ rpg_category = {
                 original_tag = COL #Colombia
 				original_tag = ECU #Ecuador
 				original_tag = PRU #Peru
-				original_tag = D46 #Andes
+				original_tag = R01 #Andes
                 has_global_flag = rpg_andes_flag
             }
 		}
 		complete_effect = {
 			hidden_effect = {
-				302 = { add_core_of = D46 } #La Paz
-				303 = { add_core_of = D46 } #Lima
-				305 = { add_core_of = D46 } #Ecuador
-				306 = { add_core_of = D46 } #Cundinamarca
-				486 = { add_core_of = D46 } #Meta
-				487 = { add_core_of = D46 } #Santa Cruz
-				490 = { add_core_of = D46 } #Pastaza
-				491 = { add_core_of = D46 } #Loreto
-				492 = { add_core_of = D46 } #Arequipa
-				493 = { add_core_of = D46 } #La Libertad
-				494 = { add_core_of = D46 } #Ucayali
+				302 = { add_core_of = R01 } #La Paz
+				303 = { add_core_of = R01 } #Lima
+				305 = { add_core_of = R01 } #Ecuador
+				306 = { add_core_of = R01 } #Cundinamarca
+				486 = { add_core_of = R01 } #Meta
+				487 = { add_core_of = R01 } #Santa Cruz
+				490 = { add_core_of = R01 } #Pastaza
+				491 = { add_core_of = R01 } #Loreto
+				492 = { add_core_of = R01 } #Arequipa
+				493 = { add_core_of = R01 } #La Libertad
+				494 = { add_core_of = R01 } #Ucayali
 			}
 			custom_effect_tooltip = rpg_andes_coring_states
 			custom_effect_tooltip = rpg_andes_transfer_states
@@ -104,19 +104,19 @@ rpg_category = {
 			hidden_effect = {
 				every_state = {
 					limit = {
-						is_core_of = D46
+						is_core_of = R01
 					}
 					set_compliance = 80
 				}
 				
 				if = {
 					limit = { has_dlc = "La Resistance" }
-					set_temp_variable = { country_to_initiate = D46 }
+					set_temp_variable = { country_to_initiate = R01 }
 					instantiate_collaboration_government = yes
 				}
 				else = {
-					release = D46
-					puppet = D46
+					release = R01
+					puppet = R01
 				}
 			}
 			#News event, set local flag, and set global flag

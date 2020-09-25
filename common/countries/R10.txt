@@ -1,0 +1,6 @@
+#East Africa
+graphical_culture = african_gfx
+graphical_culture_2d = african_2d
+color = { 152 130 191 }
+color = rgb { 152 130 191 }
+color_ui = rgb { 152 130 191 }

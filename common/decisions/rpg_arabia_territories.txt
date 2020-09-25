@@ -3,7 +3,7 @@ rpg_category_territories_arabia = {
 		allowed = {
 			NOT = {
 				original_tag = IRQ #Iraq
-				original_tag = D31 #Arabia
+				original_tag = R03 #Arabia
 			}
 		}
 		available = {
@@ -15,7 +15,7 @@ rpg_category_territories_arabia = {
 		}
 		visible = {
             has_global_flag = rpg_arabia_flag
-			D31 = {
+			R03 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -23,7 +23,7 @@ rpg_category_territories_arabia = {
 			}
 			NOT = { 
                 original_tag = IRQ #Iraq
-				original_tag = D31 #Arabia
+				original_tag = R03 #Arabia
                 has_global_flag = rpg_arabia_baghdad_flag
             }
 		}
@@ -31,8 +31,8 @@ rpg_category_territories_arabia = {
 			custom_effect_tooltip = rpg_arabia_coring_states_baghdad
 			custom_effect_tooltip = rpg_arabia_transfer_states_baghdad
 			hidden_effect = {
-				291 = { add_core_of = D31 } #Baghdad
-				D31 = {
+				291 = { add_core_of = R03 } #Baghdad
+				R03 = {
 					transfer_state = 291 #Baghdad
 				}
 			}
@@ -52,7 +52,7 @@ rpg_category_territories_arabia = {
 		allowed = {
 			NOT = {
 				original_tag = EGY #Egypt
-				original_tag = D31 #Arabia
+				original_tag = R03 #Arabia
 			}
 		}
 		available = {
@@ -64,7 +64,7 @@ rpg_category_territories_arabia = {
 		}
 		visible = {
             has_global_flag = rpg_arabia_flag
-			D31 = {
+			R03 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -72,7 +72,7 @@ rpg_category_territories_arabia = {
 			}
 			NOT = { 
                 original_tag = EGY #Egypt
-				original_tag = D31 #Arabia
+				original_tag = R03 #Arabia
                 has_global_flag = rpg_arabia_sinai_flag
             }
 		}
@@ -80,8 +80,8 @@ rpg_category_territories_arabia = {
 			custom_effect_tooltip = rpg_arabia_coring_states_sinai
 			custom_effect_tooltip = rpg_arabia_transfer_states_sinai
 			hidden_effect = {
-				453 = { add_core_of = D31 } #Sinai
-				D31 = {
+				453 = { add_core_of = R03 } #Sinai
+				R03 = {
 					transfer_state = 453 #Sinai
 				}
 			}
@@ -102,7 +102,7 @@ rpg_category_territories_arabia = {
 			NOT = {
 				original_tag = ISR #Israel
 				original_tag = PAL #Palestine
-				original_tag = D31 #Arabia
+				original_tag = R03 #Arabia
 			}
 		}
 		available = {
@@ -114,7 +114,7 @@ rpg_category_territories_arabia = {
 		}
 		visible = {
             has_global_flag = rpg_arabia_flag
-			D31 = {
+			R03 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -123,7 +123,7 @@ rpg_category_territories_arabia = {
 			NOT = { 
                 original_tag = ISR #Israel
 				original_tag = PAL #Palestine
-				original_tag = D31 #Arabia
+				original_tag = R03 #Arabia
                 has_global_flag = rpg_arabia_palestine_flag
             }
 		}
@@ -131,8 +131,8 @@ rpg_category_territories_arabia = {
 			custom_effect_tooltip = rpg_arabia_coring_states_palestine
 			custom_effect_tooltip = rpg_arabia_transfer_states_palestine
 			hidden_effect = {
-				454 = { add_core_of = D31 } #Palestine
-				D31 = {
+				454 = { add_core_of = R03 } #Palestine
+				R03 = {
 					transfer_state = 454 #Palestine
 				}
 			}
@@ -152,7 +152,7 @@ rpg_category_territories_arabia = {
 		allowed = {
 			NOT = {
 				original_tag = JOR #Jordan
-				original_tag = D31 #Arabia
+				original_tag = R03 #Arabia
 			}
 		}
 		available = {
@@ -164,7 +164,7 @@ rpg_category_territories_arabia = {
 		}
 		visible = {
             has_global_flag = rpg_arabia_flag
-			D31 = {
+			R03 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -172,7 +172,7 @@ rpg_category_territories_arabia = {
 			}
 			NOT = { 
                 original_tag = JOR #Jordan
-				original_tag = D31 #Arabia
+				original_tag = R03 #Arabia
                 has_global_flag = rpg_arabia_jordan_flag
             }
 		}
@@ -180,8 +180,8 @@ rpg_category_territories_arabia = {
 			custom_effect_tooltip = rpg_arabia_coring_states_jordan
 			custom_effect_tooltip = rpg_arabia_transfer_states_jordan
 			hidden_effect = {
-				455 = { add_core_of = D31 } #Jordan
-				D31 = {
+				455 = { add_core_of = R03 } #Jordan
+				R03 = {
 					transfer_state = 455 #Jordan
 				}
 			}
@@ -201,7 +201,7 @@ rpg_category_territories_arabia = {
 		allowed = {
 			NOT = {
 				original_tag = SYR #Syria
-				original_tag = D31 #Arabia
+				original_tag = R03 #Arabia
 			}
 		}
 		available = {
@@ -213,7 +213,7 @@ rpg_category_territories_arabia = {
 		}
 		visible = {
             has_global_flag = rpg_arabia_flag
-			D31 = {
+			R03 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -221,7 +221,7 @@ rpg_category_territories_arabia = {
 			}
 			NOT = { 
                 original_tag = SYR #Syria
-				original_tag = D31 #Arabia
+				original_tag = R03 #Arabia
                 has_global_flag = rpg_arabia_damascus_flag
             }
 		}
@@ -229,8 +229,8 @@ rpg_category_territories_arabia = {
 			custom_effect_tooltip = rpg_arabia_coring_states_damascus
 			custom_effect_tooltip = rpg_arabia_transfer_states_damascus
 			hidden_effect = {
-				554 = { add_core_of = D31 } #Damascus
-				D31 = {
+				554 = { add_core_of = R03 } #Damascus
+				R03 = {
 					transfer_state = 554 #Damascus
 				}
 			}
@@ -250,7 +250,7 @@ rpg_category_territories_arabia = {
 		allowed = {
 			NOT = {
 				original_tag = LEB #Lebanon
-				original_tag = D31 #Arabia
+				original_tag = R03 #Arabia
 			}
 		}
 		available = {
@@ -262,7 +262,7 @@ rpg_category_territories_arabia = {
 		}
 		visible = {
             has_global_flag = rpg_arabia_flag
-			D31 = {
+			R03 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -270,7 +270,7 @@ rpg_category_territories_arabia = {
 			}
 			NOT = { 
                 original_tag = LEB #Lebanon
-				original_tag = D31 #Arabia
+				original_tag = R03 #Arabia
                 has_global_flag = rpg_arabia_lebanon_flag
             }
 		}
@@ -278,8 +278,8 @@ rpg_category_territories_arabia = {
 			custom_effect_tooltip = rpg_arabia_coring_states_lebanon
 			custom_effect_tooltip = rpg_arabia_transfer_states_lebanon
 			hidden_effect = {
-				553 = { add_core_of = D31 } #Lebanon
-				D31 = {
+				553 = { add_core_of = R03 } #Lebanon
+				R03 = {
 					transfer_state = 553 #Lebanon
 				}
 			}
@@ -299,7 +299,7 @@ rpg_category_territories_arabia = {
 		allowed = {
 			NOT = {
 				original_tag = kuw #Kuwait
-				original_tag = D31 #Arabia
+				original_tag = R03 #Arabia
 			}
 		}
 		available = {
@@ -311,7 +311,7 @@ rpg_category_territories_arabia = {
 		}
 		visible = {
             has_global_flag = rpg_arabia_flag
-			D31 = {
+			R03 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -319,7 +319,7 @@ rpg_category_territories_arabia = {
 			}
 			NOT = { 
                 original_tag = KUW #Kuwait
-				original_tag = D31 #Arabia
+				original_tag = R03 #Arabia
                 has_global_flag = rpg_arabia_kuwait_flag
             }
 		}
@@ -327,8 +327,8 @@ rpg_category_territories_arabia = {
 			custom_effect_tooltip = rpg_arabia_coring_states_kuwait
 			custom_effect_tooltip = rpg_arabia_transfer_states_kuwait
 			hidden_effect = {
-				656 = { add_core_of = D31 } #Kuwait
-				D31 = {
+				656 = { add_core_of = R03 } #Kuwait
+				R03 = {
 					transfer_state = 656 #Kuwait
 				}
 			}
@@ -348,7 +348,7 @@ rpg_category_territories_arabia = {
 		allowed = {
 			NOT = {
 				original_tag = UAE #United Arab Emirates
-				original_tag = D31 #Arabia
+				original_tag = R03 #Arabia
 			}
 		}
 		available = {
@@ -360,7 +360,7 @@ rpg_category_territories_arabia = {
 		}
 		visible = {
             has_global_flag = rpg_arabia_flag
-			D31 = {
+			R03 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -368,7 +368,7 @@ rpg_category_territories_arabia = {
 			}
 			NOT = { 
                 original_tag = UAE #United Arab Emirates
-				original_tag = D31 #Arabia
+				original_tag = R03 #Arabia
                 has_global_flag = rpg_arabia_abu_dhabi_flag
             }
 		}
@@ -376,8 +376,8 @@ rpg_category_territories_arabia = {
 			custom_effect_tooltip = rpg_arabia_coring_states_abu_dhabi
 			custom_effect_tooltip = rpg_arabia_transfer_states_abu_dhabi
 			hidden_effect = {
-				658 = { add_core_of = D31 } #Abu Dhabi
-				D31 = {
+				658 = { add_core_of = R03 } #Abu Dhabi
+				R03 = {
 					transfer_state = 658 #Abu Dhabi
 				}
 			}
@@ -397,7 +397,7 @@ rpg_category_territories_arabia = {
 		allowed = {
 			NOT = {
 				original_tag = YEM #Yemen
-				original_tag = D31 #Arabia
+				original_tag = R03 #Arabia
 			}
 		}
 		available = {
@@ -409,7 +409,7 @@ rpg_category_territories_arabia = {
 		}
 		visible = {
             has_global_flag = rpg_arabia_flag
-			D31 = {
+			R03 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -417,7 +417,7 @@ rpg_category_territories_arabia = {
 			}
 			NOT = { 
                 original_tag = YEM #Yemen
-				original_tag = D31 #Arabia
+				original_tag = R03 #Arabia
                 has_global_flag = rpg_arabia_aden_flag
             }
 		}
@@ -425,8 +425,8 @@ rpg_category_territories_arabia = {
 			custom_effect_tooltip = rpg_arabia_coring_states_aden
 			custom_effect_tooltip = rpg_arabia_transfer_states_aden
 			hidden_effect = {
-				659 = { add_core_of = D31 } #Aden
-				D31 = {
+				659 = { add_core_of = R03 } #Aden
+				R03 = {
 					transfer_state = 659 #Aden
 				}
 			}
@@ -446,7 +446,7 @@ rpg_category_territories_arabia = {
 		allowed = {
 			NOT = {
 				original_tag = IRQ #Iraq
-				original_tag = D31 #Arabia
+				original_tag = R03 #Arabia
 			}
 		}
 		available = {
@@ -458,7 +458,7 @@ rpg_category_territories_arabia = {
 		}
 		visible = {
             has_global_flag = rpg_arabia_flag
-			D31 = {
+			R03 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -466,7 +466,7 @@ rpg_category_territories_arabia = {
 			}
 			NOT = { 
                 original_tag = IRQ #Iraq
-				original_tag = D31 #Arabia
+				original_tag = R03 #Arabia
                 has_global_flag = rpg_arabia_al_hajara_flag
             }
 		}
@@ -474,8 +474,8 @@ rpg_category_territories_arabia = {
 			custom_effect_tooltip = rpg_arabia_coring_states_al_hajara
 			custom_effect_tooltip = rpg_arabia_transfer_states_al_hajara
 			hidden_effect = {
-				675 = { add_core_of = D31 } #Al Hajara
-				D31 = {
+				675 = { add_core_of = R03 } #Al Hajara
+				R03 = {
 					transfer_state = 675 #Al Hajara
 				}
 			}
@@ -495,7 +495,7 @@ rpg_category_territories_arabia = {
 		allowed = {
 			NOT = {
 				original_tag = IRQ #Iraq
-				original_tag = D31 #Arabia
+				original_tag = R03 #Arabia
 			}
 		}
 		available = {
@@ -507,7 +507,7 @@ rpg_category_territories_arabia = {
 		}
 		visible = {
             has_global_flag = rpg_arabia_flag
-			D31 = {
+			R03 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -515,7 +515,7 @@ rpg_category_territories_arabia = {
 			}
 			NOT = { 
                 original_tag = IRQ #Iraq
-				original_tag = D31 #Arabia
+				original_tag = R03 #Arabia
                 has_global_flag = rpg_arabia_mosul_flag
             }
 		}
@@ -523,8 +523,8 @@ rpg_category_territories_arabia = {
 			custom_effect_tooltip = rpg_arabia_coring_states_mosul
 			custom_effect_tooltip = rpg_arabia_transfer_states_mosul
 			hidden_effect = {
-				676 = { add_core_of = D31 } #Mosul
-				D31 = {
+				676 = { add_core_of = R03 } #Mosul
+				R03 = {
 					transfer_state = 676 #Mosul
 				}
 			}
@@ -544,7 +544,7 @@ rpg_category_territories_arabia = {
 		allowed = {
 			NOT = {
 				original_tag = SYR #Syria
-				original_tag = D31 #Arabia
+				original_tag = R03 #Arabia
 			}
 		}
 		available = {
@@ -556,7 +556,7 @@ rpg_category_territories_arabia = {
 		}
 		visible = {
             has_global_flag = rpg_arabia_flag
-			D31 = {
+			R03 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -564,7 +564,7 @@ rpg_category_territories_arabia = {
 			}
 			NOT = { 
                 original_tag = SYR #Syria
-				original_tag = D31 #Arabia
+				original_tag = R03 #Arabia
                 has_global_flag = rpg_arabia_aleppo_flag
             }
 		}
@@ -572,8 +572,8 @@ rpg_category_territories_arabia = {
 			custom_effect_tooltip = rpg_arabia_coring_states_aleppo
 			custom_effect_tooltip = rpg_arabia_transfer_states_aleppo
 			hidden_effect = {
-				677 = { add_core_of = D31 } #Aleppo
-				D31 = {
+				677 = { add_core_of = R03 } #Aleppo
+				R03 = {
 					transfer_state = 677 #Aleppo
 				}
 			}
@@ -593,7 +593,7 @@ rpg_category_territories_arabia = {
 		allowed = {
 			NOT = {
 				original_tag = SYR #Syria
-				original_tag = D31 #Arabia
+				original_tag = R03 #Arabia
 			}
 		}
 		available = {
@@ -605,7 +605,7 @@ rpg_category_territories_arabia = {
 		}
 		visible = {
             has_global_flag = rpg_arabia_flag
-			D31 = {
+			R03 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -613,7 +613,7 @@ rpg_category_territories_arabia = {
 			}
 			NOT = { 
                 original_tag = SYR #Syria
-				original_tag = D31 #Arabia
+				original_tag = R03 #Arabia
                 has_global_flag = rpg_arabia_deir_az_zur_flag
             }
 		}
@@ -621,8 +621,8 @@ rpg_category_territories_arabia = {
 			custom_effect_tooltip = rpg_arabia_coring_states_deir_az_zur
 			custom_effect_tooltip = rpg_arabia_transfer_states_deir_az_zur
 			hidden_effect = {
-				680 = { add_core_of = D31 } #Deir-Az-Zur
-				D31 = {
+				680 = { add_core_of = R03 } #Deir-Az-Zur
+				R03 = {
 					transfer_state = 680 #Deir-Az-Zur
 				}
 			}
@@ -642,7 +642,7 @@ rpg_category_territories_arabia = {
 		allowed = {
 			NOT = {
 				original_tag = QAT #Qatar
-				original_tag = D31 #Arabia
+				original_tag = R03 #Arabia
 			}
 		}
 		available = {
@@ -654,7 +654,7 @@ rpg_category_territories_arabia = {
 		}
 		visible = {
             has_global_flag = rpg_arabia_flag
-			D31 = {
+			R03 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -662,7 +662,7 @@ rpg_category_territories_arabia = {
 			}
 			NOT = { 
                 original_tag = QAT #Qatar
-				original_tag = D31 #Arabia
+				original_tag = R03 #Arabia
                 has_global_flag = rpg_arabia_qatar_flag
             }
 		}
@@ -670,8 +670,8 @@ rpg_category_territories_arabia = {
 			custom_effect_tooltip = rpg_arabia_coring_states_qatar
 			custom_effect_tooltip = rpg_arabia_transfer_states_qatar
 			hidden_effect = {
-				765 = { add_core_of = D31 } #Qatar
-				D31 = {
+				765 = { add_core_of = R03 } #Qatar
+				R03 = {
 					transfer_state = 765 #Qatar
 				}
 			}

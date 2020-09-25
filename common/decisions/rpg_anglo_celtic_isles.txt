@@ -7,7 +7,7 @@ rpg_category = {
 				original_tag = NIR #Northern Ireland
 				original_tag = SCO #Scotland
 				original_tag = WLS #Wales
-				original_tag = D20 #Anglo-Celtic Isles
+				original_tag = R02 #Anglo-Celtic Isles
 			}
 		}
 		available = {
@@ -121,31 +121,31 @@ rpg_category = {
 				original_tag = NIR #Northern Ireland
 				original_tag = SCO #Scotland
 				original_tag = WLS #Wales
-				original_tag = D20 #Anglo-Celtic Isles
+				original_tag = R02 #Anglo-Celtic Isles
                 has_global_flag = rpg_anglo_celtic_isles_flag
             }
 		}
 		complete_effect = {
 			hidden_effect = {
-				113 = { add_core_of = D20 } #Leinster
-				119 = { add_core_of = D20 } #Northern Ireland
-				120 = { add_core_of = D20 } #Scottish Highlands
-				121 = { add_core_of = D20 } #Lothian
-				122 = { add_core_of = D20 } #Wales
-				123 = { add_core_of = D20 } #South-West England
-				125 = { add_core_of = D20 } #East Anglia
-				126 = { add_core_of = D20 } #Greater London Area
-				127 = { add_core_of = D20 } #Sussex
-				128 = { add_core_of = D20 } #West Midlands
-				129 = { add_core_of = D20 } #East Midlands
-				130 = { add_core_of = D20 } #Yorkshire
-				131 = { add_core_of = D20 } #Northern England
-				132 = { add_core_of = D20 } #Lancashire
-				133 = { add_core_of = D20 } #Lanark
-				134 = { add_core_of = D20 } #Connaught
-				135 = { add_core_of = D20 } #Munster
-				136 = { add_core_of = D20 } #Aberdeenshire
-				338 = { add_core_of = D20 } #Gloucestershire
+				113 = { add_core_of = R02 } #Leinster
+				119 = { add_core_of = R02 } #Northern Ireland
+				120 = { add_core_of = R02 } #Scottish Highlands
+				121 = { add_core_of = R02 } #Lothian
+				122 = { add_core_of = R02 } #Wales
+				123 = { add_core_of = R02 } #South-West England
+				125 = { add_core_of = R02 } #East Anglia
+				126 = { add_core_of = R02 } #Greater London Area
+				127 = { add_core_of = R02 } #Sussex
+				128 = { add_core_of = R02 } #West Midlands
+				129 = { add_core_of = R02 } #East Midlands
+				130 = { add_core_of = R02 } #Yorkshire
+				131 = { add_core_of = R02 } #Northern England
+				132 = { add_core_of = R02 } #Lancashire
+				133 = { add_core_of = R02 } #Lanark
+				134 = { add_core_of = R02 } #Connaught
+				135 = { add_core_of = R02 } #Munster
+				136 = { add_core_of = R02 } #Aberdeenshire
+				338 = { add_core_of = R02 } #Gloucestershire
 			}
 			custom_effect_tooltip = rpg_anglo_celtic_isles_coring_states
 			custom_effect_tooltip = rpg_anglo_celtic_isles_transfer_states
@@ -154,19 +154,19 @@ rpg_category = {
 			hidden_effect = {
 				every_state = {
 					limit = {
-						is_core_of = D20
+						is_core_of = R02
 					}
 					set_compliance = 80
 				}
 				
 				if = {
 					limit = { has_dlc = "La Resistance" }
-					set_temp_variable = { country_to_initiate = D20 }
+					set_temp_variable = { country_to_initiate = R02 }
 					instantiate_collaboration_government = yes
 				}
 				else = {
-					release = D20
-					puppet = D20
+					release = R02
+					puppet = R02
 				}
 			}
 			#News event, set local flag, and set global flag

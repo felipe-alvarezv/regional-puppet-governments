@@ -9,7 +9,7 @@ rpg_category = {
 				original_tag = SUD #Sudan
 				original_tag = TZN #Tanzania
 				original_tag = UGA #Uganda
-				original_tag = D47 #East Africa
+				original_tag = R10 #East Africa
 			}
 		}
 		available = {
@@ -85,22 +85,22 @@ rpg_category = {
 				original_tag = SUD #Sudan
 				original_tag = TZN #Tanzania
 				original_tag = UGA #Uganda
-				original_tag = D47 #East Africa
+				original_tag = R10 #East Africa
                 has_global_flag = rpg_east_africa_flag
             }
 		}
 		complete_effect = {
 			hidden_effect = {
-				269 = { add_core_of = D47 } #British Somaliland
-				271 = { add_core_of = D47 } #Ethiopia
-				546 = { add_core_of = D47 } #Tanganyika
-				547 = { add_core_of = D47 } #Kenya
-				548 = { add_core_of = D47 } #Uganda
-				549 = { add_core_of = D47 } #Sudan
-				550 = { add_core_of = D47 } #Eritrea
-				551 = { add_core_of = D47 } #Khartoum
-				559 = { add_core_of = D47 } #Somaliland
-				767 = { add_core_of = D47 } #North Darfur
+				269 = { add_core_of = R10 } #British Somaliland
+				271 = { add_core_of = R10 } #Ethiopia
+				546 = { add_core_of = R10 } #Tanganyika
+				547 = { add_core_of = R10 } #Kenya
+				548 = { add_core_of = R10 } #Uganda
+				549 = { add_core_of = R10 } #Sudan
+				550 = { add_core_of = R10 } #Eritrea
+				551 = { add_core_of = R10 } #Khartoum
+				559 = { add_core_of = R10 } #Somaliland
+				767 = { add_core_of = R10 } #North Darfur
 			}
 			custom_effect_tooltip = rpg_east_africa_coring_states
 			custom_effect_tooltip = rpg_east_africa_transfer_states
@@ -109,19 +109,19 @@ rpg_category = {
 			hidden_effect = {
 				every_state = {
 					limit = {
-						is_core_of = D47
+						is_core_of = R10
 					}
 					set_compliance = 80
 				}
 				
 				if = {
 					limit = { has_dlc = "La Resistance" }
-					set_temp_variable = { country_to_initiate = D47 }
+					set_temp_variable = { country_to_initiate = R10 }
 					instantiate_collaboration_government = yes
 				}
 				else = {
-					release = D47
-					puppet = D47
+					release = R10
+					puppet = R10
 				}
 			}
 			#News event, set local flag, and set global flag

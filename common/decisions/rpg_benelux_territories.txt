@@ -3,7 +3,7 @@ rpg_category_territories_benelux = {
 		allowed = {
 			NOT = {
 				original_tag = LUX #Luxemburg
-				original_tag = D25 #Benelux
+				original_tag = R05 #Benelux
 			}
 		}
 		available = {
@@ -15,7 +15,7 @@ rpg_category_territories_benelux = {
 		}
 		visible = {
             has_global_flag = rpg_benelux_flag
-			D25 = {
+			R05 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -23,7 +23,7 @@ rpg_category_territories_benelux = {
 			}
 			NOT = { 
                 original_tag = LUX #Luxemburg
-				original_tag = D25 #Benelux
+				original_tag = R05 #Benelux
                 has_global_flag = rpg_benelux_luxemburg_flag
             }
 		}
@@ -31,8 +31,8 @@ rpg_category_territories_benelux = {
 			custom_effect_tooltip = rpg_benelux_coring_states_luxemburg
 			custom_effect_tooltip = rpg_benelux_transfer_states_luxemburg
 			hidden_effect = {
-				8 = { add_core_of = D25 } #Luxemburg
-				D25 = {
+				8 = { add_core_of = R05 } #Luxemburg
+				R05 = {
 					transfer_state = 8 #Luxemburg
 				}
 			}

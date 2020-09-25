@@ -5,7 +5,7 @@ rpg_category = {
 				original_tag = OMA #Oman
 				original_tag = SAU #Saudi Arabia
 				original_tag = YEM #Yemen
-				original_tag = D31 #Arabia
+				original_tag = R03 #Arabia
 			}
 		}
 		available = {
@@ -46,17 +46,17 @@ rpg_category = {
                 original_tag = OMA #Oman
 				original_tag = SAU #Saudi Arabia
 				original_tag = YEM #Yemen
-				original_tag = D31 #Arabia
+				original_tag = R03 #Arabia
                 has_global_flag = rpg_arabia_flag
             }
 		}
 		complete_effect = {
 			hidden_effect = {
-				292 = { add_core_of = D31 } #Nejd
-				293 = { add_core_of = D31 } #Yemen
-				294 = { add_core_of = D31 } #Oman
-				678 = { add_core_of = D31 } #Rub Al Khali
-				679 = { add_core_of = D31 } #Hejaz
+				292 = { add_core_of = R03 } #Nejd
+				293 = { add_core_of = R03 } #Yemen
+				294 = { add_core_of = R03 } #Oman
+				678 = { add_core_of = R03 } #Rub Al Khali
+				679 = { add_core_of = R03 } #Hejaz
 			}
 			custom_effect_tooltip = rpg_arabia_coring_states
 			custom_effect_tooltip = rpg_arabia_transfer_states
@@ -65,19 +65,19 @@ rpg_category = {
 			hidden_effect = {
 				every_state = {
 					limit = {
-						is_core_of = D31
+						is_core_of = R03
 					}
 					set_compliance = 80
 				}
 				
 				if = {
 					limit = { has_dlc = "La Resistance" }
-					set_temp_variable = { country_to_initiate = D31 }
+					set_temp_variable = { country_to_initiate = R03 }
 					instantiate_collaboration_government = yes
 				}
 				else = {
-					release = D31
-					puppet = D31
+					release = R03
+					puppet = R03
 				}
 			}
 			#News event, set local flag, and set global flag

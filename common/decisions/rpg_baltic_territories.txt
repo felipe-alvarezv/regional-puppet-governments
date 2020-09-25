@@ -3,7 +3,7 @@ rpg_category_territories_baltic = {
 		allowed = {
 			NOT = {
 				original_tag = LIT #Lithuania
-				original_tag = D21 #Baltic
+				original_tag = R04 #Baltic
 			}
 		}
 		available = {
@@ -15,7 +15,7 @@ rpg_category_territories_baltic = {
 		}
 		visible = {
             has_global_flag = rpg_baltic_flag
-			D21 = {
+			R04 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -23,7 +23,7 @@ rpg_category_territories_baltic = {
 			}
 			NOT = { 
                 original_tag = LIT #Lithuania
-				original_tag = D21 #Baltic
+				original_tag = R04 #Baltic
                 has_global_flag = rpg_baltic_memel_flag
             }
 		}
@@ -31,8 +31,8 @@ rpg_category_territories_baltic = {
 			custom_effect_tooltip = rpg_baltic_coring_states_memel
 			custom_effect_tooltip = rpg_baltic_transfer_states_memel
 			hidden_effect = {
-				188 = { add_core_of = D21 } #Memel
-				D21 = {
+				188 = { add_core_of = R04 } #Memel
+				R04 = {
 					transfer_state = 188 #Memel
 				}
 			}
@@ -53,7 +53,7 @@ rpg_category_territories_baltic = {
 			NOT = {
 				original_tag = LIT #Lithuania
 				original_tag = POL #Poland
-				original_tag = D21 #Baltic
+				original_tag = R04 #Baltic
 			}
 		}
 		available = {
@@ -65,7 +65,7 @@ rpg_category_territories_baltic = {
 		}
 		visible = {
             has_global_flag = rpg_baltic_flag
-			D21 = {
+			R04 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -74,7 +74,7 @@ rpg_category_territories_baltic = {
 			NOT = { 
                 original_tag = LIT #Lithuania
 				original_tag = POL #Poland
-				original_tag = D21 #Baltic
+				original_tag = R04 #Baltic
                 has_global_flag = rpg_baltic_wilno_flag
             }
 		}
@@ -82,8 +82,8 @@ rpg_category_territories_baltic = {
 			custom_effect_tooltip = rpg_baltic_coring_states_wilno
 			custom_effect_tooltip = rpg_baltic_transfer_states_wilno
 			hidden_effect = {
-				784 = { add_core_of = D21 } #Wilno
-				D21 = {
+				784 = { add_core_of = R04 } #Wilno
+				R04 = {
 					transfer_state = 784 #Wilno
 				}
 			}

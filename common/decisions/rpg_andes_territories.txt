@@ -3,7 +3,7 @@ rpg_category_territories_andes = {
 		allowed = {
 			NOT = {
 				original_tag = ARG #Argentina
-				original_tag = D46 #Andes
+				original_tag = R01 #Andes
 			}
 		}
 		available = {
@@ -15,7 +15,7 @@ rpg_category_territories_andes = {
 		}
 		visible = {
 			has_global_flag = rpg_andes_flag
-			D46 = {
+			R01 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -23,7 +23,7 @@ rpg_category_territories_andes = {
 			}
 			NOT = { 
 				original_tag = ARG #Argentina
-				original_tag = D46 #Andes
+				original_tag = R01 #Andes
 				has_global_flag = rpg_andes_pampas_flag
 			}
 		}
@@ -31,8 +31,8 @@ rpg_category_territories_andes = {
 			custom_effect_tooltip = rpg_andes_coring_states_pampas
 			custom_effect_tooltip = rpg_andes_transfer_states_pampas
 			hidden_effect = {
-				278 = { add_core_of = D46 } #Pampas
-				D46 = {
+				278 = { add_core_of = R01 } #Pampas
+				R01 = {
 					transfer_state = 278 #Pampas
 				}
 			}
@@ -52,7 +52,7 @@ rpg_category_territories_andes = {
 		allowed = {
 			NOT = {
 				original_tag = CHL #Chile
-				original_tag = D46 #Andes
+				original_tag = R01 #Andes
 			}
 		}
 		available = {
@@ -64,7 +64,7 @@ rpg_category_territories_andes = {
 		}
 		visible = {
 			has_global_flag = rpg_andes_flag
-			D46 = {
+			R01 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -72,7 +72,7 @@ rpg_category_territories_andes = {
 			}
 			NOT = { 
 				original_tag = CHL #Chile
-				original_tag = D46 #Andes
+				original_tag = R01 #Andes
 				has_global_flag = rpg_andes_santiago_flag
 			}
 		}
@@ -80,8 +80,8 @@ rpg_category_territories_andes = {
 			custom_effect_tooltip = rpg_andes_coring_states_santiago
 			custom_effect_tooltip = rpg_andes_transfer_states_santiago
 			hidden_effect = {
-				279 = { add_core_of = D46 } #Santiago
-				D46 = {
+				279 = { add_core_of = R01 } #Santiago
+				R01 = {
 					transfer_state = 279 #Santiago
 				}
 			}
@@ -101,7 +101,7 @@ rpg_category_territories_andes = {
 		allowed = {
 			NOT = {
 				original_tag = ARG #Argentina
-				original_tag = D46 #Andes
+				original_tag = R01 #Andes
 			}
 		}
 		available = {
@@ -113,7 +113,7 @@ rpg_category_territories_andes = {
 		}
 		visible = {
 			has_global_flag = rpg_andes_flag
-			D46 = {
+			R01 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -121,7 +121,7 @@ rpg_category_territories_andes = {
 			}
 			NOT = { 
 				original_tag = ARG #Argentina
-				original_tag = D46 #Andes
+				original_tag = R01 #Andes
 				has_global_flag = rpg_andes_falkland_islands_flag
 			}
 		}
@@ -129,8 +129,8 @@ rpg_category_territories_andes = {
 			custom_effect_tooltip = rpg_andes_coring_states_falkland_islands
 			custom_effect_tooltip = rpg_andes_transfer_states_falkland_islands
 			hidden_effect = {
-				299 = { add_core_of = D46 } #Falkland Islands
-				D46 = {
+				299 = { add_core_of = R01 } #Falkland Islands
+				R01 = {
 					transfer_state = 299 #Falkland Islands
 				}
 			}
@@ -150,7 +150,7 @@ rpg_category_territories_andes = {
 		allowed = {
 			NOT = {
 				original_tag = URG #Uruguay
-				original_tag = D46 #Andes
+				original_tag = R01 #Andes
 			}
 		}
 		available = {
@@ -162,7 +162,7 @@ rpg_category_territories_andes = {
 		}
 		visible = {
 			has_global_flag = rpg_andes_flag
-			D46 = {
+			R01 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -170,7 +170,7 @@ rpg_category_territories_andes = {
 			}
 			NOT = { 
 				original_tag = URG #Uruguay
-				original_tag = D46 #Andes
+				original_tag = R01 #Andes
 				has_global_flag = rpg_andes_uruguay_flag
 			}
 		}
@@ -178,8 +178,8 @@ rpg_category_territories_andes = {
 			custom_effect_tooltip = rpg_andes_coring_states_uruguay
 			custom_effect_tooltip = rpg_andes_transfer_states_uruguay
 			hidden_effect = {
-				300 = { add_core_of = D46 } #Uruguay
-				D46 = {
+				300 = { add_core_of = R01 } #Uruguay
+				R01 = {
 					transfer_state = 300 #Uruguay
 				}
 			}
@@ -199,7 +199,7 @@ rpg_category_territories_andes = {
 		allowed = {
 			NOT = {
 				original_tag = PAR #Paraguay
-				original_tag = D46 #Andes
+				original_tag = R01 #Andes
 			}
 		}
 		available = {
@@ -211,7 +211,7 @@ rpg_category_territories_andes = {
 		}
 		visible = {
 			has_global_flag = rpg_andes_flag
-			D46 = {
+			R01 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -219,7 +219,7 @@ rpg_category_territories_andes = {
 			}
 			NOT = { 
 				original_tag = PAR #Paraguay
-				original_tag = D46 #Andes
+				original_tag = R01 #Andes
 				has_global_flag = rpg_andes_paraguay_flag
 			}
 		}
@@ -227,8 +227,8 @@ rpg_category_territories_andes = {
 			custom_effect_tooltip = rpg_andes_coring_states_paraguay
 			custom_effect_tooltip = rpg_andes_transfer_states_paraguay
 			hidden_effect = {
-				301 = { add_core_of = D46 } #Paraguay
-				D46 = {
+				301 = { add_core_of = R01 } #Paraguay
+				R01 = {
 					transfer_state = 301 #Paraguay
 				}
 			}
@@ -248,7 +248,7 @@ rpg_category_territories_andes = {
 		allowed = {
 			NOT = {
 				original_tag = VEN #Venezuela
-				original_tag = D46 #Andes
+				original_tag = R01 #Andes
 			}
 		}
 		available = {
@@ -260,7 +260,7 @@ rpg_category_territories_andes = {
 		}
 		visible = {
 			has_global_flag = rpg_andes_flag
-			D46 = {
+			R01 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -268,7 +268,7 @@ rpg_category_territories_andes = {
 			}
 			NOT = { 
 				original_tag = VEN #Venezuela
-				original_tag = D46 #Andes
+				original_tag = R01 #Andes
 				has_global_flag = rpg_andes_miranda_flag
 			}
 		}
@@ -276,8 +276,8 @@ rpg_category_territories_andes = {
 			custom_effect_tooltip = rpg_andes_coring_states_miranda
 			custom_effect_tooltip = rpg_andes_transfer_states_miranda
 			hidden_effect = {
-				307 = { add_core_of = D46 } #Miranda
-				D46 = {
+				307 = { add_core_of = R01 } #Miranda
+				R01 = {
 					transfer_state = 307 #Miranda
 				}
 			}
@@ -297,7 +297,7 @@ rpg_category_territories_andes = {
 		allowed = {
 			NOT = {
 				original_tag = VEN #Venezuela
-				original_tag = D46 #Andes
+				original_tag = R01 #Andes
 			}
 		}
 		available = {
@@ -309,7 +309,7 @@ rpg_category_territories_andes = {
 		}
 		visible = {
 			has_global_flag = rpg_andes_flag
-			D46 = {
+			R01 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -317,7 +317,7 @@ rpg_category_territories_andes = {
 			}
 			NOT = { 
 				original_tag = VEN #Venezuela
-				original_tag = D46 #Andes
+				original_tag = R01 #Andes
 				has_global_flag = rpg_andes_bolivar_flag
 			}
 		}
@@ -325,8 +325,8 @@ rpg_category_territories_andes = {
 			custom_effect_tooltip = rpg_andes_coring_states_bolivar
 			custom_effect_tooltip = rpg_andes_transfer_states_bolivar
 			hidden_effect = {
-				488 = { add_core_of = D46 } #Bolivar
-				D46 = {
+				488 = { add_core_of = R01 } #Bolivar
+				R01 = {
 					transfer_state = 488 #Bolivar
 				}
 			}
@@ -346,7 +346,7 @@ rpg_category_territories_andes = {
 		allowed = {
 			NOT = {
 				original_tag = VEN #Venezuela
-				original_tag = D46 #Andes
+				original_tag = R01 #Andes
 			}
 		}
 		available = {
@@ -358,7 +358,7 @@ rpg_category_territories_andes = {
 		}
 		visible = {
 			has_global_flag = rpg_andes_flag
-			D46 = {
+			R01 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -366,7 +366,7 @@ rpg_category_territories_andes = {
 			}
 			NOT = { 
 				original_tag = VEN #Venezuela
-				original_tag = D46 #Andes
+				original_tag = R01 #Andes
 				has_global_flag = rpg_andes_zulia_flag
 			}
 		}
@@ -374,8 +374,8 @@ rpg_category_territories_andes = {
 			custom_effect_tooltip = rpg_andes_coring_states_zulia
 			custom_effect_tooltip = rpg_andes_transfer_states_zulia
 			hidden_effect = {
-				489 = { add_core_of = D46 } #Zulia
-				D46 = {
+				489 = { add_core_of = R01 } #Zulia
+				R01 = {
 					transfer_state = 489 #Zulia
 				}
 			}
@@ -395,7 +395,7 @@ rpg_category_territories_andes = {
 		allowed = {
 			NOT = {
 				original_tag = CHL #Chile
-				original_tag = D46 #Andes
+				original_tag = R01 #Andes
 			}
 		}
 		available = {
@@ -407,7 +407,7 @@ rpg_category_territories_andes = {
 		}
 		visible = {
 			has_global_flag = rpg_andes_flag
-			D46 = {
+			R01 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -415,7 +415,7 @@ rpg_category_territories_andes = {
 			}
 			NOT = { 
 				original_tag = CHL #Chile
-				original_tag = D46 #Andes
+				original_tag = R01 #Andes
 				has_global_flag = rpg_andes_antofagasta_flag
 			}
 		}
@@ -423,8 +423,8 @@ rpg_category_territories_andes = {
 			custom_effect_tooltip = rpg_andes_coring_states_antofagasta
 			custom_effect_tooltip = rpg_andes_transfer_states_antofagasta
 			hidden_effect = {
-				506 = { add_core_of = D46 } #Antofagasta
-				D46 = {
+				506 = { add_core_of = R01 } #Antofagasta
+				R01 = {
 					transfer_state = 506 #Antofagasta
 				}
 			}
@@ -444,7 +444,7 @@ rpg_category_territories_andes = {
 		allowed = {
 			NOT = {
 				original_tag = CHL #Chile
-				original_tag = D46 #Andes
+				original_tag = R01 #Andes
 			}
 		}
 		available = {
@@ -456,7 +456,7 @@ rpg_category_territories_andes = {
 		}
 		visible = {
 			has_global_flag = rpg_andes_flag
-			D46 = {
+			R01 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -464,7 +464,7 @@ rpg_category_territories_andes = {
 			}
 			NOT = { 
 				original_tag = CHL #Chile
-				original_tag = D46 #Andes
+				original_tag = R01 #Andes
 				has_global_flag = rpg_andes_magallanes_flag
 			}
 		}
@@ -472,8 +472,8 @@ rpg_category_territories_andes = {
 			custom_effect_tooltip = rpg_andes_coring_states_magallanes
 			custom_effect_tooltip = rpg_andes_transfer_states_magallanes
 			hidden_effect = {
-				507 = { add_core_of = D46 } #Magallanes
-				D46 = {
+				507 = { add_core_of = R01 } #Magallanes
+				R01 = {
 					transfer_state = 507 #Magallanes
 				}
 			}
@@ -493,7 +493,7 @@ rpg_category_territories_andes = {
 		allowed = {
 			NOT = {
 				original_tag = ARG #Argentina
-				original_tag = D46 #Andes
+				original_tag = R01 #Andes
 			}
 		}
 		available = {
@@ -505,7 +505,7 @@ rpg_category_territories_andes = {
 		}
 		visible = {
 			has_global_flag = rpg_andes_flag
-			D46 = {
+			R01 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -513,7 +513,7 @@ rpg_category_territories_andes = {
 			}
 			NOT = { 
 				original_tag = ARG #Argentina
-				original_tag = D46 #Andes
+				original_tag = R01 #Andes
 				has_global_flag = rpg_andes_tucuman_flag
 			}
 		}
@@ -521,8 +521,8 @@ rpg_category_territories_andes = {
 			custom_effect_tooltip = rpg_andes_coring_states_tucuman
 			custom_effect_tooltip = rpg_andes_transfer_states_tucuman
 			hidden_effect = {
-				508 = { add_core_of = D46 } #Tucuman
-				D46 = {
+				508 = { add_core_of = R01 } #Tucuman
+				R01 = {
 					transfer_state = 508 #Tucuman
 				}
 			}
@@ -542,7 +542,7 @@ rpg_category_territories_andes = {
 		allowed = {
 			NOT = {
 				original_tag = ARG #Argentina
-				original_tag = D46 #Andes
+				original_tag = R01 #Andes
 			}
 		}
 		available = {
@@ -554,7 +554,7 @@ rpg_category_territories_andes = {
 		}
 		visible = {
 			has_global_flag = rpg_andes_flag
-			D46 = {
+			R01 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -562,7 +562,7 @@ rpg_category_territories_andes = {
 			}
 			NOT = { 
 				original_tag = ARG #Argentina
-				original_tag = D46 #Andes
+				original_tag = R01 #Andes
 				has_global_flag = rpg_andes_chaco_austral_flag
 			}
 		}
@@ -570,8 +570,8 @@ rpg_category_territories_andes = {
 			custom_effect_tooltip = rpg_andes_coring_states_chaco_austral
 			custom_effect_tooltip = rpg_andes_transfer_states_chaco_austral
 			hidden_effect = {
-				509 = { add_core_of = D46 } #Chaco Austral
-				D46 = {
+				509 = { add_core_of = R01 } #Chaco Austral
+				R01 = {
 					transfer_state = 509 #Chaco Austral
 				}
 			}
@@ -591,7 +591,7 @@ rpg_category_territories_andes = {
 		allowed = {
 			NOT = {
 				original_tag = ARG #Argentina
-				original_tag = D46 #Andes
+				original_tag = R01 #Andes
 			}
 		}
 		available = {
@@ -603,7 +603,7 @@ rpg_category_territories_andes = {
 		}
 		visible = {
 			has_global_flag = rpg_andes_flag
-			D46 = {
+			R01 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -611,7 +611,7 @@ rpg_category_territories_andes = {
 			}
 			NOT = { 
 				original_tag = ARG #Argentina
-				original_tag = D46 #Andes
+				original_tag = R01 #Andes
 				has_global_flag = rpg_andes_mesopotamia_flag
 			}
 		}
@@ -619,8 +619,8 @@ rpg_category_territories_andes = {
 			custom_effect_tooltip = rpg_andes_coring_states_mesopotamia
 			custom_effect_tooltip = rpg_andes_transfer_states_mesopotamia
 			hidden_effect = {
-				510 = { add_core_of = D46 } #Mesopotamia
-				D46 = {
+				510 = { add_core_of = R01 } #Mesopotamia
+				R01 = {
 					transfer_state = 510 #Mesopotamia
 				}
 			}
@@ -640,7 +640,7 @@ rpg_category_territories_andes = {
 		allowed = {
 			NOT = {
 				original_tag = ARG #Argentina
-				original_tag = D46 #Andes
+				original_tag = R01 #Andes
 			}
 		}
 		available = {
@@ -652,7 +652,7 @@ rpg_category_territories_andes = {
 		}
 		visible = {
 			has_global_flag = rpg_andes_flag
-			D46 = {
+			R01 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -660,7 +660,7 @@ rpg_category_territories_andes = {
 			}
 			NOT = { 
 				original_tag = ARG #Argentina
-				original_tag = D46 #Andes
+				original_tag = R01 #Andes
 				has_global_flag = rpg_andes_mendoza_flag
 			}
 		}
@@ -668,8 +668,8 @@ rpg_category_territories_andes = {
 			custom_effect_tooltip = rpg_andes_coring_states_mendoza
 			custom_effect_tooltip = rpg_andes_transfer_states_mendoza
 			hidden_effect = {
-				511 = { add_core_of = D46 } #Mendoza
-				D46 = {
+				511 = { add_core_of = R01 } #Mendoza
+				R01 = {
 					transfer_state = 511 #Mendoza
 				}
 			}
@@ -689,7 +689,7 @@ rpg_category_territories_andes = {
 		allowed = {
 			NOT = {
 				original_tag = ARG #Argentina
-				original_tag = D46 #Andes
+				original_tag = R01 #Andes
 			}
 		}
 		available = {
@@ -701,7 +701,7 @@ rpg_category_territories_andes = {
 		}
 		visible = {
 			has_global_flag = rpg_andes_flag
-			D46 = {
+			R01 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -709,7 +709,7 @@ rpg_category_territories_andes = {
 			}
 			NOT = { 
 				original_tag = ARG #Argentina
-				original_tag = D46 #Andes
+				original_tag = R01 #Andes
 				has_global_flag = rpg_andes_patagonia_flag
 			}
 		}
@@ -717,8 +717,8 @@ rpg_category_territories_andes = {
 			custom_effect_tooltip = rpg_andes_coring_states_patagonia
 			custom_effect_tooltip = rpg_andes_transfer_states_patagonia
 			hidden_effect = {
-				512 = { add_core_of = D46 } #Patagonia
-				D46 = {
+				512 = { add_core_of = R01 } #Patagonia
+				R01 = {
 					transfer_state = 512 #Patagonia
 				}
 			}
@@ -738,7 +738,7 @@ rpg_category_territories_andes = {
 		allowed = {
 			NOT = {
 				original_tag = ECU #Ecuador
-				original_tag = D46 #Andes
+				original_tag = R01 #Andes
 			}
 		}
 		available = {
@@ -750,7 +750,7 @@ rpg_category_territories_andes = {
 		}
 		visible = {
 			has_global_flag = rpg_andes_flag
-			D46 = {
+			R01 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -758,7 +758,7 @@ rpg_category_territories_andes = {
 			}
 			NOT = { 
 				original_tag = ECU #Ecuador
-				original_tag = D46 #Andes
+				original_tag = R01 #Andes
 				has_global_flag = rpg_andes_galapagos_islands_flag
 			}
 		}
@@ -766,8 +766,8 @@ rpg_category_territories_andes = {
 			custom_effect_tooltip = rpg_andes_coring_states_galapagos_islands
 			custom_effect_tooltip = rpg_andes_transfer_states_galapagos_islands
 			hidden_effect = {
-				649 = { add_core_of = D46 } #Galapagos Islands
-				D46 = {
+				649 = { add_core_of = R01 } #Galapagos Islands
+				R01 = {
 					transfer_state = 649 #Galapagos Islands
 				}
 			}
@@ -788,7 +788,7 @@ rpg_category_territories_andes = {
 			NOT = {
 				original_tag = BOL #Bolivia
 				original_tag = PAR #Paraguay
-				original_tag = D46 #Andes
+				original_tag = R01 #Andes
 			}
 		}
 		available = {
@@ -800,7 +800,7 @@ rpg_category_territories_andes = {
 		}
 		visible = {
 			has_global_flag = rpg_andes_flag
-			D46 = {
+			R01 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -809,7 +809,7 @@ rpg_category_territories_andes = {
 			NOT = { 
 				original_tag = BOL #Bolivia
 				original_tag = PAR #Paraguay
-				original_tag = D46 #Andes
+				original_tag = R01 #Andes
 				has_global_flag = rpg_andes_chaco_boreal_flag
 			}
 		}
@@ -817,8 +817,8 @@ rpg_category_territories_andes = {
 			custom_effect_tooltip = rpg_andes_coring_states_chaco_boreal
 			custom_effect_tooltip = rpg_andes_transfer_states_chaco_boreal
 			hidden_effect = {
-				688 = { add_core_of = D46 } #Chaco Boreal
-				D46 = {
+				688 = { add_core_of = R01 } #Chaco Boreal
+				R01 = {
 					transfer_state = 688 #Chaco Boreal
 				}
 			}
@@ -838,7 +838,7 @@ rpg_category_territories_andes = {
 		allowed = {
 			NOT = {
 				original_tag = TRI #Trinidad
-				original_tag = D46 #Andes
+				original_tag = R01 #Andes
 			}
 		}
 		available = {
@@ -850,7 +850,7 @@ rpg_category_territories_andes = {
 		}
 		visible = {
 			has_global_flag = rpg_andes_flag
-			D46 = {
+			R01 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -858,7 +858,7 @@ rpg_category_territories_andes = {
 			}
 			NOT = { 
 				original_tag = TRI #Trinidad
-				original_tag = D46 #Andes
+				original_tag = R01 #Andes
 				has_global_flag = rpg_andes_trinidad_flag
 			}
 		}
@@ -866,8 +866,8 @@ rpg_category_territories_andes = {
 			custom_effect_tooltip = rpg_andes_coring_states_trinidad
 			custom_effect_tooltip = rpg_andes_transfer_states_trinidad
 			hidden_effect = {
-				691 = { add_core_of = D46 } #Trinidad
-				D46 = {
+				691 = { add_core_of = R01 } #Trinidad
+				R01 = {
 					transfer_state = 691 #Trinidad
 				}
 			}
@@ -887,7 +887,7 @@ rpg_category_territories_andes = {
 		allowed = {
 			NOT = {
 				original_tag = CRC #Curacao
-				original_tag = D46 #Andes
+				original_tag = R01 #Andes
 			}
 		}
 		available = {
@@ -899,7 +899,7 @@ rpg_category_territories_andes = {
 		}
 		visible = {
 			has_global_flag = rpg_andes_flag
-			D46 = {
+			R01 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -907,7 +907,7 @@ rpg_category_territories_andes = {
 			}
 			NOT = { 
 				original_tag = CRC #Curacao
-				original_tag = D46 #Andes
+				original_tag = R01 #Andes
 				has_global_flag = rpg_andes_curacao_flag
 			}
 		}
@@ -915,8 +915,8 @@ rpg_category_territories_andes = {
 			custom_effect_tooltip = rpg_andes_coring_states_curacao
 			custom_effect_tooltip = rpg_andes_transfer_states_curacao
 			hidden_effect = {
-				695 = { add_core_of = D46 } #Curacao
-				D46 = {
+				695 = { add_core_of = R01 } #Curacao
+				R01 = {
 					transfer_state = 695 #Curacao
 				}
 			}

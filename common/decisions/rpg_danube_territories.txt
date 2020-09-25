@@ -3,7 +3,7 @@ rpg_category_territories_danube = {
 		allowed = {
 			NOT = {
 				original_tag = AUS #Austria
-				original_tag = D22 #Danube
+				original_tag = R09 #Danube
 			}
 		}
 		available = {
@@ -15,7 +15,7 @@ rpg_category_territories_danube = {
 		}
 		visible = {
             has_global_flag = rpg_danube_flag
-			D22 = {
+			R09 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -23,7 +23,7 @@ rpg_category_territories_danube = {
 			}
 			NOT = { 
                 original_tag = AUS #Austria
-				original_tag = D22 #Danube
+				original_tag = R09 #Danube
                 has_global_flag = rpg_danube_lower_austria_flag
             }
 		}
@@ -31,8 +31,8 @@ rpg_category_territories_danube = {
 			custom_effect_tooltip = rpg_danube_coring_states_lower_austria
 			custom_effect_tooltip = rpg_danube_transfer_states_lower_austria
 			hidden_effect = {
-				4 = { add_core_of = D22 } #Lower Austria
-				D22 = {
+				4 = { add_core_of = R09 } #Lower Austria
+				R09 = {
 					transfer_state = 4 #Lower Austria
 				}
 			}
@@ -53,7 +53,7 @@ rpg_category_territories_danube = {
 			NOT = {
 				original_tag = AUS #Austria
 				original_tag = ITA #Italy
-				original_tag = D22 #Danube
+				original_tag = R09 #Danube
 			}
 		}
 		available = {
@@ -65,7 +65,7 @@ rpg_category_territories_danube = {
 		}
 		visible = {
             has_global_flag = rpg_danube_flag
-			D22 = {
+			R09 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -74,7 +74,7 @@ rpg_category_territories_danube = {
 			NOT = { 
                 original_tag = AUS #Austria
 				original_tag = ITA #Italy
-				original_tag = D22 #Danube
+				original_tag = R09 #Danube
                 has_global_flag = rpg_danube_south_tyrol_flag
             }
 		}
@@ -82,8 +82,8 @@ rpg_category_territories_danube = {
 			custom_effect_tooltip = rpg_danube_coring_states_south_tyrol
 			custom_effect_tooltip = rpg_danube_transfer_states_south_tyrol
 			hidden_effect = {
-				39 = { add_core_of = D22 } #South Tyrol
-				D22 = {
+				39 = { add_core_of = R09 } #South Tyrol
+				R09 = {
 					transfer_state = 39 #South Tyrol
 				}
 			}
@@ -104,7 +104,7 @@ rpg_category_territories_danube = {
 			NOT = {
 				original_tag = SER #Serbia
 				original_tag = YUG #Yugoslavia
-				original_tag = D22 #Danube
+				original_tag = R09 #Danube
 			}
 		}
 		available = {
@@ -116,7 +116,7 @@ rpg_category_territories_danube = {
 		}
 		visible = {
             has_global_flag = rpg_danube_flag
-			D22 = {
+			R09 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -125,7 +125,7 @@ rpg_category_territories_danube = {
 			NOT = { 
                 original_tag = SER #Serbia
 				original_tag = YUG #Yugoslavia
-				original_tag = D22 #Danube
+				original_tag = R09 #Danube
                 has_global_flag = rpg_danube_vojvodina_flag
             }
 		}
@@ -133,8 +133,8 @@ rpg_category_territories_danube = {
 			custom_effect_tooltip = rpg_danube_coring_states_vojvodina
 			custom_effect_tooltip = rpg_danube_transfer_states_vojvodina
 			hidden_effect = {
-				45 = { add_core_of = D22 } #Vojvodina
-				D22 = {
+				45 = { add_core_of = R09 } #Vojvodina
+				R09 = {
 					transfer_state = 45 #Vojvodina
 				}
 			}
@@ -155,7 +155,7 @@ rpg_category_territories_danube = {
 			NOT = {
 				original_tag = CZE #Czechoslovakia
 				original_tag = SLO #Slovakia
-				original_tag = D22 #Danube
+				original_tag = R09 #Danube
 			}
 		}
 		available = {
@@ -167,7 +167,7 @@ rpg_category_territories_danube = {
 		}
 		visible = {
             has_global_flag = rpg_danube_flag
-			D22 = {
+			R09 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -176,7 +176,7 @@ rpg_category_territories_danube = {
 			NOT = { 
                 original_tag = CZE #Czechoslovakia
 				original_tag = SLO #Slovakia
-				original_tag = D22 #Danube
+				original_tag = R09 #Danube
                 has_global_flag = rpg_danube_western_slovakia_flag
             }
 		}
@@ -184,8 +184,8 @@ rpg_category_territories_danube = {
 			custom_effect_tooltip = rpg_danube_coring_states_western_slovakia
 			custom_effect_tooltip = rpg_danube_transfer_states_western_slovakia
 			hidden_effect = {
-				70 = { add_core_of = D22 } #Western Slovakia
-				D22 = {
+				70 = { add_core_of = R09 } #Western Slovakia
+				R09 = {
 					transfer_state = 70 #Western Slovakia
 				}
 			}
@@ -206,7 +206,7 @@ rpg_category_territories_danube = {
 			NOT = {
 				original_tag = CZE #Czechoslovakia
 				original_tag = SLO #Slovakia
-				original_tag = D22 #Danube
+				original_tag = R09 #Danube
 			}
 		}
 		available = {
@@ -218,7 +218,7 @@ rpg_category_territories_danube = {
 		}
 		visible = {
             has_global_flag = rpg_danube_flag
-			D22 = {
+			R09 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -227,7 +227,7 @@ rpg_category_territories_danube = {
 			NOT = { 
                 original_tag = CZE #Czechoslovakia
 				original_tag = SLO #Slovakia
-				original_tag = D22 #Danube
+				original_tag = R09 #Danube
                 has_global_flag = rpg_danube_eastern_slovakia_flag
             }
 		}
@@ -235,8 +235,8 @@ rpg_category_territories_danube = {
 			custom_effect_tooltip = rpg_danube_coring_states_eastern_slovakia
 			custom_effect_tooltip = rpg_danube_transfer_states_eastern_slovakia
 			hidden_effect = {
-				71 = { add_core_of = D22 } #Eastern Slovakia
-				D22 = {
+				71 = { add_core_of = R09 } #Eastern Slovakia
+				R09 = {
 					transfer_state = 71 #Eastern Slovakia
 				}
 			}
@@ -257,7 +257,7 @@ rpg_category_territories_danube = {
 			NOT = {
 				original_tag = CZE #Czechoslovakia
 				original_tag = HUN #Hungary
-				original_tag = D22 #Danube
+				original_tag = R09 #Danube
 			}
 		}
 		available = {
@@ -269,7 +269,7 @@ rpg_category_territories_danube = {
 		}
 		visible = {
             has_global_flag = rpg_danube_flag
-			D22 = {
+			R09 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -278,7 +278,7 @@ rpg_category_territories_danube = {
 			NOT = { 
                 original_tag = CZE #Czechoslovakia
 				original_tag = HUN #Hungary
-				original_tag = D22 #Danube
+				original_tag = R09 #Danube
                 has_global_flag = rpg_danube_carpathian_ruthenia_flag
             }
 		}
@@ -286,8 +286,8 @@ rpg_category_territories_danube = {
 			custom_effect_tooltip = rpg_danube_coring_states_carpathian_ruthenia
 			custom_effect_tooltip = rpg_danube_transfer_states_carpathian_ruthenia
 			hidden_effect = {
-				73 = { add_core_of = D22 } #Carpathian Ruthenia
-				D22 = {
+				73 = { add_core_of = R09 } #Carpathian Ruthenia
+				R09 = {
 					transfer_state = 73 #Carpathian Ruthenia
 				}
 			}
@@ -309,7 +309,7 @@ rpg_category_territories_danube = {
 			NOT = {
 				original_tag = SLO #Slovenia
 				original_tag = YUG #Yugoslavia
-				original_tag = D22 #Danube
+				original_tag = R09 #Danube
 			}
 		}
 		available = {
@@ -321,7 +321,7 @@ rpg_category_territories_danube = {
 		}
 		visible = {
             has_global_flag = rpg_danube_flag
-			D22 = {
+			R09 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -329,7 +329,7 @@ rpg_category_territories_danube = {
 			}
 			NOT = { 
                 original_tag = AUS #Austria
-				original_tag = D22 #Danube
+				original_tag = R09 #Danube
                 has_global_flag = rpg_danube_slovenia_flag
             }
 		}
@@ -337,8 +337,8 @@ rpg_category_territories_danube = {
 			custom_effect_tooltip = rpg_danube_coring_states_slovenia
 			custom_effect_tooltip = rpg_danube_transfer_states_slovenia
 			hidden_effect = {
-				102 = { add_core_of = D22 } #Slovenia
-				D22 = {
+				102 = { add_core_of = R09 } #Slovenia
+				R09 = {
 					transfer_state = 102 #Slovenia
 				}
 			}
@@ -359,7 +359,7 @@ rpg_category_territories_danube = {
 			NOT = {
 				original_tag = CRO #Croatia
 				original_tag = YUG #Yugoslavia
-				original_tag = D22 #Danube
+				original_tag = R09 #Danube
 			}
 		}
 		available = {
@@ -371,7 +371,7 @@ rpg_category_territories_danube = {
 		}
 		visible = {
             has_global_flag = rpg_danube_flag
-			D22 = {
+			R09 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -380,7 +380,7 @@ rpg_category_territories_danube = {
 			NOT = { 
                 original_tag = CRO #Croatia
 				original_tag = YUG #Yugoslavia
-				original_tag = D22 #Danube
+				original_tag = R09 #Danube
                 has_global_flag = rpg_danube_dalmatia_flag
             }
 		}
@@ -388,8 +388,8 @@ rpg_category_territories_danube = {
 			custom_effect_tooltip = rpg_danube_coring_states_dalmatia
 			custom_effect_tooltip = rpg_danube_transfer_states_dalmatia
 			hidden_effect = {
-				103 = { add_core_of = D22 } #Dalmatia
-				D22 = {
+				103 = { add_core_of = R09 } #Dalmatia
+				R09 = {
 					transfer_state = 103 #Dalmatia
 				}
 			}
@@ -410,7 +410,7 @@ rpg_category_territories_danube = {
 			NOT = {
 				original_tag = CRO #Croatia
 				original_tag = YUG #Yugoslavia
-				original_tag = D22 #Danube
+				original_tag = R09 #Danube
 			}
 		}
 		available = {
@@ -422,7 +422,7 @@ rpg_category_territories_danube = {
 		}
 		visible = {
             has_global_flag = rpg_danube_flag
-			D22 = {
+			R09 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -431,7 +431,7 @@ rpg_category_territories_danube = {
 			NOT = { 
                 original_tag = CRO #Croatia
 				original_tag = YUG #Yugoslavia
-				original_tag = D22 #Danube
+				original_tag = R09 #Danube
                 has_global_flag = rpg_danube_croatia_flag
             }
 		}
@@ -439,8 +439,8 @@ rpg_category_territories_danube = {
 			custom_effect_tooltip = rpg_danube_coring_states_croatia
 			custom_effect_tooltip = rpg_danube_transfer_states_croatia
 			hidden_effect = {
-				109 = { add_core_of = D22 } #Croatia
-				D22 = {
+				109 = { add_core_of = R09 } #Croatia
+				R09 = {
 					transfer_state = 109 #Croatia
 				}
 			}
@@ -460,7 +460,7 @@ rpg_category_territories_danube = {
 		allowed = {
 			NOT = {
 				original_tag = AUS #Austria
-				original_tag = D22 #Danube
+				original_tag = R09 #Danube
 			}
 		}
 		available = {
@@ -472,7 +472,7 @@ rpg_category_territories_danube = {
 		}
 		visible = {
             has_global_flag = rpg_danube_flag
-			D22 = {
+			R09 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -480,7 +480,7 @@ rpg_category_territories_danube = {
 			}
 			NOT = { 
                 original_tag = AUS #Austria
-				original_tag = D22 #Danube
+				original_tag = R09 #Danube
                 has_global_flag = rpg_danube_upper_austria_flag
             }
 		}
@@ -488,8 +488,8 @@ rpg_category_territories_danube = {
 			custom_effect_tooltip = rpg_danube_coring_states_upper_austria
 			custom_effect_tooltip = rpg_danube_transfer_states_upper_austria
 			hidden_effect = {
-				152 = { add_core_of = D22 } #Upper Austria
-				D22 = {
+				152 = { add_core_of = R09 } #Upper Austria
+				R09 = {
 					transfer_state = 152 #Upper Austria
 				}
 			}
@@ -509,7 +509,7 @@ rpg_category_territories_danube = {
 		allowed = {
 			NOT = {
 				original_tag = AUS #Austria
-				original_tag = D22 #Danube
+				original_tag = R09 #Danube
 			}
 		}
 		available = {
@@ -521,7 +521,7 @@ rpg_category_territories_danube = {
 		}
 		visible = {
             has_global_flag = rpg_danube_flag
-			D22 = {
+			R09 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -529,7 +529,7 @@ rpg_category_territories_danube = {
 			}
 			NOT = { 
                 original_tag = AUS #Austria
-				original_tag = D22 #Danube
+				original_tag = R09 #Danube
                 has_global_flag = rpg_danube_tyrol_flag
             }
 		}
@@ -537,8 +537,8 @@ rpg_category_territories_danube = {
 			custom_effect_tooltip = rpg_danube_coring_states_tyrol
 			custom_effect_tooltip = rpg_danube_transfer_states_tyrol
 			hidden_effect = {
-				153 = { add_core_of = D22 } #Tyrol
-				D22 = {
+				153 = { add_core_of = R09 } #Tyrol
+				R09 = {
 					transfer_state = 153 #Tyrol
 				}
 			}
@@ -560,7 +560,7 @@ rpg_category_territories_danube = {
 				original_tag = CZE #Czechoslovakia
 				original_tag = HUN #Hungary
 				original_tag = SLO #Slovakia
-				original_tag = D22 #Danube
+				original_tag = R09 #Danube
 			}
 		}
 		available = {
@@ -572,7 +572,7 @@ rpg_category_territories_danube = {
 		}
 		visible = {
             has_global_flag = rpg_danube_flag
-			D22 = {
+			R09 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -582,7 +582,7 @@ rpg_category_territories_danube = {
                 original_tag = CZE #Czechoslovakia
 				original_tag = HUN #Hungary
 				original_tag = SLO #Slovakia
-				original_tag = D22 #Danube
+				original_tag = R09 #Danube
                 has_global_flag = rpg_danube_southern_slovakia_flag
             }
 		}
@@ -590,8 +590,8 @@ rpg_category_territories_danube = {
 			custom_effect_tooltip = rpg_danube_coring_states_southern_slovakia
 			custom_effect_tooltip = rpg_danube_transfer_states_southern_slovakia
 			hidden_effect = {
-				664 = { add_core_of = D22 } #Southern Slovakia
-				D22 = {
+				664 = { add_core_of = R09 } #Southern Slovakia
+				R09 = {
 					transfer_state = 664 #Southern Slovakia
 				}
 			}
@@ -612,7 +612,7 @@ rpg_category_territories_danube = {
 			NOT = {
 				original_tag = SER #Serbia
 				original_tag = YUG #Yugoslavia
-				original_tag = D22 #Danube
+				original_tag = R09 #Danube
 			}
 		}
 		available = {
@@ -624,7 +624,7 @@ rpg_category_territories_danube = {
 		}
 		visible = {
             has_global_flag = rpg_danube_flag
-			D22 = {
+			R09 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -633,7 +633,7 @@ rpg_category_territories_danube = {
 			NOT = { 
                 original_tag = SER #Serbia
 				original_tag = YUG #Yugoslavia
-				original_tag = D22 #Danube
+				original_tag = R09 #Danube
                 has_global_flag = rpg_danube_west_banat_flag
             }
 		}
@@ -641,8 +641,8 @@ rpg_category_territories_danube = {
 			custom_effect_tooltip = rpg_danube_coring_states_west_banat
 			custom_effect_tooltip = rpg_danube_transfer_states_west_banat
 			hidden_effect = {
-				764 = { add_core_of = D22 } #West Banat
-				D22 = {
+				764 = { add_core_of = R09 } #West Banat
+				R09 = {
 					transfer_state = 764 #West Banat
 				}
 			}

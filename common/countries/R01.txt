@@ -1,0 +1,6 @@
+#Andes
+graphical_culture = southamerican_gfx
+graphical_culture_2d = southamerican_2d
+color = { 196 189 204 }
+color = rgb { 196 189 204 }
+color_ui = rgb { 196 189 204 }

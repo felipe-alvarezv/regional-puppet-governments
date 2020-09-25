@@ -3,7 +3,7 @@ rpg_category_territories_east_africa = {
 		allowed = {
 			NOT = {
 				original_tag = DJI #Djibouti
-				original_tag = D47 #East Africa
+				original_tag = R10 #East Africa
 			}
 		}
 		available = {
@@ -15,7 +15,7 @@ rpg_category_territories_east_africa = {
 		}
 		visible = {
             has_global_flag = rpg_east_africa_flag
-			D47 = {
+			R10 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -23,7 +23,7 @@ rpg_category_territories_east_africa = {
 			}
 			NOT = { 
                 original_tag = DJI #Djibouti
-				original_tag = D47 #East Africa
+				original_tag = R10 #East Africa
                 has_global_flag = rpg_east_africa_french_somaliland_flag
             }
 		}
@@ -31,8 +31,8 @@ rpg_category_territories_east_africa = {
 			custom_effect_tooltip = rpg_east_africa_coring_states_french_somaliland
 			custom_effect_tooltip = rpg_east_africa_transfer_states_french_somaliland
 			hidden_effect = {
-				268 = { add_core_of = D47 } #French Somaliland
-				D47 = {
+				268 = { add_core_of = R10 } #French Somaliland
+				R10 = {
 					transfer_state = 268 #French Somaliland
 				}
 			}
@@ -52,7 +52,7 @@ rpg_category_territories_east_africa = {
 		allowed = {
 			NOT = {
 				original_tag = MAD #Madagascar
-				original_tag = D47 #East Africa
+				original_tag = R10 #East Africa
 			}
 		}
 		available = {
@@ -64,7 +64,7 @@ rpg_category_territories_east_africa = {
 		}
 		visible = {
             has_global_flag = rpg_east_africa_flag
-			D47 = {
+			R10 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -72,7 +72,7 @@ rpg_category_territories_east_africa = {
 			}
 			NOT = { 
                 original_tag = MAD #Madagascar
-				original_tag = D47 #East Africa
+				original_tag = R10 #East Africa
                 has_global_flag = rpg_east_africa_madagascar_flag
             }
 		}
@@ -80,8 +80,8 @@ rpg_category_territories_east_africa = {
 			custom_effect_tooltip = rpg_east_africa_coring_states_madagascar
 			custom_effect_tooltip = rpg_east_africa_transfer_states_madagascar
 			hidden_effect = {
-				543 = { add_core_of = D47 } #Madagascar
-				D47 = {
+				543 = { add_core_of = R10 } #Madagascar
+				R10 = {
 					transfer_state = 543 #Madagascar
 				}
 			}
@@ -101,7 +101,7 @@ rpg_category_territories_east_africa = {
 		allowed = {
 			NOT = {
 				original_tag = MAD #Madagascar
-				original_tag = D47 #East Africa
+				original_tag = R10 #East Africa
 			}
 		}
 		available = {
@@ -113,7 +113,7 @@ rpg_category_territories_east_africa = {
 		}
 		visible = {
             has_global_flag = rpg_east_africa_flag
-			D47 = {
+			R10 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -121,7 +121,7 @@ rpg_category_territories_east_africa = {
 			}
 			NOT = { 
                 original_tag = MAD #Madagascar
-				original_tag = D47 #East Africa
+				original_tag = R10 #East Africa
                 has_global_flag = rpg_east_africa_reunion_flag
             }
 		}
@@ -129,8 +129,8 @@ rpg_category_territories_east_africa = {
 			custom_effect_tooltip = rpg_east_africa_coring_states_reunion
 			custom_effect_tooltip = rpg_east_africa_transfer_states_reunion
 			hidden_effect = {
-				706 = { add_core_of = D47 } #Reunion
-				D47 = {
+				706 = { add_core_of = R10 } #Reunion
+				R10 = {
 					transfer_state = 706 #Reunion
 				}
 			}
@@ -150,7 +150,7 @@ rpg_category_territories_east_africa = {
 		allowed = {
 			NOT = {
 				original_tag = MAD #Madagascar
-				original_tag = D47 #East Africa
+				original_tag = R10 #East Africa
 			}
 		}
 		available = {
@@ -162,7 +162,7 @@ rpg_category_territories_east_africa = {
 		}
 		visible = {
             has_global_flag = rpg_east_africa_flag
-			D47 = {
+			R10 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -170,7 +170,7 @@ rpg_category_territories_east_africa = {
 			}
 			NOT = { 
                 original_tag = MAD #Madagascar
-				original_tag = D47 #East Africa
+				original_tag = R10 #East Africa
                 has_global_flag = rpg_east_africa_mauritius_flag
             }
 		}
@@ -178,8 +178,8 @@ rpg_category_territories_east_africa = {
 			custom_effect_tooltip = rpg_east_africa_coring_states_mauritius
 			custom_effect_tooltip = rpg_east_africa_transfer_states_mauritius
 			hidden_effect = {
-				707 = { add_core_of = D47 } #Mauritius
-				D47 = {
+				707 = { add_core_of = R10 } #Mauritius
+				R10 = {
 					transfer_state = 707 #Mauritius
 				}
 			}
@@ -199,7 +199,7 @@ rpg_category_territories_east_africa = {
 		allowed = {
 			NOT = {
 				original_tag = MAD #Madagascar
-				original_tag = D47 #East Africa
+				original_tag = R10 #East Africa
 			}
 		}
 		available = {
@@ -211,7 +211,7 @@ rpg_category_territories_east_africa = {
 		}
 		visible = {
             has_global_flag = rpg_east_africa_flag
-			D47 = {
+			R10 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -219,7 +219,7 @@ rpg_category_territories_east_africa = {
 			}
 			NOT = { 
                 original_tag = MAD #Madagascar
-				original_tag = D47 #East Africa
+				original_tag = R10 #East Africa
                 has_global_flag = rpg_east_africa_comoro_islands_flag
             }
 		}
@@ -227,8 +227,8 @@ rpg_category_territories_east_africa = {
 			custom_effect_tooltip = rpg_east_africa_coring_states_comoro_islands
 			custom_effect_tooltip = rpg_east_africa_transfer_states_comoro_islands
 			hidden_effect = {
-				708 = { add_core_of = D47 } #Comoro Islands
-				D47 = {
+				708 = { add_core_of = R10 } #Comoro Islands
+				R10 = {
 					transfer_state = 708 #Comoro Islands
 				}
 			}
@@ -248,7 +248,7 @@ rpg_category_territories_east_africa = {
 		allowed = {
 			NOT = {
 				original_tag = MAD #Madagascar
-				original_tag = D47 #East Africa
+				original_tag = R10 #East Africa
 			}
 		}
 		available = {
@@ -260,7 +260,7 @@ rpg_category_territories_east_africa = {
 		}
 		visible = {
             has_global_flag = rpg_east_africa_flag
-			D47 = {
+			R10 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -268,7 +268,7 @@ rpg_category_territories_east_africa = {
 			}
 			NOT = { 
                 original_tag = MAD #Madagascar
-				original_tag = D47 #East Africa
+				original_tag = R10 #East Africa
                 has_global_flag = rpg_east_africa_seychelles_flag
             }
 		}
@@ -276,8 +276,8 @@ rpg_category_territories_east_africa = {
 			custom_effect_tooltip = rpg_east_africa_coring_states_seychelles
 			custom_effect_tooltip = rpg_east_africa_transfer_states_seychelles
 			hidden_effect = {
-				709 = { add_core_of = D47 } #Seychelles
-				D47 = {
+				709 = { add_core_of = R10 } #Seychelles
+				R10 = {
 					transfer_state = 709 #Seychelles
 				}
 			}

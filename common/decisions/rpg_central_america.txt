@@ -8,7 +8,7 @@ rpg_category = {
 				original_tag = HON #Honduras
 				original_tag = NIC #Nicaragua
 				original_tag = PAN #Panama
-				original_tag = D45 #Central America
+				original_tag = R08 #Central America
 			}
 		}
 		available = {
@@ -60,18 +60,18 @@ rpg_category = {
 				original_tag = HON #Honduras
 				original_tag = NIC #Nicaragua
 				original_tag = PAN #Panama
-				original_tag = D45 #Central America
+				original_tag = R08 #Central America
                 has_global_flag = rpg_central_america_flag
             }
 		}
 		complete_effect = {
 			hidden_effect = {
-				304 = { add_core_of = D45 } #Panama
-				312 = { add_core_of = D45 } #Honduras
-				313 = { add_core_of = D45 } #Guatemala
-				314 = { add_core_of = D45 } #El Salvador
-				316 = { add_core_of = D45 } #Costa Rica
-				317 = { add_core_of = D45 } #Nicaragua
+				304 = { add_core_of = R08 } #Panama
+				312 = { add_core_of = R08 } #Honduras
+				313 = { add_core_of = R08 } #Guatemala
+				314 = { add_core_of = R08 } #El Salvador
+				316 = { add_core_of = R08 } #Costa Rica
+				317 = { add_core_of = R08 } #Nicaragua
 			}
 			custom_effect_tooltip = rpg_central_america_coring_states
 			custom_effect_tooltip = rpg_central_america_transfer_states
@@ -80,19 +80,19 @@ rpg_category = {
 			hidden_effect = {
 				every_state = {
 					limit = {
-						is_core_of = D45
+						is_core_of = R08
 					}
 					set_compliance = 80
 				}
 				
 				if = {
 					limit = { has_dlc = "La Resistance" }
-					set_temp_variable = { country_to_initiate = D45 }
+					set_temp_variable = { country_to_initiate = R08 }
 					instantiate_collaboration_government = yes
 				}
 				else = {
-					release = D45
-					puppet = D45
+					release = R08
+					puppet = R08
 				}
 			}
 			#News event, set local flag, and set global flag

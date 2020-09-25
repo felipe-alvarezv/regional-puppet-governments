@@ -1,132 +1,4 @@
-﻿D20 = {
-	male = {
-		names = { 
-			Albert Alec Aled Alex Alexander Alfred Allan Alun Andrew Andy Aneurin Angus Archibald 
-			Arthur Bernard Billy Bob Brian Bryn Campbell Cathal Charles Christopher Colbert Colin Con 
-			Cyril Dai Daniel David Denis Desmond Donald Douglas Duncan Éamon Edmund Edward Emrys Ernes 
-			Esyr Ewan Fairfax Fionán Francis Frank Gareth Geoffrey George Glyn Gordon Graham Gwynfor 
-			Harry Henrey Herbert Horatio Hubert Hugh Huw Iain Ian Ian Ianto Idris Idwal Iorwerth Jack 
-			Jake James Jeremy John Joseph Kenneth Kevin Lachlan Lawrence Leopold Lester Lewis Liam 
-			Malcolm Martin Max Michael Morgan Neil Nigel Osian Oswald Owen Patrick Percy Peter Reginald 
-			Rhodri Rhys Richard Robert Ronald Roy Russell Stanley Séan Thomas Trevor Tudor Vaughan Wallace 
-			William Winston Wyn Zachary
-		}
-	}
-	female = {
-		names = { 
-			Agnes Annie Betsy Catherinea Eliza Elizabeth Ellen Ethel Helen Isabella Jane Janet Jemima Maggie 
-			Margaret Mary Nellie Fiona Carys Enid Gwen Mair Megan Nia Sian Vivian Dorothy Ablach Affraic 
-			Euphemia Eva Aileann Agnes Catherine Christina Eleanor Eithne Eithne Elizabeth Anne Mary Nancy 
-			Sophie Sarah Deborah Helen Alice Monica Kathleen Edith Caroline Victoria Eva Euginia Eugenia
-			Finneacht Mary Lucia Lucia Martha Martha Mauda Matilda Mildred Margaret Mona
-		}
-	}
-	surnames = {  
-		Beatty Beresford Brown Buller Butler Campbell Cardigan Churchill Andrews Archdale Barbour Bates	Aiken 
-		Ashe Breen Brugha Collins Connolly Cosgrave Craig Donnelly Allenby Battemberg Brooke Brown Campbell Craig 
-		Dawson Baird Ballantyne Blair Boyd Brown Bruce Buchanan Burns Calhoun Cameron Campbell Carr Carson Clacher 
-		Clarke Coburn Cockburn Cooper Cowden Craig Croft Cruickshank Cunningham David Davies Donaghue Donaldson 
-		Douglas Drummond Drysdale Duffy Dunbar Duncan Dunn Edwards Evans Fairbairn Faulkner	FitzGerald Griffith 
-		Kelly Larkin Lynch Mallin McCartan McCullough McGarry McGuinness Gibbs Glenn Bevan Bowen Collins Davies 
-		Driscoll Edwards Ellis Evans Griffiths Harris Howell Hughes Ifans James	Gordon Graeme Green Greer Hughes Hume 
-		Jack Jackson Johnson Johnston Jones Keir Keith Kelly Kendrick Kidd Kinley Kinnaird Kyles Leiper Lennox Leslie 
-		Lester Lewis Limond Logan Lowe Lowry Lyon Martin Masters Maxwell McAdams McAfee McAlister McArthur McCabe McCaig 
-		McCallum McClellan McConnell McCormick McCoy	McCracken McCrae McCreery McDonald McDougall McEwan McFarlane McFee 
-		McGee McGill McGregor McIntyre	McIver McKay McKellar McKendick McKenna McKenzie McKinley McLain McLean McLeod 
-		McNab McNeill Hamilton Hardinge Havelock Hope Jellicoe Kitchener Lyons Madden Milne Montgomery Ferguson Findlay 
-		Fraiser Doherty Graham Hamilton Hughes Johnston Kelly Martin McLaughlin Moore McQueen McReynolds Milligan Monroe 
-		Montgomery Moray Morris Murdoch	Cochrane Cockburn Dundas Fisher French Gough Grant Grenfell Haig Murphy	Ragland 
-		Roberts Seaton Seymour Collin Mulcahy O'Brien O'Connor O'Doherty O'Higgins O'Leary	Moresby Mundy Napier Plummer 
-		Neil Ness Nevin Norris Oliver Patton Payne Ralston Ramsey Reid Ritchie Roberts Robinson Ross Windsor Wolseley 
-		Wood Leiper Roberts Steward Stewart Stirling Stroud Stuart Taggart Taylor Thomas Murphy Murray O’Neill Pollock 
-		Quinn Robb Robinson Smyth Stewart Thompson	O'Mara Pearse Plunket White	Jenkins Jones Lewis Lloyd Morgan Moss 
-		Owen Owens Phillips Price Rees Roberts Smith Thomas William	Roy Rutherford Scott Skeates Smith Smith Sterling 
-		Smith Stewart Thesiger Tyron Tyrwhitt "de Valera" Williams Wilson Thomson Turner Urquhart Walker Wallace Wallis 
-		Ward White Williams Wilson Wood Wright
-	}
-	callsigns = { }
-}
-D21 = {
-	male = {
-		names = { 
-			Aadu Aaron Abrams Adolfas Alar Alberts Aleksander Aleksandras Aleksandrs Algirdas Aloisz Andrejs Andrius Andrus Antanas Arkadij Armands 
-			Arnolds Artur Arturas Arunas Atis August Augustinas Balys Bernard Boris Bronislovas Brunis Bruno Danielius Darius Dmitri Eduard Eduards
-			Eerik Eliass Elmar Elmars Emils Ernst Evgenijs Filips Fricis Gendiminas Georg Gustav Gustavs Haman Harri Heino Heinrihs Hendrik Henrikas 
-			Hermanis Hjalmar Ivari Izaks Jaan Jakob Janis Jazeps Jekabs Johannes Johans Jonas Jonusas Joosep Juhan Julius Juozas Juras Jurgis Juris
-			Justas Jüri Kaarel Kalev Karlis Kazimieras Kazys Kipras Konstantin Konstantinas Krisjanis Lennart Leo Ludvig Lukas Madis Marijus Mark
-			Markas Mart Martins Mihails Mikalojus Mikelis Mikhel Mindaugas Motejus Mykolas Nigul Nikolajs Olev Oskars Paavo Paulius Pauls Peeter 
-			Pent Peteris Petras Povilas Ragnar Ramunas Rihards Ringaudas Roberts Rolandas Romans Sandis Sergejs Siiri Simonas Stasys Steponas 
-			Sven Tarmo Toomas Tõnis Uno Valdas Valdemaras Valdemars Valerians Valmar Valter Viktoras Vilhelmas Vilis Villwm Visvaldas Vladimiras 
-			Vladimirs Voldemar Vygantas Vytautas Zigfrids Zydrunas
-		}
-	}
-	female = {
-		names = { 
-			Anna Birute Daina Danuté Ida Ilse Imbi Inese Irbe Iveta Jaana Johanna Julija Kristina Kätlin Laima Lelde Mari Marika Milda Mirjam 
-			Morta Olita Ona Piia Piret Riin Salme Sigita Signe Sirje Ugne Urte Vaiva Vilma Vita Zaiga 
-		}
-	}
-	surnames = {  
-		Aamisepp Aavik Abakovskis Adamkus Adams Almenas Anvel Apsenieks Avizienis Balodis Baltrusaitis Barbarus Basanavicius Baumanis Berkis Berzin 
-		Betins Birutis Bornhöhe Bradziunas Braons Brazauskas Buga Caks Cakste Caps Celmins Ciurlionis Dalins Dambitis Danauskas Darzins Daukantas 
-		Desslers Dobkevicius Dubeneckis Dvarionas Eenpalu Eizenteins Galdikas Goppers Grinius Griskevicius Halsmans Hint Hurt Irbitis Ivanauskas 
-		Jaakson Jablonskis Jucys Kalnins Kalpaks Kangro Kint Klaasen Koern Kotli Kovalevskis Krogzems Kronvalds Krupavicius Kucis Kuks Kumari 
-		Kupine Kuusik Kviesis Kõiv Lacis Landsbergis Leiko Leppik Lipping Lohk Loskis Lozoraitis Maters Matisons Meierovics Merkys Mihelssons 
-		Milenbahs Millers Moora Mäe Männil Natus Needra Nurkse Nurmekund Õkva Öpik Orkivu Ozolins Paksas Paleckis Paulauskas Perna Petrauskas Petrovs 
-		Piiper Piskarkas Plieksans Poska Pozela Pumpurs Puusepp Päts Radvila Rei Reinman Rothko Ränk Sabaniauskas Schatz Semtona Siinmaa Sikkar 
-		Simanis Simonavicius Sirk Sirvydas Slezevicius Snieckus Stauaitis Straizys Stucka Stulginkis Svedas Terleckas Tumins Tõnisson "von Uexküll"
-		Ulmanis Uluots Urbsys Vaga Vagnorius Valeska Veidenbaums Veske Vilbaste Vilms Voldemaras Warma Zemaitis Zuokas
-	}
-	callsigns = { }
-}
-D22 = {
-	male = {
-		names = { 
-			Adrian Alajos Alaksandar Albert Alexandru Álmos Alojz Anasztáz Andrei Andrija András Anton Antun Arisztid Artur Aurél Bazilije
-			Benedek Bertalan Blagoje Bogdan Bozidar Branko Breno Béla Béni Carol Cezar Constantin Constin Cosmin Daniel Danilo Dejan Djordje
-			Dragan Dragisa Dragoljub Dragutin Draza Dumitru Dusan Dzivo Dániel Dávid Edvárd Éliás Emanuel Eremia Erno Eugen Ferdinand Ferencz
-			Filip Flaviu Florea Franjo Gaspar Gavrilo Gheorghe Goran Grigore Gyula György Gábor Gábriel Gáspár Henric Horatiu Iacob Ignác 
-			Ilie Imre Ioan Ion Iosif István Iulian Iuliu Ivan Izidor Janko Jaroslav Jero Jerolim Josip Jovan Jozef Juraj Ján János József
-			Karlo Karol Katalin Kelemen Koca Kosta Kresimir Krisztian Krsto Kálmán Károly Lajos Laurentiu Leontin Ljubisa Ljudevit Luca
-			Lucian Lucijan Luka László Manó Marijan Marin Mario Matej Matko Matúš Maximiliam Medo Mihai Mihailo Mihály Milan Miliutin Milivoje
-			Milojko Milos Miodrag Mircea Mirko Miroslav Momcilo Myklós Mór Nebojsa Nicolae Niko Nikola Ödön Orsat Ottó Ovidiu Pavle Peko Petar
-			Petru Péter Radomir Radu Rafael Rafo Ratko Sava Sebastijan Sergiu Silviu Simion Simon Sismundo Slavko Slavomír Slobodan Stefan Stepa
-			Stjepan Stojan Svetoslav Svetozar Sándor Teo Teodor Tivadar Toma Tomislav Valeriu Vaselien Vasile Veljko Vicko Victor Vilmos Vintila
-			Virág Vlad Vladimir Vlaho Vojislav Vojtech Zivojin Zivota Zlatan Zoran Zsigmond Zvezdan
-		}
-		surnames = { Chalupa Ferko Horváth Horňák Kocian Majer Nemec }
-	}
-	female = {
-		names = { 
-			Adelaida Adelaide Adriana Agata Agatha Agnes Agáta Amelia Andrea Angyalka Anna Antonija Aranka Barbara Beatrice Berta Bertha Bianca Borislava 
-			Branimira Camilla Capeka  Catherine Cededa Christina Clara Constance Corina Csilla Csillag Czenzi Desislava Doroteja Dorothy Dorottya Dragana 
-			Dubravka Edit Edith Ekaterina Elena Elisabeth Emese Emilija Emily Erika Eszter Etel Eugenia Euphemia Eva Felicia Georgia Gisela
-			Gizella Gordana  Györgyi Hajnal Hedwig Helen Helena Hicela Ibolya Illona Ina Irene Jadranka Jadviga Jagoda Jelena Jelka Jovana Judith Juliana 
-			Kamilla Karolina Katalin Kera Kinga Konstancia Krisztina Kunigunda Ladika Liliana Luca Lucia Lucija Magdalena Magdolna Mare Margaret Margaréta
-			Margit Maria Marija Marijana Martha Matild Matilda Mihaela Mirjana Mirna Mojca Nada Nadia Natalia Natalija Natasha Natália Odola Ophia 
-			Orsolya Panni Patricia Petra Piroska Raluca Ramona Rijeka Rodica Rosa Sabina Sanda Sarah Sarolt Silvija Skolasztika Snjezana Sofija Sophia 
-			Suronja Susana Svjetlana Tatjana Teresa Terezia Tihana Valerija Vedrana Viola Visnja Vjekoslava Yolanda Zlata Zsanett Zsuzsa Zvonimira 
-		}
-		surnames = { Chalupová Ferková Horváthová Horňáková Kocianová Majerová Nemcová }
-	}
-	surnames = {  
-		Adzic Alapic Andrássy Angelescu Antonescu Apponyi Arandelovic Argetoianu Aulich Averescu Bacher Bakaric Baldescu Baross Barozzi Batthyány 
-		Belimarkovic Berindei Bettera Beöthy Bilic Blazevic Blaznacac Bojovic Bondic Boroevic Bosnajk Bothmer Bozanovic Bozinovic Brankovic Bunic 
-		Cernat Chifu Christecu CihoskiCiuperca Coanda Crainiceanu Critescu Crnkovic Culcer Cuvaj Cuza Damjanic Damjanich Dapcevic Dessewffy Dona 
-		Dragalina Dragutinovic Draskovic Dumitrescu Dzamanjic Egressy Eltz Erdödy Falcoianu Farkas Florescu Frankopan Froza Gaj Gardescu Getaldic 
-		Goldziher Gradic Gregoric Grigorescu Grujic Gucetic Gundulic Gungl Hadzilic Harjeu Haulik Hauszmann Heller Holban Horthy Horvatovic Iancovescu 
-		Iliasevici Iliescu Ionascu Ionescu Ionitiu Isakovic Izsó Jankovic Jelacic Jokic Joseffy Jovanovic Kabuzic Kadijevic Karadjordjevic Katona 
-		Kaufman Keglevic Kiss Knezich Kogutowicz Koslinski Kostrencic Krstulovic Kéler Lagimja Lahner Lahovary Lasan Lesjanin Liszt Ljubicic Lupescu 
-		Lázár Mardarescu Maric Mazuranic Mihailovic Mikszáth Miliutinovic Miloradovic Misic Mohorovicic Molnár Mrazovic Murgescu Nad Nagy-Sándor 
-		Natali Nazor Nedic Njegovan NovakObrenovic Ojdanic ÖsterreicherOttinger Palecek Panic Paskas Pavkovic Pejacevic Perczel Pesic Petrovic 
-		Philippovic Poeltenberg Poenaru Popovic Preradovic Prezan Pucic Putnik Radulovic Ranjina Rasic Reményi Rohr Salajan Samsonovici Sarkotic 
-		Schitiu Schweidel Scodrea Sijan Simovic Slaniceanu Sokcevic Sokolovic Sorkocevic Stankovaci Steflea Stepanovic Szemere Szlávic Széchenyi 
-		Tatarascu Tenescu Tersztyansky Tomasic Tomlejnovic Török Vaitoianu Vajlok Vakanovic Varga Vasiljevic Veric Vlasic Vojvodic Vukotic Vécsey 
-		Zivkovic Zottu
-	}
-	callsigns = { }
-}
-D23 = {
+﻿D23 = {
 	male = {
 		names = { 
 			Adolf Anton Emil Erich Felix Fritz Gerhard Gunther Hans Heinrich Heinz Hermann Joachim Karl Marco Max Maximilian Otto 
@@ -184,45 +56,6 @@ D24 = {
 		Pinheiro Pinto Pires Pomar Pulido Queiroz Quintanilha Ribeiro Rodrigues Salazar Sampaio 
 		Sérgio Silveira Tavares Teixeira Vidigal Vieira	Sanjurjo Serrano Silvestre Topete Valdés 
 		Varela Villapol Villar Weyler Yagüe
-	}
-	callsigns = { }
-}
-D25 = {
-	male = {
-		names = { 
-			Adriaan Albert Alexandre Alexis Alphonse André Anthony Antoine Antonius Auguste Barthélémy Baudouin Berend Blaise 
-			Bodo Camille Carsten Charles Christiaan Clément Constant Cornelis Damien David Didier Dirk Désiré Edmond Emmanuel 
-			Etienne Eugène Ferdinand Fernand Feullien Florent François Freek Frits Frédéric Félix Georges Gerard Gilles 
-			Godfried Govert Guillaume Gustave Gérard Hendrik Henri Hercule Hubert Ignace Isidore Jacob Jacobus Jacques 
-			Jan "Jan Willem" Jean Jean-Baptiste Jean-François Jean-Jacques Jean-Louis Johan Johannes Joseph Jules Lambert Laurens 
-			Laurent Louis Lucien Léon Léonard Léopold Mathias Mathieu Matthijs Maxime Maximilien Nicolaas Nicolas Olivier 
-			Pascal Patrice Paul Peter Petrus Philippe Philippe-Joseph Philippus Pierre Pierre-Guillaume Pieter Quirinus Sijmen 
-			Sylvain Sébastien Theodorus Théophile Tjerk Victor Vincent Werner Willem Édouard Émile
-		}
-	}
-	female = {
-		names = { 
-			Anne Anneke Antje Beatrix Claude Coba Corrie Frieda Géraldine Hannie Helena Helene Helga Hilda Ilse Ina Ingrid Irene 
-			Jet Johanna Joke Karine Louise Marie Marie-Claude Marleen Melanie Merel Miep Paule Rachel Reina Truus
-		}
-	}
-	surnames = {  
-		"de Visser" "den Ouden" "den Breejen" "de Baillet" "de Beaufort" "de Behr" "de Bocarmé" "de Bousies" "de Brouckère" "de Broqueville" 
-		"de Burlet" "de Celles" "de Chasteler" "de Coppin de Falaen" "de Croÿ" "de Decker" "de Dixmude" "de Gerlache" "de Grez" 
-		"de Hemptinne" "de Labbeville" "de Lannoy" "de Ligne" "de Leuze" "de Melin" "de Mérode" "de Pelichy" "de Quarre" "de Riquet" 
-		"de Robaulx" "de Rouille" "de Sauvage" "de Sécus" "de Selys Longchamps" "de Stassart" "de Stockem" "de Theux de Meylandt" 
-		"de Trazegnies" "de Trooz" "de Viron" "de Waha" "den Hollander" "du Bois" "du Bus" "du Pont" "du Val de Beaulieu" "le Cocq" 
-		"le Hon" "van den Bent" "van den Briel" "van den Hof" "van der Bijl" "van Helsdingen" "van Liempd" "van Setten" "van Snick" 
-		"van Voorst tot Voorst" "van Zinnicq Bergmann"  "'t Mannetje" "Bischoff van Heemskerk" "Desmanet de Biesme" "Huysman d'Annecroix" 
-		"Wittert van Hoogland" Allard Barbanson Barthélémy Baugniet Beaucarne Berger Berthels Best Beyts Biver Blargnies Boers Bosch Bredart 
-		Brialmont Bruggink Bruinier Buijs Buurman Carstens Cauvin Claus Clerix Collet Cols Coquilhat d'Arenberg d'Huart d'Omalius d'Oreye 
-		d'Oultremont David Davignon Defacqz Deguise Delacroix Destriveaux Dethier Devaux Deville Dewandre Dhanis Dreze Dumont 
-		Elias Fallon Fendius Figeys Fleury-Dubay Fleussu Folmer Forgeur Frison Fuchs Gendebien Giesen Goffint Ham Harberts Henry 
-		Hilberdink Hoogewerff Hoving Jaapies Jacometti Jacques Janssen Jolles Joos Jottrand Kaak Kraak Krouwel Kuiper Lahure 
-		Landzaat Lardinois Lebeau Leclercq Leegstra Lefebvre Leman Lukkien Maas Malou Marcq Marlet Masbourg Migchelbrink 
-		Nagelmackers Nalinne Nothomb Orban Picquet Pirmez Pirson Pétillon Raikem Reijnierse Rijnders Roelofsen Roeser Rogier 
-		Rouen Rouppe Sandberg Scherpenhuijzen Schippers Seron Steen Tebrunsvelt Thonus Thorn Varwijk Verhoef Visscher Vos Wahis 
-		Wangermée Winkelman Wyvekens Zoude
 	}
 	callsigns = { }
 }
@@ -737,33 +570,9 @@ D44 = {
 	}
 	callsigns = { }
 }
-D45 = {
-	male = {
-		names = { 
-			Alejandro Andrés Aniceto Arturo Bartolomé Basilio Benito Benjamín Bernardo Carlos
-			Daniel Diego Doroteo Eduardo Eugenio Felipe Félix Fermín Fernando Francisco
-			Fruto Jacobo Jesús Joaquín Jorge "José Francisco" "José María" Juan "Juan Antonio" "Juan Pablo"
-			Julio Justo Lisandro Lorenzo Manuel Marcelino Maximiliano Máximo Óscar Pedro
-			Ponciano Próspero Rafael Ramón Santiago Sebastián Tiburcio Tomás Toribio Victoriano
-		  }
-	}
-	female = {
-		names = {
-			Adelita Araceli Belén Camila Candelaria Chavela Consuelo Cristina Delfina Esperanza
-			Fidelia Graciela Isadora Isabella Jimena Ximena Luciana Lucrecia María Marisol
-			Noemí Nohemi Valentina Valeria Rocío Socorro Sofía Teófila Amaranta Úrsula Rebeca Remedios
-		}
-	}
-	surnames = { 
-		Aguilar Andino Araujo Arbenz Barahona Barillas Barrios Cabañas Cárdenas Carrera
-		Castellanos Chamorro Chávez Corral Escalón Esquivel Estrada Ezeta Fernández Ferrera
-		Figueroa Garrigó Guzmán Hernández Jerez Jiménez Leiva López Machado Martínez
-		Medina Mejía Menéndez Montes Montiel Morazán Palacios Peralta Quiros Regalado
-		Rosales Sevilla Sinibaldi Soto Terán Ubico Vasconcelos Vigil Zelaya Zeledón
-	}
-	callsigns = { }
-}
-D46 = {
+################ Addition of country files #################
+#Andes
+R01 = {
 	male = {
 		names = { 
 			Adolfo Agustín Alejandro Andrés Aníbal Antonio Bartolomé Bernardo David Diego
@@ -791,7 +600,266 @@ D46 = {
 	}
 	callsigns = { }
 }
-D47 = {
+#Anglo-Celtic Isles
+R02 = {
+	male = {
+		names = { 
+			Albert Alec Aled Alex Alexander Alfred Allan Alun Andrew Andy Aneurin Angus Archibald 
+			Arthur Bernard Billy Bob Brian Bryn Campbell Cathal Charles Christopher Colbert Colin Con 
+			Cyril Dai Daniel David Denis Desmond Donald Douglas Duncan Éamon Edmund Edward Emrys Ernes 
+			Esyr Ewan Fairfax Fionán Francis Frank Gareth Geoffrey George Glyn Gordon Graham Gwynfor 
+			Harry Henrey Herbert Horatio Hubert Hugh Huw Iain Ian Ian Ianto Idris Idwal Iorwerth Jack 
+			Jake James Jeremy John Joseph Kenneth Kevin Lachlan Lawrence Leopold Lester Lewis Liam 
+			Malcolm Martin Max Michael Morgan Neil Nigel Osian Oswald Owen Patrick Percy Peter Reginald 
+			Rhodri Rhys Richard Robert Ronald Roy Russell Stanley Séan Thomas Trevor Tudor Vaughan Wallace 
+			William Winston Wyn Zachary
+		}
+	}
+	female = {
+		names = { 
+			Agnes Annie Betsy Catherinea Eliza Elizabeth Ellen Ethel Helen Isabella Jane Janet Jemima Maggie 
+			Margaret Mary Nellie Fiona Carys Enid Gwen Mair Megan Nia Sian Vivian Dorothy Ablach Affraic 
+			Euphemia Eva Aileann Agnes Catherine Christina Eleanor Eithne Eithne Elizabeth Anne Mary Nancy 
+			Sophie Sarah Deborah Helen Alice Monica Kathleen Edith Caroline Victoria Eva Euginia Eugenia
+			Finneacht Mary Lucia Lucia Martha Martha Mauda Matilda Mildred Margaret Mona
+		}
+	}
+	surnames = {  
+		Beatty Beresford Brown Buller Butler Campbell Cardigan Churchill Andrews Archdale Barbour Bates	Aiken 
+		Ashe Breen Brugha Collins Connolly Cosgrave Craig Donnelly Allenby Battemberg Brooke Brown Campbell Craig 
+		Dawson Baird Ballantyne Blair Boyd Brown Bruce Buchanan Burns Calhoun Cameron Campbell Carr Carson Clacher 
+		Clarke Coburn Cockburn Cooper Cowden Craig Croft Cruickshank Cunningham David Davies Donaghue Donaldson 
+		Douglas Drummond Drysdale Duffy Dunbar Duncan Dunn Edwards Evans Fairbairn Faulkner	FitzGerald Griffith 
+		Kelly Larkin Lynch Mallin McCartan McCullough McGarry McGuinness Gibbs Glenn Bevan Bowen Collins Davies 
+		Driscoll Edwards Ellis Evans Griffiths Harris Howell Hughes Ifans James	Gordon Graeme Green Greer Hughes Hume 
+		Jack Jackson Johnson Johnston Jones Keir Keith Kelly Kendrick Kidd Kinley Kinnaird Kyles Leiper Lennox Leslie 
+		Lester Lewis Limond Logan Lowe Lowry Lyon Martin Masters Maxwell McAdams McAfee McAlister McArthur McCabe McCaig 
+		McCallum McClellan McConnell McCormick McCoy	McCracken McCrae McCreery McDonald McDougall McEwan McFarlane McFee 
+		McGee McGill McGregor McIntyre	McIver McKay McKellar McKendick McKenna McKenzie McKinley McLain McLean McLeod 
+		McNab McNeill Hamilton Hardinge Havelock Hope Jellicoe Kitchener Lyons Madden Milne Montgomery Ferguson Findlay 
+		Fraiser Doherty Graham Hamilton Hughes Johnston Kelly Martin McLaughlin Moore McQueen McReynolds Milligan Monroe 
+		Montgomery Moray Morris Murdoch	Cochrane Cockburn Dundas Fisher French Gough Grant Grenfell Haig Murphy	Ragland 
+		Roberts Seaton Seymour Collin Mulcahy O'Brien O'Connor O'Doherty O'Higgins O'Leary	Moresby Mundy Napier Plummer 
+		Neil Ness Nevin Norris Oliver Patton Payne Ralston Ramsey Reid Ritchie Roberts Robinson Ross Windsor Wolseley 
+		Wood Leiper Roberts Steward Stewart Stirling Stroud Stuart Taggart Taylor Thomas Murphy Murray O’Neill Pollock 
+		Quinn Robb Robinson Smyth Stewart Thompson	O'Mara Pearse Plunket White	Jenkins Jones Lewis Lloyd Morgan Moss 
+		Owen Owens Phillips Price Rees Roberts Smith Thomas William	Roy Rutherford Scott Skeates Smith Smith Sterling 
+		Smith Stewart Thesiger Tyron Tyrwhitt "de Valera" Williams Wilson Thomson Turner Urquhart Walker Wallace Wallis 
+		Ward White Williams Wilson Wood Wright
+	}
+	callsigns = { }
+}
+#Arabia
+R03 = {
+	male = {
+		names = { 
+			"Abd Allah" "Abd al-Karim" "Abd al-Malik" "Abd al-Qadir" "Abd al-Rahman" "Abu Bakr" Ahmad Ali 
+			Fawzi Fuad Halil Hasan Hisham Ibrahim Ishaq Iskandar Ja'far Jamal Kamil Khalid 
+			Muhammad Mustafa "Nur al-Din" "Sa'd al-Din" Salim  Sa'ud Shukri
+			Tawfiq Umar Uthman Yahya Yusuf Zafir
+		}
+	}
+	female = {
+		names = { 
+			Nadiyya Adila Amsha Asiya Faghira Habiba Hanifa Jahaira Kamala Layla Maryam Nafisa Nyawela Parand 
+			Parween Paymaneh Paywand Qamara Rafiqa Rasa Rashida Reshawna
+			Saaman Sabba Saghar Sahba Sajida Samira Semeah Setara Shahrbano Shahzadah Shameem Shararah 
+			Sheeftah Sheeva Shogofa Shokouh Shola Sholah Simin Souzan
+			Taliba Tanaz Taneen Yagana Yakta Yasmin Zaynab
+		}
+	}
+	surnames = {  
+		"ibn Abd Allah" "ibn Abd al-Qadir" "ibn Abu Bakr" "ibn Ahmad" "ibn Ali"
+		"ibn Fuad" "ibn Halil" "ibn Hasan" "ibn Hisham" "ibn Ishaq" "ibn Ja'far" "ibm Kamil" "ibn Khalid" 
+		"ibn Muhammad" "ibn Mustafa" "ibn Salim" "ibn Umar" "ibn Uthman" "ibn Yusuf" "al-Najdi" "al-Hijazi"
+	}
+	callsigns = { }
+}
+#Baltic
+R04 = {
+	male = {
+		names = { 
+			Aadu Aaron Abrams Adolfas Alar Alberts Aleksander Aleksandras Aleksandrs Algirdas Aloisz Andrejs Andrius Andrus Antanas Arkadij Armands 
+			Arnolds Artur Arturas Arunas Atis August Augustinas Balys Bernard Boris Bronislovas Brunis Bruno Danielius Darius Dmitri Eduard Eduards
+			Eerik Eliass Elmar Elmars Emils Ernst Evgenijs Filips Fricis Gendiminas Georg Gustav Gustavs Haman Harri Heino Heinrihs Hendrik Henrikas 
+			Hermanis Hjalmar Ivari Izaks Jaan Jakob Janis Jazeps Jekabs Johannes Johans Jonas Jonusas Joosep Juhan Julius Juozas Juras Jurgis Juris
+			Justas Jüri Kaarel Kalev Karlis Kazimieras Kazys Kipras Konstantin Konstantinas Krisjanis Lennart Leo Ludvig Lukas Madis Marijus Mark
+			Markas Mart Martins Mihails Mikalojus Mikelis Mikhel Mindaugas Motejus Mykolas Nigul Nikolajs Olev Oskars Paavo Paulius Pauls Peeter 
+			Pent Peteris Petras Povilas Ragnar Ramunas Rihards Ringaudas Roberts Rolandas Romans Sandis Sergejs Siiri Simonas Stasys Steponas 
+			Sven Tarmo Toomas Tõnis Uno Valdas Valdemaras Valdemars Valerians Valmar Valter Viktoras Vilhelmas Vilis Villwm Visvaldas Vladimiras 
+			Vladimirs Voldemar Vygantas Vytautas Zigfrids Zydrunas
+		}
+	}
+	female = {
+		names = { 
+			Anna Birute Daina Danuté Ida Ilse Imbi Inese Irbe Iveta Jaana Johanna Julija Kristina Kätlin Laima Lelde Mari Marika Milda Mirjam 
+			Morta Olita Ona Piia Piret Riin Salme Sigita Signe Sirje Ugne Urte Vaiva Vilma Vita Zaiga 
+		}
+	}
+	surnames = {  
+		Aamisepp Aavik Abakovskis Adamkus Adams Almenas Anvel Apsenieks Avizienis Balodis Baltrusaitis Barbarus Basanavicius Baumanis Berkis Berzin 
+		Betins Birutis Bornhöhe Bradziunas Braons Brazauskas Buga Caks Cakste Caps Celmins Ciurlionis Dalins Dambitis Danauskas Darzins Daukantas 
+		Desslers Dobkevicius Dubeneckis Dvarionas Eenpalu Eizenteins Galdikas Goppers Grinius Griskevicius Halsmans Hint Hurt Irbitis Ivanauskas 
+		Jaakson Jablonskis Jucys Kalnins Kalpaks Kangro Kint Klaasen Koern Kotli Kovalevskis Krogzems Kronvalds Krupavicius Kucis Kuks Kumari 
+		Kupine Kuusik Kviesis Kõiv Lacis Landsbergis Leiko Leppik Lipping Lohk Loskis Lozoraitis Maters Matisons Meierovics Merkys Mihelssons 
+		Milenbahs Millers Moora Mäe Männil Natus Needra Nurkse Nurmekund Õkva Öpik Orkivu Ozolins Paksas Paleckis Paulauskas Perna Petrauskas Petrovs 
+		Piiper Piskarkas Plieksans Poska Pozela Pumpurs Puusepp Päts Radvila Rei Reinman Rothko Ränk Sabaniauskas Schatz Semtona Siinmaa Sikkar 
+		Simanis Simonavicius Sirk Sirvydas Slezevicius Snieckus Stauaitis Straizys Stucka Stulginkis Svedas Terleckas Tumins Tõnisson "von Uexküll"
+		Ulmanis Uluots Urbsys Vaga Vagnorius Valeska Veidenbaums Veske Vilbaste Vilms Voldemaras Warma Zemaitis Zuokas
+	}
+	callsigns = { }
+}
+#Benelux
+R05 = {
+	male = {
+		names = { 
+			Adriaan Albert Alexandre Alexis Alphonse André Anthony Antoine Antonius Auguste Barthélémy Baudouin Berend Blaise 
+			Bodo Camille Carsten Charles Christiaan Clément Constant Cornelis Damien David Didier Dirk Désiré Edmond Emmanuel 
+			Etienne Eugène Ferdinand Fernand Feullien Florent François Freek Frits Frédéric Félix Georges Gerard Gilles 
+			Godfried Govert Guillaume Gustave Gérard Hendrik Henri Hercule Hubert Ignace Isidore Jacob Jacobus Jacques 
+			Jan "Jan Willem" Jean Jean-Baptiste Jean-François Jean-Jacques Jean-Louis Johan Johannes Joseph Jules Lambert Laurens 
+			Laurent Louis Lucien Léon Léonard Léopold Mathias Mathieu Matthijs Maxime Maximilien Nicolaas Nicolas Olivier 
+			Pascal Patrice Paul Peter Petrus Philippe Philippe-Joseph Philippus Pierre Pierre-Guillaume Pieter Quirinus Sijmen 
+			Sylvain Sébastien Theodorus Théophile Tjerk Victor Vincent Werner Willem Édouard Émile
+		}
+	}
+	female = {
+		names = { 
+			Anne Anneke Antje Beatrix Claude Coba Corrie Frieda Géraldine Hannie Helena Helene Helga Hilda Ilse Ina Ingrid Irene 
+			Jet Johanna Joke Karine Louise Marie Marie-Claude Marleen Melanie Merel Miep Paule Rachel Reina Truus
+		}
+	}
+	surnames = {  
+		"de Visser" "den Ouden" "den Breejen" "de Baillet" "de Beaufort" "de Behr" "de Bocarmé" "de Bousies" "de Brouckère" "de Broqueville" 
+		"de Burlet" "de Celles" "de Chasteler" "de Coppin de Falaen" "de Croÿ" "de Decker" "de Dixmude" "de Gerlache" "de Grez" 
+		"de Hemptinne" "de Labbeville" "de Lannoy" "de Ligne" "de Leuze" "de Melin" "de Mérode" "de Pelichy" "de Quarre" "de Riquet" 
+		"de Robaulx" "de Rouille" "de Sauvage" "de Sécus" "de Selys Longchamps" "de Stassart" "de Stockem" "de Theux de Meylandt" 
+		"de Trazegnies" "de Trooz" "de Viron" "de Waha" "den Hollander" "du Bois" "du Bus" "du Pont" "du Val de Beaulieu" "le Cocq" 
+		"le Hon" "van den Bent" "van den Briel" "van den Hof" "van der Bijl" "van Helsdingen" "van Liempd" "van Setten" "van Snick" 
+		"van Voorst tot Voorst" "van Zinnicq Bergmann"  "'t Mannetje" "Bischoff van Heemskerk" "Desmanet de Biesme" "Huysman d'Annecroix" 
+		"Wittert van Hoogland" Allard Barbanson Barthélémy Baugniet Beaucarne Berger Berthels Best Beyts Biver Blargnies Boers Bosch Bredart 
+		Brialmont Bruggink Bruinier Buijs Buurman Carstens Cauvin Claus Clerix Collet Cols Coquilhat d'Arenberg d'Huart d'Omalius d'Oreye 
+		d'Oultremont David Davignon Defacqz Deguise Delacroix Destriveaux Dethier Devaux Deville Dewandre Dhanis Dreze Dumont 
+		Elias Fallon Fendius Figeys Fleury-Dubay Fleussu Folmer Forgeur Frison Fuchs Gendebien Giesen Goffint Ham Harberts Henry 
+		Hilberdink Hoogewerff Hoving Jaapies Jacometti Jacques Janssen Jolles Joos Jottrand Kaak Kraak Krouwel Kuiper Lahure 
+		Landzaat Lardinois Lebeau Leclercq Leegstra Lefebvre Leman Lukkien Maas Malou Marcq Marlet Masbourg Migchelbrink 
+		Nagelmackers Nalinne Nothomb Orban Picquet Pirmez Pirson Pétillon Raikem Reijnierse Rijnders Roelofsen Roeser Rogier 
+		Rouen Rouppe Sandberg Scherpenhuijzen Schippers Seron Steen Tebrunsvelt Thonus Thorn Varwijk Verhoef Visscher Vos Wahis 
+		Wangermée Winkelman Wyvekens Zoude
+	}
+	callsigns = { }
+}
+#Caribbean
+R06 = {
+	male = {
+		names = { 
+			#Vacant
+		  }
+	}
+	female = {
+		names = {
+			#Vacant
+		}
+	}
+	surnames = { 
+		#Vacant
+	}
+	callsigns = { }
+}
+#Central Africa
+R07 = {
+	male = {
+		names = { 
+			#Vacant
+		  }
+	}
+	female = {
+		names = {
+			#Vacant
+		}
+	}
+	surnames = { 
+		#Vacant
+	}
+	callsigns = { }
+}
+#Central America
+R08 = {
+	male = {
+		names = { 
+			Alejandro Andrés Aniceto Arturo Bartolomé Basilio Benito Benjamín Bernardo Carlos
+			Daniel Diego Doroteo Eduardo Eugenio Felipe Félix Fermín Fernando Francisco
+			Fruto Jacobo Jesús Joaquín Jorge "José Francisco" "José María" Juan "Juan Antonio" "Juan Pablo"
+			Julio Justo Lisandro Lorenzo Manuel Marcelino Maximiliano Máximo Óscar Pedro
+			Ponciano Próspero Rafael Ramón Santiago Sebastián Tiburcio Tomás Toribio Victoriano
+		  }
+	}
+	female = {
+		names = {
+			Adelita Araceli Belén Camila Candelaria Chavela Consuelo Cristina Delfina Esperanza
+			Fidelia Graciela Isadora Isabella Jimena Ximena Luciana Lucrecia María Marisol
+			Noemí Nohemi Valentina Valeria Rocío Socorro Sofía Teófila Amaranta Úrsula Rebeca Remedios
+		}
+	}
+	surnames = { 
+		Aguilar Andino Araujo Arbenz Barahona Barillas Barrios Cabañas Cárdenas Carrera
+		Castellanos Chamorro Chávez Corral Escalón Esquivel Estrada Ezeta Fernández Ferrera
+		Figueroa Garrigó Guzmán Hernández Jerez Jiménez Leiva López Machado Martínez
+		Medina Mejía Menéndez Montes Montiel Morazán Palacios Peralta Quiros Regalado
+		Rosales Sevilla Sinibaldi Soto Terán Ubico Vasconcelos Vigil Zelaya Zeledón
+	}
+	callsigns = { }
+}
+#Danube
+R09 = {
+	male = {
+		names = { 
+			Adrian Alajos Alaksandar Albert Alexandru Álmos Alojz Anasztáz Andrei Andrija András Anton Antun Arisztid Artur Aurél Bazilije
+			Benedek Bertalan Blagoje Bogdan Bozidar Branko Breno Béla Béni Carol Cezar Constantin Constin Cosmin Daniel Danilo Dejan Djordje
+			Dragan Dragisa Dragoljub Dragutin Draza Dumitru Dusan Dzivo Dániel Dávid Edvárd Éliás Emanuel Eremia Erno Eugen Ferdinand Ferencz
+			Filip Flaviu Florea Franjo Gaspar Gavrilo Gheorghe Goran Grigore Gyula György Gábor Gábriel Gáspár Henric Horatiu Iacob Ignác 
+			Ilie Imre Ioan Ion Iosif István Iulian Iuliu Ivan Izidor Janko Jaroslav Jero Jerolim Josip Jovan Jozef Juraj Ján János József
+			Karlo Karol Katalin Kelemen Koca Kosta Kresimir Krisztian Krsto Kálmán Károly Lajos Laurentiu Leontin Ljubisa Ljudevit Luca
+			Lucian Lucijan Luka László Manó Marijan Marin Mario Matej Matko Matúš Maximiliam Medo Mihai Mihailo Mihály Milan Miliutin Milivoje
+			Milojko Milos Miodrag Mircea Mirko Miroslav Momcilo Myklós Mór Nebojsa Nicolae Niko Nikola Ödön Orsat Ottó Ovidiu Pavle Peko Petar
+			Petru Péter Radomir Radu Rafael Rafo Ratko Sava Sebastijan Sergiu Silviu Simion Simon Sismundo Slavko Slavomír Slobodan Stefan Stepa
+			Stjepan Stojan Svetoslav Svetozar Sándor Teo Teodor Tivadar Toma Tomislav Valeriu Vaselien Vasile Veljko Vicko Victor Vilmos Vintila
+			Virág Vlad Vladimir Vlaho Vojislav Vojtech Zivojin Zivota Zlatan Zoran Zsigmond Zvezdan
+		}
+		surnames = { Chalupa Ferko Horváth Horňák Kocian Majer Nemec }
+	}
+	female = {
+		names = { 
+			Adelaida Adelaide Adriana Agata Agatha Agnes Agáta Amelia Andrea Angyalka Anna Antonija Aranka Barbara Beatrice Berta Bertha Bianca Borislava 
+			Branimira Camilla Capeka  Catherine Cededa Christina Clara Constance Corina Csilla Csillag Czenzi Desislava Doroteja Dorothy Dorottya Dragana 
+			Dubravka Edit Edith Ekaterina Elena Elisabeth Emese Emilija Emily Erika Eszter Etel Eugenia Euphemia Eva Felicia Georgia Gisela
+			Gizella Gordana  Györgyi Hajnal Hedwig Helen Helena Hicela Ibolya Illona Ina Irene Jadranka Jadviga Jagoda Jelena Jelka Jovana Judith Juliana 
+			Kamilla Karolina Katalin Kera Kinga Konstancia Krisztina Kunigunda Ladika Liliana Luca Lucia Lucija Magdalena Magdolna Mare Margaret Margaréta
+			Margit Maria Marija Marijana Martha Matild Matilda Mihaela Mirjana Mirna Mojca Nada Nadia Natalia Natalija Natasha Natália Odola Ophia 
+			Orsolya Panni Patricia Petra Piroska Raluca Ramona Rijeka Rodica Rosa Sabina Sanda Sarah Sarolt Silvija Skolasztika Snjezana Sofija Sophia 
+			Suronja Susana Svjetlana Tatjana Teresa Terezia Tihana Valerija Vedrana Viola Visnja Vjekoslava Yolanda Zlata Zsanett Zsuzsa Zvonimira 
+		}
+		surnames = { Chalupová Ferková Horváthová Horňáková Kocianová Majerová Nemcová }
+	}
+	surnames = {  
+		Adzic Alapic Andrássy Angelescu Antonescu Apponyi Arandelovic Argetoianu Aulich Averescu Bacher Bakaric Baldescu Baross Barozzi Batthyány 
+		Belimarkovic Berindei Bettera Beöthy Bilic Blazevic Blaznacac Bojovic Bondic Boroevic Bosnajk Bothmer Bozanovic Bozinovic Brankovic Bunic 
+		Cernat Chifu Christecu CihoskiCiuperca Coanda Crainiceanu Critescu Crnkovic Culcer Cuvaj Cuza Damjanic Damjanich Dapcevic Dessewffy Dona 
+		Dragalina Dragutinovic Draskovic Dumitrescu Dzamanjic Egressy Eltz Erdödy Falcoianu Farkas Florescu Frankopan Froza Gaj Gardescu Getaldic 
+		Goldziher Gradic Gregoric Grigorescu Grujic Gucetic Gundulic Gungl Hadzilic Harjeu Haulik Hauszmann Heller Holban Horthy Horvatovic Iancovescu 
+		Iliasevici Iliescu Ionascu Ionescu Ionitiu Isakovic Izsó Jankovic Jelacic Jokic Joseffy Jovanovic Kabuzic Kadijevic Karadjordjevic Katona 
+		Kaufman Keglevic Kiss Knezich Kogutowicz Koslinski Kostrencic Krstulovic Kéler Lagimja Lahner Lahovary Lasan Lesjanin Liszt Ljubicic Lupescu 
+		Lázár Mardarescu Maric Mazuranic Mihailovic Mikszáth Miliutinovic Miloradovic Misic Mohorovicic Molnár Mrazovic Murgescu Nad Nagy-Sándor 
+		Natali Nazor Nedic Njegovan NovakObrenovic Ojdanic ÖsterreicherOttinger Palecek Panic Paskas Pavkovic Pejacevic Perczel Pesic Petrovic 
+		Philippovic Poeltenberg Poenaru Popovic Preradovic Prezan Pucic Putnik Radulovic Ranjina Rasic Reményi Rohr Salajan Samsonovici Sarkotic 
+		Schitiu Schweidel Scodrea Sijan Simovic Slaniceanu Sokcevic Sokolovic Sorkocevic Stankovaci Steflea Stepanovic Szemere Szlávic Széchenyi 
+		Tatarascu Tenescu Tersztyansky Tomasic Tomlejnovic Török Vaitoianu Vajlok Vakanovic Varga Vasiljevic Veric Vlasic Vojvodic Vukotic Vécsey 
+		Zivkovic Zottu
+	}
+	callsigns = { }
+}
+#East Africa
+R10 = {
 	male = {
 		names = {
 			Amare Bekele Berhanu Saleh Haile Berihun Demissie Desta Geteye Girma Kelile Negasi

@@ -5,7 +5,7 @@ rpg_category = {
 				original_tag = BEL #Belgium
 				original_tag = HOL #Holland
 				original_tag = LUX #Luxemburg
-				original_tag = D25 #Benelux
+				original_tag = R05 #Benelux
 			}
 		}
 		available = {
@@ -45,17 +45,17 @@ rpg_category = {
                 original_tag = BEL #Belgium
 				original_tag = HOL #Holland
 				original_tag = LUX #Luxemburg
-				original_tag = D25 #Benelux
+				original_tag = R05 #Benelux
                 has_global_flag = rpg_benelux_flag
             }
 		}
 		complete_effect = {
 			hidden_effect = {
-				6 = { add_core_of = D25 } #Vlaanderen
-				7 = { add_core_of = D25 } #Holland
-				34 = { add_core_of = D25 } #Wallonie
-				35 = { add_core_of = D25 } #Brabant
-				36 = { add_core_of = D25 } #Friesland
+				6 = { add_core_of = R05 } #Vlaanderen
+				7 = { add_core_of = R05 } #Holland
+				34 = { add_core_of = R05 } #Wallonie
+				35 = { add_core_of = R05 } #Brabant
+				36 = { add_core_of = R05 } #Friesland
 			}
 			custom_effect_tooltip = rpg_benelux_coring_states
 			custom_effect_tooltip = rpg_benelux_transfer_states
@@ -64,19 +64,19 @@ rpg_category = {
 			hidden_effect = {
 				every_state = {
 					limit = {
-						is_core_of = D25
+						is_core_of = R05
 					}
 					set_compliance = 80
 				}
 				
 				if = {
 					limit = { has_dlc = "La Resistance" }
-					set_temp_variable = { country_to_initiate = D25 }
+					set_temp_variable = { country_to_initiate = R05 }
 					instantiate_collaboration_government = yes
 				}
 				else = {
-					release = D25
-					puppet = D25
+					release = R05
+					puppet = R05
 				}
 			}
 			#News event, set local flag, and set global flag
