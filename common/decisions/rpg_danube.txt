@@ -104,7 +104,7 @@ rpg_category = {
 				ROOT = {
 					set_country_flag = rpg_danube_country_flag
 				}
-				news_event = { id = rpg_news.02 hours = 6 }
+				news_event = { id = rpg_news.09 hours = 6 }
 				set_global_flag = rpg_danube_flag
 			}
 		}

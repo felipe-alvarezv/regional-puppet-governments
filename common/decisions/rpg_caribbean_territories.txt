@@ -1,0 +1,441 @@
+rpg_category_territories_benelux = {
+	rpg_caribbean_leeward_islands = {
+		allowed = {
+			NOT = {
+				original_tag = BAS #British Antilles
+				original_tag = R06 #Caribbean
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_caribbean_required_states_leeward_islands
+                controls_state = 308 #Leeward Islands
+			}
+		}
+		visible = {
+            has_global_flag = rpg_caribbean_flag
+			R06 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = BAS #British Antilles
+				original_tag = R06 #Caribbean
+                has_global_flag = rpg_caribbean_leeward_islands_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_caribbean_coring_states_leeward_islands
+			custom_effect_tooltip = rpg_caribbean_transfer_states_leeward_islands
+			hidden_effect = {
+				308 = { add_core_of = R06 } #Leeward Islands
+				R06 = {
+					transfer_state = 308 #Leeward Islands
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_caribbean_leeward_islands_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_caribbean_puerto_rico = {
+		allowed = {
+			NOT = {
+				original_tag = PUE #Puerto Rico
+				original_tag = R06 #Caribbean
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_caribbean_required_states_puerto_rico
+                controls_state = 686 #Puerto Rico
+			}
+		}
+		visible = {
+            has_global_flag = rpg_caribbean_flag
+			R06 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = PUE #Puerto Rico
+				original_tag = R06 #Caribbean
+                has_global_flag = rpg_caribbean_puerto_rico_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_caribbean_coring_states_puerto_rico
+			custom_effect_tooltip = rpg_caribbean_transfer_states_puerto_rico
+			hidden_effect = {
+				686 = { add_core_of = R06 } #Puerto Rico
+				R06 = {
+					transfer_state = 686 #Puerto Rico
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_caribbean_puerto_rico_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_caribbean_northern_bahamas = {
+		allowed = {
+			NOT = {
+				original_tag = BAH #Bahamas
+				original_tag = R06 #Caribbean
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_caribbean_required_states_northern_bahamas
+                controls_state = 690 #Northern Bahamas
+			}
+		}
+		visible = {
+            has_global_flag = rpg_caribbean_flag
+			R06 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = BAH #Bahamas
+				original_tag = R06 #Caribbean
+                has_global_flag = rpg_caribbean_northern_bahamas_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_caribbean_coring_states_northern_bahamas
+			custom_effect_tooltip = rpg_caribbean_transfer_states_northern_bahamas
+			hidden_effect = {
+				690 = { add_core_of = R06 } #Northern Bahamas
+				R06 = {
+					transfer_state = 690 #Northern Bahamas
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_caribbean_northern_bahamas_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_caribbean_trinidad = {
+		allowed = {
+			NOT = {
+				original_tag = TRI #Trinidad
+				original_tag = R06 #Caribbean
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_caribbean_required_states_trinidad
+                controls_state = 691 #Trinidad
+			}
+		}
+		visible = {
+            has_global_flag = rpg_caribbean_flag
+			R06 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = TRI #Trinidad
+				original_tag = R06 #Caribbean
+                has_global_flag = rpg_caribbean_trinidad_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_caribbean_coring_states_trinidad
+			custom_effect_tooltip = rpg_caribbean_transfer_states_trinidad
+			hidden_effect = {
+				691 = { add_core_of = R06 } #Trinidad
+				R06 = {
+					transfer_state = 691 #Trinidad
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_caribbean_trinidad_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_caribbean_windward_islands = {
+		allowed = {
+			NOT = {
+				original_tag = BAS #British Antilles
+				original_tag = R06 #Caribbean
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_caribbean_required_states_windward_islands
+                controls_state = 692 #Windward Islands
+			}
+		}
+		visible = {
+            has_global_flag = rpg_caribbean_flag
+			R06 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = BAS #British Antilles
+				original_tag = R06 #Caribbean
+                has_global_flag = rpg_caribbean_windward_islands_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_caribbean_coring_states_windward_islands
+			custom_effect_tooltip = rpg_caribbean_transfer_states_windward_islands
+			hidden_effect = {
+				692 = { add_core_of = R06 } #Windward Islands
+				R06 = {
+					transfer_state = 692 #Windward Islands
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_caribbean_windward_islands_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_caribbean_french_caribbean = {
+		allowed = {
+			NOT = {
+				original_tag = GDL #Guadeloupe
+				original_tag = R06 #Caribbean
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_caribbean_required_states_french_caribbean
+                controls_state = 694 #French Caribbean
+			}
+		}
+		visible = {
+            has_global_flag = rpg_caribbean_flag
+			R06 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = GDL #Guadeloupe
+				original_tag = R06 #Caribbean
+                has_global_flag = rpg_caribbean_french_caribbean_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_caribbean_coring_states_french_caribbean
+			custom_effect_tooltip = rpg_caribbean_transfer_states_french_caribbean
+			hidden_effect = {
+				694 = { add_core_of = R06 } #French Caribbean
+				R06 = {
+					transfer_state = 694 #French Caribbean
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_caribbean_french_caribbean_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_caribbean_curacao = {
+		allowed = {
+			NOT = {
+				original_tag = CRC #Curacao
+				original_tag = R06 #Caribbean
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_caribbean_required_states_curacao
+                controls_state = 695 #Curacao
+			}
+		}
+		visible = {
+            has_global_flag = rpg_caribbean_flag
+			R06 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = CRC #Curacao
+				original_tag = R06 #Caribbean
+                has_global_flag = rpg_caribbean_curacao_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_caribbean_coring_states_curacao
+			custom_effect_tooltip = rpg_caribbean_transfer_states_curacao
+			hidden_effect = {
+				695 = { add_core_of = R06 } #Curacao
+				R06 = {
+					transfer_state = 695 #Curacao
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_caribbean_curacao_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_caribbean_southern_bahamas = {
+		allowed = {
+			NOT = {
+				original_tag = BAH #Bahamas
+				original_tag = R06 #Caribbean
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_caribbean_required_states_southern_bahamas
+                controls_state = 693 #Southern Bahamas
+			}
+		}
+		visible = {
+            has_global_flag = rpg_caribbean_flag
+			R06 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = BAH #Bahamas
+				original_tag = R06 #Caribbean
+                has_global_flag = rpg_caribbean_southern_bahamas_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_caribbean_coring_states_southern_bahamas
+			custom_effect_tooltip = rpg_caribbean_transfer_states_southern_bahamas
+			hidden_effect = {
+				693 = { add_core_of = R06 } #Southern Bahamas
+				R06 = {
+					transfer_state = 693 #Southern Bahamas
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_caribbean_southern_bahamas_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_caribbean_bermuda = {
+		allowed = {
+			NOT = {
+				original_tag = R06 #Caribbean
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_caribbean_required_states_bermuda
+                controls_state = 696 #Bermuda
+			}
+		}
+		visible = {
+            has_global_flag = rpg_caribbean_flag
+			R06 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+				original_tag = R06 #Caribbean
+                has_global_flag = rpg_caribbean_bermuda_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_caribbean_coring_states_bermuda
+			custom_effect_tooltip = rpg_caribbean_transfer_states_bermuda
+			hidden_effect = {
+				696 = { add_core_of = R06 } #Bermuda
+				R06 = {
+					transfer_state = 696 #Bermuda
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_caribbean_bermuda_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}

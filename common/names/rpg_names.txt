@@ -753,16 +753,26 @@ R05 = {
 R06 = {
 	male = {
 		names = { 
-			#Vacant
+			Alberto Alejandro Alfredo Ambrosio Anselmo Antonio Arturo Benigno Buenaventura Calixto
+			Carlos Ceferino Cesáreo Demetrio Desiderio Dionisio Domingo Eugenio Federico Felipe
+			Fernando Fidel Fulgencio Gerardo Gregorio Guillermo Horacio Ignacio Jacinto Jacobo
+			Jesús Joaquín José "José Miguel" Juan "Juan Bautista" Manuel Mariano Mario Máximo
+			Osvaldo Pablo Pedro Rafael Ramón Raúl Salvador Romás Ulises Wenceslao
 		  }
 	}
 	female = {
 		names = {
-			#Vacant
+			Adelita Araceli Belén Camila Candelaria Chavela Consuelo Cristina Delfina Esperanza
+			Fidelia Graciela Isadora Isabella Jimena Ximena Luciana Lucrecia María Marisol
+			Noemí Nohemi Valentina Valeria Rocío Socorro Sofía Teófila Amaranta Úrsula Rebeca Remedios
 		}
 	}
 	surnames = { 
-		#Vacant
+		Acosta Alfau Báez Batista Bayo Cabral Carmona Castillo Castro Cisneros
+		"de Céspedes" "de la Rosa" "de Meriño" "de Rojas" Espaillat Estrada Estrella Fernández Figuereo García
+		Gil Gómez Gonzáles González Grau Guillermo Henríquez Herrera Hevia Laredo
+		Luperón Maceo Machado Márquez Mella Méndez Mendieta Moncada Morales Mota
+		Pelletier Pimentel Puello Santana Sosa Trujillo Valverde Vásquez Vázquez Zayas
 	}
 	callsigns = { }
 }
@@ -770,16 +780,16 @@ R06 = {
 R07 = {
 	male = {
 		names = { 
-			#Vacant
+			Mobutu Joseph Patrice Antoine Laurent Albert Moise Etienne Nzimbi Ngbale Jérôme
 		  }
 	}
 	female = {
 		names = {
-			#Vacant
+			Ana Sarah Alexandrine Maria Nzinga Jetta Vandana Zody
 		}
 	}
 	surnames = { 
-		#Vacant
+		Kasavubu Lumumba Gizenga Delvaux Mbariko Tshombo Kimba Mobutu Ileo Adoula Anany Bamba Mahamba Bangala Efomi Kasa-Vubu
 	}
 	callsigns = { }
 }

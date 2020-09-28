@@ -1,0 +1,97 @@
+rpg_category = {
+	rpg_caribbean = {
+		allowed = {
+			NOT = {
+				original_tag = CUB #Cuba
+				original_tag = DOM #Dominican Republic
+				original_tag = HAI #Haiti
+				original_tag = JAM #Jamaica
+				original_tag = R06 #Caribbean
+			}
+		}
+		available = {
+			is_subject = no
+			#Cuba
+			custom_trigger_tooltip = {
+				tooltip = rpg_caribbean_required_states_cuba
+				controls_state = 315 #Cuba
+			}
+			#Haiti
+			custom_trigger_tooltip = {
+				tooltip = rpg_caribbean_required_states_haiti
+				controls_state = 318 #Haiti
+			}
+			#Dominican Republic
+			custom_trigger_tooltip = {
+				tooltip = rpg_caribbean_required_states_dominican_republic
+				controls_state = 319 #Dominican Republic
+			}
+			#Jamaica
+			custom_trigger_tooltip = {
+				tooltip = rpg_caribbean_required_states_jamaica
+				controls_state = 689 #Jamaica
+			}
+		}
+		visible = {
+			OR = {
+				controls_state = 315 #Cuba
+				controls_state = 318 #Haiti
+				controls_state = 319 #Dominican Republic
+				controls_state = 689 #Jamaica
+			}
+			NOT = { 
+                original_tag = CUB #Cuba
+				original_tag = DOM #Dominican Republic
+				original_tag = HAI #Haiti
+				original_tag = JAM #Jamaica
+				original_tag = R06 #Caribbean
+                has_global_flag = rpg_caribbean_flag
+            }
+		}
+		complete_effect = {
+			hidden_effect = {
+				315 = { add_core_of = R06 } #Cuba
+				318 = { add_core_of = R06 } #Haiti
+				319 = { add_core_of = R06 } #Dominican Republic
+				689 = { add_core_of = R06 } #Jamaica
+			}
+			custom_effect_tooltip = rpg_caribbean_coring_states
+			custom_effect_tooltip = rpg_caribbean_transfer_states
+			#Set compliance to 80 in all cores and instantiate collaboration government
+			custom_effect_tooltip = rpg_caribbean_puppet
+			hidden_effect = {
+				every_state = {
+					limit = {
+						is_core_of = R06
+					}
+					set_compliance = 80
+				}
+				
+				if = {
+					limit = { has_dlc = "La Resistance" }
+					set_temp_variable = { country_to_initiate = R06 }
+					instantiate_collaboration_government = yes
+				}
+				else = {
+					release = R06
+					puppet = R06
+				}
+			}
+			#News event, set local flag, and set global flag
+			hidden_effect = {
+				ROOT = {
+					set_country_flag = rpg_caribbean_country_flag
+				}
+				news_event = { id = rpg_news.06 hours = 6 }
+				set_global_flag = rpg_caribbean_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
