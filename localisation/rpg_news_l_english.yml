@@ -177,14 +177,14 @@
  rpg_news.05.d:0 "Interesting"
  #Caribbean
  rpg_news.06.t:0 "Formation of [R06.GetName]"
- rpg_news.06.desc:0 "[Root.GetAdjective] military officials have announced the establishment of a regional government in the Low Countries. Officially known as [R06.GetNameDef], they have been granted autonomy to maintain order and control in the region.  The leader of [R06.GetNameDef], [R06.GetLeader], has publicly announced their full support towards the [Root.GetAdjective] cause.  The nations who are aligned with [Root.GetNameDef] have supported this decision, while the rest of the world has called [R06.GetNameDef] just a [Root.GetAdjective] lapdog."
+ rpg_news.06.desc:0 "[Root.GetAdjective] military officials have announced the establishment of a regional government in the Caribbean. Officially known as [R06.GetNameDef], they have been granted autonomy to maintain order and control in the region.  The leader of [R06.GetNameDef], [R06.GetLeader], has publicly announced their full support towards the [Root.GetAdjective] cause.  The nations who are aligned with [Root.GetNameDef] have supported this decision, while the rest of the world has called [R06.GetNameDef] just a [Root.GetAdjective] lapdog."
  rpg_news.06.a:0 "We will prove our strength to the world!"
  rpg_news.06.b:0 "A toast to our new friends!"
  rpg_news.06.c:0 "They are nothing but a lackey!"
  rpg_news.06.d:0 "Interesting"
  #Central Africa
  rpg_news.07.t:0 "Formation of [R07.GetName]"
- rpg_news.07.desc:0 "[Root.GetAdjective] military officials have announced the establishment of a regional government in the Low Countries. Officially known as [R07.GetNameDef], they have been granted autonomy to maintain order and control in the region.  The leader of [R07.GetNameDef], [R07.GetLeader], has publicly announced their full support towards the [Root.GetAdjective] cause.  The nations who are aligned with [Root.GetNameDef] have supported this decision, while the rest of the world has called [R07.GetNameDef] just a [Root.GetAdjective] lapdog."
+ rpg_news.07.desc:0 "[Root.GetAdjective] military officials have announced the establishment of a regional government in Central Africa. Officially known as [R07.GetNameDef], they have been granted autonomy to maintain order and control in the region.  The leader of [R07.GetNameDef], [R07.GetLeader], has publicly announced their full support towards the [Root.GetAdjective] cause.  The nations who are aligned with [Root.GetNameDef] have supported this decision, while the rest of the world has called [R07.GetNameDef] just a [Root.GetAdjective] lapdog."
  rpg_news.07.a:0 "We will prove our strength to the world!"
  rpg_news.07.b:0 "A toast to our new friends!"
  rpg_news.07.c:0 "They are nothing but a lackey!"

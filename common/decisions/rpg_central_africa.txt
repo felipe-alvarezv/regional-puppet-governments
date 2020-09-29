@@ -1,0 +1,84 @@
+rpg_category = {
+	rpg_central_africa = {
+		allowed = {
+			NOT = {
+				original_tag = COG #Zaire
+				original_tag = R07 #Central Africa
+			}
+		}
+		available = {
+			is_subject = no
+			#Leopoldville
+			custom_trigger_tooltip = {
+				tooltip = rpg_central_africa_required_states_leopoldville
+				controls_state = 295 #Leopoldville
+			}
+			#Central Congo
+			custom_trigger_tooltip = {
+				tooltip = rpg_central_africa_required_states_central_congo
+				controls_state = 538 #Central Congo
+			}
+			#Stanleyville
+			custom_trigger_tooltip = {
+				tooltip = rpg_central_africa_required_states_stanleyville
+				controls_state = 718 #Stanleyville
+			}
+		}
+		visible = {
+			OR = {
+				controls_state = 295 #Leopoldville
+				controls_state = 538 #Central Congo
+				controls_state = 718 #Stanleyville
+			}
+			NOT = { 
+				original_tag = COG #Zaire
+				original_tag = R07 #Central Africa
+                has_global_flag = rpg_central_africa_flag
+            }
+		}
+		complete_effect = {
+			hidden_effect = {
+				295 = { add_core_of = R07 } #Leopoldville
+				538 = { add_core_of = R07 } #Central Congo
+				718 = { add_core_of = R07 } #Stanleyville
+			}
+			custom_effect_tooltip = rpg_central_africa_coring_states
+			custom_effect_tooltip = rpg_central_africa_transfer_states
+			#Set compliance to 80 in all cores and instantiate collaboration government
+			custom_effect_tooltip = rpg_central_africa_puppet
+			hidden_effect = {
+				every_state = {
+					limit = {
+						is_core_of = R07
+					}
+					set_compliance = 80
+				}
+				
+				if = {
+					limit = { has_dlc = "La Resistance" }
+					set_temp_variable = { country_to_initiate = R07 }
+					instantiate_collaboration_government = yes
+				}
+				else = {
+					release = R07
+					puppet = R07
+				}
+			}
+			#News event, set local flag, and set global flag
+			hidden_effect = {
+				ROOT = {
+					set_country_flag = rpg_central_africa_country_flag
+				}
+				news_event = { id = rpg_news.07 hours = 6 }
+				set_global_flag = rpg_central_africa_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}

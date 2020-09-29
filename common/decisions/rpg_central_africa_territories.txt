@@ -1,0 +1,394 @@
+rpg_category_territories_central_africa = {
+	rpg_central_africa_equatorial_guinea = {
+		allowed = {
+			NOT = {
+				original_tag = EQG #Equatorial Guinea
+				original_tag = R07 #Central Africa
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_central_africa_required_states_equatorial_guinea
+                controls_state = 297 #Equatorial Guinea
+			}
+		}
+		visible = {
+            has_global_flag = rpg_central_africa_flag
+			R07 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = EQG #Equatorial Guinea
+				original_tag = R07 #Central Africa
+                has_global_flag = rpg_central_africa_equatorial_guinea_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_central_africa_coring_states_equatorial_guinea
+			custom_effect_tooltip = rpg_central_africa_transfer_states_equatorial_guinea
+			hidden_effect = {
+				297 = { add_core_of = R07 } #Equatorial Guinea
+				R07 = {
+					transfer_state = 297 #Equatorial Guinea
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_central_africa_equatorial_guinea_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_central_africa_gabon = {
+		allowed = {
+			NOT = {
+				original_tag = GAB #Gabon
+				original_tag = R07 #Central Africa
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_central_africa_required_states_gabon
+                controls_state = 539 #Gabon
+			}
+		}
+		visible = {
+            has_global_flag = rpg_central_africa_flag
+			R07 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = GAB #Gabon
+				original_tag = R07 #Central Africa
+                has_global_flag = rpg_central_africa_gabon_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_central_africa_coring_states_gabon
+			custom_effect_tooltip = rpg_central_africa_transfer_states_gabon
+			hidden_effect = {
+				539 = { add_core_of = R07 } #Gabon
+				R07 = {
+					transfer_state = 539 #Gabon
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_central_africa_gabon_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_central_africa_equatorial_africa = {
+		allowed = {
+			NOT = {
+				original_tag = CAR #Central African Republic
+				original_tag = R07 #Central Africa
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_central_africa_required_states_equatorial_africa
+                controls_state = 660 #Equatorial Africa
+			}
+		}
+		visible = {
+            has_global_flag = rpg_central_africa_flag
+			R07 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = CAR #Central African Republic
+				original_tag = R07 #Central Africa
+                has_global_flag = rpg_central_africa_equatorial_africa_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_central_africa_coring_states_equatorial_africa
+			custom_effect_tooltip = rpg_central_africa_transfer_states_equatorial_africa
+			hidden_effect = {
+				660 = { add_core_of = R07 } #Equatorial Africa
+				R07 = {
+					transfer_state = 660 #Equatorial Africa
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_central_africa_equatorial_africa_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_central_africa_burundi = {
+		allowed = {
+			NOT = {
+				original_tag = BRD #Burundi
+				original_tag = R07 #Central Africa
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_central_africa_required_states_burundi
+                controls_state = 769 #Burundi
+			}
+		}
+		visible = {
+            has_global_flag = rpg_central_africa_flag
+			R07 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = BRD #Burundi
+				original_tag = R07 #Central Africa
+                has_global_flag = rpg_central_africa_burundi_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_central_africa_coring_states_burundi
+			custom_effect_tooltip = rpg_central_africa_transfer_states_burundi
+			hidden_effect = {
+				769 = { add_core_of = R07 } #Burundi
+				R07 = {
+					transfer_state = 769 #Burundi
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_central_africa_burundi_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_central_africa_middle_congo = {
+		allowed = {
+			NOT = {
+				original_tag = RCG #Congo-Brazzaville
+				original_tag = R07 #Central Africa
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_central_africa_required_states_middle_congo
+                controls_state = 772 #Middle Congo
+			}
+		}
+		visible = {
+            has_global_flag = rpg_central_africa_flag
+			R07 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = RCG #Congo-Brazzaville
+				original_tag = R07 #Central Africa
+                has_global_flag = rpg_central_africa_middle_congo_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_central_africa_coring_states_middle_congo
+			custom_effect_tooltip = rpg_central_africa_transfer_states_middle_congo
+			hidden_effect = {
+				772 = { add_core_of = R07 } #Middle Congo
+				R07 = {
+					transfer_state = 772 #Middle Congo
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_central_africa_middle_congo_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_central_africa_cameroon = {
+		allowed = {
+			NOT = {
+				original_tag = CMR #Cameroon
+				original_tag = R07 #Central Africa
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_central_africa_required_states_cameroon
+                controls_state = 773 #Cameroon
+			}
+		}
+		visible = {
+            has_global_flag = rpg_central_africa_flag
+			R07 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = CMR #Cameroon
+				original_tag = R07 #Central Africa
+                has_global_flag = rpg_central_africa_cameroon_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_central_africa_coring_states_cameroon
+			custom_effect_tooltip = rpg_central_africa_transfer_states_cameroon
+			hidden_effect = {
+				773 = { add_core_of = R07 } #Cameroon
+				R07 = {
+					transfer_state = 773 #Cameroon
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_central_africa_cameroon_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_central_africa_chad = {
+		allowed = {
+			NOT = {
+				original_tag = CHA #Chad
+				original_tag = R07 #Central Africa
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_central_africa_required_states_chad
+                controls_state = 774 #Chad
+			}
+		}
+		visible = {
+            has_global_flag = rpg_central_africa_flag
+			R07 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = CHA #Chad
+				original_tag = R07 #Central Africa
+                has_global_flag = rpg_central_africa_chad_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_central_africa_coring_states_chad
+			custom_effect_tooltip = rpg_central_africa_transfer_states_chad
+			hidden_effect = {
+				774 = { add_core_of = R07 } #Chad
+				R07 = {
+					transfer_state = 774 #Chad
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_central_africa_chad_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_central_africa_bet = {
+		allowed = {
+			NOT = {
+				original_tag = CHA #Chad
+				original_tag = R07 #Central Africa
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_central_africa_required_states_bet
+                controls_state = 775 #B.E.T.
+			}
+		}
+		visible = {
+            has_global_flag = rpg_central_africa_flag
+			R07 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = CHA #Chad
+				original_tag = R07 #Central Africa
+                has_global_flag = rpg_central_africa_bet_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_central_africa_coring_states_bet
+			custom_effect_tooltip = rpg_central_africa_transfer_states_bet
+			hidden_effect = {
+				775 = { add_core_of = R07 } #B.E.T.
+				R07 = {
+					transfer_state = 775 #B.E.T.
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_central_africa_bet_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
