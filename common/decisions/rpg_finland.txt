@@ -4,7 +4,7 @@ rpg_category = {
 			NOT = {
 				original_tag = FIN #Finland
 				original_tag = SOV #Soviet Union
-				original_tag = D34 #Greater Finland
+				original_tag = R12 #Greater Finland
 			}
 		}
 		available = {
@@ -73,23 +73,23 @@ rpg_category = {
 			NOT = { 
                 original_tag = FIN #Finland
 				original_tag = SOV #Soviet Union
-				original_tag = D34 #Greater Finland
+				original_tag = R12 #Greater Finland
                 has_global_flag = rpg_finland_flag
             }
 		}
 		complete_effect = {
 			hidden_effect = {
-				111 = { add_core_of = D34 } #Uusimaa
-				145 = { add_core_of = D34 } #Aland
-				146 = { add_core_of = D34 } #Karjala
-				147 = { add_core_of = D34 } #Salla
-				148 = { add_core_of = D34 } #Lappi
-				149 = { add_core_of = D34 } #Pohjanmaa
-				150 = { add_core_of = D34 } #Savo
-				213 = { add_core_of = D34 } #Murmansk
-				215 = { add_core_of = D34 } #Onega
-				216 = { add_core_of = D34 } #Olonets
-				722 = { add_core_of = D34 } #Petsamo
+				111 = { add_core_of = R12 } #Uusimaa
+				145 = { add_core_of = R12 } #Aland
+				146 = { add_core_of = R12 } #Karjala
+				147 = { add_core_of = R12 } #Salla
+				148 = { add_core_of = R12 } #Lappi
+				149 = { add_core_of = R12 } #Pohjanmaa
+				150 = { add_core_of = R12 } #Savo
+				213 = { add_core_of = R12 } #Murmansk
+				215 = { add_core_of = R12 } #Onega
+				216 = { add_core_of = R12 } #Olonets
+				722 = { add_core_of = R12 } #Petsamo
 			}
 			custom_effect_tooltip = rpg_finland_coring_states
 			custom_effect_tooltip = rpg_finland_transfer_states
@@ -98,19 +98,19 @@ rpg_category = {
 			hidden_effect = {
 				every_state = {
 					limit = {
-						is_core_of = D34
+						is_core_of = R12
 					}
 					set_compliance = 80
 				}
 				
 				if = {
 					limit = { has_dlc = "La Resistance" }
-					set_temp_variable = { country_to_initiate = D34 }
+					set_temp_variable = { country_to_initiate = R12 }
 					instantiate_collaboration_government = yes
 				}
 				else = {
-					release = D34
-					puppet = D34
+					release = R12
+					puppet = R12
 				}
 			}
 			#News event, set local flag, and set global flag

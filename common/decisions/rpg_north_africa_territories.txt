@@ -3,7 +3,7 @@ rpg_category_territories_north_africa = {
 		allowed = {
 			NOT = {
 				original_tag = MOR #Morocco
-				original_tag = D26 #North Africa
+				original_tag = R30 #North Africa
 			}
 		}
 		available = {
@@ -15,7 +15,7 @@ rpg_category_territories_north_africa = {
 		}
 		visible = {
             has_global_flag = rpg_north_africa_flag
-			D26 = {
+			R30 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -23,7 +23,7 @@ rpg_category_territories_north_africa = {
 			}
 			NOT = { 
                 original_tag = MOR #Morocco
-				original_tag = D26 #North Africa
+				original_tag = R30 #North Africa
                 has_global_flag = rpg_north_africa_spanish_africa_flag
             }
 		}
@@ -31,8 +31,8 @@ rpg_category_territories_north_africa = {
 			custom_effect_tooltip = rpg_north_africa_coring_states_spanish_africa
 			custom_effect_tooltip = rpg_north_africa_transfer_states_spanish_africa
 			hidden_effect = {
-				290 = { add_core_of = D26 } #Spanish Africa
-				D26 = {
+				290 = { add_core_of = R30 } #Spanish Africa
+				R30 = {
 					transfer_state = 290 #Spanish Africa
 				}
 			}
@@ -52,7 +52,7 @@ rpg_category_territories_north_africa = {
 		allowed = {
 			NOT = {
 				original_tag = EGY #Egypt
-				original_tag = D26 #North Africa
+				original_tag = R30 #North Africa
 			}
 		}
 		available = {
@@ -64,7 +64,7 @@ rpg_category_territories_north_africa = {
 		}
 		visible = {
             has_global_flag = rpg_north_africa_flag
-			D26 = {
+			R30 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -72,7 +72,7 @@ rpg_category_territories_north_africa = {
 			}
 			NOT = { 
                 original_tag = EGY #Egypt
-				original_tag = D26 #North Africa
+				original_tag = R30 #North Africa
                 has_global_flag = rpg_north_africa_sinai_flag
             }
 		}
@@ -80,8 +80,8 @@ rpg_category_territories_north_africa = {
 			custom_effect_tooltip = rpg_north_africa_coring_states_sinai
 			custom_effect_tooltip = rpg_north_africa_transfer_states_sinai
 			hidden_effect = {
-				453 = { add_core_of = D26 } #Sinai
-				D26 = {
+				453 = { add_core_of = R30 } #Sinai
+				R30 = {
 					transfer_state = 453 #Sinai
 				}
 			}
@@ -101,7 +101,7 @@ rpg_category_territories_north_africa = {
 		allowed = {
 			NOT = {
 				original_tag = TUN #Tunisia
-				original_tag = D26 #North Africa
+				original_tag = R30 #North Africa
 			}
 		}
 		available = {
@@ -113,7 +113,7 @@ rpg_category_territories_north_africa = {
 		}
 		visible = {
             has_global_flag = rpg_north_africa_flag
-			D26 = {
+			R30 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -121,7 +121,7 @@ rpg_category_territories_north_africa = {
 			}
 			NOT = { 
                 original_tag = TUN #Tunisia
-				original_tag = D26 #North Africa
+				original_tag = R30 #North Africa
                 has_global_flag = rpg_north_africa_tunisia_flag
             }
 		}
@@ -129,8 +129,8 @@ rpg_category_territories_north_africa = {
 			custom_effect_tooltip = rpg_north_africa_coring_states_tunisia
 			custom_effect_tooltip = rpg_north_africa_transfer_states_tunisia
 			hidden_effect = {
-				458 = { add_core_of = D26 } #Tunisia
-				D26 = {
+				458 = { add_core_of = R30 } #Tunisia
+				R30 = {
 					transfer_state = 458 #Tunisia
 				}
 			}
@@ -150,7 +150,7 @@ rpg_category_territories_north_africa = {
 		allowed = {
 			NOT = {
 				original_tag = ALG #Algeria
-				original_tag = D26 #North Africa
+				original_tag = R30 #North Africa
 			}
 		}
 		available = {
@@ -162,7 +162,7 @@ rpg_category_territories_north_africa = {
 		}
 		visible = {
             has_global_flag = rpg_north_africa_flag
-			D26 = {
+			R30 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -170,7 +170,7 @@ rpg_category_territories_north_africa = {
 			}
 			NOT = { 
                 original_tag = ALG #Algeria
-				original_tag = D26 #North Africa
+				original_tag = R30 #North Africa
                 has_global_flag = rpg_north_africa_algiers_flag
             }
 		}
@@ -178,8 +178,8 @@ rpg_category_territories_north_africa = {
 			custom_effect_tooltip = rpg_north_africa_coring_states_algiers
 			custom_effect_tooltip = rpg_north_africa_transfer_states_algiers
 			hidden_effect = {
-				459 = { add_core_of = D26 } #Algiers
-				D26 = {
+				459 = { add_core_of = R30 } #Algiers
+				R30 = {
 					transfer_state = 459 #Algiers
 				}
 			}
@@ -199,7 +199,7 @@ rpg_category_territories_north_africa = {
 		allowed = {
 			NOT = {
 				original_tag = ALG #Algeria
-				original_tag = D26 #North Africa
+				original_tag = R30 #North Africa
 			}
 		}
 		available = {
@@ -211,7 +211,7 @@ rpg_category_territories_north_africa = {
 		}
 		visible = {
             has_global_flag = rpg_north_africa_flag
-			D26 = {
+			R30 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -219,7 +219,7 @@ rpg_category_territories_north_africa = {
 			}
 			NOT = { 
                 original_tag = ALG #Algeria
-				original_tag = D26 #North Africa
+				original_tag = R30 #North Africa
                 has_global_flag = rpg_north_africa_constantine_flag
             }
 		}
@@ -227,8 +227,8 @@ rpg_category_territories_north_africa = {
 			custom_effect_tooltip = rpg_north_africa_coring_states_constantine
 			custom_effect_tooltip = rpg_north_africa_transfer_states_constantine
 			hidden_effect = {
-				460 = { add_core_of = D26 } #Constantine
-				D26 = {
+				460 = { add_core_of = R30 } #Constantine
+				R30 = {
 					transfer_state = 460 #Constantine
 				}
 			}
@@ -248,7 +248,7 @@ rpg_category_territories_north_africa = {
 		allowed = {
 			NOT = {
 				original_tag = MOR #Morocco
-				original_tag = D26 #North Africa
+				original_tag = R30 #North Africa
 			}
 		}
 		available = {
@@ -260,7 +260,7 @@ rpg_category_territories_north_africa = {
 		}
 		visible = {
             has_global_flag = rpg_north_africa_flag
-			D26 = {
+			R30 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -268,7 +268,7 @@ rpg_category_territories_north_africa = {
 			}
 			NOT = { 
                 original_tag = MOR #Morocco
-				original_tag = D26 #North Africa
+				original_tag = R30 #North Africa
                 has_global_flag = rpg_north_africa_casablanca_flag
             }
 		}
@@ -276,8 +276,8 @@ rpg_category_territories_north_africa = {
 			custom_effect_tooltip = rpg_north_africa_coring_states_casablanca
 			custom_effect_tooltip = rpg_north_africa_transfer_states_casablanca
 			hidden_effect = {
-				461 = { add_core_of = D26 } #Casablanca
-				D26 = {
+				461 = { add_core_of = R30 } #Casablanca
+				R30 = {
 					transfer_state = 461 #Casablanca
 				}
 			}
@@ -297,7 +297,7 @@ rpg_category_territories_north_africa = {
 		allowed = {
 			NOT = {
 				original_tag = MOR #Morocco
-				original_tag = D26 #North Africa
+				original_tag = R30 #North Africa
 			}
 		}
 		available = {
@@ -309,7 +309,7 @@ rpg_category_territories_north_africa = {
 		}
 		visible = {
             has_global_flag = rpg_north_africa_flag
-			D26 = {
+			R30 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -317,7 +317,7 @@ rpg_category_territories_north_africa = {
 			}
 			NOT = { 
                 original_tag = MOR #Morocco
-				original_tag = D26 #North Africa
+				original_tag = R30 #North Africa
                 has_global_flag = rpg_north_africa_marrakech_flag
             }
 		}
@@ -325,8 +325,8 @@ rpg_category_territories_north_africa = {
 			custom_effect_tooltip = rpg_north_africa_coring_states_marrakech
 			custom_effect_tooltip = rpg_north_africa_transfer_states_marrakech
 			hidden_effect = {
-				462 = { add_core_of = D26 } #Marrakech
-				D26 = {
+				462 = { add_core_of = R30 } #Marrakech
+				R30 = {
 					transfer_state = 462 #Marrakech
 				}
 			}
@@ -346,7 +346,7 @@ rpg_category_territories_north_africa = {
 		allowed = {
 			NOT = {
 				original_tag = ALG #Algeria
-				original_tag = D26 #North Africa
+				original_tag = R30 #North Africa
 			}
 		}
 		available = {
@@ -358,7 +358,7 @@ rpg_category_territories_north_africa = {
 		}
 		visible = {
             has_global_flag = rpg_north_africa_flag
-			D26 = {
+			R30 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -366,7 +366,7 @@ rpg_category_territories_north_africa = {
 			}
 			NOT = { 
                 original_tag = ALG #Algeria
-				original_tag = D26 #North Africa
+				original_tag = R30 #North Africa
                 has_global_flag = rpg_north_africa_tlemcen_flag
             }
 		}
@@ -374,8 +374,8 @@ rpg_category_territories_north_africa = {
 			custom_effect_tooltip = rpg_north_africa_coring_states_tlemcen
 			custom_effect_tooltip = rpg_north_africa_transfer_states_tlemcen
 			hidden_effect = {
-				513 = { add_core_of = D26 } #Tlemcen
-				D26 = {
+				513 = { add_core_of = R30 } #Tlemcen
+				R30 = {
 					transfer_state = 513 #Tlemcen
 				}
 			}
@@ -395,7 +395,7 @@ rpg_category_territories_north_africa = {
 		allowed = {
 			NOT = {
 				original_tag = ALG #Algeria
-				original_tag = D26 #North Africa
+				original_tag = R30 #North Africa
 			}
 		}
 		available = {
@@ -407,7 +407,7 @@ rpg_category_territories_north_africa = {
 		}
 		visible = {
             has_global_flag = rpg_north_africa_flag
-			D26 = {
+			R30 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -415,7 +415,7 @@ rpg_category_territories_north_africa = {
 			}
 			NOT = { 
                 original_tag = ALG #Algeria
-				original_tag = D26 #North Africa
+				original_tag = R30 #North Africa
                 has_global_flag = rpg_north_africa_algerian_desert_flag
             }
 		}
@@ -423,8 +423,8 @@ rpg_category_territories_north_africa = {
 			custom_effect_tooltip = rpg_north_africa_coring_states_algerian_desert
 			custom_effect_tooltip = rpg_north_africa_transfer_states_algerian_desert
 			hidden_effect = {
-				514 = { add_core_of = D26 } #Algerian Desert
-				D26 = {
+				514 = { add_core_of = R30 } #Algerian Desert
+				R30 = {
 					transfer_state = 514 #Algerian Desert
 				}
 			}
@@ -444,7 +444,7 @@ rpg_category_territories_north_africa = {
 		allowed = {
 			NOT = {
 				original_tag = MRT #Mauritania
-				original_tag = D26 #North Africa
+				original_tag = R30 #North Africa
 			}
 		}
 		available = {
@@ -456,7 +456,7 @@ rpg_category_territories_north_africa = {
 		}
 		visible = {
             has_global_flag = rpg_north_africa_flag
-			D26 = {
+			R30 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -464,7 +464,7 @@ rpg_category_territories_north_africa = {
 			}
 			NOT = { 
                 original_tag = MRT #Mauritania
-				original_tag = D26 #North Africa
+				original_tag = R30 #North Africa
                 has_global_flag = rpg_north_africa_mauritania_flag
             }
 		}
@@ -472,8 +472,8 @@ rpg_category_territories_north_africa = {
 			custom_effect_tooltip = rpg_north_africa_coring_states_mauritania
 			custom_effect_tooltip = rpg_north_africa_transfer_states_mauritania
 			hidden_effect = {
-				557 = { add_core_of = D26 } #Mauritania
-				D26 = {
+				557 = { add_core_of = R30 } #Mauritania
+				R30 = {
 					transfer_state = 557 #Mauritania
 				}
 			}
@@ -493,7 +493,7 @@ rpg_category_territories_north_africa = {
 		allowed = {
 			NOT = {
 				original_tag = TUN #Tunisia
-				original_tag = D26 #North Africa
+				original_tag = R30 #North Africa
 			}
 		}
 		available = {
@@ -505,7 +505,7 @@ rpg_category_territories_north_africa = {
 		}
 		visible = {
             has_global_flag = rpg_north_africa_flag
-			D26 = {
+			R30 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -513,7 +513,7 @@ rpg_category_territories_north_africa = {
 			}
 			NOT = { 
                 original_tag = TUN #Tunisia
-				original_tag = D26 #North Africa
+				original_tag = R30 #North Africa
                 has_global_flag = rpg_north_africa_gabes_flag
             }
 		}
@@ -521,8 +521,8 @@ rpg_category_territories_north_africa = {
 			custom_effect_tooltip = rpg_north_africa_coring_states_gabes
 			custom_effect_tooltip = rpg_north_africa_transfer_states_gabes
 			hidden_effect = {
-				665 = { add_core_of = D26 } #Gabes
-				D26 = {
+				665 = { add_core_of = R30 } #Gabes
+				R30 = {
 					transfer_state = 665 #Gabes
 				}
 			}
@@ -542,7 +542,7 @@ rpg_category_territories_north_africa = {
 		allowed = {
 			NOT = {
 				original_tag = WES #Sahrawi
-				original_tag = D26 #North Africa
+				original_tag = R30 #North Africa
 			}
 		}
 		available = {
@@ -554,7 +554,7 @@ rpg_category_territories_north_africa = {
 		}
 		visible = {
             has_global_flag = rpg_north_africa_flag
-			D26 = {
+			R30 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -562,7 +562,7 @@ rpg_category_territories_north_africa = {
 			}
 			NOT = { 
                 original_tag = WES #Sahrawi
-				original_tag = D26 #North Africa
+				original_tag = R30 #North Africa
                 has_global_flag = rpg_north_africa_rio_de_oro_flag
             }
 		}
@@ -570,8 +570,8 @@ rpg_category_territories_north_africa = {
 			custom_effect_tooltip = rpg_north_africa_coring_states_rio_de_oro
 			custom_effect_tooltip = rpg_north_africa_transfer_states_rio_de_oro
 			hidden_effect = {
-				699 = { add_core_of = D26 } #Rio de Oro
-				D26 = {
+				699 = { add_core_of = R30 } #Rio de Oro
+				R30 = {
 					transfer_state = 699 #Rio de Oro
 				}
 			}
@@ -591,7 +591,7 @@ rpg_category_territories_north_africa = {
 		allowed = {
 			NOT = {
 				original_tag = MOR #Morocco
-				original_tag = D26 #North Africa
+				original_tag = R30 #North Africa
 			}
 		}
 		available = {
@@ -603,7 +603,7 @@ rpg_category_territories_north_africa = {
 		}
 		visible = {
             has_global_flag = rpg_north_africa_flag
-			D26 = {
+			R30 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -611,7 +611,7 @@ rpg_category_territories_north_africa = {
 			}
 			NOT = { 
                 original_tag = MOR #Morocco
-				original_tag = D26 #North Africa
+				original_tag = R30 #North Africa
                 has_global_flag = rpg_north_africa_sidi_ifni_flag
             }
 		}
@@ -619,8 +619,8 @@ rpg_category_territories_north_africa = {
 			custom_effect_tooltip = rpg_north_africa_coring_states_sidi_ifni
 			custom_effect_tooltip = rpg_north_africa_transfer_states_sidi_ifni
 			hidden_effect = {
-				783 = { add_core_of = D26 } #Sidi Ifni
-				D26 = {
+				783 = { add_core_of = R30 } #Sidi Ifni
+				R30 = {
 					transfer_state = 783 #Sidi Ifni
 				}
 			}
@@ -640,7 +640,7 @@ rpg_category_territories_north_africa = {
 		allowed = {
 			NOT = {
 				original_tag = MRT #Mauritania
-				original_tag = D26 #North Africa
+				original_tag = R30 #North Africa
 			}
 		}
 		available = {
@@ -652,7 +652,7 @@ rpg_category_territories_north_africa = {
 		}
 		visible = {
             has_global_flag = rpg_north_africa_flag
-			D26 = {
+			R30 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -660,7 +660,7 @@ rpg_category_territories_north_africa = {
 			}
 			NOT = { 
                 original_tag = MRT #Mauritania
-				original_tag = D26 #North Africa
+				original_tag = R30 #North Africa
                 has_global_flag = rpg_north_africa_mauritanian_desert_flag
             }
 		}
@@ -668,8 +668,8 @@ rpg_category_territories_north_africa = {
 			custom_effect_tooltip = rpg_north_africa_coring_states_mauritanian_desert
 			custom_effect_tooltip = rpg_north_africa_transfer_states_mauritanian_desert
 			hidden_effect = {
-				786 = { add_core_of = D26 } #Mauritanian Desert
-				D26 = {
+				786 = { add_core_of = R30 } #Mauritanian Desert
+				R30 = {
 					transfer_state = 786 #Mauritanian Desert
 				}
 			}

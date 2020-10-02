@@ -3,7 +3,7 @@ rpg_category_territories_eastern_provinces = {
 		allowed = {
 			NOT = {
 				original_tag = CAN #Canada
-				original_tag = D43 #Eastern Provinces
+				original_tag = R11 #Eastern Provinces
 			}
 		}
 		available = {
@@ -15,7 +15,7 @@ rpg_category_territories_eastern_provinces = {
 		}
 		visible = {
             has_global_flag = rpg_eastern_provinces_flag
-			D43 = {
+			R11 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -23,7 +23,7 @@ rpg_category_territories_eastern_provinces = {
 			}
 			NOT = { 
                 original_tag = CAN #Canada
-				original_tag = D43 #Eastern Provinces
+				original_tag = R11 #Eastern Provinces
                 has_global_flag = rpg_eastern_provinces_newfoundland_flag
             }
 		}
@@ -31,8 +31,8 @@ rpg_category_territories_eastern_provinces = {
 			custom_effect_tooltip = rpg_eastern_provinces_coring_states_newfoundland
 			custom_effect_tooltip = rpg_eastern_provinces_transfer_states_newfoundland
 			hidden_effect = {
-				331 = { add_core_of = D43 } #Newfoundland
-				D43 = {
+				331 = { add_core_of = R11 } #Newfoundland
+				R11 = {
 					transfer_state = 331 #Newfoundland
 				}
 			}
@@ -52,7 +52,7 @@ rpg_category_territories_eastern_provinces = {
 		allowed = {
 			NOT = {
 				original_tag = CAN #Canada
-				original_tag = D43 #Eastern Provinces
+				original_tag = R11 #Eastern Provinces
 			}
 		}
 		available = {
@@ -64,7 +64,7 @@ rpg_category_territories_eastern_provinces = {
 		}
 		visible = {
             has_global_flag = rpg_eastern_provinces_flag
-			D43 = {
+			R11 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -72,7 +72,7 @@ rpg_category_territories_eastern_provinces = {
 			}
 			NOT = { 
                 original_tag = CAN #Canada
-				original_tag = D43 #Eastern Provinces
+				original_tag = R11 #Eastern Provinces
                 has_global_flag = rpg_eastern_provinces_labrador_flag
             }
 		}
@@ -80,8 +80,8 @@ rpg_category_territories_eastern_provinces = {
 			custom_effect_tooltip = rpg_eastern_provinces_coring_states_labrador
 			custom_effect_tooltip = rpg_eastern_provinces_transfer_states_labrador
 			hidden_effect = {
-				332 = { add_core_of = D43 } #Labrador
-				D43 = {
+				332 = { add_core_of = R11 } #Labrador
+				R11 = {
 					transfer_state = 332 #Labrador
 				}
 			}
@@ -101,7 +101,7 @@ rpg_category_territories_eastern_provinces = {
 		allowed = {
 			NOT = {
 				original_tag = CAN #Canada
-				original_tag = D43 #Eastern Provinces
+				original_tag = R11 #Eastern Provinces
 			}
 		}
 		available = {
@@ -113,7 +113,7 @@ rpg_category_territories_eastern_provinces = {
 		}
 		visible = {
             has_global_flag = rpg_eastern_provinces_flag
-			D43 = {
+			R11 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -121,7 +121,7 @@ rpg_category_territories_eastern_provinces = {
 			}
 			NOT = { 
                 original_tag = CAN #Canada
-				original_tag = D43 #Eastern Provinces
+				original_tag = R11 #Eastern Provinces
                 has_global_flag = rpg_eastern_provinces_nova_scotia_flag
             }
 		}
@@ -129,8 +129,8 @@ rpg_category_territories_eastern_provinces = {
 			custom_effect_tooltip = rpg_eastern_provinces_coring_states_nova_scotia
 			custom_effect_tooltip = rpg_eastern_provinces_transfer_states_nova_scotia
 			hidden_effect = {
-				464 = { add_core_of = D43 } #Nova Scotia
-				D43 = {
+				464 = { add_core_of = R11 } #Nova Scotia
+				R11 = {
 					transfer_state = 464 #Nova Scotia
 				}
 			}
@@ -150,7 +150,7 @@ rpg_category_territories_eastern_provinces = {
 		allowed = {
 			NOT = {
 				original_tag = CAN #Canada
-				original_tag = D43 #Eastern Provinces
+				original_tag = R11 #Eastern Provinces
 			}
 		}
 		available = {
@@ -162,7 +162,7 @@ rpg_category_territories_eastern_provinces = {
 		}
 		visible = {
             has_global_flag = rpg_eastern_provinces_flag
-			D43 = {
+			R11 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -170,7 +170,7 @@ rpg_category_territories_eastern_provinces = {
 			}
 			NOT = { 
                 original_tag = CAN #Canada
-				original_tag = D43 #Eastern Provinces
+				original_tag = R11 #Eastern Provinces
                 has_global_flag = rpg_eastern_provinces_new_brunswick_flag
             }
 		}
@@ -178,8 +178,8 @@ rpg_category_territories_eastern_provinces = {
 			custom_effect_tooltip = rpg_eastern_provinces_coring_states_new_brunswick
 			custom_effect_tooltip = rpg_eastern_provinces_transfer_states_new_brunswick
 			hidden_effect = {
-				465 = { add_core_of = D43 } #New Brunswick
-				D43 = {
+				465 = { add_core_of = R11 } #New Brunswick
+				R11 = {
 					transfer_state = 465 #New Brunswick
 				}
 			}
@@ -199,8 +199,8 @@ rpg_category_territories_eastern_provinces = {
 		allowed = {
 			NOT = {
 				original_tag = CAN #Canada
-				original_tag = D42 #Quebec
-				original_tag = D43 #Eastern Provinces
+				original_tag = R22 #Quebec
+				original_tag = R11 #Eastern Provinces
 			}
 		}
 		available = {
@@ -212,7 +212,7 @@ rpg_category_territories_eastern_provinces = {
 		}
 		visible = {
             has_global_flag = rpg_eastern_provinces_flag
-			D43 = {
+			R11 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -220,8 +220,8 @@ rpg_category_territories_eastern_provinces = {
 			}
 			NOT = { 
                 original_tag = CAN #Canada
-				original_tag = D42 #Quebec
-				original_tag = D43 #Eastern Provinces
+				original_tag = R22 #Quebec
+				original_tag = R11 #Eastern Provinces
                 has_global_flag = rpg_eastern_provinces_quebec_flag
             }
 		}
@@ -229,8 +229,8 @@ rpg_category_territories_eastern_provinces = {
 			custom_effect_tooltip = rpg_eastern_provinces_coring_states_quebec
 			custom_effect_tooltip = rpg_eastern_provinces_transfer_states_quebec
 			hidden_effect = {
-				466 = { add_core_of = D43 } #Quebec
-				D43 = {
+				466 = { add_core_of = R11 } #Quebec
+				R11 = {
 					transfer_state = 466 #Quebec
 				}
 			}
@@ -250,8 +250,8 @@ rpg_category_territories_eastern_provinces = {
 		allowed = {
 			NOT = {
 				original_tag = CAN #Canada
-				original_tag = D42 #Quebec
-				original_tag = D43 #Eastern Provinces
+				original_tag = R22 #Quebec
+				original_tag = R11 #Eastern Provinces
 			}
 		}
 		available = {
@@ -263,7 +263,7 @@ rpg_category_territories_eastern_provinces = {
 		}
 		visible = {
             has_global_flag = rpg_eastern_provinces_flag
-			D43 = {
+			R11 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -271,8 +271,8 @@ rpg_category_territories_eastern_provinces = {
 			}
 			NOT = { 
                 original_tag = CAN #Canada
-				original_tag = D42 #Quebec
-				original_tag = D43 #Eastern Provinces
+				original_tag = R22 #Quebec
+				original_tag = R11 #Eastern Provinces
                 has_global_flag = rpg_eastern_provinces_saint_lawrence_flag
             }
 		}
@@ -280,8 +280,8 @@ rpg_category_territories_eastern_provinces = {
 			custom_effect_tooltip = rpg_eastern_provinces_coring_states_saint_lawrence
 			custom_effect_tooltip = rpg_eastern_provinces_transfer_states_saint_lawrence
 			hidden_effect = {
-				468 = { add_core_of = D43 } #Saint Lawrence
-				D43 = {
+				468 = { add_core_of = R11 } #Saint Lawrence
+				R11 = {
 					transfer_state = 468 #Saint Lawrence
 				}
 			}

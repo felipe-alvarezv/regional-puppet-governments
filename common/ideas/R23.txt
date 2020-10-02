@@ -1,0 +1,253 @@
+#American Rockies
+ideas = {
+	political_advisor = {
+		R23_captain_of_industry = {
+			picture = generic_political_advisor_europe_1
+			allowed = {
+				original_tag = R23
+			}
+			traits = { captain_of_industry }
+		}
+		R23_war_industrialist = {
+			picture = generic_political_advisor_europe_2
+			allowed = {
+				original_tag = R23
+			}
+			traits = { war_industrialist }
+		}
+		R23_fortification_engineer = {
+			picture = generic_political_advisor_europe_3
+			allowed = {
+				original_tag = R23
+			}
+			traits = { fortification_engineer }
+		}
+		R23_quartermaster_general = {
+			picture = generic_political_advisor_europe_4
+			allowed = {
+				original_tag = R23
+			}
+			traits = { quartermaster_general }
+		}
+		R23_communist_revolutionary = {
+			picture = generic_communist_revolutionary_western_european_2d
+			available = {
+				is_subject = no
+			}
+			allowed = {
+				original_tag = R23
+			}
+			traits = { communist_revolutionary }
+		}
+		R23_democratic_reformer = {
+			picture = generic_democratic_reformer_western_european_2d
+			available = {
+				is_subject = no
+			}
+			allowed = {
+				original_tag = R23
+			}
+			traits = { democratic_reformer }
+		}
+		R23_staunch_monarchist = {
+			picture = generic_political_advisor_europe_5
+			available = {
+				is_subject = no
+			}
+			allowed = {
+				original_tag = R23
+			}
+			traits = { staunch_monarchist }
+		}
+		R23_facist_demagogue = {
+			picture = generic_fascist_demagogue_western_european_2d
+			available = {
+				is_subject = no
+			}
+			allowed = {
+				original_tag = R23
+			}
+			traits = { fascist_demagogue }
+		}
+		R23_illusive_gentleman = {	
+			picture = generic_political_advisor_europe_6
+			available = {
+				has_intelligence_agency = yes
+			}
+			allowed = {
+				original_tag = R23
+				has_dlc = "La Resistance" 
+			}
+			traits = { head_of_intelligence }
+		}
+	}
+	army_chief = {
+		R23_army_offense = {
+			picture = generic_army_europe_1
+			allowed = {
+				original_tag = R23
+			}		
+			traits = { army_chief_offensive_2 }
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		R23_army_defense = {
+			picture = generic_army_europe_2
+			allowed = {
+				original_tag = R23
+			}
+			traits = { army_chief_defensive_2 }
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	navy_chief = {
+		R23_decisive_battle = {
+			picture = generic_navy_europe_1
+			allowed = {
+				original_tag = R23
+			}
+			traits = { navy_chief_decisive_battle_2 }
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		R23_commerce_raiding = {
+			picture = generic_navy_europe_2
+			allowed = {
+				original_tag = R23
+			}
+			traits = { navy_chief_commerce_raiding_2 }
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	air_chief = {
+		R23_ground_support = {
+			picture = generic_air_europe_1
+			allowed = {
+				original_tag = R23
+			}
+			traits = { air_chief_ground_support_2 }
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		R23_all_weather = {
+			picture = generic_air_europe_2
+			allowed = {
+				original_tag = R23
+			}
+			traits = { air_chief_all_weather_2 }
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	high_command = {
+		R23_army_infantry = {
+			ledger = army
+			picture = generic_army_europe_3
+			allowed = {
+				original_tag = R23
+			}
+			traits = { army_infantry_2 }
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		R23_army_artillery = {
+			ledger = army	
+			picture = generic_army_europe_4
+			allowed = {
+				original_tag = R23
+			}
+			traits = { army_artillery_2 }
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		R23_amphibious_assault = {
+			ledger = navy
+			picture = generic_navy_europe_1
+			allowed = {
+				original_tag = R23
+			}
+			traits = { navy_amphibious_assault_2 }
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		R23_screen = {
+			ledger = navy
+			picture = generic_navy_europe_2
+			allowed = {
+				original_tag = R23
+			}
+			traits = { navy_screen_2 }
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		R23_air_support = {
+			ledger = air
+			picture = generic_air_europe_3
+			allowed = {
+				original_tag = R23
+			}
+			traits = { air_air_superiority_2 }
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		R23_close_air_support = {
+			ledger = air
+			picture = generic_air_europe_1
+			allowed = {
+				original_tag = R23
+			}
+			traits = { air_close_air_support_2 }
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	theorist = {
+		R23_military_theorist = {
+			ledger = army
+			picture = generic_army_europe_4
+			allowed = {
+				original_tag = R23
+			}
+			research_bonus = {
+				land_doctrine = 0.10
+			}
+			traits = { military_theorist }
+		}
+		R23_naval_theorist = {
+			ledger = navy
+			picture = generic_navy_europe_3
+			allowed = {
+				original_tag = R23
+			}
+			research_bonus = {
+				naval_doctrine = 0.10
+			}
+			traits = { naval_theorist }
+		}
+		R23_warfare_theorist = {
+			ledger = air
+			picture = generic_air_europe_1
+			allowed = {
+				original_tag = R23
+			}
+			research_bonus = {
+				air_doctrine = 0.10
+			}
+			traits = { air_warfare_theorist }
+		}
+	}
+}

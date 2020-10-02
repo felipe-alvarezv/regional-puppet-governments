@@ -3,7 +3,7 @@ rpg_category_territories_quebec = {
 		allowed = {
 			NOT = {
 				original_tag = CAN #Canada
-				original_tag = D42 #Quebec
+				original_tag = R22 #Quebec
 			}
 		}
 		available = {
@@ -15,7 +15,7 @@ rpg_category_territories_quebec = {
 		}
 		visible = {
             has_global_flag = rpg_quebec_flag
-			D42 = {
+			R22 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -23,7 +23,7 @@ rpg_category_territories_quebec = {
 			}
 			NOT = { 
                 original_tag = CAN #Canada
-				original_tag = D42 #Quebec
+				original_tag = R22 #Quebec
                 has_global_flag = rpg_quebec_southern_ontario_flag
             }
 		}
@@ -31,8 +31,8 @@ rpg_category_territories_quebec = {
 			custom_effect_tooltip = rpg_quebec_coring_states_southern_ontario
 			custom_effect_tooltip = rpg_quebec_transfer_states_southern_ontario
 			hidden_effect = {
-				276 = { add_core_of = D42 } #Southern Ontario
-				D42 = {
+				276 = { add_core_of = R22 } #Southern Ontario
+				R22 = {
 					transfer_state = 276 #Southern Ontario
 				}
 			}
@@ -52,7 +52,7 @@ rpg_category_territories_quebec = {
 		allowed = {
 			NOT = {
 				original_tag = CAN #Canada
-				original_tag = D42 #Quebec
+				original_tag = R22 #Quebec
 			}
 		}
 		available = {
@@ -64,7 +64,7 @@ rpg_category_territories_quebec = {
 		}
 		visible = {
             has_global_flag = rpg_quebec_flag
-			D42 = {
+			R22 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -72,7 +72,7 @@ rpg_category_territories_quebec = {
 			}
 			NOT = { 
                 original_tag = CAN #Canada
-				original_tag = D42 #Quebec
+				original_tag = R22 #Quebec
                 has_global_flag = rpg_quebec_newfoundland_flag
             }
 		}
@@ -80,8 +80,8 @@ rpg_category_territories_quebec = {
 			custom_effect_tooltip = rpg_quebec_coring_states_newfoundland
 			custom_effect_tooltip = rpg_quebec_transfer_states_newfoundland
 			hidden_effect = {
-				331 = { add_core_of = D42 } #Newfoundland
-				D42 = {
+				331 = { add_core_of = R22 } #Newfoundland
+				R22 = {
 					transfer_state = 331 #Newfoundland
 				}
 			}
@@ -101,7 +101,7 @@ rpg_category_territories_quebec = {
 		allowed = {
 			NOT = {
 				original_tag = CAN #Canada
-				original_tag = D42 #Quebec
+				original_tag = R22 #Quebec
 			}
 		}
 		available = {
@@ -113,7 +113,7 @@ rpg_category_territories_quebec = {
 		}
 		visible = {
             has_global_flag = rpg_quebec_flag
-			D42 = {
+			R22 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -121,7 +121,7 @@ rpg_category_territories_quebec = {
 			}
 			NOT = { 
                 original_tag = CAN #Canada
-				original_tag = D42 #Quebec
+				original_tag = R22 #Quebec
                 has_global_flag = rpg_quebec_labrador_flag
             }
 		}
@@ -129,8 +129,8 @@ rpg_category_territories_quebec = {
 			custom_effect_tooltip = rpg_quebec_coring_states_labrador
 			custom_effect_tooltip = rpg_quebec_transfer_states_labrador
 			hidden_effect = {
-				332 = { add_core_of = D42 } #Labrador
-				D42 = {
+				332 = { add_core_of = R22 } #Labrador
+				R22 = {
 					transfer_state = 332 #Labrador
 				}
 			}
@@ -150,7 +150,7 @@ rpg_category_territories_quebec = {
 		allowed = {
 			NOT = {
 				original_tag = CAN #Canada
-				original_tag = D42 #Quebec
+				original_tag = R22 #Quebec
 			}
 		}
 		available = {
@@ -162,7 +162,7 @@ rpg_category_territories_quebec = {
 		}
 		visible = {
             has_global_flag = rpg_quebec_flag
-			D42 = {
+			R22 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -170,7 +170,7 @@ rpg_category_territories_quebec = {
 			}
 			NOT = { 
                 original_tag = CAN #Canada
-				original_tag = D42 #Quebec
+				original_tag = R22 #Quebec
                 has_global_flag = rpg_quebec_nova_scotia_flag
             }
 		}
@@ -178,8 +178,8 @@ rpg_category_territories_quebec = {
 			custom_effect_tooltip = rpg_quebec_coring_states_nova_scotia
 			custom_effect_tooltip = rpg_quebec_transfer_states_nova_scotia
 			hidden_effect = {
-				464 = { add_core_of = D42 } #Nova Scotia
-				D42 = {
+				464 = { add_core_of = R22 } #Nova Scotia
+				R22 = {
 					transfer_state = 464 #Nova Scotia
 				}
 			}
@@ -199,7 +199,7 @@ rpg_category_territories_quebec = {
 		allowed = {
 			NOT = {
 				original_tag = CAN #Canada
-				original_tag = D42 #Quebec
+				original_tag = R22 #Quebec
 			}
 		}
 		available = {
@@ -211,7 +211,7 @@ rpg_category_territories_quebec = {
 		}
 		visible = {
             has_global_flag = rpg_quebec_flag
-			D42 = {
+			R22 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -219,7 +219,7 @@ rpg_category_territories_quebec = {
 			}
 			NOT = { 
                 original_tag = CAN #Canada
-				original_tag = D42 #Quebec
+				original_tag = R22 #Quebec
                 has_global_flag = rpg_quebec_new_brunswick_flag
             }
 		}
@@ -227,8 +227,8 @@ rpg_category_territories_quebec = {
 			custom_effect_tooltip = rpg_quebec_coring_states_new_brunswick
 			custom_effect_tooltip = rpg_quebec_transfer_states_new_brunswick
 			hidden_effect = {
-				465 = { add_core_of = D42 } #New Brunswick
-				D42 = {
+				465 = { add_core_of = R22 } #New Brunswick
+				R22 = {
 					transfer_state = 465 #New Brunswick
 				}
 			}
@@ -248,7 +248,7 @@ rpg_category_territories_quebec = {
 		allowed = {
 			NOT = {
 				original_tag = CAN #Canada
-				original_tag = D42 #Quebec
+				original_tag = R22 #Quebec
 			}
 		}
 		available = {
@@ -260,7 +260,7 @@ rpg_category_territories_quebec = {
 		}
 		visible = {
             has_global_flag = rpg_quebec_flag
-			D42 = {
+			R22 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -268,7 +268,7 @@ rpg_category_territories_quebec = {
 			}
 			NOT = { 
                 original_tag = CAN #Canada
-				original_tag = D42 #Quebec
+				original_tag = R22 #Quebec
                 has_global_flag = rpg_quebec_northern_ontario_flag
             }
 		}
@@ -276,8 +276,8 @@ rpg_category_territories_quebec = {
 			custom_effect_tooltip = rpg_quebec_coring_states_northern_ontario
 			custom_effect_tooltip = rpg_quebec_transfer_states_northern_ontario
 			hidden_effect = {
-				682 = { add_core_of = D42 } #Northern Ontario
-				D42 = {
+				682 = { add_core_of = R22 } #Northern Ontario
+				R22 = {
 					transfer_state = 682 #Northern Ontario
 				}
 			}

@@ -3,7 +3,7 @@ rpg_category = {
 		allowed = {
 			NOT = {
 				original_tag = USA #United States
-				original_tag = D39 #Southwestern U.S.
+				original_tag = R27 #Southwestern U.S.
 			}
 		}
 		available = {
@@ -36,16 +36,16 @@ rpg_category = {
 			}
 			NOT = { 
                 original_tag = USA #United States
-				original_tag = D39 #Southwestern U.S.
+				original_tag = R27 #Southwestern U.S.
                 has_global_flag = rpg_southwestern_us_flag
             }
 		}
 		complete_effect = {
 			hidden_effect = {
-				374 = { add_core_of = D39 } #Oklahoma
-				375 = { add_core_of = D39 } #Texas
-				376 = { add_core_of = D39 } #New Mexico
-				377 = { add_core_of = D39 } #Arizona
+				374 = { add_core_of = R27 } #Oklahoma
+				375 = { add_core_of = R27 } #Texas
+				376 = { add_core_of = R27 } #New Mexico
+				377 = { add_core_of = R27 } #Arizona
 			}
 			custom_effect_tooltip = rpg_southwestern_us_coring_states
 			custom_effect_tooltip = rpg_southwestern_us_transfer_states
@@ -54,19 +54,19 @@ rpg_category = {
 			hidden_effect = {
 				every_state = {
 					limit = {
-						is_core_of = D39
+						is_core_of = R27
 					}
 					set_compliance = 80
 				}
 				
 				if = {
 					limit = { has_dlc = "La Resistance" }
-					set_temp_variable = { country_to_initiate = D39 }
+					set_temp_variable = { country_to_initiate = R27 }
 					instantiate_collaboration_government = yes
 				}
 				else = {
-					release = D39
-					puppet = D39
+					release = R27
+					puppet = R27
 				}
 			}
 			#News event, set local flag, and set global flag

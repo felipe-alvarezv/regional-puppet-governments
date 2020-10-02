@@ -3,7 +3,7 @@ rpg_category = {
 		allowed = {
 			NOT = {
 				original_tag = USA #United States
-				original_tag = D38 #Midwestern U.S.
+				original_tag = R18 #Midwestern U.S.
 			}
 		}
 		available = {
@@ -77,24 +77,24 @@ rpg_category = {
 			}
 			NOT = { 
                 original_tag = USA #United States
-				original_tag = D38 #Midwestern U.S.
+				original_tag = R18 #Midwestern U.S.
                 has_global_flag = rpg_midwestern_us_flag
             }
 		}
 		complete_effect = {
 			hidden_effect = {
-				261 = { add_core_of = D38 } #Ohio
-				373 = { add_core_of = D38 } #Missouri
-				383 = { add_core_of = D38 } #Kansas
-				384 = { add_core_of = D38 } #Nebraska
-				389 = { add_core_of = D38 } #North Dakota
-				390 = { add_core_of = D38 } #South Dakota
-				391 = { add_core_of = D38 } #Minnesota
-				392 = { add_core_of = D38 } #Iowa
-				393 = { add_core_of = D38 } #Michigan
-				394 = { add_core_of = D38 } #Wisconsin
-				395 = { add_core_of = D38 } #Illinois
-				396 = { add_core_of = D38 } #Indiana
+				261 = { add_core_of = R18 } #Ohio
+				373 = { add_core_of = R18 } #Missouri
+				383 = { add_core_of = R18 } #Kansas
+				384 = { add_core_of = R18 } #Nebraska
+				389 = { add_core_of = R18 } #North Dakota
+				390 = { add_core_of = R18 } #South Dakota
+				391 = { add_core_of = R18 } #Minnesota
+				392 = { add_core_of = R18 } #Iowa
+				393 = { add_core_of = R18 } #Michigan
+				394 = { add_core_of = R18 } #Wisconsin
+				395 = { add_core_of = R18 } #Illinois
+				396 = { add_core_of = R18 } #Indiana
 			}
 			custom_effect_tooltip = rpg_midwestern_us_coring_states
 			custom_effect_tooltip = rpg_midwestern_us_transfer_states
@@ -103,19 +103,19 @@ rpg_category = {
 			hidden_effect = {
 				every_state = {
 					limit = {
-						is_core_of = D38
+						is_core_of = R18
 					}
 					set_compliance = 80
 				}
 				
 				if = {
 					limit = { has_dlc = "La Resistance" }
-					set_temp_variable = { country_to_initiate = D38 }
+					set_temp_variable = { country_to_initiate = R18 }
 					instantiate_collaboration_government = yes
 				}
 				else = {
-					release = D38
-					puppet = D38
+					release = R18
+					puppet = R18
 				}
 			}
 			#News event, set local flag, and set global flag

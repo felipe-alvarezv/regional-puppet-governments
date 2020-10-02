@@ -3,9 +3,9 @@ rpg_category = {
 		allowed = {
 			NOT = {
 				original_tag = GER #Germany
-				original_tag = D23 #Germany
-				original_tag = D27 #North Germany
-				original_tag = D29 #South Germany
+				original_tag = R13 #Germany
+				original_tag = R19 #North Germany
+				original_tag = R25 #South Germany
 			}
 		}
 		available = {
@@ -97,30 +97,30 @@ rpg_category = {
 			}
 			NOT = { 
                 original_tag = GER #Germany
-				original_tag = D23 #Germany
-				original_tag = D27 #North Germany
-				original_tag = D29 #South Germany
+				original_tag = R13 #Germany
+				original_tag = R19 #North Germany
+				original_tag = R25 #South Germany
                 has_global_flag = rpg_north_germany_flag
             }
 		}
 		complete_effect = {
 			hidden_effect = {
-				42 = { add_core_of = D27 } #Moselland
-				51 = { add_core_of = D27 } #Rhineland
-				55 = { add_core_of = D27 } #Hessen
-				56 = { add_core_of = D27 } #Weser-Ems
-				57 = { add_core_of = D27 } #Westfalen
-				58 = { add_core_of = D27 } #Schleswig-Holstein
-				59 = { add_core_of = D27 } #Hannover
-				60 = { add_core_of = D27 } #Thuringen
-				61 = { add_core_of = D27 } #Mecklenburg
-				62 = { add_core_of = D27 } #Vorpommern
-				63 = { add_core_of = D27 } #Hinterpommern
-				64 = { add_core_of = D27 } #Brandenburg
-				65 = { add_core_of = D27 } #Sachsen
-				66 = { add_core_of = D27 } #Niederschlesien
-				67 = { add_core_of = D27 } #Oberschlesien
-				68 = { add_core_of = D27 } #Ostmark
+				42 = { add_core_of = R19 } #Moselland
+				51 = { add_core_of = R19 } #Rhineland
+				55 = { add_core_of = R19 } #Hessen
+				56 = { add_core_of = R19 } #Weser-Ems
+				57 = { add_core_of = R19 } #Westfalen
+				58 = { add_core_of = R19 } #Schleswig-Holstein
+				59 = { add_core_of = R19 } #Hannover
+				60 = { add_core_of = R19 } #Thuringen
+				61 = { add_core_of = R19 } #Mecklenburg
+				62 = { add_core_of = R19 } #Vorpommern
+				63 = { add_core_of = R19 } #Hinterpommern
+				64 = { add_core_of = R19 } #Brandenburg
+				65 = { add_core_of = R19 } #Sachsen
+				66 = { add_core_of = R19 } #Niederschlesien
+				67 = { add_core_of = R19 } #Oberschlesien
+				68 = { add_core_of = R19 } #Ostmark
 			}
 			custom_effect_tooltip = rpg_north_germany_coring_states
 			custom_effect_tooltip = rpg_north_germany_transfer_states
@@ -129,19 +129,19 @@ rpg_category = {
 			hidden_effect = {
 				every_state = {
 					limit = {
-						is_core_of = D27
+						is_core_of = R19
 					}
 					set_compliance = 80
 				}
 				
 				if = {
 					limit = { has_dlc = "La Resistance" }
-					set_temp_variable = { country_to_initiate = D27 }
+					set_temp_variable = { country_to_initiate = R19 }
 					instantiate_collaboration_government = yes
 				}
 				else = {
-					release = D27
-					puppet = D27
+					release = R19
+					puppet = R19
 				}
 			}
 			#News event, set local flag, and set global flag

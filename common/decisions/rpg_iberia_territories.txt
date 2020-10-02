@@ -3,7 +3,7 @@ rpg_category_territories_iberia = {
 		allowed = {
 			NOT = {
 				original_tag = SPR #Spain
-				original_tag = D24 #Iberia
+				original_tag = R15 #Iberia
 			}
 		}
 		available = {
@@ -15,7 +15,7 @@ rpg_category_territories_iberia = {
 		}
 		visible = {
             has_global_flag = rpg_iberia_flag
-            D24 = {
+            R15 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -23,7 +23,7 @@ rpg_category_territories_iberia = {
 			}
 			NOT = { 
 				original_tag = SPR #Spain
-				original_tag = D24 #Iberia
+				original_tag = R15 #Iberia
                 has_global_flag = rpg_iberia_gibraltar_flag
             }
 		}
@@ -31,8 +31,8 @@ rpg_category_territories_iberia = {
 			custom_effect_tooltip = rpg_iberia_coring_states_gibraltar
 			custom_effect_tooltip = rpg_iberia_transfer_states_gibraltar
 			hidden_effect = {
-				118 = { add_core_of = D24 } #Gibraltar
-				D24 = {
+				118 = { add_core_of = R15 } #Gibraltar
+				R15 = {
 					transfer_state = 118 #Gibraltar
 				}
 			}
@@ -52,7 +52,7 @@ rpg_category_territories_iberia = {
 		allowed = {
 			NOT = {
 				original_tag = SPR #Spain
-				original_tag = D24 #Iberia
+				original_tag = R15 #Iberia
 			}
 		}
 		available = {
@@ -64,7 +64,7 @@ rpg_category_territories_iberia = {
 		}
 		visible = {
             has_global_flag = rpg_iberia_flag
-            D24 = {
+            R15 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -72,7 +72,7 @@ rpg_category_territories_iberia = {
 			}
 			NOT = { 
 				original_tag = SPR #Spain
-				original_tag = D24 #Iberia
+				original_tag = R15 #Iberia
                 has_global_flag = rpg_iberia_islas_baleares_flag
             }
 		}
@@ -80,8 +80,8 @@ rpg_category_territories_iberia = {
 			custom_effect_tooltip = rpg_iberia_coring_states_islas_baleares
 			custom_effect_tooltip = rpg_iberia_transfer_states_islas_baleares
 			hidden_effect = {
-				177 = { add_core_of = D24 } #Islas Baleares
-				D24 = {
+				177 = { add_core_of = R15 } #Islas Baleares
+				R15 = {
 					transfer_state = 177 #Islas Baleares
 				}
 			}
@@ -101,7 +101,7 @@ rpg_category_territories_iberia = {
 		allowed = {
 			NOT = {
 				original_tag = SPR #Spain
-				original_tag = D24 #Iberia
+				original_tag = R15 #Iberia
 			}
 		}
 		available = {
@@ -113,7 +113,7 @@ rpg_category_territories_iberia = {
 		}
 		visible = {
             has_global_flag = rpg_iberia_flag
-            D24 = {
+            R15 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -121,7 +121,7 @@ rpg_category_territories_iberia = {
 			}
 			NOT = { 
 				original_tag = SPR #Spain
-				original_tag = D24 #Iberia
+				original_tag = R15 #Iberia
                 has_global_flag = rpg_iberia_islas_canarias_flag
             }
 		}
@@ -129,8 +129,8 @@ rpg_category_territories_iberia = {
 			custom_effect_tooltip = rpg_iberia_coring_states_islas_canarias
 			custom_effect_tooltip = rpg_iberia_transfer_states_islas_canarias
 			hidden_effect = {
-				178 = { add_core_of = D24 } #Islas Canarias
-				D24 = {
+				178 = { add_core_of = R15 } #Islas Canarias
+				R15 = {
 					transfer_state = 178 #Islas Canarias
 				}
 			}
@@ -150,7 +150,7 @@ rpg_category_territories_iberia = {
 		allowed = {
 			NOT = {
 				original_tag = POR #Portugal
-				original_tag = D24 #Iberia
+				original_tag = R15 #Iberia
 			}
 		}
 		available = {
@@ -162,7 +162,7 @@ rpg_category_territories_iberia = {
 		}
 		visible = {
             has_global_flag = rpg_iberia_flag
-            D24 = {
+            R15 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -170,7 +170,7 @@ rpg_category_territories_iberia = {
 			}
 			NOT = { 
 				original_tag = POR #Portugal
-				original_tag = D24 #Iberia
+				original_tag = R15 #Iberia
                 has_global_flag = rpg_iberia_madeira_flag
             }
 		}
@@ -178,8 +178,8 @@ rpg_category_territories_iberia = {
 			custom_effect_tooltip = rpg_iberia_coring_states_madeira
 			custom_effect_tooltip = rpg_iberia_transfer_states_madeira
 			hidden_effect = {
-				697 = { add_core_of = D24 } #Madeira
-				D24 = {
+				697 = { add_core_of = R15 } #Madeira
+				R15 = {
 					transfer_state = 697 #Madeira
 				}
 			}
@@ -199,7 +199,7 @@ rpg_category_territories_iberia = {
 		allowed = {
 			NOT = {
 				original_tag = POR #Portugal
-				original_tag = D24 #Iberia
+				original_tag = R15 #Iberia
 			}
 		}
 		available = {
@@ -211,7 +211,7 @@ rpg_category_territories_iberia = {
 		}
 		visible = {
             has_global_flag = rpg_iberia_flag
-            D24 = {
+            R15 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -219,7 +219,7 @@ rpg_category_territories_iberia = {
 			}
 			NOT = { 
 				original_tag = POR #Portugal
-				original_tag = D24 #Iberia
+				original_tag = R15 #Iberia
                 has_global_flag = rpg_iberia_azores_flag
             }
 		}
@@ -227,8 +227,8 @@ rpg_category_territories_iberia = {
 			custom_effect_tooltip = rpg_iberia_coring_states_azores
 			custom_effect_tooltip = rpg_iberia_transfer_states_azores
 			hidden_effect = {
-				698 = { add_core_of = D24 } #Azores
-				D24 = {
+				698 = { add_core_of = R15 } #Azores
+				R15 = {
 					transfer_state = 698 #Azores
 				}
 			}

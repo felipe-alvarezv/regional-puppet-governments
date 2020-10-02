@@ -3,7 +3,7 @@ rpg_category = {
 		allowed = {
 			NOT = {
 				original_tag = USA #United States
-				original_tag = D36 #Northeastern U.S.
+				original_tag = R20 #Northeastern U.S.
 			}
 		}
 		available = {
@@ -44,17 +44,17 @@ rpg_category = {
 			}
 			NOT = { 
                 original_tag = USA #United States
-				original_tag = D36 #Northeastern U.S.
+				original_tag = R20 #Northeastern U.S.
                 has_global_flag = rpg_northeastern_us_flag
             }
 		}
 		complete_effect = {
 			hidden_effect = {
-				357 = { add_core_of = D36 } #New England
-				358 = { add_core_of = D36 } #New York
-				359 = { add_core_of = D36 } #New Jersey
-				360 = { add_core_of = D36 } #Pennsylvania
-				361 = { add_core_of = D36 } #Maryland
+				357 = { add_core_of = R20 } #New England
+				358 = { add_core_of = R20 } #New York
+				359 = { add_core_of = R20 } #New Jersey
+				360 = { add_core_of = R20 } #Pennsylvania
+				361 = { add_core_of = R20 } #Maryland
 			}
 			custom_effect_tooltip = rpg_northeastern_us_coring_states
 			custom_effect_tooltip = rpg_northeastern_us_transfer_states
@@ -63,19 +63,19 @@ rpg_category = {
 			hidden_effect = {
 				every_state = {
 					limit = {
-						is_core_of = D36
+						is_core_of = R20
 					}
 					set_compliance = 80
 				}
 				
 				if = {
 					limit = { has_dlc = "La Resistance" }
-					set_temp_variable = { country_to_initiate = D36 }
+					set_temp_variable = { country_to_initiate = R20 }
 					instantiate_collaboration_government = yes
 				}
 				else = {
-					release = D36
-					puppet = D36
+					release = R20
+					puppet = R20
 				}
 			}
 			#News event, set local flag, and set global flag

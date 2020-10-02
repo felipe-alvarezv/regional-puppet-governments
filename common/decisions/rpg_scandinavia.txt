@@ -6,7 +6,7 @@ rpg_category = {
 				original_tag = ICE #Iceland
 				original_tag = NOR #Norway
 				original_tag = SWE #Sweden
-				original_tag = D28 #Scandinavia
+				original_tag = R24 #Scandinavia
 			}
 		}
 		available = {
@@ -83,24 +83,24 @@ rpg_category = {
 				original_tag = ICE #Iceland
 				original_tag = NOR #Norway
 				original_tag = SWE #Sweden
-				original_tag = D28 #Scandinavia
+				original_tag = R24 #Scandinavia
                 has_global_flag = rpg_scandinavia_flag
             }
 		}
 		complete_effect = {
 			hidden_effect = {
-				37 = { add_core_of = D28 } #Sjaelland
-				38 = { add_core_of = D28 } #Norrland
-				99 = { add_core_of = D28 } #Jutland
-				110 = { add_core_of = D28 } #Ostlandet
-				138 = { add_core_of = D28 } #Scania
-				139 = { add_core_of = D28 } #Smaland
-				140 = { add_core_of = D28 } #Vastergotland
-				141 = { add_core_of = D28 } #Svealand
-				142 = { add_core_of = D28 } #Vestlandet
-				143 = { add_core_of = D28 } #Trondelag
-				144 = { add_core_of = D28 } #Nord-Norge
-				666 = { add_core_of = D28 } #Lappland
+				37 = { add_core_of = R24 } #Sjaelland
+				38 = { add_core_of = R24 } #Norrland
+				99 = { add_core_of = R24 } #Jutland
+				110 = { add_core_of = R24 } #Ostlandet
+				138 = { add_core_of = R24 } #Scania
+				139 = { add_core_of = R24 } #Smaland
+				140 = { add_core_of = R24 } #Vastergotland
+				141 = { add_core_of = R24 } #Svealand
+				142 = { add_core_of = R24 } #Vestlandet
+				143 = { add_core_of = R24 } #Trondelag
+				144 = { add_core_of = R24 } #Nord-Norge
+				666 = { add_core_of = R24 } #Lappland
 			}
 			custom_effect_tooltip = rpg_scandinavia_coring_states
 			custom_effect_tooltip = rpg_scandinavia_transfer_states
@@ -109,19 +109,19 @@ rpg_category = {
 			hidden_effect = {
 				every_state = {
 					limit = {
-						is_core_of = D28
+						is_core_of = R24
 					}
 					set_compliance = 80
 				}
 				
 				if = {
 					limit = { has_dlc = "La Resistance" }
-					set_temp_variable = { country_to_initiate = D28 }
+					set_temp_variable = { country_to_initiate = R24 }
 					instantiate_collaboration_government = yes
 				}
 				else = {
-					release = D28
-					puppet = D28
+					release = R24
+					puppet = R24
 				}
 			}
 			#News event, set local flag, and set global flag

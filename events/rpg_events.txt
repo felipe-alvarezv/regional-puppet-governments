@@ -1,705 +1,4 @@
 add_namespace = rpg_news
-#Germany Event
-news_event = {
-	id = rpg_news.03
-	title = rpg_news.03.t
-	desc = rpg_news.03.desc
-	picture = GFX_news_event_generic_parliament
-	is_triggered_only = yes
-	major = yes
-	option = {
-		name = rpg_news.03.a
-		trigger = {
-			original_tag = D23
-		}
-	}
-	option = {
-		name = rpg_news.03.b
-		trigger = {
-			original_tag = FROM
-		}
-	}
-	option = {
-		name = rpg_news.03.c
-		trigger = {
-			has_war_with = FROM
-		}
-	}
-	option = {
-		name = rpg_news.03.d
-		trigger = {
-			NOT = { original_tag = D23 }
-			NOT = { original_tag = FROM }
-			NOT = { has_war_with = FROM }
-		}
-	}
-}
-#Iberia Event
-news_event = {
-	id = rpg_news.04
-	title = rpg_news.04.t
-	desc = rpg_news.04.desc
-	picture = GFX_news_event_generic_parliament
-	is_triggered_only = yes
-	major = yes
-	option = {
-		name = rpg_news.04.a
-		trigger = {
-			original_tag = D24
-		}
-	}
-	option = {
-		name = rpg_news.04.b
-		trigger = {
-			original_tag = FROM
-		}
-	}
-	option = {
-		name = rpg_news.04.c
-		trigger = {
-			has_war_with = FROM
-		}
-	}
-	option = {
-		name = rpg_news.04.d
-		trigger = {
-			NOT = { original_tag = D24 }
-			NOT = { original_tag = FROM }
-			NOT = { has_war_with = FROM }
-		}
-	}
-}
-#North Africa Event
-news_event = {
-	id = rpg_news.06
-	title = rpg_news.06.t
-	desc = rpg_news.06.desc
-	picture = GFX_news_event_generic_parliament
-	is_triggered_only = yes
-	major = yes
-	option = {
-		name = rpg_news.06.a
-		trigger = {
-			original_tag = D26
-		}
-	}
-	option = {
-		name = rpg_news.06.b
-		trigger = {
-			original_tag = FROM
-		}
-	}
-	option = {
-		name = rpg_news.06.c
-		trigger = {
-			has_war_with = FROM
-		}
-	}
-	option = {
-		name = rpg_news.06.d
-		trigger = {
-			NOT = { original_tag = D26 }
-			NOT = { original_tag = FROM }
-			NOT = { has_war_with = FROM }
-		}
-	}
-}
-#North Germany Event
-news_event = {
-	id = rpg_news.07
-	title = rpg_news.07.t
-	desc = rpg_news.07.desc
-	picture = GFX_news_event_generic_parliament
-	is_triggered_only = yes
-	major = yes
-	option = {
-		name = rpg_news.07.a
-		trigger = {
-			original_tag = D27
-		}
-	}
-	option = {
-		name = rpg_news.07.b
-		trigger = {
-			original_tag = FROM
-		}
-	}
-	option = {
-		name = rpg_news.07.c
-		trigger = {
-			has_war_with = FROM
-		}
-	}
-	option = {
-		name = rpg_news.07.d
-		trigger = {
-			NOT = { original_tag = D27 }
-			NOT = { original_tag = FROM }
-			NOT = { has_war_with = FROM }
-		}
-	}
-}
-#Scandinavia Event
-news_event = {
-	id = rpg_news.08
-	title = rpg_news.08.t
-	desc = rpg_news.08.desc
-	picture = GFX_news_event_generic_parliament
-	is_triggered_only = yes
-	major = yes
-	option = {
-		name = rpg_news.08.a
-		trigger = {
-			original_tag = D28
-		}
-	}
-	option = {
-		name = rpg_news.08.b
-		trigger = {
-			original_tag = FROM
-		}
-	}
-	option = {
-		name = rpg_news.08.c
-		trigger = {
-			has_war_with = FROM
-		}
-	}
-	option = {
-		name = rpg_news.08.d
-		trigger = {
-			NOT = { original_tag = D28 }
-			NOT = { original_tag = FROM }
-			NOT = { has_war_with = FROM }
-		}
-	}
-}
-#South Germany Event
-news_event = {
-	id = rpg_news.09
-	title = rpg_news.09.t
-	desc = rpg_news.09.desc
-	picture = GFX_news_event_generic_parliament
-	is_triggered_only = yes
-	major = yes
-	option = {
-		name = rpg_news.09.a
-		trigger = {
-			original_tag = D29
-		}
-	}
-	option = {
-		name = rpg_news.09.b
-		trigger = {
-			original_tag = FROM
-		}
-	}
-	option = {
-		name = rpg_news.09.c
-		trigger = {
-			has_war_with = FROM
-		}
-	}
-	option = {
-		name = rpg_news.09.d
-		trigger = {
-			NOT = { original_tag = D29 }
-			NOT = { original_tag = FROM }
-			NOT = { has_war_with = FROM }
-		}
-	}
-}
-#Greece-Turkey Event
-news_event = {
-	id = rpg_news.10
-	title = rpg_news.10.t
-	desc = rpg_news.10.desc
-	picture = GFX_news_event_generic_parliament
-	is_triggered_only = yes
-	major = yes
-	option = {
-		name = rpg_news.10.a
-		trigger = {
-			original_tag = D30
-		}
-	}
-	option = {
-		name = rpg_news.10.b
-		trigger = {
-			original_tag = FROM
-		}
-	}
-	option = {
-		name = rpg_news.10.c
-		trigger = {
-			has_war_with = FROM
-		}
-	}
-	option = {
-		name = rpg_news.10.d
-		trigger = {
-			NOT = { original_tag = D30 }
-			NOT = { original_tag = FROM }
-			NOT = { has_war_with = FROM }
-		}
-	}
-}
-#Indochina Event
-news_event = {
-	id = rpg_news.12
-	title = rpg_news.12.t
-	desc = rpg_news.12.desc
-	picture = GFX_news_event_generic_parliament
-	is_triggered_only = yes
-	major = yes
-	option = {
-		name = rpg_news.12.a
-		trigger = {
-			original_tag = D32
-		}
-	}
-	option = {
-		name = rpg_news.12.b
-		trigger = {
-			original_tag = FROM
-		}
-	}
-	option = {
-		name = rpg_news.12.c
-		trigger = {
-			has_war_with = FROM
-		}
-	}
-	option = {
-		name = rpg_news.12.d
-		trigger = {
-			NOT = { original_tag = D32 }
-			NOT = { original_tag = FROM }
-			NOT = { has_war_with = FROM }
-		}
-	}
-}
-#Indonesia Event
-news_event = {
-	id = rpg_news.13
-	title = rpg_news.13.t
-	desc = rpg_news.13.desc
-	picture = GFX_news_event_generic_parliament
-	is_triggered_only = yes
-	major = yes
-	option = {
-		name = rpg_news.13.a
-		trigger = {
-			original_tag = D33
-		}
-	}
-	option = {
-		name = rpg_news.13.b
-		trigger = {
-			original_tag = FROM
-		}
-	}
-	option = {
-		name = rpg_news.13.c
-		trigger = {
-			has_war_with = FROM
-		}
-	}
-	option = {
-		name = rpg_news.13.d
-		trigger = {
-			NOT = { original_tag = D33 }
-			NOT = { original_tag = FROM }
-			NOT = { has_war_with = FROM }
-		}
-	}
-}
-#Finland Event
-news_event = {
-	id = rpg_news.14
-	title = rpg_news.14.t
-	desc = rpg_news.14.desc
-	picture = GFX_news_event_generic_parliament
-	is_triggered_only = yes
-	major = yes
-	option = {
-		name = rpg_news.14.a
-		trigger = {
-			original_tag = D34
-		}
-	}
-	option = {
-		name = rpg_news.14.b
-		trigger = {
-			original_tag = FROM
-		}
-	}
-	option = {
-		name = rpg_news.14.c
-		trigger = {
-			has_war_with = FROM
-		}
-	}
-	option = {
-		name = rpg_news.14.d
-		trigger = {
-			NOT = { original_tag = D34 }
-			NOT = { original_tag = FROM }
-			NOT = { has_war_with = FROM }
-		}
-	}
-}
-#Transcaucasia Event
-news_event = {
-	id = rpg_news.15
-	title = rpg_news.15.t
-	desc = rpg_news.15.desc
-	picture = GFX_news_event_generic_parliament
-	is_triggered_only = yes
-	major = yes
-	option = {
-		name = rpg_news.15.a
-		trigger = {
-			original_tag = D35
-		}
-	}
-	option = {
-		name = rpg_news.15.b
-		trigger = {
-			original_tag = FROM
-		}
-	}
-	option = {
-		name = rpg_news.15.c
-		trigger = {
-			has_war_with = FROM
-		}
-	}
-	option = {
-		name = rpg_news.15.d
-		trigger = {
-			NOT = { original_tag = D35 }
-			NOT = { original_tag = FROM }
-			NOT = { has_war_with = FROM }
-		}
-	}
-}
-#Northeastern U.S. Event
-news_event = {
-	id = rpg_news.16
-	title = rpg_news.16.t
-	desc = rpg_news.16.desc
-	picture = GFX_news_event_generic_parliament
-	is_triggered_only = yes
-	major = yes
-	option = {
-		name = rpg_news.16.a
-		trigger = {
-			original_tag = D36
-		}
-	}
-	option = {
-		name = rpg_news.16.b
-		trigger = {
-			original_tag = FROM
-		}
-	}
-	option = {
-		name = rpg_news.16.c
-		trigger = {
-			has_war_with = FROM
-		}
-	}
-	option = {
-		name = rpg_news.16.d
-		trigger = {
-			NOT = { original_tag = D36 }
-			NOT = { original_tag = FROM }
-			NOT = { has_war_with = FROM }
-		}
-	}
-}
-#Southeastern U.S. Event
-news_event = {
-	id = rpg_news.17
-	title = rpg_news.17.t
-	desc = rpg_news.17.desc
-	picture = GFX_news_event_generic_parliament
-	is_triggered_only = yes
-	major = yes
-	option = {
-		name = rpg_news.17.a
-		trigger = {
-			original_tag = D37
-		}
-	}
-	option = {
-		name = rpg_news.17.b
-		trigger = {
-			original_tag = FROM
-		}
-	}
-	option = {
-		name = rpg_news.17.c
-		trigger = {
-			has_war_with = FROM
-		}
-	}
-	option = {
-		name = rpg_news.17.d
-		trigger = {
-			NOT = { original_tag = D37 }
-			NOT = { original_tag = FROM }
-			NOT = { has_war_with = FROM }
-		}
-	}
-}
-#Midwestern U.S. Event
-news_event = {
-	id = rpg_news.18
-	title = rpg_news.18.t
-	desc = rpg_news.18.desc
-	picture = GFX_news_event_generic_parliament
-	is_triggered_only = yes
-	major = yes
-	option = {
-		name = rpg_news.18.a
-		trigger = {
-			original_tag = D38
-		}
-	}
-	option = {
-		name = rpg_news.18.b
-		trigger = {
-			original_tag = FROM
-		}
-	}
-	option = {
-		name = rpg_news.18.c
-		trigger = {
-			has_war_with = FROM
-		}
-	}
-	option = {
-		name = rpg_news.18.d
-		trigger = {
-			NOT = { original_tag = D38 }
-			NOT = { original_tag = FROM }
-			NOT = { has_war_with = FROM }
-		}
-	}
-}
-#Southwestern U.S. Event
-news_event = {
-	id = rpg_news.19
-	title = rpg_news.19.t
-	desc = rpg_news.19.desc
-	picture = GFX_news_event_generic_parliament
-	is_triggered_only = yes
-	major = yes
-	option = {
-		name = rpg_news.19.a
-		trigger = {
-			original_tag = D39
-		}
-	}
-	option = {
-		name = rpg_news.19.b
-		trigger = {
-			original_tag = FROM
-		}
-	}
-	option = {
-		name = rpg_news.19.c
-		trigger = {
-			has_war_with = FROM
-		}
-	}
-	option = {
-		name = rpg_news.19.d
-		trigger = {
-			NOT = { original_tag = D39 }
-			NOT = { original_tag = FROM }
-			NOT = { has_war_with = FROM }
-		}
-	}
-}
-#Interior Western U.S. Event
-news_event = {
-	id = rpg_news.20
-	title = rpg_news.20.t
-	desc = rpg_news.20.desc
-	picture = GFX_news_event_generic_parliament
-	is_triggered_only = yes
-	major = yes
-	option = {
-		name = rpg_news.20.a
-		trigger = {
-			original_tag = D40
-		}
-	}
-	option = {
-		name = rpg_news.20.b
-		trigger = {
-			original_tag = FROM
-		}
-	}
-	option = {
-		name = rpg_news.20.c
-		trigger = {
-			has_war_with = FROM
-		}
-	}
-	option = {
-		name = rpg_news.20.d
-		trigger = {
-			NOT = { original_tag = D40 }
-			NOT = { original_tag = FROM }
-			NOT = { has_war_with = FROM }
-		}
-	}
-}
-#Pacific U.S. Event
-news_event = {
-	id = rpg_news.21
-	title = rpg_news.21.t
-	desc = rpg_news.21.desc
-	picture = GFX_news_event_generic_parliament
-	is_triggered_only = yes
-	major = yes
-	option = {
-		name = rpg_news.21.a
-		trigger = {
-			original_tag = D41
-		}
-	}
-	option = {
-		name = rpg_news.21.b
-		trigger = {
-			original_tag = FROM
-		}
-	}
-	option = {
-		name = rpg_news.21.c
-		trigger = {
-			has_war_with = FROM
-		}
-	}
-	option = {
-		name = rpg_news.21.d
-		trigger = {
-			NOT = { original_tag = D41 }
-			NOT = { original_tag = FROM }
-			NOT = { has_war_with = FROM }
-		}
-	}
-}
-#Quebec Event
-news_event = {
-	id = rpg_news.22
-	title = rpg_news.22.t
-	desc = rpg_news.22.desc
-	picture = GFX_news_event_generic_parliament
-	is_triggered_only = yes
-	major = yes
-	option = {
-		name = rpg_news.22.a
-		trigger = {
-			original_tag = D42
-		}
-	}
-	option = {
-		name = rpg_news.22.b
-		trigger = {
-			original_tag = FROM
-		}
-	}
-	option = {
-		name = rpg_news.22.c
-		trigger = {
-			has_war_with = FROM
-		}
-	}
-	option = {
-		name = rpg_news.22.d
-		trigger = {
-			NOT = { original_tag = D42 }
-			NOT = { original_tag = FROM }
-			NOT = { has_war_with = FROM }
-		}
-	}
-}
-#Eastern Provinces Event
-news_event = {
-	id = rpg_news.23
-	title = rpg_news.23.t
-	desc = rpg_news.23.desc
-	picture = GFX_news_event_generic_parliament
-	is_triggered_only = yes
-	major = yes
-	option = {
-		name = rpg_news.23.a
-		trigger = {
-			original_tag = D43
-		}
-	}
-	option = {
-		name = rpg_news.23.b
-		trigger = {
-			original_tag = FROM
-		}
-	}
-	option = {
-		name = rpg_news.23.c
-		trigger = {
-			has_war_with = FROM
-		}
-	}
-	option = {
-		name = rpg_news.23.d
-		trigger = {
-			NOT = { original_tag = D43 }
-			NOT = { original_tag = FROM }
-			NOT = { has_war_with = FROM }
-		}
-	}
-}
-#Western Provinces Event
-news_event = {
-	id = rpg_news.24
-	title = rpg_news.24.t
-	desc = rpg_news.24.desc
-	picture = GFX_news_event_generic_parliament
-	is_triggered_only = yes
-	major = yes
-	option = {
-		name = rpg_news.24.a
-		trigger = {
-			original_tag = D44
-		}
-	}
-	option = {
-		name = rpg_news.24.b
-		trigger = {
-			original_tag = FROM
-		}
-	}
-	option = {
-		name = rpg_news.24.c
-		trigger = {
-			has_war_with = FROM
-		}
-	}
-	option = {
-		name = rpg_news.24.d
-		trigger = {
-			NOT = { original_tag = D44 }
-			NOT = { original_tag = FROM }
-			NOT = { has_war_with = FROM }
-		}
-	}
-}
-################ Addition of country files #################
 #Andes Event
 news_event = {
 	id = rpg_news.01
@@ -1045,6 +344,706 @@ news_event = {
 		name = rpg_news.10.d
 		trigger = {
 			NOT = { original_tag = R10 }
+			NOT = { original_tag = FROM }
+			NOT = { has_war_with = FROM }
+		}
+	}
+}
+#Eastern Provinces Event
+news_event = {
+	id = rpg_news.11
+	title = rpg_news.11.t
+	desc = rpg_news.11.desc
+	picture = GFX_news_event_generic_parliament
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = rpg_news.11.a
+		trigger = {
+			original_tag = R11
+		}
+	}
+	option = {
+		name = rpg_news.11.b
+		trigger = {
+			original_tag = FROM
+		}
+	}
+	option = {
+		name = rpg_news.11.c
+		trigger = {
+			has_war_with = FROM
+		}
+	}
+	option = {
+		name = rpg_news.11.d
+		trigger = {
+			NOT = { original_tag = R11 }
+			NOT = { original_tag = FROM }
+			NOT = { has_war_with = FROM }
+		}
+	}
+}
+#Finland Event
+news_event = {
+	id = rpg_news.12
+	title = rpg_news.12.t
+	desc = rpg_news.12.desc
+	picture = GFX_news_event_generic_parliament
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = rpg_news.12.a
+		trigger = {
+			original_tag = R12
+		}
+	}
+	option = {
+		name = rpg_news.12.b
+		trigger = {
+			original_tag = FROM
+		}
+	}
+	option = {
+		name = rpg_news.12.c
+		trigger = {
+			has_war_with = FROM
+		}
+	}
+	option = {
+		name = rpg_news.12.d
+		trigger = {
+			NOT = { original_tag = R12 }
+			NOT = { original_tag = FROM }
+			NOT = { has_war_with = FROM }
+		}
+	}
+}
+#Germany Event
+news_event = {
+	id = rpg_news.13
+	title = rpg_news.13.t
+	desc = rpg_news.13.desc
+	picture = GFX_news_event_generic_parliament
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = rpg_news.13.a
+		trigger = {
+			original_tag = R13
+		}
+	}
+	option = {
+		name = rpg_news.13.b
+		trigger = {
+			original_tag = FROM
+		}
+	}
+	option = {
+		name = rpg_news.13.c
+		trigger = {
+			has_war_with = FROM
+		}
+	}
+	option = {
+		name = rpg_news.13.d
+		trigger = {
+			NOT = { original_tag = R13 }
+			NOT = { original_tag = FROM }
+			NOT = { has_war_with = FROM }
+		}
+	}
+}
+#Greece-Turkey Event
+news_event = {
+	id = rpg_news.14
+	title = rpg_news.14.t
+	desc = rpg_news.14.desc
+	picture = GFX_news_event_generic_parliament
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = rpg_news.14.a
+		trigger = {
+			original_tag = R14
+		}
+	}
+	option = {
+		name = rpg_news.14.b
+		trigger = {
+			original_tag = FROM
+		}
+	}
+	option = {
+		name = rpg_news.14.c
+		trigger = {
+			has_war_with = FROM
+		}
+	}
+	option = {
+		name = rpg_news.14.d
+		trigger = {
+			NOT = { original_tag = R14 }
+			NOT = { original_tag = FROM }
+			NOT = { has_war_with = FROM }
+		}
+	}
+}
+#Iberia Event
+news_event = {
+	id = rpg_news.15
+	title = rpg_news.15.t
+	desc = rpg_news.15.desc
+	picture = GFX_news_event_generic_parliament
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = rpg_news.15.a
+		trigger = {
+			original_tag = R15
+		}
+	}
+	option = {
+		name = rpg_news.15.b
+		trigger = {
+			original_tag = FROM
+		}
+	}
+	option = {
+		name = rpg_news.15.c
+		trigger = {
+			has_war_with = FROM
+		}
+	}
+	option = {
+		name = rpg_news.15.d
+		trigger = {
+			NOT = { original_tag = R15 }
+			NOT = { original_tag = FROM }
+			NOT = { has_war_with = FROM }
+		}
+	}
+}
+#Indochina Event
+news_event = {
+	id = rpg_news.16
+	title = rpg_news.16.t
+	desc = rpg_news.16.desc
+	picture = GFX_news_event_generic_parliament
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = rpg_news.16.a
+		trigger = {
+			original_tag = R16
+		}
+	}
+	option = {
+		name = rpg_news.16.b
+		trigger = {
+			original_tag = FROM
+		}
+	}
+	option = {
+		name = rpg_news.16.c
+		trigger = {
+			has_war_with = FROM
+		}
+	}
+	option = {
+		name = rpg_news.16.d
+		trigger = {
+			NOT = { original_tag = R16 }
+			NOT = { original_tag = FROM }
+			NOT = { has_war_with = FROM }
+		}
+	}
+}
+#Indonesia Event
+news_event = {
+	id = rpg_news.17
+	title = rpg_news.17.t
+	desc = rpg_news.17.desc
+	picture = GFX_news_event_generic_parliament
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = rpg_news.17.a
+		trigger = {
+			original_tag = R17
+		}
+	}
+	option = {
+		name = rpg_news.17.b
+		trigger = {
+			original_tag = FROM
+		}
+	}
+	option = {
+		name = rpg_news.17.c
+		trigger = {
+			has_war_with = FROM
+		}
+	}
+	option = {
+		name = rpg_news.17.d
+		trigger = {
+			NOT = { original_tag = R17 }
+			NOT = { original_tag = FROM }
+			NOT = { has_war_with = FROM }
+		}
+	}
+}
+#Midwestern U.S. Event
+news_event = {
+	id = rpg_news.18
+	title = rpg_news.18.t
+	desc = rpg_news.18.desc
+	picture = GFX_news_event_generic_parliament
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = rpg_news.18.a
+		trigger = {
+			original_tag = R18
+		}
+	}
+	option = {
+		name = rpg_news.18.b
+		trigger = {
+			original_tag = FROM
+		}
+	}
+	option = {
+		name = rpg_news.18.c
+		trigger = {
+			has_war_with = FROM
+		}
+	}
+	option = {
+		name = rpg_news.18.d
+		trigger = {
+			NOT = { original_tag = R18 }
+			NOT = { original_tag = FROM }
+			NOT = { has_war_with = FROM }
+		}
+	}
+}
+#North Germany Event
+news_event = {
+	id = rpg_news.19
+	title = rpg_news.19.t
+	desc = rpg_news.19.desc
+	picture = GFX_news_event_generic_parliament
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = rpg_news.19.a
+		trigger = {
+			original_tag = R19
+		}
+	}
+	option = {
+		name = rpg_news.19.b
+		trigger = {
+			original_tag = FROM
+		}
+	}
+	option = {
+		name = rpg_news.19.c
+		trigger = {
+			has_war_with = FROM
+		}
+	}
+	option = {
+		name = rpg_news.19.d
+		trigger = {
+			NOT = { original_tag = R19 }
+			NOT = { original_tag = FROM }
+			NOT = { has_war_with = FROM }
+		}
+	}
+}
+#Northeastern U.S. Event
+news_event = {
+	id = rpg_news.20
+	title = rpg_news.20.t
+	desc = rpg_news.20.desc
+	picture = GFX_news_event_generic_parliament
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = rpg_news.20.a
+		trigger = {
+			original_tag = R20
+		}
+	}
+	option = {
+		name = rpg_news.20.b
+		trigger = {
+			original_tag = FROM
+		}
+	}
+	option = {
+		name = rpg_news.20.c
+		trigger = {
+			has_war_with = FROM
+		}
+	}
+	option = {
+		name = rpg_news.20.d
+		trigger = {
+			NOT = { original_tag = R20 }
+			NOT = { original_tag = FROM }
+			NOT = { has_war_with = FROM }
+		}
+	}
+}
+#Pacific U.S. Event
+news_event = {
+	id = rpg_news.21
+	title = rpg_news.21.t
+	desc = rpg_news.21.desc
+	picture = GFX_news_event_generic_parliament
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = rpg_news.21.a
+		trigger = {
+			original_tag = R21
+		}
+	}
+	option = {
+		name = rpg_news.21.b
+		trigger = {
+			original_tag = FROM
+		}
+	}
+	option = {
+		name = rpg_news.21.c
+		trigger = {
+			has_war_with = FROM
+		}
+	}
+	option = {
+		name = rpg_news.21.d
+		trigger = {
+			NOT = { original_tag = R21 }
+			NOT = { original_tag = FROM }
+			NOT = { has_war_with = FROM }
+		}
+	}
+}
+#Quebec Event
+news_event = {
+	id = rpg_news.22
+	title = rpg_news.22.t
+	desc = rpg_news.22.desc
+	picture = GFX_news_event_generic_parliament
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = rpg_news.22.a
+		trigger = {
+			original_tag = R22
+		}
+	}
+	option = {
+		name = rpg_news.22.b
+		trigger = {
+			original_tag = FROM
+		}
+	}
+	option = {
+		name = rpg_news.22.c
+		trigger = {
+			has_war_with = FROM
+		}
+	}
+	option = {
+		name = rpg_news.22.d
+		trigger = {
+			NOT = { original_tag = R22 }
+			NOT = { original_tag = FROM }
+			NOT = { has_war_with = FROM }
+		}
+	}
+}
+#American Rockies U.S. Event
+news_event = {
+	id = rpg_news.23
+	title = rpg_news.23.t
+	desc = rpg_news.23.desc
+	picture = GFX_news_event_generic_parliament
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = rpg_news.23.a
+		trigger = {
+			original_tag = R23
+		}
+	}
+	option = {
+		name = rpg_news.23.b
+		trigger = {
+			original_tag = FROM
+		}
+	}
+	option = {
+		name = rpg_news.23.c
+		trigger = {
+			has_war_with = FROM
+		}
+	}
+	option = {
+		name = rpg_news.23.d
+		trigger = {
+			NOT = { original_tag = R23 }
+			NOT = { original_tag = FROM }
+			NOT = { has_war_with = FROM }
+		}
+	}
+}
+#Scandinavia Event
+news_event = {
+	id = rpg_news.24
+	title = rpg_news.24.t
+	desc = rpg_news.24.desc
+	picture = GFX_news_event_generic_parliament
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = rpg_news.24.a
+		trigger = {
+			original_tag = R24
+		}
+	}
+	option = {
+		name = rpg_news.24.b
+		trigger = {
+			original_tag = FROM
+		}
+	}
+	option = {
+		name = rpg_news.24.c
+		trigger = {
+			has_war_with = FROM
+		}
+	}
+	option = {
+		name = rpg_news.24.d
+		trigger = {
+			NOT = { original_tag = R24 }
+			NOT = { original_tag = FROM }
+			NOT = { has_war_with = FROM }
+		}
+	}
+}
+#South Germany Event
+news_event = {
+	id = rpg_news.25
+	title = rpg_news.25.t
+	desc = rpg_news.25.desc
+	picture = GFX_news_event_generic_parliament
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = rpg_news.25.a
+		trigger = {
+			original_tag = R25
+		}
+	}
+	option = {
+		name = rpg_news.25.b
+		trigger = {
+			original_tag = FROM
+		}
+	}
+	option = {
+		name = rpg_news.25.c
+		trigger = {
+			has_war_with = FROM
+		}
+	}
+	option = {
+		name = rpg_news.25.d
+		trigger = {
+			NOT = { original_tag = R25 }
+			NOT = { original_tag = FROM }
+			NOT = { has_war_with = FROM }
+		}
+	}
+}
+#Southeastern U.S. Event
+news_event = {
+	id = rpg_news.26
+	title = rpg_news.26.t
+	desc = rpg_news.26.desc
+	picture = GFX_news_event_generic_parliament
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = rpg_news.26.a
+		trigger = {
+			original_tag = R26
+		}
+	}
+	option = {
+		name = rpg_news.26.b
+		trigger = {
+			original_tag = FROM
+		}
+	}
+	option = {
+		name = rpg_news.26.c
+		trigger = {
+			has_war_with = FROM
+		}
+	}
+	option = {
+		name = rpg_news.26.d
+		trigger = {
+			NOT = { original_tag = R26 }
+			NOT = { original_tag = FROM }
+			NOT = { has_war_with = FROM }
+		}
+	}
+}
+#Southwestern U.S. Event
+news_event = {
+	id = rpg_news.27
+	title = rpg_news.27.t
+	desc = rpg_news.27.desc
+	picture = GFX_news_event_generic_parliament
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = rpg_news.27.a
+		trigger = {
+			original_tag = R27
+		}
+	}
+	option = {
+		name = rpg_news.27.b
+		trigger = {
+			original_tag = FROM
+		}
+	}
+	option = {
+		name = rpg_news.27.c
+		trigger = {
+			has_war_with = FROM
+		}
+	}
+	option = {
+		name = rpg_news.27.d
+		trigger = {
+			NOT = { original_tag = R27 }
+			NOT = { original_tag = FROM }
+			NOT = { has_war_with = FROM }
+		}
+	}
+}
+#Transcaucasia Event
+news_event = {
+	id = rpg_news.28
+	title = rpg_news.28.t
+	desc = rpg_news.28.desc
+	picture = GFX_news_event_generic_parliament
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = rpg_news.28.a
+		trigger = {
+			original_tag = R28
+		}
+	}
+	option = {
+		name = rpg_news.28.b
+		trigger = {
+			original_tag = FROM
+		}
+	}
+	option = {
+		name = rpg_news.28.c
+		trigger = {
+			has_war_with = FROM
+		}
+	}
+	option = {
+		name = rpg_news.28.d
+		trigger = {
+			NOT = { original_tag = R28 }
+			NOT = { original_tag = FROM }
+			NOT = { has_war_with = FROM }
+		}
+	}
+}
+#Western Provinces Event
+news_event = {
+	id = rpg_news.29
+	title = rpg_news.29.t
+	desc = rpg_news.29.desc
+	picture = GFX_news_event_generic_parliament
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = rpg_news.29.a
+		trigger = {
+			original_tag = R29
+		}
+	}
+	option = {
+		name = rpg_news.29.b
+		trigger = {
+			original_tag = FROM
+		}
+	}
+	option = {
+		name = rpg_news.29.c
+		trigger = {
+			has_war_with = FROM
+		}
+	}
+	option = {
+		name = rpg_news.29.d
+		trigger = {
+			NOT = { original_tag = R29 }
+			NOT = { original_tag = FROM }
+			NOT = { has_war_with = FROM }
+		}
+	}
+}
+#North Africa Event
+news_event = {
+	id = rpg_news.30
+	title = rpg_news.30.t
+	desc = rpg_news.30.desc
+	picture = GFX_news_event_generic_parliament
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = rpg_news.30.a
+		trigger = {
+			original_tag = R30
+		}
+	}
+	option = {
+		name = rpg_news.30.b
+		trigger = {
+			original_tag = FROM
+		}
+	}
+	option = {
+		name = rpg_news.30.c
+		trigger = {
+			has_war_with = FROM
+		}
+	}
+	option = {
+		name = rpg_news.30.d
+		trigger = {
+			NOT = { original_tag = R30 }
 			NOT = { original_tag = FROM }
 			NOT = { has_war_with = FROM }
 		}

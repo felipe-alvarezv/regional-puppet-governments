@@ -8,7 +8,7 @@ rpg_category = {
 				original_tag = NAV #Navarre
 				original_tag = POR #Portugal
 				original_tag = SPR #Spain
-				original_tag = D24 #Iberia
+				original_tag = R15 #Iberia
 			}
 		}
 		available = {
@@ -154,37 +154,37 @@ rpg_category = {
 				original_tag = NAV #Navarre
 				original_tag = POR #Portugal
 				original_tag = SPR #Spain
-				original_tag = D24 #Iberia
+				original_tag = R15 #Iberia
                 has_global_flag = rpg_iberia_flag
             }
 		}
 		complete_effect = {
 			hidden_effect = {
-				41 = { add_core_of = D24 } #Madrid
-				112 = { add_core_of = D24 } #Lisbon
-				165 = { add_core_of = D24 } #Cataluna
-				166 = { add_core_of = D24 } #Western Aragon
-				167 = { add_core_of = D24 } #Valencia
-				168 = { add_core_of = D24 } #Murcia
-				169 = { add_core_of = D24 } #Sevilla
-				170 = { add_core_of = D24 } #Extremadura
-				171 = { add_core_of = D24 } #Galicia
-				172 = { add_core_of = D24 } #Navarra
-				173 = { add_core_of = D24 } #Granada
-				174 = { add_core_of = D24 } #Leon
-				175 = { add_core_of = D24 } #Ciudad Real
-				176 = { add_core_of = D24 } #Burgos
-				179 = { add_core_of = D24 } #Beja
-				180 = { add_core_of = D24 } #Porto
-				181 = { add_core_of = D24 } #Guarda
-				788 = { add_core_of = D24 } #Salamanca
-				789 = { add_core_of = D24 } #Cordoba
-				790 = { add_core_of = D24 } #Asturias
-				791 = { add_core_of = D24 } #Valladolid
-				792 = { add_core_of = D24 } #Pais Vasco
-				793 = { add_core_of = D24 } #Guadalajara
-				794 = { add_core_of = D24 } #Eastern Aragon
-				795 = { add_core_of = D24 } #Santarem
+				41 = { add_core_of = R15 } #Madrid
+				112 = { add_core_of = R15 } #Lisbon
+				165 = { add_core_of = R15 } #Cataluna
+				166 = { add_core_of = R15 } #Western Aragon
+				167 = { add_core_of = R15 } #Valencia
+				168 = { add_core_of = R15 } #Murcia
+				169 = { add_core_of = R15 } #Sevilla
+				170 = { add_core_of = R15 } #Extremadura
+				171 = { add_core_of = R15 } #Galicia
+				172 = { add_core_of = R15 } #Navarra
+				173 = { add_core_of = R15 } #Granada
+				174 = { add_core_of = R15 } #Leon
+				175 = { add_core_of = R15 } #Ciudad Real
+				176 = { add_core_of = R15 } #Burgos
+				179 = { add_core_of = R15 } #Beja
+				180 = { add_core_of = R15 } #Porto
+				181 = { add_core_of = R15 } #Guarda
+				788 = { add_core_of = R15 } #Salamanca
+				789 = { add_core_of = R15 } #Cordoba
+				790 = { add_core_of = R15 } #Asturias
+				791 = { add_core_of = R15 } #Valladolid
+				792 = { add_core_of = R15 } #Pais Vasco
+				793 = { add_core_of = R15 } #Guadalajara
+				794 = { add_core_of = R15 } #Eastern Aragon
+				795 = { add_core_of = R15 } #Santarem
 			}
 			custom_effect_tooltip = rpg_iberia_coring_states
 			custom_effect_tooltip = rpg_iberia_transfer_states
@@ -193,19 +193,19 @@ rpg_category = {
 			hidden_effect = {
 				every_state = {
 					limit = {
-						is_core_of = D24
+						is_core_of = R15
 					}
 					set_compliance = 80
 				}
 				
 				if = {
 					limit = { has_dlc = "La Resistance" }
-					set_temp_variable = { country_to_initiate = D24 }
+					set_temp_variable = { country_to_initiate = R15 }
 					instantiate_collaboration_government = yes
 				}
 				else = {
-					release = D24
-					puppet = D24
+					release = R15
+					puppet = R15
 				}
 			}
 			#News event, set local flag, and set global flag

@@ -3,7 +3,7 @@ rpg_category = {
 		allowed = {
 			NOT = {
 				original_tag = USA #United States
-				original_tag = D40 #Interior Western U.S.
+				original_tag = R23 #Interior Western U.S.
 			}
 		}
 		available = {
@@ -48,18 +48,18 @@ rpg_category = {
 			}
 			NOT = { 
                 original_tag = USA #United States
-				original_tag = D40 #Interior Western U.S.
+				original_tag = R23 #Interior Western U.S.
                 has_global_flag = rpg_interior_western_us_flag
             }
 		}
 		complete_effect = {
 			hidden_effect = {
-				379 = { add_core_of = D40 } #Nevada
-				380 = { add_core_of = D40 } #Utah
-				382 = { add_core_of = D40 } #Colorado
-				381 = { add_core_of = D40 } #Wyoming
-				387 = { add_core_of = D40 } #Idaho
-				388 = { add_core_of = D40 } #Montana
+				379 = { add_core_of = R23 } #Nevada
+				380 = { add_core_of = R23 } #Utah
+				382 = { add_core_of = R23 } #Colorado
+				381 = { add_core_of = R23 } #Wyoming
+				387 = { add_core_of = R23 } #Idaho
+				388 = { add_core_of = R23 } #Montana
 			}
 			custom_effect_tooltip = rpg_interior_western_us_coring_states
 			custom_effect_tooltip = rpg_interior_western_us_transfer_states
@@ -68,19 +68,19 @@ rpg_category = {
 			hidden_effect = {
 				every_state = {
 					limit = {
-						is_core_of = D40
+						is_core_of = R23
 					}
 					set_compliance = 80
 				}
 				
 				if = {
 					limit = { has_dlc = "La Resistance" }
-					set_temp_variable = { country_to_initiate = D40 }
+					set_temp_variable = { country_to_initiate = R23 }
 					instantiate_collaboration_government = yes
 				}
 				else = {
-					release = D40
-					puppet = D40
+					release = R23
+					puppet = R23
 				}
 			}
 			#News event, set local flag, and set global flag

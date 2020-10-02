@@ -3,7 +3,7 @@ rpg_category = {
 		allowed = {
 			NOT = {
 				original_tag = CAN #Canada
-				original_tag = D43 #Eastern Provinces
+				original_tag = R11 #Eastern Provinces
 			}
 		}
 		available = {
@@ -26,14 +26,14 @@ rpg_category = {
 			}
 			NOT = { 
                 original_tag = CAN #Canada
-				original_tag = D43 #Eastern Provinces
+				original_tag = R11 #Eastern Provinces
                 has_global_flag = rpg_eastern_provinces_flag
             }
 		}
 		complete_effect = {
 			hidden_effect = {
-				276 = { add_core_of = D43 } #Southern Ontario
-				682 = { add_core_of = D43 } #Northern Ontario
+				276 = { add_core_of = R11 } #Southern Ontario
+				682 = { add_core_of = R11 } #Northern Ontario
 			}
 			custom_effect_tooltip = rpg_eastern_provinces_coring_states
 			custom_effect_tooltip = rpg_eastern_provinces_transfer_states
@@ -42,19 +42,19 @@ rpg_category = {
 			hidden_effect = {
 				every_state = {
 					limit = {
-						is_core_of = D43
+						is_core_of = R11
 					}
 					set_compliance = 80
 				}
 				
 				if = {
 					limit = { has_dlc = "La Resistance" }
-					set_temp_variable = { country_to_initiate = D43 }
+					set_temp_variable = { country_to_initiate = R11 }
 					instantiate_collaboration_government = yes
 				}
 				else = {
-					release = D43
-					puppet = D43
+					release = R11
+					puppet = R11
 				}
 			}
 			#News event, set local flag, and set global flag

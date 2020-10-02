@@ -1,7 +1,7 @@
 ﻿#East Africa
 division_template = {
 	name = "Garrison Division"
-	division_names_group = D47_GAR_01
+	division_names_group = R10_GAR_01
 	priority = 0
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -17,7 +17,7 @@ division_template = {
 }
 division_template = {
 	name = "Infantry Division"
-	division_names_group = D47_INF_01
+	division_names_group = R10_INF_01
 	priority = 1
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -38,7 +38,7 @@ division_template = {
 }
 division_template = {
 	name = "Cavalry Division"
-	division_names_group = D47_CAV_01
+	division_names_group = R10_CAV_01
 	priority = 1
 	regiments = {
 		cavalry = { x = 0 y = 0 }

@@ -6,7 +6,7 @@ rpg_category = {
 				original_tag = AZR #Azerbaijan
 				original_tag = GEO #Georgia
 				original_tag = SOV #Soviet Union
-				original_tag = D35 #Transcaucasia
+				original_tag = R28 #Transcaucasia
 			}
 		}
 		available = {
@@ -59,19 +59,19 @@ rpg_category = {
 				original_tag = AZR #Azerbaijan
 				original_tag = GEO #Georgia
 				original_tag = SOV #Soviet Union
-				original_tag = D35 #Transcaucasia
+				original_tag = R28 #Transcaucasia
                 has_global_flag = rpg_transcaucasia_flag
             }
 		}
 		complete_effect = {
 			hidden_effect = {
-				229 = { add_core_of = D35 } #Azerbaijan
-				230 = { add_core_of = D35 } #Armenia
-				231 = { add_core_of = D35 } #Georgia
-				232 = { add_core_of = D35 } #Grozny
-				233 = { add_core_of = D35 } #Caucasus Mountains
-				234 = { add_core_of = D35 } #Krasnodar
-				235 = { add_core_of = D35 } #Stavropol
+				229 = { add_core_of = R28 } #Azerbaijan
+				230 = { add_core_of = R28 } #Armenia
+				231 = { add_core_of = R28 } #Georgia
+				232 = { add_core_of = R28 } #Grozny
+				233 = { add_core_of = R28 } #Caucasus Mountains
+				234 = { add_core_of = R28 } #Krasnodar
+				235 = { add_core_of = R28 } #Stavropol
 			}
 			custom_effect_tooltip = rpg_transcaucasia_coring_states
 			custom_effect_tooltip = rpg_transcaucasia_transfer_states
@@ -80,19 +80,19 @@ rpg_category = {
 			hidden_effect = {
 				every_state = {
 					limit = {
-						is_core_of = D35
+						is_core_of = R28
 					}
 					set_compliance = 80
 				}
 				
 				if = {
 					limit = { has_dlc = "La Resistance" }
-					set_temp_variable = { country_to_initiate = D35 }
+					set_temp_variable = { country_to_initiate = R28 }
 					instantiate_collaboration_government = yes
 				}
 				else = {
-					release = D35
-					puppet = D35
+					release = R28
+					puppet = R28
 				}
 			}
 			#News event, set local flag, and set global flag

@@ -3,7 +3,7 @@ rpg_category_territories_indonesia = {
 		allowed = {
 			NOT = {
 				original_tag = MAL #Malaysia
-				original_tag = D33 #Greater Indonesia
+				original_tag = R17 #Indonesia
 			}
 		}
 		available = {
@@ -15,7 +15,7 @@ rpg_category_territories_indonesia = {
 		}
 		visible = {
             has_global_flag = rpg_indonesia_flag
-			D33 = {
+			R17 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -23,7 +23,7 @@ rpg_category_territories_indonesia = {
 			}
 			NOT = { 
                 original_tag = MAL #Malaysia
-				original_tag = D33 #Greater Indonesia
+				original_tag = R17 #Indonesia
                 has_global_flag = rpg_indonesia_singapore_flag
             }
 		}
@@ -31,8 +31,8 @@ rpg_category_territories_indonesia = {
 			custom_effect_tooltip = rpg_indonesia_coring_states_singapore
 			custom_effect_tooltip = rpg_indonesia_transfer_states_singapore
 			hidden_effect = {
-				336 = { add_core_of = D33 } #Singapore
-				D33 = {
+				336 = { add_core_of = R17 } #Singapore
+				R17 = {
 					transfer_state = 336 #Singapore
 				}
 			}
@@ -51,7 +51,7 @@ rpg_category_territories_indonesia = {
 	rpg_indonesia_portuguese_timor = {
 		allowed = {
 			NOT = {
-				original_tag = D33 #Greater Indonesia
+				original_tag = R17 #Indonesia
 			}
 		}
 		available = {
@@ -63,14 +63,14 @@ rpg_category_territories_indonesia = {
 		}
 		visible = {
             has_global_flag = rpg_indonesia_flag
-			D33 = {
+			R17 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
 			NOT = { 
-				original_tag = D33 #Greater Indonesia
+				original_tag = R17 #Indonesia
                 has_global_flag = rpg_indonesia_portuguese_timor_flag
             }
 		}
@@ -78,8 +78,8 @@ rpg_category_territories_indonesia = {
 			custom_effect_tooltip = rpg_indonesia_coring_states_portuguese_timor
 			custom_effect_tooltip = rpg_indonesia_transfer_states_portuguese_timor
 			hidden_effect = {
-				721 = { add_core_of = D33 } #Portuguese Timor
-				D33 = {
+				721 = { add_core_of = R17 } #Portuguese Timor
+				R17 = {
 					transfer_state = 721 #Portuguese Timor
 				}
 			}

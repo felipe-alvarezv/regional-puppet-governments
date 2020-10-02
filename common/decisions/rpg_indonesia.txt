@@ -4,7 +4,7 @@ rpg_category = {
 			NOT = {
 				original_tag = INS #Dutch East Indies
 				original_tag = MAL #Malaysia
-				original_tag = D33 #Greater Indonesia
+				original_tag = R17 #Indonesia
 			}
 		}
 		available = {
@@ -64,21 +64,21 @@ rpg_category = {
 			NOT = { 
                 original_tag = INS #Dutch East Indies
 				original_tag = MAL #Malaysia
-				original_tag = D33 #Greater Indonesia
+				original_tag = R17 #Indonesia
                 has_global_flag = rpg_indonesia_flag
             }
 		}
 		complete_effect = {
 			hidden_effect = {
-				333 = { add_core_of = D33 } #North Borneo
-				334 = { add_core_of = D33 } #Kalimantan
-				335 = { add_core_of = D33 } #Java
-				667 = { add_core_of = D33 } #Lesser Sunda
-				668 = { add_core_of = D33 } #The Moluccas
-				669 = { add_core_of = D33 } #West Papua
-				672 = { add_core_of = D33 } #Sumatra
-				673 = { add_core_of = D33 } #Sulawesi
-				738 = { add_core_of = D33 } #Aru Islands
+				333 = { add_core_of = R17 } #North Borneo
+				334 = { add_core_of = R17 } #Kalimantan
+				335 = { add_core_of = R17 } #Java
+				667 = { add_core_of = R17 } #Lesser Sunda
+				668 = { add_core_of = R17 } #The Moluccas
+				669 = { add_core_of = R17 } #West Papua
+				672 = { add_core_of = R17 } #Sumatra
+				673 = { add_core_of = R17 } #Sulawesi
+				738 = { add_core_of = R17 } #Aru Islands
 			}
 			custom_effect_tooltip = rpg_indonesia_coring_states
 			custom_effect_tooltip = rpg_indonesia_transfer_states
@@ -87,19 +87,19 @@ rpg_category = {
 			hidden_effect = {
 				every_state = {
 					limit = {
-						is_core_of = D33
+						is_core_of = R17
 					}
 					set_compliance = 80
 				}
 				
 				if = {
 					limit = { has_dlc = "La Resistance" }
-					set_temp_variable = { country_to_initiate = D33 }
+					set_temp_variable = { country_to_initiate = R17 }
 					instantiate_collaboration_government = yes
 				}
 				else = {
-					release = D33
-					puppet = D33
+					release = R17
+					puppet = R17
 				}
 			}
 			#News event, set local flag, and set global flag

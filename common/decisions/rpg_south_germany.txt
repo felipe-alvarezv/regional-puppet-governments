@@ -3,9 +3,9 @@ rpg_category = {
 		allowed = {
 			NOT = {
 				original_tag = GER #Germany
-				original_tag = D23 #Germany
-				original_tag = D27 #North Germany
-				original_tag = D29 #South Germany
+				original_tag = R13 #Germany
+				original_tag = R19 #North Germany
+				original_tag = R25 #South Germany
 			}
 		}
 		available = {
@@ -37,18 +37,18 @@ rpg_category = {
 			}
 			NOT = { 
 				original_tag = GER #Germany
-				original_tag = D23 #Germany
-				original_tag = D27 #North Germany
-				original_tag = D29 #South Germany
+				original_tag = R13 #Germany
+				original_tag = R19 #North Germany
+				original_tag = R25 #South Germany
                 has_global_flag = rpg_south_germany_flag
             }
 		}
 		complete_effect = {
 			hidden_effect = {
-				50 = { add_core_of = D29 } #Wurttemberg
-				52 = { add_core_of = D29 } #Oberbayern
-				53 = { add_core_of = D29 } #Niederbayern
-				54 = { add_core_of = D29 } #Franken
+				50 = { add_core_of = R25 } #Wurttemberg
+				52 = { add_core_of = R25 } #Oberbayern
+				53 = { add_core_of = R25 } #Niederbayern
+				54 = { add_core_of = R25 } #Franken
 			}
 			custom_effect_tooltip = rpg_south_germany_coring_states
 			custom_effect_tooltip = rpg_south_germany_transfer_states
@@ -57,19 +57,19 @@ rpg_category = {
 			hidden_effect = {
 				every_state = {
 					limit = {
-						is_core_of = D29
+						is_core_of = R25
 					}
 					set_compliance = 80
 				}
 				
 				if = {
 					limit = { has_dlc = "La Resistance" }
-					set_temp_variable = { country_to_initiate = D29 }
+					set_temp_variable = { country_to_initiate = R25 }
 					instantiate_collaboration_government = yes
 				}
 				else = {
-					release = D29
-					puppet = D29
+					release = R25
+					puppet = R25
 				}
 			}
 			#News event, set local flag, and set global flag

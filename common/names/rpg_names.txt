@@ -1,577 +1,4 @@
-﻿D23 = {
-	male = {
-		names = { 
-			Adolf Anton Emil Erich Felix Fritz Gerhard Gunther Hans Heinrich Heinz Hermann Joachim Karl Marco Max Maximilian Otto 
-			Peter Staffan Theodor Tobias Walter Wilhelm
-		}
-	}
-	female = {
-		names = { 
-			Emma Hanna Hildegard Jessica Marie Sofia
-		}
-	}
-	surnames = {  
-		Barkhorn Becker Behrmann Beisswenger Berglen Brendel Duttmann Erhler Fischer Graf Hafner Hartmann Hoffmann Kirschner Lang 
-		Lipfert Meyer Muller Rall Schmidt Schneider Schulz Stotz Sturm Wagner Weber Wilbs
-	}
-	callsigns = { }
-}
-D24 = {
-	male = {
-		names = { 
-			Abel Adriano Afonso Alexandre Alfredo André António Aquilino Agustín Alberto Alejandro 
-			Alfonso Álvaro Antonio Arsenio Augusto Baldomero Artur Bartolomeu Bruno Caetano Cândido 
-			Christovão Cláudio	Baltasar Benito Bernardino Bernardo Calixto Carlos Celestino Claudio 
-			Cristobal Dámaso Damião Daniel David Dinis Diogo Duarte Ernesto Estêvão Eugénio Fernando	
-			Diego Dionisio Eduardo Emilio Estanislao Federico Felipe Félix Fernando Francisco Filipe 
-			Gastão Hermenegildo Ignácio Jerónimo João Joaquim Jorge	Gabino Gabriel Gaspar Genaro 
-			Gonzalo Ignacio Isidro Jacobo Jaime	Joaquín José Juan Julio Leopoldo Lorenzo José Júlio 
-			Luís Mário Nicolau Nuno Orlando	Luis Manuel Marcelo Mariano Mateo Melchor Miguel Nicolás 
-			Pablo Pascual Pedro Rafael Raimundo Ramón Ricardo Santiago Sebastián Segismundo Valeriano 
-			Vicente	Sebastião Teodoro Teófilo Tiago Tomé Urbano Vasco Vitorino Vitório	Óscar Pascoal 
-			Paulo Raul Roberto Rodrigo Rui
-		}
-	}
-	female = {
-		names = { 
-			Adelita Araceli Belén Camila Candelaria Chavela Consuelo Cristina Delfina Esperanza	Aldara 
-			Beatriz Berengaria Branca Blanche Constance Estevainha Stephania Fruilhe Fidelia Graciela 
-			Irene Isadora Isabella Jimena Ximena Luciana Lucrecia María Marisol	Guiomar Joana Leonor 
-			Margarida Maria Sancha Teresa Constança	Noemí Nohemi Valentina Valeria Rocío Socorro Sofía 
-			Teófila Amaranta Úrsula Rebeca Remedios
-		}
-	}
-	surnames = {  
-		"da Costa" "da Cunha" "da Silva" "de Albuquerque" "de Almeida" "de Arriaga" "de Bragança" 
-		"de Bragança-Coburgo" "de Carvalho" "de Castro" "de Gusmão" "de Lacerda" "de Mesquita" 
-		"de Carvajal" "de la Fuente" "de Orleans" Díaz Espartero Fernández   Franco	"de Moura" 
-		"de Noronha" "de Oliveira" "de Paiva" "de Sousa" "de Vasconcelos" Acuña Aguirre 
-		Allendesalazar Alonso Álvarez  Aranda  Asensio	Amaral Barreto Bleck Braga Cabral 
-		Capelo Carmona Coelho Correia Coutinho	Aznar Barradas Bugallal Cabrera Cano Cervera 
-		"de Albornoz"	Blázquez	Dias "dos Reis" "dos Santos" Fernandes Ferreira Figueira 
-		"Freire de Andrade" Gago Gil Gomes	García  González Heredia Hernández Herrera Hevia 
-		Linares López	Herculano Ivens Keil Lopes Machado Magalhães Mendes Moniz Mouzinho 
-		Nogueira	Maroto Márquez Martínez-Campos Maura Menéndez Miaja Millán-Astray Mina 
-		Mola Muñoz Narváez O'Donnell Ortega Pavía Pérez  Rodríguez Rojo Ruiz Nunes Ortigão Pereira 
-		Pinheiro Pinto Pires Pomar Pulido Queiroz Quintanilha Ribeiro Rodrigues Salazar Sampaio 
-		Sérgio Silveira Tavares Teixeira Vidigal Vieira	Sanjurjo Serrano Silvestre Topete Valdés 
-		Varela Villapol Villar Weyler Yagüe
-	}
-	callsigns = { }
-}
-D26 = {
-	male = {
-		names = { 
-			Aali "Abd Al-Latif" Abdul "Abdul-Rahman" Abu Adnan Ahmed Ali Amir Ammar Ashfaq Ayuub Baqi Bassem Danyal Esmail Fadil Fareed Fawzi Gabir Ghufran Haider Hakeem Hamid Hanif Hatim Houssam Husain Ibrahim
-			Idris Imen Iskandar "Ismai'il" Jafar Jamal Jibril Karim Latif Mahometus Maqsud "Mikha'il" Mohammed Mostafa Murtada Nadeem Najm Navid Nur Omar Osama Qasim Rais Rashid Rayan Ruh Saif Salih Shad Shakir
-			Shukri Sulaiman Taj Tayyib Wafai Yakub Yuhanna Zahi Zawar Zulfaqar Abbas Abd Abdalaati Abdallah Abdelaziz Abdelhak Abdelilah Abdelkader Abdellatif Abdessadeq "Abu Bakr" Ahmed Alber Albert Ali Andre 
-			Azzeddine Bachir Bouchaib Bouchta Brahim David Driss Elam Eli Faouzi Gad Hassan Hicham Henry Hicham Imad Isaac Ismael Jamal Jamel Jaouad Jo Judah Kacem Khalid Laarbi Omar Maati Mahmoud Mehdi 
-			Mohamed Mohammed Moshe Mouad Moulay Nabil Nadir Najib Rachid Ralph Rhadi Robert Ryan Said Salah Samuel Samy Shlomo Abdelaziz Abdelkader Abdelmalek Albert Boualem Chadli Frantz Ferhat Giorgio Houari 
-			Jacques Kamel Kateb Madjid Mehdi Moufdi Nabil Rabah Rafik Sofiane Yacine Yasmina Abdelaziz Abdelhamid Abdellatif Abdelmajid Adnan Ahmad Ahmed Ali Amine Anis Aymen Aziz Azzedine Bassem Chedli Farhat 
-			Féthi Fouad Habib Hamza Hassine Haykel Hédi Hichem Hubert Imed Issam Jaleleddine Jameleddine Jean Khalil Khelil Mahmoud Michel Moez Mohamed Mohsen Moncef Muhammad Mustapha Nejib Norbert Omrane 
-			Oussama Rachid Radhi Roberto Serge Sorj Tahar Tarak Victor Wajdi Walid Wissem Ziad Zied "Abd Allah" "Abd al-Karim" "Abd al-Malik" "Abd al-Qadir" "Abd al-Rahman" "Abu Bakr" Ahmad Ali 
-			Fawzi Fuad Halil Hasan Hisham Ibrahim Ishaq Iskandar Ja'far Jamal Kamil Khalid Muhammad Mustafa "Nur al-Din" "Sa'd al-Din" Salim  Sa'ud Shukri Tawfiq Umar Uthman Yahya Yusuf Zafir 
-			Abdallahi Abderrahmane Abdoulaye Adama Ahmad Ahmed Ahmedou Ba Birama Boulah Cheikh Dah Dahmed Diallo Doudou Drissa Ely Hmeida Ibrahima Jidou Khalid Maaouya Mahfoud Messaoud Mohamed Moktar Moulaye 
-			Moussa Moustapha Mustafa Saleh Sghair Sid Sidi Souleyman Tene Thiam Tijani Yahya Zeidane Zeine
-		}
-	}
-	female = {
-		names = { 
-			Aaliyah Aisha Amaal Anisa Ayda Basma Djamila Farah Fatin Gamila Hadia Haifa Haniyah Hosni Ihab Isaac Israa Jathibiyya Khalida Latifa Maha Mahi Mona Nadia Nashwa Nimat Rabab Rana Rayhana Ruqayyah Sahar 
-			Samia Sarah Shahrizad Shayma Suraya Uzma Yasmin Zahia Zakiya Zulekha Amina Danielle Halima Hasna Latifa Leila Nadia Najat Nezha Sanaa Shatha Simone Sofia Yasmine Ahlam Assia Hélène
-			Amina Amira Azza Choubeila Claudia Hana Inès Jacqueline Kalthoum Leïla Maroi Maroua Mouna Raja Syrine Tewhida Randa Tabassum Dema Dimah Dinara Dua Durra Durriyya Edza Eleonorka Eleanor Faghissa Fahriya 
-			Fariza Fedada Tazenkwedt Tazirit Tazrurt Tella Temzi Tfit Tigmi Tikinas Tilelli Timmi Tinhinan Tintadefi Aicha Dimi Malouma Mintata 
-		}
-	}
-	surnames = {  
-		Abdullah Abdulrashid Ahmad Ahmed Ajam "Al-Amin" Alfarsi "Al-Ghazzawi" "Al-Hashim" Ali "Al-Mufti" Amjad Boulos Bousaid Hakim Hussain Kader Karim Karimi Mohammed Muhammad Naaji Nagi Najm Nejem Qadir Saab Samara
-		Saqqaf Sultan Tawfeek Tawfiq Zaman Aamara Abdelhadi Abouzeid Aflalo "ibn Al-Aftas" Alfasi "Abed Al-Jabri" Amhali Attar Balafej Basri Belhsen "Ben-Ami" Benhima Bensaidi "El Bidaoui" Bitton Bouabid Chami 
-		"Ali Cherif" Debbouze Elbaz Essaidi "Al-Fasi" Ferroukhi "El Ghazzali" Guinia Hakmoun "Al-Hassar" "ben David Hayyuj" Ibrahim Jay Kaghat Khayat Laabi Lahlou Laraki Maan "El Marikh" Mezouar "El Moutawakel" 
-		Noury "El Othmani" Pinto Reno Roukhe Skah Tamsamani  Tietjen Youssoufi Zarra Abbas Abeid Arkoun "Ben Bella" Bendjedid Bentaleb Bitat Bougherra Boumediene Bouteflika Brahimi Camus Chiellini Cixous Daoud 
-		Derrida Djebar Djebbour "El Djezairi" Fanon Feghouli Ghilas Khadra Mosteghanemi Sansal Sellal Yacine Zakaria Achouri "Al-Amin" Alaia "Ben Ali" "Ben Ammar" Anani Aslan Ayari "Ben Azzabi" Baccouche 
-		"Balti-Ebondo" Belhedi Belkadhi Belkhodja Besbes Bhairi Blanco Bouallègue Boubakri Boughanmi Bouhageb Boujenah Bourguiba Brami Bramly Cardinale "Ben Chaabane" Chalandon "Ben Cherifia" Chebbi Chemmam 
-		Chenik Chermiti Dinguizli "ibn Abi Diyaf" Djellouli Ennachi Fadhel Haddad Haddaoui Hakimi Hamdouni Hergal Hmam Ikram Jaïdi "Ben Jafar" Jaziri Kechich Khaldun Khayachi Khayat Klibi Korbi Lakhal Lakhoua 
-		Limam Lounifi Luc Mareghni Mathlouthi Marzouki Mebazaa Meddeb Melliti Mellouli Mezien Mhedhebi "Ben Mrad" Nagga "Ben Nasser" Noureddine Ounaies Perez Rached Rajhi Rhimi Sadok Said Sarrai Sellami Sghaïer 
-		"Ben Sheikh" Soliman Sriti Taïeb Tej Thâalbi Touati Toumi Zitouni "ibn Abd Allah" "ibn Abd al-Qadir" "ibn Abu Bakr" "ibn Ahmad" "ibn Ali" "ibn Fuad" "ibn Halil" "ibn Hasan" "ibn Hisham" "ibn Ishaq" 
-		"ibn Ja'far" "ibm Kamil" "ibn Khalid" "ibn Muhammad" "ibn Mustafa" "ibn Salim" "ibn Umar" "ibn Uthman" "ibn Yusuf" "al-Najdi" "al-Hijazi" Abba Abdallahi Abdi "Al-Shinqiti" "Abdel Aziz" Ba Bneijara 
-		"Ould Bneijara" "Ould Boubacar" "Ould Bouceif" "Ould Boulkheir" "Ould Daddah" Diagana Diallo Diombar Ebnou Fall Gaye Gueye Guidileye Guig "Ould Haidalla" "Ould Hanenna" "Ould Harouna" Hedeid "Ben Hmeida" 
-		"Ould Hmeida" Hondo "Ould Kerim" "Ould Mohamed Khouna" "Ould Mohamed Laghdaf" "Ould Mohamed Lemine" "Ould Lemrabott" "Ould Louly" "Ould Maaouya" "dit Mbare" "Ould M'Bareck" Miske "El Moctar" Moctar 
-		"Ould Mogueye" "Ould Sidi Mohammed" "Ould Mohamedou" "Ould-Abdallah" Razqa "Ould Salek" Sall Sarr "Ould Sid'Ahmed" Sissako "Ould Ahmed Taleb" "Ould Sid'Ahmed Taya" "Ould Teguedi" Timbo "Ould Tolba" Toure 
-		"Ould Mohammed Vall" "Ould Ahmed El Waghef" "Ould Zeidane"
-	}
-	callsigns = { }
-}
-D27 = {
-	male = {
-		names = { 
-			Adolf Anton Emil Erich Felix Fritz Gerhard Gunther Hans Heinrich Heinz Hermann Joachim Karl Marco Max Maximilian Otto 
-			Peter Staffan Theodor Tobias Walter Wilhelm
-		}
-	}
-	female = {
-		names = { 
-			Emma Hanna Hildegard Jessica Marie Sofia
-		}
-	}
-	surnames = {  
-		Barkhorn Becker Behrmann Beisswenger Berglen Brendel Duttmann Erhler Fischer Graf Hafner Hartmann Hoffmann Kirschner Lang 
-		Lipfert Meyer Muller Rall Schmidt Schneider Schulz Stotz Sturm Wagner Weber Wilbs
-	}
-	callsigns = { }
-}
-D28 = {
-	male = {
-		names = { 
-			Aage Adam Adolph Alber Alexander Anders Andreas Anton Asmund Astrathur Axel Baldur Björn Carl Christian Dagbjartur Dan Daniel 
-			David Dennis Edvard Edvin Eggthor Emil Erik Felix Folke Frederik Fredrik Freyr Georg Gustav Haakon Hannibal Hans Harald Henrik 
-			Herman Hjörtur Hugo Ivar Jacob Jakob Jens Johan John Jonas Julius Kaare Knud Lorentz Ludvig Lórens Magnus Martin Michael 
-			Niels Niklas Nils Odd Oddleifur Ögrim Olaf Olav Ole Olof Otto Paul Per Peter Petter Poul Rikard Robin Rufus Sigurd Sturlaugr 
-			Sven Sverre Søren Tage Thomas Thorvald Tobias Tryggve Ukrik Vagn Valdemar Vilhelm Wilhelm
-		}
-	}
-	female = {
-		names = { 
-			Alma Anna Arnfrithur Árný Asta Astrid Bjarnhildur Boghildur Camilla Caroline Drótt Dómhildur Ebba Eira Elsa Else Eva Freydís 
-			Gerda Greta Grete Gunnrún Helga Ingeborg Jytte Kaja Kajsa Karen Katya Linda Linnéa Lotta Malin Monica Monika Nela Olivia Paula 
-			Pernilla Rafney Sara Signe Torhild Tove Trine Trude
-		}
-	}
-	surnames = {  
-		Aagesson Ahlefeldt Åslund Andersson Anward Arjanen Asp-Persson Astrathursson Baldursson Berg Berger Björk Björnsson Blomberg 
-		Blöndal Bodlund Bonde Borg Brandt Brolin Carenwall Carlberg Carlsen Cederholm Cornelius Dahl Dahlberg Dannemand Danneskjold-Samso
-		Eberlin Eggthorsson Ekre Elgerot Eriksen Falck Falsen Fleischer Folsach Frisvold Gyldenfeldt Güntelberg Haack Hambro Hamre
-		Hansen Hargelid Hasselström Hauge Have Haxthausen Heikkinen Helminen Hemmingsson Hjörtursson Hultdin Ivarsson Jaakola Janhunen
-		Jenelius Johansson Juul Juutilanen Järvinen Karhu Karlsson Kiby Klauman Knubb Korhonen Krogh Laessoe Lagerqvist Lahti
-		Laine Lerström Leuenbach Lie Lind Lindgren Lovenbalk Lund Lundström Luoma Markkula Marttinen Matilla Michaelsen Munthe Mylius
-		Mäkelä Mäkinen Neergaard Nieminen Nisshagen Nordhaug Norrevik Nørregaard Obelitz Oddleifsson Oksanen Olli Oltner Oxholm Palmqvist
-		Pertola Petersen Prytz Rajala Renström Reventlow Rickne Rosenkrantz Ryti Ræder Schack-Schackenborg Sejersted Sjöberg Sjöman Sparrhult
-		Stemman Ström Suenson Sunde Teige Thorarensen Thygeson Tisander Trampe Tronde Törni Urne Vagnsson Viklund Vilberg Virtanen Wadenstierna
-		Wedel-Heinen Wendel Wergeland Wester Wickerström Zetterman Zytphen-Adeler
-	}
-	callsigns = { }
-}
-D29 = {
-	male = {
-		names = { 
-			Adolf Anton Emil Erich Felix Fritz Gerhard Gunther Hans Heinrich Heinz Hermann Joachim Karl Marco Max Maximilian Otto 
-			Peter Staffan Theodor Tobias Walter Wilhelm
-		}
-	}
-	female = {
-		names = { 
-			Emma Hanna Hildegard Jessica Marie Sofia
-		}
-	}
-	surnames = {  
-		Barkhorn Becker Behrmann Beisswenger Berglen Brendel Duttmann Erhler Fischer Graf Hafner Hartmann Hoffmann Kirschner Lang 
-		Lipfert Meyer Muller Rall Schmidt Schneider Schulz Stotz Sturm Wagner Weber Wilbs
-	}
-	callsigns = { }
-}
-D30 = {
-	male = {
-		names = { 
-			Adamantios Alexandros Anastasios Andreas Antonios Aristidis Athanasios Augustinos Benizelos Charalambos
-			Charilaos Dimitrios Diomidis Eleftherios Emmanouil Epameinontas Evripidis Gennaios Georgios Ilias
-			Ionnis Kitsos Konstantinos Kyriakos Kyriakoulis Leonidas Makarios Markos Mikhael Militiadis
-			Nikolaos Odysseas Othon Panagiotis Pavlos Petros Sofoklis Sotiris Spyridion Spyros
-			Staikos Stefanos Stylianos Themistoklis Theodoros Tharyvoulos Tzannis Vasos Viktor Zinovios
-		}
-	}
-	female = {
-		names = { 
-			Alexandra Adriane Adriana Agathe Agatha Agne Agnes Aikaterine Alexeia Anastasia Anastasia 
-			Anna Anthe Anthousa Antipatra Antonia Apollonia Athanasia Barbara Basillike
-			Chrysogone Damiane Demetra Dionysia Dorothea Dorothy Aigidia Eirene Irene Elaiodora Epiphania 
-			Eudokia Eudocia Eudoxia Eugenia Eulalia Eunike Euphemia Euphrasia Euphrosyne Euphrosyne
-			Eupraxia Eusebia Eustathia Evanthia Gabrielia Garyphallia Georgia Gregoria Helene Helen 
-			Ioanna Joan Ioulia Julia Iouliana Juliana Ioustina Justina Kale Konstantia Constantia 
-			Konstantine Constantina Kyra Kyriake Hypatia Zoe
-		}
-	}
-	surnames = {  
-		Altanis Charalambis Christakis-Zografos Danglis Dousmanis Foumis Gonatas Hatzianestis Kallergis Kanaris Katsimiros
-		Kolokotronis Kondylis Kountouriotis Kriezis Makriyannis Manos Mavrocordatos Mavrovouniotis Metaxas Mouskos
-		Nider Othonaios Palaskas Pangalos Papadiamantopoulos Papadopoulos Papagos Papoulas Parakevopouolos Plapoutas
-		Plastiras Sapountzakis Sarafis Smolenskis Sofoulis Soutsos Spyromilios Staikopoulos Stanotas 
-		Trikoupis Tsakalotos Tsolakoglou  Tzavelas Vassos Venizelos Voulgaris Zaimis Zymvrakakis
-	}
-	callsigns = { }
-}
-D31 = {
-	male = {
-		names = { 
-			"Abd Allah" "Abd al-Karim" "Abd al-Malik" "Abd al-Qadir" "Abd al-Rahman" "Abu Bakr" Ahmad Ali 
-			Fawzi Fuad Halil Hasan Hisham Ibrahim Ishaq Iskandar Ja'far Jamal Kamil Khalid 
-			Muhammad Mustafa "Nur al-Din" "Sa'd al-Din" Salim  Sa'ud Shukri
-			Tawfiq Umar Uthman Yahya Yusuf Zafir
-		}
-	}
-	female = {
-		names = { 
-			Nadiyya Adila Amsha Asiya Faghira Habiba Hanifa Jahaira Kamala Layla Maryam Nafisa Nyawela Parand 
-			Parween Paymaneh Paywand Qamara Rafiqa Rasa Rashida Reshawna
-			Saaman Sabba Saghar Sahba Sajida Samira Semeah Setara Shahrbano Shahzadah Shameem Shararah 
-			Sheeftah Sheeva Shogofa Shokouh Shola Sholah Simin Souzan
-			Taliba Tanaz Taneen Yagana Yakta Yasmin Zaynab
-		}
-	}
-	surnames = {  
-		"ibn Abd Allah" "ibn Abd al-Qadir" "ibn Abu Bakr" "ibn Ahmad" "ibn Ali"
-		"ibn Fuad" "ibn Halil" "ibn Hasan" "ibn Hisham" "ibn Ishaq" "ibn Ja'far" "ibm Kamil" "ibn Khalid" 
-		"ibn Muhammad" "ibn Mustafa" "ibn Salim" "ibn Umar" "ibn Uthman" "ibn Yusuf" "al-Najdi" "al-Hijazi"
-	}
-	callsigns = { }
-}
-D32 = {
-	male = {
-		names = { 
-			Nangklao Mongkut Rama Chulalongkorn Chao Vajiravudh Prajadhipok Naritsaranuwatiwong Phya Plaek
-		}
-	}
-	female = {
-		names = { 
-			Amporn Chanarong Sri Suriyothai Panjapapee Komol
-		}
-	}
-	surnames = {  
-		Suriyawongse Saovabha Chichalerm Nitithada Phonphayuhasena
-	}
-	callsigns = { }
-}
-D33 = {
-	male = {
-		names = { 
-			Joko Fauzi Prabowo Ali Soemarno Henk Widji Teuku Hadi Azwar Mustafa Zaini Abdul Anak Ida Dewa
-		}
-	}
-	female = {
-		names = { 
-			Diah Siti
-		}
-	}
-	surnames = {  
-		Widodo Bowo Subianto Sadikin Sosroatmodjo Ngantung Permatasari Damono Wibowo Thukul Hartinah Gunawan Haryanto Suprianto Sabara Abubakar "Bagus Oka" "Bagus Mantra" Martha
-	}
-	callsigns = { }
-}
-D34 = {
-	male = {
-		names = { 
-			Lauri Pekka Mauno Jussi Alpo Petri Kari Juha Risto Viljo Paavo Eino Arvo Ville Mikko Petteri Aleksi Allu Ahti Ahto Erikki Eero Jani Jarno Johannes Kauko Kalevi Ilkka Eljas Erkki Auno Ilmo Kaarle
-		}
-	}
-	female = {
-		names = { 
-			Anna Helvi Hilda Nea Mirjam Kirsi Raili Elina Kaja Ilona Ingrid
-		}
-	}
-	surnames = {  
-		Pertola Törni Marttinen Arjanen Rajala Ryti Juutilanen Virtanen Korhonen Nieminen Laine Järvinen Karhu Kari Markkula Matilla Luoma Heikkinen Helminen Lahti Olli Oksanen Jaakola Janhunen Mäkelä Mäkinen
-	}
-	callsigns = { }
-}
-D35 = {
-	male = {
-		names = { 
-			Aleksander Alexei Andrei Anton Boris Dmitry Fyodor Gennady 
-            Giorgi Grigoriy Igor Ilya Ivan Kirill Konstantin Lavr Leonid Lev Maxim 
-            Mikhail Nikita Nikolai Oleg Pavel Pyotr Roman Semyon Sergei 
-            Valery Vasily Viktor Vladimir Vladislav Yegor Yevgeny Yuri
-		}
-	}
-	female = {
-		names = { 
-			Jelena Ludmila Ella Svetlana Margarita Elena Natalya Lydia Valentina Olga Alexandra Sofia Albina
-		}
-	}
-	surnames = {  
-		Alexseyev Antonov Azarov Badanov Brusilov Budyonny Chibisov Denikin 
-        Dragomirov Frolov Golivin Grishin Gurko Ivanov Ivannikov Konev Konstantinov Kornilov 
-        Kolchak Kuropatkin Lazarev Makarov Menshikov Nakhimov Nebogatov 
-        Nikolaevich Nikitin Ostrovsky Pavlov Putyatin Romanov Rozhestvensky Skobelev 
-        Shuvalov Surkov Tukhachevsky Yegorov Yudenich Vorontsov Voroshilov Zavoyko
-	}
-	callsigns = { }
-}
-D36 = {
-	male = {
-		names = { 
-			Adam Alexander William Henry Michael Samuel Joshua George John Matthew Mark Luke Lucas Jeffrey Ulysses 
-			Joseph Charles Russell Benjamin Robert Christopher Richard Chester Lafayette Nathaniel Francis James Donald Cyrus Ambrose
-			Edward Eugene Augustus Norton Abner Isaac Amos Thomas Randolph
-			Robert Jesse James Nathan George Joseph John Patrick Albert Braxton William Ambrose Jubal Richard 
-			Lewis Edmund Leonida Benjamin Wade Daniel Thomas Jonathan Stonewall Lemual Sterling Raphael Kirby Pierre 
-			Jonas Frank Charles Peter Rand Leslie Howard Malvin Oscar Henry Simon Edward Gideon Isaac Evander Jerome Alfred Cadmus
-			Carnot Ezra Wilton Hamilton Matthew Richard Hiram Thomas Elkanah John William James Albert Wilburn Walter Hinchie Samuel Benjamin 
-			Henry Allison Horace Felix Jerome Lawrence Alexander Louis Steven Zach
-		}
-	}
-	female = {
-		names = { 
-			Mary Jane Kate Eleanor Charlotte Lisa Isabel Jay Carol Nancy Margaret
-		}
-	}
-	surnames = {  
-		Smith Washington Grant Sherman Chamberlain Powell Clemens Abbott Abercrombie Allen Ames Anderson Barkhauer Andrews Appleton
-		Armstrong Arthur Atkins Asboth Babcock Baker Pope Banks Barnard Barnes Barnum Barry Barstow Bartlett Bates 
-		Baxter Beatty Belknap Benton Blair Blunt Bradley Brown Buell Buford Burnside Butler Caldwell Campbell Carr
-		Chapman Chipman Clayton Coburn Connor Conrad Cook Cooper Crittenden Custer Davies Davis Doubleday Ewing Farnsworth 
-		Ford Forsyth Foster Franklin Fry Gilbert Gregg Griffin Halleck Hamlin Hancock Harrison Hatch Hayes Heintzelman
-		Hooker Howard Hunter Jackson Johnson Jones Keyes Kimball Lyon McArthur McClellan McCook McDowell Meade Mitchell
-		Morgan Paine Phelps Porter Potter Reynolds Rice Rhodes Robinson Rosencrans Saloman Schenck Schofield Scott Sedgwick
-		Seward Sheridan Sickles Sprague Stevens Stevenson Stone Sullivan Taylor Tyler Wade Wadsworth Wallace Ward Warner
-		Wilson Wright Young Lee Jackson Johnson Beauregard Stuart Longstreet Forrest Pickett Mosby Cleburne Hood Breckenridge Bragg 
-		Barksdale Early Hill Ewell Morgan Armistead Semmes Smith Hampton Polk Cheatham Wheeler Pemberton Gordon Hardee Floyd Price 
-		Wise "Van Dorn" Loring Buckner Taylor Williams French Gibbs Hindman Anderson Sibley Garnett Magruder Pillow McLaws Rodes Heth 
-		Pender Trimble Kershaw Wofford Kemper Law Robertson Benning Hays Walker Iverson Wilcox Mahone Wright Pettigrew Archer 
-		Davis Lane Posey Scales Warner Imboden Jenkins Bee Ector Gano Granbury Green Greer Gregg Hardeman Harrison Hood Johnston King Lane Mabry Maxey McCulloch Moore 
-		Nelson Randal Robertson Ross Rosser Scurry Steele Terrell Waterhouse Waul Wharton Whitfield Wigfall Young Bowie Travis Houston
-		Wells Holmgren
-	}
-	callsigns = { }
-}
-D37 = {
-	male = {
-		names = { 
-			Adam Alexander William Henry Michael Samuel Joshua George John Matthew Mark Luke Lucas Jeffrey Ulysses 
-			Joseph Charles Russell Benjamin Robert Christopher Richard Chester Lafayette Nathaniel Francis James Donald Cyrus Ambrose
-			Edward Eugene Augustus Norton Abner Isaac Amos Thomas Randolph
-			Robert Jesse James Nathan George Joseph John Patrick Albert Braxton William Ambrose Jubal Richard 
-			Lewis Edmund Leonida Benjamin Wade Daniel Thomas Jonathan Stonewall Lemual Sterling Raphael Kirby Pierre 
-			Jonas Frank Charles Peter Rand Leslie Howard Malvin Oscar Henry Simon Edward Gideon Isaac Evander Jerome Alfred Cadmus
-			Carnot Ezra Wilton Hamilton Matthew Richard Hiram Thomas Elkanah John William James Albert Wilburn Walter Hinchie Samuel Benjamin 
-			Henry Allison Horace Felix Jerome Lawrence Alexander Louis Steven Zach
-		}
-	}
-	female = {
-		names = { 
-			Mary Jane Kate Eleanor Charlotte Lisa Isabel Jay Carol Nancy Margaret
-		}
-	}
-	surnames = {  
-		Smith Washington Grant Sherman Chamberlain Powell Clemens Abbott Abercrombie Allen Ames Anderson Barkhauer Andrews Appleton
-		Armstrong Arthur Atkins Asboth Babcock Baker Pope Banks Barnard Barnes Barnum Barry Barstow Bartlett Bates 
-		Baxter Beatty Belknap Benton Blair Blunt Bradley Brown Buell Buford Burnside Butler Caldwell Campbell Carr
-		Chapman Chipman Clayton Coburn Connor Conrad Cook Cooper Crittenden Custer Davies Davis Doubleday Ewing Farnsworth 
-		Ford Forsyth Foster Franklin Fry Gilbert Gregg Griffin Halleck Hamlin Hancock Harrison Hatch Hayes Heintzelman
-		Hooker Howard Hunter Jackson Johnson Jones Keyes Kimball Lyon McArthur McClellan McCook McDowell Meade Mitchell
-		Morgan Paine Phelps Porter Potter Reynolds Rice Rhodes Robinson Rosencrans Saloman Schenck Schofield Scott Sedgwick
-		Seward Sheridan Sickles Sprague Stevens Stevenson Stone Sullivan Taylor Tyler Wade Wadsworth Wallace Ward Warner
-		Wilson Wright Young Lee Jackson Johnson Beauregard Stuart Longstreet Forrest Pickett Mosby Cleburne Hood Breckenridge Bragg 
-		Barksdale Early Hill Ewell Morgan Armistead Semmes Smith Hampton Polk Cheatham Wheeler Pemberton Gordon Hardee Floyd Price 
-		Wise "Van Dorn" Loring Buckner Taylor Williams French Gibbs Hindman Anderson Sibley Garnett Magruder Pillow McLaws Rodes Heth 
-		Pender Trimble Kershaw Wofford Kemper Law Robertson Benning Hays Walker Iverson Wilcox Mahone Wright Pettigrew Archer 
-		Davis Lane Posey Scales Warner Imboden Jenkins Bee Ector Gano Granbury Green Greer Gregg Hardeman Harrison Hood Johnston King Lane Mabry Maxey McCulloch Moore 
-		Nelson Randal Robertson Ross Rosser Scurry Steele Terrell Waterhouse Waul Wharton Whitfield Wigfall Young Bowie Travis Houston
-		Wells Holmgren
-	}
-	callsigns = { }
-}
-D38 = {
-	male = {
-		names = { 
-			Adam Alexander William Henry Michael Samuel Joshua George John Matthew Mark Luke Lucas Jeffrey Ulysses 
-			Joseph Charles Russell Benjamin Robert Christopher Richard Chester Lafayette Nathaniel Francis James Donald Cyrus Ambrose
-			Edward Eugene Augustus Norton Abner Isaac Amos Thomas Randolph
-			Robert Jesse James Nathan George Joseph John Patrick Albert Braxton William Ambrose Jubal Richard 
-			Lewis Edmund Leonida Benjamin Wade Daniel Thomas Jonathan Stonewall Lemual Sterling Raphael Kirby Pierre 
-			Jonas Frank Charles Peter Rand Leslie Howard Malvin Oscar Henry Simon Edward Gideon Isaac Evander Jerome Alfred Cadmus
-			Carnot Ezra Wilton Hamilton Matthew Richard Hiram Thomas Elkanah John William James Albert Wilburn Walter Hinchie Samuel Benjamin 
-			Henry Allison Horace Felix Jerome Lawrence Alexander Louis Steven Zach
-		}
-	}
-	female = {
-		names = { 
-			Mary Jane Kate Eleanor Charlotte Lisa Isabel Jay Carol Nancy Margaret
-		}
-	}
-	surnames = {  
-		Smith Washington Grant Sherman Chamberlain Powell Clemens Abbott Abercrombie Allen Ames Anderson Barkhauer Andrews Appleton
-		Armstrong Arthur Atkins Asboth Babcock Baker Pope Banks Barnard Barnes Barnum Barry Barstow Bartlett Bates 
-		Baxter Beatty Belknap Benton Blair Blunt Bradley Brown Buell Buford Burnside Butler Caldwell Campbell Carr
-		Chapman Chipman Clayton Coburn Connor Conrad Cook Cooper Crittenden Custer Davies Davis Doubleday Ewing Farnsworth 
-		Ford Forsyth Foster Franklin Fry Gilbert Gregg Griffin Halleck Hamlin Hancock Harrison Hatch Hayes Heintzelman
-		Hooker Howard Hunter Jackson Johnson Jones Keyes Kimball Lyon McArthur McClellan McCook McDowell Meade Mitchell
-		Morgan Paine Phelps Porter Potter Reynolds Rice Rhodes Robinson Rosencrans Saloman Schenck Schofield Scott Sedgwick
-		Seward Sheridan Sickles Sprague Stevens Stevenson Stone Sullivan Taylor Tyler Wade Wadsworth Wallace Ward Warner
-		Wilson Wright Young Lee Jackson Johnson Beauregard Stuart Longstreet Forrest Pickett Mosby Cleburne Hood Breckenridge Bragg 
-		Barksdale Early Hill Ewell Morgan Armistead Semmes Smith Hampton Polk Cheatham Wheeler Pemberton Gordon Hardee Floyd Price 
-		Wise "Van Dorn" Loring Buckner Taylor Williams French Gibbs Hindman Anderson Sibley Garnett Magruder Pillow McLaws Rodes Heth 
-		Pender Trimble Kershaw Wofford Kemper Law Robertson Benning Hays Walker Iverson Wilcox Mahone Wright Pettigrew Archer 
-		Davis Lane Posey Scales Warner Imboden Jenkins Bee Ector Gano Granbury Green Greer Gregg Hardeman Harrison Hood Johnston King Lane Mabry Maxey McCulloch Moore 
-		Nelson Randal Robertson Ross Rosser Scurry Steele Terrell Waterhouse Waul Wharton Whitfield Wigfall Young Bowie Travis Houston
-		Wells Holmgren
-	}
-	callsigns = { }
-}
-D39 = {
-	male = {
-		names = { 
-			Adam Alexander William Henry Michael Samuel Joshua George John Matthew Mark Luke Lucas Jeffrey Ulysses 
-			Joseph Charles Russell Benjamin Robert Christopher Richard Chester Lafayette Nathaniel Francis James Donald Cyrus Ambrose
-			Edward Eugene Augustus Norton Abner Isaac Amos Thomas Randolph
-			Robert Jesse James Nathan George Joseph John Patrick Albert Braxton William Ambrose Jubal Richard 
-			Lewis Edmund Leonida Benjamin Wade Daniel Thomas Jonathan Stonewall Lemual Sterling Raphael Kirby Pierre 
-			Jonas Frank Charles Peter Rand Leslie Howard Malvin Oscar Henry Simon Edward Gideon Isaac Evander Jerome Alfred Cadmus
-			Carnot Ezra Wilton Hamilton Matthew Richard Hiram Thomas Elkanah John William James Albert Wilburn Walter Hinchie Samuel Benjamin 
-			Henry Allison Horace Felix Jerome Lawrence Alexander Louis Steven Zach
-		}
-	}
-	female = {
-		names = { 
-			Mary Jane Kate Eleanor Charlotte Lisa Isabel Jay Carol Nancy Margaret
-		}
-	}
-	surnames = {  
-		Smith Washington Grant Sherman Chamberlain Powell Clemens Abbott Abercrombie Allen Ames Anderson Barkhauer Andrews Appleton
-		Armstrong Arthur Atkins Asboth Babcock Baker Pope Banks Barnard Barnes Barnum Barry Barstow Bartlett Bates 
-		Baxter Beatty Belknap Benton Blair Blunt Bradley Brown Buell Buford Burnside Butler Caldwell Campbell Carr
-		Chapman Chipman Clayton Coburn Connor Conrad Cook Cooper Crittenden Custer Davies Davis Doubleday Ewing Farnsworth 
-		Ford Forsyth Foster Franklin Fry Gilbert Gregg Griffin Halleck Hamlin Hancock Harrison Hatch Hayes Heintzelman
-		Hooker Howard Hunter Jackson Johnson Jones Keyes Kimball Lyon McArthur McClellan McCook McDowell Meade Mitchell
-		Morgan Paine Phelps Porter Potter Reynolds Rice Rhodes Robinson Rosencrans Saloman Schenck Schofield Scott Sedgwick
-		Seward Sheridan Sickles Sprague Stevens Stevenson Stone Sullivan Taylor Tyler Wade Wadsworth Wallace Ward Warner
-		Wilson Wright Young Lee Jackson Johnson Beauregard Stuart Longstreet Forrest Pickett Mosby Cleburne Hood Breckenridge Bragg 
-		Barksdale Early Hill Ewell Morgan Armistead Semmes Smith Hampton Polk Cheatham Wheeler Pemberton Gordon Hardee Floyd Price 
-		Wise "Van Dorn" Loring Buckner Taylor Williams French Gibbs Hindman Anderson Sibley Garnett Magruder Pillow McLaws Rodes Heth 
-		Pender Trimble Kershaw Wofford Kemper Law Robertson Benning Hays Walker Iverson Wilcox Mahone Wright Pettigrew Archer 
-		Davis Lane Posey Scales Warner Imboden Jenkins Bee Ector Gano Granbury Green Greer Gregg Hardeman Harrison Hood Johnston King Lane Mabry Maxey McCulloch Moore 
-		Nelson Randal Robertson Ross Rosser Scurry Steele Terrell Waterhouse Waul Wharton Whitfield Wigfall Young Bowie Travis Houston
-		Wells Holmgren
-	}
-	callsigns = { }
-}
-D40 = {
-	male = {
-		names = { 
-			Adam Alexander William Henry Michael Samuel Joshua George John Matthew Mark Luke Lucas Jeffrey Ulysses 
-			Joseph Charles Russell Benjamin Robert Christopher Richard Chester Lafayette Nathaniel Francis James Donald Cyrus Ambrose
-			Edward Eugene Augustus Norton Abner Isaac Amos Thomas Randolph
-			Robert Jesse James Nathan George Joseph John Patrick Albert Braxton William Ambrose Jubal Richard 
-			Lewis Edmund Leonida Benjamin Wade Daniel Thomas Jonathan Stonewall Lemual Sterling Raphael Kirby Pierre 
-			Jonas Frank Charles Peter Rand Leslie Howard Malvin Oscar Henry Simon Edward Gideon Isaac Evander Jerome Alfred Cadmus
-			Carnot Ezra Wilton Hamilton Matthew Richard Hiram Thomas Elkanah John William James Albert Wilburn Walter Hinchie Samuel Benjamin 
-			Henry Allison Horace Felix Jerome Lawrence Alexander Louis Steven Zach
-		}
-	}
-	female = {
-		names = { 
-			Mary Jane Kate Eleanor Charlotte Lisa Isabel Jay Carol Nancy Margaret
-		}
-	}
-	surnames = {  
-		Smith Washington Grant Sherman Chamberlain Powell Clemens Abbott Abercrombie Allen Ames Anderson Barkhauer Andrews Appleton
-		Armstrong Arthur Atkins Asboth Babcock Baker Pope Banks Barnard Barnes Barnum Barry Barstow Bartlett Bates 
-		Baxter Beatty Belknap Benton Blair Blunt Bradley Brown Buell Buford Burnside Butler Caldwell Campbell Carr
-		Chapman Chipman Clayton Coburn Connor Conrad Cook Cooper Crittenden Custer Davies Davis Doubleday Ewing Farnsworth 
-		Ford Forsyth Foster Franklin Fry Gilbert Gregg Griffin Halleck Hamlin Hancock Harrison Hatch Hayes Heintzelman
-		Hooker Howard Hunter Jackson Johnson Jones Keyes Kimball Lyon McArthur McClellan McCook McDowell Meade Mitchell
-		Morgan Paine Phelps Porter Potter Reynolds Rice Rhodes Robinson Rosencrans Saloman Schenck Schofield Scott Sedgwick
-		Seward Sheridan Sickles Sprague Stevens Stevenson Stone Sullivan Taylor Tyler Wade Wadsworth Wallace Ward Warner
-		Wilson Wright Young Lee Jackson Johnson Beauregard Stuart Longstreet Forrest Pickett Mosby Cleburne Hood Breckenridge Bragg 
-		Barksdale Early Hill Ewell Morgan Armistead Semmes Smith Hampton Polk Cheatham Wheeler Pemberton Gordon Hardee Floyd Price 
-		Wise "Van Dorn" Loring Buckner Taylor Williams French Gibbs Hindman Anderson Sibley Garnett Magruder Pillow McLaws Rodes Heth 
-		Pender Trimble Kershaw Wofford Kemper Law Robertson Benning Hays Walker Iverson Wilcox Mahone Wright Pettigrew Archer 
-		Davis Lane Posey Scales Warner Imboden Jenkins Bee Ector Gano Granbury Green Greer Gregg Hardeman Harrison Hood Johnston King Lane Mabry Maxey McCulloch Moore 
-		Nelson Randal Robertson Ross Rosser Scurry Steele Terrell Waterhouse Waul Wharton Whitfield Wigfall Young Bowie Travis Houston
-		Wells Holmgren
-	}
-	callsigns = { }
-}
-D41 = {
-	male = {
-		names = { 
-			Adam Alexander William Henry Michael Samuel Joshua George John Matthew Mark Luke Lucas Jeffrey Ulysses 
-			Joseph Charles Russell Benjamin Robert Christopher Richard Chester Lafayette Nathaniel Francis James Donald Cyrus Ambrose
-			Edward Eugene Augustus Norton Abner Isaac Amos Thomas Randolph
-			Robert Jesse James Nathan George Joseph John Patrick Albert Braxton William Ambrose Jubal Richard 
-			Lewis Edmund Leonida Benjamin Wade Daniel Thomas Jonathan Stonewall Lemual Sterling Raphael Kirby Pierre 
-			Jonas Frank Charles Peter Rand Leslie Howard Malvin Oscar Henry Simon Edward Gideon Isaac Evander Jerome Alfred Cadmus
-			Carnot Ezra Wilton Hamilton Matthew Richard Hiram Thomas Elkanah John William James Albert Wilburn Walter Hinchie Samuel Benjamin 
-			Henry Allison Horace Felix Jerome Lawrence Alexander Louis Steven Zach
-		}
-	}
-	female = {
-		names = { 
-			Mary Jane Kate Eleanor Charlotte Lisa Isabel Jay Carol Nancy Margaret
-		}
-	}
-	surnames = {  
-		Smith Washington Grant Sherman Chamberlain Powell Clemens Abbott Abercrombie Allen Ames Anderson Barkhauer Andrews Appleton
-		Armstrong Arthur Atkins Asboth Babcock Baker Pope Banks Barnard Barnes Barnum Barry Barstow Bartlett Bates 
-		Baxter Beatty Belknap Benton Blair Blunt Bradley Brown Buell Buford Burnside Butler Caldwell Campbell Carr
-		Chapman Chipman Clayton Coburn Connor Conrad Cook Cooper Crittenden Custer Davies Davis Doubleday Ewing Farnsworth 
-		Ford Forsyth Foster Franklin Fry Gilbert Gregg Griffin Halleck Hamlin Hancock Harrison Hatch Hayes Heintzelman
-		Hooker Howard Hunter Jackson Johnson Jones Keyes Kimball Lyon McArthur McClellan McCook McDowell Meade Mitchell
-		Morgan Paine Phelps Porter Potter Reynolds Rice Rhodes Robinson Rosencrans Saloman Schenck Schofield Scott Sedgwick
-		Seward Sheridan Sickles Sprague Stevens Stevenson Stone Sullivan Taylor Tyler Wade Wadsworth Wallace Ward Warner
-		Wilson Wright Young Lee Jackson Johnson Beauregard Stuart Longstreet Forrest Pickett Mosby Cleburne Hood Breckenridge Bragg 
-		Barksdale Early Hill Ewell Morgan Armistead Semmes Smith Hampton Polk Cheatham Wheeler Pemberton Gordon Hardee Floyd Price 
-		Wise "Van Dorn" Loring Buckner Taylor Williams French Gibbs Hindman Anderson Sibley Garnett Magruder Pillow McLaws Rodes Heth 
-		Pender Trimble Kershaw Wofford Kemper Law Robertson Benning Hays Walker Iverson Wilcox Mahone Wright Pettigrew Archer 
-		Davis Lane Posey Scales Warner Imboden Jenkins Bee Ector Gano Granbury Green Greer Gregg Hardeman Harrison Hood Johnston King Lane Mabry Maxey McCulloch Moore 
-		Nelson Randal Robertson Ross Rosser Scurry Steele Terrell Waterhouse Waul Wharton Whitfield Wigfall Young Bowie Travis Houston
-		Wells Holmgren
-	}
-	callsigns = { }
-}
-D42 = {
-	male = {
-		names = {  
-			Achille Adolphe Adrien Aimable Alphonse Amédée Antoine Armand August Augustin
-			Charles Daniel Denis Édouard Elie Éttiene Eugène Félicien Félix Fernand
-			François Frédéric Georges Guillaume Gustave Henri Hubert Hugo Jacques Jean
-			Joseph Jules Julien Lazare Léopold Leroy Louis Lucien Matthieu Michel
-			Napoléon Nicolas Patrice Paul Philippe Pierre Robert Thibaut Thierry Thomas
-		 }
-	}
-	female = {
-		names = { Anne Marie Françoise Gisèle Marguerite Marianne Simone Anaïs Irène Nathalie Elsa }
-	}
-	surnames = {
-		Anthoine "Baraguey d'Hilliers" Bazaine Billot Bosquet "Boué de Lapeyrère" Bouët-Willaumez Boulanger Bourbaki
-		Bugeaud Caillard Canrobert Courbet Cousin-Mountauban Davout "de Castellane" "de Castelnau" 
-		"de Langle de Cary" "de MacMahon" "de Montaignac" "de Saint Arnaud" d'Orleans Dubail Dubois Duchêne Dupetit-Thouars Exelmans
-		Foch Forey "Franchet d'Espèrey" Gallieni Gouraud Guillaumat Hamelin Harispe Hoche Humbert
-		Jaurès Joffre Lebouef Lyautey Murat "Ney d'Elchingen" Nivelle Péllissier Petain Vaillant
-	}
-	callsigns = { }
-}
-D43 = {
-	male = {
-		names = { 
-			Charles John Frederick Douglas Patrick Leonard Henry Arthur Alexander Campbell Gilbert 
-			Albert Victor Julian Francis James  
-		}
-	}
-	female = {
-		names = { Emma Lea Olivia Alice Florence Zoe Chloe Beatrice Charlotte Rosalie Eva Juliette Sofia Jade Camille Victoria }
-	}
-	surnames = { 
-			Grey Elliot Hamilton Gordon Stanley Campbell Ross Petty-Fitzmaurice Windham Young Doyle 
-			Hastings Blackwood MacDougall 
-	}
-	callsigns = { }
-}
-D44 = {
-	male = {
-		names = { 
-			Charles John Frederick Douglas Patrick Leonard Henry Arthur Alexander Campbell Gilbert 
-			Albert Victor Julian Francis James 
-		}
-	}
-	female = {
-		names = { Emma Lea Olivia Alice Florence Zoe Chloe Beatrice Charlotte Rosalie Eva Juliette Sofia Jade Camille Victoria }
-	}
-	surnames = { 
-			Grey Elliot Hamilton Gordon Stanley Campbell Ross Petty-Fitzmaurice Windham Young Doyle 
-			Hastings Blackwood MacDougall 
-	}
-	callsigns = { }
-}
-################ Addition of country files #################
-#Andes
+﻿#Andes
 R01 = {
 	male = {
 		names = { 
@@ -881,5 +308,572 @@ R10 = {
 	surnames = {
 		Selassie Mikael Mariam Melekot Seged Wossen Makonnen
 	 }
+	callsigns = { }
+}
+#Eastern Provinces
+R11 = {
+	male = {
+		names = { 
+			Charles John Frederick Douglas Patrick Leonard Henry Arthur Alexander Campbell Gilbert 
+			Albert Victor Julian Francis James  
+		}
+	}
+	female = {
+		names = { Emma Lea Olivia Alice Florence Zoe Chloe Beatrice Charlotte Rosalie Eva Juliette Sofia Jade Camille Victoria }
+	}
+	surnames = { 
+			Grey Elliot Hamilton Gordon Stanley Campbell Ross Petty-Fitzmaurice Windham Young Doyle 
+			Hastings Blackwood MacDougall 
+	}
+	callsigns = { }
+}
+#Finland
+R12 = {
+	male = {
+		names = { 
+			Lauri Pekka Mauno Jussi Alpo Petri Kari Juha Risto Viljo Paavo Eino Arvo Ville Mikko Petteri Aleksi Allu Ahti Ahto Erikki Eero Jani Jarno Johannes Kauko Kalevi Ilkka Eljas Erkki Auno Ilmo Kaarle
+		}
+	}
+	female = {
+		names = { 
+			Anna Helvi Hilda Nea Mirjam Kirsi Raili Elina Kaja Ilona Ingrid
+		}
+	}
+	surnames = {  
+		Pertola Törni Marttinen Arjanen Rajala Ryti Juutilanen Virtanen Korhonen Nieminen Laine Järvinen Karhu Kari Markkula Matilla Luoma Heikkinen Helminen Lahti Olli Oksanen Jaakola Janhunen Mäkelä Mäkinen
+	}
+	callsigns = { }
+}
+#Germany
+R13 = {
+	male = {
+		names = { 
+			Adolf Anton Emil Erich Felix Fritz Gerhard Gunther Hans Heinrich Heinz Hermann Joachim Karl Marco Max Maximilian Otto 
+			Peter Staffan Theodor Tobias Walter Wilhelm
+		}
+	}
+	female = {
+		names = { 
+			Emma Hanna Hildegard Jessica Marie Sofia
+		}
+	}
+	surnames = {  
+		Barkhorn Becker Behrmann Beisswenger Berglen Brendel Duttmann Erhler Fischer Graf Hafner Hartmann Hoffmann Kirschner Lang 
+		Lipfert Meyer Muller Rall Schmidt Schneider Schulz Stotz Sturm Wagner Weber Wilbs
+	}
+	callsigns = { }
+}
+#Greece-Turkey
+R14 = {
+	male = {
+		names = { 
+			Adamantios Alexandros Anastasios Andreas Antonios Aristidis Athanasios Augustinos Benizelos Charalambos
+			Charilaos Dimitrios Diomidis Eleftherios Emmanouil Epameinontas Evripidis Gennaios Georgios Ilias
+			Ionnis Kitsos Konstantinos Kyriakos Kyriakoulis Leonidas Makarios Markos Mikhael Militiadis
+			Nikolaos Odysseas Othon Panagiotis Pavlos Petros Sofoklis Sotiris Spyridion Spyros
+			Staikos Stefanos Stylianos Themistoklis Theodoros Tharyvoulos Tzannis Vasos Viktor Zinovios
+		}
+	}
+	female = {
+		names = { 
+			Alexandra Adriane Adriana Agathe Agatha Agne Agnes Aikaterine Alexeia Anastasia Anastasia 
+			Anna Anthe Anthousa Antipatra Antonia Apollonia Athanasia Barbara Basillike
+			Chrysogone Damiane Demetra Dionysia Dorothea Dorothy Aigidia Eirene Irene Elaiodora Epiphania 
+			Eudokia Eudocia Eudoxia Eugenia Eulalia Eunike Euphemia Euphrasia Euphrosyne Euphrosyne
+			Eupraxia Eusebia Eustathia Evanthia Gabrielia Garyphallia Georgia Gregoria Helene Helen 
+			Ioanna Joan Ioulia Julia Iouliana Juliana Ioustina Justina Kale Konstantia Constantia 
+			Konstantine Constantina Kyra Kyriake Hypatia Zoe
+		}
+	}
+	surnames = {  
+		Altanis Charalambis Christakis-Zografos Danglis Dousmanis Foumis Gonatas Hatzianestis Kallergis Kanaris Katsimiros
+		Kolokotronis Kondylis Kountouriotis Kriezis Makriyannis Manos Mavrocordatos Mavrovouniotis Metaxas Mouskos
+		Nider Othonaios Palaskas Pangalos Papadiamantopoulos Papadopoulos Papagos Papoulas Parakevopouolos Plapoutas
+		Plastiras Sapountzakis Sarafis Smolenskis Sofoulis Soutsos Spyromilios Staikopoulos Stanotas 
+		Trikoupis Tsakalotos Tsolakoglou  Tzavelas Vassos Venizelos Voulgaris Zaimis Zymvrakakis
+	}
+	callsigns = { }
+}
+#Iberia
+R15 = {
+	male = {
+		names = { 
+			Abel Adriano Afonso Alexandre Alfredo André António Aquilino Agustín Alberto Alejandro 
+			Alfonso Álvaro Antonio Arsenio Augusto Baldomero Artur Bartolomeu Bruno Caetano Cândido 
+			Christovão Cláudio	Baltasar Benito Bernardino Bernardo Calixto Carlos Celestino Claudio 
+			Cristobal Dámaso Damião Daniel David Dinis Diogo Duarte Ernesto Estêvão Eugénio Fernando	
+			Diego Dionisio Eduardo Emilio Estanislao Federico Felipe Félix Fernando Francisco Filipe 
+			Gastão Hermenegildo Ignácio Jerónimo João Joaquim Jorge	Gabino Gabriel Gaspar Genaro 
+			Gonzalo Ignacio Isidro Jacobo Jaime	Joaquín José Juan Julio Leopoldo Lorenzo José Júlio 
+			Luís Mário Nicolau Nuno Orlando	Luis Manuel Marcelo Mariano Mateo Melchor Miguel Nicolás 
+			Pablo Pascual Pedro Rafael Raimundo Ramón Ricardo Santiago Sebastián Segismundo Valeriano 
+			Vicente	Sebastião Teodoro Teófilo Tiago Tomé Urbano Vasco Vitorino Vitório	Óscar Pascoal 
+			Paulo Raul Roberto Rodrigo Rui
+		}
+	}
+	female = {
+		names = { 
+			Adelita Araceli Belén Camila Candelaria Chavela Consuelo Cristina Delfina Esperanza	Aldara 
+			Beatriz Berengaria Branca Blanche Constance Estevainha Stephania Fruilhe Fidelia Graciela 
+			Irene Isadora Isabella Jimena Ximena Luciana Lucrecia María Marisol	Guiomar Joana Leonor 
+			Margarida Maria Sancha Teresa Constança	Noemí Nohemi Valentina Valeria Rocío Socorro Sofía 
+			Teófila Amaranta Úrsula Rebeca Remedios
+		}
+	}
+	surnames = {  
+		"da Costa" "da Cunha" "da Silva" "de Albuquerque" "de Almeida" "de Arriaga" "de Bragança" 
+		"de Bragança-Coburgo" "de Carvalho" "de Castro" "de Gusmão" "de Lacerda" "de Mesquita" 
+		"de Carvajal" "de la Fuente" "de Orleans" Díaz Espartero Fernández   Franco	"de Moura" 
+		"de Noronha" "de Oliveira" "de Paiva" "de Sousa" "de Vasconcelos" Acuña Aguirre 
+		Allendesalazar Alonso Álvarez  Aranda  Asensio	Amaral Barreto Bleck Braga Cabral 
+		Capelo Carmona Coelho Correia Coutinho	Aznar Barradas Bugallal Cabrera Cano Cervera 
+		"de Albornoz"	Blázquez	Dias "dos Reis" "dos Santos" Fernandes Ferreira Figueira 
+		"Freire de Andrade" Gago Gil Gomes	García  González Heredia Hernández Herrera Hevia 
+		Linares López	Herculano Ivens Keil Lopes Machado Magalhães Mendes Moniz Mouzinho 
+		Nogueira	Maroto Márquez Martínez-Campos Maura Menéndez Miaja Millán-Astray Mina 
+		Mola Muñoz Narváez O'Donnell Ortega Pavía Pérez  Rodríguez Rojo Ruiz Nunes Ortigão Pereira 
+		Pinheiro Pinto Pires Pomar Pulido Queiroz Quintanilha Ribeiro Rodrigues Salazar Sampaio 
+		Sérgio Silveira Tavares Teixeira Vidigal Vieira	Sanjurjo Serrano Silvestre Topete Valdés 
+		Varela Villapol Villar Weyler Yagüe
+	}
+	callsigns = { }
+}
+#Indochina
+R16 = {
+	male = {
+		names = { 
+			Nangklao Mongkut Rama Chulalongkorn Chao Vajiravudh Prajadhipok Naritsaranuwatiwong Phya Plaek
+		}
+	}
+	female = {
+		names = { 
+			Amporn Chanarong Sri Suriyothai Panjapapee Komol
+		}
+	}
+	surnames = {  
+		Suriyawongse Saovabha Chichalerm Nitithada Phonphayuhasena
+	}
+	callsigns = { }
+}
+#Indonesia
+D17 = {
+	male = {
+		names = { 
+			Joko Fauzi Prabowo Ali Soemarno Henk Widji Teuku Hadi Azwar Mustafa Zaini Abdul Anak Ida Dewa
+		}
+	}
+	female = {
+		names = { 
+			Diah Siti
+		}
+	}
+	surnames = {  
+		Widodo Bowo Subianto Sadikin Sosroatmodjo Ngantung Permatasari Damono Wibowo Thukul Hartinah Gunawan Haryanto Suprianto Sabara Abubakar "Bagus Oka" "Bagus Mantra" Martha
+	}
+	callsigns = { }
+}
+#Midwestern America
+R18 = {
+	male = {
+		names = { 
+			Adam Alexander William Henry Michael Samuel Joshua George John Matthew Mark Luke Lucas Jeffrey Ulysses 
+			Joseph Charles Russell Benjamin Robert Christopher Richard Chester Lafayette Nathaniel Francis James Donald Cyrus Ambrose
+			Edward Eugene Augustus Norton Abner Isaac Amos Thomas Randolph
+			Robert Jesse James Nathan George Joseph John Patrick Albert Braxton William Ambrose Jubal Richard 
+			Lewis Edmund Leonida Benjamin Wade Daniel Thomas Jonathan Stonewall Lemual Sterling Raphael Kirby Pierre 
+			Jonas Frank Charles Peter Rand Leslie Howard Malvin Oscar Henry Simon Edward Gideon Isaac Evander Jerome Alfred Cadmus
+			Carnot Ezra Wilton Hamilton Matthew Richard Hiram Thomas Elkanah John William James Albert Wilburn Walter Hinchie Samuel Benjamin 
+			Henry Allison Horace Felix Jerome Lawrence Alexander Louis Steven Zach
+		}
+	}
+	female = {
+		names = { 
+			Mary Jane Kate Eleanor Charlotte Lisa Isabel Jay Carol Nancy Margaret
+		}
+	}
+	surnames = {  
+		Smith Washington Grant Sherman Chamberlain Powell Clemens Abbott Abercrombie Allen Ames Anderson Barkhauer Andrews Appleton
+		Armstrong Arthur Atkins Asboth Babcock Baker Pope Banks Barnard Barnes Barnum Barry Barstow Bartlett Bates 
+		Baxter Beatty Belknap Benton Blair Blunt Bradley Brown Buell Buford Burnside Butler Caldwell Campbell Carr
+		Chapman Chipman Clayton Coburn Connor Conrad Cook Cooper Crittenden Custer Davies Davis Doubleday Ewing Farnsworth 
+		Ford Forsyth Foster Franklin Fry Gilbert Gregg Griffin Halleck Hamlin Hancock Harrison Hatch Hayes Heintzelman
+		Hooker Howard Hunter Jackson Johnson Jones Keyes Kimball Lyon McArthur McClellan McCook McDowell Meade Mitchell
+		Morgan Paine Phelps Porter Potter Reynolds Rice Rhodes Robinson Rosencrans Saloman Schenck Schofield Scott Sedgwick
+		Seward Sheridan Sickles Sprague Stevens Stevenson Stone Sullivan Taylor Tyler Wade Wadsworth Wallace Ward Warner
+		Wilson Wright Young Lee Jackson Johnson Beauregard Stuart Longstreet Forrest Pickett Mosby Cleburne Hood Breckenridge Bragg 
+		Barksdale Early Hill Ewell Morgan Armistead Semmes Smith Hampton Polk Cheatham Wheeler Pemberton Gordon Hardee Floyd Price 
+		Wise "Van Dorn" Loring Buckner Taylor Williams French Gibbs Hindman Anderson Sibley Garnett Magruder Pillow McLaws Rodes Heth 
+		Pender Trimble Kershaw Wofford Kemper Law Robertson Benning Hays Walker Iverson Wilcox Mahone Wright Pettigrew Archer 
+		Davis Lane Posey Scales Warner Imboden Jenkins Bee Ector Gano Granbury Green Greer Gregg Hardeman Harrison Hood Johnston King Lane Mabry Maxey McCulloch Moore 
+		Nelson Randal Robertson Ross Rosser Scurry Steele Terrell Waterhouse Waul Wharton Whitfield Wigfall Young Bowie Travis Houston
+		Wells Holmgren
+	}
+	callsigns = { }
+}
+#North Germany
+R19 = {
+	male = {
+		names = { 
+			Adolf Anton Emil Erich Felix Fritz Gerhard Gunther Hans Heinrich Heinz Hermann Joachim Karl Marco Max Maximilian Otto 
+			Peter Staffan Theodor Tobias Walter Wilhelm
+		}
+	}
+	female = {
+		names = { 
+			Emma Hanna Hildegard Jessica Marie Sofia
+		}
+	}
+	surnames = {  
+		Barkhorn Becker Behrmann Beisswenger Berglen Brendel Duttmann Erhler Fischer Graf Hafner Hartmann Hoffmann Kirschner Lang 
+		Lipfert Meyer Muller Rall Schmidt Schneider Schulz Stotz Sturm Wagner Weber Wilbs
+	}
+	callsigns = { }
+}
+#Northeastern America
+R20 = {
+	male = {
+		names = { 
+			Adam Alexander William Henry Michael Samuel Joshua George John Matthew Mark Luke Lucas Jeffrey Ulysses 
+			Joseph Charles Russell Benjamin Robert Christopher Richard Chester Lafayette Nathaniel Francis James Donald Cyrus Ambrose
+			Edward Eugene Augustus Norton Abner Isaac Amos Thomas Randolph
+			Robert Jesse James Nathan George Joseph John Patrick Albert Braxton William Ambrose Jubal Richard 
+			Lewis Edmund Leonida Benjamin Wade Daniel Thomas Jonathan Stonewall Lemual Sterling Raphael Kirby Pierre 
+			Jonas Frank Charles Peter Rand Leslie Howard Malvin Oscar Henry Simon Edward Gideon Isaac Evander Jerome Alfred Cadmus
+			Carnot Ezra Wilton Hamilton Matthew Richard Hiram Thomas Elkanah John William James Albert Wilburn Walter Hinchie Samuel Benjamin 
+			Henry Allison Horace Felix Jerome Lawrence Alexander Louis Steven Zach
+		}
+	}
+	female = {
+		names = { 
+			Mary Jane Kate Eleanor Charlotte Lisa Isabel Jay Carol Nancy Margaret
+		}
+	}
+	surnames = {  
+		Smith Washington Grant Sherman Chamberlain Powell Clemens Abbott Abercrombie Allen Ames Anderson Barkhauer Andrews Appleton
+		Armstrong Arthur Atkins Asboth Babcock Baker Pope Banks Barnard Barnes Barnum Barry Barstow Bartlett Bates 
+		Baxter Beatty Belknap Benton Blair Blunt Bradley Brown Buell Buford Burnside Butler Caldwell Campbell Carr
+		Chapman Chipman Clayton Coburn Connor Conrad Cook Cooper Crittenden Custer Davies Davis Doubleday Ewing Farnsworth 
+		Ford Forsyth Foster Franklin Fry Gilbert Gregg Griffin Halleck Hamlin Hancock Harrison Hatch Hayes Heintzelman
+		Hooker Howard Hunter Jackson Johnson Jones Keyes Kimball Lyon McArthur McClellan McCook McDowell Meade Mitchell
+		Morgan Paine Phelps Porter Potter Reynolds Rice Rhodes Robinson Rosencrans Saloman Schenck Schofield Scott Sedgwick
+		Seward Sheridan Sickles Sprague Stevens Stevenson Stone Sullivan Taylor Tyler Wade Wadsworth Wallace Ward Warner
+		Wilson Wright Young Lee Jackson Johnson Beauregard Stuart Longstreet Forrest Pickett Mosby Cleburne Hood Breckenridge Bragg 
+		Barksdale Early Hill Ewell Morgan Armistead Semmes Smith Hampton Polk Cheatham Wheeler Pemberton Gordon Hardee Floyd Price 
+		Wise "Van Dorn" Loring Buckner Taylor Williams French Gibbs Hindman Anderson Sibley Garnett Magruder Pillow McLaws Rodes Heth 
+		Pender Trimble Kershaw Wofford Kemper Law Robertson Benning Hays Walker Iverson Wilcox Mahone Wright Pettigrew Archer 
+		Davis Lane Posey Scales Warner Imboden Jenkins Bee Ector Gano Granbury Green Greer Gregg Hardeman Harrison Hood Johnston King Lane Mabry Maxey McCulloch Moore 
+		Nelson Randal Robertson Ross Rosser Scurry Steele Terrell Waterhouse Waul Wharton Whitfield Wigfall Young Bowie Travis Houston
+		Wells Holmgren
+	}
+	callsigns = { }
+}
+#Pacific America
+R21 = {
+	male = {
+		names = { 
+			Adam Alexander William Henry Michael Samuel Joshua George John Matthew Mark Luke Lucas Jeffrey Ulysses 
+			Joseph Charles Russell Benjamin Robert Christopher Richard Chester Lafayette Nathaniel Francis James Donald Cyrus Ambrose
+			Edward Eugene Augustus Norton Abner Isaac Amos Thomas Randolph
+			Robert Jesse James Nathan George Joseph John Patrick Albert Braxton William Ambrose Jubal Richard 
+			Lewis Edmund Leonida Benjamin Wade Daniel Thomas Jonathan Stonewall Lemual Sterling Raphael Kirby Pierre 
+			Jonas Frank Charles Peter Rand Leslie Howard Malvin Oscar Henry Simon Edward Gideon Isaac Evander Jerome Alfred Cadmus
+			Carnot Ezra Wilton Hamilton Matthew Richard Hiram Thomas Elkanah John William James Albert Wilburn Walter Hinchie Samuel Benjamin 
+			Henry Allison Horace Felix Jerome Lawrence Alexander Louis Steven Zach
+		}
+	}
+	female = {
+		names = { 
+			Mary Jane Kate Eleanor Charlotte Lisa Isabel Jay Carol Nancy Margaret
+		}
+	}
+	surnames = {  
+		Smith Washington Grant Sherman Chamberlain Powell Clemens Abbott Abercrombie Allen Ames Anderson Barkhauer Andrews Appleton
+		Armstrong Arthur Atkins Asboth Babcock Baker Pope Banks Barnard Barnes Barnum Barry Barstow Bartlett Bates 
+		Baxter Beatty Belknap Benton Blair Blunt Bradley Brown Buell Buford Burnside Butler Caldwell Campbell Carr
+		Chapman Chipman Clayton Coburn Connor Conrad Cook Cooper Crittenden Custer Davies Davis Doubleday Ewing Farnsworth 
+		Ford Forsyth Foster Franklin Fry Gilbert Gregg Griffin Halleck Hamlin Hancock Harrison Hatch Hayes Heintzelman
+		Hooker Howard Hunter Jackson Johnson Jones Keyes Kimball Lyon McArthur McClellan McCook McDowell Meade Mitchell
+		Morgan Paine Phelps Porter Potter Reynolds Rice Rhodes Robinson Rosencrans Saloman Schenck Schofield Scott Sedgwick
+		Seward Sheridan Sickles Sprague Stevens Stevenson Stone Sullivan Taylor Tyler Wade Wadsworth Wallace Ward Warner
+		Wilson Wright Young Lee Jackson Johnson Beauregard Stuart Longstreet Forrest Pickett Mosby Cleburne Hood Breckenridge Bragg 
+		Barksdale Early Hill Ewell Morgan Armistead Semmes Smith Hampton Polk Cheatham Wheeler Pemberton Gordon Hardee Floyd Price 
+		Wise "Van Dorn" Loring Buckner Taylor Williams French Gibbs Hindman Anderson Sibley Garnett Magruder Pillow McLaws Rodes Heth 
+		Pender Trimble Kershaw Wofford Kemper Law Robertson Benning Hays Walker Iverson Wilcox Mahone Wright Pettigrew Archer 
+		Davis Lane Posey Scales Warner Imboden Jenkins Bee Ector Gano Granbury Green Greer Gregg Hardeman Harrison Hood Johnston King Lane Mabry Maxey McCulloch Moore 
+		Nelson Randal Robertson Ross Rosser Scurry Steele Terrell Waterhouse Waul Wharton Whitfield Wigfall Young Bowie Travis Houston
+		Wells Holmgren
+	}
+	callsigns = { }
+}
+#Quebec
+R22 = {
+	male = {
+		names = {  
+			Achille Adolphe Adrien Aimable Alphonse Amédée Antoine Armand August Augustin
+			Charles Daniel Denis Édouard Elie Éttiene Eugène Félicien Félix Fernand
+			François Frédéric Georges Guillaume Gustave Henri Hubert Hugo Jacques Jean
+			Joseph Jules Julien Lazare Léopold Leroy Louis Lucien Matthieu Michel
+			Napoléon Nicolas Patrice Paul Philippe Pierre Robert Thibaut Thierry Thomas
+		 }
+	}
+	female = {
+		names = { Anne Marie Françoise Gisèle Marguerite Marianne Simone Anaïs Irène Nathalie Elsa }
+	}
+	surnames = {
+		Anthoine "Baraguey d'Hilliers" Bazaine Billot Bosquet "Boué de Lapeyrère" Bouët-Willaumez Boulanger Bourbaki
+		Bugeaud Caillard Canrobert Courbet Cousin-Mountauban Davout "de Castellane" "de Castelnau" 
+		"de Langle de Cary" "de MacMahon" "de Montaignac" "de Saint Arnaud" d'Orleans Dubail Dubois Duchêne Dupetit-Thouars Exelmans
+		Foch Forey "Franchet d'Espèrey" Gallieni Gouraud Guillaumat Hamelin Harispe Hoche Humbert
+		Jaurès Joffre Lebouef Lyautey Murat "Ney d'Elchingen" Nivelle Péllissier Petain Vaillant
+	}
+	callsigns = { }
+}
+#American Rockies
+R23 = {
+	male = {
+		names = { 
+			Adam Alexander William Henry Michael Samuel Joshua George John Matthew Mark Luke Lucas Jeffrey Ulysses 
+			Joseph Charles Russell Benjamin Robert Christopher Richard Chester Lafayette Nathaniel Francis James Donald Cyrus Ambrose
+			Edward Eugene Augustus Norton Abner Isaac Amos Thomas Randolph
+			Robert Jesse James Nathan George Joseph John Patrick Albert Braxton William Ambrose Jubal Richard 
+			Lewis Edmund Leonida Benjamin Wade Daniel Thomas Jonathan Stonewall Lemual Sterling Raphael Kirby Pierre 
+			Jonas Frank Charles Peter Rand Leslie Howard Malvin Oscar Henry Simon Edward Gideon Isaac Evander Jerome Alfred Cadmus
+			Carnot Ezra Wilton Hamilton Matthew Richard Hiram Thomas Elkanah John William James Albert Wilburn Walter Hinchie Samuel Benjamin 
+			Henry Allison Horace Felix Jerome Lawrence Alexander Louis Steven Zach
+		}
+	}
+	female = {
+		names = { 
+			Mary Jane Kate Eleanor Charlotte Lisa Isabel Jay Carol Nancy Margaret
+		}
+	}
+	surnames = {  
+		Smith Washington Grant Sherman Chamberlain Powell Clemens Abbott Abercrombie Allen Ames Anderson Barkhauer Andrews Appleton
+		Armstrong Arthur Atkins Asboth Babcock Baker Pope Banks Barnard Barnes Barnum Barry Barstow Bartlett Bates 
+		Baxter Beatty Belknap Benton Blair Blunt Bradley Brown Buell Buford Burnside Butler Caldwell Campbell Carr
+		Chapman Chipman Clayton Coburn Connor Conrad Cook Cooper Crittenden Custer Davies Davis Doubleday Ewing Farnsworth 
+		Ford Forsyth Foster Franklin Fry Gilbert Gregg Griffin Halleck Hamlin Hancock Harrison Hatch Hayes Heintzelman
+		Hooker Howard Hunter Jackson Johnson Jones Keyes Kimball Lyon McArthur McClellan McCook McDowell Meade Mitchell
+		Morgan Paine Phelps Porter Potter Reynolds Rice Rhodes Robinson Rosencrans Saloman Schenck Schofield Scott Sedgwick
+		Seward Sheridan Sickles Sprague Stevens Stevenson Stone Sullivan Taylor Tyler Wade Wadsworth Wallace Ward Warner
+		Wilson Wright Young Lee Jackson Johnson Beauregard Stuart Longstreet Forrest Pickett Mosby Cleburne Hood Breckenridge Bragg 
+		Barksdale Early Hill Ewell Morgan Armistead Semmes Smith Hampton Polk Cheatham Wheeler Pemberton Gordon Hardee Floyd Price 
+		Wise "Van Dorn" Loring Buckner Taylor Williams French Gibbs Hindman Anderson Sibley Garnett Magruder Pillow McLaws Rodes Heth 
+		Pender Trimble Kershaw Wofford Kemper Law Robertson Benning Hays Walker Iverson Wilcox Mahone Wright Pettigrew Archer 
+		Davis Lane Posey Scales Warner Imboden Jenkins Bee Ector Gano Granbury Green Greer Gregg Hardeman Harrison Hood Johnston King Lane Mabry Maxey McCulloch Moore 
+		Nelson Randal Robertson Ross Rosser Scurry Steele Terrell Waterhouse Waul Wharton Whitfield Wigfall Young Bowie Travis Houston
+		Wells Holmgren
+	}
+	callsigns = { }
+}
+#Scandinavia
+R24 = {
+	male = {
+		names = { 
+			Aage Adam Adolph Alber Alexander Anders Andreas Anton Asmund Astrathur Axel Baldur Björn Carl Christian Dagbjartur Dan Daniel 
+			David Dennis Edvard Edvin Eggthor Emil Erik Felix Folke Frederik Fredrik Freyr Georg Gustav Haakon Hannibal Hans Harald Henrik 
+			Herman Hjörtur Hugo Ivar Jacob Jakob Jens Johan John Jonas Julius Kaare Knud Lorentz Ludvig Lórens Magnus Martin Michael 
+			Niels Niklas Nils Odd Oddleifur Ögrim Olaf Olav Ole Olof Otto Paul Per Peter Petter Poul Rikard Robin Rufus Sigurd Sturlaugr 
+			Sven Sverre Søren Tage Thomas Thorvald Tobias Tryggve Ukrik Vagn Valdemar Vilhelm Wilhelm
+		}
+	}
+	female = {
+		names = { 
+			Alma Anna Arnfrithur Árný Asta Astrid Bjarnhildur Boghildur Camilla Caroline Drótt Dómhildur Ebba Eira Elsa Else Eva Freydís 
+			Gerda Greta Grete Gunnrún Helga Ingeborg Jytte Kaja Kajsa Karen Katya Linda Linnéa Lotta Malin Monica Monika Nela Olivia Paula 
+			Pernilla Rafney Sara Signe Torhild Tove Trine Trude
+		}
+	}
+	surnames = {  
+		Aagesson Ahlefeldt Åslund Andersson Anward Arjanen Asp-Persson Astrathursson Baldursson Berg Berger Björk Björnsson Blomberg 
+		Blöndal Bodlund Bonde Borg Brandt Brolin Carenwall Carlberg Carlsen Cederholm Cornelius Dahl Dahlberg Dannemand Danneskjold-Samso
+		Eberlin Eggthorsson Ekre Elgerot Eriksen Falck Falsen Fleischer Folsach Frisvold Gyldenfeldt Güntelberg Haack Hambro Hamre
+		Hansen Hargelid Hasselström Hauge Have Haxthausen Heikkinen Helminen Hemmingsson Hjörtursson Hultdin Ivarsson Jaakola Janhunen
+		Jenelius Johansson Juul Juutilanen Järvinen Karhu Karlsson Kiby Klauman Knubb Korhonen Krogh Laessoe Lagerqvist Lahti
+		Laine Lerström Leuenbach Lie Lind Lindgren Lovenbalk Lund Lundström Luoma Markkula Marttinen Matilla Michaelsen Munthe Mylius
+		Mäkelä Mäkinen Neergaard Nieminen Nisshagen Nordhaug Norrevik Nørregaard Obelitz Oddleifsson Oksanen Olli Oltner Oxholm Palmqvist
+		Pertola Petersen Prytz Rajala Renström Reventlow Rickne Rosenkrantz Ryti Ræder Schack-Schackenborg Sejersted Sjöberg Sjöman Sparrhult
+		Stemman Ström Suenson Sunde Teige Thorarensen Thygeson Tisander Trampe Tronde Törni Urne Vagnsson Viklund Vilberg Virtanen Wadenstierna
+		Wedel-Heinen Wendel Wergeland Wester Wickerström Zetterman Zytphen-Adeler
+	}
+	callsigns = { }
+}
+#South Germany
+R25 = {
+	male = {
+		names = { 
+			Adolf Anton Emil Erich Felix Fritz Gerhard Gunther Hans Heinrich Heinz Hermann Joachim Karl Marco Max Maximilian Otto 
+			Peter Staffan Theodor Tobias Walter Wilhelm
+		}
+	}
+	female = {
+		names = { 
+			Emma Hanna Hildegard Jessica Marie Sofia
+		}
+	}
+	surnames = {  
+		Barkhorn Becker Behrmann Beisswenger Berglen Brendel Duttmann Erhler Fischer Graf Hafner Hartmann Hoffmann Kirschner Lang 
+		Lipfert Meyer Muller Rall Schmidt Schneider Schulz Stotz Sturm Wagner Weber Wilbs
+	}
+	callsigns = { }
+}
+#Southeastern America
+R26 = {
+	male = {
+		names = { 
+			Adam Alexander William Henry Michael Samuel Joshua George John Matthew Mark Luke Lucas Jeffrey Ulysses 
+			Joseph Charles Russell Benjamin Robert Christopher Richard Chester Lafayette Nathaniel Francis James Donald Cyrus Ambrose
+			Edward Eugene Augustus Norton Abner Isaac Amos Thomas Randolph
+			Robert Jesse James Nathan George Joseph John Patrick Albert Braxton William Ambrose Jubal Richard 
+			Lewis Edmund Leonida Benjamin Wade Daniel Thomas Jonathan Stonewall Lemual Sterling Raphael Kirby Pierre 
+			Jonas Frank Charles Peter Rand Leslie Howard Malvin Oscar Henry Simon Edward Gideon Isaac Evander Jerome Alfred Cadmus
+			Carnot Ezra Wilton Hamilton Matthew Richard Hiram Thomas Elkanah John William James Albert Wilburn Walter Hinchie Samuel Benjamin 
+			Henry Allison Horace Felix Jerome Lawrence Alexander Louis Steven Zach
+		}
+	}
+	female = {
+		names = { 
+			Mary Jane Kate Eleanor Charlotte Lisa Isabel Jay Carol Nancy Margaret
+		}
+	}
+	surnames = {  
+		Smith Washington Grant Sherman Chamberlain Powell Clemens Abbott Abercrombie Allen Ames Anderson Barkhauer Andrews Appleton
+		Armstrong Arthur Atkins Asboth Babcock Baker Pope Banks Barnard Barnes Barnum Barry Barstow Bartlett Bates 
+		Baxter Beatty Belknap Benton Blair Blunt Bradley Brown Buell Buford Burnside Butler Caldwell Campbell Carr
+		Chapman Chipman Clayton Coburn Connor Conrad Cook Cooper Crittenden Custer Davies Davis Doubleday Ewing Farnsworth 
+		Ford Forsyth Foster Franklin Fry Gilbert Gregg Griffin Halleck Hamlin Hancock Harrison Hatch Hayes Heintzelman
+		Hooker Howard Hunter Jackson Johnson Jones Keyes Kimball Lyon McArthur McClellan McCook McDowell Meade Mitchell
+		Morgan Paine Phelps Porter Potter Reynolds Rice Rhodes Robinson Rosencrans Saloman Schenck Schofield Scott Sedgwick
+		Seward Sheridan Sickles Sprague Stevens Stevenson Stone Sullivan Taylor Tyler Wade Wadsworth Wallace Ward Warner
+		Wilson Wright Young Lee Jackson Johnson Beauregard Stuart Longstreet Forrest Pickett Mosby Cleburne Hood Breckenridge Bragg 
+		Barksdale Early Hill Ewell Morgan Armistead Semmes Smith Hampton Polk Cheatham Wheeler Pemberton Gordon Hardee Floyd Price 
+		Wise "Van Dorn" Loring Buckner Taylor Williams French Gibbs Hindman Anderson Sibley Garnett Magruder Pillow McLaws Rodes Heth 
+		Pender Trimble Kershaw Wofford Kemper Law Robertson Benning Hays Walker Iverson Wilcox Mahone Wright Pettigrew Archer 
+		Davis Lane Posey Scales Warner Imboden Jenkins Bee Ector Gano Granbury Green Greer Gregg Hardeman Harrison Hood Johnston King Lane Mabry Maxey McCulloch Moore 
+		Nelson Randal Robertson Ross Rosser Scurry Steele Terrell Waterhouse Waul Wharton Whitfield Wigfall Young Bowie Travis Houston
+		Wells Holmgren
+	}
+	callsigns = { }
+}
+#Southwestern America
+R27 = {
+	male = {
+		names = { 
+			Adam Alexander William Henry Michael Samuel Joshua George John Matthew Mark Luke Lucas Jeffrey Ulysses 
+			Joseph Charles Russell Benjamin Robert Christopher Richard Chester Lafayette Nathaniel Francis James Donald Cyrus Ambrose
+			Edward Eugene Augustus Norton Abner Isaac Amos Thomas Randolph
+			Robert Jesse James Nathan George Joseph John Patrick Albert Braxton William Ambrose Jubal Richard 
+			Lewis Edmund Leonida Benjamin Wade Daniel Thomas Jonathan Stonewall Lemual Sterling Raphael Kirby Pierre 
+			Jonas Frank Charles Peter Rand Leslie Howard Malvin Oscar Henry Simon Edward Gideon Isaac Evander Jerome Alfred Cadmus
+			Carnot Ezra Wilton Hamilton Matthew Richard Hiram Thomas Elkanah John William James Albert Wilburn Walter Hinchie Samuel Benjamin 
+			Henry Allison Horace Felix Jerome Lawrence Alexander Louis Steven Zach
+		}
+	}
+	female = {
+		names = { 
+			Mary Jane Kate Eleanor Charlotte Lisa Isabel Jay Carol Nancy Margaret
+		}
+	}
+	surnames = {  
+		Smith Washington Grant Sherman Chamberlain Powell Clemens Abbott Abercrombie Allen Ames Anderson Barkhauer Andrews Appleton
+		Armstrong Arthur Atkins Asboth Babcock Baker Pope Banks Barnard Barnes Barnum Barry Barstow Bartlett Bates 
+		Baxter Beatty Belknap Benton Blair Blunt Bradley Brown Buell Buford Burnside Butler Caldwell Campbell Carr
+		Chapman Chipman Clayton Coburn Connor Conrad Cook Cooper Crittenden Custer Davies Davis Doubleday Ewing Farnsworth 
+		Ford Forsyth Foster Franklin Fry Gilbert Gregg Griffin Halleck Hamlin Hancock Harrison Hatch Hayes Heintzelman
+		Hooker Howard Hunter Jackson Johnson Jones Keyes Kimball Lyon McArthur McClellan McCook McDowell Meade Mitchell
+		Morgan Paine Phelps Porter Potter Reynolds Rice Rhodes Robinson Rosencrans Saloman Schenck Schofield Scott Sedgwick
+		Seward Sheridan Sickles Sprague Stevens Stevenson Stone Sullivan Taylor Tyler Wade Wadsworth Wallace Ward Warner
+		Wilson Wright Young Lee Jackson Johnson Beauregard Stuart Longstreet Forrest Pickett Mosby Cleburne Hood Breckenridge Bragg 
+		Barksdale Early Hill Ewell Morgan Armistead Semmes Smith Hampton Polk Cheatham Wheeler Pemberton Gordon Hardee Floyd Price 
+		Wise "Van Dorn" Loring Buckner Taylor Williams French Gibbs Hindman Anderson Sibley Garnett Magruder Pillow McLaws Rodes Heth 
+		Pender Trimble Kershaw Wofford Kemper Law Robertson Benning Hays Walker Iverson Wilcox Mahone Wright Pettigrew Archer 
+		Davis Lane Posey Scales Warner Imboden Jenkins Bee Ector Gano Granbury Green Greer Gregg Hardeman Harrison Hood Johnston King Lane Mabry Maxey McCulloch Moore 
+		Nelson Randal Robertson Ross Rosser Scurry Steele Terrell Waterhouse Waul Wharton Whitfield Wigfall Young Bowie Travis Houston
+		Wells Holmgren
+	}
+	callsigns = { }
+}
+#Transcaucasia
+R28 = {
+	male = {
+		names = { 
+			Aleksander Alexei Andrei Anton Boris Dmitry Fyodor Gennady 
+            Giorgi Grigoriy Igor Ilya Ivan Kirill Konstantin Lavr Leonid Lev Maxim 
+            Mikhail Nikita Nikolai Oleg Pavel Pyotr Roman Semyon Sergei 
+            Valery Vasily Viktor Vladimir Vladislav Yegor Yevgeny Yuri
+		}
+	}
+	female = {
+		names = { 
+			Jelena Ludmila Ella Svetlana Margarita Elena Natalya Lydia Valentina Olga Alexandra Sofia Albina
+		}
+	}
+	surnames = {  
+		Alexseyev Antonov Azarov Badanov Brusilov Budyonny Chibisov Denikin 
+        Dragomirov Frolov Golivin Grishin Gurko Ivanov Ivannikov Konev Konstantinov Kornilov 
+        Kolchak Kuropatkin Lazarev Makarov Menshikov Nakhimov Nebogatov 
+        Nikolaevich Nikitin Ostrovsky Pavlov Putyatin Romanov Rozhestvensky Skobelev 
+        Shuvalov Surkov Tukhachevsky Yegorov Yudenich Vorontsov Voroshilov Zavoyko
+	}
+	callsigns = { }
+}
+#Western Provinces
+R29 = {
+	male = {
+		names = { 
+			Charles John Frederick Douglas Patrick Leonard Henry Arthur Alexander Campbell Gilbert 
+			Albert Victor Julian Francis James 
+		}
+	}
+	female = {
+		names = { Emma Lea Olivia Alice Florence Zoe Chloe Beatrice Charlotte Rosalie Eva Juliette Sofia Jade Camille Victoria }
+	}
+	surnames = { 
+			Grey Elliot Hamilton Gordon Stanley Campbell Ross Petty-Fitzmaurice Windham Young Doyle 
+			Hastings Blackwood MacDougall 
+	}
+	callsigns = { }
+}
+#North Africa
+R30 = {
+	male = {
+		names = { 
+			Aali "Abd Al-Latif" Abdul "Abdul-Rahman" Abu Adnan Ahmed Ali Amir Ammar Ashfaq Ayuub Baqi Bassem Danyal Esmail Fadil Fareed Fawzi Gabir Ghufran Haider Hakeem Hamid Hanif Hatim Houssam Husain Ibrahim
+			Idris Imen Iskandar "Ismai'il" Jafar Jamal Jibril Karim Latif Mahometus Maqsud "Mikha'il" Mohammed Mostafa Murtada Nadeem Najm Navid Nur Omar Osama Qasim Rais Rashid Rayan Ruh Saif Salih Shad Shakir
+			Shukri Sulaiman Taj Tayyib Wafai Yakub Yuhanna Zahi Zawar Zulfaqar Abbas Abd Abdalaati Abdallah Abdelaziz Abdelhak Abdelilah Abdelkader Abdellatif Abdessadeq "Abu Bakr" Ahmed Alber Albert Ali Andre 
+			Azzeddine Bachir Bouchaib Bouchta Brahim David Driss Elam Eli Faouzi Gad Hassan Hicham Henry Hicham Imad Isaac Ismael Jamal Jamel Jaouad Jo Judah Kacem Khalid Laarbi Omar Maati Mahmoud Mehdi 
+			Mohamed Mohammed Moshe Mouad Moulay Nabil Nadir Najib Rachid Ralph Rhadi Robert Ryan Said Salah Samuel Samy Shlomo Abdelaziz Abdelkader Abdelmalek Albert Boualem Chadli Frantz Ferhat Giorgio Houari 
+			Jacques Kamel Kateb Madjid Mehdi Moufdi Nabil Rabah Rafik Sofiane Yacine Yasmina Abdelaziz Abdelhamid Abdellatif Abdelmajid Adnan Ahmad Ahmed Ali Amine Anis Aymen Aziz Azzedine Bassem Chedli Farhat 
+			Féthi Fouad Habib Hamza Hassine Haykel Hédi Hichem Hubert Imed Issam Jaleleddine Jameleddine Jean Khalil Khelil Mahmoud Michel Moez Mohamed Mohsen Moncef Muhammad Mustapha Nejib Norbert Omrane 
+			Oussama Rachid Radhi Roberto Serge Sorj Tahar Tarak Victor Wajdi Walid Wissem Ziad Zied "Abd Allah" "Abd al-Karim" "Abd al-Malik" "Abd al-Qadir" "Abd al-Rahman" "Abu Bakr" Ahmad Ali 
+			Fawzi Fuad Halil Hasan Hisham Ibrahim Ishaq Iskandar Ja'far Jamal Kamil Khalid Muhammad Mustafa "Nur al-Din" "Sa'd al-Din" Salim  Sa'ud Shukri Tawfiq Umar Uthman Yahya Yusuf Zafir 
+			Abdallahi Abderrahmane Abdoulaye Adama Ahmad Ahmed Ahmedou Ba Birama Boulah Cheikh Dah Dahmed Diallo Doudou Drissa Ely Hmeida Ibrahima Jidou Khalid Maaouya Mahfoud Messaoud Mohamed Moktar Moulaye 
+			Moussa Moustapha Mustafa Saleh Sghair Sid Sidi Souleyman Tene Thiam Tijani Yahya Zeidane Zeine
+		}
+	}
+	female = {
+		names = { 
+			Aaliyah Aisha Amaal Anisa Ayda Basma Djamila Farah Fatin Gamila Hadia Haifa Haniyah Hosni Ihab Isaac Israa Jathibiyya Khalida Latifa Maha Mahi Mona Nadia Nashwa Nimat Rabab Rana Rayhana Ruqayyah Sahar 
+			Samia Sarah Shahrizad Shayma Suraya Uzma Yasmin Zahia Zakiya Zulekha Amina Danielle Halima Hasna Latifa Leila Nadia Najat Nezha Sanaa Shatha Simone Sofia Yasmine Ahlam Assia Hélène
+			Amina Amira Azza Choubeila Claudia Hana Inès Jacqueline Kalthoum Leïla Maroi Maroua Mouna Raja Syrine Tewhida Randa Tabassum Dema Dimah Dinara Dua Durra Durriyya Edza Eleonorka Eleanor Faghissa Fahriya 
+			Fariza Fedada Tazenkwedt Tazirit Tazrurt Tella Temzi Tfit Tigmi Tikinas Tilelli Timmi Tinhinan Tintadefi Aicha Dimi Malouma Mintata 
+		}
+	}
+	surnames = {  
+		Abdullah Abdulrashid Ahmad Ahmed Ajam "Al-Amin" Alfarsi "Al-Ghazzawi" "Al-Hashim" Ali "Al-Mufti" Amjad Boulos Bousaid Hakim Hussain Kader Karim Karimi Mohammed Muhammad Naaji Nagi Najm Nejem Qadir Saab Samara
+		Saqqaf Sultan Tawfeek Tawfiq Zaman Aamara Abdelhadi Abouzeid Aflalo "ibn Al-Aftas" Alfasi "Abed Al-Jabri" Amhali Attar Balafej Basri Belhsen "Ben-Ami" Benhima Bensaidi "El Bidaoui" Bitton Bouabid Chami 
+		"Ali Cherif" Debbouze Elbaz Essaidi "Al-Fasi" Ferroukhi "El Ghazzali" Guinia Hakmoun "Al-Hassar" "ben David Hayyuj" Ibrahim Jay Kaghat Khayat Laabi Lahlou Laraki Maan "El Marikh" Mezouar "El Moutawakel" 
+		Noury "El Othmani" Pinto Reno Roukhe Skah Tamsamani  Tietjen Youssoufi Zarra Abbas Abeid Arkoun "Ben Bella" Bendjedid Bentaleb Bitat Bougherra Boumediene Bouteflika Brahimi Camus Chiellini Cixous Daoud 
+		Derrida Djebar Djebbour "El Djezairi" Fanon Feghouli Ghilas Khadra Mosteghanemi Sansal Sellal Yacine Zakaria Achouri "Al-Amin" Alaia "Ben Ali" "Ben Ammar" Anani Aslan Ayari "Ben Azzabi" Baccouche 
+		"Balti-Ebondo" Belhedi Belkadhi Belkhodja Besbes Bhairi Blanco Bouallègue Boubakri Boughanmi Bouhageb Boujenah Bourguiba Brami Bramly Cardinale "Ben Chaabane" Chalandon "Ben Cherifia" Chebbi Chemmam 
+		Chenik Chermiti Dinguizli "ibn Abi Diyaf" Djellouli Ennachi Fadhel Haddad Haddaoui Hakimi Hamdouni Hergal Hmam Ikram Jaïdi "Ben Jafar" Jaziri Kechich Khaldun Khayachi Khayat Klibi Korbi Lakhal Lakhoua 
+		Limam Lounifi Luc Mareghni Mathlouthi Marzouki Mebazaa Meddeb Melliti Mellouli Mezien Mhedhebi "Ben Mrad" Nagga "Ben Nasser" Noureddine Ounaies Perez Rached Rajhi Rhimi Sadok Said Sarrai Sellami Sghaïer 
+		"Ben Sheikh" Soliman Sriti Taïeb Tej Thâalbi Touati Toumi Zitouni "ibn Abd Allah" "ibn Abd al-Qadir" "ibn Abu Bakr" "ibn Ahmad" "ibn Ali" "ibn Fuad" "ibn Halil" "ibn Hasan" "ibn Hisham" "ibn Ishaq" 
+		"ibn Ja'far" "ibm Kamil" "ibn Khalid" "ibn Muhammad" "ibn Mustafa" "ibn Salim" "ibn Umar" "ibn Uthman" "ibn Yusuf" "al-Najdi" "al-Hijazi" Abba Abdallahi Abdi "Al-Shinqiti" "Abdel Aziz" Ba Bneijara 
+		"Ould Bneijara" "Ould Boubacar" "Ould Bouceif" "Ould Boulkheir" "Ould Daddah" Diagana Diallo Diombar Ebnou Fall Gaye Gueye Guidileye Guig "Ould Haidalla" "Ould Hanenna" "Ould Harouna" Hedeid "Ben Hmeida" 
+		"Ould Hmeida" Hondo "Ould Kerim" "Ould Mohamed Khouna" "Ould Mohamed Laghdaf" "Ould Mohamed Lemine" "Ould Lemrabott" "Ould Louly" "Ould Maaouya" "dit Mbare" "Ould M'Bareck" Miske "El Moctar" Moctar 
+		"Ould Mogueye" "Ould Sidi Mohammed" "Ould Mohamedou" "Ould-Abdallah" Razqa "Ould Salek" Sall Sarr "Ould Sid'Ahmed" Sissako "Ould Ahmed Taleb" "Ould Sid'Ahmed Taya" "Ould Teguedi" Timbo "Ould Tolba" Toure 
+		"Ould Mohammed Vall" "Ould Ahmed El Waghef" "Ould Zeidane"
+	}
 	callsigns = { }
 }

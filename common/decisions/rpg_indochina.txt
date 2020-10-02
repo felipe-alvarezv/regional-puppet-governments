@@ -5,7 +5,7 @@ rpg_category = {
 				original_tag = CAM #Cambodia
 				original_tag = LAO #Laos
 				original_tag = VIN #Vietnam
-				original_tag = D32 #Indochina
+				original_tag = R16 #Indochina
 			}
 		}
 		available = {
@@ -41,16 +41,16 @@ rpg_category = {
                 original_tag = CAM #Cambodia
 				original_tag = LAO #Laos
 				original_tag = VIN #Vietnam
-				original_tag = D32 #Indochina
+				original_tag = R16 #Indochina
                 has_global_flag = rpg_indochina_flag
             }
 		}
 		complete_effect = {
 			hidden_effect = {
-				286 = { add_core_of = D32 } #Southern Indochina
-				670 = { add_core_of = D32 } #Laos
-				671 = { add_core_of = D32 } #Tonkin
-				741 = { add_core_of = D32 } #Cambodia
+				286 = { add_core_of = R16 } #Southern Indochina
+				670 = { add_core_of = R16 } #Laos
+				671 = { add_core_of = R16 } #Tonkin
+				741 = { add_core_of = R16 } #Cambodia
 			}
 			custom_effect_tooltip = rpg_indochina_coring_states
 			custom_effect_tooltip = rpg_indochina_transfer_states
@@ -59,19 +59,19 @@ rpg_category = {
 			hidden_effect = {
 				every_state = {
 					limit = {
-						is_core_of = D32
+						is_core_of = R16
 					}
 					set_compliance = 80
 				}
 				
 				if = {
 					limit = { has_dlc = "La Resistance" }
-					set_temp_variable = { country_to_initiate = D32 }
+					set_temp_variable = { country_to_initiate = R16 }
 					instantiate_collaboration_government = yes
 				}
 				else = {
-					release = D32
-					puppet = D32
+					release = R16
+					puppet = R16
 				}
 			}
 			#News event, set local flag, and set global flag

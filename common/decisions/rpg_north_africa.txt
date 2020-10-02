@@ -9,7 +9,7 @@ rpg_category = {
 				original_tag = MRT #Mauritania
 				original_tag = TUN #Tunisia
 				original_tag = WES #Sahrawi
-				original_tag = D26 #North Africa
+				original_tag = R30 #North Africa
 			}
 		}
 		available = {
@@ -98,26 +98,26 @@ rpg_category = {
 				original_tag = MRT #Mauritania
 				original_tag = TUN #Tunisia
 				original_tag = WES #Sahrawi
-				original_tag = D26 #North Africa
+				original_tag = R30 #North Africa
                 has_global_flag = rpg_north_africa_flag
             }
 		}
 		complete_effect = {
 			hidden_effect = {
-				273 = { add_core_of = D26 } #Lybian Desert
-				446 = { add_core_of = D26 } #Cairo
-				447 = { add_core_of = D26 } #Alexandria
-				448 = { add_core_of = D26 } #Tripoli
-				449 = { add_core_of = D26 } #El Agheila
-				450 = { add_core_of = D26 } #Benghasi
-				451 = { add_core_of = D26 } #Derna
-				452 = { add_core_of = D26 } #Marsa Matruh
-				456 = { add_core_of = D26 } #Aswan
-				457 = { add_core_of = D26 } #Eastern Desert
-				552 = { add_core_of = D26 } #Western Desert
-				661 = { add_core_of = D26 } #Tripolitania
-				662 = { add_core_of = D26 } #Sirte
-				663 = { add_core_of = D26 } #Cyrenaica
+				273 = { add_core_of = R30 } #Lybian Desert
+				446 = { add_core_of = R30 } #Cairo
+				447 = { add_core_of = R30 } #Alexandria
+				448 = { add_core_of = R30 } #Tripoli
+				449 = { add_core_of = R30 } #El Agheila
+				450 = { add_core_of = R30 } #Benghasi
+				451 = { add_core_of = R30 } #Derna
+				452 = { add_core_of = R30 } #Marsa Matruh
+				456 = { add_core_of = R30 } #Aswan
+				457 = { add_core_of = R30 } #Eastern Desert
+				552 = { add_core_of = R30 } #Western Desert
+				661 = { add_core_of = R30 } #Tripolitania
+				662 = { add_core_of = R30 } #Sirte
+				663 = { add_core_of = R30 } #Cyrenaica
 			}
 			custom_effect_tooltip = rpg_north_africa_coring_states
 			custom_effect_tooltip = rpg_north_africa_transfer_states
@@ -126,19 +126,19 @@ rpg_category = {
 			hidden_effect = {
 				every_state = {
 					limit = {
-						is_core_of = D26
+						is_core_of = R30
 					}
 					set_compliance = 80
 				}
 				
 				if = {
 					limit = { has_dlc = "La Resistance" }
-					set_temp_variable = { country_to_initiate = D26 }
+					set_temp_variable = { country_to_initiate = R30 }
 					instantiate_collaboration_government = yes
 				}
 				else = {
-					release = D26
-					puppet = D26
+					release = R30
+					puppet = R30
 				}
 			}
 			#News event, set local flag, and set global flag

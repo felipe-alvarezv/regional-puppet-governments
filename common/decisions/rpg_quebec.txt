@@ -3,7 +3,7 @@ rpg_category = {
 		allowed = {
 			NOT = {
 				original_tag = CAN #Canada
-				original_tag = D42 #Quebec
+				original_tag = R22 #Quebec
 			}
 		}
 		available = {
@@ -26,14 +26,14 @@ rpg_category = {
 			}
 			NOT = { 
                 original_tag = CAN #Canada
-				original_tag = D42 #Quebec
+				original_tag = R22 #Quebec
                 has_global_flag = rpg_quebec_flag
             }
 		}
 		complete_effect = {
 			hidden_effect = {
-				466 = { add_core_of = D42 } #Quebec
-				468 = { add_core_of = D42 } #Saint Lawrence
+				466 = { add_core_of = R22 } #Quebec
+				468 = { add_core_of = R22 } #Saint Lawrence
 			}
 			custom_effect_tooltip = rpg_quebec_coring_states
 			custom_effect_tooltip = rpg_quebec_transfer_states
@@ -42,19 +42,19 @@ rpg_category = {
 			hidden_effect = {
 				every_state = {
 					limit = {
-						is_core_of = D42
+						is_core_of = R22
 					}
 					set_compliance = 80
 				}
 				
 				if = {
 					limit = { has_dlc = "La Resistance" }
-					set_temp_variable = { country_to_initiate = D42 }
+					set_temp_variable = { country_to_initiate = R22 }
 					instantiate_collaboration_government = yes
 				}
 				else = {
-					release = D42
-					puppet = D42
+					release = R22
+					puppet = R22
 				}
 			}
 			#News event, set local flag, and set global flag

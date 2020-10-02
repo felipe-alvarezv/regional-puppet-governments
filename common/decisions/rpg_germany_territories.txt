@@ -4,9 +4,9 @@ rpg_category_territories_germany = {
 			NOT = {
 				original_tag = GER #Germany
 				original_tag = POL #Poland
-				original_tag = D23 #Germany
-				original_tag = D27 #North Germany
-				original_tag = D29 #South Germany
+				original_tag = R13 #Germany
+				original_tag = R19 #North Germany
+				original_tag = R25 #South Germany
 			}
 		}
 		available = {
@@ -18,7 +18,7 @@ rpg_category_territories_germany = {
 		}
 		visible = {
             has_global_flag = rpg_germany_flag
-            D23 = {
+            R13 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -27,9 +27,9 @@ rpg_category_territories_germany = {
 			NOT = { 
                 original_tag = GER #Germany
 				original_tag = POL #Poland
-				original_tag = D23 #Germany
-				original_tag = D27 #North Germany
-				original_tag = D29 #South Germany
+				original_tag = R13 #Germany
+				original_tag = R19 #North Germany
+				original_tag = R25 #South Germany
                 has_global_flag = rpg_germany_ermland_masuren_flag
             }
 		}
@@ -37,8 +37,8 @@ rpg_category_territories_germany = {
 			custom_effect_tooltip = rpg_germany_coring_states_ermland_masuren
 			custom_effect_tooltip = rpg_germany_transfer_states_ermland_masuren
 			hidden_effect = {
-				5 = { add_core_of = D23 } #Ermland-Masuren
-				D23 = {
+				5 = { add_core_of = R13 } #Ermland-Masuren
+				R13 = {
 					transfer_state = 5 #Ermland-Masuren
 				}
 			}
@@ -59,9 +59,9 @@ rpg_category_territories_germany = {
 			NOT = {
 				original_tag = GER #Germany
 				original_tag = POL #Poland
-				original_tag = D23 #Germany
-				original_tag = D27 #North Germany
-				original_tag = D29 #South Germany
+				original_tag = R13 #Germany
+				original_tag = R19 #North Germany
+				original_tag = R25 #South Germany
 			}
 		}
 		available = {
@@ -73,7 +73,7 @@ rpg_category_territories_germany = {
 		}
 		visible = {
             has_global_flag = rpg_germany_flag
-            D23 = {
+            R13 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -82,9 +82,9 @@ rpg_category_territories_germany = {
 			NOT = { 
                original_tag = GER #Germany
 				original_tag = POL #Poland
-				original_tag = D23 #Germany
-				original_tag = D27 #North Germany
-				original_tag = D29 #South Germany
+				original_tag = R13 #Germany
+				original_tag = R19 #North Germany
+				original_tag = R25 #South Germany
                 has_global_flag = rpg_germany_danzig_flag
             }
 		}
@@ -92,8 +92,8 @@ rpg_category_territories_germany = {
 			custom_effect_tooltip = rpg_germany_coring_states_danzig
 			custom_effect_tooltip = rpg_germany_transfer_states_danzig
 			hidden_effect = {
-				85 = { add_core_of = D23 } #Danzig
-				D23 = {
+				85 = { add_core_of = R13 } #Danzig
+				R13 = {
 					transfer_state = 85 #Danzig
 				}
 			}
@@ -114,9 +114,9 @@ rpg_category_territories_germany = {
 			NOT = {
 				original_tag = GER #Germany
 				original_tag = POL #Poland
-				original_tag = D23 #Germany
-				original_tag = D27 #North Germany
-				original_tag = D29 #South Germany
+				original_tag = R13 #Germany
+				original_tag = R19 #North Germany
+				original_tag = R25 #South Germany
 			}
 		}
 		available = {
@@ -128,7 +128,7 @@ rpg_category_territories_germany = {
 		}
 		visible = {
             has_global_flag = rpg_germany_flag
-            D23 = {
+            R13 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -137,9 +137,9 @@ rpg_category_territories_germany = {
 			NOT = { 
                 original_tag = GER #Germany
 				original_tag = POL #Poland
-				original_tag = D23 #Germany
-				original_tag = D27 #North Germany
-				original_tag = D29 #South Germany
+				original_tag = R13 #Germany
+				original_tag = R19 #North Germany
+				original_tag = R25 #South Germany
                 has_global_flag = rpg_germany_poznan_flag
             }
 		}
@@ -147,8 +147,8 @@ rpg_category_territories_germany = {
 			custom_effect_tooltip = rpg_germany_coring_states_poznan
 			custom_effect_tooltip = rpg_germany_transfer_states_poznan
 			hidden_effect = {
-				86 = { add_core_of = D23 } #Poznan
-				D23 = {
+				86 = { add_core_of = R13 } #Poznan
+				R13 = {
 					transfer_state = 86 #Poznan
 				}
 			}
@@ -169,9 +169,9 @@ rpg_category_territories_germany = {
 			NOT = {
 				original_tag = GER #Germany
 				original_tag = LIT #Lithuania
-				original_tag = D23 #Germany
-				original_tag = D27 #Northern Germany
-				original_tag = D29 #Southern Germany
+				original_tag = R13 #Germany
+				original_tag = R19 #Northern Germany
+				original_tag = R25 #Southern Germany
 			}
 		}
 		available = {
@@ -183,7 +183,7 @@ rpg_category_territories_germany = {
 		}
 		visible = {
             has_global_flag = rpg_germany_flag
-            D23 = {
+            R13 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -192,9 +192,9 @@ rpg_category_territories_germany = {
 			NOT = { 
                 original_tag = GER #Germany
 				original_tag = LIT #Lithuania
-				original_tag = D23 #Germany
-				original_tag = D27 #Northern Germany
-				original_tag = D29 #Southern Germany
+				original_tag = R13 #Germany
+				original_tag = R19 #Northern Germany
+				original_tag = R25 #Southern Germany
                 has_global_flag = rpg_germany_memel_flag
             }
 		}
@@ -202,8 +202,8 @@ rpg_category_territories_germany = {
 			custom_effect_tooltip = rpg_germany_coring_states_memel
 			custom_effect_tooltip = rpg_germany_transfer_states_memel
 			hidden_effect = {
-				188 = { add_core_of = D23 } #Memel
-				D23 = {
+				188 = { add_core_of = R13 } #Memel
+				R13 = {
 					transfer_state = 188 #Memel
 				}
 			}
@@ -224,9 +224,9 @@ rpg_category_territories_germany = {
 			NOT = {
 				original_tag = GER #Germany
 				original_tag = POL #Poland
-				original_tag = D23 #Germany
-				original_tag = D27 #North Germany
-				original_tag = D29 #South Germany
+				original_tag = R13 #Germany
+				original_tag = R19 #North Germany
+				original_tag = R25 #South Germany
 			}
 		}
 		available = {
@@ -238,7 +238,7 @@ rpg_category_territories_germany = {
 		}
 		visible = {
             has_global_flag = rpg_germany_flag
-            D23 = {
+            R13 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -247,9 +247,9 @@ rpg_category_territories_germany = {
 			NOT = { 
                 original_tag = GER #Germany
 				original_tag = POL #Poland
-				original_tag = D23 #Germany
-				original_tag = D27 #North Germany
-				original_tag = D29 #South Germany
+				original_tag = R13 #Germany
+				original_tag = R19 #North Germany
+				original_tag = R25 #South Germany
                 has_global_flag = rpg_germany_katowice_flag
             }
 		}
@@ -257,8 +257,8 @@ rpg_category_territories_germany = {
 			custom_effect_tooltip = rpg_germany_coring_states_katowice
 			custom_effect_tooltip = rpg_germany_transfer_states_katowice
 			hidden_effect = {
-				762 = { add_core_of = D23 } #Katowice
-				D23 = {
+				762 = { add_core_of = R13 } #Katowice
+				R13 = {
 					transfer_state = 762 #Katowice
 				}
 			}
@@ -278,9 +278,9 @@ rpg_category_territories_germany = {
 		allowed = {
 			NOT = {
 				original_tag = GER #Germany
-				original_tag = D23 #Germany
-				original_tag = D27 #North Germany
-				original_tag = D29 #South Germany
+				original_tag = R13 #Germany
+				original_tag = R19 #North Germany
+				original_tag = R25 #South Germany
 			}
 		}
 		available = {
@@ -292,7 +292,7 @@ rpg_category_territories_germany = {
 		}
 		visible = {
             has_global_flag = rpg_germany_flag
-            D23 = {
+            R13 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -300,9 +300,9 @@ rpg_category_territories_germany = {
 			}
 			NOT = { 
                original_tag = GER #Germany
-				original_tag = D23 #Germany
-				original_tag = D27 #North Germany
-				original_tag = D29 #South Germany
+				original_tag = R13 #Germany
+				original_tag = R19 #North Germany
+				original_tag = R25 #South Germany
                 has_global_flag = rpg_germany_konigsberg_flag
             }
 		}
@@ -310,8 +310,8 @@ rpg_category_territories_germany = {
 			custom_effect_tooltip = rpg_germany_coring_states_konigsberg
 			custom_effect_tooltip = rpg_germany_transfer_states_konigsberg
 			hidden_effect = {
-				763 = { add_core_of = D23 } #Konigsberg
-				D23 = {
+				763 = { add_core_of = R13 } #Konigsberg
+				R13 = {
 					transfer_state = 763 #Konigsberg
 				}
 			}
@@ -331,7 +331,7 @@ rpg_category_territories_germany = {
 		allowed = {
 			NOT = {
 				original_tag = AUS #Austria
-				original_tag = D23 #Germany
+				original_tag = R13 #Germany
 			}
 		}
 		available = {
@@ -343,7 +343,7 @@ rpg_category_territories_germany = {
 		}
 		visible = {
             has_global_flag = rpg_germany_flag
-			D23 = {
+			R13 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -351,7 +351,7 @@ rpg_category_territories_germany = {
 			}
 			NOT = { 
                 original_tag = AUS #Austria
-				original_tag = D23 #Germany
+				original_tag = R13 #Germany
 				has_global_flag = rpg_south_germany_flag
                 has_global_flag = rpg_south_germany_lower_austria_flag
 				has_global_flag = rpg_germany_lower_austria_flag
@@ -361,8 +361,8 @@ rpg_category_territories_germany = {
 			custom_effect_tooltip = rpg_germany_coring_states_lower_austria
 			custom_effect_tooltip = rpg_germany_transfer_states_lower_austria
 			hidden_effect = {
-				4 = { add_core_of = D23 } #Lower Austria
-				D23 = {
+				4 = { add_core_of = R13 } #Lower Austria
+				R13 = {
 					transfer_state = 4 #Lower Austria
 				}
 			}
@@ -383,7 +383,7 @@ rpg_category_territories_germany = {
 			NOT = {
 				original_tag = GER #Germany
 				original_tag = LUX #Luxemburg
-				original_tag = D23 #Germany
+				original_tag = R13 #Germany
 			}
 		}
 		available = {
@@ -395,7 +395,7 @@ rpg_category_territories_germany = {
 		}
 		visible = {
 			has_global_flag = rpg_germany_flag
-			D23 = {
+			R13 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -404,7 +404,7 @@ rpg_category_territories_germany = {
 			NOT = { 
 				original_tag = GER #Germany
 				original_tag = LUX #Luxemburg
-				original_tag = D23 #Germany
+				original_tag = R13 #Germany
 				has_global_flag = rpg_germany_luxemburg_flag
             }
 		}
@@ -412,8 +412,8 @@ rpg_category_territories_germany = {
 			custom_effect_tooltip = rpg_germany_coring_states_luxemburg
 			custom_effect_tooltip = rpg_germany_transfer_states_luxemburg
 			hidden_effect = {
-				8 = { add_core_of = D23 } #Luxemburg
-				D23 = {
+				8 = { add_core_of = R13 } #Luxemburg
+				R13 = {
 					transfer_state = 8 #Luxemburg
 				}
 			}
@@ -434,7 +434,7 @@ rpg_category_territories_germany = {
 			NOT = {
 				original_tag = CZE #Czechoslovakia
 				original_tag = GER #Germany
-				original_tag = D23 #Germany
+				original_tag = R13 #Germany
 			}
 		}
 		available = {
@@ -446,7 +446,7 @@ rpg_category_territories_germany = {
 		}
 		visible = {
 			has_global_flag = rpg_germany_flag
-			D23 = {
+			R13 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -455,7 +455,7 @@ rpg_category_territories_germany = {
 			NOT = { 
 				original_tag = CZE #Czechoslovakia
 				original_tag = GER #Germany
-				original_tag = D23 #Germany
+				original_tag = R13 #Germany
 				has_global_flag = rpg_germany_bohemia_flag
             }
 		}
@@ -463,8 +463,8 @@ rpg_category_territories_germany = {
 			custom_effect_tooltip = rpg_germany_claiming_states_bohemia
 			custom_effect_tooltip = rpg_germany_transfer_states_bohemia
 			hidden_effect = {
-				9 = { add_claim_by = D23 } #Bohemia
-				D23 = {
+				9 = { add_claim_by = R13 } #Bohemia
+				R13 = {
 					transfer_state = 9 #Bohemia
 				}
 			}
@@ -485,7 +485,7 @@ rpg_category_territories_germany = {
 			NOT = {
 				original_tag = FRA #France
 				original_tag = GER #Germany
-				original_tag = D23 #Germany
+				original_tag = R13 #Germany
 			}
 		}
 		available = {
@@ -497,7 +497,7 @@ rpg_category_territories_germany = {
 		}
 		visible = {
 			has_global_flag = rpg_germany_flag
-			D23 = {
+			R13 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -506,7 +506,7 @@ rpg_category_territories_germany = {
 			NOT = { 
 				original_tag = FRA #France
 				original_tag = GER #Germany
-				original_tag = D23 #Germany
+				original_tag = R13 #Germany
 				has_global_flag = rpg_germany_alsace_lorraine_flag
             }
 		}
@@ -514,8 +514,8 @@ rpg_category_territories_germany = {
 			custom_effect_tooltip = rpg_germany_coring_states_alsace_lorraine
 			custom_effect_tooltip = rpg_germany_transfer_states_alsace_lorraine
 			hidden_effect = {
-				28 = { add_core_of = D23 } #Alsace-Lorraine
-				D23 = {
+				28 = { add_core_of = R13 } #Alsace-Lorraine
+				R13 = {
 					transfer_state = 28 #Alsace-Lorraine
 				}
 			}
@@ -536,7 +536,7 @@ rpg_category_territories_germany = {
 			NOT = {
 				original_tag = AUS #Austria
 				original_tag = ITA #Italy
-				original_tag = D23 #Germany
+				original_tag = R13 #Germany
 			}
 		}
 		available = {
@@ -548,7 +548,7 @@ rpg_category_territories_germany = {
 		}
 		visible = {
             has_global_flag = rpg_germany_flag
-			D23 = {
+			R13 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -557,7 +557,7 @@ rpg_category_territories_germany = {
 			NOT = { 
                 original_tag = AUS #Austria
 				original_tag = ITA #Italy
-				original_tag = D23 #Germany
+				original_tag = R13 #Germany
 				has_global_flag = rpg_south_germany_flag
                 has_global_flag = rpg_south_germany_south_tyrol_flag
 				has_global_flag = rpg_germany_south_tyrol_flag
@@ -567,8 +567,8 @@ rpg_category_territories_germany = {
 			custom_effect_tooltip = rpg_germany_coring_states_south_tyrol
 			custom_effect_tooltip = rpg_germany_transfer_states_south_tyrol
 			hidden_effect = {
-				39 = { add_core_of = D23 } #South Tyrol
-				D23 = {
+				39 = { add_core_of = R13 } #South Tyrol
+				R13 = {
 					transfer_state = 39 #South Tyrol
 				}
 			}
@@ -589,7 +589,7 @@ rpg_category_territories_germany = {
 			NOT = {
 				original_tag = CZE #Czechoslovakia
 				original_tag = GER #Germany
-				original_tag = D23 #Germany
+				original_tag = R13 #Germany
 			}
 		}
 		available = {
@@ -601,7 +601,7 @@ rpg_category_territories_germany = {
 		}
 		visible = {
 			has_global_flag = rpg_germany_flag
-			D23 = {
+			R13 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -610,7 +610,7 @@ rpg_category_territories_germany = {
 			NOT = { 
 				original_tag = CZE #Czechoslovakia
 				original_tag = GER #Germany
-				original_tag = D23 #Germany
+				original_tag = R13 #Germany
 				has_global_flag = rpg_germany_sudetenland_flag
             }
 		}
@@ -618,8 +618,8 @@ rpg_category_territories_germany = {
 			custom_effect_tooltip = rpg_germany_coring_states_sudetenland
 			custom_effect_tooltip = rpg_germany_transfer_states_sudetenland
 			hidden_effect = {
-				69 = { add_core_of = D23 } #Sudetenland
-				D23 = {
+				69 = { add_core_of = R13 } #Sudetenland
+				R13 = {
 					transfer_state = 69 #Sudetenland
 				}
 			}
@@ -640,7 +640,7 @@ rpg_category_territories_germany = {
 			NOT = {
 				original_tag = CZE #Czechoslovakia
 				original_tag = GER #Germany
-				original_tag = D23 #Germany
+				original_tag = R13 #Germany
 			}
 		}
 		available = {
@@ -652,7 +652,7 @@ rpg_category_territories_germany = {
 		}
 		visible = {
 			has_global_flag = rpg_germany_flag
-			D23 = {
+			R13 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -661,7 +661,7 @@ rpg_category_territories_germany = {
 			NOT = { 
 				original_tag = CZE #Czechoslovakia
 				original_tag = GER #Germany
-				original_tag = D23 #Germany
+				original_tag = R13 #Germany
 				has_global_flag = rpg_germany_eastern_sudetenland_flag
             }
 		}
@@ -669,8 +669,8 @@ rpg_category_territories_germany = {
 			custom_effect_tooltip = rpg_germany_coring_states_eastern_sudetenland
 			custom_effect_tooltip = rpg_germany_transfer_states_eastern_sudetenland
 			hidden_effect = {
-				74 = { add_core_of = D23 } #Eastern Sudetenland
-				D23 = {
+				74 = { add_core_of = R13 } #Eastern Sudetenland
+				R13 = {
 					transfer_state = 74 #Eastern Sudetenland
 				}
 			}
@@ -691,7 +691,7 @@ rpg_category_territories_germany = {
 			NOT = {
 				original_tag = CZE #Czechoslovakia
 				original_tag = GER #Germany
-				original_tag = D23 #Germany
+				original_tag = R13 #Germany
 			}
 		}
 		available = {
@@ -703,7 +703,7 @@ rpg_category_territories_germany = {
 		}
 		visible = {
 			has_global_flag = rpg_germany_flag
-			D23 = {
+			R13 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -712,7 +712,7 @@ rpg_category_territories_germany = {
 			NOT = { 
 				original_tag = CZE #Czechoslovakia
 				original_tag = GER #Germany
-				original_tag = D23 #Germany
+				original_tag = R13 #Germany
 				has_global_flag = rpg_germany_moravia_flag
             }
 		}
@@ -720,8 +720,8 @@ rpg_category_territories_germany = {
 			custom_effect_tooltip = rpg_germany_claiming_states_moravia
 			custom_effect_tooltip = rpg_germany_transfer_states_moravia
 			hidden_effect = {
-				75 = { add_claim_by = D23 } #Moravia
-				D23 = {
+				75 = { add_claim_by = R13 } #Moravia
+				R13 = {
 					transfer_state = 75 #Moravia
 				}
 			}
@@ -741,7 +741,7 @@ rpg_category_territories_germany = {
 		allowed = {
 			NOT = {
 				original_tag = SLV #Slovenia
-				original_tag = D23 #Germany
+				original_tag = R13 #Germany
 			}
 		}
 		available = {
@@ -753,7 +753,7 @@ rpg_category_territories_germany = {
 		}
 		visible = {
 			has_global_flag = rpg_germany_flag
-			D23 = {
+			R13 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -761,7 +761,7 @@ rpg_category_territories_germany = {
 			}
 			NOT = {
 				original_tag = SLV #Slovenia
-				original_tag = D23 #Germany
+				original_tag = R13 #Germany
 				has_global_flag = rpg_south_germany_flag
                 has_global_flag = rpg_south_germany_slovenia_flag
 				has_global_flag = rpg_germany_slovenia_flag
@@ -771,8 +771,8 @@ rpg_category_territories_germany = {
 			custom_effect_tooltip = rpg_germany_coring_states_slovenia
 			custom_effect_tooltip = rpg_germany_transfer_states_slovenia
 			hidden_effect = {
-				102 = { add_core_of = D23 } #Slovenia
-				D23 = {
+				102 = { add_core_of = R13 } #Slovenia
+				R13 = {
 					transfer_state = 102 #Slovenia
 				}
 			}
@@ -792,7 +792,7 @@ rpg_category_territories_germany = {
 		allowed = {
 			NOT = {
 				original_tag = AUS #Austria
-				original_tag = D23 #Germany
+				original_tag = R13 #Germany
 			}
 		}
 		available = {
@@ -804,7 +804,7 @@ rpg_category_territories_germany = {
 		}
 		visible = {
             has_global_flag = rpg_germany_flag
-			D23 = {
+			R13 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -812,7 +812,7 @@ rpg_category_territories_germany = {
 			}
 			NOT = { 
                 original_tag = AUS #Austria
-				original_tag = D23 #Germany
+				original_tag = R13 #Germany
 				has_global_flag = rpg_south_germany_flag
                 has_global_flag = rpg_south_germany_upper_austria_flag
 				has_global_flag = rpg_germany_upper_austria_flag
@@ -822,8 +822,8 @@ rpg_category_territories_germany = {
 			custom_effect_tooltip = rpg_germany_coring_states_upper_austria
 			custom_effect_tooltip = rpg_germany_transfer_states_upper_austria
 			hidden_effect = {
-				152 = { add_core_of = D23 } #Upper Austria
-				D23 = {
+				152 = { add_core_of = R13 } #Upper Austria
+				R13 = {
 					transfer_state = 152 #Upper Austria
 				}
 			}
@@ -843,7 +843,7 @@ rpg_category_territories_germany = {
 		allowed = {
 			NOT = {
 				original_tag = AUS #Austria
-				original_tag = D23 #Germany
+				original_tag = R13 #Germany
 			}
 		}
 		available = {
@@ -855,7 +855,7 @@ rpg_category_territories_germany = {
 		}
 		visible = {
             has_global_flag = rpg_germany_flag
-			D23 = {
+			R13 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -863,7 +863,7 @@ rpg_category_territories_germany = {
 			}
 			NOT = { 
                 original_tag = AUS #Austria
-				original_tag = D23 #Germany
+				original_tag = R13 #Germany
 				has_global_flag = rpg_south_germany_flag
                 has_global_flag = rpg_south_germany_tyrol_flag
 				has_global_flag = rpg_germany_tyrol_flag
@@ -873,8 +873,8 @@ rpg_category_territories_germany = {
 			custom_effect_tooltip = rpg_germany_coring_states_tyrol
 			custom_effect_tooltip = rpg_germany_transfer_states_tyrol
 			hidden_effect = {
-				153 = { add_core_of = D23 } #Tyrol
-				D23 = {
+				153 = { add_core_of = R13 } #Tyrol
+				R13 = {
 					transfer_state = 153 #Tyrol
 				}
 			}

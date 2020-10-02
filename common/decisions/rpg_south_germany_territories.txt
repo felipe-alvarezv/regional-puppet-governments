@@ -4,8 +4,8 @@ rpg_category_territories_south_germany = {
 			NOT = {
 				original_tag = AUS #Austria
 				original_tag = GER #Germany
-				original_tag = D23 #Germany
-				original_tag = D29 #South Germany
+				original_tag = R13 #Germany
+				original_tag = R25 #South Germany
 			}
 		}
 		available = {
@@ -17,7 +17,7 @@ rpg_category_territories_south_germany = {
 		}
 		visible = {
             has_global_flag = rpg_south_germany_flag
-			D29 = {
+			R25 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -26,8 +26,8 @@ rpg_category_territories_south_germany = {
 			NOT = { 
                 original_tag = AUS #Austria
 				original_tag = GER #Germany
-				original_tag = D23 #Germany
-				original_tag = D29 #South Germany
+				original_tag = R13 #Germany
+				original_tag = R25 #South Germany
 				has_global_flag = rpg_united_germany_flag
                 has_global_flag = rpg_south_germany_lower_austria_flag
             }
@@ -36,8 +36,8 @@ rpg_category_territories_south_germany = {
 			custom_effect_tooltip = rpg_south_germany_coring_states_lower_austria
 			custom_effect_tooltip = rpg_south_germany_transfer_states_lower_austria
 			hidden_effect = {
-				4 = { add_core_of = D29 } #Lower Austria
-				D29 = {
+				4 = { add_core_of = R25 } #Lower Austria
+				R25 = {
 					transfer_state = 4 #Lower Austria
 				}
 			}
@@ -59,8 +59,8 @@ rpg_category_territories_south_germany = {
 				original_tag = AUS #Austria
 				original_tag = GER #Germany
 				original_tag = ITA #Italy
-				original_tag = D23 #Germany
-				original_tag = D29 #South Germany
+				original_tag = R13 #Germany
+				original_tag = R25 #South Germany
 			}
 		}
 		available = {
@@ -72,7 +72,7 @@ rpg_category_territories_south_germany = {
 		}
 		visible = {
             has_global_flag = rpg_south_germany_flag
-			D29 = {
+			R25 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -82,8 +82,8 @@ rpg_category_territories_south_germany = {
                 original_tag = AUS #Austria
 				original_tag = GER #Germany
 				original_tag = ITA #Italy
-				original_tag = D23 #Germany
-				original_tag = D29 #South Germany
+				original_tag = R13 #Germany
+				original_tag = R25 #South Germany
 				has_global_flag = rpg_united_germany_flag
                 has_global_flag = rpg_south_germany_south_tyrol_flag
             }
@@ -92,8 +92,8 @@ rpg_category_territories_south_germany = {
 			custom_effect_tooltip = rpg_south_germany_coring_states_south_tyrol
 			custom_effect_tooltip = rpg_south_germany_transfer_states_south_tyrol
 			hidden_effect = {
-				39 = { add_core_of = D29 } #South Tyrol
-				D29 = {
+				39 = { add_core_of = R25 } #South Tyrol
+				R25 = {
 					transfer_state = 39 #South Tyrol
 				}
 			}
@@ -115,8 +115,8 @@ rpg_category_territories_south_germany = {
 				original_tag = GER #Germany
 				original_tag = SVL #Slovenia
 				original_tag = YUG #Yugoslavia
-				original_tag = D23 #Germany
-				original_tag = D29 #South Germany
+				original_tag = R13 #Germany
+				original_tag = R25 #South Germany
 			}
 		}
 		available = {
@@ -128,7 +128,7 @@ rpg_category_territories_south_germany = {
 		}
 		visible = {
 			has_global_flag = rpg_south_germany_flag
-			D29 = {
+			R25 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -138,8 +138,8 @@ rpg_category_territories_south_germany = {
                 original_tag = GER #Germany
 				original_tag = SVL #Slovenia
 				original_tag = YUG #Yugoslavia
-				original_tag = D23 #Germany
-				original_tag = D29 #South Germany
+				original_tag = R13 #Germany
+				original_tag = R25 #South Germany
 				has_global_flag = rpg_united_germany_flag
                 has_global_flag = rpg_south_germany_slovenia_flag
             }
@@ -148,8 +148,8 @@ rpg_category_territories_south_germany = {
 			custom_effect_tooltip = rpg_south_germany_coring_states_slovenia
 			custom_effect_tooltip = rpg_south_germany_transfer_states_slovenia
 			hidden_effect = {
-				102 = { add_core_of = D29 } #Slovenia
-				D29 = {
+				102 = { add_core_of = R25 } #Slovenia
+				R25 = {
 					transfer_state = 102 #Slovenia
 				}
 			}
@@ -170,8 +170,8 @@ rpg_category_territories_south_germany = {
 			NOT = {
 				original_tag = AUS #Austria
 				original_tag = GER #Germany
-				original_tag = D23 #Germany
-				original_tag = D29 #South Germany
+				original_tag = R13 #Germany
+				original_tag = R25 #South Germany
 			}
 		}
 		available = {
@@ -183,7 +183,7 @@ rpg_category_territories_south_germany = {
 		}
 		visible = {
             has_global_flag = rpg_south_germany_flag
-			D29 = {
+			R25 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -192,8 +192,8 @@ rpg_category_territories_south_germany = {
 			NOT = { 
                 original_tag = AUS #Austria
 				original_tag = GER #Germany
-				original_tag = D23 #Germany
-				original_tag = D29 #South Germany
+				original_tag = R13 #Germany
+				original_tag = R25 #South Germany
 				has_global_flag = rpg_united_germany_flag
                 has_global_flag = rpg_south_germany_upper_austria_flag
             }
@@ -202,8 +202,8 @@ rpg_category_territories_south_germany = {
 			custom_effect_tooltip = rpg_south_germany_coring_states_upper_austria
 			custom_effect_tooltip = rpg_south_germany_transfer_states_upper_austria
 			hidden_effect = {
-				152 = { add_core_of = D29 } #Upper Austria
-				D29 = {
+				152 = { add_core_of = R25 } #Upper Austria
+				R25 = {
 					transfer_state = 152 #Upper Austria
 				}
 			}
@@ -224,8 +224,8 @@ rpg_category_territories_south_germany = {
 			NOT = {
 				original_tag = AUS #Austria
 				original_tag = GER #Germany
-				original_tag = D23 #Germany
-				original_tag = D29 #South Germany
+				original_tag = R13 #Germany
+				original_tag = R25 #South Germany
 			}
 		}
 		available = {
@@ -237,7 +237,7 @@ rpg_category_territories_south_germany = {
 		}
 		visible = {
             has_global_flag = rpg_south_germany_flag
-			D29 = {
+			R25 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -246,8 +246,8 @@ rpg_category_territories_south_germany = {
 			NOT = { 
                 original_tag = AUS #Austria
 				original_tag = GER #Germany
-				original_tag = D23 #Germany
-				original_tag = D29 #South Germany
+				original_tag = R13 #Germany
+				original_tag = R25 #South Germany
 				has_global_flag = rpg_united_germany_flag
                 has_global_flag = rpg_south_germany_tyrol_flag
             }
@@ -256,8 +256,8 @@ rpg_category_territories_south_germany = {
 			custom_effect_tooltip = rpg_south_germany_coring_states_tyrol
 			custom_effect_tooltip = rpg_south_germany_transfer_states_tyrol
 			hidden_effect = {
-				153 = { add_core_of = D29 } #Tyrol
-				D29 = {
+				153 = { add_core_of = R25 } #Tyrol
+				R25 = {
 					transfer_state = 153 #Tyrol
 				}
 			}

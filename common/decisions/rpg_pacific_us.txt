@@ -3,7 +3,7 @@ rpg_category = {
 		allowed = {
 			NOT = {
 				original_tag = USA #United States
-				original_tag = D41 #Pacific U.S.
+				original_tag = R21 #Pacific U.S.
 			}
 		}
 		available = {
@@ -32,15 +32,15 @@ rpg_category = {
 			}
 			NOT = { 
                 original_tag = USA #United States
-				original_tag = D41 #Pacific U.S.
+				original_tag = R21 #Pacific U.S.
                 has_global_flag = rpg_pacific_us_flag
             }
 		}
 		complete_effect = {
 			hidden_effect = {
-				378 = { add_core_of = D41 } #California
-				385 = { add_core_of = D41 } #Oregon
-				386 = { add_core_of = D41 } #Washington
+				378 = { add_core_of = R21 } #California
+				385 = { add_core_of = R21 } #Oregon
+				386 = { add_core_of = R21 } #Washington
 			}
 			custom_effect_tooltip = rpg_pacific_us_coring_states
 			custom_effect_tooltip = rpg_pacific_us_transfer_states
@@ -49,19 +49,19 @@ rpg_category = {
 			hidden_effect = {
 				every_state = {
 					limit = {
-						is_core_of = D41
+						is_core_of = R21
 					}
 					set_compliance = 80
 				}
 				
 				if = {
 					limit = { has_dlc = "La Resistance" }
-					set_temp_variable = { country_to_initiate = D41 }
+					set_temp_variable = { country_to_initiate = R21 }
 					instantiate_collaboration_government = yes
 				}
 				else = {
-					release = D41
-					puppet = D41
+					release = R21
+					puppet = R21
 				}
 			}
 			#News event, set local flag, and set global flag
