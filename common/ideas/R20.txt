@@ -1,4 +1,4 @@
-#Northeastern America
+#Northeastern U.S.
 ideas = {
 	political_advisor = {
 		R20_captain_of_industry = {

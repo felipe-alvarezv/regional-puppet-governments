@@ -1,4 +1,4 @@
-#Northeastern America
+#Northeastern U.S.
 capital = 358 #New York
 oob = "R20_1936"
 

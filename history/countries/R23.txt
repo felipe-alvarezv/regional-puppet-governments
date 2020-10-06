@@ -1,4 +1,4 @@
-#American Rockies
+#U.S. Rockies
 capital = 382 #Colorado
 oob = "R23_1936"
 

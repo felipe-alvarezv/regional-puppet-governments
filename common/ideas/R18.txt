@@ -1,4 +1,4 @@
-#Midwestern America
+#Midwestern U.S.
 ideas = {
 	political_advisor = {
 		R18_captain_of_industry = {

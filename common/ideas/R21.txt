@@ -1,4 +1,4 @@
-#Pacific America
+#Pacific U.S.
 ideas = {
 	political_advisor = {
 		R21_captain_of_industry = {

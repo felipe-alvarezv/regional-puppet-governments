@@ -1,5 +1,5 @@
 rpg_category_territories_south_germany = {
-	rpg_south_germany_lower_austria= {
+	rpg_south_germany_lower_austria = {
 		allowed = {
 			NOT = {
 				original_tag = AUS #Austria

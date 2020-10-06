@@ -1,4 +1,4 @@
-#Southwestern America
+#Southwestern U.S.
 capital = 375 #Texas
 oob = "R27_1936"
 

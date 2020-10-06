@@ -62,7 +62,7 @@ rpg_category = {
 				ROOT = {
 					set_country_flag = rpg_eastern_provinces_country_flag
 				}
-				news_event = { id = rpg_news.23 hours = 6 }
+				news_event = { id = rpg_news.11 hours = 6 }
 				set_global_flag = rpg_eastern_provinces_flag
 			}
 		}

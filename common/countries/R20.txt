@@ -1,6 +1,6 @@
-#North Africa
+#Northeastern U.S.
 graphical_culture = middle_eastern_gfx
 graphical_culture_2d = middle_eastern_2d
-color = { 230 230 70 }
-color = rgb { 230 230 70 }
-color_ui = rgb { 230 230 70 }
+color = { 0 0 128 }
+color = rgb { 0 0 128 }
+color_ui = rgb { 0 0 128 }

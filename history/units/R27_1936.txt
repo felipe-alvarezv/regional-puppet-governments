@@ -1,4 +1,4 @@
-﻿#Southwestern America
+﻿#Southwestern U.S.
 division_template = {
 	name = "Garrison Division"
 	division_names_group = R27_GAR_01

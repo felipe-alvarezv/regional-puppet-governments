@@ -225,7 +225,7 @@
  rpg_benelux_coring_states_luxemburg:0 "§Y[R05.GetName]§! gains core on §YLuxemburg§!.\n"
  rpg_benelux_transfer_states_luxemburg:0 "§Y[R05.GetName]§! becomes owner and controller of §YLuxemburg§!.\n"
  #Caribbean
- rpg_caribbean:0 "Regional Puppet Government of Caribbean"
+ rpg_caribbean:0 "Regional Puppet Government of the Caribbean"
  rpg_caribbean_required_states_cuba:0 "Controls §YCuba§!."
  rpg_caribbean_required_states_haiti:0 "Controls §YHaiti§!."
  rpg_caribbean_required_states_dominican_republic:0 "Controls §YDominican Republic§!."
@@ -516,7 +516,7 @@
  rpg_east_africa_coring_states_seychelles:0 "§Y[R10.GetName]§! gains core on §YSeychelles§!.\n"
  rpg_east_africa_transfer_states_seychelles:0 "§Y[R10.GetName]§! becomes owner and controller of §YSeychelles§!.\n"
  #Eastern Provinces
- rpg_eastern_provinces:0 "Regional Puppet Government of Eastern Canada"
+ rpg_eastern_provinces:0 "Regional Puppet Government of the Eastern Provinces"
  rpg_eastern_provinces_required_states_southern_ontario:0 "Controls §YSouthern Ontario§!."
  rpg_eastern_provinces_required_states_northern_ontario:0 "Controls §YNorthern Ontario§!."
  rpg_eastern_provinces_coring_states:0 "§YEastern Provinces§! gains cores on all listed states.\n"
@@ -816,8 +816,8 @@
  rpg_indonesia_required_states_portuguese_timor:0 "Controls §YPortuguese Timor§!."
  rpg_indonesia_coring_states_portuguese_timor:0 "§Y[R17.GetName]§! gains core on §YPortuguese Timor§!.\n"
  rpg_indonesia_transfer_states_portuguese_timor:0 "§Y[R17.GetName]§! becomes owner and controller of §YPortuguese Timor§!.\n"
- #Midwestern America
- rpg_midwestern_us:0 "Regional Puppet Government of Midwest America"
+ #Midwestern U.S.
+ rpg_midwestern_us:0 "Regional Puppet Government of the Midwestern U.S."
  rpg_midwestern_us_required_states_ohio:0 "Controls §YOhio§!."
  rpg_midwestern_us_required_states_missouri:0 "Controls §YMissouri§!."
  rpg_midwestern_us_required_states_kansas:0 "Controls §YKansas§!."
@@ -880,8 +880,8 @@
  rpg_north_germany_required_states_konigsberg:0 "Controls §YKonigsberg§!."
  rpg_north_germany_coring_states_konigsberg:0 "§Y[R19.GetName]§! gains core on §YKonigsberg§!.\n"
  rpg_north_germany_transfer_states_konigsberg:0 "§Y[R19.GetName]§! becomes owner and controller of §YKonigsberg§!.\n"
- #Northeastern America
- rpg_northeastern_us:0 "Regional Puppet Government of Northeast America"
+ #Northeastern U.S.
+ rpg_northeastern_us:0 "Regional Puppet Government of the Northeastern U.S."
  rpg_northeastern_us_required_states_new_england:0 "Controls §YNew England§!."
  rpg_northeastern_us_required_states_new_york:0 "Controls §YNew York§!."
  rpg_northeastern_us_required_states_new_jersey:0 "Controls §YNew Jersey§!."
@@ -891,7 +891,7 @@
  rpg_northeastern_us_transfer_states:0 "§YNortheastern U.S.§! becomes owner and controller of all listed states.\n"
  rpg_northeastern_us_puppet:0 "§YNortheastern U.S.§! becomes a puppet of §Y[Root.GetName]§!.\n"
  #Pacific U.S.
- rpg_pacific_us:0 "Regional Puppet Government of Pacific America"
+ rpg_pacific_us:0 "Regional Puppet Government of the Pacific U.S."
  rpg_pacific_us_required_states_california:0 "Controls §YCalifornia§!."
  rpg_pacific_us_required_states_oregon:0 "Controls §YOregon§!."
  rpg_pacific_us_required_states_washington:0 "Controls §YWashington§!." 
@@ -953,17 +953,17 @@
  rpg_quebec_required_states_new_brunswick:0 "Controls §YNew Brunswick§!."
  rpg_quebec_coring_states_new_brunswick:0 "§Y[R22.GetName]§! gains core on §YNew Brunswick§!.\n"
  rpg_quebec_transfer_states_new_brunswick:0 "§Y[R22.GetName]§! becomes owner and controller of §YNew Brunswick§!.\n"
- #American Rockies
- rpg_interior_western_us:0 "Regional Puppet Government of the American Rockies"
- rpg_interior_western_us_required_states_nevada:0 "Controls §YNevada§!."
- rpg_interior_western_us_required_states_utah:0 "Controls §YUtah§!."
- rpg_interior_western_us_required_states_wyoming:0 "Controls §YWyoming§!."
- rpg_interior_western_us_required_states_colorado:0 "Controls §YColorado§!."
- rpg_interior_western_us_required_states_montana:0 "Controls §YMontana§!."
- rpg_interior_western_us_required_states_idaho:0 "Controls §YIdaho§!."
- rpg_interior_western_us_coring_states:0 "§YAmerican Rockies§! gains cores on all listed states.\n"
- rpg_interior_western_us_transfer_states:0 "§YAmerican Rockies§! becomes owner and controller of all listed states.\n"
- rpg_interior_western_us_puppet:0 "§YAmerican Rockies§! becomes a puppet of §Y[Root.GetName]§!.\n"
+ #U.S. Rockies
+ rpg_rockies_us:0 "Regional Puppet Government of the U.S. Rockies"
+ rpg_rockies_us_required_states_nevada:0 "Controls §YNevada§!."
+ rpg_rockies_us_required_states_utah:0 "Controls §YUtah§!."
+ rpg_rockies_us_required_states_wyoming:0 "Controls §YWyoming§!."
+ rpg_rockies_us_required_states_colorado:0 "Controls §YColorado§!."
+ rpg_rockies_us_required_states_montana:0 "Controls §YMontana§!."
+ rpg_rockies_us_required_states_idaho:0 "Controls §YIdaho§!."
+ rpg_rockies_us_coring_states:0 "§YU.S. Rockies§! gains cores on all listed states.\n"
+ rpg_rockies_us_transfer_states:0 "§YU.S. Rockies§! becomes owner and controller of all listed states.\n"
+ rpg_rockies_us_puppet:0 "§YU.S. Rockies§! becomes a puppet of §Y[Root.GetName]§!.\n"
  #Scandinavia
  rpg_scandinavia:0 "Regional Puppet Government of Scandinavia"
  rpg_scandinavia_required_states_scania:0 "Controls §YScania§!."
@@ -1030,8 +1030,8 @@
  rpg_south_germany_required_states_tyrol:0 "Controls §YTyrol§!."
  rpg_south_germany_coring_states_tyrol:0 "§Y[R25.GetName]§! gains core on §YTyrol§!.\n"
  rpg_south_germany_transfer_states_tyrol:0 "§Y[R25.GetName]§! becomes owner and controller of §YTyrol§!.\n"
- #Southeastern America
- rpg_southeastern_us:0 "Regional Puppet Government of Southeast America"
+ #Southeastern U.S.
+ rpg_southeastern_us:0 "Regional Puppet Government of the Southeastern U.S."
  rpg_southeastern_us_required_states_virginia:0 "Controls §YVirginia§!."
  rpg_southeastern_us_required_states_north_carolina:0 "Controls §YNorth Carolina§!."
  rpg_southeastern_us_required_states_south_carolina:0 "Controls §YSouth Carolina§!."
@@ -1046,8 +1046,8 @@
  rpg_southeastern_us_coring_states:0 "§YSoutheastern U.S.§! gains cores on all listed states.\n"
  rpg_southeastern_us_transfer_states:0 "§YSoutheastern U.S.§! becomes owner and controller of all listed states.\n"
  rpg_southeastern_us_puppet:0 "§YSoutheastern U.S.§! becomes a puppet of §Y[Root.GetName]§!.\n"
- #Southwestern America
- rpg_southwestern_us:0 "Regional Puppet Government of Southwest America"
+ #Southwestern U.S.
+ rpg_southwestern_us:0 "Regional Puppet Government of the Southwestern U.S."
  rpg_southwestern_us_required_states_oklahoma:0 "Controls §YOklahoma§!."
  rpg_southwestern_us_required_states_texas:0 "Controls §YTexas§!."
  rpg_southwestern_us_required_states_new_mexico:0 "Controls §YNew Mexico§!."
@@ -1068,7 +1068,7 @@
  rpg_transcaucasia_transfer_states:0 "§YTranscaucasia§! becomes owner and controller of all listed states.\n"
  rpg_transcaucasia_puppet:0 "§YTranscaucasia§! becomes a puppet of §Y[Root.GetName]§!.\n"
  #Western Provinces
- rpg_western_provinces:0 "Regional Puppet Government of Western Canada"
+ rpg_western_provinces:0 "Regional Puppet Government of the Western Provinces"
  rpg_western_provinces_required_states_manitoba:0 "Controls §YManitoba§!."
  rpg_western_provinces_required_states_saskatchewan:0 "Controls §YSaskatchewan§!."
  rpg_western_provinces_required_states_alberta:0 "Controls §YAlberta§!."

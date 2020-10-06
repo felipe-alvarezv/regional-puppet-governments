@@ -1,4 +1,4 @@
-﻿#Northeastern America
+﻿#Northeastern U.S.
 R20_DD_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_DESTROYERS
 	for_countries = { R20 }

@@ -1,4 +1,4 @@
-#Southeastern America
+#Southeastern U.S.
 ideas = {
 	political_advisor = {
 		R26_captain_of_industry = {

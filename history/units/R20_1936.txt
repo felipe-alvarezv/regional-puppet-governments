@@ -1,4 +1,4 @@
-﻿#Northeastern America
+﻿#Northeastern U.S.
 division_template = {
 	name = "Garrison Division"
 	division_names_group = R20_GAR_01

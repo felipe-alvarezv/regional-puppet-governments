@@ -203,8 +203,10 @@ rpg_category = {
 					
 					every_state = {
 						limit = {
-							is_core_of = R19
-							is_core_of = R25
+							OR = {
+								is_core_of = R19
+								is_core_of = R25
+							}
 						}
 						add_core_of = R13
 					}
@@ -227,8 +229,10 @@ rpg_category = {
 					
 					every_state = {
 						limit = {
-							is_core_of = R19
-							is_core_of = R25
+							OR = {
+								is_core_of = R19
+								is_core_of = R25
+							}
 						}
 						add_core_of = R13
 					}
@@ -239,7 +243,7 @@ rpg_category = {
 				ROOT = {
 					set_country_flag = rpg_germany_country_flag
 				}
-				news_event = { id = rpg_news.03 hours = 6 }
+				news_event = { id = rpg_news.13 hours = 6 }
 				every_country = {
 					clr_country_flag = rpg_north_germany_country_flag
 					clr_country_flag = rpg_south_germany_country_flag

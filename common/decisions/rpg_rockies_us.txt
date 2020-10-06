@@ -1,5 +1,5 @@
 rpg_category = {
-	rpg_interior_western_us = {
+	rpg_rockies_us = {
 		allowed = {
 			NOT = {
 				original_tag = USA #United States
@@ -10,32 +10,32 @@ rpg_category = {
 			is_subject = no
 			#Nevada
 			custom_trigger_tooltip = {
-				tooltip = rpg_interior_western_us_required_states_nevada
+				tooltip = rpg_rockies_us_required_states_nevada
 				controls_state = 379 #Nevada
 			}
 			#Utah
 			custom_trigger_tooltip = {
-				tooltip = rpg_interior_western_us_required_states_utah
+				tooltip = rpg_rockies_us_required_states_utah
 				controls_state = 380 #Utah
 			}
 			#Wyoming
 			custom_trigger_tooltip = {
-				tooltip = rpg_interior_western_us_required_states_wyoming
+				tooltip = rpg_rockies_us_required_states_wyoming
 				controls_state = 381 #Wyoming
 			}
 			#Colorado
 			custom_trigger_tooltip = {
-				tooltip = rpg_interior_western_us_required_states_colorado
+				tooltip = rpg_rockies_us_required_states_colorado
 				controls_state = 382 #Colorado
 			}
 			#Montana
 			custom_trigger_tooltip = {
-				tooltip = rpg_interior_western_us_required_states_montana
+				tooltip = rpg_rockies_us_required_states_montana
 				controls_state = 388 #Montana
 			}
 			#Idaho
 			custom_trigger_tooltip = {
-				tooltip = rpg_interior_western_us_required_states_idaho
+				tooltip = rpg_rockies_us_required_states_idaho
 				controls_state = 387 #Idaho
 			}
 		}
@@ -49,7 +49,7 @@ rpg_category = {
 			NOT = { 
                 original_tag = USA #United States
 				original_tag = R23 #Interior Western U.S.
-                has_global_flag = rpg_interior_western_us_flag
+                has_global_flag = rpg_rockies_us_flag
             }
 		}
 		complete_effect = {
@@ -61,10 +61,10 @@ rpg_category = {
 				387 = { add_core_of = R23 } #Idaho
 				388 = { add_core_of = R23 } #Montana
 			}
-			custom_effect_tooltip = rpg_interior_western_us_coring_states
-			custom_effect_tooltip = rpg_interior_western_us_transfer_states
+			custom_effect_tooltip = rpg_rockies_us_coring_states
+			custom_effect_tooltip = rpg_rockies_us_transfer_states
 			#Set compliance to 80 in all cores and instantiate collaboration government
-			custom_effect_tooltip = rpg_interior_western_us_puppet
+			custom_effect_tooltip = rpg_rockies_us_puppet
 			hidden_effect = {
 				every_state = {
 					limit = {
@@ -86,10 +86,10 @@ rpg_category = {
 			#News event, set local flag, and set global flag
 			hidden_effect = {
 				ROOT = {
-					set_country_flag = rpg_interior_western_us_country_flag
+					set_country_flag = rpg_rockies_us_country_flag
 				}
-				news_event = { id = rpg_news.20 hours = 6 }
-				set_global_flag = rpg_interior_western_us_flag
+				news_event = { id = rpg_news.23 hours = 6 }
+				set_global_flag = rpg_rockies_us_flag
 			}
 		}
 		ai_will_do = {

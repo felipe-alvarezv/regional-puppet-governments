@@ -1,4 +1,4 @@
-#American Rockies
+#U.S. Rockies
 ideas = {
 	political_advisor = {
 		R23_captain_of_industry = {

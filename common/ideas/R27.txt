@@ -1,4 +1,4 @@
-#Southwestern America
+#Southwestern U.S.
 ideas = {
 	political_advisor = {
 		R27_captain_of_industry = {

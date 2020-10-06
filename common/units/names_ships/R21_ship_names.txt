@@ -1,4 +1,4 @@
-﻿#Pacific America
+﻿#Pacific U.S.
 R21_DD_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_DESTROYERS
 	for_countries = { R21 }

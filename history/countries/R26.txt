@@ -1,4 +1,4 @@
-#Southeastern America
+#Southeastern U.S.
 capital = 362 #Virginia
 oob = "R26_1936"
 

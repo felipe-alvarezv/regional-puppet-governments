@@ -1,4 +1,4 @@
-﻿#Southwestern America
+﻿#Southwestern U.S.
 R27_GAR_01 = 
 {
 	name = "Garrison Division"

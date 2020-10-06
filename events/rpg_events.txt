@@ -1,4 +1,5 @@
 add_namespace = rpg_news
+
 #Andes Event
 news_event = {
 	id = rpg_news.01
@@ -769,7 +770,7 @@ news_event = {
 		}
 	}
 }
-#American Rockies U.S. Event
+#U.S. Rockies U.S. Event
 news_event = {
 	id = rpg_news.23
 	title = rpg_news.23.t

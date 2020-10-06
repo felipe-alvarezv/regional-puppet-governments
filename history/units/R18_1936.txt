@@ -1,4 +1,4 @@
-﻿#Midwestern America
+﻿#Midwestern U.S.
 division_template = {
 	name = "Garrison Division"
 	division_names_group = R18_GAR_01

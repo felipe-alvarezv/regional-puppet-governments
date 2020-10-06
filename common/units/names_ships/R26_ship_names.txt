@@ -1,4 +1,4 @@
-﻿#Southeastern America
+﻿#Southeastern U.S.
 R26_DD_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_DESTROYERS
 	for_countries = { R26 }

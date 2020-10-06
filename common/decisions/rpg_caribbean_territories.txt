@@ -1,4 +1,4 @@
-rpg_category_territories_benelux = {
+rpg_category_territories_caribbean = {
 	rpg_caribbean_leeward_islands = {
 		allowed = {
 			NOT = {

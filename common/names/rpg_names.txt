@@ -472,7 +472,7 @@ D17 = {
 	}
 	callsigns = { }
 }
-#Midwestern America
+#Midwestern U.S.
 R18 = {
 	male = {
 		names = { 
@@ -529,7 +529,7 @@ R19 = {
 	}
 	callsigns = { }
 }
-#Northeastern America
+#Northeastern U.S.
 R20 = {
 	male = {
 		names = { 
@@ -567,7 +567,7 @@ R20 = {
 	}
 	callsigns = { }
 }
-#Pacific America
+#Pacific U.S.
 R21 = {
 	male = {
 		names = { 
@@ -628,7 +628,7 @@ R22 = {
 	}
 	callsigns = { }
 }
-#American Rockies
+#U.S. Rockies
 R23 = {
 	male = {
 		names = { 
@@ -717,7 +717,7 @@ R25 = {
 	}
 	callsigns = { }
 }
-#Southeastern America
+#Southeastern U.S.
 R26 = {
 	male = {
 		names = { 
@@ -755,7 +755,7 @@ R26 = {
 	}
 	callsigns = { }
 }
-#Southwestern America
+#Southwestern U.S.
 R27 = {
 	male = {
 		names = { 

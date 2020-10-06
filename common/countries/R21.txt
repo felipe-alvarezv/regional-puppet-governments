@@ -1,6 +1,6 @@
-#North Germany
+#Pacific U.S.
 graphical_culture = western_european_gfx
 graphical_culture_2d = western_european_2d
-color = { 128 128 128 }
-color = rgb { 128 128 128 }
-color_ui = rgb { 128 128 128 }
+color = { 209 141 40 }
+color = rgb { 209 141 40 }
+color_ui = rgb { 209 141 40 }

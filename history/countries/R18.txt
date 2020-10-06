@@ -1,4 +1,4 @@
-#Midwestern America
+#Midwestern U.S.
 capital = 395 #Illinois
 oob = "R18_1936"
 

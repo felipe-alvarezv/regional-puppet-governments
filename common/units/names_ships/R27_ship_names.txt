@@ -1,4 +1,4 @@
-﻿#Southwestern America
+﻿#Southwestern U.S.
 R27_DD_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_DESTROYERS
 	for_countries = { R27 }
