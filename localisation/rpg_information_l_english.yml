@@ -449,6 +449,10 @@
  rpg_danube_required_states_west_banat:0 "Controls §YWest Banat§!."
  rpg_danube_coring_states_west_banat:0 "§Y[R09.GetName]§! gains core on §YWest Banat§!.\n"
  rpg_danube_transfer_states_west_banat:0 "§Y[R09.GetName]§! becomes owner and controller of §YWest Banat§!.\n"
+ rpg_danube_herzegovina:0 "Transfer Herzegovina"
+ rpg_danube_required_states_herzegovina:0 "Controls §YHerzegovina§!."
+ rpg_danube_coring_states_herzegovina:0 "§Y[R09.GetName]§! gains core on §YHerzegovina§!.\n"
+ rpg_danube_transfer_states_herzegovina:0 "§Y[R09.GetName]§! becomes owner and controller of §YHerzegovina§!.\n"
  #East Africa
  rpg_east_africa:0 "Regional Puppet Government of East Africa"
  rpg_east_africa_required_states_ethiopia:0 "Controls §YEthiopia§!."

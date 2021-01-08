@@ -1247,4 +1247,53 @@ rpg_category_territories_danube = {
 			}
 		}
 	}
+	rpg_danube_herzegovina = {
+		allowed = {
+			NOT = {
+				original_tag = BOS #Bosnia-Herzegovina
+				original_tag = R09 #Danube
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_danube_required_states_herzegovina
+                controls_state = 804 #Herzegovina
+			}
+		}
+		visible = {
+            has_global_flag = rpg_danube_flag
+			R09 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = BOS #Bosnia-Herzegovina
+				original_tag = R09 #Danube
+                has_global_flag = rpg_danube_herzegovina_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_danube_coring_states_herzegovina
+			custom_effect_tooltip = rpg_danube_transfer_states_herzegovina
+			hidden_effect = {
+				804 = { add_core_of = R09 } #Herzegovina
+				R09 = {
+					transfer_state = 804 #Herzegovina
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_danube_herzegovina_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
 }
