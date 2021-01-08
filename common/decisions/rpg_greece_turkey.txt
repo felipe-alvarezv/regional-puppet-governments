@@ -10,10 +10,10 @@ rpg_category = {
 		}
 		available = {
 			is_subject = no
-			#Thessaly
+			#Attica
 			custom_trigger_tooltip = {
-				tooltip = rpg_greece_turkey_required_states_thessaly
-				controls_state = 47 #Thessaly
+				tooltip = rpg_greece_turkey_required_states_attica
+				controls_state = 47 #Attica
 			}
 			#Ankara
 			custom_trigger_tooltip = {
@@ -45,10 +45,10 @@ rpg_category = {
 				tooltip = rpg_greece_turkey_required_states_bursa
 				controls_state = 340 #Bursa
 			}
-			#Istanbul
+			#Edirne
 			custom_trigger_tooltip = {
-				tooltip = rpg_greece_turkey_required_states_istanbul
-				controls_state = 341 #Istanbul
+				tooltip = rpg_greece_turkey_required_states_edirne
+				controls_state = 341 #Edirne
 			}
 			#Antalya
 			custom_trigger_tooltip = {
@@ -95,10 +95,10 @@ rpg_category = {
 				tooltip = rpg_greece_turkey_required_states_malatya
 				controls_state = 350 #Malatya
 			}
-			#Van
+			#Hakkari
 			custom_trigger_tooltip = {
-				tooltip = rpg_greece_turkey_required_states_van
-				controls_state = 352 #Van
+				tooltip = rpg_greece_turkey_required_states_hakkari
+				controls_state = 352 #Hakkari
 			}
 			#Erzurum
 			custom_trigger_tooltip = {
@@ -125,12 +125,27 @@ rpg_category = {
 				tooltip = rpg_greece_turkey_required_states_central_macedonia
 				controls_state = 731 #Central Macedonia
 			}
+			#Istanbul
+			custom_trigger_tooltip = {
+				tooltip = rpg_greece_turkey_required_states_istanbul
+				controls_state = 797 #Istanbul
+			}
+			#Amasya
+			custom_trigger_tooltip = {
+				tooltip = rpg_greece_turkey_required_states_amasya
+				controls_state = 798 #Amasya
+			}
+			#Van
+			custom_trigger_tooltip = {
+				tooltip = rpg_greece_turkey_required_states_van
+				controls_state = 800 #Van
+			}
 		}
 		visible = {
 			OR = {
-                controls_state = 47 #Thessaly
+                controls_state = 47 #Attica
 				controls_state = 49 #Ankara
-				controls_state = 341 #Istantanbul
+				controls_state = 797 #Istanbul
 
 			}
 			NOT = { 
@@ -143,14 +158,14 @@ rpg_category = {
 		}
 		complete_effect = {
 			hidden_effect = {
-				47 = { add_core_of = R14 } #Thessaly
+				47 = { add_core_of = R14 } #Attica
 				49 = { add_core_of = R14 } #Ankara
 				184 = { add_core_of = R14 } #Thrace
 				185 = { add_core_of = R14 } #Epirus
 				186 = { add_core_of = R14 } #Peloponnese
 				339 = { add_core_of = R14 } #Izmir
 				340 = { add_core_of = R14 } #Bursa
-				341 = { add_core_of = R14 } #Istanbul
+				341 = { add_core_of = R14 } #Edirne
 				342 = { add_core_of = R14 } #Antalya
 				343 = { add_core_of = R14 } #Afyon
 				344 = { add_core_of = R14 } #Adan
@@ -160,12 +175,15 @@ rpg_category = {
 				348 = { add_core_of = R14 } #Kayseri
 				349 = { add_core_of = R14 } #Sivas
 				350 = { add_core_of = R14 } #Malatya
-				352 = { add_core_of = R14 } #Van
+				352 = { add_core_of = R14 } #Hakkari
 				353 = { add_core_of = R14 } #Erzurum
 				354 = { add_core_of = R14 } #Trabzon
 				355 = { add_core_of = R14 } #Samsun
 				356 = { add_core_of = R14 } #Kastamonu
 				731 = { add_core_of = R14 } #Central Macedonia
+				797 = { add_core_of = R14 } #Istanbul
+				798 = { add_core_of = R14 } #Amasya
+				800 = { add_core_of = R14 } #Van
 			}
 			custom_effect_tooltip = rpg_greece_turkey_coring_states
 			custom_effect_tooltip = rpg_greece_turkey_transfer_states
