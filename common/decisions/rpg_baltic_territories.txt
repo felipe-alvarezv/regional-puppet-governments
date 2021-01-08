@@ -1,4 +1,53 @@
 rpg_category_territories_baltic = {
+	rpg_baltic_kaunas = {
+		allowed = {
+			NOT = {
+				original_tag = LIT #Lithuania
+				original_tag = R04 #Baltic
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_baltic_required_states_kaunas
+                controls_state = 11 #Kaunas
+			}
+		}
+		visible = {
+            has_global_flag = rpg_baltic_flag
+			R04 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = LIT #Lithuania
+				original_tag = R04 #Baltic
+                has_global_flag = rpg_baltic_kaunas_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_baltic_coring_states_kaunas
+			custom_effect_tooltip = rpg_baltic_transfer_states_kaunas
+			hidden_effect = {
+				11 = { add_core_of = R04 } #Kaunas
+				R04 = {
+					transfer_state = 11 #Kaunas
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_baltic_kaunas_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
 	rpg_baltic_memel = {
 		allowed = {
 			NOT = {
@@ -38,6 +87,55 @@ rpg_category_territories_baltic = {
 			}
 			hidden_effect = {
 				set_global_flag = rpg_baltic_memel_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_baltic_siauliai = {
+		allowed = {
+			NOT = {
+				original_tag = LIT #Lithuania
+				original_tag = R04 #Baltic
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_baltic_required_states_siauliai
+                controls_state = 189 #Siauliai
+			}
+		}
+		visible = {
+            has_global_flag = rpg_baltic_flag
+			R04 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = LIT #Lithuania
+				original_tag = R04 #Baltic
+                has_global_flag = rpg_baltic_siauliai_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_baltic_coring_states_siauliai
+			custom_effect_tooltip = rpg_baltic_transfer_states_siauliai
+			hidden_effect = {
+				189 = { add_core_of = R04 } #Siauliai
+				R04 = {
+					transfer_state = 189 #Siauliai
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_baltic_siauliai_flag
 			}
 		}
 		ai_will_do = {

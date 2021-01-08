@@ -10,11 +10,6 @@ rpg_category = {
 		}
 		available = {
 			is_subject = no
-			#Kaunas
-			custom_trigger_tooltip = {
-				tooltip = rpg_baltic_required_states_kaunas
-				controls_state = 11 #Kaunas
-			}
 			#Vidzeme
 			custom_trigger_tooltip = {
 				tooltip = rpg_baltic_required_states_vidzeme
@@ -24,11 +19,6 @@ rpg_category = {
 			custom_trigger_tooltip = {
 				tooltip = rpg_baltic_required_states_harju
 				controls_state = 13 #Harju
-			}
-			#Siauliai
-			custom_trigger_tooltip = {
-				tooltip = rpg_baltic_required_states_siauliai
-				controls_state = 189 #Siauliai
 			}
 			#Kurzeme
 			custom_trigger_tooltip = {
@@ -43,7 +33,6 @@ rpg_category = {
 		}
 		visible = {
 			OR = {
-				controls_state = 11 #Kaunas
 				controls_state = 12 #Vidzeme
                 controls_state = 13 #Harju
 			}
@@ -57,10 +46,8 @@ rpg_category = {
 		}
 		complete_effect = {
 			hidden_effect = {
-				11 = { add_core_of = R04 } #Kaunas
 				12 = { add_core_of = R04 } #Vidzeme
 				13 = { add_core_of = R04 } #Harju
-				189 = { add_core_of = R04 } #Siauliai
 				190 = { add_core_of = R04 } #Kurzeme
 				191 = { add_core_of = R04 } #Tartu
 			}
