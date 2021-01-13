@@ -877,3 +877,22 @@ R30 = {
 	}
 	callsigns = { }
 }
+#West Germany
+R31 = {
+	male = {
+		names = { 
+			Adolf Anton Emil Erich Felix Fritz Gerhard Gunther Hans Heinrich Heinz Hermann Joachim Karl Marco Max Maximilian Otto 
+			Peter Staffan Theodor Tobias Walter Wilhelm
+		}
+	}
+	female = {
+		names = { 
+			Emma Hanna Hildegard Jessica Marie Sofia
+		}
+	}
+	surnames = {  
+		Barkhorn Becker Behrmann Beisswenger Berglen Brendel Duttmann Erhler Fischer Graf Hafner Hartmann Hoffmann Kirschner Lang 
+		Lipfert Meyer Muller Rall Schmidt Schneider Schulz Stotz Sturm Wagner Weber Wilbs
+	}
+	callsigns = { }
+}

@@ -2,10 +2,13 @@ rpg_category = {
 	rpg_north_germany = {
 		allowed = {
 			NOT = {
+				original_tag = DDR #East Germany
 				original_tag = GER #Germany
+				original_tag = WGR #West Germany
 				original_tag = R13 #Germany
 				original_tag = R19 #North Germany
 				original_tag = R25 #South Germany
+				original_tag = R31 #West Germany
 			}
 		}
 		available = {
@@ -96,10 +99,13 @@ rpg_category = {
 				controls_state = 64 #Brandenburg
 			}
 			NOT = { 
-                original_tag = GER #Germany
+                original_tag = DDR #East Germany
+				original_tag = GER #Germany
+				original_tag = WGR #West Germany
 				original_tag = R13 #Germany
 				original_tag = R19 #North Germany
 				original_tag = R25 #South Germany
+				original_tag = R31 #West Germany
                 has_global_flag = rpg_north_germany_flag
             }
 		}

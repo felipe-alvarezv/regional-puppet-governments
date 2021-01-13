@@ -28,3 +28,4 @@ R27 = "countries/R27.txt" #Southwestern U.S.
 R28 = "countries/R28.txt" #Transcaucasia
 R29 = "countries/R29.txt" #Western Provinces
 R30 = "countries/R30.txt" #North Africa
+R31 = "countries/R31.txt" #West Germany
