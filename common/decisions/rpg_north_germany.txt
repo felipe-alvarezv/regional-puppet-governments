@@ -9,6 +9,7 @@ rpg_category = {
 				original_tag = R19 #North Germany
 				original_tag = R25 #South Germany
 				original_tag = R31 #West Germany
+				original_tag = R32 #East Germany
 			}
 		}
 		available = {
@@ -106,6 +107,7 @@ rpg_category = {
 				original_tag = R19 #North Germany
 				original_tag = R25 #South Germany
 				original_tag = R31 #West Germany
+				original_tag = R32 #East Germany
                 has_global_flag = rpg_north_germany_flag
             }
 		}

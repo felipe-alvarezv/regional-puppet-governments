@@ -1,5 +1,5 @@
 rpg_category = {
-	rpg_south_germany = {
+	rpg_east_germany = {
 		allowed = {
 			NOT = {
 				original_tag = DDR #East Germany
@@ -14,30 +14,35 @@ rpg_category = {
 		}
 		available = {
 			is_subject = no
-			#Wurttemberg
+			#Thuringen
 			custom_trigger_tooltip = {
-				tooltip = rpg_south_germany_required_states_wurttemberg
-				controls_state = 50 #Wurttemberg
+				tooltip = rpg_east_germany_required_states_thuringen
+				controls_state = 60 #Thuringen
 			}
-			#Oberbayern
+			#Mecklenburg
 			custom_trigger_tooltip = {
-				tooltip = rpg_south_germany_required_states_oberbayern
-				controls_state = 52 #Oberbayern
+				tooltip = rpg_east_germany_required_states_mecklenburg
+				controls_state = 61 #Mecklenburg
 			}
-			#Niederbayern
+			#Vorpommern
 			custom_trigger_tooltip = {
-				tooltip = rpg_south_germany_required_states_niederbayern
-				controls_state = 53 #Niederbayern
+				tooltip = rpg_east_germany_required_states_vorpommern
+				controls_state = 62 #Vorpommern
 			}
-			#Franken
+			#Brandenburg
 			custom_trigger_tooltip = {
-				tooltip = rpg_south_germany_required_states_franken
-				controls_state = 54 #Franken
+				tooltip = rpg_east_germany_required_states_brandenburg
+				controls_state = 64 #Brandenburg
+			}
+			#Sachsen
+			custom_trigger_tooltip = {
+				tooltip = rpg_east_germany_required_states_sachsen
+				controls_state = 65 #Sachsen
 			}
 		}
 		visible = {
 			OR = {
-				controls_state = 52 #Oberbayern
+				controls_state = 64 #Brandenburg
 			}
 			NOT = { 
 				original_tag = DDR #East Germany
@@ -48,45 +53,46 @@ rpg_category = {
 				original_tag = R25 #South Germany
 				original_tag = R31 #West Germany
 				original_tag = R32 #East Germany
-                has_global_flag = rpg_south_germany_flag
+                has_global_flag = rpg_east_germany_flag
             }
 		}
 		complete_effect = {
 			hidden_effect = {
-				50 = { add_core_of = R25 } #Wurttemberg
-				52 = { add_core_of = R25 } #Oberbayern
-				53 = { add_core_of = R25 } #Niederbayern
-				54 = { add_core_of = R25 } #Franken
+				60 = { add_core_of = R32 } #Thuringen
+				61 = { add_core_of = R32 } #Mecklenburg
+				62 = { add_core_of = R32 } #Vorpommern
+				64 = { add_core_of = R32 } #Brandenburg
+				65 = { add_core_of = R32 } #Sachsen
 			}
-			custom_effect_tooltip = rpg_south_germany_coring_states
-			custom_effect_tooltip = rpg_south_germany_transfer_states
+			custom_effect_tooltip = rpg_east_germany_coring_states
+			custom_effect_tooltip = rpg_east_germany_transfer_states
 			#Set compliance to 80 in all cores and instantiate collaboration government
-			custom_effect_tooltip = rpg_south_germany_puppet
+			custom_effect_tooltip = rpg_east_germany_puppet
 			hidden_effect = {
 				every_state = {
 					limit = {
-						is_core_of = R25
+						is_core_of = R32
 					}
 					set_compliance = 80
 				}
 				
 				if = {
 					limit = { has_dlc = "La Resistance" }
-					set_temp_variable = { country_to_initiate = R25 }
+					set_temp_variable = { country_to_initiate = R32 }
 					instantiate_collaboration_government = yes
 				}
 				else = {
-					release = R25
-					puppet = R25
+					release = R32
+					puppet = R32
 				}
 			}
 			#News event, set local flag, and set global flag
 			hidden_effect = {
 				ROOT = {
-					set_country_flag = rpg_south_germany_country_flag
+					set_country_flag = rpg_east_germany_country_flag
 				}
-				news_event = { id = rpg_news.25 hours = 6 }
-				set_global_flag = rpg_south_germany_flag
+				news_event = { id = rpg_news.32 hours = 6 }
+				set_global_flag = rpg_east_germany_flag
 			}
 		}
 		ai_will_do = {
