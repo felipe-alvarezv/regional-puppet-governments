@@ -1120,3 +1120,38 @@ news_event = {
 		}
 	}
 }
+#Prussia Event
+news_event = {
+	id = rpg_news.33
+	title = rpg_news.33.t
+	desc = rpg_news.33.desc
+	picture = GFX_news_event_generic_parliament
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = rpg_news.33.a
+		trigger = {
+			original_tag = R33
+		}
+	}
+	option = {
+		name = rpg_news.33.b
+		trigger = {
+			original_tag = FROM
+		}
+	}
+	option = {
+		name = rpg_news.33.c
+		trigger = {
+			has_war_with = FROM
+		}
+	}
+	option = {
+		name = rpg_news.33.d
+		trigger = {
+			NOT = { original_tag = R33 }
+			NOT = { original_tag = FROM }
+			NOT = { has_war_with = FROM }
+		}
+	}
+}

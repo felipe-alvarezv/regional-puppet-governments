@@ -218,8 +218,15 @@
  rpg_news.31.d:0 "Interesting"
  #East Germany
  rpg_news.32.t:0 "Formation of [R32.GetName]"
- rpg_news.32.desc:0 "[Root.GetAdjective] military officials have announced the establishment of a regional government in West Germany. Officially known as [R32.GetNameDef], they have been granted autonomy to maintain order and control in the region.  The leader of [R32.GetNameDef], [R32.GetLeader], has publicly announced their full support towards the [Root.GetAdjective] cause.  The nations who are aligned with [Root.GetNameDef] have supported this decision, while the rest of the world has called [R32.GetNameDef] just a [Root.GetAdjective] lapdog."
+ rpg_news.32.desc:0 "[Root.GetAdjective] military officials have announced the establishment of a regional government in East Germany. Officially known as [R32.GetNameDef], they have been granted autonomy to maintain order and control in the region.  The leader of [R32.GetNameDef], [R32.GetLeader], has publicly announced their full support towards the [Root.GetAdjective] cause.  The nations who are aligned with [Root.GetNameDef] have supported this decision, while the rest of the world has called [R32.GetNameDef] just a [Root.GetAdjective] lapdog."
  rpg_news.32.a:0 "We will prove our strength to the world!"
  rpg_news.32.b:0 "A toast to our new friends!"
  rpg_news.32.c:0 "They are nothing but a lackey!"
  rpg_news.32.d:0 "Interesting"
+ #Prussia
+ rpg_news.33.t:0 "Formation of [R33.GetName]"
+ rpg_news.33.desc:0 "[Root.GetAdjective] military officials have announced the establishment of a regional government in Prussia. Officially known as [R33.GetNameDef], they have been granted autonomy to maintain order and control in the region.  The leader of [R33.GetNameDef], [R33.GetLeader], has publicly announced their full support towards the [Root.GetAdjective] cause.  The nations who are aligned with [Root.GetNameDef] have supported this decision, while the rest of the world has called [R33.GetNameDef] just a [Root.GetAdjective] lapdog."
+ rpg_news.33.a:0 "We will prove our strength to the world!"
+ rpg_news.33.b:0 "A toast to our new friends!"
+ rpg_news.33.c:0 "They are nothing but a lackey!"
+ rpg_news.33.d:0 "Interesting"
