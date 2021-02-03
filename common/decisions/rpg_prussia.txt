@@ -1,0 +1,128 @@
+rpg_category = {
+	rpg_prussia = {
+		allowed = {
+			NOT = {
+				original_tag = DDR #East Germany
+				original_tag = GER #Germany
+				original_tag = WGR #West Germany				
+				original_tag = R13 #Germany
+				original_tag = R19 #North Germany
+				original_tag = R25 #South Germany
+				original_tag = R31 #West Germany
+				original_tag = R32 #East Germany
+				original_tag = R33 #Prussia
+			}
+		}
+		available = {
+			is_subject = no
+			#Ermland-Masuren
+			custom_trigger_tooltip = {
+				tooltip = rpg_prussia_required_states_ermland_masuren
+				controls_state = 5 #Ermland-Masuren
+			}
+			#Vorpommern
+			custom_trigger_tooltip = {
+				tooltip = rpg_prussia_required_states_vorpommern
+				controls_state = 62 #Vorpommern
+			}
+			#Hinterpommern
+			custom_trigger_tooltip = {
+				tooltip = rpg_prussia_required_states_hinterpommern
+				controls_state = 63 #Hinterpommern
+			}
+			#Brandenburg
+			custom_trigger_tooltip = {
+				tooltip = rpg_prussia_required_states_brandenburg
+				controls_state = 64 #Brandenburg
+			}
+			#Niederschlesien
+			custom_trigger_tooltip = {
+				tooltip = rpg_prussia_required_states_niederschlesien
+				controls_state = 66 #Niederschlesien
+			}
+			#Oberschlesien
+			custom_trigger_tooltip = {
+				tooltip = rpg_prussia_required_states_oberschlesien
+				controls_state = 67 #Oberschlesien
+			}
+			#Ostmark
+			custom_trigger_tooltip = {
+				tooltip = rpg_prussia_required_states_ostmark
+				controls_state = 68 #Ostmark
+			}
+			#Konigsberg
+			custom_trigger_tooltip = {
+				tooltip = rpg_prussia_required_states_konigsberg
+				controls_state = 763 #Konigsberg
+			}
+		}
+		visible = {
+			OR = {
+				controls_state = 64 #Brandenburg
+				controls_state = 763 #Konigsberg
+			}
+			NOT = { 
+				original_tag = DDR #East Germany
+				original_tag = GER #Germany
+				original_tag = WGR #West Germany
+				original_tag = R13 #Germany
+				original_tag = R19 #North Germany
+				original_tag = R25 #South Germany
+				original_tag = R31 #West Germany
+				original_tag = R32 #East Germany
+				original_tag = R33 #Prussia
+                has_global_flag = rpg_prussia_flag
+            }
+		}
+		complete_effect = {
+			hidden_effect = {
+				5 = { add_core_of = R33 } #Ermland-Masuren
+				62 = { add_core_of = R33 } #Vorpommern
+				63 = { add_core_of = R33 } #Hinterpommern
+				64 = { add_core_of = R33 } #Brandenburg
+				66 = { add_core_of = R33 } #Niederschlesien
+				67 = { add_core_of = R33 } #Oberschlesien
+				68 = { add_core_of = R33 } #Ostmark
+				763 = { add_core_of = R33 } #Konigsberg
+				
+			}
+			custom_effect_tooltip = rpg_prussia_coring_states
+			custom_effect_tooltip = rpg_prussia_transfer_states
+			#Set compliance to 80 in all cores and instantiate collaboration government
+			custom_effect_tooltip = rpg_prussia_puppet
+			hidden_effect = {
+				every_state = {
+					limit = {
+						is_core_of = R33
+					}
+					set_compliance = 80
+				}
+				
+				if = {
+					limit = { has_dlc = "La Resistance" }
+					set_temp_variable = { country_to_initiate = R33 }
+					instantiate_collaboration_government = yes
+				}
+				else = {
+					release = R33
+					puppet = R33
+				}
+			}
+			#News event, set local flag, and set global flag
+			hidden_effect = {
+				ROOT = {
+					set_country_flag = rpg_prussia_country_flag
+				}
+				news_event = { id = rpg_news.33 hours = 6 }
+				set_global_flag = rpg_prussia_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
