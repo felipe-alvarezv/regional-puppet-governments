@@ -1,4 +1,130 @@
 rpg_category_territories_prussia = {
+	rpg_prussia_moselland = {
+		allowed = {
+			NOT = {
+				original_tag = DDR #East Germany
+				original_tag = GER #Germany
+				original_tag = WGR #West Germany				
+				original_tag = R13 #Germany
+				original_tag = R19 #North Germany
+				original_tag = R25 #South Germany
+				original_tag = R31 #West Germany
+				original_tag = R32 #East Germany
+				original_tag = R33 #Prussia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_prussia_required_states_moselland
+                controls_state = 42 #Moselland
+			}
+		}
+		visible = {
+            has_global_flag = rpg_prussia_flag
+            R33 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = DDR #East Germany
+				original_tag = GER #Germany
+				original_tag = WGR #West Germany				
+				original_tag = R13 #Germany
+				original_tag = R19 #North Germany
+				original_tag = R25 #South Germany
+				original_tag = R31 #West Germany
+				original_tag = R32 #East Germany
+				original_tag = R33 #Prussia
+                has_global_flag = rpg_prussia_moselland_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_prussia_coring_states_moselland
+			custom_effect_tooltip = rpg_prussia_transfer_states_moselland
+			hidden_effect = {
+				42 = { add_core_of = R33 } #Moselland
+				R33 = {
+					transfer_state = 42 #Moselland
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_prussia_moselland_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_prussia_rhineland = {
+		allowed = {
+			NOT = {
+				original_tag = DDR #East Germany
+				original_tag = GER #Germany
+				original_tag = WGR #West Germany				
+				original_tag = R13 #Germany
+				original_tag = R19 #North Germany
+				original_tag = R25 #South Germany
+				original_tag = R31 #West Germany
+				original_tag = R32 #East Germany
+				original_tag = R33 #Prussia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_prussia_required_states_rhineland
+                controls_state = 51 #Rhineland
+			}
+		}
+		visible = {
+            has_global_flag = rpg_prussia_flag
+            R33 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = DDR #East Germany
+				original_tag = GER #Germany
+				original_tag = WGR #West Germany				
+				original_tag = R13 #Germany
+				original_tag = R19 #North Germany
+				original_tag = R25 #South Germany
+				original_tag = R31 #West Germany
+				original_tag = R32 #East Germany
+				original_tag = R33 #Prussia
+                has_global_flag = rpg_prussia_rhineland_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_prussia_coring_states_rhineland
+			custom_effect_tooltip = rpg_prussia_transfer_states_rhineland
+			hidden_effect = {
+				51 = { add_core_of = R33 } #Rhineland
+				R33 = {
+					transfer_state = 51 #Rhineland
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_prussia_rhineland_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
 	rpg_prussia_hessen = {
 		allowed = {
 			NOT = {
@@ -62,6 +188,258 @@ rpg_category_territories_prussia = {
 			}
 		}
 	}
+	rpg_prussia_weser_ems = {
+		allowed = {
+			NOT = {
+				original_tag = DDR #East Germany
+				original_tag = GER #Germany
+				original_tag = WGR #West Germany				
+				original_tag = R13 #Germany
+				original_tag = R19 #North Germany
+				original_tag = R25 #South Germany
+				original_tag = R31 #West Germany
+				original_tag = R32 #East Germany
+				original_tag = R33 #Prussia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_prussia_required_states_weser_ems
+                controls_state = 56 #Weser-Ems
+			}
+		}
+		visible = {
+            has_global_flag = rpg_prussia_flag
+            R33 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = DDR #East Germany
+				original_tag = GER #Germany
+				original_tag = WGR #West Germany				
+				original_tag = R13 #Germany
+				original_tag = R19 #North Germany
+				original_tag = R25 #South Germany
+				original_tag = R31 #West Germany
+				original_tag = R32 #East Germany
+				original_tag = R33 #Prussia
+                has_global_flag = rpg_prussia_weser_ems_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_prussia_coring_states_weser_ems
+			custom_effect_tooltip = rpg_prussia_transfer_states_weser_ems
+			hidden_effect = {
+				56 = { add_core_of = R33 } #Weser-Ems
+				R33 = {
+					transfer_state = 56 #Weser-Ems
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_prussia_weser_ems_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_prussia_westfalen = {
+		allowed = {
+			NOT = {
+				original_tag = DDR #East Germany
+				original_tag = GER #Germany
+				original_tag = WGR #West Germany				
+				original_tag = R13 #Germany
+				original_tag = R19 #North Germany
+				original_tag = R25 #South Germany
+				original_tag = R31 #West Germany
+				original_tag = R32 #East Germany
+				original_tag = R33 #Prussia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_prussia_required_states_westfalen
+                controls_state = 57 #Westfalen
+			}
+		}
+		visible = {
+            has_global_flag = rpg_prussia_flag
+            R33 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = DDR #East Germany
+				original_tag = GER #Germany
+				original_tag = WGR #West Germany				
+				original_tag = R13 #Germany
+				original_tag = R19 #North Germany
+				original_tag = R25 #South Germany
+				original_tag = R31 #West Germany
+				original_tag = R32 #East Germany
+				original_tag = R33 #Prussia
+                has_global_flag = rpg_prussia_westfalen_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_prussia_coring_states_westfalen
+			custom_effect_tooltip = rpg_prussia_transfer_states_westfalen
+			hidden_effect = {
+				57 = { add_core_of = R33 } #Westfalen
+				R33 = {
+					transfer_state = 57 #Westfalen
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_prussia_westfalen_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_prussia_schleswig_holstein = {
+		allowed = {
+			NOT = {
+				original_tag = DDR #East Germany
+				original_tag = GER #Germany
+				original_tag = WGR #West Germany				
+				original_tag = R13 #Germany
+				original_tag = R19 #North Germany
+				original_tag = R25 #South Germany
+				original_tag = R31 #West Germany
+				original_tag = R32 #East Germany
+				original_tag = R33 #Prussia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_prussia_required_states_schleswig_holstein
+                controls_state = 58 #Schleswig-Holstein
+			}
+		}
+		visible = {
+            has_global_flag = rpg_prussia_flag
+            R33 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = DDR #East Germany
+				original_tag = GER #Germany
+				original_tag = WGR #West Germany				
+				original_tag = R13 #Germany
+				original_tag = R19 #North Germany
+				original_tag = R25 #South Germany
+				original_tag = R31 #West Germany
+				original_tag = R32 #East Germany
+				original_tag = R33 #Prussia
+                has_global_flag = rpg_prussia_schleswig_holstein_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_prussia_coring_states_schleswig_holstein
+			custom_effect_tooltip = rpg_prussia_transfer_states_schleswig_holstein
+			hidden_effect = {
+				58 = { add_core_of = R33 } #Schleswig-Holstein
+				R33 = {
+					transfer_state = 58 #Schleswig-Holstein
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_prussia_schleswig_holstein_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_prussia_hannover = {
+		allowed = {
+			NOT = {
+				original_tag = DDR #East Germany
+				original_tag = GER #Germany
+				original_tag = WGR #West Germany				
+				original_tag = R13 #Germany
+				original_tag = R19 #North Germany
+				original_tag = R25 #South Germany
+				original_tag = R31 #West Germany
+				original_tag = R32 #East Germany
+				original_tag = R33 #Prussia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_prussia_required_states_hannover
+                controls_state = 59 #Hannover
+			}
+		}
+		visible = {
+            has_global_flag = rpg_prussia_flag
+            R33 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = DDR #East Germany
+				original_tag = GER #Germany
+				original_tag = WGR #West Germany				
+				original_tag = R13 #Germany
+				original_tag = R19 #North Germany
+				original_tag = R25 #South Germany
+				original_tag = R31 #West Germany
+				original_tag = R32 #East Germany
+				original_tag = R33 #Prussia
+                has_global_flag = rpg_prussia_hannover_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_prussia_coring_states_hannover
+			custom_effect_tooltip = rpg_prussia_transfer_states_hannover
+			hidden_effect = {
+				59 = { add_core_of = R33 } #Hannover
+				R33 = {
+					transfer_state = 59 #Hannover
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_prussia_hannover_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
 	rpg_prussia_thuringen = {
 		allowed = {
 			NOT = {
@@ -115,6 +493,132 @@ rpg_category_territories_prussia = {
 			}
 			hidden_effect = {
 				set_global_flag = rpg_prussia_thuringen_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_prussia_mecklenburg = {
+		allowed = {
+			NOT = {
+				original_tag = DDR #East Germany
+				original_tag = GER #Germany
+				original_tag = WGR #West Germany				
+				original_tag = R13 #Germany
+				original_tag = R19 #North Germany
+				original_tag = R25 #South Germany
+				original_tag = R31 #West Germany
+				original_tag = R32 #East Germany
+				original_tag = R33 #Prussia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_prussia_required_states_mecklenburg
+                controls_state = 61 #Mecklenburg
+			}
+		}
+		visible = {
+            has_global_flag = rpg_prussia_flag
+            R33 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = DDR #East Germany
+				original_tag = GER #Germany
+				original_tag = WGR #West Germany				
+				original_tag = R13 #Germany
+				original_tag = R19 #North Germany
+				original_tag = R25 #South Germany
+				original_tag = R31 #West Germany
+				original_tag = R32 #East Germany
+				original_tag = R33 #Prussia
+                has_global_flag = rpg_prussia_mecklenburg_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_prussia_coring_states_mecklenburg
+			custom_effect_tooltip = rpg_prussia_transfer_states_mecklenburg
+			hidden_effect = {
+				61 = { add_core_of = R33 } #Mecklenburg
+				R33 = {
+					transfer_state = 61 #Mecklenburg
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_prussia_mecklenburg_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_prussia_sachsen = {
+		allowed = {
+			NOT = {
+				original_tag = DDR #East Germany
+				original_tag = GER #Germany
+				original_tag = WGR #West Germany				
+				original_tag = R13 #Germany
+				original_tag = R19 #North Germany
+				original_tag = R25 #South Germany
+				original_tag = R31 #West Germany
+				original_tag = R32 #East Germany
+				original_tag = R33 #Prussia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_prussia_required_states_sachsen
+                controls_state = 65 #Sachsen
+			}
+		}
+		visible = {
+            has_global_flag = rpg_prussia_flag
+            R33 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = DDR #East Germany
+				original_tag = GER #Germany
+				original_tag = WGR #West Germany				
+				original_tag = R13 #Germany
+				original_tag = R19 #North Germany
+				original_tag = R25 #South Germany
+				original_tag = R31 #West Germany
+				original_tag = R32 #East Germany
+				original_tag = R33 #Prussia
+                has_global_flag = rpg_prussia_sachsen_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_prussia_coring_states_sachsen
+			custom_effect_tooltip = rpg_prussia_transfer_states_sachsen
+			hidden_effect = {
+				65 = { add_core_of = R33 } #Sachsen
+				R33 = {
+					transfer_state = 65 #Sachsen
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_prussia_sachsen_flag
 			}
 		}
 		ai_will_do = {
