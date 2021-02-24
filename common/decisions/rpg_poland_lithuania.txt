@@ -1,0 +1,121 @@
+rpg_category = {
+	rpg_poland_lithuania = {
+		allowed = {
+			NOT = {
+				original_tag = LIT #Lithuania
+				original_tag = POL #Poland
+				original_tag = R34 #Poland-Lithuania
+			}
+		}
+		available = {
+			is_subject = no
+			#Warszawa
+			custom_trigger_tooltip = {
+				tooltip = rpg_poland_lithuania_required_states_warszawa
+				controls_state = 10 #Warszawa
+			}
+			#Kaunas
+			custom_trigger_tooltip = {
+				tooltip = rpg_poland_lithuania_required_states_kaunas
+				controls_state = 11 #Kaunas
+			}
+			#Lodz
+			custom_trigger_tooltip = {
+				tooltip = rpg_poland_lithuania_required_states_lodz
+				controls_state = 87 #Lodz
+			}
+			#Kielce
+			custom_trigger_tooltip = {
+				tooltip = rpg_poland_lithuania_required_states_kielce
+				controls_state = 90 #Kielce
+			}
+			#Lublin
+			custom_trigger_tooltip = {
+				tooltip = rpg_poland_lithuania_required_states_lublin
+				controls_state = 92 #Lublin
+			}
+			#Byalistok
+			custom_trigger_tooltip = {
+				tooltip = rpg_poland_lithuania_required_states_byalistok
+				controls_state = 97 #Byalistok
+			}
+			#Plock
+			custom_trigger_tooltip = {
+				tooltip = rpg_poland_lithuania_required_states_plock
+				controls_state = 98 #Plock
+			}
+			#Siauliai
+			custom_trigger_tooltip = {
+				tooltip = rpg_poland_lithuania_required_states_siauliai
+				controls_state = 189 #Siauliai
+			}
+			#Wilno
+			custom_trigger_tooltip = {
+				tooltip = rpg_poland_lithuania_required_states_wilno
+				controls_state = 784 #Wilno
+			}
+		}
+		visible = {
+			OR = {
+				controls_state = 10 #Warszawa
+				controls_state = 11 #Kaunas
+			}
+			NOT = { 
+				original_tag = LIT #Lithuania
+				original_tag = POL #Poland
+				original_tag = R34 #Poland-Lithuania
+                has_global_flag = rpg_poland_lithuania_flag
+            }
+		}
+		complete_effect = {
+			hidden_effect = {
+				10 = { add_core_of = R34 } #Warszawa
+				11 = { add_core_of = R34 } #Kaunas
+				87 = { add_core_of = R34 } #Lodz
+				90 = { add_core_of = R34 } #Kielce
+				92 = { add_core_of = R34 } #Lublin
+				97 = { add_core_of = R34 } #Byalistok
+				98 = { add_core_of = R34 } #Plock
+				189 = { add_core_of = R34 } #Siauliai
+				784 = { add_core_of = R34 } #Wilno
+			}
+			custom_effect_tooltip = rpg_poland_lithuania_coring_states
+			custom_effect_tooltip = rpg_poland_lithuania_transfer_states
+			#Set compliance to 80 in all cores and instantiate collaboration government
+			custom_effect_tooltip = rpg_poland_lithuania_puppet
+			hidden_effect = {
+				every_state = {
+					limit = {
+						is_core_of = R34
+					}
+					set_compliance = 80
+				}
+				
+				if = {
+					limit = { has_dlc = "La Resistance" }
+					set_temp_variable = { country_to_initiate = R34 }
+					instantiate_collaboration_government = yes
+				}
+				else = {
+					release = R34
+					puppet = R34
+				}
+			}
+			#News event, set local flag, and set global flag
+			hidden_effect = {
+				ROOT = {
+					set_country_flag = rpg_poland_lithuania_country_flag
+				}
+				news_event = { id = rpg_news.34 hours = 6 }
+				set_global_flag = rpg_poland_lithuania_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}

@@ -1,0 +1,1467 @@
+rpg_category_territories_poland_lithuania = {
+	rpg_poland_lithuania_ermland_masuren = {
+		allowed = {
+			NOT = {
+				original_tag = LIT #Lithuania
+				original_tag = POL #Poland
+				original_tag = R34 #Poland-Lithuania
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_poland_lithuania_required_states_ermland_masuren
+                controls_state = 5 #Ermland-Masuren
+			}
+		}
+		visible = {
+            has_global_flag = rpg_poland_lithuania_flag
+            R34 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = LIT #Lithuania
+				original_tag = POL #Poland
+				original_tag = R34 #Poland-Lithuania
+                has_global_flag = rpg_poland_lithuania_ermland_masuren_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_poland_lithuania_coring_states_ermland_masuren
+			custom_effect_tooltip = rpg_poland_lithuania_transfer_states_ermland_masuren
+			hidden_effect = {
+				5 = { add_core_of = R34 } #Ermland-Masuren
+				R34 = {
+					transfer_state = 5 #Ermland-Masuren
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_poland_lithuania_ermland_masuren_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_poland_lithuania_vidzeme = {
+		allowed = {
+			NOT = {
+				original_tag = LIT #Lithuania
+				original_tag = POL #Poland
+				original_tag = R34 #Poland-Lithuania
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_poland_lithuania_required_states_vidzeme
+                controls_state = 12 #Vidzeme
+			}
+		}
+		visible = {
+            has_global_flag = rpg_poland_lithuania_flag
+            R34 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = LIT #Lithuania
+				original_tag = POL #Poland
+				original_tag = R34 #Poland-Lithuania
+                has_global_flag = rpg_poland_lithuania_vidzeme_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_poland_lithuania_coring_states_vidzeme
+			custom_effect_tooltip = rpg_poland_lithuania_transfer_states_vidzeme
+			hidden_effect = {
+				12 = { add_core_of = R34 } #Vidzeme
+				R34 = {
+					transfer_state = 12 #Vidzeme
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_poland_lithuania_vidzeme_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_poland_lithuania_danzig = {
+		allowed = {
+			NOT = {
+				original_tag = LIT #Lithuania
+				original_tag = POL #Poland
+				original_tag = R34 #Poland-Lithuania
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_poland_lithuania_required_states_danzig
+                controls_state = 85 #Danzig
+			}
+		}
+		visible = {
+            has_global_flag = rpg_poland_lithuania_flag
+            R34 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = LIT #Lithuania
+				original_tag = POL #Poland
+				original_tag = R34 #Poland-Lithuania
+                has_global_flag = rpg_poland_lithuania_danzig_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_poland_lithuania_coring_states_danzig
+			custom_effect_tooltip = rpg_poland_lithuania_transfer_states_danzig
+			hidden_effect = {
+				85 = { add_core_of = R34 } #Danzig
+				R34 = {
+					transfer_state = 85 #Danzig
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_poland_lithuania_danzig_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_poland_lithuania_poznan = {
+		allowed = {
+			NOT = {
+				original_tag = LIT #Lithuania
+				original_tag = POL #Poland
+				original_tag = R34 #Poland-Lithuania
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_poland_lithuania_required_states_poznan
+                controls_state = 86 #Poznan
+			}
+		}
+		visible = {
+            has_global_flag = rpg_poland_lithuania_flag
+            R34 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = LIT #Lithuania
+				original_tag = POL #Poland
+				original_tag = R34 #Poland-Lithuania
+                has_global_flag = rpg_poland_lithuania_poznan_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_poland_lithuania_coring_states_poznan
+			custom_effect_tooltip = rpg_poland_lithuania_transfer_states_poznan
+			hidden_effect = {
+				86 = { add_core_of = R34 } #Poznan
+				R34 = {
+					transfer_state = 86 #Poznan
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_poland_lithuania_poznan_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_poland_lithuania_krakow = {
+		allowed = {
+			NOT = {
+				original_tag = LIT #Lithuania
+				original_tag = POL #Poland
+				original_tag = R34 #Poland-Lithuania
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_poland_lithuania_required_states_krakow
+                controls_state = 88 #Krakow
+			}
+		}
+		visible = {
+            has_global_flag = rpg_poland_lithuania_flag
+            R34 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = LIT #Lithuania
+				original_tag = POL #Poland
+				original_tag = R34 #Poland-Lithuania
+                has_global_flag = rpg_poland_lithuania_krakow_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_poland_lithuania_coring_states_krakow
+			custom_effect_tooltip = rpg_poland_lithuania_transfer_states_krakow
+			hidden_effect = {
+				88 = { add_core_of = R34 } #Krakow
+				R34 = {
+					transfer_state = 88 #Krakow
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_poland_lithuania_krakow_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_poland_lithuania_stanislawow = {
+		allowed = {
+			NOT = {
+				original_tag = LIT #Lithuania
+				original_tag = POL #Poland
+				original_tag = R34 #Poland-Lithuania
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_poland_lithuania_required_states_stanislawow
+                controls_state = 89 #Stanislawow
+			}
+		}
+		visible = {
+            has_global_flag = rpg_poland_lithuania_flag
+            R34 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = LIT #Lithuania
+				original_tag = POL #Poland
+				original_tag = R34 #Poland-Lithuania
+                has_global_flag = rpg_poland_lithuania_stanislawow_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_poland_lithuania_coring_states_stanislawow
+			custom_effect_tooltip = rpg_poland_lithuania_transfer_states_stanislawow
+			hidden_effect = {
+				89 = { add_core_of = R34 } #Stanislawow
+				R34 = {
+					transfer_state = 89 #Stanislawow
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_poland_lithuania_stanislawow_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_poland_lithuania_lwow = {
+		allowed = {
+			NOT = {
+				original_tag = LIT #Lithuania
+				original_tag = POL #Poland
+				original_tag = R34 #Poland-Lithuania
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_poland_lithuania_required_states_lwow
+                controls_state = 91 #Lwow
+			}
+		}
+		visible = {
+            has_global_flag = rpg_poland_lithuania_flag
+            R34 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = LIT #Lithuania
+				original_tag = POL #Poland
+				original_tag = R34 #Poland-Lithuania
+                has_global_flag = rpg_poland_lithuania_lwow_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_poland_lithuania_coring_states_lwow
+			custom_effect_tooltip = rpg_poland_lithuania_transfer_states_lwow
+			hidden_effect = {
+				91 = { add_core_of = R34 } #Lwow
+				R34 = {
+					transfer_state = 91 #Lwow
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_poland_lithuania_lwow_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_poland_lithuania_wolyn = {
+		allowed = {
+			NOT = {
+				original_tag = LIT #Lithuania
+				original_tag = POL #Poland
+				original_tag = R34 #Poland-Lithuania
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_poland_lithuania_required_states_wolyn
+                controls_state = 93 #Wolyn
+			}
+		}
+		visible = {
+            has_global_flag = rpg_poland_lithuania_flag
+            R34 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = LIT #Lithuania
+				original_tag = POL #Poland
+				original_tag = R34 #Poland-Lithuania
+                has_global_flag = rpg_poland_lithuania_wolyn_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_poland_lithuania_coring_states_wolyn
+			custom_effect_tooltip = rpg_poland_lithuania_transfer_states_wolyn
+			hidden_effect = {
+				93 = { add_core_of = R34 } #Wolyn
+				R34 = {
+					transfer_state = 93 #Wolyn
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_poland_lithuania_wolyn_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_poland_lithuania_polesie = {
+		allowed = {
+			NOT = {
+				original_tag = LIT #Lithuania
+				original_tag = POL #Poland
+				original_tag = R34 #Poland-Lithuania
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_poland_lithuania_required_states_polesie
+                controls_state = 94 #Polesie
+			}
+		}
+		visible = {
+            has_global_flag = rpg_poland_lithuania_flag
+            R34 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = LIT #Lithuania
+				original_tag = POL #Poland
+				original_tag = R34 #Poland-Lithuania
+                has_global_flag = rpg_poland_lithuania_polesie_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_poland_lithuania_coring_states_polesie
+			custom_effect_tooltip = rpg_poland_lithuania_transfer_states_polesie
+			hidden_effect = {
+				94 = { add_core_of = R34 } #Polesie
+				R34 = {
+					transfer_state = 94 #Polesie
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_poland_lithuania_polesie_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_poland_lithuania_nowogrodek = {
+		allowed = {
+			NOT = {
+				original_tag = LIT #Lithuania
+				original_tag = POL #Poland
+				original_tag = R34 #Poland-Lithuania
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_poland_lithuania_required_states_nowogrodek
+                controls_state = 95 #Nowogrodek
+			}
+		}
+		visible = {
+            has_global_flag = rpg_poland_lithuania_flag
+            R34 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = LIT #Lithuania
+				original_tag = POL #Poland
+				original_tag = R34 #Poland-Lithuania
+                has_global_flag = rpg_poland_lithuania_nowogrodek_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_poland_lithuania_coring_states_nowogrodek
+			custom_effect_tooltip = rpg_poland_lithuania_transfer_states_nowogrodek
+			hidden_effect = {
+				95 = { add_core_of = R34 } #Nowogrodek
+				R34 = {
+					transfer_state = 95 #Nowogrodek
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_poland_lithuania_nowogrodek_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_poland_lithuania_wilejka = {
+		allowed = {
+			NOT = {
+				original_tag = LIT #Lithuania
+				original_tag = POL #Poland
+				original_tag = R34 #Poland-Lithuania
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_poland_lithuania_required_states_wilejka
+                controls_state = 96 #Wilejka
+			}
+		}
+		visible = {
+            has_global_flag = rpg_poland_lithuania_flag
+            R34 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = LIT #Lithuania
+				original_tag = POL #Poland
+				original_tag = R34 #Poland-Lithuania
+                has_global_flag = rpg_poland_lithuania_wilejka_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_poland_lithuania_coring_states_wilejka
+			custom_effect_tooltip = rpg_poland_lithuania_transfer_states_wilejka
+			hidden_effect = {
+				96 = { add_core_of = R34 } #Wilejka
+				R34 = {
+					transfer_state = 96 #Wilejka
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_poland_lithuania_wilejka_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_poland_lithuania_memel = {
+		allowed = {
+			NOT = {
+				original_tag = LIT #Lithuania
+				original_tag = R34 #Poland-Lithuania
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_poland_lithuania_required_states_memel
+                controls_state = 188 #Memel
+			}
+		}
+		visible = {
+            has_global_flag = rpg_poland_lithuania_flag
+            R34 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = LIT #Lithuania
+				original_tag = R34 #Poland-Lithuania
+                has_global_flag = rpg_poland_lithuania_memel_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_poland_lithuania_coring_states_memel
+			custom_effect_tooltip = rpg_poland_lithuania_transfer_states_memel
+			hidden_effect = {
+				188 = { add_core_of = R34 } #Memel
+				R34 = {
+					transfer_state = 188 #Memel
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_poland_lithuania_memel_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_poland_lithuania_kurzeme = {
+		allowed = {
+			NOT = {
+				original_tag = LAT #Latvia
+				original_tag = R34 #Poland-Lithuania
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_poland_lithuania_required_states_kurzeme
+                controls_state = 190 #Kurzeme
+			}
+		}
+		visible = {
+            has_global_flag = rpg_poland_lithuania_flag
+            R34 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = LAT #Latvia
+				original_tag = R34 #Poland-Lithuania
+                has_global_flag = rpg_poland_lithuania_kurzeme_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_poland_lithuania_coring_states_kurzeme
+			custom_effect_tooltip = rpg_poland_lithuania_transfer_states_kurzeme
+			hidden_effect = {
+				190 = { add_core_of = R34 } #Kurzeme
+				R34 = {
+					transfer_state = 190 #Kurzeme
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_poland_lithuania_kurzeme_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_poland_lithuania_chernigov = {
+		allowed = {
+			NOT = {
+				original_tag = LAT #Latvia
+				original_tag = R34 #Poland-Lithuania
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_poland_lithuania_required_states_chernigov
+                controls_state = 193 #Chernigov
+			}
+		}
+		visible = {
+            has_global_flag = rpg_poland_lithuania_flag
+            R34 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = LAT #Latvia
+				original_tag = R34 #Poland-Lithuania
+                has_global_flag = rpg_poland_lithuania_chernigov_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_poland_lithuania_coring_states_chernigov
+			custom_effect_tooltip = rpg_poland_lithuania_transfer_states_chernigov
+			hidden_effect = {
+				193 = { add_core_of = R34 } #Chernigov
+				R34 = {
+					transfer_state = 193 #Chernigov
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_poland_lithuania_chernigov_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_poland_lithuania_mozyr = {
+		allowed = {
+			NOT = {
+				original_tag = BLR #Belarus
+				original_tag = SOV #Soviet Union
+				original_tag = R34 #Poland-Lithuania
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_poland_lithuania_required_states_mozyr
+                controls_state = 194 #Mozyr
+			}
+		}
+		visible = {
+            has_global_flag = rpg_poland_lithuania_flag
+            R34 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = BLR #Belarus
+				original_tag = SOV #Soviet Union
+				original_tag = R34 #Poland-Lithuania
+                has_global_flag = rpg_poland_lithuania_mozyr_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_poland_lithuania_coring_states_mozyr
+			custom_effect_tooltip = rpg_poland_lithuania_transfer_states_mozyr
+			hidden_effect = {
+				194 = { add_core_of = R34 } #Mozyr
+				R34 = {
+					transfer_state = 194 #Mozyr
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_poland_lithuania_mozyr_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_poland_lithuania_vinnytsia = {
+		allowed = {
+			NOT = {
+				original_tag = SOV #Soviet Union
+				original_tag = UKR #Ukraine
+				original_tag = R34 #Poland-Lithuania
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_poland_lithuania_required_states_vinnytsia
+                controls_state = 198 #Vinnytsia
+			}
+		}
+		visible = {
+            has_global_flag = rpg_poland_lithuania_flag
+            R34 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = SOV #Soviet Union
+				original_tag = UKR #Ukraine
+				original_tag = R34 #Poland-Lithuania
+                has_global_flag = rpg_poland_lithuania_vinnytsia_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_poland_lithuania_coring_states_vinnytsia
+			custom_effect_tooltip = rpg_poland_lithuania_transfer_states_vinnytsia
+			hidden_effect = {
+				198 = { add_core_of = R34 } #Vinnytsia
+				R34 = {
+					transfer_state = 198 #Vinnytsia
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_poland_lithuania_vinnytsia_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_poland_lithuania_khmelnytskyi = {
+		allowed = {
+			NOT = {
+				original_tag = SOV #Soviet Union
+				original_tag = UKR #Ukraine
+				original_tag = R34 #Poland-Lithuania
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_poland_lithuania_required_states_khmelnytskyi
+                controls_state = 199 #Khmelnytskyi
+			}
+		}
+		visible = {
+            has_global_flag = rpg_poland_lithuania_flag
+            R34 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = SOV #Soviet Union
+				original_tag = UKR #Ukraine
+				original_tag = R34 #Poland-Lithuania
+                has_global_flag = rpg_poland_lithuania_khmelnytskyi_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_poland_lithuania_coring_states_khmelnytskyi
+			custom_effect_tooltip = rpg_poland_lithuania_transfer_states_khmelnytskyi
+			hidden_effect = {
+				199 = { add_core_of = R34 } #Khmelnytskyi
+				R34 = {
+					transfer_state = 199 #Khmelnytskyi
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_poland_lithuania_khmelnytskyi_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_poland_lithuania_zhytomyr = {
+		allowed = {
+			NOT = {
+				original_tag = SOV #Soviet Union
+				original_tag = UKR #Ukraine
+				original_tag = R34 #Poland-Lithuania
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_poland_lithuania_required_states_zhytomyr
+                controls_state = 201 #Zhytomyr
+			}
+		}
+		visible = {
+            has_global_flag = rpg_poland_lithuania_flag
+            R34 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = SOV #Soviet Union
+				original_tag = UKR #Ukraine
+				original_tag = R34 #Poland-Lithuania
+                has_global_flag = rpg_poland_lithuania_zhytomyr_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_poland_lithuania_coring_states_zhytomyr
+			custom_effect_tooltip = rpg_poland_lithuania_transfer_states_zhytomyr
+			hidden_effect = {
+				201 = { add_core_of = R34 } #Zhytomyr
+				R34 = {
+					transfer_state = 201 #Zhytomyr
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_poland_lithuania_zhytomyr_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_poland_lithuania_kiev = {
+		allowed = {
+			NOT = {
+				original_tag = SOV #Soviet Union
+				original_tag = UKR #Ukraine
+				original_tag = R34 #Poland-Lithuania
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_poland_lithuania_required_states_kiev
+                controls_state = 202 #Kiev
+			}
+		}
+		visible = {
+            has_global_flag = rpg_poland_lithuania_flag
+            R34 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = SOV #Soviet Union
+				original_tag = UKR #Ukraine
+				original_tag = R34 #Poland-Lithuania
+                has_global_flag = rpg_poland_lithuania_kiev_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_poland_lithuania_coring_states_kiev
+			custom_effect_tooltip = rpg_poland_lithuania_transfer_states_kiev
+			hidden_effect = {
+				202 = { add_core_of = R34 } #Kiev
+				R34 = {
+					transfer_state = 202 #Kiev
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_poland_lithuania_kiev_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_poland_lithuania_cherkasy = {
+		allowed = {
+			NOT = {
+				original_tag = SOV #Soviet Union
+				original_tag = UKR #Ukraine
+				original_tag = R34 #Poland-Lithuania
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_poland_lithuania_required_states_cherkasy
+                controls_state = 203 #Cherkasy
+			}
+		}
+		visible = {
+            has_global_flag = rpg_poland_lithuania_flag
+            R34 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = SOV #Soviet Union
+				original_tag = UKR #Ukraine
+				original_tag = R34 #Poland-Lithuania
+                has_global_flag = rpg_poland_lithuania_cherkasy_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_poland_lithuania_coring_states_cherkasy
+			custom_effect_tooltip = rpg_poland_lithuania_transfer_states_cherkasy
+			hidden_effect = {
+				203 = { add_core_of = R34 } #Cherkasy
+				R34 = {
+					transfer_state = 203 #Cherkasy
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_poland_lithuania_cherkasy_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_poland_lithuania_bobruysk = {
+		allowed = {
+			NOT = {
+				original_tag = SOV #Soviet Union
+				original_tag = UKR #Ukraine
+				original_tag = R34 #Poland-Lithuania
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_poland_lithuania_required_states_bobruysk
+                controls_state = 204 #Bobruysk
+			}
+		}
+		visible = {
+            has_global_flag = rpg_poland_lithuania_flag
+            R34 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = SOV #Soviet Union
+				original_tag = UKR #Ukraine
+				original_tag = R34 #Poland-Lithuania
+                has_global_flag = rpg_poland_lithuania_bobruysk_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_poland_lithuania_coring_states_bobruysk
+			custom_effect_tooltip = rpg_poland_lithuania_transfer_states_bobruysk
+			hidden_effect = {
+				204 = { add_core_of = R34 } #Bobruysk
+				R34 = {
+					transfer_state = 204 #Bobruysk
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_poland_lithuania_bobruysk_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_poland_lithuania_minsk = {
+		allowed = {
+			NOT = {
+				original_tag = BLR #Belarus
+				original_tag = SOV #Soviet Union
+				original_tag = R34 #Poland-Lithuania
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_poland_lithuania_required_states_minsk
+                controls_state = 206 #Minsk
+			}
+		}
+		visible = {
+            has_global_flag = rpg_poland_lithuania_flag
+            R34 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+				original_tag = BLR #Belarus
+                original_tag = SOV #Soviet Union
+				original_tag = R34 #Poland-Lithuania
+                has_global_flag = rpg_poland_lithuania_minsk_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_poland_lithuania_coring_states_minsk
+			custom_effect_tooltip = rpg_poland_lithuania_transfer_states_minsk
+			hidden_effect = {
+				206 = { add_core_of = R34 } #Minsk
+				R34 = {
+					transfer_state = 206 #Minsk
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_poland_lithuania_minsk_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_poland_lithuania_vitebsk = {
+		allowed = {
+			NOT = {
+				original_tag = BLR #Belarus
+				original_tag = SOV #Soviet Union
+				original_tag = R34 #Poland-Lithuania
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_poland_lithuania_required_states_vitebsk
+                controls_state = 207 #Vitebsk
+			}
+		}
+		visible = {
+            has_global_flag = rpg_poland_lithuania_flag
+            R34 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+				original_tag = BLR #Belarus
+                original_tag = SOV #Soviet Union
+				original_tag = R34 #Poland-Lithuania
+                has_global_flag = rpg_poland_lithuania_vitebsk_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_poland_lithuania_coring_states_vitebsk
+			custom_effect_tooltip = rpg_poland_lithuania_transfer_states_vitebsk
+			hidden_effect = {
+				207 = { add_core_of = R34 } #Vitebsk
+				R34 = {
+					transfer_state = 207 #Vitebsk
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_poland_lithuania_vitebsk_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_poland_lithuania_gomel = {
+		allowed = {
+			NOT = {
+				original_tag = BLR #Belarus
+				original_tag = SOV #Soviet Union
+				original_tag = R34 #Poland-Lithuania
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_poland_lithuania_required_states_gomel
+                controls_state = 241 #Gomel
+			}
+		}
+		visible = {
+            has_global_flag = rpg_poland_lithuania_flag
+            R34 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+				original_tag = BLR #Belarus
+                original_tag = SOV #Soviet Union
+				original_tag = R34 #Poland-Lithuania
+                has_global_flag = rpg_poland_lithuania_gomel_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_poland_lithuania_coring_states_gomel
+			custom_effect_tooltip = rpg_poland_lithuania_transfer_states_gomel
+			hidden_effect = {
+				241 = { add_core_of = R34 } #Gomel
+				R34 = {
+					transfer_state = 241 #Gomel
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_poland_lithuania_gomel_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_poland_lithuania_smolensk = {
+		allowed = {
+			NOT = {
+				original_tag = SOV #Soviet Union
+				original_tag = R34 #Poland-Lithuania
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_poland_lithuania_required_states_smolensk
+                controls_state = 242 #Smolensk
+			}
+		}
+		visible = {
+            has_global_flag = rpg_poland_lithuania_flag
+            R34 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = SOV #Soviet Union
+				original_tag = R34 #Poland-Lithuania
+                has_global_flag = rpg_poland_lithuania_smolensk_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_poland_lithuania_coring_states_smolensk
+			custom_effect_tooltip = rpg_poland_lithuania_transfer_states_smolensk
+			hidden_effect = {
+				242 = { add_core_of = R34 } #Smolensk
+				R34 = {
+					transfer_state = 242 #Smolensk
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_poland_lithuania_smolensk_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_poland_lithuania_roslavl = {
+		allowed = {
+			NOT = {
+				original_tag = SOV #Soviet Union
+				original_tag = R34 #Poland-Lithuania
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_poland_lithuania_required_states_roslavl
+                controls_state = 243 #Roslavl
+			}
+		}
+		visible = {
+            has_global_flag = rpg_poland_lithuania_flag
+            R34 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = SOV #Soviet Union
+				original_tag = R34 #Poland-Lithuania
+                has_global_flag = rpg_poland_lithuania_roslavl_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_poland_lithuania_coring_states_roslavl
+			custom_effect_tooltip = rpg_poland_lithuania_transfer_states_roslavl
+			hidden_effect = {
+				243 = { add_core_of = R34 } #Roslavl
+				R34 = {
+					transfer_state = 243 #Roslavl
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_poland_lithuania_roslavl_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_poland_lithuania_poltava = {
+		allowed = {
+			NOT = {
+				original_tag = SOV #Soviet Union
+				original_tag = UKR #Ukraine
+				original_tag = R34 #Poland-Lithuania
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_poland_lithuania_required_states_poltava
+                controls_state = 259 #Poltava
+			}
+		}
+		visible = {
+            has_global_flag = rpg_poland_lithuania_flag
+            R34 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = SOV #Soviet Union
+				original_tag = UKR #Ukraine
+				original_tag = R34 #Poland-Lithuania
+                has_global_flag = rpg_poland_lithuania_poltava_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_poland_lithuania_coring_states_poltava
+			custom_effect_tooltip = rpg_poland_lithuania_transfer_states_poltava
+			hidden_effect = {
+				259 = { add_core_of = R34 } #Poltava
+				R34 = {
+					transfer_state = 259 #Poltava
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_poland_lithuania_poltava_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_poland_lithuania_katowice = {
+		allowed = {
+			NOT = {
+				original_tag = POL #Poland
+				original_tag = R34 #Poland-Lithuania
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_poland_lithuania_required_states_katowice
+                controls_state = 762 #Katowice
+			}
+		}
+		visible = {
+            has_global_flag = rpg_poland_lithuania_flag
+            R34 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = POL #Poland
+				original_tag = R34 #Poland-Lithuania
+                has_global_flag = rpg_poland_lithuania_katowice_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_poland_lithuania_coring_states_katowice
+			custom_effect_tooltip = rpg_poland_lithuania_transfer_states_katowice
+			hidden_effect = {
+				762 = { add_core_of = R34 } #Katowice
+				R34 = {
+					transfer_state = 762 #Katowice
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_poland_lithuania_katowice_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_poland_lithuania_konigsberg = {
+		allowed = {
+			NOT = {
+				original_tag = GER #Germany
+				original_tag = R34 #Poland-Lithuania
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_poland_lithuania_required_states_konigsberg
+                controls_state = 763 #Konigsberg
+			}
+		}
+		visible = {
+            has_global_flag = rpg_poland_lithuania_flag
+            R34 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = GER #Germany
+				original_tag = R34 #Poland-Lithuania
+                has_global_flag = rpg_poland_lithuania_konigsberg_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_poland_lithuania_coring_states_konigsberg
+			custom_effect_tooltip = rpg_poland_lithuania_transfer_states_konigsberg
+			hidden_effect = {
+				763 = { add_core_of = R34 } #Konigsberg
+				R34 = {
+					transfer_state = 763 #Konigsberg
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_poland_lithuania_konigsberg_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}

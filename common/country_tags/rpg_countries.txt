@@ -31,3 +31,4 @@ R30 = "countries/R30.txt" #North Africa
 R31 = "countries/R31.txt" #West Germany
 R32 = "countries/R32.txt" #East Germany
 R33 = "countries/R33.txt" #Prussia
+R34 = "countries/R34.txt" #Poland-Lithuania

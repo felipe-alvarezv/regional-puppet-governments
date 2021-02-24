@@ -1,0 +1,6 @@
+#Poland-Lithuania
+graphical_culture = eastern_european_gfx
+graphical_culture_2d = eastern_european_2d
+color = { 160 160 160 }
+color = rgb { 160 160 160 }
+color_ui = rgb { 160 160 160 }
