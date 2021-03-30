@@ -146,6 +146,53 @@ rpg_category_territories_central_africa = {
 			}
 		}
 	}
+	rpg_central_africa_sao_tome = {
+		allowed = {
+			NOT = {
+				original_tag = R07 #Central Africa
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_central_africa_required_states_sao_tome
+                controls_state = 705 #Sao Tome
+			}
+		}
+		visible = {
+            has_global_flag = rpg_central_africa_flag
+			R07 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+				original_tag = R07 #Central Africa
+                has_global_flag = rpg_central_africa_sao_tome_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_central_africa_coring_states_sao_tome
+			custom_effect_tooltip = rpg_central_africa_transfer_states_sao_tome
+			hidden_effect = {
+				705 = { add_core_of = R07 } #Sao Tome
+				R07 = {
+					transfer_state = 705 #Sao Tome
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_central_africa_sao_tome_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
 	rpg_central_africa_burundi = {
 		allowed = {
 			NOT = {

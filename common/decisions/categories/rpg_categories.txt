@@ -22,4 +22,5 @@ rpg_category_territories_prussia = { }
 rpg_category_territories_scandinavia = { }
 rpg_category_territories_south_germany = { }
 rpg_category_territories_quebec = { }
+rpg_category_territories_west_africa = { }
 rpg_category_territories_western_provinces = { }

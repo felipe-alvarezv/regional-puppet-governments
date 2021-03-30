@@ -1190,3 +1190,38 @@ news_event = {
 		}
 	}
 }
+#West Africa
+news_event = {
+	id = rpg_news.35
+	title = rpg_news.35.t
+	desc = rpg_news.35.desc
+	picture = GFX_news_event_generic_parliament
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = rpg_news.35.a
+		trigger = {
+			original_tag = R35
+		}
+	}
+	option = {
+		name = rpg_news.35.b
+		trigger = {
+			original_tag = FROM
+		}
+	}
+	option = {
+		name = rpg_news.35.c
+		trigger = {
+			has_war_with = FROM
+		}
+	}
+	option = {
+		name = rpg_news.35.d
+		trigger = {
+			NOT = { original_tag = R35 }
+			NOT = { original_tag = FROM }
+			NOT = { has_war_with = FROM }
+		}
+	}
+}

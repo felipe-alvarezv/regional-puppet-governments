@@ -651,7 +651,8 @@ rpg_category_territories_poland_lithuania = {
 	rpg_poland_lithuania_chernigov = {
 		allowed = {
 			NOT = {
-				original_tag = LAT #Latvia
+				original_tag = SOV #Soviet Union
+				original_tag = UKR #Ukraine
 				original_tag = R34 #Poland-Lithuania
 			}
 		}
@@ -671,7 +672,8 @@ rpg_category_territories_poland_lithuania = {
 				}
 			}
 			NOT = { 
-                original_tag = LAT #Latvia
+                original_tag = SOV #Soviet Union
+				original_tag = UKR #Ukraine
 				original_tag = R34 #Poland-Lithuania
                 has_global_flag = rpg_poland_lithuania_chernigov_flag
             }

@@ -1,0 +1,128 @@
+rpg_category = {
+	rpg_poland_lithuania = {
+		allowed = {
+			NOT = {
+				original_tag = DAH #Dahomey
+				original_tag = GNA #Guinea
+				original_tag = IVO #Ivory Coast
+				original_tag = MLI #Mali
+				original_tag = NGR #Niger
+				original_tag = SEN #Senegal
+				original_tag = TOG #Togo
+				original_tag = VOL #Upper Volta
+				original_tag = R35 #West Africa
+			}
+		}
+		available = {
+			is_subject = no
+			#Senegal
+			custom_trigger_tooltip = {
+				tooltip = rpg_west_africa_required_states_senegal
+				controls_state = 272 #Senegal
+			}
+			#Mali
+			custom_trigger_tooltip = {
+				tooltip = rpg_west_africa_required_states_mali
+				controls_state = 556 #Mali
+			}
+			#Dahomey
+			custom_trigger_tooltip = {
+				tooltip = rpg_west_africa_required_states_dahomey
+				controls_state = 776 #Dahomey
+			}
+			#Togo
+			custom_trigger_tooltip = {
+				tooltip = rpg_west_africa_required_states_togo
+				controls_state = 777 #Togo
+			}
+			#Upper Volta
+			custom_trigger_tooltip = {
+				tooltip = rpg_west_africa_required_states_upper_volta
+				controls_state = 778 #Upper Volta
+			}
+			#Ivory Coast
+			custom_trigger_tooltip = {
+				tooltip = rpg_west_africa_required_states_ivory_coast
+				controls_state = 779 #Ivory Coast
+			}
+			#Guinea
+			custom_trigger_tooltip = {
+				tooltip = rpg_west_africa_required_states_guinea
+				controls_state = 780 #Guinea
+			}
+			#Niger
+			custom_trigger_tooltip = {
+				tooltip = rpg_west_africa_required_states_niger
+				controls_state = 781 #Niger
+			}
+		}
+		visible = {
+			OR = {
+				controls_state = 272 #Senegal
+				controls_state = 556 #Mali
+				controls_state = 779 #Ivory Coast
+			}
+			NOT = { 
+				original_tag = DAH #Dahomey
+				original_tag = GNA #Guinea
+				original_tag = IVO #Ivory Coast
+				original_tag = MLI #Mali
+				original_tag = NGR #Niger
+				original_tag = SEN #Senegal
+				original_tag = TOG #Togo
+				original_tag = VOL #Upper Volta
+				original_tag = R35 #West Africa
+                has_global_flag = rpg_west_africa_flag
+            }
+		}
+		complete_effect = {
+			hidden_effect = {
+				272 = { add_core_of = R35 } #Senegal
+				556 = { add_core_of = R35 } #Mali
+				776 = { add_core_of = R35 } #Dahomey
+				777 = { add_core_of = R35 } #Togo
+				778 = { add_core_of = R35 } #Upper Volta
+				779 = { add_core_of = R35 } #Ivory Coast
+				780 = { add_core_of = R35 } #Guinea
+				781 = { add_core_of = R35 } #Niger
+			}
+			custom_effect_tooltip = rpg_west_africa_coring_states
+			custom_effect_tooltip = rpg_west_africa_transfer_states
+			#Set compliance to 80 in all cores and instantiate collaboration government
+			custom_effect_tooltip = rpg_poland_lithuania_puppet
+			hidden_effect = {
+				every_state = {
+					limit = {
+						is_core_of = R35
+					}
+					set_compliance = 80
+				}
+				
+				if = {
+					limit = { has_dlc = "La Resistance" }
+					set_temp_variable = { country_to_initiate = R35 }
+					instantiate_collaboration_government = yes
+				}
+				else = {
+					release = R35
+					puppet = R35
+				}
+			}
+			#News event, set local flag, and set global flag
+			hidden_effect = {
+				ROOT = {
+					set_country_flag = rpg_west_africa_country_flag
+				}
+				news_event = { id = rpg_news.35 hours = 6 }
+				set_global_flag = rpg_west_africa_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
