@@ -20,6 +20,11 @@ rpg_category = {
 				tooltip = rpg_west_africa_required_states_senegal
 				controls_state = 272 #Senegal
 			}
+			#Southern Sahara
+			custom_trigger_tooltip = {
+				tooltip = rpg_west_africa_required_states_southern_sahara
+				controls_state = 515 #Southern Sahara
+			}
 			#Mali
 			custom_trigger_tooltip = {
 				tooltip = rpg_west_africa_required_states_mali
@@ -55,6 +60,11 @@ rpg_category = {
 				tooltip = rpg_west_africa_required_states_niger
 				controls_state = 781 #Niger
 			}
+			#Tombouctou
+			custom_trigger_tooltip = {
+				tooltip = rpg_west_africa_required_states_tombouctou
+				controls_state = 782 #Tombouctou
+			}
 		}
 		visible = {
 			OR = {
@@ -78,6 +88,7 @@ rpg_category = {
 		complete_effect = {
 			hidden_effect = {
 				272 = { add_core_of = R35 } #Senegal
+				515 = { add_core_of = R35 } #Southern Sahara
 				556 = { add_core_of = R35 } #Mali
 				776 = { add_core_of = R35 } #Dahomey
 				777 = { add_core_of = R35 } #Togo
@@ -85,11 +96,12 @@ rpg_category = {
 				779 = { add_core_of = R35 } #Ivory Coast
 				780 = { add_core_of = R35 } #Guinea
 				781 = { add_core_of = R35 } #Niger
+				782 = { add_core_of = R35 } #Tombouctou
 			}
 			custom_effect_tooltip = rpg_west_africa_coring_states
 			custom_effect_tooltip = rpg_west_africa_transfer_states
 			#Set compliance to 80 in all cores and instantiate collaboration government
-			custom_effect_tooltip = rpg_poland_lithuania_puppet
+			custom_effect_tooltip = rpg_west_africa_puppet
 			hidden_effect = {
 				every_state = {
 					limit = {
