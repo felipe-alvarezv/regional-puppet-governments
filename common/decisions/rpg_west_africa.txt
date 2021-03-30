@@ -1,5 +1,5 @@
 rpg_category = {
-	rpg_poland_lithuania = {
+	rpg_west_africa = {
 		allowed = {
 			NOT = {
 				original_tag = DAH #Dahomey
