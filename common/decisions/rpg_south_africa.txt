@@ -1,0 +1,100 @@
+rpg_category = {
+	rpg_south_africa = {
+		allowed = {
+			NOT = {
+				original_tag = BOT #Botswana
+				original_tag = NMB #Namibia
+				original_tag = SAF #South Africa
+				original_tag = R36 #South Africa
+			}
+		}
+		available = {
+			is_subject = no
+			#Transvaal
+			custom_trigger_tooltip = {
+				tooltip = rpg_south_africa_required_states_transvaal
+				controls_state = 275 #Transvaal
+			}
+			#South West Africa
+			custom_trigger_tooltip = {
+				tooltip = rpg_south_africa_required_states_south_west_africa
+				controls_state = 541 #South West Africa
+			}
+			#Bechuanaland
+			custom_trigger_tooltip = {
+				tooltip = rpg_south_africa_required_states_bechuanaland
+				controls_state = 542 #Bechuanaland
+			}
+			#Cape
+			custom_trigger_tooltip = {
+				tooltip = rpg_south_africa_required_states_cape
+				controls_state = 681 #Cape
+			}
+			#Natal
+			custom_trigger_tooltip = {
+				tooltip = rpg_south_africa_required_states_natal
+				controls_state = 719 #Natal
+			}	
+		}
+		visible = {
+			OR = {
+				controls_state = 275 #Transvaal
+				controls_state = 542 #Bechuanaland
+				controls_state = 681 #Cape
+			}
+			NOT = { 
+				original_tag = BOT #Botswana
+				original_tag = NMB #Namibia
+				original_tag = SAF #South Africa
+				original_tag = R36 #South Africa
+                has_global_flag = rpg_south_africa_flag
+            }
+		}
+		complete_effect = {
+			hidden_effect = {
+				275 = { add_core_of = R36 } #Transvaal
+				541 = { add_core_of = R36 } #South West Africa
+				542 = { add_core_of = R36 } #Bechuanaland
+				681 = { add_core_of = R36 } #Cape
+				719 = { add_core_of = R36 } #Natal
+			}
+			custom_effect_tooltip = rpg_south_africa_coring_states
+			custom_effect_tooltip = rpg_south_africa_transfer_states
+			#Set compliance to 80 in all cores and instantiate collaboration government
+			custom_effect_tooltip = rpg_south_africa_puppet
+			hidden_effect = {
+				every_state = {
+					limit = {
+						is_core_of = R36
+					}
+					set_compliance = 80
+				}
+				
+				if = {
+					limit = { has_dlc = "La Resistance" }
+					set_temp_variable = { country_to_initiate = R36 }
+					instantiate_collaboration_government = yes
+				}
+				else = {
+					release = R36
+					puppet = R36
+				}
+			}
+			#News event, set local flag, and set global flag
+			hidden_effect = {
+				ROOT = {
+					set_country_flag = rpg_south_africa_country_flag
+				}
+				news_event = { id = rpg_news.36 hours = 6 }
+				set_global_flag = rpg_south_africa_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}

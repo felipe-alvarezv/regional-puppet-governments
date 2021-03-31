@@ -33,3 +33,4 @@ R32 = "countries/R32.txt" #East Germany
 R33 = "countries/R33.txt" #Prussia
 R34 = "countries/R34.txt" #Poland-Lithuania
 R35 = "countries/R35.txt" #West Africa
+R36 = "countries/R36.txt" #South Africa
