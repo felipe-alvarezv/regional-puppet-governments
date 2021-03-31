@@ -1,0 +1,296 @@
+rpg_category_territories_south_africa = {
+	rpg_south_africa_south_angola = {
+		allowed = {
+			NOT = {
+				original_tag = ANG #Angola
+				original_tag = R36 #South Africa
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_south_africa_required_states_south_angola
+                controls_state = 540 #South Angola
+			}
+		}
+		visible = {
+            has_global_flag = rpg_south_africa_flag
+            R36 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = ANG #Angola
+				original_tag = R36 #South Africa
+                has_global_flag = rpg_south_africa_south_angola_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_south_africa_coring_states_south_angola
+			custom_effect_tooltip = rpg_south_africa_transfer_states_south_angola
+			hidden_effect = {
+				540 = { add_core_of = R36 } #South Angola
+				R36 = {
+					transfer_state = 540 #South Angola
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_south_africa_south_angola_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_south_africa_mozambique = {
+		allowed = {
+			NOT = {
+				original_tag = MZB #Mozambique
+				original_tag = R36 #South Africa
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_south_africa_required_states_mozambique
+                controls_state = 544 #Mozambique
+			}
+		}
+		visible = {
+            has_global_flag = rpg_south_africa_flag
+            R36 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = MZB #Mozambique
+				original_tag = R36 #South Africa
+                has_global_flag = rpg_south_africa_mozambique_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_south_africa_coring_states_mozambique
+			custom_effect_tooltip = rpg_south_africa_transfer_states_mozambique
+			hidden_effect = {
+				544 = { add_core_of = R36 } #Mozambique
+				R36 = {
+					transfer_state = 544 #Mozambique
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_south_africa_mozambique_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_south_africa_rhodesia = {
+		allowed = {
+			NOT = {
+				original_tag = ZIM #Zimbabwe
+				original_tag = R36 #South Africa
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_south_africa_required_states_rhodesia
+                controls_state = 545 #Rhodesia
+			}
+		}
+		visible = {
+            has_global_flag = rpg_south_africa_flag
+            R36 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = ZIM #Zimbabwe
+				original_tag = R36 #South Africa
+                has_global_flag = rpg_south_africa_rhodesia_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_south_africa_coring_states_rhodesia
+			custom_effect_tooltip = rpg_south_africa_transfer_states_rhodesia
+			hidden_effect = {
+				545 = { add_core_of = R36 } #Rhodesia
+				R36 = {
+					transfer_state = 545 #Rhodesia
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_south_africa_rhodesia_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_south_africa_malawi = {
+		allowed = {
+			NOT = {
+				original_tag = MLW #Malawi
+				original_tag = R36 #South Africa
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_south_africa_required_states_malawi
+                controls_state = 770 #Malawi
+			}
+		}
+		visible = {
+            has_global_flag = rpg_south_africa_flag
+            R36 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = MLW #Malawi
+				original_tag = R36 #South Africa
+                has_global_flag = rpg_south_africa_malawi_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_south_africa_coring_states_malawi
+			custom_effect_tooltip = rpg_south_africa_transfer_states_malawi
+			hidden_effect = {
+				770 = { add_core_of = R36 } #Malawi
+				R36 = {
+					transfer_state = 770 #Malawi
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_south_africa_malawi_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_south_africa_zambia = {
+		allowed = {
+			NOT = {
+				original_tag = ZAM #Zambia
+				original_tag = R36 #South Africa
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_south_africa_required_states_zambia
+                controls_state = 771 #Zambia
+			}
+		}
+		visible = {
+            has_global_flag = rpg_south_africa_flag
+            R36 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = ZAM #Zambia
+				original_tag = R36 #South Africa
+                has_global_flag = rpg_south_africa_zambia_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_south_africa_coring_states_zambia
+			custom_effect_tooltip = rpg_south_africa_transfer_states_zambia
+			hidden_effect = {
+				771 = { add_core_of = R36 } #Zambia
+				R36 = {
+					transfer_state = 771 #Zambia
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_south_africa_zambia_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_south_africa_north_angola = {
+		allowed = {
+			NOT = {
+				original_tag = ANG #Angola
+				original_tag = R36 #South Africa
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_south_africa_required_states_north_angola
+                controls_state = 796 #North Angola
+			}
+		}
+		visible = {
+            has_global_flag = rpg_south_africa_flag
+            R36 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = ANG #Angola
+				original_tag = R36 #South Africa
+                has_global_flag = rpg_south_africa_north_angola_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_south_africa_coring_states_north_angola
+			custom_effect_tooltip = rpg_south_africa_transfer_states_north_angola
+			hidden_effect = {
+				796 = { add_core_of = R36 } #North Angola
+				R36 = {
+					transfer_state = 796 #North Angola
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_south_africa_north_angola_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
