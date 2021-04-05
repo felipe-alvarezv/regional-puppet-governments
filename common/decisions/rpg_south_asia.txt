@@ -1,0 +1,182 @@
+rpg_category = {
+	rpg_south_africa = {
+		allowed = {
+			NOT = {
+				original_tag = PAK #Pakistan
+				original_tag = RAJ #India
+				original_tag = R37 #South Asia
+			}
+		}
+		available = {
+			is_subject = no
+			#Madurai
+			custom_trigger_tooltip = {
+				tooltip = rpg_south_asia_required_states_madurai
+				controls_state = 423 #Madurai
+			}
+			#Madras
+			custom_trigger_tooltip = {
+				tooltip = rpg_south_asia_required_states_madras
+				controls_state = 424 #Madras
+			}
+			#Mysore
+			custom_trigger_tooltip = {
+				tooltip = rpg_south_asia_required_states_mysore
+				controls_state = 425 #Mysore
+			}
+			#Orissa
+			custom_trigger_tooltip = {
+				tooltip = rpg_south_asia_required_states_orissa
+				controls_state = 426 #Orissa
+			}
+			#Hyderabad
+			custom_trigger_tooltip = {
+				tooltip = rpg_south_asia_required_states_hyderabad
+				controls_state = 427 #Hyderabad
+			}
+			#Gujarat
+			custom_trigger_tooltip = {
+				tooltip = rpg_south_asia_required_states_gujarat
+				controls_state = 428 #Gujarat
+			}
+			#Bombay
+			custom_trigger_tooltip = {
+				tooltip = rpg_south_asia_required_states_bombay
+				controls_state = 429 #Bombay
+			}
+			#Rajahsthan
+			custom_trigger_tooltip = {
+				tooltip = rpg_south_asia_required_states_rajahsthan
+				controls_state = 433 #Rajahsthan
+			}
+			#Jabalpur
+			custom_trigger_tooltip = {
+				tooltip = rpg_south_asia_required_states_jabalpur
+				controls_state = 436 #Jabalpur
+			}
+			#Indore
+			custom_trigger_tooltip = {
+				tooltip = rpg_south_asia_required_states_indore
+				controls_state = 437 #Indore
+			}
+			#Lucknow
+			custom_trigger_tooltip = {
+				tooltip = rpg_south_asia_required_states_lucknow
+				controls_state = 438 #Lucknow
+			}
+			#Delhi
+			custom_trigger_tooltip = {
+				tooltip = rpg_south_asia_required_states_delhi
+				controls_state = 439 #Delhi
+			}
+			#Punjab
+			custom_trigger_tooltip = {
+				tooltip = rpg_south_asia_required_states_punjab
+				controls_state = 440 #Punjab
+			}
+			#Kashmir
+			custom_trigger_tooltip = {
+				tooltip = rpg_south_asia_required_states_kashmir
+				controls_state = 441 #Kashmir
+			}
+			#Peshawar
+			custom_trigger_tooltip = {
+				tooltip = rpg_south_asia_required_states_peshawar
+				controls_state = 442 #Peshawar
+			}
+			#Sind
+			custom_trigger_tooltip = {
+				tooltip = rpg_south_asia_required_states_sind
+				controls_state = 443 #Sind
+			}
+			#Baluchistan
+			custom_trigger_tooltip = {
+				tooltip = rpg_south_asia_required_states_baluchistan
+				controls_state = 444 #Baluchistan
+			}
+			#Quetta
+			custom_trigger_tooltip = {
+				tooltip = rpg_south_asia_required_states_quetta
+				controls_state = 445 #Quetta
+			}
+			#Northern Kashmir
+			custom_trigger_tooltip = {
+				tooltip = rpg_south_asia_required_states_northern_kashmir
+				controls_state = 787 #Northern Kashmir
+			}
+		}
+		visible = {
+			OR = {
+				controls_state = 427 #Hyderabad
+				controls_state = 439 #Delhi
+				controls_state = 440 #Punjab
+			}
+			NOT = { 
+				original_tag = PAK #Pakistan
+				original_tag - RAJ #India
+				original_tag = R37 #South Asia
+                has_global_flag = rpg_south_asia_flag
+            }
+		}
+		complete_effect = {
+			hidden_effect = {
+				423 = { add_core_of = R37 } #Madurai
+				424 = { add_core_of = R37 } #Madras
+				425 = { add_core_of = R37 } #Mysore
+				426 = { add_core_of = R37 } #Orissa
+				427 = { add_core_of = R37 } #Hyderabad
+				428 = { add_core_of = R37 } #Gujarat
+				429 = { add_core_of = R37 } #Bombay
+				433 = { add_core_of = R37 } #Rajahsthan
+				436 = { add_core_of = R37 } #Jabalpur
+				437 = { add_core_of = R37 } #Indore
+				438 = { add_core_of = R37 } #Lucknow
+				439 = { add_core_of = R37 } #Delhi
+				440 = { add_core_of = R37 } #Punjab
+				441 = { add_core_of = R37 } #Kashmir
+				442 = { add_core_of = R37 } #Peshawar
+				443 = { add_core_of = R37 } #Sind
+				444 = { add_core_of = R37 } #Baluchistan
+				445 = { add_core_of = R37 } #Quetta
+				787 = { add_core_of = R37 } #Northern Kashmir
+			}
+			custom_effect_tooltip = rpg_south_asia_coring_states
+			custom_effect_tooltip = rpg_south_asia_transfer_states
+			#Set compliance to 80 in all cores and instantiate collaboration government
+			custom_effect_tooltip = rpg_south_asia_puppet
+			hidden_effect = {
+				every_state = {
+					limit = {
+						is_core_of = R37
+					}
+					set_compliance = 80
+				}
+				
+				if = {
+					limit = { has_dlc = "La Resistance" }
+					set_temp_variable = { country_to_initiate = R37 }
+					instantiate_collaboration_government = yes
+				}
+				else = {
+					release = R37
+					puppet = R37
+				}
+			}
+			#News event, set local flag, and set global flag
+			hidden_effect = {
+				ROOT = {
+					set_country_flag = rpg_south_asia_country_flag
+				}
+				news_event = { id = rpg_news.37 hours = 6 }
+				set_global_flag = rpg_south_asia_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
