@@ -1,5 +1,5 @@
 rpg_category = {
-	rpg_south_africa = {
+	rpg_south_asia = {
 		allowed = {
 			NOT = {
 				original_tag = PAK #Pakistan
