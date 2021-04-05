@@ -63,7 +63,7 @@ set_politics = {
 	elections_allowed = yes
 }
 create_country_leader = {
-	name = "Campbell Hamilton"
+	name = "Military Administration"
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 	expire = "1965.1.1"
@@ -73,7 +73,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Gilbert Blackwood"
+	name = "Military Administration"
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 	expire = "1965.1.1"
@@ -83,7 +83,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Arthur MacDougall"
+	name = "Military Administration"
 	desc = ""
 	picture = "gfx/leaders/Europe/portrait_europe_generic_4.dds"
 	expire = "1965.1.1"
@@ -93,7 +93,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Henry Ross"
+	name = "Military Administration"
 	desc = ""
 	picture = "gfx/leaders/Europe/portrait_europe_generic_5.dds"
 	expire = "1965.1.1"

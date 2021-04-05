@@ -63,7 +63,7 @@ set_politics = {
 	elections_allowed = yes
 }
 create_country_leader = {
-	name = "Malcolm Quinn"
+	name = "Military Administration"
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 	expire = "1965.1.1"
@@ -73,7 +73,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Rhodri McCallum"
+	name = "Military Administration"
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 	expire = "1965.1.1"
@@ -83,7 +83,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "William Gordon"
+	name = "Military Administration"
 	desc = ""
 	picture = "gfx/leaders/Europe/portrait_europe_generic_4.dds"
 	expire = "1965.1.1"
@@ -93,7 +93,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Jake Ragland"
+	name = "Military Administration"
 	desc = ""
 	picture = "gfx/leaders/Europe/portrait_europe_generic_5.dds"
 	expire = "1965.1.1"

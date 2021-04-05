@@ -63,7 +63,7 @@ set_politics = {
 	elections_allowed = yes
 }
 create_country_leader = {
-	name = "Mohammed Amhali"
+	name = "Military Administration"
 	desc = ""
 	picture = "gfx/leaders/EGY/Portrait_Arabia_Generic_1.dds"
 	expire = "1965.1.1"
@@ -73,7 +73,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Omar Mareghni"
+	name = "Military Administration"
 	desc = ""
 	picture = "gfx/leaders/EGY/Portrait_Arabia_Generic_2.dds"
 	expire = "1965.1.1"
@@ -83,7 +83,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Khelil Ben Chaabane"
+	name = "Military Administration"
 	desc = ""
 	picture = "gfx/leaders/EGY/Portrait_Arabia_Generic_3.dds"
 	expire = "1965.1.1"
@@ -93,7 +93,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Abdelmalek Al-Ghazzawi"
+	name = "Military Administration"
 	desc = ""
 	picture = "gfx/leaders/EGY/Portrait_Arabia_Generic_3.dds"
 	expire = "1965.1.1"

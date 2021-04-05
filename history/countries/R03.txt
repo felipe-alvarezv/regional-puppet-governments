@@ -63,7 +63,7 @@ set_politics = {
 	elections_allowed = yes
 }
 create_country_leader = {
-	name = "Salim ibn Mustafa"
+	name = "Military Administration"
 	desc = ""
 	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_1.dds"
 	expire = "1965.1.1"
@@ -73,7 +73,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Halil ibn Abd al-Qadir"
+	name = "Military Administration"
 	desc = ""
 	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_democratic1.dds"
 	expire = "1965.1.1"
@@ -83,7 +83,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Khalid ibn Fuad"
+	name = "Military Administration"
 	desc = ""
 	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_3.dds"
 	expire = "1965.1.1"
@@ -93,7 +93,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Muhammad ibm Kamil"
+	name = "Military Administration"
 	desc = ""
 	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_fascism1.dds"
 	expire = "1965.1.1"

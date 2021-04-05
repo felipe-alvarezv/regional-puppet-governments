@@ -1,0 +1,676 @@
+rpg_category_territories_south_asia = {
+	rpg_south_asia_maldives = {
+		allowed = {
+			NOT = {
+				original_tag = MLD #Maldives
+				original_tag = R37 #South Asia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_south_asia_required_states_maldives
+                controls_state = 281 #Maldives
+			}
+		}
+		visible = {
+            has_global_flag = rpg_south_asia_flag
+            R37 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = MLD #Maldives
+				original_tag = R37 #South Asia
+                has_global_flag = rpg_south_asia_maldives_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_south_asia_coring_states_maldives
+			custom_effect_tooltip = rpg_south_asia_transfer_states_maldives
+			hidden_effect = {
+				281 = { add_core_of = R37 } #Maldives
+				R37 = {
+					transfer_state = 281 #Maldives
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_south_asia_maldives_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_south_asia_burma = {
+		allowed = {
+			NOT = {
+				original_tag = BRM #Burma
+				original_tag = R37 #South Asia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_south_asia_required_states_burma
+                controls_state = 288 #Burma
+			}
+		}
+		visible = {
+            has_global_flag = rpg_south_asia_flag
+            R37 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = BRM #Burma
+				original_tag = R37 #South Asia
+                has_global_flag = rpg_south_asia_burma_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_south_asia_coring_states_burma
+			custom_effect_tooltip = rpg_south_asia_transfer_states_burma
+			hidden_effect = {
+				288 = { add_core_of = R37 } #Burma
+				R37 = {
+					transfer_state = 288 #Burma
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_south_asia_burma_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_south_asia_french_india = {
+		allowed = {
+			NOT = {
+				original_tag = R37 #South Asia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_south_asia_required_states_french_india
+                controls_state = 320 #French India
+			}
+		}
+		visible = {
+            has_global_flag = rpg_south_asia_flag
+            R37 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+				original_tag = R37 #South Asia
+                has_global_flag = rpg_south_asia_french_india_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_south_asia_coring_states_french_india
+			custom_effect_tooltip = rpg_south_asia_transfer_states_french_india
+			hidden_effect = {
+				320 = { add_core_of = R37 } #French India
+				R37 = {
+					transfer_state = 320 #French India
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_south_asia_french_india_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_south_asia_goa = {
+		allowed = {
+			NOT = {
+				original_tag = R37 #South Asia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_south_asia_required_states_goa
+                controls_state = 321 #Goa
+			}
+		}
+		visible = {
+            has_global_flag = rpg_south_asia_flag
+            R37 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+				original_tag = R37 #South Asia
+                has_global_flag = rpg_south_asia_goa_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_south_asia_coring_states_goa
+			custom_effect_tooltip = rpg_south_asia_transfer_states_goa
+			hidden_effect = {
+				321 = { add_core_of = R37 } #Goa
+				R37 = {
+					transfer_state = 321 #Goa
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_south_asia_goa_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_south_asia_nepal = {
+		allowed = {
+			NOT = {
+				original_tag = NEP #Nepal
+				original_tag = R37 #South Asia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_south_asia_required_states_nepal
+                controls_state = 323 #Nepal
+			}
+		}
+		visible = {
+            has_global_flag = rpg_south_asia_flag
+            R37 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = NEP #Nepal
+				original_tag = R37 #South Asia
+                has_global_flag = rpg_south_asia_nepal_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_south_asia_coring_states_nepal
+			custom_effect_tooltip = rpg_south_asia_transfer_states_nepal
+			hidden_effect = {
+				323 = { add_core_of = R37 } #Nepal
+				R37 = {
+					transfer_state = 323 #Nepal
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_south_asia_nepal_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_south_asia_bhutan = {
+		allowed = {
+			NOT = {
+				original_tag = BHU #Bhutan
+				original_tag = R37 #South Asia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_south_asia_required_states_bhutan
+                controls_state = 324 #Bhutan
+			}
+		}
+		visible = {
+            has_global_flag = rpg_south_asia_flag
+            R37 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = BHU #Bhutan
+				original_tag = R37 #South Asia
+                has_global_flag = rpg_south_asia_bhutan_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_south_asia_coring_states_bhutan
+			custom_effect_tooltip = rpg_south_asia_transfer_states_bhutan
+			hidden_effect = {
+				324 = { add_core_of = R37 } #Bhutan
+				R37 = {
+					transfer_state = 324 #Bhutan
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_south_asia_bhutan_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_south_asia_ceylon = {
+		allowed = {
+			NOT = {
+				original_tag = SRL #Ceylon
+				original_tag = R37 #South Asia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_south_asia_required_states_ceylon
+                controls_state = 422 #Ceylon
+			}
+		}
+		visible = {
+            has_global_flag = rpg_south_asia_flag
+            R37 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = SRL #Ceylon
+				original_tag = R37 #South Asia
+                has_global_flag = rpg_south_asia_ceylon_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_south_asia_coring_states_ceylon
+			custom_effect_tooltip = rpg_south_asia_transfer_states_ceylon
+			hidden_effect = {
+				422 = { add_core_of = R37 } #Ceylon
+				R37 = {
+					transfer_state = 422 #Ceylon
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_south_asia_ceylon_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_south_asia_assam = {
+		allowed = {
+			NOT = {
+				original_tag = R37 #South Asia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_south_asia_required_states_assam
+                controls_state = 432 #Assam
+			}
+		}
+		visible = {
+            has_global_flag = rpg_south_asia_flag
+            R37 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+				original_tag = R37 #South Asia
+                has_global_flag = rpg_south_asia_assam_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_south_asia_coring_states_assam
+			custom_effect_tooltip = rpg_south_asia_transfer_states_assam
+			hidden_effect = {
+				432 = { add_core_of = R37 } #Assam
+				R37 = {
+					transfer_state = 432 #Assam
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_south_asia_assam_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_south_asia_east_bengal = {
+		allowed = {
+			NOT = {
+				original_tag = BAN #Bangladesh
+				original_tag = R37 #South Asia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_south_asia_required_states_east_bengal
+                controls_state = 430 #East Bengal
+			}
+		}
+		visible = {
+            has_global_flag = rpg_south_asia_flag
+            R37 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = BAN #Bangladesh
+				original_tag = R37 #South Asia
+                has_global_flag = rpg_south_asia_east_bengal_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_south_asia_coring_states_east_bengal
+			custom_effect_tooltip = rpg_south_asia_transfer_states_east_bengal
+			hidden_effect = {
+				430 = { add_core_of = R37 } #East Bengal
+				R37 = {
+					transfer_state = 430 #East Bengal
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_south_asia_east_bengal_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_south_asia_west_bengal = {
+		allowed = {
+			NOT = {
+				original_tag = R37 #South Asia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_south_asia_required_states_west_bengal
+                controls_state = 431 #West Bengal
+			}
+		}
+		visible = {
+            has_global_flag = rpg_south_asia_flag
+            R37 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+				original_tag = R37 #South Asia
+                has_global_flag = rpg_south_asia_west_bengal_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_south_asia_coring_states_west_bengal
+			custom_effect_tooltip = rpg_south_asia_transfer_states_west_bengal
+			hidden_effect = {
+				431 = { add_core_of = R37 } #West Bengal
+				R37 = {
+					transfer_state = 431 #West Bengal
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_south_asia_west_bengal_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_south_asia_arunachal_pradesh = {
+		allowed = {
+			NOT = {
+				original_tag = R37 #South Asia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_south_asia_required_states_arunachal_pradesh
+                controls_state = 434 #Arunachal Pradesh
+			}
+		}
+		visible = {
+            has_global_flag = rpg_south_asia_flag
+            R37 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+				original_tag = R37 #South Asia
+                has_global_flag = rpg_south_asia_arunachal_pradesh_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_south_asia_coring_states_arunachal_pradesh
+			custom_effect_tooltip = rpg_south_asia_transfer_states_arunachal_pradesh
+			hidden_effect = {
+				434 = { add_core_of = R37 } #Arunachal Pradesh
+				R37 = {
+					transfer_state = 434 #Arunachal Pradesh
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_south_asia_arunachal_pradesh_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_south_asia_bihar = {
+		allowed = {
+			NOT = {
+				original_tag = R37 #South Asia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_south_asia_required_states_bihar
+                controls_state = 435 #Bihar
+			}
+		}
+		visible = {
+            has_global_flag = rpg_south_asia_flag
+            R37 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+				original_tag = R37 #South Asia
+                has_global_flag = rpg_south_asia_bihar_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_south_asia_coring_states_bihar
+			custom_effect_tooltip = rpg_south_asia_transfer_states_bihar
+			hidden_effect = {
+				435 = { add_core_of = R37 } #Bihar
+				R37 = {
+					transfer_state = 435 #Bihar
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_south_asia_bihar_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_south_asia_mandalay = {
+		allowed = {
+			NOT = {
+				original_tag = BRM #Burma
+				original_tag = R37 #South Asia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_south_asia_required_states_mandalay
+                controls_state = 640 #Mandalay
+			}
+		}
+		visible = {
+            has_global_flag = rpg_south_asia_flag
+            R37 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = BRM #Burma
+				original_tag = R37 #South Asia
+                has_global_flag = rpg_south_asia_mandalay_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_south_asia_coring_states_mandalay
+			custom_effect_tooltip = rpg_south_asia_transfer_states_mandalay
+			hidden_effect = {
+				640 = { add_core_of = R37 } #Mandalay
+				R37 = {
+					transfer_state = 640 #Mandalay
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_south_asia_mandalay_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_south_asia_andaman = {
+		allowed = {
+			NOT = {
+				original_tag = MAL #Malaysia
+				original_tag = R37 #South Asia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_south_asia_required_states_andaman
+                controls_state = 733 #Andaman
+			}
+		}
+		visible = {
+            has_global_flag = rpg_south_asia_flag
+            R37 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = MAL #Malaysia
+				original_tag = R37 #South Asia
+                has_global_flag = rpg_south_asia_andaman_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_south_asia_coring_states_andaman
+			custom_effect_tooltip = rpg_south_asia_transfer_states_andaman
+			hidden_effect = {
+				733 = { add_core_of = R37 } #Andaman
+				R37 = {
+					transfer_state = 733 #Andaman
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_south_asia_andaman_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}

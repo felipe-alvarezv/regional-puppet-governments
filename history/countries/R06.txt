@@ -63,7 +63,7 @@ set_politics = {
 	elections_allowed = yes
 }
 create_country_leader = {
-	name = "Jacinto Carmona"
+	name = "Military Administration"
 	desc = ""
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_1.dds"
 	expire = "1965.1.1"
@@ -73,7 +73,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Joaquín Cisneros"
+	name = "Military Administration"
 	desc = ""
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
 	expire = "1965.1.1"
@@ -83,7 +83,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Felipe Gómez"
+	name = "Military Administration"
 	desc = ""
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_5.dds"
 	expire = "1965.1.1"
@@ -93,7 +93,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Juan Herrera"
+	name = "Military Administration"
 	desc = ""
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_6.dds"
 	expire = "1965.1.1"

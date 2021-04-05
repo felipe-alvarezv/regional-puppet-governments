@@ -63,7 +63,7 @@ set_politics = {
 	elections_allowed = yes
 }
 create_country_leader = {
-	name = "Antoine Gizenga"
+	name = "Military Administration"
 	desc = ""
 	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
 	expire = "1965.1.1"
@@ -73,7 +73,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Moise Kimba"
+	name = "Military Administration"
 	desc = ""
 	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
 	expire = "1965.1.1"
@@ -83,7 +83,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Ngbale Efomi"
+	name = "Military Administration"
 	desc = ""
 	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_3.dds"
 	expire = "1965.1.1"
@@ -93,7 +93,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Jérôme Mbariko"
+	name = "Military Administration"
 	desc = ""
 	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_3.dds"
 	expire = "1965.1.1"
