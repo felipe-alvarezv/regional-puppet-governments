@@ -113,7 +113,7 @@ rpg_category = {
 			}
 			NOT = { 
 				original_tag = PAK #Pakistan
-				original_tag - RAJ #India
+				original_tag = RAJ #India
 				original_tag = R37 #South Asia
                 has_global_flag = rpg_south_asia_flag
             }
