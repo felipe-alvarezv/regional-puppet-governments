@@ -1005,3 +1005,15 @@ R37 = {
 	}
 	callsigns = { }
 }
+
+#Greater Bangladesh
+R38 = {
+	male = {
+		names = { Khawaja Abdul Huseyn Sheikh Syed Tajuddin Abdus Ataur Mizanur Moudud Kazi }
+	}
+	female = {
+		names = { Khaleda Indira Gayatri Himadrija Hira Jira Kanchani Mahendrani Malavyadevi Nayanadevi Rani Ratnadevi Suvrata }
+	}
+	surnames = { Nazimuddin Suhrawardy Huq Mujib Rahman Nazrul Ahmad Sattar Khan Chowdhury Ahmed Zia }
+	callsigns = { }	
+}
