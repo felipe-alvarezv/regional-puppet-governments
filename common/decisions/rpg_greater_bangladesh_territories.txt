@@ -1,0 +1,198 @@
+rpg_category_territories_greater_bangladesh = {
+	rpg_greater_bangladesh_bhutan = {
+		allowed = {
+			NOT = {
+				original_tag = BHU #Bhutan
+				original_tag = R38 #Greater Bangladesh
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_greater_bangladesh_required_states_bhutan
+                controls_state = 324 #Bhutan
+			}
+		}
+		visible = {
+            has_global_flag = rpg_greater_bangladesh_flag
+            R38 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = BHU #Bhutan
+				original_tag = R38 #Greater Bangladesh
+                has_global_flag = rpg_greater_bangladesh_bhutan_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_greater_bangladesh_coring_states_bhutan
+			custom_effect_tooltip = rpg_greater_bangladesh_transfer_states_bhutan
+			hidden_effect = {
+				324 = { add_core_of = R38 } #Bhutan
+				R38 = {
+					transfer_state = 324 #Bhutan
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_greater_bangladesh_bhutan_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_greater_bangladesh_assam = {
+		allowed = {
+			NOT = {
+				original_tag = RAJ #India
+				original_tag = R38 #Greater Bangladesh
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_greater_bangladesh_required_states_assam
+                controls_state = 432 #Assam
+			}
+		}
+		visible = {
+            has_global_flag = rpg_greater_bangladesh_flag
+            R38 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = RAJ #India
+				original_tag = R38 #Greater Bangladesh
+                has_global_flag = rpg_greater_bangladesh_assam_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_greater_bangladesh_coring_states_assam
+			custom_effect_tooltip = rpg_greater_bangladesh_transfer_states_assam
+			hidden_effect = {
+				432 = { add_core_of = R38 } #Assam
+				R38 = {
+					transfer_state = 432 #Assam
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_greater_bangladesh_assam_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_greater_bangladesh_arunachal_pradesh = {
+		allowed = {
+			NOT = {
+				original_tag = RAJ #India
+				original_tag = R38 #Greater Bangladesh
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_greater_bangladesh_required_states_arunachal_pradesh
+                controls_state = 434 #Arunachal Pradesh
+			}
+		}
+		visible = {
+            has_global_flag = rpg_greater_bangladesh_flag
+            R38 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = RAJ #India
+				original_tag = R38 #Greater Bangladesh
+                has_global_flag = rpg_greater_bangladesh_arunachal_pradesh_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_greater_bangladesh_coring_states_arunachal_pradesh
+			custom_effect_tooltip = rpg_greater_bangladesh_transfer_states_arunachal_pradesh
+			hidden_effect = {
+				434 = { add_core_of = R38 } #Arunachal Pradesh
+				R38 = {
+					transfer_state = 434 #Arunachal Pradesh
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_greater_bangladesh_arunachal_pradesh_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_greater_bangladesh_bihar = {
+		allowed = {
+			NOT = {
+				original_tag = RAJ #India
+				original_tag = R38 #Greater Bangladesh
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_greater_bangladesh_required_states_bihar
+                controls_state = 435 #Bihar
+			}
+		}
+		visible = {
+            has_global_flag = rpg_greater_bangladesh_flag
+            R38 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = RAJ #India
+				original_tag = R38 #Greater Bangladesh
+                has_global_flag = rpg_greater_bangladesh_bihar_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_greater_bangladesh_coring_states_bihar
+			custom_effect_tooltip = rpg_greater_bangladesh_transfer_states_bihar
+			hidden_effect = {
+				435 = { add_core_of = R38 } #Bihar
+				R38 = {
+					transfer_state = 435 #Bihar
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_greater_bangladesh_bihar_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
