@@ -3,7 +3,7 @@ rpg_category = {
 		allowed = {
 			NOT = {
 				original_tag = SOV #Soviet Union
-				original_tag = R40 #Central Russia
+				original_tag = R40 #Southern Russia
 			}
 		}
 		available = {
@@ -51,7 +51,7 @@ rpg_category = {
 			}
 			NOT = { 
 				original_tag = SOV #Soviet Union
-				original_tag = R40 #Central Russia
+				original_tag = R40 #Southern Russia
                 has_global_flag = rpg_southern_russia_flag
             }
 		}

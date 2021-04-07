@@ -38,3 +38,4 @@ R37 = "countries/R37.txt" #South Asia
 R38 = "countries/R38.txt" #Greater Bangladesh
 R39 = "countries/R39.txt" #Central Russia
 R40 = "countries/R40.txt" #Southern Russia
+R41 = "countries/R41.txt" #Northern Caucasus

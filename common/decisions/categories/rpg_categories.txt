@@ -17,6 +17,7 @@ rpg_category_territories_indochina = { }
 rpg_category_territories_indonesia = { }
 rpg_category_territories_north_africa = { }
 rpg_category_territories_north_germany = { }
+rpg_category_territories_northern_caucasus = { }
 rpg_category_territories_pacific_us = { }
 rpg_category_territories_poland_lithuania = { }
 rpg_category_territories_prussia = { }

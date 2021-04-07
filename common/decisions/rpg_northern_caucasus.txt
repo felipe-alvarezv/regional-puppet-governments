@@ -1,0 +1,83 @@
+rpg_category = {
+	rpg_northern_caucasus = {
+		allowed = {
+			NOT = {
+				original_tag = SOV #Soviet Union
+				original_tag = R41 #Northern Caucasus
+			}
+		}
+		available = {
+			is_subject = no
+			#Caucasus Mountains
+			custom_trigger_tooltip = {
+				tooltip = rpg_northern_caucasus_required_states_caucasus_mountains
+				controls_state = 233 #Caucasus Mountains
+			}
+			#Grozny
+			custom_trigger_tooltip = {
+				tooltip = rpg_northern_caucasus_required_states_grozny
+				controls_state = 232 #Grozny
+			}
+			#Stavropol
+			custom_trigger_tooltip = {
+				tooltip = rpg_northern_caucasus_required_states_stavropol
+				controls_state = 235 #Stavropol
+			}
+		}
+		visible = {
+			OR = {
+				controls_state = 233 #Caucasus Mountains
+				controls_state = 235 #Stavropol
+			}
+			NOT = { 
+				original_tag = SOV #Soviet Union
+				original_tag = R41 #Northern Caucasus
+                has_global_flag = rpg_northern_caucasus_flag
+            }
+		}
+		complete_effect = {
+			hidden_effect = {
+				233 = { add_core_of = R41 } #Caucasus Mountains
+				232 = { add_core_of = R41 } #Grozny
+				235 = { add_core_of = R41 } #Stavropol
+			}
+			custom_effect_tooltip = rpg_northern_caucasus_coring_states
+			custom_effect_tooltip = rpg_northern_caucasus_transfer_states
+			#Set compliance to 80 in all cores and instantiate collaboration government
+			custom_effect_tooltip = rpg_northern_caucasus_puppet
+			hidden_effect = {
+				every_state = {
+					limit = {
+						is_core_of = R41
+					}
+					set_compliance = 80
+				}
+				
+				if = {
+					limit = { has_dlc = "La Resistance" }
+					set_temp_variable = { country_to_initiate = R41 }
+					instantiate_collaboration_government = yes
+				}
+				else = {
+					release = R41
+					puppet = R41
+				}
+			}
+			#News event, set local flag, and set global flag
+			hidden_effect = {
+				ROOT = {
+					set_country_flag = rpg_northern_caucasus_country_flag
+				}
+				news_event = { id = rpg_news.41 hours = 6 }
+				set_global_flag = rpg_northern_caucasus_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
