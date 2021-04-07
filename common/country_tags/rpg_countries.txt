@@ -36,3 +36,4 @@ R35 = "countries/R35.txt" #West Africa
 R36 = "countries/R36.txt" #South Africa
 R37 = "countries/R37.txt" #South Asia
 R38 = "countries/R38.txt" #Greater Bangladesh
+R39 = "countries/R39.txt" #Central Russia

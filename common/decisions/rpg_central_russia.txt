@@ -1,0 +1,166 @@
+rpg_category = {
+	rpg_central_russia = {
+		allowed = {
+			NOT = {
+				original_tag = SOV #Soviet Union
+				original_tag = R39 #Central Russia
+			}
+		}
+		available = {
+			is_subject = no
+			#Kaluga
+			custom_trigger_tooltip = {
+				tooltip = rpg_central_russia_required_states_kaluga
+				controls_state = 205 #Kaluga
+			}
+			#Moscow
+			custom_trigger_tooltip = {
+				tooltip = rpg_central_russia_required_states_moscow
+				controls_state = 219 #Moscow
+			}
+			#Kursk
+			custom_trigger_tooltip = {
+				tooltip = rpg_central_russia_required_states_kursk
+				controls_state = 220 #Kursk
+			}
+			#Orel
+			custom_trigger_tooltip = {
+				tooltip = rpg_central_russia_required_states_orel
+				controls_state = 222 #Orel
+			}
+			#Tula
+			custom_trigger_tooltip = {
+				tooltip = rpg_central_russia_required_states_tula
+				controls_state = 223 #Tula
+			}
+			#Bryansk
+			custom_trigger_tooltip = {
+				tooltip = rpg_central_russia_required_states_bryansk
+				controls_state = 224 #Bryansk
+			}
+			#Belgorod
+			custom_trigger_tooltip = {
+				tooltip = rpg_central_russia_required_states_belgorod
+				controls_state = 240 #Belgorod
+			}
+			#Smolensk
+			custom_trigger_tooltip = {
+				tooltip = rpg_central_russia_required_states_smolensk
+				controls_state = 242 #Smolensk
+			}
+			#Roslavl
+			custom_trigger_tooltip = {
+				tooltip = rpg_central_russia_required_states_roslavl
+				controls_state = 243 #Roslavl
+			}
+			#Rzhev
+			custom_trigger_tooltip = {
+				tooltip = rpg_central_russia_required_states_rzhev
+				controls_state = 246 #Rzhev
+			}
+			#Kalinin
+			custom_trigger_tooltip = {
+				tooltip = rpg_central_russia_required_states_kalinin
+				controls_state = 247 #Kalinin
+			}
+			#Yaroslavl
+			custom_trigger_tooltip = {
+				tooltip = rpg_central_russia_required_states_yaroslavl
+				controls_state = 248 #Yaroslavl
+			}
+			#Ivanovo
+			custom_trigger_tooltip = {
+				tooltip = rpg_central_russia_required_states_ivanovo
+				controls_state = 253 #Ivanovo
+			}
+			#Ryazan
+			custom_trigger_tooltip = {
+				tooltip = rpg_central_russia_required_states_ryazan
+				controls_state = 254 #Ryazan
+			}
+			#Tambov
+			custom_trigger_tooltip = {
+				tooltip = rpg_central_russia_required_states_tambov
+				controls_state = 257 #Tambov
+			}
+			#Lipetsk
+			custom_trigger_tooltip = {
+				tooltip = rpg_central_russia_required_states_lipetsk
+				controls_state = 258 #Lipetsk
+			}
+			#Voronezh
+			custom_trigger_tooltip = {
+				tooltip = rpg_central_russia_required_states_voronezh
+				controls_state = 260 #Voronezh
+			}
+		}
+		visible = {
+			OR = {
+				controls_state = 219 #Moscow
+			}
+			NOT = { 
+				original_tag = SOV #Soviet Union
+				original_tag = R39 #Central Russia
+                has_global_flag = rpg_central_russia_flag
+            }
+		}
+		complete_effect = {
+			hidden_effect = {
+				205 = { add_core_of = R39 } #Kaluga
+				219 = { add_core_of = R39 } #Moscow
+				220 = { add_core_of = R39 } #Kursk
+				222 = { add_core_of = R39 } #Orel
+				223 = { add_core_of = R39 } #Tula
+				224 = { add_core_of = R39 } #Bryansk
+				240 = { add_core_of = R39 } #Belgorod
+				242 = { add_core_of = R39 } #Smolensk
+				243 = { add_core_of = R39 } #Roslavl
+				246 = { add_core_of = R39 } #Rzhev
+				247 = { add_core_of = R39 } #Kalinin
+				248 = { add_core_of = R39 } #Yaroslavl
+				253 = { add_core_of = R39 } #Ivanovo
+				254 = { add_core_of = R39 } #Ryazan
+				257 = { add_core_of = R39 } #Tambov
+				258 = { add_core_of = R39 } #Lipetsk
+				260 = { add_core_of = R39 } #Voronezh
+			}
+			custom_effect_tooltip = rpg_central_russia_coring_states
+			custom_effect_tooltip = rpg_central_russia_transfer_states
+			#Set compliance to 80 in all cores and instantiate collaboration government
+			custom_effect_tooltip = rpg_central_russia_puppet
+			hidden_effect = {
+				every_state = {
+					limit = {
+						is_core_of = R39
+					}
+					set_compliance = 80
+				}
+				
+				if = {
+					limit = { has_dlc = "La Resistance" }
+					set_temp_variable = { country_to_initiate = R39 }
+					instantiate_collaboration_government = yes
+				}
+				else = {
+					release = R39
+					puppet = R39
+				}
+			}
+			#News event, set local flag, and set global flag
+			hidden_effect = {
+				ROOT = {
+					set_country_flag = rpg_central_russia_country_flag
+				}
+				news_event = { id = rpg_news.39 hours = 6 }
+				set_global_flag = rpg_central_russia_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
