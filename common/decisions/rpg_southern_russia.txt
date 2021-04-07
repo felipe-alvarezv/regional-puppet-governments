@@ -1,0 +1,107 @@
+rpg_category = {
+	rpg_southern_russia = {
+		allowed = {
+			NOT = {
+				original_tag = SOV #Soviet Union
+				original_tag = R40 #Central Russia
+			}
+		}
+		available = {
+			is_subject = no
+			#Stalingrad
+			custom_trigger_tooltip = {
+				tooltip = rpg_southern_russia_required_states_stalingrad
+				controls_state = 217 #Stalingrad
+			}
+			#Rostov
+			custom_trigger_tooltip = {
+				tooltip = rpg_southern_russia_required_states_rostov
+				controls_state = 218 #Rostov
+			}
+			#Astrakhan
+			custom_trigger_tooltip = {
+				tooltip = rpg_southern_russia_required_states_astrakhan
+				controls_state = 236 #Astrakhan
+			}
+			#Elista
+			custom_trigger_tooltip = {
+				tooltip = rpg_southern_russia_required_states_elista
+				controls_state = 237 #Elista
+			}
+			#Volgodonsk
+			custom_trigger_tooltip = {
+				tooltip = rpg_southern_russia_required_states_volgodonsk
+				controls_state = 238 #Volgodonsk
+			}
+			#Millerovo
+			custom_trigger_tooltip = {
+				tooltip = rpg_southern_russia_required_states_millerovo
+				controls_state = 245 #Millerovo
+			}
+			#Mikhaylovka
+			custom_trigger_tooltip = {
+				tooltip = rpg_southern_russia_required_states_mikhaylovka
+				controls_state = 265 #Mikhaylovka
+			}
+		}
+		visible = {
+			OR = {
+				controls_state = 217 #Stalingrad
+				controls_state = 218 #Rostov
+			}
+			NOT = { 
+				original_tag = SOV #Soviet Union
+				original_tag = R40 #Central Russia
+                has_global_flag = rpg_southern_russia_flag
+            }
+		}
+		complete_effect = {
+			hidden_effect = {
+				217 = { add_core_of = R40 } #Stalingrad
+				218 = { add_core_of = R40 } #Rostov
+				236 = { add_core_of = R40 } #Astrakhan
+				237 = { add_core_of = R40 } #Elista
+				238 = { add_core_of = R40 } #Volgodonsk
+				245 = { add_core_of = R40 } #Millerovo
+				265 = { add_core_of = R40 } #Mikhaylovka
+			}
+			custom_effect_tooltip = rpg_southern_russia_coring_states
+			custom_effect_tooltip = rpg_southern_russia_transfer_states
+			#Set compliance to 80 in all cores and instantiate collaboration government
+			custom_effect_tooltip = rpg_southern_russia_puppet
+			hidden_effect = {
+				every_state = {
+					limit = {
+						is_core_of = R40
+					}
+					set_compliance = 80
+				}
+				
+				if = {
+					limit = { has_dlc = "La Resistance" }
+					set_temp_variable = { country_to_initiate = R40 }
+					instantiate_collaboration_government = yes
+				}
+				else = {
+					release = R40
+					puppet = R40
+				}
+			}
+			#News event, set local flag, and set global flag
+			hidden_effect = {
+				ROOT = {
+					set_country_flag = rpg_southern_russia_country_flag
+				}
+				news_event = { id = rpg_news.40 hours = 6 }
+				set_global_flag = rpg_southern_russia_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
