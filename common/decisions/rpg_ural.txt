@@ -1,0 +1,119 @@
+rpg_category = {
+	rpg_ural = {
+		allowed = {
+			NOT = {
+				original_tag = SOV #Soviet Union
+				original_tag = R44 #Ural
+			}
+		}
+		available = {
+			is_subject = no
+			#Tyumen
+			custom_trigger_tooltip = {
+				tooltip = rpg_ural_required_states_tyumen
+				controls_state = 403 #Tyumen
+			}
+			#Chelyabinsk
+			custom_trigger_tooltip = {
+				tooltip = rpg_ural_required_states_chelyabinsk
+				controls_state = 572 #Chelyabinsk
+			}
+			#Zlatoust
+			custom_trigger_tooltip = {
+				tooltip = rpg_ural_required_states_zlatoust
+				controls_state = 573 #Zlatoust
+			}
+			#Surgut
+			custom_trigger_tooltip = {
+				tooltip = rpg_ural_required_states_surgut
+				controls_state = 577 #Surgut
+			}
+			#Salekhard
+			custom_trigger_tooltip = {
+				tooltip = rpg_ural_required_states_salekhard
+				controls_state = 579 #Salekhard
+			}
+			#Tobolsk
+			custom_trigger_tooltip = {
+				tooltip = rpg_ural_required_states_tobolsk
+				controls_state = 580 #Tobolsk
+			}
+			#Northern Urals
+			custom_trigger_tooltip = {
+				tooltip = rpg_ural_required_states_northern_urals
+				controls_state = 581 #Northern Urals
+			}
+			#Magnitogorsk
+			custom_trigger_tooltip = {
+				tooltip = rpg_ural_required_states_magnitogorsk
+				controls_state = 582 #Magnitogorsk
+			}
+			#Sverdlovsk
+			custom_trigger_tooltip = {
+				tooltip = rpg_ural_required_states_sverdlovsk
+				controls_state = 653 #Sverdlovsk
+			}
+		}
+		visible = {
+			OR = {
+				controls_state = 403 #Tyumen
+				controls_state = 653 #Sverdlovsk
+			}
+			NOT = { 
+				original_tag = SOV #Soviet Union
+				original_tag = R44 #Ural
+                has_global_flag = rpg_ural_flag
+            }
+		}
+		complete_effect = {
+			hidden_effect = {
+				403 = { add_core_of = R44 } #Tyumen
+				572 = { add_core_of = R44 } #Chelyabinsk
+				573 = { add_core_of = R44 } #Zlatoust
+				577 = { add_core_of = R44 } #Surgut
+				579 = { add_core_of = R44 } #Salekhard
+				580 = { add_core_of = R44 } #Tobolsk
+				581 = { add_core_of = R44 } #Northern Urals
+				582 = { add_core_of = R44 } #Magnitogorsk
+				653 = { add_core_of = R44 } #Sverdlovsk
+			}
+			custom_effect_tooltip = rpg_ural_coring_states
+			custom_effect_tooltip = rpg_ural_transfer_states
+			#Set compliance to 80 in all cores and instantiate collaboration government
+			custom_effect_tooltip = rpg_ural_puppet
+			hidden_effect = {
+				every_state = {
+					limit = {
+						is_core_of = R44
+					}
+					set_compliance = 80
+				}
+				
+				if = {
+					limit = { has_dlc = "La Resistance" }
+					set_temp_variable = { country_to_initiate = R44 }
+					instantiate_collaboration_government = yes
+				}
+				else = {
+					release = R44
+					puppet = R44
+				}
+			}
+			#News event, set local flag, and set global flag
+			hidden_effect = {
+				ROOT = {
+					set_country_flag = rpg_ural_country_flag
+				}
+				news_event = { id = rpg_news.44 hours = 6 }
+				set_global_flag = rpg_ural_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}

@@ -1,0 +1,51 @@
+rpg_category_territories_ural = {
+	rpg_ural_northwest_siberia = {
+		allowed = {
+			NOT = {
+				original_tag = SOV #Soviet Union
+				original_tag = R44 #Ural
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_ural_required_states_northwest_siberia
+                controls_state = 516 #Northwest Siberia
+			}
+		}
+		visible = {
+            has_global_flag = rpg_ural_flag
+            R44 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = SOV #Soviet Union
+				original_tag = R44 #Ural
+                has_global_flag = rpg_ural_northwest_siberia_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_ural_coring_states_northwest_siberia
+			custom_effect_tooltip = rpg_ural_transfer_states_northwest_siberia
+			hidden_effect = {
+				516 = { add_core_of = R44 } #Northwest Siberia
+				R44 = {
+					transfer_state = 516 #Northwest Siberia
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_ural_northwest_siberia_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
