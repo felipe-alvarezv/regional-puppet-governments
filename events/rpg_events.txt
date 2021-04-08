@@ -1435,3 +1435,38 @@ news_event = {
 		}
 	}
 }
+#Volga
+news_event = {
+	id = rpg_news.42
+	title = rpg_news.42.t
+	desc = rpg_news.42.desc
+	picture = GFX_news_event_generic_parliament
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = rpg_news.42.a
+		trigger = {
+			original_tag = R42
+		}
+	}
+	option = {
+		name = rpg_news.42.b
+		trigger = {
+			original_tag = FROM
+		}
+	}
+	option = {
+		name = rpg_news.42.c
+		trigger = {
+			has_war_with = FROM
+		}
+	}
+	option = {
+		name = rpg_news.42.d
+		trigger = {
+			NOT = { original_tag = R42 }
+			NOT = { original_tag = FROM }
+			NOT = { has_war_with = FROM }
+		}
+	}
+}

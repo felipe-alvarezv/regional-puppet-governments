@@ -1,0 +1,143 @@
+rpg_category = {
+	rpg_volga = {
+		allowed = {
+			NOT = {
+				original_tag = SOV #Soviet Union
+				original_tag = R42 #Volga
+			}
+		}
+		available = {
+			is_subject = no
+			#Saratov
+			custom_trigger_tooltip = {
+				tooltip = rpg_volga_required_states_saratov
+				controls_state = 239 #Saratov
+			}
+			#Kazan
+			custom_trigger_tooltip = {
+				tooltip = rpg_volga_required_states_kazan
+				controls_state = 249 #Kazan
+			}
+			#Kuibyshev
+			custom_trigger_tooltip = {
+				tooltip = rpg_volga_required_states_kuibyshev
+				controls_state = 251 #Kuibyshev
+			}
+			#Ulyanovsky
+			custom_trigger_tooltip = {
+				tooltip = rpg_volga_required_states_ulyanovsky
+				controls_state = 250 #Ulyanovsky
+			}
+			#Gorki
+			custom_trigger_tooltip = {
+				tooltip = rpg_volga_required_states_gorki
+				controls_state = 252 #Gorki
+			}
+			#Penza
+			custom_trigger_tooltip = {
+				tooltip = rpg_volga_required_states_penza
+				controls_state = 255 #Penza
+			}
+			#Cheboksary
+			custom_trigger_tooltip = {
+				tooltip = rpg_volga_required_states_cheboksary
+				controls_state = 256 #Cheboksary
+			}
+			#Perm
+			custom_trigger_tooltip = {
+				tooltip = rpg_volga_required_states_perm
+				controls_state = 398 #Perm
+			}
+			#Izhevsk
+			custom_trigger_tooltip = {
+				tooltip = rpg_volga_required_states_izhevsk
+				controls_state = 399 #Izhevsk
+			}
+			#Kirov
+			custom_trigger_tooltip = {
+				tooltip = rpg_volga_required_states_kirov
+				controls_state = 400 #Kirov
+			}
+			#Engels
+			custom_trigger_tooltip = {
+				tooltip = rpg_volga_required_states_engels
+				controls_state = 401 #Engels
+			}
+			#Ufa
+			custom_trigger_tooltip = {
+				tooltip = rpg_volga_required_states_ufa
+				controls_state = 651 #Ufa
+			}
+			#Orenburg
+			custom_trigger_tooltip = {
+				tooltip = rpg_volga_required_states_orenburg
+				controls_state = 652 #Orenburg
+			}
+		}
+		visible = {
+			OR = {
+				controls_state = 249 #Kazan
+				controls_state = 252 #Gorki
+			}
+			NOT = { 
+				original_tag = SOV #Soviet Union
+				original_tag = R42 #Volga
+                has_global_flag = rpg_volga_flag
+            }
+		}
+		complete_effect = {
+			hidden_effect = {
+				239 = { add_core_of = R42 } #Saratov
+				249 = { add_core_of = R42 } #Kazan
+				250 = { add_core_of = R42 } #Ulyanovsky
+				251 = { add_core_of = R42 } #Kuibyshev
+				252 = { add_core_of = R42 } #Gorki
+				255 = { add_core_of = R42 } #Penza
+				256 = { add_core_of = R42 } #Cheboksary
+				398 = { add_core_of = R42 } #Perm
+				399 = { add_core_of = R42 } #Izhevsk
+				400 = { add_core_of = R42 } #Kirov
+				401 = { add_core_of = R42 } #Engels
+				651 = { add_core_of = R42 } #Ufa
+				652 = { add_core_of = R42 } #Orenburg
+			}
+			custom_effect_tooltip = rpg_volga_coring_states
+			custom_effect_tooltip = rpg_volga_transfer_states
+			#Set compliance to 80 in all cores and instantiate collaboration government
+			custom_effect_tooltip = rpg_volga_puppet
+			hidden_effect = {
+				every_state = {
+					limit = {
+						is_core_of = R42
+					}
+					set_compliance = 80
+				}
+				
+				if = {
+					limit = { has_dlc = "La Resistance" }
+					set_temp_variable = { country_to_initiate = R42 }
+					instantiate_collaboration_government = yes
+				}
+				else = {
+					release = R42
+					puppet = R42
+				}
+			}
+			#News event, set local flag, and set global flag
+			hidden_effect = {
+				ROOT = {
+					set_country_flag = rpg_volga_country_flag
+				}
+				news_event = { id = rpg_news.42 hours = 6 }
+				set_global_flag = rpg_volga_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
