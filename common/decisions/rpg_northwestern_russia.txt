@@ -1,0 +1,131 @@
+rpg_category = {
+	rpg_northwestern_russia = {
+		allowed = {
+			NOT = {
+				original_tag = SOV #Soviet Union
+				original_tag = R43 #Northwestern Russia
+			}
+		}
+		available = {
+			is_subject = no
+			#Leningrad
+			custom_trigger_tooltip = {
+				tooltip = rpg_northwestern_russia_required_states_leningrad
+				controls_state = 195 #Leningrad
+			}
+			#Luga
+			custom_trigger_tooltip = {
+				tooltip = rpg_northwestern_russia_required_states_luga
+				controls_state = 208 #Luga
+			}
+			#Pskov
+			custom_trigger_tooltip = {
+				tooltip = rpg_northwestern_russia_required_states_pskov
+				controls_state = 209 #Pskov
+			}
+			#Nevel
+			custom_trigger_tooltip = {
+				tooltip = rpg_northwestern_russia_required_states_nevel
+				controls_state = 210 #Nevel
+			}
+			#Arkhangelsk
+			custom_trigger_tooltip = {
+				tooltip = rpg_northwestern_russia_required_states_arkhangelsk
+				controls_state = 214 #Arkhangelsk
+			}
+			#Volkhov
+			custom_trigger_tooltip = {
+				tooltip = rpg_northwestern_russia_required_states_volkhov
+				controls_state = 244 #Volkhov
+			}
+			#Pechora
+			custom_trigger_tooltip = {
+				tooltip = rpg_northwestern_russia_required_states_pechora
+				controls_state = 262 #Pechora
+			}
+			#Novgorod
+			custom_trigger_tooltip = {
+				tooltip = rpg_northwestern_russia_required_states_novgorod
+				controls_state = 263 #Novgorod
+			}
+			#Tikhvin
+			custom_trigger_tooltip = {
+				tooltip = rpg_northwestern_russia_required_states_tikhvin
+				controls_state = 264 #Tikhvin
+			}
+			#Vologda
+			custom_trigger_tooltip = {
+				tooltip = rpg_northwestern_russia_required_states_vologda
+				controls_state = 351 #Vologda
+			}
+			#Syktyvkar
+			custom_trigger_tooltip = {
+				tooltip = rpg_northwestern_russia_required_states_syktyvkar
+				controls_state = 397 #Syktyvkar
+			}	
+		}
+		visible = {
+			OR = {
+				controls_state = 195 #Leningrad
+				controls_state = 214 #Arkhangelsk
+			}
+			NOT = { 
+				original_tag = SOV #Soviet Union
+				original_tag = R43 #Northwestern Russia
+                has_global_flag = rpg_northwestern_russia_flag
+            }
+		}
+		complete_effect = {
+			hidden_effect = {
+				195 = { add_core_of = R43 } #Leningrad
+				208 = { add_core_of = R43 } #Luga
+				209 = { add_core_of = R43 } #Pskov
+				210 = { add_core_of = R43 } #Nevel
+				214 = { add_core_of = R43 } #Arkhangelsk
+				244 = { add_core_of = R43 } #Volkhov
+				262 = { add_core_of = R43 } #Pechora
+				263 = { add_core_of = R43 } #Novgorod
+				264 = { add_core_of = R43 } #Tikhvin
+				351 = { add_core_of = R43 } #Vologda
+				397 = { add_core_of = R43 } #Syktyvkar
+			}
+			custom_effect_tooltip = rpg_northwestern_russia_coring_states
+			custom_effect_tooltip = rpg_northwestern_russia_transfer_states
+			#Set compliance to 80 in all cores and instantiate collaboration government
+			custom_effect_tooltip = rpg_northwestern_russia_puppet
+			hidden_effect = {
+				every_state = {
+					limit = {
+						is_core_of = R43
+					}
+					set_compliance = 80
+				}
+				
+				if = {
+					limit = { has_dlc = "La Resistance" }
+					set_temp_variable = { country_to_initiate = R43 }
+					instantiate_collaboration_government = yes
+				}
+				else = {
+					release = R43
+					puppet = R43
+				}
+			}
+			#News event, set local flag, and set global flag
+			hidden_effect = {
+				ROOT = {
+					set_country_flag = rpg_northwestern_russia_country_flag
+				}
+				news_event = { id = rpg_news.43 hours = 6 }
+				set_global_flag = rpg_northwestern_russia_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}

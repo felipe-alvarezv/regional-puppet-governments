@@ -8,15 +8,15 @@ rpg_category = {
 		}
 		available = {
 			is_subject = no
-			#Caucasus Mountains
-			custom_trigger_tooltip = {
-				tooltip = rpg_northern_caucasus_required_states_caucasus_mountains
-				controls_state = 233 #Caucasus Mountains
-			}
 			#Grozny
 			custom_trigger_tooltip = {
 				tooltip = rpg_northern_caucasus_required_states_grozny
 				controls_state = 232 #Grozny
+			}
+			#Caucasus Mountains
+			custom_trigger_tooltip = {
+				tooltip = rpg_northern_caucasus_required_states_caucasus_mountains
+				controls_state = 233 #Caucasus Mountains
 			}
 			#Stavropol
 			custom_trigger_tooltip = {
@@ -37,8 +37,8 @@ rpg_category = {
 		}
 		complete_effect = {
 			hidden_effect = {
-				233 = { add_core_of = R41 } #Caucasus Mountains
 				232 = { add_core_of = R41 } #Grozny
+				233 = { add_core_of = R41 } #Caucasus Mountains
 				235 = { add_core_of = R41 } #Stavropol
 			}
 			custom_effect_tooltip = rpg_northern_caucasus_coring_states

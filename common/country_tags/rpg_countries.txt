@@ -40,3 +40,4 @@ R39 = "countries/R39.txt" #Central Russia
 R40 = "countries/R40.txt" #Southern Russia
 R41 = "countries/R41.txt" #Northern Caucasus
 R42 = "countries/R42.txt" #Volga
+R43 = "countries/R43.txt" #Northwestern Russia
