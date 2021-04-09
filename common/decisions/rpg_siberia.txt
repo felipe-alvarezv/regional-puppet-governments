@@ -1,0 +1,131 @@
+rpg_category = {
+	rpg_siberia = {
+		allowed = {
+			NOT = {
+				original_tag = SOV #Soviet Union
+				original_tag = R45 #Siberia
+			}
+		}
+		available = {
+			is_subject = no
+			#Barnaul
+			custom_trigger_tooltip = {
+				tooltip = rpg_siberia_required_states_barnaul
+				controls_state = 40 #Barnaul
+			}
+			#Bodaybo
+			custom_trigger_tooltip = {
+				tooltip = rpg_siberia_required_states_bodaybo
+				controls_state = 565 #Bodaybo
+			}
+			#Irkutsk
+			custom_trigger_tooltip = {
+				tooltip = rpg_siberia_required_states_irkutsk
+				controls_state = 566 #Irkutsk
+			}
+			#Bratsk
+			custom_trigger_tooltip = {
+				tooltip = rpg_siberia_required_states_bratsk
+				controls_state = 567 #Bratsk
+			}
+			#Krasnoyarsk
+			custom_trigger_tooltip = {
+				tooltip = rpg_siberia_required_states_krasnoyarsk
+				controls_state = 568 #Krasnoyarsk
+			}
+			#Kemerovo
+			custom_trigger_tooltip = {
+				tooltip = rpg_siberia_required_states_kemerovo
+				controls_state = 569 #Kemerovo
+			}
+			#Novosibirsk
+			custom_trigger_tooltip = {
+				tooltip = rpg_siberia_required_states_novosibirsk
+				controls_state = 570 #Novosibirsk
+			}
+			#Omsk
+			custom_trigger_tooltip = {
+				tooltip = rpg_siberia_required_states_omsk
+				controls_state = 571 #Omsk
+			}
+			#Kirensk
+			custom_trigger_tooltip = {
+				tooltip = rpg_siberia_required_states_kirensk
+				controls_state = 575 #Kirensk
+			}
+			#Yeniseisk
+			custom_trigger_tooltip = {
+				tooltip = rpg_siberia_required_states_yeniseisk
+				controls_state = 576 #Yeniseisk
+			}
+			#Tomsk
+			custom_trigger_tooltip = {
+				tooltip = rpg_siberia_required_states_tomsk
+				controls_state = 578 #Tomsk
+			}
+		}
+		visible = {
+			OR = {
+				controls_state = 567 #Bratsk
+				controls_state = 568 #Krasnoyarsk
+			}
+			NOT = { 
+				original_tag = SOV #Soviet Union
+				original_tag = R45 #Siberia
+                has_global_flag = rpg_siberia_flag
+            }
+		}
+		complete_effect = {
+			hidden_effect = {
+				40 = { add_core_of = R45 } #Barnaul
+				565 = { add_core_of = R45 } #Bodaybo
+				566 = { add_core_of = R45 } #Irkutsk
+				567 = { add_core_of = R45 } #Bratsk
+				568 = { add_core_of = R45 } #Krasnoyarsk
+				569 = { add_core_of = R45 } #Kemerovo
+				570 = { add_core_of = R45 } #Novosibirsk
+				571 = { add_core_of = R45 } #Omsk
+				575 = { add_core_of = R45 } #Kirensk
+				576 = { add_core_of = R45 } #Yeniseisk
+				578 = { add_core_of = R45 } #Tomsk
+			}
+			custom_effect_tooltip = rpg_siberia_coring_states
+			custom_effect_tooltip = rpg_siberia_transfer_states
+			#Set compliance to 80 in all cores and instantiate collaboration government
+			custom_effect_tooltip = rpg_siberia_puppet
+			hidden_effect = {
+				every_state = {
+					limit = {
+						is_core_of = R45
+					}
+					set_compliance = 80
+				}
+				
+				if = {
+					limit = { has_dlc = "La Resistance" }
+					set_temp_variable = { country_to_initiate = R45 }
+					instantiate_collaboration_government = yes
+				}
+				else = {
+					release = R45
+					puppet = R45
+				}
+			}
+			#News event, set local flag, and set global flag
+			hidden_effect = {
+				ROOT = {
+					set_country_flag = rpg_siberia_country_flag
+				}
+				news_event = { id = rpg_news.45 hours = 6 }
+				set_global_flag = rpg_siberia_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}

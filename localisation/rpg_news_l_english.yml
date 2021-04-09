@@ -307,3 +307,10 @@
  rpg_news.44.b:0 "A toast to our new friends!"
  rpg_news.44.c:0 "They are nothing but a lackey!"
  rpg_news.44.d:0 "Interesting"
+ #Siberia
+ rpg_news.45.t:0 "Formation of [R45.GetName]"
+ rpg_news.45.desc:0 "[Root.GetAdjective] military officials have announced the establishment of a regional government in Siberia. Officially known as [R45.GetNameDef], they have been granted autonomy to maintain order and control in the region.  The leader of [R45.GetNameDef], [R45.GetLeader], has publicly announced their full support towards the [Root.GetAdjective] cause.  The nations who are aligned with [Root.GetNameDef] have supported this decision, while the rest of the world has called [R45.GetNameDef] just a [Root.GetAdjective] lapdog."
+ rpg_news.45.a:0 "We will prove our strength to the world!"
+ rpg_news.45.b:0 "A toast to our new friends!"
+ rpg_news.45.c:0 "They are nothing but a lackey!"
+ rpg_news.45.d:0 "Interesting"

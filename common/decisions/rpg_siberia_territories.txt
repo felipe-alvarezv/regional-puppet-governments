@@ -1,0 +1,150 @@
+rpg_category_territories_siberia = {
+	rpg_siberia_tannu_tuva = {
+		allowed = {
+			NOT = {
+				original_tag = SOV #Soviet Union
+				original_tag = TAN #Tannu Tuva
+				original_tag = R45 #Siberia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_siberia_required_states_tannu_tuva
+                controls_state = 329 #Tannu Tuva
+			}
+		}
+		visible = {
+            has_global_flag = rpg_siberia_flag
+            R45 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = SOV #Soviet Union
+				original_tag = R45 #Siberia
+                has_global_flag = rpg_siberia_tannu_tuva_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_siberia_coring_states_tannu_tuva
+			custom_effect_tooltip = rpg_siberia_transfer_states_tannu_tuva
+			hidden_effect = {
+				329 = { add_core_of = R45 } #Tannu Tuva
+				R45 = {
+					transfer_state = 329 #Tannu Tuva
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_siberia_tannu_tuva_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_siberia_northwest_siberia = {
+		allowed = {
+			NOT = {
+				original_tag = SOV #Soviet Union
+				original_tag = R45 #Siberia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_siberia_required_states_northwest_siberia
+                controls_state = 516 #Northwest Siberia
+			}
+		}
+		visible = {
+            has_global_flag = rpg_siberia_flag
+            R45 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = SOV #Soviet Union
+				original_tag = R45 #Siberia
+                has_global_flag = rpg_siberia_northwest_siberia_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_siberia_coring_states_northwest_siberia
+			custom_effect_tooltip = rpg_siberia_transfer_states_northwest_siberia
+			hidden_effect = {
+				516 = { add_core_of = R45 } #Northwest Siberia
+				R45 = {
+					transfer_state = 516 #Northwest Siberia
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_siberia_northwest_siberia_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_siberia_gorno_altaysk = {
+		allowed = {
+			NOT = {
+				original_tag = SOV #Soviet Union
+				original_tag = R45 #Siberia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_siberia_required_states_gorno_altaysk
+                controls_state = 654 #Gorno-Altaysk
+			}
+		}
+		visible = {
+            has_global_flag = rpg_siberia_flag
+            R45 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = SOV #Soviet Union
+				original_tag = R45 #Siberia
+                has_global_flag = rpg_siberia_gorno_altaysk_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_siberia_coring_states_gorno_altaysk
+			custom_effect_tooltip = rpg_siberia_transfer_states_gorno_altaysk
+			hidden_effect = {
+				654 = { add_core_of = R45 } #Gorno-Altaysk
+				R45 = {
+					transfer_state = 654 #Gorno-Altaysk
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_siberia_gorno_altaysk_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
