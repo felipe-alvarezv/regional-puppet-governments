@@ -314,3 +314,10 @@
  rpg_news.45.b:0 "A toast to our new friends!"
  rpg_news.45.c:0 "They are nothing but a lackey!"
  rpg_news.45.d:0 "Interesting"
+ #Far Eastern Russia
+ rpg_news.46.t:0 "Formation of [R46.GetName]"
+ rpg_news.46.desc:0 "[Root.GetAdjective] military officials have announced the establishment of a regional government in Far Eastern Russia. Officially known as [R46.GetNameDef], they have been granted autonomy to maintain order and control in the region.  The leader of [R46.GetNameDef], [R46.GetLeader], has publicly announced their full support towards the [Root.GetAdjective] cause.  The nations who are aligned with [Root.GetNameDef] have supported this decision, while the rest of the world has called [R46.GetNameDef] just a [Root.GetAdjective] lapdog."
+ rpg_news.46.a:0 "We will prove our strength to the world!"
+ rpg_news.46.b:0 "A toast to our new friends!"
+ rpg_news.46.c:0 "They are nothing but a lackey!"
+ rpg_news.46.d:0 "Interesting"

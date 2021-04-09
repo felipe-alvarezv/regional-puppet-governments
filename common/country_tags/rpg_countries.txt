@@ -43,3 +43,4 @@ R42 = "countries/R42.txt" #Volga
 R43 = "countries/R43.txt" #Northwestern Russia
 R44 = "countries/R44.txt" #Ural
 R45 = "countries/R45.txt" #Siberia
+R46 = "countries/R46.txt" #Far East Russia

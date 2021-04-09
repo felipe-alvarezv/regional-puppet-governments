@@ -24,6 +24,7 @@ rpg_category_territories_siberia = {
 			}
 			NOT = { 
                 original_tag = SOV #Soviet Union
+				original_tag = TAN #Tannu Tuva
 				original_tag = R45 #Siberia
                 has_global_flag = rpg_siberia_tannu_tuva_flag
             }

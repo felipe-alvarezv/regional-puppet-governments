@@ -1,0 +1,204 @@
+rpg_category_territories_far_eastern_russia = {
+	rpg_far_eastern_russia_south_sakhalin = {
+		allowed = {
+			NOT = {
+				original_tag = JAP #Japan
+				original_tag = SOV #Soviet Union
+				original_tag = R46 #Far Eastern Russia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_far_eastern_russia_required_states_south_sakhalin
+                controls_state = 537 #South Sakhalin
+			}
+		}
+		visible = {
+            has_global_flag = rpg_far_eastern_russia_flag
+            R46 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = {
+				original_tag = JAP #Japan
+                original_tag = SOV #Soviet Union
+				original_tag = R46 #Far Eastern Russia
+                has_global_flag = rpg_far_eastern_russia_south_sakhalin_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_far_eastern_russia_coring_states_south_sakhalin
+			custom_effect_tooltip = rpg_far_eastern_russia_transfer_states_south_sakhalin
+			hidden_effect = {
+				537 = { add_core_of = R46 } #South Sakhalin
+				R46 = {
+					transfer_state = 537 #South Sakhalin
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_far_eastern_russia_south_sakhalin_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_far_eastern_russia_kuril_islands = {
+		allowed = {
+			NOT = {
+				original_tag = JAP #Japan
+				original_tag = SOV #Soviet Union
+				original_tag = R46 #Far Eastern Russia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_far_eastern_russia_required_states_kuril_islands
+                controls_state = 555 #Kuril Islands
+			}
+		}
+		visible = {
+            has_global_flag = rpg_far_eastern_russia_flag
+            R46 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = {
+				original_tag = JAP #Japan
+                original_tag = SOV #Soviet Union
+				original_tag = R46 #Far Eastern Russia
+                has_global_flag = rpg_far_eastern_russia_kuril_islands_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_far_eastern_russia_coring_states_kuril_islands
+			custom_effect_tooltip = rpg_far_eastern_russia_transfer_states_kuril_islands
+			hidden_effect = {
+				555 = { add_core_of = R46 } #Kuril Islands
+				R46 = {
+					transfer_state = 555 #Kuril Islands
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_far_eastern_russia_kuril_islands_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_far_eastern_russia_ulan_ude = {
+		allowed = {
+			NOT = {
+				original_tag = SOV #Soviet Union
+				original_tag = R46 #Far Eastern Russia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_far_eastern_russia_required_states_ulan_ude
+                controls_state = 564 #Ulan Ude
+			}
+		}
+		visible = {
+            has_global_flag = rpg_far_eastern_russia_flag
+            R46 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = {
+                original_tag = SOV #Soviet Union
+				original_tag = R46 #Far Eastern Russia
+                has_global_flag = rpg_far_eastern_russia_ulan_ude_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_far_eastern_russia_coring_states_ulan_ude
+			custom_effect_tooltip = rpg_far_eastern_russia_transfer_states_ulan_ude
+			hidden_effect = {
+				564 = { add_core_of = R46 } #Ulan Ude
+				R46 = {
+					transfer_state = 564 #Ulan Ude
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_far_eastern_russia_ulan_ude_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_far_eastern_russia_north_sakhalin = {
+		allowed = {
+			NOT = {
+				original_tag = JAP #Japan
+				original_tag = SOV #Soviet Union
+				original_tag = R46 #Far Eastern Russia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_far_eastern_russia_required_states_north_sakhalin
+                controls_state = 655 #North Sakhalin
+			}
+		}
+		visible = {
+            has_global_flag = rpg_far_eastern_russia_flag
+            R46 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = {
+				original_tag = JAP #Japan
+                original_tag = SOV #Soviet Union
+				original_tag = R46 #Far Eastern Russia
+                has_global_flag = rpg_far_eastern_russia_north_sakhalin_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_far_eastern_russia_coring_states_north_sakhalin
+			custom_effect_tooltip = rpg_far_eastern_russia_transfer_states_north_sakhalin
+			hidden_effect = {
+				655 = { add_core_of = R46 } #North Sakhalin
+				R46 = {
+					transfer_state = 655 #North Sakhalin
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_far_eastern_russia_north_sakhalin_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}

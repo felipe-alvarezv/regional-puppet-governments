@@ -9,6 +9,7 @@ rpg_category_territories_central_america = { }
 rpg_category_territories_danube = { }
 rpg_category_territories_east_africa = { }
 rpg_category_territories_eastern_provinces = { }
+rpg_category_territories_far_eastern_russia = { }
 rpg_category_territories_germany = { }
 rpg_category_territories_greater_bangladesh = { }
 rpg_category_territories_greece_turkey = { }

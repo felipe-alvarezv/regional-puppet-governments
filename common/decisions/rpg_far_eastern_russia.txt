@@ -1,0 +1,125 @@
+rpg_category = {
+	rpg_far_eastern_russia = {
+		allowed = {
+			NOT = {
+				original_tag = SOV #Soviet Union
+				original_tag = R46 #Far Eastern Russia
+			}
+		}
+		available = {
+			is_subject = no
+			#Vladivostok
+			custom_trigger_tooltip = {
+				tooltip = rpg_far_eastern_russia_required_states_vladivostok
+				controls_state = 408 #Vladivostok
+			}
+			#Khabarovsk
+			custom_trigger_tooltip = {
+				tooltip = rpg_far_eastern_russia_required_states_khabarovsk
+				controls_state = 409 #Khabarovsk
+			}
+			#Nikolayevsk
+			custom_trigger_tooltip = {
+				tooltip = rpg_far_eastern_russia_required_states_nikolayevsk
+				controls_state = 560 #Nikolayevsk
+			}
+			#Amur
+			custom_trigger_tooltip = {
+				tooltip = rpg_far_eastern_russia_required_states_amur
+				controls_state = 561 #Amur
+			}
+			#Okhotsk
+			custom_trigger_tooltip = {
+				tooltip = rpg_far_eastern_russia_required_states_okhotsk
+				controls_state = 562 #Okhotsk
+			}
+			#Chita
+			custom_trigger_tooltip = {
+				tooltip = rpg_far_eastern_russia_required_states_chita
+				controls_state = 563 #Chita
+			}
+			#Yakutsk
+			custom_trigger_tooltip = {
+				tooltip = rpg_far_eastern_russia_required_states_yakutsk
+				controls_state = 574 #Yakutsk
+			}
+			#Kamchatka
+			custom_trigger_tooltip = {
+				tooltip = rpg_far_eastern_russia_required_states_kamchatka
+				controls_state = 637 #Kamchatka
+			}
+			#Northeast Siberia
+			custom_trigger_tooltip = {
+				tooltip = rpg_far_eastern_russia_required_states_northeast_siberia
+				controls_state = 644 #Northeast Siberia
+			}
+			#Birobidzhan
+			custom_trigger_tooltip = {
+				tooltip = rpg_far_eastern_russia_required_states_birobidzhan
+				controls_state = 657 #Birobidzhan
+			}
+		}
+		visible = {
+			OR = {
+				controls_state = 408 #Vladivostok
+				controls_state = 561 #Amur
+			}
+			NOT = { 
+				original_tag = SOV #Soviet Union
+				original_tag = R46 #Far Eastern Russia
+                has_global_flag = rpg_far_eastern_russia_flag
+            }
+		}
+		complete_effect = {
+			hidden_effect = {
+				408 = { add_core_of = R46 } #Vladivostok
+				409 = { add_core_of = R46 } #Khabarovsk
+				560 = { add_core_of = R46 } #Nikolayevsk
+				561 = { add_core_of = R46 } #Amur
+				562 = { add_core_of = R46 } #Okhotsk
+				563 = { add_core_of = R46 } #Chita
+				574 = { add_core_of = R46 } #Yakutsk
+				637 = { add_core_of = R46 } #Kamchatka
+				644 = { add_core_of = R46 } #Northeast Siberia
+				657 = { add_core_of = R46 } #Birobidzhan
+			}
+			custom_effect_tooltip = rpg_far_eastern_russia_coring_states
+			custom_effect_tooltip = rpg_far_eastern_russia_transfer_states
+			#Set compliance to 80 in all cores and instantiate collaboration government
+			custom_effect_tooltip = rpg_far_eastern_russia_puppet
+			hidden_effect = {
+				every_state = {
+					limit = {
+						is_core_of = R46
+					}
+					set_compliance = 80
+				}
+				
+				if = {
+					limit = { has_dlc = "La Resistance" }
+					set_temp_variable = { country_to_initiate = R46 }
+					instantiate_collaboration_government = yes
+				}
+				else = {
+					release = R46
+					puppet = R46
+				}
+			}
+			#News event, set local flag, and set global flag
+			hidden_effect = {
+				ROOT = {
+					set_country_flag = rpg_far_eastern_russia_country_flag
+				}
+				news_event = { id = rpg_news.46 hours = 6 }
+				set_global_flag = rpg_far_eastern_russia_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}

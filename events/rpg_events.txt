@@ -1575,3 +1575,38 @@ news_event = {
 		}
 	}
 }
+#Far East Russia
+news_event = {
+	id = rpg_news.46
+	title = rpg_news.46.t
+	desc = rpg_news.46.desc
+	picture = GFX_news_event_generic_parliament
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = rpg_news.46.a
+		trigger = {
+			original_tag = R46
+		}
+	}
+	option = {
+		name = rpg_news.46.b
+		trigger = {
+			original_tag = FROM
+		}
+	}
+	option = {
+		name = rpg_news.46.c
+		trigger = {
+			has_war_with = FROM
+		}
+	}
+	option = {
+		name = rpg_news.46.d
+		trigger = {
+			NOT = { original_tag = R46 }
+			NOT = { original_tag = FROM }
+			NOT = { has_war_with = FROM }
+		}
+	}
+}
