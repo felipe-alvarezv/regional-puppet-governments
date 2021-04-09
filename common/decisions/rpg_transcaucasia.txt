@@ -5,7 +5,6 @@ rpg_category = {
 				original_tag = ARM #Armenia
 				original_tag = AZR #Azerbaijan
 				original_tag = GEO #Georgia
-				original_tag = SOV #Soviet Union
 				original_tag = R28 #Transcaucasia
 			}
 		}
@@ -26,26 +25,6 @@ rpg_category = {
 				tooltip = rpg_transcaucasia_required_states_georgia
 				controls_state = 231 #Georgia
 			}
-			#Grozny
-			custom_trigger_tooltip = {
-				tooltip = rpg_transcaucasia_required_states_grozny
-				controls_state = 232 #Grozny
-			}
-			#Caucasus Mountains
-			custom_trigger_tooltip = {
-				tooltip = rpg_transcaucasia_required_states_caucasus_mountains
-				controls_state = 233 #Caucasus Mountains
-			}
-			#Krasnodar
-			custom_trigger_tooltip = {
-				tooltip = rpg_transcaucasia_required_states_krasnodar
-				controls_state = 234 #Krasnodar
-			}
-			#Stavropol
-			custom_trigger_tooltip = {
-				tooltip = rpg_transcaucasia_required_states_stavropol
-				controls_state = 235 #Stavropol
-			}
 		}
 		visible = {
 			OR = {
@@ -58,7 +37,6 @@ rpg_category = {
                 original_tag = ARM #Armenia
 				original_tag = AZR #Azerbaijan
 				original_tag = GEO #Georgia
-				original_tag = SOV #Soviet Union
 				original_tag = R28 #Transcaucasia
                 has_global_flag = rpg_transcaucasia_flag
             }
@@ -68,10 +46,6 @@ rpg_category = {
 				229 = { add_core_of = R28 } #Azerbaijan
 				230 = { add_core_of = R28 } #Armenia
 				231 = { add_core_of = R28 } #Georgia
-				232 = { add_core_of = R28 } #Grozny
-				233 = { add_core_of = R28 } #Caucasus Mountains
-				234 = { add_core_of = R28 } #Krasnodar
-				235 = { add_core_of = R28 } #Stavropol
 			}
 			custom_effect_tooltip = rpg_transcaucasia_coring_states
 			custom_effect_tooltip = rpg_transcaucasia_transfer_states

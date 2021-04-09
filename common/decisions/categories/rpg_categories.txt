@@ -31,6 +31,7 @@ rpg_category_territories_south_africa = { }
 rpg_category_territories_south_asia = { }
 rpg_category_territories_south_germany = { }
 rpg_category_territories_southern_russia = { }
+rpg_category_territories_transcaucasia = { }
 rpg_category_territories_ural = { }
 rpg_category_territories_west_africa = { }
 rpg_category_territories_western_provinces = { }
