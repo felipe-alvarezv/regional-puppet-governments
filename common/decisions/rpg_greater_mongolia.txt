@@ -1,0 +1,91 @@
+rpg_category = {
+	rpg_greater_mongolia = {
+		allowed = {
+			NOT = {
+				original_tag = MEN #Mengkukuo
+				original_tag = MON #Mongolia
+				original_tag = R47 #Greater Mongolia
+			}
+		}
+		available = {
+			is_subject = no
+			#Mongolia
+			custom_trigger_tooltip = {
+				tooltip = rpg_greater_mongolia_required_states_mongolia
+				controls_state = 330 #Mongolia
+			}
+			#South Chahar
+			custom_trigger_tooltip = {
+				tooltip = rpg_greater_mongolia_required_states_south_chahar
+				controls_state = 611 #South Chahar
+			}
+			#Chahar
+			custom_trigger_tooltip = {
+				tooltip = rpg_greater_mongolia_required_states_chahar
+				controls_state = 612 #Chahar
+			}
+			#Suiyuan
+			custom_trigger_tooltip = {
+				tooltip = rpg_greater_mongolia_required_states_suiyuan
+				controls_state = 621 #Suiyuan
+			}
+		}
+		visible = {
+			OR = {
+				controls_state = 330 #Mongolia
+				controls_state = 612 #Charhar
+			}
+			NOT = { 
+				original_tag = MEN #Mengkukuo
+				original_tag = MON #Mongolia
+				original_tag = R47 #Greater Mongolia
+                has_global_flag = rpg_greater_mongolia_flag
+            }
+		}
+		complete_effect = {
+			hidden_effect = {
+				330 = { add_core_of = R47 } #Mongolia
+				611 = { add_core_of = R47 } #South Chahar
+				612 = { add_core_of = R47 } #Chahar
+				621 = { add_core_of = R47 } #Suiyuan
+			}
+			custom_effect_tooltip = rpg_greater_mongolia_coring_states
+			custom_effect_tooltip = rpg_greater_mongolia_transfer_states
+			#Set compliance to 80 in all cores and instantiate collaboration government
+			custom_effect_tooltip = rpg_greater_mongolia_puppet
+			hidden_effect = {
+				every_state = {
+					limit = {
+						is_core_of = R47
+					}
+					set_compliance = 80
+				}
+				
+				if = {
+					limit = { has_dlc = "La Resistance" }
+					set_temp_variable = { country_to_initiate = R47 }
+					instantiate_collaboration_government = yes
+				}
+				else = {
+					release = R47
+					puppet = R47
+				}
+			}
+			#News event, set local flag, and set global flag
+			hidden_effect = {
+				ROOT = {
+					set_country_flag = rpg_greater_mongolia_country_flag
+				}
+				news_event = { id = rpg_news.47 hours = 6 }
+				set_global_flag = rpg_greater_mongolia_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}

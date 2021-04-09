@@ -1,0 +1,151 @@
+rpg_category_territories_greater_mongolia = {
+	rpg_greater_mongolia_tannu_tuva = {
+		allowed = {
+			NOT = {
+				original_tag = SOV #Soviet Union
+				original_tag = TAN #Tannu Tuva
+				original_tag = R47 #Greater Mongolia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_greater_mongolia_required_states_tannu_tuva
+                controls_state = 329 #Tannu Tuva
+			}
+		}
+		visible = {
+            has_global_flag = rpg_greater_mongolia_flag
+            R47 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = {
+				original_tag = SOV #Soviet Union
+				original_tag = TAN #Tannu Tuva
+				original_tag = R47 #Greater Mongolia
+                has_global_flag = rpg_greater_mongolia_tannu_tuva_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_greater_mongolia_coring_states_tannu_tuva
+			custom_effect_tooltip = rpg_greater_mongolia_transfer_states_tannu_tuva
+			hidden_effect = {
+				329 = { add_core_of = R47 } #Tannu Tuva
+				R47 = {
+					transfer_state = 329 #Tannu Tuva
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_greater_mongolia_tannu_tuva_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_greater_mongolia_ulan_ude = {
+		allowed = {
+			NOT = {
+				original_tag = SOV #Soviet Union
+				original_tag = R47 #Greater Mongolia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_greater_mongolia_required_states_ulan_ude
+                controls_state = 564 #Ulan Ude
+			}
+		}
+		visible = {
+            has_global_flag = rpg_greater_mongolia_flag
+            R47 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = {
+                original_tag = SOV #Soviet Union
+				original_tag = R47 #Greater Mongolia
+                has_global_flag = rpg_greater_mongolia_ulan_ude_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_greater_mongolia_coring_states_ulan_ude
+			custom_effect_tooltip = rpg_greater_mongolia_transfer_states_ulan_ude
+			hidden_effect = {
+				564 = { add_core_of = R47 } #Ulan Ude
+				R47 = {
+					transfer_state = 564 #Ulan Ude
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_greater_mongolia_ulan_ude_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	rpg_greater_mongolia_gorno_altaysk = {
+		allowed = {
+			NOT = {
+				original_tag = SOV #Soviet Union
+				original_tag = R47 #Greater Mongolia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_greater_mongolia_required_states_gorno_altaysk
+                controls_state = 654 #Gorno-Altaysk
+			}
+		}
+		visible = {
+            has_global_flag = rpg_greater_mongolia_flag
+            R47 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = {
+                original_tag = SOV #Soviet Union
+				original_tag = R47 #Greater Mongolia
+                has_global_flag = rpg_greater_mongolia_gorno_altaysk_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_greater_mongolia_coring_states_gorno_altaysk
+			custom_effect_tooltip = rpg_greater_mongolia_transfer_states_gorno_altaysk
+			hidden_effect = {
+				654 = { add_core_of = R47 } #Gorno-Altaysk
+				R47 = {
+					transfer_state = 654 #Gorno-Altaysk
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_greater_mongolia_gorno_altaysk_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}

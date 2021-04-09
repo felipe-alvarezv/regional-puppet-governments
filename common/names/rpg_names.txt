@@ -1200,3 +1200,14 @@ R46 = {
 	}
 	callsigns = { Anvil Hammer Fury Arrow Storm Bear "White Lily" Devil Eagle Falcon Fox Snowflake Greasy Guardian Gunman Hawk Hardball Howl Blizzard Husky Ice Killer Steel Iron Skull Striker Thunder Warrior Wardog Vodka }
 }
+#Greater Mongolia
+R47 = {
+	male = {
+		names = {  Ma Deng Zhao Tong Guan Oboi Sonin Songgotu Suksaha Mingzhu Nalan Fu Hesehn Changlin  }
+	}
+	female = {
+		names = { Mandukhai Samar Zaufishan Mulan Aigiarn Borte Chabi Conchaka Doquez-khatum Goland Khultulun Kokachin Mandughai Oghul Qamish Orqina Sorghaghtani Beki Toregene }
+	}
+	surnames = { Zhanshan Tiemei Shangzhi Linge Xiangying Xingde Kang'an }
+	callsigns = { }
+}
