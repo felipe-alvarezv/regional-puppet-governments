@@ -23,11 +23,6 @@ rpg_category = {
 				tooltip = rpg_ural_required_states_zlatoust
 				controls_state = 573 #Zlatoust
 			}
-			#Surgut
-			custom_trigger_tooltip = {
-				tooltip = rpg_ural_required_states_surgut
-				controls_state = 577 #Surgut
-			}
 			#Salekhard
 			custom_trigger_tooltip = {
 				tooltip = rpg_ural_required_states_salekhard
@@ -70,7 +65,6 @@ rpg_category = {
 				403 = { add_core_of = R44 } #Tyumen
 				572 = { add_core_of = R44 } #Chelyabinsk
 				573 = { add_core_of = R44 } #Zlatoust
-				577 = { add_core_of = R44 } #Surgut
 				579 = { add_core_of = R44 } #Salekhard
 				580 = { add_core_of = R44 } #Tobolsk
 				581 = { add_core_of = R44 } #Northern Urals

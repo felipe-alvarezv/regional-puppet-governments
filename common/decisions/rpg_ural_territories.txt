@@ -48,4 +48,53 @@ rpg_category_territories_ural = {
 			}
 		}
 	}
+	rpg_ural_surgut = {
+		allowed = {
+			NOT = {
+				original_tag = SOV #Soviet Union
+				original_tag = R44 #Ural
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_ural_required_states_surgut
+                controls_state = 577 #Surgut
+			}
+		}
+		visible = {
+            has_global_flag = rpg_ural_flag
+            R44 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = SOV #Soviet Union
+				original_tag = R44 #Ural
+                has_global_flag = rpg_ural_surgut_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_ural_coring_states_surgut
+			custom_effect_tooltip = rpg_ural_transfer_states_surgut
+			hidden_effect = {
+				577 = { add_core_of = R44 } #Surgut
+				R44 = {
+					transfer_state = 577 #Surgut
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_ural_surgut_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
 }

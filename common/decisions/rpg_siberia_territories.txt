@@ -99,6 +99,55 @@ rpg_category_territories_siberia = {
 			}
 		}
 	}
+	rpg_siberia_surgut = {
+		allowed = {
+			NOT = {
+				original_tag = SOV #Soviet Union
+				original_tag = R45 #Siberia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_siberia_required_states_surgut
+                controls_state = 577 #Surgut
+			}
+		}
+		visible = {
+            has_global_flag = rpg_siberia_flag
+            R45 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { 
+                original_tag = SOV #Soviet Union
+				original_tag = R45 #Siberia
+                has_global_flag = rpg_siberia_surgut_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_siberia_coring_states_surgut
+			custom_effect_tooltip = rpg_siberia_transfer_states_surgut
+			hidden_effect = {
+				577 = { add_core_of = R45 } #Surgut
+				R45 = {
+					transfer_state = 577 #Surgut
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_siberia_surgut_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
 	rpg_siberia_gorno_altaysk = {
 		allowed = {
 			NOT = {
