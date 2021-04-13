@@ -148,4 +148,57 @@ rpg_category_territories_greater_mongolia = {
 			}
 		}
 	}
+	rpg_greater_mongolia_jiuquan = {
+		allowed = {
+			NOT = {
+				original_tag = CHI #China
+				original_tag = PRC #Communist China
+				original_tag = XSM #Xibei San Ma
+				original_tag = R47 #Greater Mongolia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = rpg_greater_mongolia_required_states_jiuquan
+                controls_state = 756 #Jiuquan
+			}
+		}
+		visible = {
+            has_global_flag = rpg_greater_mongolia_flag
+            R47 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = {
+                original_tag = CHI #China
+				original_tag = PRC #Communist China
+				original_tag = XSM #Xibei San Ma
+				original_tag = R47 #Greater Mongolia
+                has_global_flag = rpg_greater_mongolia_jiuquan_flag
+            }
+		}
+		complete_effect = {
+			custom_effect_tooltip = rpg_greater_mongolia_coring_states_jiuquan
+			custom_effect_tooltip = rpg_greater_mongolia_transfer_states_jiuquan
+			hidden_effect = {
+				756 = { add_core_of = R47 } #Jiuquan
+				R47 = {
+					transfer_state = 756 #Jiuquan
+				}
+			}
+			hidden_effect = {
+				set_global_flag = rpg_greater_mongolia_jiuquan_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
 }
