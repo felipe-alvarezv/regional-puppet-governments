@@ -1005,7 +1005,7 @@ R37 = {
 	}
 	callsigns = { }
 }
-#Greater Bangladesh
+#Bangladesh
 R38 = {
 	male = {
 		names = { Khawaja Abdul Huseyn Sheikh Syed Tajuddin Abdus Ataur Mizanur Moudud Kazi }
@@ -1131,7 +1131,7 @@ R43 = {
 	}
 	callsigns = { Anvil Hammer Fury Arrow Storm Bear "White Lily" Devil Eagle Falcon Fox Snowflake Greasy Guardian Gunman Hawk Hardball Howl Blizzard Husky Ice Killer Steel Iron Skull Striker Thunder Warrior Wardog Vodka }
 }
-#Ural
+#Urals
 R44 = {
 	male = {
 		names = { 
@@ -1200,7 +1200,7 @@ R46 = {
 	}
 	callsigns = { Anvil Hammer Fury Arrow Storm Bear "White Lily" Devil Eagle Falcon Fox Snowflake Greasy Guardian Gunman Hawk Hardball Howl Blizzard Husky Ice Killer Steel Iron Skull Striker Thunder Warrior Wardog Vodka }
 }
-#Greater Mongolia
+#Mongolia
 R47 = {
 	male = {
 		names = {  Ma Deng Zhao Tong Guan Oboi Sonin Songgotu Suksaha Mingzhu Nalan Fu Hesehn Changlin  }

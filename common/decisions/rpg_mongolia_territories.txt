@@ -1,21 +1,21 @@
-rpg_category_territories_greater_mongolia = {
-	rpg_greater_mongolia_tannu_tuva = {
+rpg_category_territories_mongolia = {
+	rpg_mongolia_tannu_tuva = {
 		allowed = {
 			NOT = {
 				original_tag = SOV #Soviet Union
 				original_tag = TAN #Tannu Tuva
-				original_tag = R47 #Greater Mongolia
+				original_tag = R47 #Mongolia
 			}
 		}
 		available = {
 			is_subject = no
 			custom_trigger_tooltip = {
-				tooltip = rpg_greater_mongolia_required_states_tannu_tuva
+				tooltip = rpg_mongolia_required_states_tannu_tuva
                 controls_state = 329 #Tannu Tuva
 			}
 		}
 		visible = {
-            has_global_flag = rpg_greater_mongolia_flag
+            has_global_flag = rpg_mongolia_flag
             R47 = {
 				OR = {
 					is_puppet_of = FROM
@@ -25,13 +25,13 @@ rpg_category_territories_greater_mongolia = {
 			NOT = {
 				original_tag = SOV #Soviet Union
 				original_tag = TAN #Tannu Tuva
-				original_tag = R47 #Greater Mongolia
-                has_global_flag = rpg_greater_mongolia_tannu_tuva_flag
+				original_tag = R47 #Mongolia
+                has_global_flag = rpg_mongolia_tannu_tuva_flag
             }
 		}
 		complete_effect = {
-			custom_effect_tooltip = rpg_greater_mongolia_coring_states_tannu_tuva
-			custom_effect_tooltip = rpg_greater_mongolia_transfer_states_tannu_tuva
+			custom_effect_tooltip = rpg_mongolia_coring_states_tannu_tuva
+			custom_effect_tooltip = rpg_mongolia_transfer_states_tannu_tuva
 			hidden_effect = {
 				329 = { add_core_of = R47 } #Tannu Tuva
 				R47 = {
@@ -39,7 +39,7 @@ rpg_category_territories_greater_mongolia = {
 				}
 			}
 			hidden_effect = {
-				set_global_flag = rpg_greater_mongolia_tannu_tuva_flag
+				set_global_flag = rpg_mongolia_tannu_tuva_flag
 			}
 		}
 		ai_will_do = {
@@ -50,22 +50,22 @@ rpg_category_territories_greater_mongolia = {
 			}
 		}
 	}
-	rpg_greater_mongolia_ulan_ude = {
+	rpg_mongolia_ulan_ude = {
 		allowed = {
 			NOT = {
 				original_tag = SOV #Soviet Union
-				original_tag = R47 #Greater Mongolia
+				original_tag = R47 #Mongolia
 			}
 		}
 		available = {
 			is_subject = no
 			custom_trigger_tooltip = {
-				tooltip = rpg_greater_mongolia_required_states_ulan_ude
+				tooltip = rpg_mongolia_required_states_ulan_ude
                 controls_state = 564 #Ulan Ude
 			}
 		}
 		visible = {
-            has_global_flag = rpg_greater_mongolia_flag
+            has_global_flag = rpg_mongolia_flag
             R47 = {
 				OR = {
 					is_puppet_of = FROM
@@ -74,13 +74,13 @@ rpg_category_territories_greater_mongolia = {
 			}
 			NOT = {
                 original_tag = SOV #Soviet Union
-				original_tag = R47 #Greater Mongolia
-                has_global_flag = rpg_greater_mongolia_ulan_ude_flag
+				original_tag = R47 #Mongolia
+                has_global_flag = rpg_mongolia_ulan_ude_flag
             }
 		}
 		complete_effect = {
-			custom_effect_tooltip = rpg_greater_mongolia_coring_states_ulan_ude
-			custom_effect_tooltip = rpg_greater_mongolia_transfer_states_ulan_ude
+			custom_effect_tooltip = rpg_mongolia_coring_states_ulan_ude
+			custom_effect_tooltip = rpg_mongolia_transfer_states_ulan_ude
 			hidden_effect = {
 				564 = { add_core_of = R47 } #Ulan Ude
 				R47 = {
@@ -88,7 +88,7 @@ rpg_category_territories_greater_mongolia = {
 				}
 			}
 			hidden_effect = {
-				set_global_flag = rpg_greater_mongolia_ulan_ude_flag
+				set_global_flag = rpg_mongolia_ulan_ude_flag
 			}
 		}
 		ai_will_do = {
@@ -99,22 +99,22 @@ rpg_category_territories_greater_mongolia = {
 			}
 		}
 	}
-	rpg_greater_mongolia_gorno_altaysk = {
+	rpg_mongolia_gorno_altaysk = {
 		allowed = {
 			NOT = {
 				original_tag = SOV #Soviet Union
-				original_tag = R47 #Greater Mongolia
+				original_tag = R47 #Mongolia
 			}
 		}
 		available = {
 			is_subject = no
 			custom_trigger_tooltip = {
-				tooltip = rpg_greater_mongolia_required_states_gorno_altaysk
+				tooltip = rpg_mongolia_required_states_gorno_altaysk
                 controls_state = 654 #Gorno-Altaysk
 			}
 		}
 		visible = {
-            has_global_flag = rpg_greater_mongolia_flag
+            has_global_flag = rpg_mongolia_flag
             R47 = {
 				OR = {
 					is_puppet_of = FROM
@@ -123,13 +123,13 @@ rpg_category_territories_greater_mongolia = {
 			}
 			NOT = {
                 original_tag = SOV #Soviet Union
-				original_tag = R47 #Greater Mongolia
-                has_global_flag = rpg_greater_mongolia_gorno_altaysk_flag
+				original_tag = R47 #Mongolia
+                has_global_flag = rpg_mongolia_gorno_altaysk_flag
             }
 		}
 		complete_effect = {
-			custom_effect_tooltip = rpg_greater_mongolia_coring_states_gorno_altaysk
-			custom_effect_tooltip = rpg_greater_mongolia_transfer_states_gorno_altaysk
+			custom_effect_tooltip = rpg_mongolia_coring_states_gorno_altaysk
+			custom_effect_tooltip = rpg_mongolia_transfer_states_gorno_altaysk
 			hidden_effect = {
 				654 = { add_core_of = R47 } #Gorno-Altaysk
 				R47 = {
@@ -137,7 +137,7 @@ rpg_category_territories_greater_mongolia = {
 				}
 			}
 			hidden_effect = {
-				set_global_flag = rpg_greater_mongolia_gorno_altaysk_flag
+				set_global_flag = rpg_mongolia_gorno_altaysk_flag
 			}
 		}
 		ai_will_do = {
@@ -148,24 +148,24 @@ rpg_category_territories_greater_mongolia = {
 			}
 		}
 	}
-	rpg_greater_mongolia_jiuquan = {
+	rpg_mongolia_jiuquan = {
 		allowed = {
 			NOT = {
 				original_tag = CHI #China
 				original_tag = PRC #Communist China
 				original_tag = XSM #Xibei San Ma
-				original_tag = R47 #Greater Mongolia
+				original_tag = R47 #Mongolia
 			}
 		}
 		available = {
 			is_subject = no
 			custom_trigger_tooltip = {
-				tooltip = rpg_greater_mongolia_required_states_jiuquan
+				tooltip = rpg_mongolia_required_states_jiuquan
                 controls_state = 756 #Jiuquan
 			}
 		}
 		visible = {
-            has_global_flag = rpg_greater_mongolia_flag
+            has_global_flag = rpg_mongolia_flag
             R47 = {
 				OR = {
 					is_puppet_of = FROM
@@ -176,13 +176,13 @@ rpg_category_territories_greater_mongolia = {
                 original_tag = CHI #China
 				original_tag = PRC #Communist China
 				original_tag = XSM #Xibei San Ma
-				original_tag = R47 #Greater Mongolia
-                has_global_flag = rpg_greater_mongolia_jiuquan_flag
+				original_tag = R47 #Mongolia
+                has_global_flag = rpg_mongolia_jiuquan_flag
             }
 		}
 		complete_effect = {
-			custom_effect_tooltip = rpg_greater_mongolia_coring_states_jiuquan
-			custom_effect_tooltip = rpg_greater_mongolia_transfer_states_jiuquan
+			custom_effect_tooltip = rpg_mongolia_coring_states_jiuquan
+			custom_effect_tooltip = rpg_mongolia_transfer_states_jiuquan
 			hidden_effect = {
 				756 = { add_core_of = R47 } #Jiuquan
 				R47 = {
@@ -190,7 +190,7 @@ rpg_category_territories_greater_mongolia = {
 				}
 			}
 			hidden_effect = {
-				set_global_flag = rpg_greater_mongolia_jiuquan_flag
+				set_global_flag = rpg_mongolia_jiuquan_flag
 			}
 		}
 		ai_will_do = {

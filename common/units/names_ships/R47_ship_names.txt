@@ -1,4 +1,4 @@
-﻿#Greater Mongolia
+﻿#Mongolia
 R47_DD_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_DESTROYERS
 	for_countries = { R47 }

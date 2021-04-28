@@ -1,4 +1,4 @@
-#Ural
+#Urals
 ideas = {
 	political_advisor = {
 		R44_captain_of_industry = {

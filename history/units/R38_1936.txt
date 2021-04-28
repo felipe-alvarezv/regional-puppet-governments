@@ -1,4 +1,4 @@
-﻿#Greater Bangladesh
+﻿#Bangladesh
 division_template = {
 	name = "Garrison Division"
 	division_names_group = R38_GAR_01

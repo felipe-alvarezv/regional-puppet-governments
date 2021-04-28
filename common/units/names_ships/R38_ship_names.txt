@@ -1,4 +1,4 @@
-﻿#Greater Bangladesh
+﻿#Bangladesh
 R38_DD_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_DESTROYERS
 	for_countries = { R38 }

@@ -1,32 +1,32 @@
 rpg_category = {
-	rpg_greater_mongolia = {
+	rpg_mongolia = {
 		allowed = {
 			NOT = {
 				original_tag = MEN #Mengkukuo
 				original_tag = MON #Mongolia
-				original_tag = R47 #Greater Mongolia
+				original_tag = R47 #Mongolia
 			}
 		}
 		available = {
 			is_subject = no
 			#Mongolia
 			custom_trigger_tooltip = {
-				tooltip = rpg_greater_mongolia_required_states_mongolia
+				tooltip = rpg_mongolia_required_states_mongolia
 				controls_state = 330 #Mongolia
 			}
 			#South Chahar
 			custom_trigger_tooltip = {
-				tooltip = rpg_greater_mongolia_required_states_south_chahar
+				tooltip = rpg_mongolia_required_states_south_chahar
 				controls_state = 611 #South Chahar
 			}
 			#Chahar
 			custom_trigger_tooltip = {
-				tooltip = rpg_greater_mongolia_required_states_chahar
+				tooltip = rpg_mongolia_required_states_chahar
 				controls_state = 612 #Chahar
 			}
 			#Suiyuan
 			custom_trigger_tooltip = {
-				tooltip = rpg_greater_mongolia_required_states_suiyuan
+				tooltip = rpg_mongolia_required_states_suiyuan
 				controls_state = 621 #Suiyuan
 			}
 		}
@@ -38,8 +38,8 @@ rpg_category = {
 			NOT = { 
 				original_tag = MEN #Mengkukuo
 				original_tag = MON #Mongolia
-				original_tag = R47 #Greater Mongolia
-                has_global_flag = rpg_greater_mongolia_flag
+				original_tag = R47 #Mongolia
+                has_global_flag = rpg_mongolia_flag
             }
 		}
 		complete_effect = {
@@ -49,10 +49,10 @@ rpg_category = {
 				612 = { add_core_of = R47 } #Chahar
 				621 = { add_core_of = R47 } #Suiyuan
 			}
-			custom_effect_tooltip = rpg_greater_mongolia_coring_states
-			custom_effect_tooltip = rpg_greater_mongolia_transfer_states
+			custom_effect_tooltip = rpg_mongolia_coring_states
+			custom_effect_tooltip = rpg_mongolia_transfer_states
 			#Set compliance to 80 in all cores and instantiate collaboration government
-			custom_effect_tooltip = rpg_greater_mongolia_puppet
+			custom_effect_tooltip = rpg_mongolia_puppet
 			hidden_effect = {
 				every_state = {
 					limit = {
@@ -74,10 +74,10 @@ rpg_category = {
 			#News event, set local flag, and set global flag
 			hidden_effect = {
 				ROOT = {
-					set_country_flag = rpg_greater_mongolia_country_flag
+					set_country_flag = rpg_mongolia_country_flag
 				}
 				news_event = { id = rpg_news.47 hours = 6 }
-				set_global_flag = rpg_greater_mongolia_flag
+				set_global_flag = rpg_mongolia_flag
 			}
 		}
 		ai_will_do = {

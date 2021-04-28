@@ -1,4 +1,4 @@
-#Greater Mongolia
+#Mongolia
 ideas = {
 	political_advisor = {
 		R47_captain_of_industry = {

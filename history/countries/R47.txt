@@ -1,4 +1,4 @@
-#Greater Mongolia
+#Mongolia
 capital = 330 #Mongolia
 oob = "R47_1936"
 

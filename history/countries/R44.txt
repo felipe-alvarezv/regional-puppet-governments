@@ -1,4 +1,4 @@
-#Ural
+#Urals
 capital = 653 #Sverdlovsk
 oob = "R44_1936"
 

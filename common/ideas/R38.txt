@@ -1,4 +1,4 @@
-#Greater Bangladesh
+#Bangladesh
 ideas = {
 	political_advisor = {
 		R38_captain_of_industry = {

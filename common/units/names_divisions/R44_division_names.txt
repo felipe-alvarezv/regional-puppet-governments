@@ -1,4 +1,4 @@
-﻿#Ural
+﻿#Urals
 R44_GAR_01 = 
 {
 	name = "Garrison Division"

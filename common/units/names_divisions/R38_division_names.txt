@@ -1,4 +1,4 @@
-﻿#Greater Bangladesh
+﻿#Bangladesh
 R38_GAR_01 = 
 {
 	name = "Garrison Division"
