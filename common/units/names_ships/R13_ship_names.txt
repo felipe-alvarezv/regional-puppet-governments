@@ -1,11 +1,11 @@
-﻿#Germany
+﻿#VACANT
 R13_DD_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_DESTROYERS
 	for_countries = { R13 }
 	type = ship
-	ship_types = { ship_hull_light destroyer }			
+	ship_types = { ship_hull_light destroyer }
 	prefix = ""
-	fallback_name = "Destroyer %d"		
+	fallback_name = "Destroyer %d"
 	unique = { }
 }
 R13_CL_HISTORICAL = {
@@ -32,7 +32,7 @@ R13_BB_HISTORICAL = {
 	type = ship
 	ship_types = { ship_hull_heavy battleship }
 	prefix = ""
-	fallback_name = "Battleship %d"		
+	fallback_name = "Battleship %d"
 	unique = { }
 }
 R13_BC_HISTORICAL = {
@@ -41,7 +41,7 @@ R13_BC_HISTORICAL = {
 	type = ship
 	ship_types = { ship_hull_heavy battle_cruiser }
 	prefix = ""
-	fallback_name = "Battle Cruiser %d"		
+	fallback_name = "Battle Cruiser %d"
 	unique = { }
 }
 R13_CV_HISTORICAL = {
@@ -50,7 +50,7 @@ R13_CV_HISTORICAL = {
 	type = ship
 	ship_types = { ship_hull_carrier carrier }
 	prefix = ""
-	fallback_name = "Carrier %d"	
+	fallback_name = "Carrier %d"
 	unique = { }
 }
 R13_SS_HISTORICAL = {

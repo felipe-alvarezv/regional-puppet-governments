@@ -420,7 +420,7 @@ news_event = {
 		}
 	}
 }
-#Germany Event
+#VACANT Event
 news_event = {
 	id = rpg_news.13
 	title = rpg_news.13.t

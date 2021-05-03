@@ -2,35 +2,35 @@
 ideas = {
 	political_advisor = {
 		R38_captain_of_industry = {
-			picture = generic_political_advisor_europe_1
+			picture = generic_political_advisor_india_1
 			allowed = {
 				original_tag = R38
 			}
 			traits = { captain_of_industry }
 		}
 		R38_war_industrialist = {
-			picture = generic_political_advisor_europe_2
+			picture = generic_political_advisor_india_2
 			allowed = {
 				original_tag = R38
 			}
 			traits = { war_industrialist }
 		}
 		R38_fortification_engineer = {
-			picture = generic_political_advisor_europe_3
+			picture = generic_political_advisor_asia_1
 			allowed = {
 				original_tag = R38
 			}
 			traits = { fortification_engineer }
 		}
 		R38_quartermaster_general = {
-			picture = generic_political_advisor_europe_4
+			picture = generic_political_advisor_asia_2
 			allowed = {
 				original_tag = R38
 			}
 			traits = { quartermaster_general }
 		}
 		R38_communist_revolutionary = {
-			picture = generic_communist_revolutionary_western_european_2d
+			picture = generic_communist_asia
 			available = {
 				is_subject = no
 			}
@@ -40,7 +40,7 @@ ideas = {
 			traits = { communist_revolutionary }
 		}
 		R38_democratic_reformer = {
-			picture = generic_democratic_reformer_western_european_2d
+			picture = generic_democratic_asia
 			available = {
 				is_subject = no
 			}
@@ -50,7 +50,7 @@ ideas = {
 			traits = { democratic_reformer }
 		}
 		R38_staunch_monarchist = {
-			picture = generic_political_advisor_europe_5
+			picture = generic_political_advisor_asia_3
 			available = {
 				is_subject = no
 			}
@@ -60,7 +60,7 @@ ideas = {
 			traits = { staunch_monarchist }
 		}
 		R38_facist_demagogue = {
-			picture = generic_fascist_demagogue_western_european_2d
+			picture = generic_fascist_asia
 			available = {
 				is_subject = no
 			}
@@ -69,31 +69,31 @@ ideas = {
 			}
 			traits = { fascist_demagogue }
 		}
-		R38_illusive_gentleman = {	
-			picture = generic_political_advisor_europe_6
+		R38_illusive_gentleman = {
+			picture = generic_political_advisor_india_1
 			available = {
 				has_intelligence_agency = yes
 			}
 			allowed = {
 				original_tag = R38
-				has_dlc = "La Resistance" 
+				has_dlc = "La Resistance"
 			}
 			traits = { head_of_intelligence }
 		}
 	}
 	army_chief = {
 		R38_army_offense = {
-			picture = generic_army_europe_1
+			picture = generic_army_asia_1
 			allowed = {
 				original_tag = R38
-			}		
+			}
 			traits = { army_chief_offensive_2 }
 			ai_will_do = {
 				factor = 1
 			}
 		}
 		R38_army_defense = {
-			picture = generic_army_europe_2
+			picture = generic_army_asia_2
 			allowed = {
 				original_tag = R38
 			}
@@ -105,7 +105,7 @@ ideas = {
 	}
 	navy_chief = {
 		R38_decisive_battle = {
-			picture = generic_navy_europe_1
+			picture = generic_navy_asia_1
 			allowed = {
 				original_tag = R38
 			}
@@ -115,7 +115,7 @@ ideas = {
 			}
 		}
 		R38_commerce_raiding = {
-			picture = generic_navy_europe_2
+			picture = generic_navy_asia_2
 			allowed = {
 				original_tag = R38
 			}
@@ -127,7 +127,7 @@ ideas = {
 	}
 	air_chief = {
 		R38_ground_support = {
-			picture = generic_air_europe_1
+			picture = generic_air_asia_1
 			allowed = {
 				original_tag = R38
 			}
@@ -137,7 +137,7 @@ ideas = {
 			}
 		}
 		R38_all_weather = {
-			picture = generic_air_europe_2
+			picture = generic_air_asia_2
 			allowed = {
 				original_tag = R38
 			}
@@ -150,7 +150,7 @@ ideas = {
 	high_command = {
 		R38_army_infantry = {
 			ledger = army
-			picture = generic_army_europe_3
+			picture = generic_army_asia_3
 			allowed = {
 				original_tag = R38
 			}
@@ -160,8 +160,8 @@ ideas = {
 			}
 		}
 		R38_army_artillery = {
-			ledger = army	
-			picture = generic_army_europe_4
+			ledger = army
+			picture = generic_army_asia_4
 			allowed = {
 				original_tag = R38
 			}
@@ -172,7 +172,7 @@ ideas = {
 		}
 		R38_amphibious_assault = {
 			ledger = navy
-			picture = generic_navy_europe_1
+			picture = generic_navy_asia_3
 			allowed = {
 				original_tag = R38
 			}
@@ -183,7 +183,7 @@ ideas = {
 		}
 		R38_screen = {
 			ledger = navy
-			picture = generic_navy_europe_2
+			picture = generic_navy_asia_1
 			allowed = {
 				original_tag = R38
 			}
@@ -194,7 +194,7 @@ ideas = {
 		}
 		R38_air_support = {
 			ledger = air
-			picture = generic_air_europe_3
+			picture = generic_air_asia_3
 			allowed = {
 				original_tag = R38
 			}
@@ -205,7 +205,7 @@ ideas = {
 		}
 		R38_close_air_support = {
 			ledger = air
-			picture = generic_air_europe_1
+			picture = generic_air_asia_1
 			allowed = {
 				original_tag = R38
 			}
@@ -218,7 +218,7 @@ ideas = {
 	theorist = {
 		R38_military_theorist = {
 			ledger = army
-			picture = generic_army_europe_4
+			picture = generic_army_asia_5
 			allowed = {
 				original_tag = R38
 			}
@@ -229,7 +229,7 @@ ideas = {
 		}
 		R38_naval_theorist = {
 			ledger = navy
-			picture = generic_navy_europe_3
+			picture = generic_navy_asia_2
 			allowed = {
 				original_tag = R38
 			}
@@ -240,7 +240,7 @@ ideas = {
 		}
 		R38_warfare_theorist = {
 			ledger = air
-			picture = generic_air_europe_1
+			picture = generic_air_asia_2
 			allowed = {
 				original_tag = R38
 			}

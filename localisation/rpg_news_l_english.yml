@@ -83,7 +83,7 @@
  rpg_news.12.b:0 "A toast to our new friends!"
  rpg_news.12.c:0 "They are nothing but a lackey!"
  rpg_news.12.d:0 "Interesting"
- #Germany
+ #VACANT
  rpg_news.13.t:0 "Formation of [R13.GetName]"
  rpg_news.13.desc:0 "[Root.GetAdjective] military officials have announced the establishment of a regional government in Germany. Officially known as [R13.GetNameDef], they have been granted autonomy to maintain order and control in the region.  The military leaders of [R13.GetNameDef] have publicly announced their full support towards the [Root.GetAdjective] cause.  The nations who are aligned with [Root.GetNameDef] have supported this decision, while the rest of the world has called [R13.GetNameDef] just a [Root.GetAdjective] lapdog."
  rpg_news.13.a:0 "We will prove our strength to the world!"

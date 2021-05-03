@@ -2,35 +2,35 @@
 ideas = {
 	political_advisor = {
 		R36_captain_of_industry = {
-			picture = generic_political_advisor_europe_1
+			picture = generic_political_advisor_africa_1
 			allowed = {
 				original_tag = R36
 			}
 			traits = { captain_of_industry }
 		}
 		R36_war_industrialist = {
-			picture = generic_political_advisor_europe_2
+			picture = generic_political_advisor_africa_2
 			allowed = {
 				original_tag = R36
 			}
 			traits = { war_industrialist }
 		}
 		R36_fortification_engineer = {
-			picture = generic_political_advisor_europe_3
+			picture = generic_political_advisor_africa_3
 			allowed = {
 				original_tag = R36
 			}
 			traits = { fortification_engineer }
 		}
 		R36_quartermaster_general = {
-			picture = generic_political_advisor_europe_4
+			picture = generic_political_advisor_africa_1
 			allowed = {
 				original_tag = R36
 			}
 			traits = { quartermaster_general }
 		}
 		R36_communist_revolutionary = {
-			picture = generic_communist_revolutionary_western_european_2d
+			picture = generic_communist_africa
 			available = {
 				is_subject = no
 			}
@@ -40,7 +40,7 @@ ideas = {
 			traits = { communist_revolutionary }
 		}
 		R36_democratic_reformer = {
-			picture = generic_democratic_reformer_western_european_2d
+			picture = generic_democratic_africa
 			available = {
 				is_subject = no
 			}
@@ -50,7 +50,7 @@ ideas = {
 			traits = { democratic_reformer }
 		}
 		R36_staunch_monarchist = {
-			picture = generic_political_advisor_europe_5
+			picture = generic_political_advisor_africa_2
 			available = {
 				is_subject = no
 			}
@@ -60,7 +60,7 @@ ideas = {
 			traits = { staunch_monarchist }
 		}
 		R36_facist_demagogue = {
-			picture = generic_fascist_demagogue_western_european_2d
+			picture = generic_fascist_africa
 			available = {
 				is_subject = no
 			}
@@ -69,31 +69,31 @@ ideas = {
 			}
 			traits = { fascist_demagogue }
 		}
-		R36_illusive_gentleman = {	
-			picture = generic_political_advisor_europe_6
+		R36_illusive_gentleman = {
+			picture = generic_political_advisor_africa_3
 			available = {
 				has_intelligence_agency = yes
 			}
 			allowed = {
 				original_tag = R36
-				has_dlc = "La Resistance" 
+				has_dlc = "La Resistance"
 			}
 			traits = { head_of_intelligence }
 		}
 	}
 	army_chief = {
 		R36_army_offense = {
-			picture = generic_army_europe_1
+			picture = generic_army_africa_1
 			allowed = {
 				original_tag = R36
-			}		
+			}
 			traits = { army_chief_offensive_2 }
 			ai_will_do = {
 				factor = 1
 			}
 		}
 		R36_army_defense = {
-			picture = generic_army_europe_2
+			picture = generic_army_africa_2
 			allowed = {
 				original_tag = R36
 			}
@@ -105,7 +105,7 @@ ideas = {
 	}
 	navy_chief = {
 		R36_decisive_battle = {
-			picture = generic_navy_europe_1
+			picture = generic_navy_africa_1
 			allowed = {
 				original_tag = R36
 			}
@@ -115,7 +115,7 @@ ideas = {
 			}
 		}
 		R36_commerce_raiding = {
-			picture = generic_navy_europe_2
+			picture = generic_navy_africa_2
 			allowed = {
 				original_tag = R36
 			}
@@ -127,7 +127,7 @@ ideas = {
 	}
 	air_chief = {
 		R36_ground_support = {
-			picture = generic_air_europe_1
+			picture = generic_air_africa_1
 			allowed = {
 				original_tag = R36
 			}
@@ -137,7 +137,7 @@ ideas = {
 			}
 		}
 		R36_all_weather = {
-			picture = generic_air_europe_2
+			picture = generic_air_africa_2
 			allowed = {
 				original_tag = R36
 			}
@@ -150,7 +150,7 @@ ideas = {
 	high_command = {
 		R36_army_infantry = {
 			ledger = army
-			picture = generic_army_europe_3
+			picture = generic_army_africa_3
 			allowed = {
 				original_tag = R36
 			}
@@ -160,8 +160,8 @@ ideas = {
 			}
 		}
 		R36_army_artillery = {
-			ledger = army	
-			picture = generic_army_europe_4
+			ledger = army
+			picture = generic_army_africa_4
 			allowed = {
 				original_tag = R36
 			}
@@ -172,7 +172,7 @@ ideas = {
 		}
 		R36_amphibious_assault = {
 			ledger = navy
-			picture = generic_navy_europe_1
+			picture = generic_navy_africa_3
 			allowed = {
 				original_tag = R36
 			}
@@ -183,7 +183,7 @@ ideas = {
 		}
 		R36_screen = {
 			ledger = navy
-			picture = generic_navy_europe_2
+			picture = generic_navy_africa_1
 			allowed = {
 				original_tag = R36
 			}
@@ -194,7 +194,7 @@ ideas = {
 		}
 		R36_air_support = {
 			ledger = air
-			picture = generic_air_europe_3
+			picture = generic_air_africa_3
 			allowed = {
 				original_tag = R36
 			}
@@ -205,7 +205,7 @@ ideas = {
 		}
 		R36_close_air_support = {
 			ledger = air
-			picture = generic_air_europe_1
+			picture = generic_air_africa_1
 			allowed = {
 				original_tag = R36
 			}
@@ -218,7 +218,7 @@ ideas = {
 	theorist = {
 		R36_military_theorist = {
 			ledger = army
-			picture = generic_army_europe_4
+			picture = generic_army_africa_5
 			allowed = {
 				original_tag = R36
 			}
@@ -229,7 +229,7 @@ ideas = {
 		}
 		R36_naval_theorist = {
 			ledger = navy
-			picture = generic_navy_europe_3
+			picture = generic_navy_africa_2
 			allowed = {
 				original_tag = R36
 			}
@@ -240,7 +240,7 @@ ideas = {
 		}
 		R36_warfare_theorist = {
 			ledger = air
-			picture = generic_air_europe_1
+			picture = generic_air_africa_2
 			allowed = {
 				original_tag = R36
 			}

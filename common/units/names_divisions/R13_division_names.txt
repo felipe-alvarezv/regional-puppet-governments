@@ -1,5 +1,5 @@
-﻿#Germany
-R13_GAR_01 = 
+﻿#VACANT
+R13_GAR_01 =
 {
 	name = "Garrison Division"
 	for_countries = { R13 }
@@ -27,10 +27,10 @@ R13_GAR_01 =
 		17 = { "%dth Garrison Division" }
 		18 = { "%dth Garrison Division" }
 		19 = { "%dth Garrison Division" }
-		20 = { "%dth Garrison Division" }		
+		20 = { "%dth Garrison Division" }
 	}
 }
-R13_INF_01 = 
+R13_INF_01 =
 {
 	name = "Infantry Division"
 	for_countries = { R13 }
@@ -58,10 +58,10 @@ R13_INF_01 =
 		17 = { "%dth Infantry Division" }
 		18 = { "%dth Infantry Division" }
 		19 = { "%dth Infantry Division" }
-		20 = { "%dth Infantry Division" }		
+		20 = { "%dth Infantry Division" }
 	}
 }
-R13_CAV_01 = 
+R13_CAV_01 =
 {
 	name = "Cavalry Division"
 	for_countries = { R13 }
@@ -89,6 +89,6 @@ R13_CAV_01 =
 		17 = { "%dth Cavalry Division" }
 		18 = { "%dth Cavalry Division" }
 		19 = { "%dth Cavalry Division" }
-		20 = { "%dth Cavalry Division" }		
+		20 = { "%dth Cavalry Division" }
 	}
 }

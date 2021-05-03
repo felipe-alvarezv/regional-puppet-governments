@@ -2,35 +2,35 @@
 ideas = {
 	political_advisor = {
 		R08_captain_of_industry = {
-			picture = generic_political_advisor_europe_1
+			picture = generic_political_advisor_south_america_1
 			allowed = {
 				original_tag = R08
 			}
 			traits = { captain_of_industry }
 		}
 		R08_war_industrialist = {
-			picture = generic_political_advisor_europe_2
+			picture = generic_political_advisor_south_america_2
 			allowed = {
 				original_tag = R08
 			}
 			traits = { war_industrialist }
 		}
 		R08_fortification_engineer = {
-			picture = generic_political_advisor_europe_3
+			picture = generic_political_advisor_south_america_3
 			allowed = {
 				original_tag = R08
 			}
 			traits = { fortification_engineer }
 		}
 		R08_quartermaster_general = {
-			picture = generic_political_advisor_europe_4
+			picture = generic_political_advisor_south_america_1
 			allowed = {
 				original_tag = R08
 			}
 			traits = { quartermaster_general }
 		}
 		R08_communist_revolutionary = {
-			picture = generic_communist_revolutionary_western_european_2d
+			picture = generic_communist_south_america
 			available = {
 				is_subject = no
 			}
@@ -40,7 +40,7 @@ ideas = {
 			traits = { communist_revolutionary }
 		}
 		R08_democratic_reformer = {
-			picture = generic_democratic_reformer_western_european_2d
+			picture = generic_democratic_south_america
 			available = {
 				is_subject = no
 			}
@@ -50,7 +50,7 @@ ideas = {
 			traits = { democratic_reformer }
 		}
 		R08_staunch_monarchist = {
-			picture = generic_political_advisor_europe_5
+			picture = generic_political_advisor_south_america_2
 			available = {
 				is_subject = no
 			}
@@ -60,7 +60,7 @@ ideas = {
 			traits = { staunch_monarchist }
 		}
 		R08_facist_demagogue = {
-			picture = generic_fascist_demagogue_western_european_2d
+			picture = generic_fascist_south_america
 			available = {
 				is_subject = no
 			}
@@ -69,31 +69,31 @@ ideas = {
 			}
 			traits = { fascist_demagogue }
 		}
-		R08_illusive_gentleman = {	
-			picture = generic_political_advisor_europe_6
+		R08_illusive_gentleman = {
+			picture = generic_political_advisor_south_america_3
 			available = {
 				has_intelligence_agency = yes
 			}
 			allowed = {
 				original_tag = R08
-				has_dlc = "La Resistance" 
+				has_dlc = "La Resistance"
 			}
 			traits = { head_of_intelligence }
 		}
 	}
 	army_chief = {
 		R08_army_offense = {
-			picture = generic_army_europe_1
+			picture = generic_army_south_america_1
 			allowed = {
 				original_tag = R08
-			}		
+			}
 			traits = { army_chief_offensive_2 }
 			ai_will_do = {
 				factor = 1
 			}
 		}
 		R08_army_defense = {
-			picture = generic_army_europe_2
+			picture = generic_army_south_america_2
 			allowed = {
 				original_tag = R08
 			}
@@ -105,7 +105,7 @@ ideas = {
 	}
 	navy_chief = {
 		R08_decisive_battle = {
-			picture = generic_navy_europe_1
+			picture = generic_navy_south_america_1
 			allowed = {
 				original_tag = R08
 			}
@@ -115,7 +115,7 @@ ideas = {
 			}
 		}
 		R08_commerce_raiding = {
-			picture = generic_navy_europe_2
+			picture = generic_navy_south_america_2
 			allowed = {
 				original_tag = R08
 			}
@@ -127,7 +127,7 @@ ideas = {
 	}
 	air_chief = {
 		R08_ground_support = {
-			picture = generic_air_europe_1
+			picture = generic_air_south_america_1
 			allowed = {
 				original_tag = R08
 			}
@@ -137,7 +137,7 @@ ideas = {
 			}
 		}
 		R08_all_weather = {
-			picture = generic_air_europe_2
+			picture = generic_air_south_america_2
 			allowed = {
 				original_tag = R08
 			}
@@ -150,7 +150,7 @@ ideas = {
 	high_command = {
 		R08_army_infantry = {
 			ledger = army
-			picture = generic_army_europe_3
+			picture = generic_army_south_america_3
 			allowed = {
 				original_tag = R08
 			}
@@ -160,8 +160,8 @@ ideas = {
 			}
 		}
 		R08_army_artillery = {
-			ledger = army	
-			picture = generic_army_europe_4
+			ledger = army
+			picture = generic_army_south_america_4
 			allowed = {
 				original_tag = R08
 			}
@@ -172,7 +172,7 @@ ideas = {
 		}
 		R08_amphibious_assault = {
 			ledger = navy
-			picture = generic_navy_europe_1
+			picture = generic_navy_south_america_1
 			allowed = {
 				original_tag = R08
 			}
@@ -183,7 +183,7 @@ ideas = {
 		}
 		R08_screen = {
 			ledger = navy
-			picture = generic_navy_europe_2
+			picture = generic_navy_south_america_2
 			allowed = {
 				original_tag = R08
 			}
@@ -194,7 +194,7 @@ ideas = {
 		}
 		R08_air_support = {
 			ledger = air
-			picture = generic_air_europe_3
+			picture = generic_air_south_america_3
 			allowed = {
 				original_tag = R08
 			}
@@ -205,7 +205,7 @@ ideas = {
 		}
 		R08_close_air_support = {
 			ledger = air
-			picture = generic_air_europe_1
+			picture = generic_air_south_america_1
 			allowed = {
 				original_tag = R08
 			}
@@ -218,7 +218,7 @@ ideas = {
 	theorist = {
 		R08_military_theorist = {
 			ledger = army
-			picture = generic_army_europe_4
+			picture = generic_army_south_america_5
 			allowed = {
 				original_tag = R08
 			}
@@ -229,7 +229,7 @@ ideas = {
 		}
 		R08_naval_theorist = {
 			ledger = navy
-			picture = generic_navy_europe_3
+			picture = generic_navy_south_america_3
 			allowed = {
 				original_tag = R08
 			}
@@ -240,7 +240,7 @@ ideas = {
 		}
 		R08_warfare_theorist = {
 			ledger = air
-			picture = generic_air_europe_1
+			picture = generic_air_south_america_3
 			allowed = {
 				original_tag = R08
 			}

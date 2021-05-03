@@ -1,4 +1,4 @@
-#Germany
+#Vacant
 capital = 64 #Brandenburg
 oob = "R13_1936"
 

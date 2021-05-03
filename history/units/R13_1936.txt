@@ -1,4 +1,4 @@
-﻿#Germany
+﻿#VACANT
 division_template = {
 	name = "Garrison Division"
 	division_names_group = R13_GAR_01
@@ -32,8 +32,8 @@ division_template = {
 		infantry = { x = 1 y = 4 }
 	}
 	support = {
-		artillery = { x = 0 y = 0 } 
-		engineer = { x = 0 y = 1 }   
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
 	}
 }
 division_template = {

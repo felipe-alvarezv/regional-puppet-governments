@@ -344,7 +344,7 @@ R12 = {
 	}
 	callsigns = { }
 }
-#Germany
+#Vacant
 R13 = {
 	male = {
 		names = {

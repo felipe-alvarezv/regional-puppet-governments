@@ -2,35 +2,35 @@
 ideas = {
 	political_advisor = {
 		R30_captain_of_industry = {
-			picture = generic_political_advisor_europe_1
+			picture = generic_political_advisor_arab_1
 			allowed = {
 				original_tag = R30
 			}
 			traits = { captain_of_industry }
 		}
 		R30_war_industrialist = {
-			picture = generic_political_advisor_europe_2
+			picture = generic_political_advisor_arab_2
 			allowed = {
 				original_tag = R30
 			}
 			traits = { war_industrialist }
 		}
 		R30_fortification_engineer = {
-			picture = generic_political_advisor_europe_3
+			picture = generic_political_advisor_arab_3
 			allowed = {
 				original_tag = R30
 			}
 			traits = { fortification_engineer }
 		}
 		R30_quartermaster_general = {
-			picture = generic_political_advisor_europe_4
+			picture = generic_political_advisor_arab_1
 			allowed = {
 				original_tag = R30
 			}
 			traits = { quartermaster_general }
 		}
 		R30_communist_revolutionary = {
-			picture = generic_communist_revolutionary_western_european_2d
+			picture = generic_communist_arab
 			available = {
 				is_subject = no
 			}
@@ -40,7 +40,7 @@ ideas = {
 			traits = { communist_revolutionary }
 		}
 		R30_democratic_reformer = {
-			picture = generic_democratic_reformer_western_european_2d
+			picture = generic_democratic_arab
 			available = {
 				is_subject = no
 			}
@@ -50,7 +50,7 @@ ideas = {
 			traits = { democratic_reformer }
 		}
 		R30_staunch_monarchist = {
-			picture = generic_political_advisor_europe_5
+			picture = generic_political_advisor_arab_2
 			available = {
 				is_subject = no
 			}
@@ -60,7 +60,7 @@ ideas = {
 			traits = { staunch_monarchist }
 		}
 		R30_facist_demagogue = {
-			picture = generic_fascist_demagogue_western_european_2d
+			picture = generic_fascist_arab
 			available = {
 				is_subject = no
 			}
@@ -69,31 +69,31 @@ ideas = {
 			}
 			traits = { fascist_demagogue }
 		}
-		R30_illusive_gentleman = {	
-			picture = generic_political_advisor_europe_6
+		R30_illusive_gentleman = {
+			picture = generic_political_advisor_arab_3
 			available = {
 				has_intelligence_agency = yes
 			}
 			allowed = {
 				original_tag = R30
-				has_dlc = "La Resistance" 
+				has_dlc = "La Resistance"
 			}
 			traits = { head_of_intelligence }
 		}
 	}
 	army_chief = {
 		R30_army_offense = {
-			picture = generic_army_europe_1
+			picture = generic_army_arab_1
 			allowed = {
 				original_tag = R30
-			}		
+			}
 			traits = { army_chief_offensive_2 }
 			ai_will_do = {
 				factor = 1
 			}
 		}
 		R30_army_defense = {
-			picture = generic_army_europe_2
+			picture = generic_army_arab_2
 			allowed = {
 				original_tag = R30
 			}
@@ -105,7 +105,7 @@ ideas = {
 	}
 	navy_chief = {
 		R30_decisive_battle = {
-			picture = generic_navy_europe_1
+			picture = generic_navy_arab_1
 			allowed = {
 				original_tag = R30
 			}
@@ -115,7 +115,7 @@ ideas = {
 			}
 		}
 		R30_commerce_raiding = {
-			picture = generic_navy_europe_2
+			picture = generic_navy_arab_2
 			allowed = {
 				original_tag = R30
 			}
@@ -127,7 +127,7 @@ ideas = {
 	}
 	air_chief = {
 		R30_ground_support = {
-			picture = generic_air_europe_1
+			picture = generic_air_arab_1
 			allowed = {
 				original_tag = R30
 			}
@@ -137,7 +137,7 @@ ideas = {
 			}
 		}
 		R30_all_weather = {
-			picture = generic_air_europe_2
+			picture = generic_air_arab_2
 			allowed = {
 				original_tag = R30
 			}
@@ -150,7 +150,7 @@ ideas = {
 	high_command = {
 		R30_army_infantry = {
 			ledger = army
-			picture = generic_army_europe_3
+			picture = generic_army_arab_3
 			allowed = {
 				original_tag = R30
 			}
@@ -160,8 +160,8 @@ ideas = {
 			}
 		}
 		R30_army_artillery = {
-			ledger = army	
-			picture = generic_army_europe_4
+			ledger = army
+			picture = generic_army_arab_1
 			allowed = {
 				original_tag = R30
 			}
@@ -172,7 +172,7 @@ ideas = {
 		}
 		R30_amphibious_assault = {
 			ledger = navy
-			picture = generic_navy_europe_1
+			picture = generic_navy_arab_3
 			allowed = {
 				original_tag = R30
 			}
@@ -183,7 +183,7 @@ ideas = {
 		}
 		R30_screen = {
 			ledger = navy
-			picture = generic_navy_europe_2
+			picture = generic_navy_arab_1
 			allowed = {
 				original_tag = R30
 			}
@@ -194,7 +194,7 @@ ideas = {
 		}
 		R30_air_support = {
 			ledger = air
-			picture = generic_air_europe_3
+			picture = generic_air_arab_3
 			allowed = {
 				original_tag = R30
 			}
@@ -205,7 +205,7 @@ ideas = {
 		}
 		R30_close_air_support = {
 			ledger = air
-			picture = generic_air_europe_1
+			picture = generic_air_arab_1
 			allowed = {
 				original_tag = R30
 			}
@@ -218,7 +218,7 @@ ideas = {
 	theorist = {
 		R30_military_theorist = {
 			ledger = army
-			picture = generic_army_europe_4
+			picture = generic_army_arab_2
 			allowed = {
 				original_tag = R30
 			}
@@ -229,7 +229,7 @@ ideas = {
 		}
 		R30_naval_theorist = {
 			ledger = navy
-			picture = generic_navy_europe_3
+			picture = generic_navy_arab_2
 			allowed = {
 				original_tag = R30
 			}
@@ -240,7 +240,7 @@ ideas = {
 		}
 		R30_warfare_theorist = {
 			ledger = air
-			picture = generic_air_europe_1
+			picture = generic_air_arab_2
 			allowed = {
 				original_tag = R30
 			}
