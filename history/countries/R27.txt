@@ -1,4 +1,4 @@
-#Southwestern U.S.
+#VACANT
 capital = 375 #Texas
 oob = "R27_1936"
 

@@ -40,7 +40,7 @@ rpg_category = {
 				controls_state = 469 #Saskatchewan
 				controls_state = 470 #Alberta
 			}
-			NOT = { 
+			NOT = {
                 original_tag = CAN #Canada
 				original_tag = R29 #Western Provinces
                 has_global_flag = rpg_western_provinces_flag
@@ -65,7 +65,7 @@ rpg_category = {
 					}
 					set_compliance = 80
 				}
-				
+
 				if = {
 					limit = { has_dlc = "La Resistance" }
 					set_temp_variable = { country_to_initiate = R29 }
@@ -75,6 +75,9 @@ rpg_category = {
 					release = R29
 					puppet = R29
 				}
+				R29 = {
+                    transfer_technology = yes
+                }
 			}
 			#News event, set local flag, and set global flag
 			hidden_effect = {

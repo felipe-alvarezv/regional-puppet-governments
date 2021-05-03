@@ -115,7 +115,7 @@ rpg_category = {
 				controls_state = 122 #Wales
 				controls_state = 126 #London
 			}
-			NOT = { 
+			NOT = {
                 original_tag = ENG #England
 				original_tag = IRE #Ireland
 				original_tag = NIR #Northern Ireland
@@ -158,7 +158,7 @@ rpg_category = {
 					}
 					set_compliance = 80
 				}
-				
+
 				if = {
 					limit = { has_dlc = "La Resistance" }
 					set_temp_variable = { country_to_initiate = R02 }
@@ -168,6 +168,9 @@ rpg_category = {
 					release = R02
 					puppet = R02
 				}
+				R02 = {
+                    transfer_technology = yes
+                }
 			}
 			#News event, set local flag, and set global flag
 			hidden_effect = {

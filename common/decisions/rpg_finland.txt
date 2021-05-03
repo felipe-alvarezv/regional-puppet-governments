@@ -34,7 +34,7 @@ rpg_category = {
 				controls_state = 111 #Uusimaa
 				controls_state = 150 #Savo
 			}
-			NOT = { 
+			NOT = {
                 original_tag = FIN #Finland
 				original_tag = R12 #Greater Finland
                 has_global_flag = rpg_finland_flag
@@ -58,7 +58,7 @@ rpg_category = {
 					}
 					set_compliance = 80
 				}
-				
+
 				if = {
 					limit = { has_dlc = "La Resistance" }
 					set_temp_variable = { country_to_initiate = R12 }
@@ -68,6 +68,9 @@ rpg_category = {
 					release = R12
 					puppet = R12
 				}
+				R12 = {
+                    transfer_technology = yes
+                }
 			}
 			#News event, set local flag, and set global flag
 			hidden_effect = {

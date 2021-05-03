@@ -8,6 +8,16 @@ rpg_category = {
 		}
 		available = {
 			is_subject = no
+			#New Mexico
+			custom_trigger_tooltip = {
+				tooltip = rpg_rockies_us_required_states_new_mexico
+				controls_state = 376 #New Mexico
+			}
+			#Arizona
+			custom_trigger_tooltip = {
+				tooltip = rpg_rockies_us_required_states_arizona
+				controls_state = 377 #Arizona
+			}
 			#Nevada
 			custom_trigger_tooltip = {
 				tooltip = rpg_rockies_us_required_states_nevada
@@ -46,7 +56,7 @@ rpg_category = {
 				controls_state = 382 #Colorado
 				controls_state = 388 #Montana
 			}
-			NOT = { 
+			NOT = {
                 original_tag = USA #United States
 				original_tag = R23 #Interior Western U.S.
                 has_global_flag = rpg_rockies_us_flag
@@ -54,6 +64,8 @@ rpg_category = {
 		}
 		complete_effect = {
 			hidden_effect = {
+				376 = { add_core_of = R23 } #New Mexico
+				377 = { add_core_of = R23 } #Arizona
 				379 = { add_core_of = R23 } #Nevada
 				380 = { add_core_of = R23 } #Utah
 				382 = { add_core_of = R23 } #Colorado
@@ -72,7 +84,7 @@ rpg_category = {
 					}
 					set_compliance = 80
 				}
-				
+
 				if = {
 					limit = { has_dlc = "La Resistance" }
 					set_temp_variable = { country_to_initiate = R23 }
@@ -82,6 +94,9 @@ rpg_category = {
 					release = R23
 					puppet = R23
 				}
+				R23 = {
+                    transfer_technology = yes
+                }
 			}
 			#News event, set local flag, and set global flag
 			hidden_effect = {

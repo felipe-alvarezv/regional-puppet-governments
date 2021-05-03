@@ -75,7 +75,7 @@ rpg_category = {
 				controls_state = 395 #Illinois
 				controls_state = 396 #Indiana
 			}
-			NOT = { 
+			NOT = {
                 original_tag = USA #United States
 				original_tag = R18 #Midwestern U.S.
                 has_global_flag = rpg_midwestern_us_flag
@@ -107,7 +107,7 @@ rpg_category = {
 					}
 					set_compliance = 80
 				}
-				
+
 				if = {
 					limit = { has_dlc = "La Resistance" }
 					set_temp_variable = { country_to_initiate = R18 }
@@ -117,6 +117,9 @@ rpg_category = {
 					release = R18
 					puppet = R18
 				}
+				R18 = {
+                    transfer_technology = yes
+                }
 			}
 			#News event, set local flag, and set global flag
 			hidden_effect = {

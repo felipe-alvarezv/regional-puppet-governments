@@ -39,7 +39,7 @@ rpg_category = {
 				controls_state = 319 #Dominican Republic
 				controls_state = 689 #Jamaica
 			}
-			NOT = { 
+			NOT = {
                 original_tag = CUB #Cuba
 				original_tag = DOM #Dominican Republic
 				original_tag = HAI #Haiti
@@ -66,7 +66,7 @@ rpg_category = {
 					}
 					set_compliance = 80
 				}
-				
+
 				if = {
 					limit = { has_dlc = "La Resistance" }
 					set_temp_variable = { country_to_initiate = R06 }
@@ -76,6 +76,9 @@ rpg_category = {
 					release = R06
 					puppet = R06
 				}
+				R06 = {
+                    transfer_technology = yes
+                }
 			}
 			#News event, set local flag, and set global flag
 			hidden_effect = {

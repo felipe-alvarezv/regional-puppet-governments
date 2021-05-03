@@ -1,67 +1,77 @@
 rpg_category = {
-	rpg_southeastern_us = {
+	rpg_southern_us = {
 		allowed = {
 			NOT = {
 				original_tag = USA #United States
-				original_tag = R26 #Southeastern U.S.
+				original_tag = R26 #Southern U.S.
 			}
 		}
 		available = {
 			is_subject = no
 			#Virginia
 			custom_trigger_tooltip = {
-				tooltip = rpg_southeastern_us_required_states_virginia
+				tooltip = rpg_southern_us_required_states_virginia
 				controls_state = 362 #Virginia
 			}
 			#North Carolina
 			custom_trigger_tooltip = {
-				tooltip = rpg_southeastern_us_required_states_north_carolina
+				tooltip = rpg_southern_us_required_states_north_carolina
 				controls_state = 363 #North Carolina
 			}
 			#South Carolina
 			custom_trigger_tooltip = {
-				tooltip = rpg_southeastern_us_required_states_south_carolina
+				tooltip = rpg_southern_us_required_states_south_carolina
 				controls_state = 364 #South Carolina
 			}
 			#Georgia
 			custom_trigger_tooltip = {
-				tooltip = rpg_southeastern_us_required_states_georgia
+				tooltip = rpg_southern_us_required_states_georgia
 				controls_state = 365 #Georgia
 			}
 			#Florida
 			custom_trigger_tooltip = {
-				tooltip = rpg_southeastern_us_required_states_florida
+				tooltip = rpg_southern_us_required_states_florida
 				controls_state = 366 #Florida
 			}
 			#Alabama
 			custom_trigger_tooltip = {
-				tooltip = rpg_southeastern_us_required_states_alabama
+				tooltip = rpg_southern_us_required_states_alabama
 				controls_state = 367 #Alabama
 			}
 			#Tennessee
 			custom_trigger_tooltip = {
-				tooltip = rpg_southeastern_us_required_states_tennessee
+				tooltip = rpg_southern_us_required_states_tennessee
 				controls_state = 368 #Tennessee
 			}
 			#Kentucky
 			custom_trigger_tooltip = {
-				tooltip = rpg_southeastern_us_required_states_kentucky
+				tooltip = rpg_southern_us_required_states_kentucky
 				controls_state = 369 #Kentucky
 			}
 			#Mississippi
 			custom_trigger_tooltip = {
-				tooltip = rpg_southeastern_us_required_states_mississippi
+				tooltip = rpg_southern_us_required_states_mississippi
 				controls_state = 370 #Mississippi
 			}
 			#Louisiana
 			custom_trigger_tooltip = {
-				tooltip = rpg_southeastern_us_required_states_louisiana
+				tooltip = rpg_southern_us_required_states_louisiana
 				controls_state = 371 #Louisiana
 			}
 			#Arkansas
 			custom_trigger_tooltip = {
-				tooltip = rpg_southeastern_us_required_states_arkansas
+				tooltip = rpg_southern_us_required_states_arkansas
 				controls_state = 372 #Arkansas
+			}
+			#Oklahoma
+			custom_trigger_tooltip = {
+				tooltip = rpg_southern_us_required_states_oklahoma
+				controls_state = 374 #Oklahoma
+			}
+			#Texas
+			custom_trigger_tooltip = {
+				tooltip = rpg_southern_us_required_states_texas
+				controls_state = 375 #Texas
 			}
 		}
 		visible = {
@@ -71,10 +81,10 @@ rpg_category = {
 				controls_state = 366 #Florida
 				controls_state = 371 #Louisiana
 			}
-			NOT = { 
+			NOT = {
                 original_tag = USA #United States
-				original_tag = R26 #Southeastern U.S.
-                has_global_flag = rpg_southeastern_us_flag
+				original_tag = R26 #Southern U.S.
+                has_global_flag = rpg_southern_us_flag
             }
 		}
 		complete_effect = {
@@ -90,11 +100,13 @@ rpg_category = {
 				370 = { add_core_of = R26 } #Mississippi
 				371 = { add_core_of = R26 } #Louisiana
 				372 = { add_core_of = R26 } #Arkansas
+				374 = { add_core_of = R26 } #Oklahoma
+				375 = { add_core_of = R26 } #Texas
 			}
-			custom_effect_tooltip = rpg_southeastern_us_coring_states
-			custom_effect_tooltip = rpg_southeastern_us_transfer_states
+			custom_effect_tooltip = rpg_southern_us_coring_states
+			custom_effect_tooltip = rpg_southern_us_transfer_states
 			#Set compliance to 80 in all cores and instantiate collaboration government
-			custom_effect_tooltip = rpg_southeastern_us_puppet
+			custom_effect_tooltip = rpg_southern_us_puppet
 			hidden_effect = {
 				every_state = {
 					limit = {
@@ -102,7 +114,7 @@ rpg_category = {
 					}
 					set_compliance = 80
 				}
-				
+
 				if = {
 					limit = { has_dlc = "La Resistance" }
 					set_temp_variable = { country_to_initiate = R26 }
@@ -112,14 +124,17 @@ rpg_category = {
 					release = R26
 					puppet = R26
 				}
+				R26 = {
+                    transfer_technology = yes
+                }
 			}
 			#News event, set local flag, and set global flag
 			hidden_effect = {
 				ROOT = {
-					set_country_flag = rpg_southeastern_us_country_flag
+					set_country_flag = rpg_southern_us_country_flag
 				}
 				news_event = { id = rpg_news.26 hours = 6 }
-				set_global_flag = rpg_southeastern_us_flag
+				set_global_flag = rpg_southern_us_flag
 			}
 		}
 		ai_will_do = {

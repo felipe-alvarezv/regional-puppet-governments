@@ -184,12 +184,12 @@ rpg_category = {
 					}
 					set_compliance = 80
 				}
-				
+
 				if = {
 					limit = { has_dlc = "La Resistance" }
 					set_temp_variable = { country_to_initiate = R13 }
 					instantiate_collaboration_government = yes
-					
+
 					R13 = {
 						annex_country = {
 							target = R19
@@ -200,7 +200,7 @@ rpg_category = {
 							transfer_troops = yes
 						}
 					}
-					
+
 					every_state = {
 						limit = {
 							OR = {
@@ -210,12 +210,12 @@ rpg_category = {
 						}
 						add_core_of = R13
 					}
-					
+
 				}
 				else = {
 					release = R13
 					puppet = R13
-					
+
 					R13 = {
 						annex_country = {
 							target = R19
@@ -226,7 +226,7 @@ rpg_category = {
 							transfer_troops = yes
 						}
 					}
-					
+
 					every_state = {
 						limit = {
 							OR = {
@@ -237,6 +237,9 @@ rpg_category = {
 						add_core_of = R13
 					}
 				}
+				R13 = {
+                    transfer_technology = yes
+                }
 			}
 			#News event, set local flag, and set global flag
 			hidden_effect = {

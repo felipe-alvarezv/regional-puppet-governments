@@ -79,7 +79,7 @@ rpg_category = {
 				controls_state = 249 #Kazan
 				controls_state = 252 #Gorki
 			}
-			NOT = { 
+			NOT = {
 				original_tag = SOV #Soviet Union
 				original_tag = R42 #Volga
                 has_global_flag = rpg_volga_flag
@@ -112,7 +112,7 @@ rpg_category = {
 					}
 					set_compliance = 80
 				}
-				
+
 				if = {
 					limit = { has_dlc = "La Resistance" }
 					set_temp_variable = { country_to_initiate = R42 }
@@ -122,6 +122,9 @@ rpg_category = {
 					release = R42
 					puppet = R42
 				}
+				R42 = {
+                    transfer_technology = yes
+                }
 			}
 			#News event, set local flag, and set global flag
 			hidden_effect = {

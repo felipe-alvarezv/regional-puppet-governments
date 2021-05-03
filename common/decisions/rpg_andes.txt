@@ -74,7 +74,7 @@ rpg_category = {
 				controls_state = 305 #Ecuador
 				controls_state = 306 #Cundinamarca
 			}
-			NOT = { 
+			NOT = {
 				original_tag = BOL #Bolivia
                 original_tag = COL #Colombia
 				original_tag = ECU #Ecuador
@@ -108,7 +108,7 @@ rpg_category = {
 					}
 					set_compliance = 80
 				}
-				
+
 				if = {
 					limit = { has_dlc = "La Resistance" }
 					set_temp_variable = { country_to_initiate = R01 }
@@ -118,6 +118,9 @@ rpg_category = {
 					release = R01
 					puppet = R01
 				}
+                R01 = {
+                    transfer_technology = yes
+                }
 			}
 			#News event, set local flag, and set global flag
 			hidden_effect = {

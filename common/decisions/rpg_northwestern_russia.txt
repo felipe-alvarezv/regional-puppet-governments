@@ -62,14 +62,14 @@ rpg_category = {
 			custom_trigger_tooltip = {
 				tooltip = rpg_northwestern_russia_required_states_syktyvkar
 				controls_state = 397 #Syktyvkar
-			}	
+			}
 		}
 		visible = {
 			OR = {
 				controls_state = 195 #Leningrad
 				controls_state = 214 #Arkhangelsk
 			}
-			NOT = { 
+			NOT = {
 				original_tag = SOV #Soviet Union
 				original_tag = R43 #Northwestern Russia
                 has_global_flag = rpg_northwestern_russia_flag
@@ -100,7 +100,7 @@ rpg_category = {
 					}
 					set_compliance = 80
 				}
-				
+
 				if = {
 					limit = { has_dlc = "La Resistance" }
 					set_temp_variable = { country_to_initiate = R43 }
@@ -110,6 +110,9 @@ rpg_category = {
 					release = R43
 					puppet = R43
 				}
+				R43 = {
+                    transfer_technology = yes
+                }
 			}
 			#News event, set local flag, and set global flag
 			hidden_effect = {

@@ -147,7 +147,7 @@ rpg_category = {
 				controls_state = 171 #Galicia
 				controls_state = 792 #Pais Vasco
 			}
-			NOT = { 
+			NOT = {
                 original_tag = ADU #Andalusia
 				original_tag = CAT #Catalonia
 				original_tag = GLC #Galicia
@@ -197,7 +197,7 @@ rpg_category = {
 					}
 					set_compliance = 80
 				}
-				
+
 				if = {
 					limit = { has_dlc = "La Resistance" }
 					set_temp_variable = { country_to_initiate = R15 }
@@ -207,6 +207,9 @@ rpg_category = {
 					release = R15
 					puppet = R15
 				}
+				R15 = {
+                    transfer_technology = yes
+                }
 			}
 			#News event, set local flag, and set global flag
 			hidden_effect = {

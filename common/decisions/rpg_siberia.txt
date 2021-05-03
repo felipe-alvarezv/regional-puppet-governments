@@ -69,7 +69,7 @@ rpg_category = {
 				controls_state = 567 #Bratsk
 				controls_state = 568 #Krasnoyarsk
 			}
-			NOT = { 
+			NOT = {
 				original_tag = SOV #Soviet Union
 				original_tag = R45 #Siberia
                 has_global_flag = rpg_siberia_flag
@@ -100,7 +100,7 @@ rpg_category = {
 					}
 					set_compliance = 80
 				}
-				
+
 				if = {
 					limit = { has_dlc = "La Resistance" }
 					set_temp_variable = { country_to_initiate = R45 }
@@ -110,6 +110,9 @@ rpg_category = {
 					release = R45
 					puppet = R45
 				}
+				R45 = {
+                    transfer_technology = yes
+                }
 			}
 			#News event, set local flag, and set global flag
 			hidden_effect = {

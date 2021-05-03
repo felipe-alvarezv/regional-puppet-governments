@@ -41,7 +41,7 @@ rpg_category = {
 				controls_state = 6 #Vlaanderen
                 controls_state = 7 #Holland
 			}
-			NOT = { 
+			NOT = {
                 original_tag = BEL #Belgium
 				original_tag = HOL #Holland
 				original_tag = LUX #Luxemburg
@@ -68,7 +68,7 @@ rpg_category = {
 					}
 					set_compliance = 80
 				}
-				
+
 				if = {
 					limit = { has_dlc = "La Resistance" }
 					set_temp_variable = { country_to_initiate = R05 }
@@ -78,6 +78,9 @@ rpg_category = {
 					release = R05
 					puppet = R05
 				}
+				R05 = {
+                    transfer_technology = yes
+                }
 			}
 			#News event, set local flag, and set global flag
 			hidden_effect = {

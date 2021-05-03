@@ -98,7 +98,7 @@ rpg_category = {
 			OR = {
 				controls_state = 219 #Moscow
 			}
-			NOT = { 
+			NOT = {
 				original_tag = SOV #Soviet Union
 				original_tag = R39 #Central Russia
                 has_global_flag = rpg_central_russia_flag
@@ -135,7 +135,7 @@ rpg_category = {
 					}
 					set_compliance = 80
 				}
-				
+
 				if = {
 					limit = { has_dlc = "La Resistance" }
 					set_temp_variable = { country_to_initiate = R39 }
@@ -145,6 +145,9 @@ rpg_category = {
 					release = R39
 					puppet = R39
 				}
+				R39 = {
+                    transfer_technology = yes
+                }
 			}
 			#News event, set local flag, and set global flag
 			hidden_effect = {

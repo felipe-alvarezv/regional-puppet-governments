@@ -1,6 +1,6 @@
 #West Africa
 graphical_culture = african_gfx
 graphical_culture_2d = african_2d
-color = { 160 160 160 }
-color = rgb { 160 160 160 }
-color_ui = rgb { 160 160 160 }
+color = { 50 205 50 }
+color = rgb { 50 205 50 }
+color_ui = rgb { 50 205 50 }

@@ -1,5 +1,5 @@
 rpg_category = {
-	rpg_ural = {
+	rpg_urals = {
 		allowed = {
 			NOT = {
 				original_tag = SOV #Soviet Union
@@ -10,42 +10,42 @@ rpg_category = {
 			is_subject = no
 			#Tyumen
 			custom_trigger_tooltip = {
-				tooltip = rpg_ural_required_states_tyumen
+				tooltip = rpg_urals_required_states_tyumen
 				controls_state = 403 #Tyumen
 			}
 			#Chelyabinsk
 			custom_trigger_tooltip = {
-				tooltip = rpg_ural_required_states_chelyabinsk
+				tooltip = rpg_urals_required_states_chelyabinsk
 				controls_state = 572 #Chelyabinsk
 			}
 			#Zlatoust
 			custom_trigger_tooltip = {
-				tooltip = rpg_ural_required_states_zlatoust
+				tooltip = rpg_urals_required_states_zlatoust
 				controls_state = 573 #Zlatoust
 			}
 			#Salekhard
 			custom_trigger_tooltip = {
-				tooltip = rpg_ural_required_states_salekhard
+				tooltip = rpg_urals_required_states_salekhard
 				controls_state = 579 #Salekhard
 			}
 			#Tobolsk
 			custom_trigger_tooltip = {
-				tooltip = rpg_ural_required_states_tobolsk
+				tooltip = rpg_urals_required_states_tobolsk
 				controls_state = 580 #Tobolsk
 			}
 			#Northern Urals
 			custom_trigger_tooltip = {
-				tooltip = rpg_ural_required_states_northern_urals
+				tooltip = rpg_urals_required_states_northern_urals
 				controls_state = 581 #Northern Urals
 			}
 			#Magnitogorsk
 			custom_trigger_tooltip = {
-				tooltip = rpg_ural_required_states_magnitogorsk
+				tooltip = rpg_urals_required_states_magnitogorsk
 				controls_state = 582 #Magnitogorsk
 			}
 			#Sverdlovsk
 			custom_trigger_tooltip = {
-				tooltip = rpg_ural_required_states_sverdlovsk
+				tooltip = rpg_urals_required_states_sverdlovsk
 				controls_state = 653 #Sverdlovsk
 			}
 		}
@@ -54,10 +54,10 @@ rpg_category = {
 				controls_state = 403 #Tyumen
 				controls_state = 653 #Sverdlovsk
 			}
-			NOT = { 
+			NOT = {
 				original_tag = SOV #Soviet Union
 				original_tag = R44 #Ural
-                has_global_flag = rpg_ural_flag
+                has_global_flag = rpg_urals_flag
             }
 		}
 		complete_effect = {
@@ -71,10 +71,10 @@ rpg_category = {
 				582 = { add_core_of = R44 } #Magnitogorsk
 				653 = { add_core_of = R44 } #Sverdlovsk
 			}
-			custom_effect_tooltip = rpg_ural_coring_states
-			custom_effect_tooltip = rpg_ural_transfer_states
+			custom_effect_tooltip = rpg_urals_coring_states
+			custom_effect_tooltip = rpg_urals_transfer_states
 			#Set compliance to 80 in all cores and instantiate collaboration government
-			custom_effect_tooltip = rpg_ural_puppet
+			custom_effect_tooltip = rpg_urals_puppet
 			hidden_effect = {
 				every_state = {
 					limit = {
@@ -82,7 +82,7 @@ rpg_category = {
 					}
 					set_compliance = 80
 				}
-				
+
 				if = {
 					limit = { has_dlc = "La Resistance" }
 					set_temp_variable = { country_to_initiate = R44 }
@@ -92,14 +92,17 @@ rpg_category = {
 					release = R44
 					puppet = R44
 				}
+				R44 = {
+                    transfer_technology = yes
+                }
 			}
 			#News event, set local flag, and set global flag
 			hidden_effect = {
 				ROOT = {
-					set_country_flag = rpg_ural_country_flag
+					set_country_flag = rpg_urals_country_flag
 				}
 				news_event = { id = rpg_news.44 hours = 6 }
-				set_global_flag = rpg_ural_flag
+				set_global_flag = rpg_urals_flag
 			}
 		}
 		ai_will_do = {

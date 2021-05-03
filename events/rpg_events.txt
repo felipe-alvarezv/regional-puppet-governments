@@ -875,7 +875,7 @@ news_event = {
 		}
 	}
 }
-#Southeastern U.S. Event
+#Southern U.S. Event
 news_event = {
 	id = rpg_news.26
 	title = rpg_news.26.t
@@ -910,7 +910,7 @@ news_event = {
 		}
 	}
 }
-#Southwestern U.S. Event
+#VACANT Event
 news_event = {
 	id = rpg_news.27
 	title = rpg_news.27.t

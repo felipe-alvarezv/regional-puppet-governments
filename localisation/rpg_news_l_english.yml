@@ -174,14 +174,14 @@
  rpg_news.25.b:0 "A toast to our new friends!"
  rpg_news.25.c:0 "They are nothing but a lackey!"
  rpg_news.25.d:0 "Interesting"
- #Southeastern U.S.
+ #Southern U.S.
  rpg_news.26.t:0 "Formation of [R26.GetName]"
- rpg_news.26.desc:0 "[Root.GetAdjective] military officials have announced the establishment of a regional government in the Southeastern Region of the United States. Officially known as [R26.GetNameDef], they have been granted autonomy to maintain order and control in the region.  The military leaders of [R26.GetNameDef] have publicly announced their full support towards the [Root.GetAdjective] cause.  The nations who are aligned with [Root.GetNameDef] have supported this decision, while the rest of the world has called [R26.GetNameDef] just a [Root.GetAdjective] lapdog."
+ rpg_news.26.desc:0 "[Root.GetAdjective] military officials have announced the establishment of a regional government in the Southern Region of the United States. Officially known as [R26.GetNameDef], they have been granted autonomy to maintain order and control in the region.  The military leaders of [R26.GetNameDef] have publicly announced their full support towards the [Root.GetAdjective] cause.  The nations who are aligned with [Root.GetNameDef] have supported this decision, while the rest of the world has called [R26.GetNameDef] just a [Root.GetAdjective] lapdog."
  rpg_news.26.a:0 "We will prove our strength to the world!"
  rpg_news.26.b:0 "A toast to our new friends!"
  rpg_news.26.c:0 "They are nothing but a lackey!"
  rpg_news.26.d:0 "Interesting"
- #Southwestern U.S.
+ #VACANT
  rpg_news.27.t:0 "Formation of [R27.GetName]"
  rpg_news.27.desc:0 "[Root.GetAdjective] military officials have announced the establishment of a regional government in the Southwestern Region of the United States. Officially known as [R27.GetNameDef], they have been granted autonomy to maintain order and control in the region.  The military leaders of [R27.GetNameDef] have publicly announced their full support towards the [Root.GetAdjective] cause.  The nations who are aligned with [Root.GetNameDef] have supported this decision, while the rest of the world has called [R27.GetNameDef] just a [Root.GetAdjective] lapdog."
  rpg_news.27.a:0 "We will prove our strength to the world!"

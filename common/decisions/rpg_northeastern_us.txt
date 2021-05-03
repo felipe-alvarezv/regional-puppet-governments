@@ -42,7 +42,7 @@ rpg_category = {
 				controls_state = 360 #Pennsylvania
 				controls_state = 361 #Maryland
 			}
-			NOT = { 
+			NOT = {
                 original_tag = USA #United States
 				original_tag = R20 #Northeastern U.S.
                 has_global_flag = rpg_northeastern_us_flag
@@ -67,7 +67,7 @@ rpg_category = {
 					}
 					set_compliance = 80
 				}
-				
+
 				if = {
 					limit = { has_dlc = "La Resistance" }
 					set_temp_variable = { country_to_initiate = R20 }
@@ -77,6 +77,9 @@ rpg_category = {
 					release = R20
 					puppet = R20
 				}
+				R20 = {
+                    transfer_technology = yes
+                }
 			}
 			#News event, set local flag, and set global flag
 			hidden_effect = {

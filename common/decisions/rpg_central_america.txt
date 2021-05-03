@@ -53,7 +53,7 @@ rpg_category = {
 				controls_state = 316 #Costa Rica
 				controls_state = 317 #Nicaragua
 			}
-			NOT = { 
+			NOT = {
                 original_tag = COS #Costa Rica
 				original_tag = ELS #El Salvador
 				original_tag = GUA #Guatemala
@@ -84,7 +84,7 @@ rpg_category = {
 					}
 					set_compliance = 80
 				}
-				
+
 				if = {
 					limit = { has_dlc = "La Resistance" }
 					set_temp_variable = { country_to_initiate = R08 }
@@ -94,6 +94,9 @@ rpg_category = {
 					release = R08
 					puppet = R08
 				}
+				R08 = {
+                    transfer_technology = yes
+                }
 			}
 			#News event, set local flag, and set global flag
 			hidden_effect = {

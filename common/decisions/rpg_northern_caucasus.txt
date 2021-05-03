@@ -29,7 +29,7 @@ rpg_category = {
 				controls_state = 233 #Caucasus Mountains
 				controls_state = 235 #Stavropol
 			}
-			NOT = { 
+			NOT = {
 				original_tag = SOV #Soviet Union
 				original_tag = R41 #Northern Caucasus
                 has_global_flag = rpg_northern_caucasus_flag
@@ -52,7 +52,7 @@ rpg_category = {
 					}
 					set_compliance = 80
 				}
-				
+
 				if = {
 					limit = { has_dlc = "La Resistance" }
 					set_temp_variable = { country_to_initiate = R41 }
@@ -62,6 +62,9 @@ rpg_category = {
 					release = R41
 					puppet = R41
 				}
+				R41 = {
+                    transfer_technology = yes
+                }
 			}
 			#News event, set local flag, and set global flag
 			hidden_effect = {

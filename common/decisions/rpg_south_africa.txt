@@ -34,7 +34,7 @@ rpg_category = {
 			custom_trigger_tooltip = {
 				tooltip = rpg_south_africa_required_states_natal
 				controls_state = 719 #Natal
-			}	
+			}
 		}
 		visible = {
 			OR = {
@@ -42,7 +42,7 @@ rpg_category = {
 				controls_state = 542 #Bechuanaland
 				controls_state = 681 #Cape
 			}
-			NOT = { 
+			NOT = {
 				original_tag = BOT #Botswana
 				original_tag = NMB #Namibia
 				original_tag = SAF #South Africa
@@ -69,7 +69,7 @@ rpg_category = {
 					}
 					set_compliance = 80
 				}
-				
+
 				if = {
 					limit = { has_dlc = "La Resistance" }
 					set_temp_variable = { country_to_initiate = R36 }
@@ -79,6 +79,9 @@ rpg_category = {
 					release = R36
 					puppet = R36
 				}
+				R36 = {
+                    transfer_technology = yes
+                }
 			}
 			#News event, set local flag, and set global flag
 			hidden_effect = {

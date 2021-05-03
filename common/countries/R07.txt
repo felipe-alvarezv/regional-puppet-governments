@@ -1,6 +1,6 @@
 #Central Africa
 graphical_culture = african_gfx
 graphical_culture_2d = african_2d
-color = { 155 135 255 }
-color = rgb { 155 135 255 }
-color_ui = rgb { 155 135 255 }
+color = { 32 178 170 }
+color = rgb { 32 178 170 }
+color_ui = rgb { 32 178 170 }

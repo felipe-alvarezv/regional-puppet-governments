@@ -30,7 +30,7 @@ rpg_category = {
 				controls_state = 538 #Central Congo
 				controls_state = 718 #Stanleyville
 			}
-			NOT = { 
+			NOT = {
 				original_tag = COG #Zaire
 				original_tag = R07 #Central Africa
                 has_global_flag = rpg_central_africa_flag
@@ -53,7 +53,7 @@ rpg_category = {
 					}
 					set_compliance = 80
 				}
-				
+
 				if = {
 					limit = { has_dlc = "La Resistance" }
 					set_temp_variable = { country_to_initiate = R07 }
@@ -63,6 +63,9 @@ rpg_category = {
 					release = R07
 					puppet = R07
 				}
+				R07 = {
+                    transfer_technology = yes
+                }
 			}
 			#News event, set local flag, and set global flag
 			hidden_effect = {

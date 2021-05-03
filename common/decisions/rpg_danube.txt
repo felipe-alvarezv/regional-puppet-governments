@@ -55,7 +55,7 @@ rpg_category = {
 				controls_state = 43 #Northern Hungary
 				controls_state = 76 #Northern Transylvania
 			}
-			NOT = { 
+			NOT = {
 				original_tag = CRO #Croatia
                 original_tag = CZE #Czechoslovakia
 				original_tag = HUN #Hungary
@@ -88,7 +88,7 @@ rpg_category = {
 					}
 					set_compliance = 80
 				}
-				
+
 				if = {
 					limit = { has_dlc = "La Resistance" }
 					set_temp_variable = { country_to_initiate = R09 }
@@ -98,6 +98,9 @@ rpg_category = {
 					release = R09
 					puppet = R09
 				}
+				R09 = {
+                    transfer_technology = yes
+                }
 			}
 			#News event, set local flag, and set global flag
 			hidden_effect = {

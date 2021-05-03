@@ -44,7 +44,7 @@ rpg_category = {
 			OR = {
 				controls_state = 64 #Brandenburg
 			}
-			NOT = { 
+			NOT = {
 				original_tag = DDR #East Germany
 				original_tag = GER #Germany
 				original_tag = WGR #West Germany
@@ -75,7 +75,7 @@ rpg_category = {
 					}
 					set_compliance = 80
 				}
-				
+
 				if = {
 					limit = { has_dlc = "La Resistance" }
 					set_temp_variable = { country_to_initiate = R32 }
@@ -85,6 +85,9 @@ rpg_category = {
 					release = R32
 					puppet = R32
 				}
+				R32 = {
+                    transfer_technology = yes
+                }
 			}
 			#News event, set local flag, and set global flag
 			hidden_effect = {

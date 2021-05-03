@@ -1,4 +1,4 @@
-#Southeastern U.S.
+#Southern U.S.
 ideas = {
 	political_advisor = {
 		R26_captain_of_industry = {
@@ -69,14 +69,14 @@ ideas = {
 			}
 			traits = { fascist_demagogue }
 		}
-		R26_illusive_gentleman = {	
+		R26_illusive_gentleman = {
 			picture = generic_political_advisor_europe_6
 			available = {
 				has_intelligence_agency = yes
 			}
 			allowed = {
 				original_tag = R26
-				has_dlc = "La Resistance" 
+				has_dlc = "La Resistance"
 			}
 			traits = { head_of_intelligence }
 		}
@@ -86,7 +86,7 @@ ideas = {
 			picture = generic_army_europe_1
 			allowed = {
 				original_tag = R26
-			}		
+			}
 			traits = { army_chief_offensive_2 }
 			ai_will_do = {
 				factor = 1
@@ -160,7 +160,7 @@ ideas = {
 			}
 		}
 		R26_army_artillery = {
-			ledger = army	
+			ledger = army
 			picture = generic_army_europe_4
 			allowed = {
 				original_tag = R26

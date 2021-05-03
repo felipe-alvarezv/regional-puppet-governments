@@ -4,7 +4,7 @@ rpg_category = {
 			NOT = {
 				original_tag = DDR #East Germany
 				original_tag = GER #Germany
-				original_tag = WGR #West Germany				
+				original_tag = WGR #West Germany
 				original_tag = R13 #Germany
 				original_tag = R19 #North Germany
 				original_tag = R25 #South Germany
@@ -61,7 +61,7 @@ rpg_category = {
 				controls_state = 64 #Brandenburg
 				controls_state = 763 #Konigsberg
 			}
-			NOT = { 
+			NOT = {
 				original_tag = DDR #East Germany
 				original_tag = GER #Germany
 				original_tag = WGR #West Germany
@@ -84,7 +84,7 @@ rpg_category = {
 				67 = { add_core_of = R33 } #Oberschlesien
 				68 = { add_core_of = R33 } #Ostmark
 				763 = { add_core_of = R33 } #Konigsberg
-				
+
 			}
 			custom_effect_tooltip = rpg_prussia_coring_states
 			custom_effect_tooltip = rpg_prussia_transfer_states
@@ -97,7 +97,7 @@ rpg_category = {
 					}
 					set_compliance = 80
 				}
-				
+
 				if = {
 					limit = { has_dlc = "La Resistance" }
 					set_temp_variable = { country_to_initiate = R33 }
@@ -107,6 +107,9 @@ rpg_category = {
 					release = R33
 					puppet = R33
 				}
+				R33 = {
+                    transfer_technology = yes
+                }
 			}
 			#News event, set local flag, and set global flag
 			hidden_effect = {

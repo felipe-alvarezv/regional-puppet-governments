@@ -72,7 +72,7 @@ rpg_category = {
 				controls_state = 556 #Mali
 				controls_state = 779 #Ivory Coast
 			}
-			NOT = { 
+			NOT = {
 				original_tag = DAH #Dahomey
 				original_tag = GNA #Guinea
 				original_tag = IVO #Ivory Coast
@@ -109,7 +109,7 @@ rpg_category = {
 					}
 					set_compliance = 80
 				}
-				
+
 				if = {
 					limit = { has_dlc = "La Resistance" }
 					set_temp_variable = { country_to_initiate = R35 }
@@ -119,6 +119,9 @@ rpg_category = {
 					release = R35
 					puppet = R35
 				}
+				R35 = {
+                    transfer_technology = yes
+                }
 			}
 			#News event, set local flag, and set global flag
 			hidden_effect = {

@@ -60,7 +60,7 @@ rpg_category = {
 				controls_state = 10 #Warszawa
 				controls_state = 11 #Kaunas
 			}
-			NOT = { 
+			NOT = {
 				original_tag = LIT #Lithuania
 				original_tag = POL #Poland
 				original_tag = R34 #Poland-Lithuania
@@ -90,7 +90,7 @@ rpg_category = {
 					}
 					set_compliance = 80
 				}
-				
+
 				if = {
 					limit = { has_dlc = "La Resistance" }
 					set_temp_variable = { country_to_initiate = R34 }
@@ -100,6 +100,9 @@ rpg_category = {
 					release = R34
 					puppet = R34
 				}
+				R34 = {
+                    transfer_technology = yes
+                }
 			}
 			#News event, set local flag, and set global flag
 			hidden_effect = {

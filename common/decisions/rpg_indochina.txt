@@ -37,7 +37,7 @@ rpg_category = {
 				controls_state = 671 #Tonkin
                 controls_state = 741 #Cambodia
 			}
-			NOT = { 
+			NOT = {
                 original_tag = CAM #Cambodia
 				original_tag = LAO #Laos
 				original_tag = VIN #Vietnam
@@ -63,7 +63,7 @@ rpg_category = {
 					}
 					set_compliance = 80
 				}
-				
+
 				if = {
 					limit = { has_dlc = "La Resistance" }
 					set_temp_variable = { country_to_initiate = R16 }
@@ -73,6 +73,9 @@ rpg_category = {
 					release = R16
 					puppet = R16
 				}
+				R16 = {
+                    transfer_technology = yes
+                }
 			}
 			#News event, set local flag, and set global flag
 			hidden_effect = {

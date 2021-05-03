@@ -32,7 +32,7 @@ rpg_category = {
 				controls_state = 550 #Eritrea
 				controls_state = 559 #Somaliland
 			}
-			NOT = { 
+			NOT = {
 				original_tag = ETH #Ethiopia
 				original_tag = ERI #Eritrea
 				original_tag = SOM #Somalia
@@ -57,7 +57,7 @@ rpg_category = {
 					}
 					set_compliance = 80
 				}
-				
+
 				if = {
 					limit = { has_dlc = "La Resistance" }
 					set_temp_variable = { country_to_initiate = R10 }
@@ -67,6 +67,9 @@ rpg_category = {
 					release = R10
 					puppet = R10
 				}
+				R10 = {
+                    transfer_technology = yes
+                }
 			}
 			#News event, set local flag, and set global flag
 			hidden_effect = {

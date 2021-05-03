@@ -26,7 +26,7 @@ rpg_category = {
 				controls_state = 430 #East Bengal
 				controls_state = 431 #West Bengal
 			}
-			NOT = { 
+			NOT = {
 				original_tag = BAN #Bangladesh
 				original_tag = PAK #Pakistan
 				original_tag = RAJ #India
@@ -50,7 +50,7 @@ rpg_category = {
 					}
 					set_compliance = 80
 				}
-				
+
 				if = {
 					limit = { has_dlc = "La Resistance" }
 					set_temp_variable = { country_to_initiate = R38 }
@@ -60,6 +60,9 @@ rpg_category = {
 					release = R38
 					puppet = R38
 				}
+				R38 = {
+                    transfer_technology = yes
+                }
 			}
 			#News event, set local flag, and set global flag
 			hidden_effect = {
