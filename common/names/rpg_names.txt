@@ -852,7 +852,7 @@ R08 = {
             "Félix"
             "Fermín"
             "Fernando"
-            "Francisco
+            "Francisco"
             "Fruto"
             "Jacobo"
             "Jesús"
@@ -1032,7 +1032,7 @@ R09 = {
 	}
 	female = {
 		names = {
-			Agnes"
+			"Agnes"
             "Eva"
             "Adelaida"
             "Adelaide"
@@ -1041,7 +1041,7 @@ R09 = {
             "Amelia"
             "Angyalka"
             "Aranka"
-            Bertha"
+            "Bertha"
             "Csilla"
             "Csillag"
             "Czenzi"
@@ -1763,7 +1763,7 @@ R15 = {
         "Herrera"
         "Hevia"
         "Linares"
-        "López
+        "López"
         "Maroto"
         "Márquez"
         "Martínez-Campos"
@@ -1773,7 +1773,7 @@ R15 = {
         "Millán-Astray"
         "Mina"
         "Mola"
-        "Muñoz
+        "Muñoz"
         "Narváez"
         "O'Donnell"
         "Ortega"
@@ -3290,7 +3290,7 @@ R22 = {
         "Petain"
         "Vaillant"
 	}
-	callsigns"= { }
+	callsigns = { }
 }
 #U.S. Rockies (Vanilla American Names)
 R23 = {
@@ -3693,7 +3693,7 @@ R24 = {
             "Daniel"
 		}
 	}
-	female1= {
+	female = {
 		names = {
 			"Anna"
             "Linda"
@@ -6439,7 +6439,7 @@ R47 = {
             "Nalan"
             "Fu"
             "Hesehn"
-            "Changlin
+            "Changlin"
         }
 	}
 	female = {

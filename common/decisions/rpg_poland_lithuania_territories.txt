@@ -21,7 +21,7 @@ rpg_category_territories_poland_lithuania = {
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = { 
+			NOT = {
                 original_tag = GER #Germany
 				original_tag = R34 #Poland-Lithuania
                 has_global_flag = rpg_poland_lithuania_ermland_masuren_flag
@@ -70,7 +70,7 @@ rpg_category_territories_poland_lithuania = {
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = { 
+			NOT = {
                 original_tag = LAT #Latvia
 				original_tag = R34 #Poland-Lithuania
                 has_global_flag = rpg_poland_lithuania_vidzeme_flag
@@ -97,6 +97,291 @@ rpg_category_territories_poland_lithuania = {
 			}
 		}
 	}
+	rpg_poland_lithuania_hinterpommern = {
+        allowed = {
+            NOT = {
+                original_tag = GER #Germany
+                original_tag = POL #Poland
+                original_tag = R13 #Germany
+                original_tag = R19 #North Germany
+                original_tag = R25 #South Germany
+                original_tag = R34 #Poland-Lithuania
+            }
+        }
+        available = {
+            is_subject = no
+            custom_trigger_tooltip = {
+                tooltip = rpg_poland_lithuania_required_states_hinterpommern
+                controls_state = 63 #Hinterpommern
+            }
+        }
+        visible = {
+            has_global_flag = rpg_poland_lithuania_flag
+            R34 = {
+                OR = {
+                    is_puppet_of = FROM
+                    is_in_faction_with = FROM
+                }
+            }
+            NOT = {
+                original_tag = GER #Germany
+                original_tag = POL #Poland
+                original_tag = R13 #Germany
+                original_tag = R19 #North Germany
+                original_tag = R25 #South Germany
+                original_tag = R34 #Poland-Lithuania
+                has_global_flag = rpg_poland_lithuania_hinterpommern_flag
+            }
+        }
+        complete_effect = {
+            custom_effect_tooltip = rpg_poland_lithuania_coring_states_hinterpommern
+            custom_effect_tooltip = rpg_poland_lithuania_transfer_states_hinterpommern
+            hidden_effect = {
+                63 = { add_core_of = R34 } #Hinterpommern
+                R34 = {
+                    transfer_state = 63 #Hinterpommern
+                }
+            }
+            hidden_effect = {
+                set_global_flag = rpg_poland_lithuania_hinterpommern_flag
+            }
+        }
+        ai_will_do = {
+            factor = 0
+            modifier = {
+                factor = 0
+                is_historical_focus_on = yes
+            }
+        }
+    }
+    rpg_poland_lithuania_niederschlesien = {
+        allowed = {
+            NOT = {
+                original_tag = GER #Germany
+                original_tag = POL #Poland
+                original_tag = R13 #Germany
+                original_tag = R19 #North Germany
+                original_tag = R25 #South Germany
+                original_tag = R34 #Poland-Lithuania
+            }
+        }
+        available = {
+            is_subject = no
+            custom_trigger_tooltip = {
+                tooltip = rpg_poland_lithuania_required_states_niederschlesien
+                controls_state = 66 #Niederschlesien
+            }
+        }
+        visible = {
+            has_global_flag = rpg_poland_lithuania_flag
+            R34 = {
+                OR = {
+                    is_puppet_of = FROM
+                    is_in_faction_with = FROM
+                }
+            }
+            NOT = {
+                original_tag = GER #Germany
+                original_tag = POL #Poland
+                original_tag = R13 #Germany
+                original_tag = R19 #North Germany
+                original_tag = R25 #South Germany
+                original_tag = R34 #Poland-Lithuania
+                has_global_flag = rpg_poland_lithuania_niederschlesien_flag
+            }
+        }
+        complete_effect = {
+            custom_effect_tooltip = rpg_poland_lithuania_coring_states_niederschlesien
+            custom_effect_tooltip = rpg_poland_lithuania_transfer_states_niederschlesien
+            hidden_effect = {
+                66 = { add_core_of = R34 } #Niederschlesien
+                R34 = {
+                    transfer_state = 66 #Niederschlesien
+                }
+            }
+            hidden_effect = {
+                set_global_flag = rpg_poland_lithuania_niederschlesien_flag
+            }
+        }
+        ai_will_do = {
+            factor = 0
+            modifier = {
+                factor = 0
+                is_historical_focus_on = yes
+            }
+        }
+    }
+    rpg_poland_lithuania_oberschlesien = {
+        allowed = {
+            NOT = {
+                original_tag = GER #Germany
+                original_tag = POL #Poland
+                original_tag = R13 #Germany
+                original_tag = R19 #North Germany
+                original_tag = R25 #South Germany
+                original_tag = R34 #Poland-Lithuania
+            }
+        }
+        available = {
+            is_subject = no
+            custom_trigger_tooltip = {
+                tooltip = rpg_poland_lithuania_required_states_oberschlesien
+                controls_state = 67 #Oberschlesien
+            }
+        }
+        visible = {
+            has_global_flag = rpg_poland_lithuania_flag
+            R34 = {
+                OR = {
+                    is_puppet_of = FROM
+                    is_in_faction_with = FROM
+                }
+            }
+            NOT = {
+                original_tag = GER #Germany
+                original_tag = POL #Poland
+                original_tag = R13 #Germany
+                original_tag = R19 #North Germany
+                original_tag = R25 #South Germany
+                original_tag = R34 #Poland-Lithuania
+                has_global_flag = rpg_poland_lithuania_oberschlesien_flag
+            }
+        }
+        complete_effect = {
+            custom_effect_tooltip = rpg_poland_lithuania_coring_states_oberschlesien
+            custom_effect_tooltip = rpg_poland_lithuania_transfer_states_oberschlesien
+            hidden_effect = {
+                67 = { add_core_of = R34 } #Oberschlesien
+                R34 = {
+                    transfer_state = 67 #Oberschlesien
+                }
+            }
+            hidden_effect = {
+                set_global_flag = rpg_poland_lithuania_oberschlesien_flag
+            }
+        }
+        ai_will_do = {
+            factor = 0
+            modifier = {
+                factor = 0
+                is_historical_focus_on = yes
+            }
+        }
+    }
+    rpg_poland_lithuania_ostmark = {
+        allowed = {
+            NOT = {
+                original_tag = GER #Germany
+                original_tag = POL #Poland
+                original_tag = R13 #Germany
+                original_tag = R19 #North Germany
+                original_tag = R25 #South Germany
+                original_tag = R34 #Poland-Lithuania
+            }
+        }
+        available = {
+            is_subject = no
+            custom_trigger_tooltip = {
+                tooltip = rpg_poland_lithuania_required_states_ostmark
+                controls_state = 68 #Ostmark
+            }
+        }
+        visible = {
+            has_global_flag = rpg_poland_lithuania_flag
+            R34 = {
+                OR = {
+                    is_puppet_of = FROM
+                    is_in_faction_with = FROM
+                }
+            }
+            NOT = {
+                original_tag = GER #Germany
+                original_tag = POL #Poland
+                original_tag = R13 #Germany
+                original_tag = R19 #North Germany
+                original_tag = R25 #South Germany
+                original_tag = R34 #Poland-Lithuania
+                has_global_flag = rpg_poland_lithuania_ostmark_flag
+            }
+        }
+        complete_effect = {
+            custom_effect_tooltip = rpg_poland_lithuania_coring_states_ostmark
+            custom_effect_tooltip = rpg_poland_lithuania_transfer_states_ostmark
+            hidden_effect = {
+                68 = { add_core_of = R34 } #Ostmark
+                R34 = {
+                    transfer_state = 68 #Ostmark
+                }
+            }
+            hidden_effect = {
+                set_global_flag = rpg_poland_lithuania_ostmark_flag
+            }
+        }
+        ai_will_do = {
+            factor = 0
+            modifier = {
+                factor = 0
+                is_historical_focus_on = yes
+            }
+        }
+    }
+    rpg_poland_lithuania_zaolzie = {
+        allowed = {
+            NOT = {
+                original_tag = GER #Germany
+                original_tag = POL #Poland
+                original_tag = R13 #Germany
+                original_tag = R19 #North Germany
+                original_tag = R25 #South Germany
+                original_tag = R34 #Poland-Lithuania
+            }
+        }
+        available = {
+            is_subject = no
+            custom_trigger_tooltip = {
+                tooltip = rpg_poland_lithuania_required_states_zaolzie
+                controls_state = 72 #Zaolzie
+            }
+        }
+        visible = {
+            has_global_flag = rpg_poland_lithuania_flag
+            R34 = {
+                OR = {
+                    is_puppet_of = FROM
+                    is_in_faction_with = FROM
+                }
+            }
+            NOT = {
+                original_tag = GER #Germany
+                original_tag = POL #Poland
+                original_tag = R13 #Germany
+                original_tag = R19 #North Germany
+                original_tag = R25 #South Germany
+                original_tag = R34 #Poland-Lithuania
+                has_global_flag = rpg_poland_lithuania_zaolzie_flag
+            }
+        }
+        complete_effect = {
+            custom_effect_tooltip = rpg_poland_lithuania_coring_states_zaolzie
+            custom_effect_tooltip = rpg_poland_lithuania_transfer_states_zaolzie
+            hidden_effect = {
+                72 = { add_core_of = R34 } #Zaolzie
+                R34 = {
+                    transfer_state = 72 #Zaolzie
+                }
+            }
+            hidden_effect = {
+                set_global_flag = rpg_poland_lithuania_zaolzie_flag
+            }
+        }
+        ai_will_do = {
+            factor = 0
+            modifier = {
+                factor = 0
+                is_historical_focus_on = yes
+            }
+        }
+    }
 	rpg_poland_lithuania_danzig = {
 		allowed = {
 			NOT = {
@@ -119,7 +404,7 @@ rpg_category_territories_poland_lithuania = {
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = { 
+			NOT = {
 				original_tag = POL #Poland
 				original_tag = R34 #Poland-Lithuania
                 has_global_flag = rpg_poland_lithuania_danzig_flag
@@ -168,7 +453,7 @@ rpg_category_territories_poland_lithuania = {
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = { 
+			NOT = {
 				original_tag = POL #Poland
 				original_tag = R34 #Poland-Lithuania
                 has_global_flag = rpg_poland_lithuania_poznan_flag
@@ -217,7 +502,7 @@ rpg_category_territories_poland_lithuania = {
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = { 
+			NOT = {
 				original_tag = POL #Poland
 				original_tag = R34 #Poland-Lithuania
                 has_global_flag = rpg_poland_lithuania_krakow_flag
@@ -267,7 +552,7 @@ rpg_category_territories_poland_lithuania = {
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = { 
+			NOT = {
 				original_tag = POL #Poland
 				original_tag = UKR #Ukraine
 				original_tag = R34 #Poland-Lithuania
@@ -318,7 +603,7 @@ rpg_category_territories_poland_lithuania = {
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = { 
+			NOT = {
 				original_tag = POL #Poland
 				original_tag = UKR #Ukraine
 				original_tag = R34 #Poland-Lithuania
@@ -369,7 +654,7 @@ rpg_category_territories_poland_lithuania = {
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = { 
+			NOT = {
 				original_tag = POL #Poland
 				original_tag = UKR #Ukraine
 				original_tag = R34 #Poland-Lithuania
@@ -420,7 +705,7 @@ rpg_category_territories_poland_lithuania = {
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = { 
+			NOT = {
                 original_tag = BLR #Belarus
 				original_tag = POL #Poland
 				original_tag = R34 #Poland-Lithuania
@@ -471,7 +756,7 @@ rpg_category_territories_poland_lithuania = {
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = { 
+			NOT = {
                 original_tag = BLR #Belarus
 				original_tag = POL #Poland
 				original_tag = R34 #Poland-Lithuania
@@ -522,7 +807,7 @@ rpg_category_territories_poland_lithuania = {
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = { 
+			NOT = {
                 original_tag = BLR #Belarus
 				original_tag = POL #Poland
 				original_tag = R34 #Poland-Lithuania
@@ -572,7 +857,7 @@ rpg_category_territories_poland_lithuania = {
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = { 
+			NOT = {
                 original_tag = LIT #Lithuania
 				original_tag = R34 #Poland-Lithuania
                 has_global_flag = rpg_poland_lithuania_memel_flag
@@ -621,7 +906,7 @@ rpg_category_territories_poland_lithuania = {
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = { 
+			NOT = {
                 original_tag = LAT #Latvia
 				original_tag = R34 #Poland-Lithuania
                 has_global_flag = rpg_poland_lithuania_kurzeme_flag
@@ -671,7 +956,7 @@ rpg_category_territories_poland_lithuania = {
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = { 
+			NOT = {
                 original_tag = SOV #Soviet Union
 				original_tag = UKR #Ukraine
 				original_tag = R34 #Poland-Lithuania
@@ -722,7 +1007,7 @@ rpg_category_territories_poland_lithuania = {
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = { 
+			NOT = {
                 original_tag = BLR #Belarus
 				original_tag = SOV #Soviet Union
 				original_tag = R34 #Poland-Lithuania
@@ -773,7 +1058,7 @@ rpg_category_territories_poland_lithuania = {
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = { 
+			NOT = {
                 original_tag = SOV #Soviet Union
 				original_tag = UKR #Ukraine
 				original_tag = R34 #Poland-Lithuania
@@ -824,7 +1109,7 @@ rpg_category_territories_poland_lithuania = {
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = { 
+			NOT = {
                 original_tag = SOV #Soviet Union
 				original_tag = UKR #Ukraine
 				original_tag = R34 #Poland-Lithuania
@@ -875,7 +1160,7 @@ rpg_category_territories_poland_lithuania = {
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = { 
+			NOT = {
                 original_tag = SOV #Soviet Union
 				original_tag = UKR #Ukraine
 				original_tag = R34 #Poland-Lithuania
@@ -926,7 +1211,7 @@ rpg_category_territories_poland_lithuania = {
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = { 
+			NOT = {
                 original_tag = SOV #Soviet Union
 				original_tag = UKR #Ukraine
 				original_tag = R34 #Poland-Lithuania
@@ -977,7 +1262,7 @@ rpg_category_territories_poland_lithuania = {
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = { 
+			NOT = {
                 original_tag = SOV #Soviet Union
 				original_tag = UKR #Ukraine
 				original_tag = R34 #Poland-Lithuania
@@ -1028,7 +1313,7 @@ rpg_category_territories_poland_lithuania = {
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = { 
+			NOT = {
                 original_tag = SOV #Soviet Union
 				original_tag = UKR #Ukraine
 				original_tag = R34 #Poland-Lithuania
@@ -1079,7 +1364,7 @@ rpg_category_territories_poland_lithuania = {
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = { 
+			NOT = {
 				original_tag = BLR #Belarus
                 original_tag = SOV #Soviet Union
 				original_tag = R34 #Poland-Lithuania
@@ -1130,7 +1415,7 @@ rpg_category_territories_poland_lithuania = {
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = { 
+			NOT = {
 				original_tag = BLR #Belarus
                 original_tag = SOV #Soviet Union
 				original_tag = R34 #Poland-Lithuania
@@ -1181,7 +1466,7 @@ rpg_category_territories_poland_lithuania = {
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = { 
+			NOT = {
 				original_tag = BLR #Belarus
                 original_tag = SOV #Soviet Union
 				original_tag = R34 #Poland-Lithuania
@@ -1231,7 +1516,7 @@ rpg_category_territories_poland_lithuania = {
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = { 
+			NOT = {
                 original_tag = SOV #Soviet Union
 				original_tag = R34 #Poland-Lithuania
                 has_global_flag = rpg_poland_lithuania_smolensk_flag
@@ -1280,7 +1565,7 @@ rpg_category_territories_poland_lithuania = {
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = { 
+			NOT = {
                 original_tag = SOV #Soviet Union
 				original_tag = R34 #Poland-Lithuania
                 has_global_flag = rpg_poland_lithuania_roslavl_flag
@@ -1330,7 +1615,7 @@ rpg_category_territories_poland_lithuania = {
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = { 
+			NOT = {
                 original_tag = SOV #Soviet Union
 				original_tag = UKR #Ukraine
 				original_tag = R34 #Poland-Lithuania
@@ -1380,7 +1665,7 @@ rpg_category_territories_poland_lithuania = {
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = { 
+			NOT = {
                 original_tag = POL #Poland
 				original_tag = R34 #Poland-Lithuania
                 has_global_flag = rpg_poland_lithuania_katowice_flag
@@ -1429,7 +1714,7 @@ rpg_category_territories_poland_lithuania = {
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = { 
+			NOT = {
                 original_tag = GER #Germany
 				original_tag = R34 #Poland-Lithuania
                 has_global_flag = rpg_poland_lithuania_konigsberg_flag
