@@ -1,4 +1,4 @@
-﻿#VACANT
+﻿#Germany
 R13_GAR_01 =
 {
 	name = "Garrison Division"

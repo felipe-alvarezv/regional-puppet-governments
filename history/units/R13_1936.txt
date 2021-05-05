@@ -1,4 +1,4 @@
-﻿#VACANT
+﻿#Germany
 division_template = {
 	name = "Garrison Division"
 	division_names_group = R13_GAR_01

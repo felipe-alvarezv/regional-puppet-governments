@@ -111,16 +111,21 @@ rpg_category = {
 
 				if = {
 					limit = { has_dlc = "La Resistance" }
+					R02 = {
+						load_oob = "R02_1936"
+	                    transfer_technology = yes
+	                }
 					set_temp_variable = { country_to_initiate = R01 }
 					instantiate_collaboration_government = yes
 				}
 				else = {
+					R02 = {
+						load_oob = "R02_1936"
+                    	transfer_technology = yes
+                	}
 					release = R01
 					puppet = R01
 				}
-                R01 = {
-                    transfer_technology = yes
-                }
 			}
 			#News event, set local flag, and set global flag
 			hidden_effect = {

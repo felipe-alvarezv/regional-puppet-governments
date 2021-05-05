@@ -69,14 +69,14 @@ ideas = {
 			}
 			traits = { fascist_demagogue }
 		}
-		R23_illusive_gentleman = {	
+		R23_illusive_gentleman = {
 			picture = generic_political_advisor_europe_6
 			available = {
 				has_intelligence_agency = yes
 			}
 			allowed = {
 				original_tag = R23
-				has_dlc = "La Resistance" 
+				has_dlc = "La Resistance"
 			}
 			traits = { head_of_intelligence }
 		}
@@ -86,7 +86,7 @@ ideas = {
 			picture = generic_army_europe_1
 			allowed = {
 				original_tag = R23
-			}		
+			}
 			traits = { army_chief_offensive_2 }
 			ai_will_do = {
 				factor = 1
@@ -160,7 +160,7 @@ ideas = {
 			}
 		}
 		R23_army_artillery = {
-			ledger = army	
+			ledger = army
 			picture = generic_army_europe_4
 			allowed = {
 				original_tag = R23
@@ -172,7 +172,7 @@ ideas = {
 		}
 		R23_amphibious_assault = {
 			ledger = navy
-			picture = generic_navy_europe_1
+			picture = generic_navy_europe_3
 			allowed = {
 				original_tag = R23
 			}
@@ -183,7 +183,7 @@ ideas = {
 		}
 		R23_screen = {
 			ledger = navy
-			picture = generic_navy_europe_2
+			picture = generic_navy_europe_1
 			allowed = {
 				original_tag = R23
 			}
@@ -218,7 +218,7 @@ ideas = {
 	theorist = {
 		R23_military_theorist = {
 			ledger = army
-			picture = generic_army_europe_4
+			picture = generic_army_europe_5
 			allowed = {
 				original_tag = R23
 			}
@@ -229,7 +229,7 @@ ideas = {
 		}
 		R23_naval_theorist = {
 			ledger = navy
-			picture = generic_navy_europe_3
+			picture = generic_navy_europe_2
 			allowed = {
 				original_tag = R23
 			}
@@ -240,7 +240,7 @@ ideas = {
 		}
 		R23_warfare_theorist = {
 			ledger = air
-			picture = generic_air_europe_1
+			picture = generic_air_europe_2
 			allowed = {
 				original_tag = R23
 			}
