@@ -33,11 +33,6 @@ rpg_category = {
 				tooltip = rpg_far_eastern_russia_required_states_okhotsk
 				controls_state = 562 #Okhotsk
 			}
-			#Chita
-			custom_trigger_tooltip = {
-				tooltip = rpg_far_eastern_russia_required_states_chita
-				controls_state = 563 #Chita
-			}
 			#Yakutsk
 			custom_trigger_tooltip = {
 				tooltip = rpg_far_eastern_russia_required_states_yakutsk
@@ -77,7 +72,6 @@ rpg_category = {
 				560 = { add_core_of = R46 } #Nikolayevsk
 				561 = { add_core_of = R46 } #Amur
 				562 = { add_core_of = R46 } #Okhotsk
-				563 = { add_core_of = R46 } #Chita
 				574 = { add_core_of = R46 } #Yakutsk
 				637 = { add_core_of = R46 } #Kamchatka
 				644 = { add_core_of = R46 } #Northeast Siberia

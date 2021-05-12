@@ -63,42 +63,42 @@ set_politics = {
 	elections_allowed = yes
 }
 create_country_leader = {
-	name = "Military Administration"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-		#
-	}
+    name = "Military Administration"
+    desc = ""
+    picture = "gfx/leaders/RPG/rpg_communism.dds"
+    expire = "1965.1.1"
+    ideology = marxism
+    traits = {
+        #
+    }
 }
 create_country_leader = {
-	name = "Military Administration"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-	expire = "1965.1.1"
-	ideology = conservatism
-	traits = {
-		#
-	}
+    name = "Military Administration"
+    desc = ""
+    picture = "gfx/leaders/RPG/rpg_democratic.dds"
+    expire = "1965.1.1"
+    ideology = conservatism
+    traits = {
+        #
+    }
 }
 create_country_leader = {
-	name = "Military Administration"
-	desc = ""
-	picture = "gfx/leaders/Europe/portrait_europe_generic_4.dds"
-	expire = "1965.1.1"
-	ideology = centrism
-	traits = {
-		#
-	}
+    name = "Military Administration"
+    desc = ""
+    picture = "gfx/leaders/RPG/rpg_neutrality.dds"
+    expire = "1965.1.1"
+    ideology = centrism
+    traits = {
+        #
+    }
 }
 create_country_leader = {
-	name = "Military Administration"
-	desc = ""
-	picture = "gfx/leaders/Europe/portrait_europe_generic_5.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
+    name = "Military Administration"
+    desc = ""
+    picture = "gfx/leaders/RPG/rpg_fascism.dds"
+    expire = "1965.1.1"
+    ideology = fascism_ideology
+    traits = {
+        #
+    }
 }
