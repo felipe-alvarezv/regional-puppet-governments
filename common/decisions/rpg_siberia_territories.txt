@@ -22,7 +22,7 @@ rpg_category_territories_siberia = {
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = { 
+			NOT = {
                 original_tag = SOV #Soviet Union
 				original_tag = TAN #Tannu Tuva
 				original_tag = R45 #Siberia
@@ -50,6 +50,57 @@ rpg_category_territories_siberia = {
 			}
 		}
 	}
+	rpg_siberia_tyumen = {
+        allowed = {
+            NOT = {
+                original_tag = SOV #Soviet Union
+                original_tag = R44 #Urals
+                original_tag = R45 #Siberia
+            }
+        }
+        available = {
+            is_subject = no
+            custom_trigger_tooltip = {
+                tooltip = rpg_siberia_required_states_tyumen
+                controls_state = 403 #Tyumen
+            }
+        }
+        visible = {
+            has_global_flag = rpg_siberia_flag
+            R45 = {
+                OR = {
+                    is_puppet_of = FROM
+                    is_in_faction_with = FROM
+                }
+            }
+            NOT = {
+                original_tag = SOV #Soviet Union
+                original_tag = R44 #Urals
+                original_tag = R45 #Siberia
+                has_global_flag = rpg_siberia_tyumen_flag
+            }
+        }
+        complete_effect = {
+            custom_effect_tooltip = rpg_siberia_coring_states_tyumen
+            custom_effect_tooltip = rpg_siberia_transfer_states_tyumen
+            hidden_effect = {
+                403 = { add_core_of = R45 } #Tyumen
+                R45 = {
+                    transfer_state = 403 #Tyumen
+                }
+            }
+            hidden_effect = {
+                set_global_flag = rpg_siberia_tyumen_flag
+            }
+        }
+        ai_will_do = {
+            factor = 0
+            modifier = {
+                factor = 0
+                is_historical_focus_on = yes
+            }
+        }
+    }
 	rpg_siberia_northwest_siberia = {
 		allowed = {
 			NOT = {
@@ -72,7 +123,7 @@ rpg_category_territories_siberia = {
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = { 
+			NOT = {
                 original_tag = SOV #Soviet Union
 				original_tag = R45 #Siberia
                 has_global_flag = rpg_siberia_northwest_siberia_flag
@@ -99,6 +150,194 @@ rpg_category_territories_siberia = {
 			}
 		}
 	}
+	rpg_siberia_chita = {
+        allowed = {
+            NOT = {
+                original_tag = SOV #Soviet Union
+            }
+        }
+        available = {
+            is_subject = no
+            custom_trigger_tooltip = {
+                tooltip = rpg_siberia_required_states_chita
+                controls_state = 563 #Chita
+            }
+        }
+        visible = {
+            has_global_flag = rpg_siberia_flag
+            R45 = {
+                OR = {
+                    is_puppet_of = FROM
+                    is_in_faction_with = FROM
+                }
+            }
+            NOT = {
+                original_tag = SOV #Soviet Union
+                has_global_flag = rpg_siberia_chita_flag
+            }
+        }
+        complete_effect = {
+            custom_effect_tooltip = rpg_siberia_coring_states_chita
+            custom_effect_tooltip = rpg_siberia_transfer_states_chita
+            hidden_effect = {
+                563 = { add_core_of = R45 } #Chita
+                R45 = {
+                    transfer_state = 563 #Chita
+                }
+            }
+            hidden_effect = {
+                set_global_flag = rpg_siberia_chita_flag
+            }
+        }
+        ai_will_do = {
+            factor = 0
+            modifier = {
+                factor = 0
+                is_historical_focus_on = yes
+            }
+        }
+    }
+    rpg_siberia_ulan_ude = {
+        allowed = {
+            NOT = {
+                original_tag = SOV #Soviet Union
+            }
+        }
+        available = {
+            is_subject = no
+            custom_trigger_tooltip = {
+                tooltip = rpg_siberia_required_states_ulan_ude
+                controls_state = 564 #Ulan Ude
+            }
+        }
+        visible = {
+            has_global_flag = rpg_siberia_flag
+            R45 = {
+                OR = {
+                    is_puppet_of = FROM
+                    is_in_faction_with = FROM
+                }
+            }
+            NOT = {
+                original_tag = SOV #Soviet Union
+                has_global_flag = rpg_siberia_ulan_ude_flag
+            }
+        }
+        complete_effect = {
+            custom_effect_tooltip = rpg_siberia_coring_states_ulan_ude
+            custom_effect_tooltip = rpg_siberia_transfer_states_ulan_ude
+            hidden_effect = {
+                564 = { add_core_of = R45 } #Ulan Ude
+                R45 = {
+                    transfer_state = 564 #Ulan Ude
+                }
+            }
+            hidden_effect = {
+                set_global_flag = rpg_siberia_ulan_ude_flag
+            }
+        }
+        ai_will_do = {
+            factor = 0
+            modifier = {
+                factor = 0
+                is_historical_focus_on = yes
+            }
+        }
+    }
+    rpg_siberia_chelyabinsk = {
+        allowed = {
+            NOT = {
+                original_tag = SOV #Soviet Union
+            }
+        }
+        available = {
+            is_subject = no
+            custom_trigger_tooltip = {
+                tooltip = rpg_siberia_required_states_chelyabinsk
+                controls_state = 572 #Chelyabinsk
+            }
+        }
+        visible = {
+            has_global_flag = rpg_siberia_flag
+            R45 = {
+                OR = {
+                    is_puppet_of = FROM
+                    is_in_faction_with = FROM
+                }
+            }
+            NOT = {
+                original_tag = SOV #Soviet Union
+                has_global_flag = rpg_siberia_chelyabinsk_flag
+            }
+        }
+        complete_effect = {
+            custom_effect_tooltip = rpg_siberia_coring_states_chelyabinsk
+            custom_effect_tooltip = rpg_siberia_transfer_states_chelyabinsk
+            hidden_effect = {
+                572 = { add_core_of = R45 } #Chelyabinsk
+                R45 = {
+                    transfer_state = 572 #Chelyabinsk
+                }
+            }
+            hidden_effect = {
+                set_global_flag = rpg_siberia_chelyabinsk_flag
+            }
+        }
+        ai_will_do = {
+            factor = 0
+            modifier = {
+                factor = 0
+                is_historical_focus_on = yes
+            }
+        }
+    }
+    rpg_siberia_zlatoust = {
+        allowed = {
+            NOT = {
+                original_tag = SOV #Soviet Union
+            }
+        }
+        available = {
+            is_subject = no
+            custom_trigger_tooltip = {
+                tooltip = rpg_siberia_required_states_zlatoust
+                controls_state = 573 #Zlatoust
+            }
+        }
+        visible = {
+            has_global_flag = rpg_siberia_flag
+            R45 = {
+                OR = {
+                    is_puppet_of = FROM
+                    is_in_faction_with = FROM
+                }
+            }
+            NOT = {
+                original_tag = SOV #Soviet Union
+                has_global_flag = rpg_siberia_zlatoust_flag
+            }
+        }
+        complete_effect = {
+            custom_effect_tooltip = rpg_siberia_coring_states_zlatoust
+            custom_effect_tooltip = rpg_siberia_transfer_states_zlatoust
+            hidden_effect = {
+                573 = { add_core_of = R45 } #Zlatoust
+                R45 = {
+                    transfer_state = 573 #Zlatoust
+                }
+            }
+            hidden_effect = {
+                set_global_flag = rpg_siberia_zlatoust_flag
+            }
+        }
+        ai_will_do = {
+            factor = 0
+            modifier = {
+                factor = 0
+                is_historical_focus_on = yes
+            }
+        }
+    }
 	rpg_siberia_surgut = {
 		allowed = {
 			NOT = {
@@ -121,7 +360,7 @@ rpg_category_territories_siberia = {
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = { 
+			NOT = {
                 original_tag = SOV #Soviet Union
 				original_tag = R45 #Siberia
                 has_global_flag = rpg_siberia_surgut_flag
@@ -148,6 +387,241 @@ rpg_category_territories_siberia = {
 			}
 		}
 	}
+	rpg_siberia_salekhard = {
+        allowed = {
+            NOT = {
+                original_tag = SOV #Soviet Union
+            }
+        }
+        available = {
+            is_subject = no
+            custom_trigger_tooltip = {
+                tooltip = rpg_siberia_required_states_salekhard
+                controls_state = 579 #Salekhard
+            }
+        }
+        visible = {
+            has_global_flag = rpg_siberia_flag
+            R45 = {
+                OR = {
+                    is_puppet_of = FROM
+                    is_in_faction_with = FROM
+                }
+            }
+            NOT = {
+                original_tag = SOV #Soviet Union
+                has_global_flag = rpg_siberia_salekhard_flag
+            }
+        }
+        complete_effect = {
+            custom_effect_tooltip = rpg_siberia_coring_states_salekhard
+            custom_effect_tooltip = rpg_siberia_transfer_states_salekhard
+            hidden_effect = {
+                579 = { add_core_of = R45 } #Salekhard
+                R45 = {
+                    transfer_state = 579 #Salekhard
+                }
+            }
+            hidden_effect = {
+                set_global_flag = rpg_siberia_salekhard_flag
+            }
+        }
+        ai_will_do = {
+            factor = 0
+            modifier = {
+                factor = 0
+                is_historical_focus_on = yes
+            }
+        }
+    }
+    rpg_siberia_tobolsk = {
+        allowed = {
+            NOT = {
+                original_tag = SOV #Soviet Union
+            }
+        }
+        available = {
+            is_subject = no
+            custom_trigger_tooltip = {
+                tooltip = rpg_siberia_required_states_tobolsk
+                controls_state = 580 #Tobolsk
+            }
+        }
+        visible = {
+            has_global_flag = rpg_siberia_flag
+            R45 = {
+                OR = {
+                    is_puppet_of = FROM
+                    is_in_faction_with = FROM
+                }
+            }
+            NOT = {
+                original_tag = SOV #Soviet Union
+                has_global_flag = rpg_siberia_tobolsk_flag
+            }
+        }
+        complete_effect = {
+            custom_effect_tooltip = rpg_siberia_coring_states_tobolsk
+            custom_effect_tooltip = rpg_siberia_transfer_states_tobolsk
+            hidden_effect = {
+                580 = { add_core_of = R45 } #Tobolsk
+                R45 = {
+                    transfer_state = 580 #Tobolsk
+                }
+            }
+            hidden_effect = {
+                set_global_flag = rpg_siberia_tobolsk_flag
+            }
+        }
+        ai_will_do = {
+            factor = 0
+            modifier = {
+                factor = 0
+                is_historical_focus_on = yes
+            }
+        }
+    }
+    rpg_siberia_northern_urals = {
+        allowed = {
+            NOT = {
+                original_tag = SOV #Soviet Union
+            }
+        }
+        available = {
+            is_subject = no
+            custom_trigger_tooltip = {
+                tooltip = rpg_siberia_required_states_northern_urals
+                controls_state = 581 #Northern Urals
+            }
+        }
+        visible = {
+            has_global_flag = rpg_siberia_flag
+            R45 = {
+                OR = {
+                    is_puppet_of = FROM
+                    is_in_faction_with = FROM
+                }
+            }
+            NOT = {
+                original_tag = SOV #Soviet Union
+                has_global_flag = rpg_siberia_northern_urals_flag
+            }
+        }
+        complete_effect = {
+            custom_effect_tooltip = rpg_siberia_coring_states_northern_urals
+            custom_effect_tooltip = rpg_siberia_transfer_states_northern_urals
+            hidden_effect = {
+                581 = { add_core_of = R45 } #Northern Urals
+                R45 = {
+                    transfer_state = 581 #Northern Urals
+                }
+            }
+            hidden_effect = {
+                set_global_flag = rpg_siberia_northern_urals_flag
+            }
+        }
+        ai_will_do = {
+            factor = 0
+            modifier = {
+                factor = 0
+                is_historical_focus_on = yes
+            }
+        }
+    }
+    rpg_siberia_magnitogorsk = {
+        allowed = {
+            NOT = {
+                original_tag = SOV #Soviet Union
+            }
+        }
+        available = {
+            is_subject = no
+            custom_trigger_tooltip = {
+                tooltip = rpg_siberia_required_states_magnitogorsk
+                controls_state = 582 #Magnitogorsk
+            }
+        }
+        visible = {
+            has_global_flag = rpg_siberia_flag
+            R45 = {
+                OR = {
+                    is_puppet_of = FROM
+                    is_in_faction_with = FROM
+                }
+            }
+            NOT = {
+                original_tag = SOV #Soviet Union
+                has_global_flag = rpg_siberia_magnitogorsk_flag
+            }
+        }
+        complete_effect = {
+            custom_effect_tooltip = rpg_siberia_coring_states_magnitogorsk
+            custom_effect_tooltip = rpg_siberia_transfer_states_magnitogorsk
+            hidden_effect = {
+                582 = { add_core_of = R45 } #Magnitogorsk
+                R45 = {
+                    transfer_state = 582 #Magnitogorsk
+                }
+            }
+            hidden_effect = {
+                set_global_flag = rpg_siberia_magnitogorsk_flag
+            }
+        }
+        ai_will_do = {
+            factor = 0
+            modifier = {
+                factor = 0
+                is_historical_focus_on = yes
+            }
+        }
+    }
+    rpg_siberia_sverdlovsk = {
+        allowed = {
+            NOT = {
+                original_tag = SOV #Soviet Union
+            }
+        }
+        available = {
+            is_subject = no
+            custom_trigger_tooltip = {
+                tooltip = rpg_siberia_required_states_sverdlovsk
+                controls_state = 653 #Sverdlovsk
+            }
+        }
+        visible = {
+            has_global_flag = rpg_siberia_flag
+            R45 = {
+                OR = {
+                    is_puppet_of = FROM
+                    is_in_faction_with = FROM
+                }
+            }
+            NOT = {
+                original_tag = SOV #Soviet Union
+                has_global_flag = rpg_siberia_sverdlovsk_flag
+            }
+        }
+        complete_effect = {
+            custom_effect_tooltip = rpg_siberia_coring_states_sverdlovsk
+            custom_effect_tooltip = rpg_siberia_transfer_states_sverdlovsk
+            hidden_effect = {
+                653 = { add_core_of = R45 } #Sverdlovsk
+                R45 = {
+                    transfer_state = 653 #Sverdlovsk
+                }
+            }
+            hidden_effect = {
+                set_global_flag = rpg_siberia_sverdlovsk_flag
+            }
+        }
+        ai_will_do = {
+            factor = 0
+            modifier = {
+                factor = 0
+                is_historical_focus_on = yes
+            }
+        }
+    }
 	rpg_siberia_gorno_altaysk = {
 		allowed = {
 			NOT = {
@@ -170,7 +644,7 @@ rpg_category_territories_siberia = {
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = { 
+			NOT = {
                 original_tag = SOV #Soviet Union
 				original_tag = R45 #Siberia
                 has_global_flag = rpg_siberia_gorno_altaysk_flag
