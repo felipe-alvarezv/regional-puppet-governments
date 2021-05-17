@@ -1,0 +1,362 @@
+rpg_category = {
+	rpg_european_russia = {
+		allowed = {
+			NOT = {
+				original_tag = BLR #Belarus
+				original_tag = SOV #Soviet Union
+				original_tag = UKR #Ukraine
+				original_tag = R48 #European Russia
+			}
+		}
+		available = {
+			is_subject = no
+			#Leningrad
+            custom_trigger_tooltip = {
+                tooltip = rpg_european_russia_required_states_leningrad
+                controls_state = 195 #Leningrad
+            }
+            #Kaluga
+            custom_trigger_tooltip = {
+                tooltip = rpg_european_russia_required_states_kaluga
+                controls_state = 205 #Kaluga
+            }
+            #Luga
+            custom_trigger_tooltip = {
+                tooltip = rpg_european_russia_required_states_luga
+                controls_state = 208 #Luga
+            }
+            #Pskov
+            custom_trigger_tooltip = {
+                tooltip = rpg_european_russia_required_states_pskov
+                controls_state = 209 #Pskov
+            }
+            #Nevel
+            custom_trigger_tooltip = {
+                tooltip = rpg_european_russia_required_states_nevel
+                controls_state = 210 #Nevel
+            }
+            #Arkhangelsk
+            custom_trigger_tooltip = {
+                tooltip = rpg_european_russia_required_states_arkhangelsk
+                controls_state = 214 #Arkhangelsk
+            }
+            #Stalingrad
+            custom_trigger_tooltip = {
+                tooltip = rpg_european_russia_required_states_stalingrad
+                controls_state = 217 #Stalingrad
+            }
+            #Rostov
+            custom_trigger_tooltip = {
+                tooltip = rpg_european_russia_required_states_rostov
+                controls_state = 218 #Rostov
+            }
+            #Moscow
+            custom_trigger_tooltip = {
+                tooltip = rpg_european_russia_required_states_moscow
+                controls_state = 219 #Moscow
+            }
+            #Kursk
+            custom_trigger_tooltip = {
+                tooltip = rpg_european_russia_required_states_kursk
+                controls_state = 220 #Kursk
+            }
+            #Orel
+            custom_trigger_tooltip = {
+                tooltip = rpg_european_russia_required_states_orel
+                controls_state = 222 #Orel
+            }
+            #Tula
+            custom_trigger_tooltip = {
+                tooltip = rpg_european_russia_required_states_tula
+                controls_state = 223 #Tula
+            }
+            #Bryansk
+            custom_trigger_tooltip = {
+                tooltip = rpg_european_russia_required_states_bryansk
+                controls_state = 224 #Bryansk
+            }
+            #Astrakhan
+            custom_trigger_tooltip = {
+                tooltip = rpg_european_russia_required_states_astrakhan
+                controls_state = 236 #Astrakhan
+            }
+            #Elista
+            custom_trigger_tooltip = {
+                tooltip = rpg_european_russia_required_states_elista
+                controls_state = 237 #Elista
+            }
+            #Volgodonsk
+            custom_trigger_tooltip = {
+                tooltip = rpg_european_russia_required_states_volgodonsk
+                controls_state = 238 #Volgodonsk
+            }
+            #Saratov
+            custom_trigger_tooltip = {
+                tooltip = rpg_european_russia_required_states_saratov
+                controls_state = 239 #Saratov
+            }
+            #Belgorod
+            custom_trigger_tooltip = {
+                tooltip = rpg_european_russia_required_states_belgorod
+                controls_state = 240 #Belgorod
+            }
+            #Smolensk
+            custom_trigger_tooltip = {
+                tooltip = rpg_european_russia_required_states_smolensk
+                controls_state = 242 #Smolensk
+            }
+            #Roslavl
+            custom_trigger_tooltip = {
+                tooltip = rpg_european_russia_required_states_roslavl
+                controls_state = 243 #Roslavl
+            }
+            #Volkhov
+            custom_trigger_tooltip = {
+                tooltip = rpg_european_russia_required_states_volkhov
+                controls_state = 244 #Volkhov
+            }
+            #Millerovo
+            custom_trigger_tooltip = {
+                tooltip = rpg_european_russia_required_states_millerovo
+                controls_state = 245 #Millerovo
+            }
+            #Rzhev
+            custom_trigger_tooltip = {
+                tooltip = rpg_european_russia_required_states_rzhev
+                controls_state = 246 #Rzhev
+            }
+            #Kalinin
+            custom_trigger_tooltip = {
+                tooltip = rpg_european_russia_required_states_kalinin
+                controls_state = 247 #Kalinin
+            }
+            #Yaroslavl
+            custom_trigger_tooltip = {
+                tooltip = rpg_european_russia_required_states_yaroslavl
+                controls_state = 248 #Yaroslavl
+            }
+            #Kazan
+            custom_trigger_tooltip = {
+                tooltip = rpg_european_russia_required_states_kazan
+                controls_state = 249 #Kazan
+            }
+            #Ulyanovsky
+            custom_trigger_tooltip = {
+                tooltip = rpg_european_russia_required_states_ulyanovsky
+                controls_state = 250 #Ulyanovsky
+            }
+            #Kuibyshev
+            custom_trigger_tooltip = {
+                tooltip = rpg_european_russia_required_states_kuibyshev
+                controls_state = 251 #Kuibyshev
+            }
+            #Gorki
+            custom_trigger_tooltip = {
+                tooltip = rpg_european_russia_required_states_gorki
+                controls_state = 252 #Gorki
+            }
+            #Ivanovo
+            custom_trigger_tooltip = {
+                tooltip = rpg_european_russia_required_states_ivanovo
+                controls_state = 253 #Ivanovo
+            }
+            #Ryazan
+            custom_trigger_tooltip = {
+                tooltip = rpg_european_russia_required_states_ryazan
+                controls_state = 254 #Ryazan
+            }
+            #Penza
+            custom_trigger_tooltip = {
+                tooltip = rpg_european_russia_required_states_penza
+                controls_state = 255 #Penza
+            }
+            #Cheboksary
+            custom_trigger_tooltip = {
+                tooltip = rpg_european_russia_required_states_cheboksary
+                controls_state = 256 #Cheboksary
+            }
+            #Tambov
+            custom_trigger_tooltip = {
+                tooltip = rpg_european_russia_required_states_tambov
+                controls_state = 257 #Tambov
+            }
+            #Lipetsk
+            custom_trigger_tooltip = {
+                tooltip = rpg_european_russia_required_states_lipetsk
+                controls_state = 258 #Lipetsk
+            }
+            #Voronezh
+            custom_trigger_tooltip = {
+                tooltip = rpg_european_russia_required_states_voronezh
+                controls_state = 260 #Voronezh
+            }
+            #Pechora
+            custom_trigger_tooltip = {
+                tooltip = rpg_european_russia_required_states_pechora
+                controls_state = 262 #Pechora
+            }
+            #Novgorod
+            custom_trigger_tooltip = {
+                tooltip = rpg_european_russia_required_states_novgorod
+                controls_state = 263 #Novgorod
+            }
+             #Tikhvin
+            custom_trigger_tooltip = {
+                tooltip = rpg_european_russia_required_states_tikhvin
+                controls_state = 264 #Tikhvin
+            }
+            #Mikhaylovka
+            custom_trigger_tooltip = {
+                tooltip = rpg_european_russia_required_states_mikhaylovka
+                controls_state = 265 #Mikhaylovka
+            }
+            #Vologda
+            custom_trigger_tooltip = {
+                tooltip = rpg_european_russia_required_states_vologda
+                controls_state = 351 #Vologda
+            }
+            #Syktyvkar
+            custom_trigger_tooltip = {
+                tooltip = rpg_european_russia_required_states_syktyvkar
+                controls_state = 397 #Syktyvkar
+            }
+            #Perm
+            custom_trigger_tooltip = {
+                tooltip = rpg_european_russia_required_states_perm
+                controls_state = 398 #Perm
+            }
+            #Izhevsk
+            custom_trigger_tooltip = {
+                tooltip = rpg_european_russia_required_states_izhevsk
+                controls_state = 399 #Izhevsk
+            }
+            #Kirov
+            custom_trigger_tooltip = {
+                tooltip = rpg_european_russia_required_states_kirov
+                controls_state = 400 #Kirov
+            }
+            #Engel
+            custom_trigger_tooltip = {
+                tooltip = rpg_european_russia_required_states_engel
+                controls_state = 401 #Engel
+            }
+            #Ufa
+            custom_trigger_tooltip = {
+                tooltip = rpg_european_russia_required_states_ufa
+                controls_state = 651 #Ufa
+            }
+            #Orenburg
+            custom_trigger_tooltip = {
+                tooltip = rpg_european_russia_required_states_orenburg
+                controls_state = 652 #Orenburg
+            }
+		}
+		visible = {
+			OR = {
+				controls_state = 195 #Leningrad
+				controls_state = 202 #Kiev
+				controls_state = 217 #Stalingrad
+				controls_state = 219 #Moscow
+			}
+			NOT = {
+				original_tag = BLR #Belarus
+				original_tag = SOV #Soviet Union
+				original_tag = UKR #Ukraine
+				original_tag = R48 #European Russia
+                has_global_flag = rpg_european_russia_flag
+            }
+		}
+		complete_effect = {
+			hidden_effect = {
+				195 = { add_core_of = R48 } #Leningrad
+				205 = { add_core_of = R48 } #Kaluga
+				208 = { add_core_of = R48 } #Luga
+				209 = { add_core_of = R48 } #Pskov
+				210 = { add_core_of = R48 } #Nevel
+				214 = { add_core_of = R48 } #Arkhangelsk
+				217 = { add_core_of = R48 } #Stalingrad
+				218 = { add_core_of = R48 } #Rostov
+				219 = { add_core_of = R48 } #Moscow
+				220 = { add_core_of = R48 } #Kursk
+				222 = { add_core_of = R48 } #Orel
+				223 = { add_core_of = R48 } #Tula
+				224 = { add_core_of = R48 } #Bryansk
+				236 = { add_core_of = R48 } #Astrakhan
+				237 = { add_core_of = R48 } #Elista
+				238 = { add_core_of = R48 } #Volgodonsk
+				239 = { add_core_of = R48 } #Saratov
+				240 = { add_core_of = R48 } #Belgorod
+				242 = { add_core_of = R48 } #Smolensk
+				243 = { add_core_of = R48 } #Roslavl
+				244 = { add_core_of = R48 } #Volkhov
+				245 = { add_core_of = R48 } #Millerovo
+				246 = { add_core_of = R48 } #Rzhev
+				247 = { add_core_of = R48 } #Kalinin
+				248 = { add_core_of = R48 } #Yaroslavl
+				249 = { add_core_of = R48 } #Kazan
+				250 = { add_core_of = R48 } #Ulyanovsky
+				251 = { add_core_of = R48 } #Kuibyshev
+				252 = { add_core_of = R48 } #Gorki
+				253 = { add_core_of = R48 } #Ivanovo
+				254 = { add_core_of = R48 } #Ryazan
+				255 = { add_core_of = R48 } #Penza
+				256 = { add_core_of = R48 } #Cheboksary
+				257 = { add_core_of = R48 } #Tambov
+				258 = { add_core_of = R48 } #Lipetsk
+				260 = { add_core_of = R48 } #Voronezh
+				262 = { add_core_of = R48 } #Pechora
+				263 = { add_core_of = R48 } #Novgorod
+				294 = { add_core_of = R48 } #Tikhvin
+				265 = { add_core_of = R48 } #Mikhaylovka
+				351 = { add_core_of = R48 } #Vologda
+				397 = { add_core_of = R48 } #Syktyvkar
+				398 = { add_core_of = R48 } #Perm
+				399 = { add_core_of = R48 } #Izhevsk
+				400 = { add_core_of = R48 } #Kirov
+				401 = { add_core_of = R48 } #Engel
+				651 = { add_core_of = R48 } #Ufa
+				652 = { add_core_of = R48 } #Orenburg
+			}
+			custom_effect_tooltip = rpg_european_russia_coring_states
+			custom_effect_tooltip = rpg_european_russia_transfer_states
+			#Set compliance to 80 in all cores and instantiate collaboration government
+			custom_effect_tooltip = rpg_european_russia_puppet
+			hidden_effect = {
+				every_state = {
+					limit = {
+						is_core_of = R48
+					}
+					set_compliance = 80
+				}
+
+				if = {
+					limit = { has_dlc = "La Resistance" }
+					set_temp_variable = { country_to_initiate = R48 }
+					instantiate_collaboration_government = yes
+				}
+				else = {
+					release = R48
+					puppet = R48
+				}
+				R48 = {
+                    transfer_technology = yes
+                }
+			}
+			#News event, set local flag, and set global flag
+			hidden_effect = {
+				ROOT = {
+					set_country_flag = rpg_european_russia_country_flag
+				}
+				news_event = { id = rpg_news.48 hours = 6 }
+				set_global_flag = rpg_european_russia_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}

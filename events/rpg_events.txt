@@ -1645,3 +1645,38 @@ news_event = {
 		}
 	}
 }
+#European Russia
+news_event = {
+    id = rpg_news.48
+    title = rpg_news.48.t
+    desc = rpg_news.48.desc
+    picture = GFX_news_event_generic_parliament
+    is_triggered_only = yes
+    major = yes
+    option = {
+        name = rpg_news.48.a
+        trigger = {
+            original_tag = R48
+        }
+    }
+    option = {
+        name = rpg_news.48.b
+        trigger = {
+            original_tag = FROM
+        }
+    }
+    option = {
+        name = rpg_news.48.c
+        trigger = {
+            has_war_with = FROM
+        }
+    }
+    option = {
+        name = rpg_news.48.d
+        trigger = {
+            NOT = { original_tag = R48 }
+            NOT = { original_tag = FROM }
+            NOT = { has_war_with = FROM }
+        }
+    }
+}
