@@ -1,0 +1,541 @@
+rpg_category_territories_european_russia = {
+	rpg_european_russia_crimea = {
+        allowed = {
+            NOT = {
+                original_tag = SOV #Soviet Union
+                original_tag = R48 #European Russia
+            }
+        }
+        available = {
+            is_subject = no
+            custom_trigger_tooltip = {
+                tooltip = rpg_european_russia_required_states_crimea
+                controls_state = 137 #Crimea
+            }
+        }
+        visible = {
+            has_global_flag = rpg_european_russia_flag
+            R48 = {
+                OR = {
+                    is_puppet_of = FROM
+                    is_in_faction_with = FROM
+                }
+            }
+            NOT = {
+                original_tag = SOV #Soviet Union
+                original_tag = R48 #European Russia
+                has_global_flag = rpg_european_russia_crimea_flag
+            }
+        }
+        complete_effect = {
+            custom_effect_tooltip = rpg_european_russia_coring_states_crimea
+            custom_effect_tooltip = rpg_european_russia_transfer_states_crimea
+            hidden_effect = {
+                137 = { add_core_of = R48 } #Crimea
+                R48 = {
+                    transfer_state = 137 #Crimea
+                }
+            }
+            hidden_effect = {
+                set_global_flag = rpg_european_russia_crimea_flag
+            }
+        }
+        ai_will_do = {
+            factor = 0
+            modifier = {
+                factor = 0
+                is_historical_focus_on = yes
+            }
+        }
+    }
+    rpg_european_russia_karjala = {
+        allowed = {
+            NOT = {
+                original_tag = SOV #Soviet Union
+                original_tag = R48 #European Russia
+            }
+        }
+        available = {
+            is_subject = no
+            custom_trigger_tooltip = {
+                tooltip = rpg_european_russia_required_states_karjala
+                controls_state = 146 #Karjala
+            }
+        }
+        visible = {
+            has_global_flag = rpg_european_russia_flag
+            R48 = {
+                OR = {
+                    is_puppet_of = FROM
+                    is_in_faction_with = FROM
+                }
+            }
+            NOT = {
+                original_tag = SOV #Soviet Union
+                original_tag = R48 #European Russia
+                has_global_flag = rpg_european_russia_karjala_flag
+            }
+        }
+        complete_effect = {
+            custom_effect_tooltip = rpg_european_russia_coring_states_karjala
+            custom_effect_tooltip = rpg_european_russia_transfer_states_karjala
+            hidden_effect = {
+                146 = { add_core_of = R48 } #Karjala
+                R48 = {
+                    transfer_state = 146 #Karjala
+                }
+            }
+            hidden_effect = {
+                set_global_flag = rpg_european_russia_karjala_flag
+            }
+        }
+        ai_will_do = {
+            factor = 0
+            modifier = {
+                factor = 0
+                is_historical_focus_on = yes
+            }
+        }
+    }
+    rpg_european_russia_salla = {
+        allowed = {
+            NOT = {
+                original_tag = SOV #Soviet Union
+                original_tag = R48 #European Russia
+            }
+        }
+        available = {
+            is_subject = no
+            custom_trigger_tooltip = {
+                tooltip = rpg_european_russia_required_states_salla
+                controls_state = 147 #Salla
+            }
+        }
+        visible = {
+            has_global_flag = rpg_european_russia_flag
+            R48 = {
+                OR = {
+                    is_puppet_of = FROM
+                    is_in_faction_with = FROM
+                }
+            }
+            NOT = {
+                original_tag = SOV #Soviet Union
+                original_tag = R48 #European Russia
+                has_global_flag = rpg_european_russia_salla_flag
+            }
+        }
+        complete_effect = {
+            custom_effect_tooltip = rpg_european_russia_coring_states_salla
+            custom_effect_tooltip = rpg_european_russia_transfer_states_salla
+            hidden_effect = {
+                147 = { add_core_of = R48 } #Salla
+                R48 = {
+                    transfer_state = 147 #Salla
+                }
+            }
+            hidden_effect = {
+                set_global_flag = rpg_european_russia_salla_flag
+            }
+        }
+        ai_will_do = {
+            factor = 0
+            modifier = {
+                factor = 0
+                is_historical_focus_on = yes
+            }
+        }
+    }
+    rpg_european_russia_murmansk = {
+        allowed = {
+            NOT = {
+                original_tag = SOV #Soviet Union
+                original_tag = R48 #European Russia
+            }
+        }
+        available = {
+            is_subject = no
+            custom_trigger_tooltip = {
+                tooltip = rpg_european_russia_required_states_murmansk
+                controls_state = 213 #Murmansk
+            }
+        }
+        visible = {
+            has_global_flag = rpg_european_russia_flag
+            R48 = {
+                OR = {
+                    is_puppet_of = FROM
+                    is_in_faction_with = FROM
+                }
+            }
+            NOT = {
+                original_tag = SOV #Soviet Union
+                original_tag = R48 #European Russia
+                has_global_flag = rpg_european_russia_murmansk_flag
+            }
+        }
+        complete_effect = {
+            custom_effect_tooltip = rpg_european_russia_coring_states_murmansk
+            custom_effect_tooltip = rpg_european_russia_transfer_states_murmansk
+            hidden_effect = {
+                213 = { add_core_of = R48 } #Murmansk
+                R48 = {
+                    transfer_state = 213 #Murmansk
+                }
+            }
+            hidden_effect = {
+                set_global_flag = rpg_european_russia_murmansk_flag
+            }
+        }
+        ai_will_do = {
+            factor = 0
+            modifier = {
+                factor = 0
+                is_historical_focus_on = yes
+            }
+        }
+    }
+    rpg_european_russia_onega = {
+        allowed = {
+            NOT = {
+                original_tag = SOV #Soviet Union
+                original_tag = R48 #European Russia
+            }
+        }
+        available = {
+            is_subject = no
+            custom_trigger_tooltip = {
+                tooltip = rpg_european_russia_required_states_onega
+                controls_state = 215 #Onega
+            }
+        }
+        visible = {
+            has_global_flag = rpg_european_russia_flag
+            R48 = {
+                OR = {
+                    is_puppet_of = FROM
+                    is_in_faction_with = FROM
+                }
+            }
+            NOT = {
+                original_tag = SOV #Soviet Union
+                original_tag = R48 #European Russia
+                has_global_flag = rpg_european_russia_onega_flag
+            }
+        }
+        complete_effect = {
+            custom_effect_tooltip = rpg_european_russia_coring_states_onega
+            custom_effect_tooltip = rpg_european_russia_transfer_states_onega
+            hidden_effect = {
+                215 = { add_core_of = R48 } #Onega
+                R48 = {
+                    transfer_state = 215 #Onega
+                }
+            }
+            hidden_effect = {
+                set_global_flag = rpg_european_russia_onega_flag
+            }
+        }
+        ai_will_do = {
+            factor = 0
+            modifier = {
+                factor = 0
+                is_historical_focus_on = yes
+            }
+        }
+    }
+    rpg_european_russia_olonets = {
+        allowed = {
+            NOT = {
+                original_tag = SOV #Soviet Union
+                original_tag = R48 #European Russia
+            }
+        }
+        available = {
+            is_subject = no
+            custom_trigger_tooltip = {
+                tooltip = rpg_european_russia_required_states_olonets
+                controls_state = 216 #Olonets
+            }
+        }
+        visible = {
+            has_global_flag = rpg_european_russia_flag
+            R48 = {
+                OR = {
+                    is_puppet_of = FROM
+                    is_in_faction_with = FROM
+                }
+            }
+            NOT = {
+                original_tag = SOV #Soviet Union
+                original_tag = R48 #European Russia
+                has_global_flag = rpg_european_russia_olonets_flag
+            }
+        }
+        complete_effect = {
+            custom_effect_tooltip = rpg_european_russia_coring_states_olonets
+            custom_effect_tooltip = rpg_european_russia_transfer_states_olonets
+            hidden_effect = {
+                216 = { add_core_of = R48 } #Olonets
+                R48 = {
+                    transfer_state = 216 #Olonets
+                }
+            }
+            hidden_effect = {
+                set_global_flag = rpg_european_russia_olonets_flag
+            }
+        }
+        ai_will_do = {
+            factor = 0
+            modifier = {
+                factor = 0
+                is_historical_focus_on = yes
+            }
+        }
+    }
+    rpg_european_russia_grozny = {
+        allowed = {
+            NOT = {
+                original_tag = SOV #Soviet Union
+                original_tag = R48 #European Russia
+            }
+        }
+        available = {
+            is_subject = no
+            custom_trigger_tooltip = {
+                tooltip = rpg_european_russia_required_states_grozny
+                controls_state = 232 #Grozny
+            }
+        }
+        visible = {
+            has_global_flag = rpg_european_russia_flag
+            R48 = {
+                OR = {
+                    is_puppet_of = FROM
+                    is_in_faction_with = FROM
+                }
+            }
+            NOT = {
+                original_tag = SOV #Soviet Union
+                original_tag = R48 #European Russia
+                has_global_flag = rpg_european_russia_grozny_flag
+            }
+        }
+        complete_effect = {
+            custom_effect_tooltip = rpg_european_russia_coring_states_grozny
+            custom_effect_tooltip = rpg_european_russia_transfer_states_grozny
+            hidden_effect = {
+                232 = { add_core_of = R48 } #Grozny
+                R48 = {
+                    transfer_state = 232 #Grozny
+                }
+            }
+            hidden_effect = {
+                set_global_flag = rpg_european_russia_grozny_flag
+            }
+        }
+        ai_will_do = {
+            factor = 0
+            modifier = {
+                factor = 0
+                is_historical_focus_on = yes
+            }
+        }
+    }
+    rpg_european_russia_caucasus_mountains = {
+        allowed = {
+            NOT = {
+                original_tag = SOV #Soviet Union
+                original_tag = R48 #European Russia
+            }
+        }
+        available = {
+            is_subject = no
+            custom_trigger_tooltip = {
+                tooltip = rpg_european_russia_required_states_caucasus_mountains
+                controls_state = 233 #Caucasus Mountains
+            }
+        }
+        visible = {
+            has_global_flag = rpg_european_russia_flag
+            R48 = {
+                OR = {
+                    is_puppet_of = FROM
+                    is_in_faction_with = FROM
+                }
+            }
+            NOT = {
+                original_tag = SOV #Soviet Union
+                original_tag = R48 #European Russia
+                has_global_flag = rpg_european_russia_caucasus_mountains_flag
+            }
+        }
+        complete_effect = {
+            custom_effect_tooltip = rpg_european_russia_coring_states_caucasus_mountains
+            custom_effect_tooltip = rpg_european_russia_transfer_states_caucasus_mountains
+            hidden_effect = {
+                233 = { add_core_of = R48 } #Caucasus Mountains
+                R48 = {
+                    transfer_state = 233 #Caucasus Mountains
+                }
+            }
+            hidden_effect = {
+                set_global_flag = rpg_european_russia_caucasus_mountains_flag
+            }
+        }
+        ai_will_do = {
+            factor = 0
+            modifier = {
+                factor = 0
+                is_historical_focus_on = yes
+            }
+        }
+    }
+    rpg_european_russia_krasnodar = {
+        allowed = {
+            NOT = {
+                original_tag = SOV #Soviet Union
+                original_tag = R48 #European Russia
+            }
+        }
+        available = {
+            is_subject = no
+            custom_trigger_tooltip = {
+                tooltip = rpg_european_russia_required_states_krasnodar
+                controls_state = 234 #Krasnodar
+            }
+        }
+        visible = {
+            has_global_flag = rpg_european_russia_flag
+            R48 = {
+                OR = {
+                    is_puppet_of = FROM
+                    is_in_faction_with = FROM
+                }
+            }
+            NOT = {
+                original_tag = SOV #Soviet Union
+                original_tag = R48 #European Russia
+                has_global_flag = rpg_european_russia_krasnodar_flag
+            }
+        }
+        complete_effect = {
+            custom_effect_tooltip = rpg_european_russia_coring_states_krasnodar
+            custom_effect_tooltip = rpg_european_russia_transfer_states_krasnodar
+            hidden_effect = {
+                234 = { add_core_of = R48 } #Krasnodar
+                R48 = {
+                    transfer_state = 234 #Krasnodar
+                }
+            }
+            hidden_effect = {
+                set_global_flag = rpg_european_russia_krasnodar_flag
+            }
+        }
+        ai_will_do = {
+            factor = 0
+            modifier = {
+                factor = 0
+                is_historical_focus_on = yes
+            }
+        }
+    }
+    rpg_european_russia_stavropol = {
+        allowed = {
+            NOT = {
+                original_tag = SOV #Soviet Union
+                original_tag = R48 #European Russia
+            }
+        }
+        available = {
+            is_subject = no
+            custom_trigger_tooltip = {
+                tooltip = rpg_european_russia_required_states_stavropol
+                controls_state = 235 #Stavropol
+            }
+        }
+        visible = {
+            has_global_flag = rpg_european_russia_flag
+            R48 = {
+                OR = {
+                    is_puppet_of = FROM
+                    is_in_faction_with = FROM
+                }
+            }
+            NOT = {
+                original_tag = SOV #Soviet Union
+                original_tag = R48 #European Russia
+                has_global_flag = rpg_european_russia_stavropol_flag
+            }
+        }
+        complete_effect = {
+            custom_effect_tooltip = rpg_european_russia_coring_states_stavropol
+            custom_effect_tooltip = rpg_european_russia_transfer_states_stavropol
+            hidden_effect = {
+                235 = { add_core_of = R48 } #Stavropol
+                R48 = {
+                    transfer_state = 235 #Stavropol
+                }
+            }
+            hidden_effect = {
+                set_global_flag = rpg_european_russia_stavropol_flag
+            }
+        }
+        ai_will_do = {
+            factor = 0
+            modifier = {
+                factor = 0
+                is_historical_focus_on = yes
+            }
+        }
+    }
+    rpg_european_russia_petsamo = {
+        allowed = {
+            NOT = {
+                original_tag = SOV #Soviet Union
+                original_tag = R48 #European Russia
+            }
+        }
+        available = {
+            is_subject = no
+            custom_trigger_tooltip = {
+                tooltip = rpg_european_russia_required_states_petsamo
+                controls_state = 722 #Petsamo
+            }
+        }
+        visible = {
+            has_global_flag = rpg_european_russia_flag
+            R48 = {
+                OR = {
+                    is_puppet_of = FROM
+                    is_in_faction_with = FROM
+                }
+            }
+            NOT = {
+                original_tag = SOV #Soviet Union
+                original_tag = R48 #European Russia
+                has_global_flag = rpg_european_russia_petsamo_flag
+            }
+        }
+        complete_effect = {
+            custom_effect_tooltip = rpg_european_russia_coring_states_petsamo
+            custom_effect_tooltip = rpg_european_russia_transfer_states_petsamo
+            hidden_effect = {
+                722 = { add_core_of = R48 } #Petsamo
+                R48 = {
+                    transfer_state = 722 #Petsamo
+                }
+            }
+            hidden_effect = {
+                set_global_flag = rpg_european_russia_petsamo_flag
+            }
+        }
+        ai_will_do = {
+            factor = 0
+            modifier = {
+                factor = 0
+                is_historical_focus_on = yes
+            }
+        }
+    }
+}

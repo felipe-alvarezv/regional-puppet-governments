@@ -2,9 +2,7 @@ rpg_category = {
 	rpg_european_russia = {
 		allowed = {
 			NOT = {
-				original_tag = BLR #Belarus
 				original_tag = SOV #Soviet Union
-				original_tag = UKR #Ukraine
 				original_tag = R48 #European Russia
 			}
 		}
@@ -254,14 +252,11 @@ rpg_category = {
 		visible = {
 			OR = {
 				controls_state = 195 #Leningrad
-				controls_state = 202 #Kiev
 				controls_state = 217 #Stalingrad
 				controls_state = 219 #Moscow
 			}
 			NOT = {
-				original_tag = BLR #Belarus
 				original_tag = SOV #Soviet Union
-				original_tag = UKR #Ukraine
 				original_tag = R48 #European Russia
                 has_global_flag = rpg_european_russia_flag
             }
@@ -306,7 +301,7 @@ rpg_category = {
 				260 = { add_core_of = R48 } #Voronezh
 				262 = { add_core_of = R48 } #Pechora
 				263 = { add_core_of = R48 } #Novgorod
-				294 = { add_core_of = R48 } #Tikhvin
+				264 = { add_core_of = R48 } #Tikhvin
 				265 = { add_core_of = R48 } #Mikhaylovka
 				351 = { add_core_of = R48 } #Vologda
 				397 = { add_core_of = R48 } #Syktyvkar

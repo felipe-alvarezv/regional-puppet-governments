@@ -101,55 +101,6 @@ rpg_category_territories_far_eastern_russia = {
 			}
 		}
 	}
-	rpg_far_eastern_russia_ulan_ude = {
-		allowed = {
-			NOT = {
-				original_tag = SOV #Soviet Union
-				original_tag = R46 #Far Eastern Russia
-			}
-		}
-		available = {
-			is_subject = no
-			custom_trigger_tooltip = {
-				tooltip = rpg_far_eastern_russia_required_states_ulan_ude
-                controls_state = 564 #Ulan Ude
-			}
-		}
-		visible = {
-            has_global_flag = rpg_far_eastern_russia_flag
-            R46 = {
-				OR = {
-					is_puppet_of = FROM
-					is_in_faction_with = FROM
-				}
-			}
-			NOT = {
-                original_tag = SOV #Soviet Union
-				original_tag = R46 #Far Eastern Russia
-                has_global_flag = rpg_far_eastern_russia_ulan_ude_flag
-            }
-		}
-		complete_effect = {
-			custom_effect_tooltip = rpg_far_eastern_russia_coring_states_ulan_ude
-			custom_effect_tooltip = rpg_far_eastern_russia_transfer_states_ulan_ude
-			hidden_effect = {
-				564 = { add_core_of = R46 } #Ulan Ude
-				R46 = {
-					transfer_state = 564 #Ulan Ude
-				}
-			}
-			hidden_effect = {
-				set_global_flag = rpg_far_eastern_russia_ulan_ude_flag
-			}
-		}
-		ai_will_do = {
-			factor = 0
-			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
-			}
-		}
-	}
 	rpg_far_eastern_russia_north_sakhalin = {
 		allowed = {
 			NOT = {
