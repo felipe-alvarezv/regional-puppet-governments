@@ -6668,7 +6668,7 @@ R49 = {
             "Lyudmila"
             "Maya"
             "Nadejda"
-            "Nevena
+            "Nevena"
             "Penka"
             "Rada"
             "Radka"
@@ -6676,7 +6676,7 @@ R49 = {
             "Raya"
             "Rayna"
             "Rosa"
-            "Nikolina
+            "Nikolina"
             "Rositsa"
             "Silva"
             "Silviya"
@@ -6687,7 +6687,7 @@ R49 = {
             "Todorka"
             "Tsveta"
             "Tsvetanka"
-            "Vasilka
+            "Vasilka"
             "Yolanda"
             "Yana"
             "Yoanan"
