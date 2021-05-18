@@ -4,6 +4,7 @@ rpg_category_territories_arabia = { }
 rpg_category_territories_baltic = { }
 rpg_category_territories_bangladesh = { }
 rpg_category_territories_benelux = { }
+rpg_category_territories_bulgaria = { }
 rpg_category_territories_caribbean = { }
 rpg_category_territories_central_africa = { }
 rpg_category_territories_central_america = { }

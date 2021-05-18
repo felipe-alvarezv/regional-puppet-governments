@@ -1,0 +1,94 @@
+rpg_category = {
+	rpg_bulgaria = {
+		allowed = {
+			NOT = {
+				original_tag = BUL #Bulgaria
+				original_tag = R49 #Bulgaria
+			}
+		}
+		available = {
+			is_subject = no
+			#Sofia
+            custom_trigger_tooltip = {
+                tooltip = rpg_european_russia_required_states_sofia
+                controls_state = 48 #Sofia
+            }
+            #Burgas
+            custom_trigger_tooltip = {
+                tooltip = rpg_european_russia_required_states_burgas
+                controls_state = 211 #Burgas
+            }
+            #Plovdiv
+            custom_trigger_tooltip = {
+                tooltip = rpg_european_russia_required_states_plovdiv
+                controls_state = 212 #Plovdiv
+            }
+            #Moesia
+            custom_trigger_tooltip = {
+                tooltip = rpg_european_russia_required_states_moesia
+                controls_state = 801 #Moesia
+            }
+		}
+		visible = {
+			OR = {
+				controls_state = 48 #Sofia
+				controls_state = 211 #Burgas
+				controls_state = 212 #Plovdiv
+				controls_state = 801 #Moesia
+			}
+			NOT = {
+				original_tag = BUL #Bulgaria
+				original_tag = R49 #Bulgaria
+                has_global_flag = rpg_bulgaria_flag
+            }
+		}
+		complete_effect = {
+			hidden_effect = {
+				48 = { add_core_of = R49 } #Sofia
+				211 = { add_core_of = R49 } #Burgas
+				212 = { add_core_of = R49 } #Plovdiv
+				801 = { add_core_of = R49 } #Moesia
+			}
+			custom_effect_tooltip = rpg_bulgaria_coring_states
+			custom_effect_tooltip = rpg_bulgaria_transfer_states
+			#Set compliance to 80 in all cores and instantiate collaboration government
+			custom_effect_tooltip = rpg_bulgaria_puppet
+			hidden_effect = {
+				every_state = {
+					limit = {
+						is_core_of = R49
+					}
+					set_compliance = 80
+				}
+
+				if = {
+					limit = { has_dlc = "La Resistance" }
+					set_temp_variable = { country_to_initiate = R49 }
+					instantiate_collaboration_government = yes
+				}
+				else = {
+					release = R49
+					puppet = R49
+				}
+				R49 = {
+                    transfer_technology = yes
+                }
+			}
+			#News event, set local flag, and set global flag
+			hidden_effect = {
+				ROOT = {
+					set_country_flag = rpg_bulgaria_country_flag
+				}
+				news_event = { id = rpg_news.49 hours = 6 }
+				set_global_flag = rpg_bulgaria_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
