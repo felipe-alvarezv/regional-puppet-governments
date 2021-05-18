@@ -6655,7 +6655,7 @@ R49 = {
             "Evdokiya"
             "Filipa"
             "Philippa"
-            "Gergana
+            "Gergana"
             "Hristina"
             "Iskra"
             "Iva"
