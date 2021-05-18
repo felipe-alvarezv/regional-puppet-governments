@@ -6647,7 +6647,7 @@ R49 = {
             "Boyana"
             "Dana"
             "Desislava"
-            "Donka
+            "Donka"
             "Elisaveta"
             "Elisabeth"
             "Emiliya"
