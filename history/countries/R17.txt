@@ -43,6 +43,7 @@ if = {
 		basic_battery = 1
 		basic_naval_mines = 1
 		submarine_mine_laying = 1
+    }
 }
 add_political_power = 600
 set_convoys = 100
