@@ -1,0 +1,649 @@
+rpg_category_territories_bulgaria = {
+    rpg_yugoslavia_albania = {
+        allowed = {
+            NOT = {
+                original_tag = ALB #Albania
+                original_tag = R50 #Yugoslavia
+            }
+        }
+        available = {
+            is_subject = no
+            custom_trigger_tooltip = {
+                tooltip = rpg_yugoslavia_required_states_albania
+                controls_state = 44 #Albania
+            }
+        }
+        visible = {
+            has_global_flag = rpg_yugoslavia_flag
+            R50 = {
+                OR = {
+                    is_puppet_of = FROM
+                    is_in_faction_with = FROM
+                }
+            }
+            NOT = {
+                original_tag = ALB #Albania
+                original_tag = R50 #Yugoslavia
+                has_global_flag = rpg_yugoslavia_albania_flag
+            }
+        }
+        complete_effect = {
+            custom_effect_tooltip = rpg_yugoslavia_coring_states_albania
+            custom_effect_tooltip = rpg_yugoslavia_transfer_states_albania
+            hidden_effect = {
+                44 = { add_core_of = R50 } #Albania
+                R50 = {
+                    transfer_state = 44 #Albania
+                }
+            }
+            hidden_effect = {
+                set_global_flag = rpg_yugoslavia_albania_flag
+            }
+        }
+        ai_will_do = {
+            factor = 0
+            modifier = {
+                factor = 0
+                is_historical_focus_on = yes
+            }
+        }
+    }
+    rpg_yugoslavia_sofia = {
+        allowed = {
+            NOT = {
+                original_tag = BUL #Bulgaria
+                original_tag = R50 #Yugoslavia
+            }
+        }
+        available = {
+            is_subject = no
+            custom_trigger_tooltip = {
+                tooltip = rpg_yugoslavia_required_states_sofia
+                controls_state = 48 #Sofia
+            }
+        }
+        visible = {
+            has_global_flag = rpg_yugoslavia_flag
+            R50 = {
+                OR = {
+                    is_puppet_of = FROM
+                    is_in_faction_with = FROM
+                }
+            }
+            NOT = {
+                original_tag = BUL #Bulgaria
+                original_tag = R50 #Yugoslavia
+                has_global_flag = rpg_yugoslavia_sofia_flag
+            }
+        }
+        complete_effect = {
+            custom_effect_tooltip = rpg_yugoslavia_coring_states_sofia
+            custom_effect_tooltip = rpg_yugoslavia_transfer_states_sofia
+            hidden_effect = {
+                48 = { add_core_of = R50 } #Sofia
+                R50 = {
+                    transfer_state = 48 #Sofia
+                }
+            }
+            hidden_effect = {
+                set_global_flag = rpg_yugoslavia_sofia_flag
+            }
+        }
+        ai_will_do = {
+            factor = 0
+            modifier = {
+                factor = 0
+                is_historical_focus_on = yes
+            }
+        }
+    }
+    rpg_yugoslavia_dobrudja = {
+        allowed = {
+            NOT = {
+                original_tag = BUL #Bulgaria
+                original_tag = ROM #Romania
+                original_tag = R50 #Yugoslavia
+            }
+        }
+        available = {
+            is_subject = no
+            custom_trigger_tooltip = {
+                tooltip = rpg_yugoslavia_required_states_dobrudja
+                controls_state = 77 #Dobrudja
+            }
+        }
+        visible = {
+            has_global_flag = rpg_yugoslavia_flag
+            R50 = {
+                OR = {
+                    is_puppet_of = FROM
+                    is_in_faction_with = FROM
+                }
+            }
+            NOT = {
+                original_tag = BUL #Bulgaria
+                original_tag = ROM #Romania
+                original_tag = R50 #Yugoslavia
+                has_global_flag = rpg_yugoslavia_dobrudja_flag
+            }
+        }
+        complete_effect = {
+            custom_effect_tooltip = rpg_yugoslavia_coring_states_dobrudja
+            custom_effect_tooltip = rpg_yugoslavia_transfer_states_dobrudja
+            hidden_effect = {
+                77 = { add_core_of = R50 } #Dobrudja
+                R50 = {
+                    transfer_state = 77 #Dobrudja
+                }
+            }
+            hidden_effect = {
+                set_global_flag = rpg_yugoslavia_dobrudja_flag
+            }
+        }
+        ai_will_do = {
+            factor = 0
+            modifier = {
+                factor = 0
+                is_historical_focus_on = yes
+            }
+        }
+    }
+    rpg_yugoslavia_zara = {
+        allowed = {
+            NOT = {
+                original_tag = ITA #Italy
+                original_tag = YUG #Yugoslavia
+                original_tag = R50 #Yugoslavia
+            }
+        }
+        available = {
+            is_subject = no
+            custom_trigger_tooltip = {
+                tooltip = rpg_yugoslavia_required_states_zara
+                controls_state = 163 #Zara
+            }
+        }
+        visible = {
+            has_global_flag = rpg_yugoslavia_flag
+            R50 = {
+                OR = {
+                    is_puppet_of = FROM
+                    is_in_faction_with = FROM
+                }
+            }
+            NOT = {
+                original_tag = ITA #Italy
+                original_tag = YUG #Yugoslavia
+                original_tag = R50 #Yugoslavia
+                has_global_flag = rpg_yugoslavia_zara_flag
+            }
+        }
+        complete_effect = {
+            custom_effect_tooltip = rpg_yugoslavia_coring_states_zara
+            custom_effect_tooltip = rpg_yugoslavia_transfer_states_zara
+            hidden_effect = {
+                163 = { add_core_of = R50 } #Zara
+                R50 = {
+                    transfer_state = 163 #Zara
+                }
+            }
+            hidden_effect = {
+                set_global_flag = rpg_yugoslavia_zara_flag
+            }
+        }
+        ai_will_do = {
+            factor = 0
+            modifier = {
+                factor = 0
+                is_historical_focus_on = yes
+            }
+        }
+    }
+    rpg_yugoslavia_thrace = {
+        allowed = {
+            NOT = {
+                original_tag = GRE #Greece
+                original_tag = R50 #Yugoslavia
+            }
+        }
+        available = {
+            is_subject = no
+            custom_trigger_tooltip = {
+                tooltip = rpg_yugoslavia_required_states_thrace
+                controls_state = 184 #Thrace
+            }
+        }
+        visible = {
+            has_global_flag = rpg_yugoslavia_flag
+            R50 = {
+                OR = {
+                    is_puppet_of = FROM
+                    is_in_faction_with = FROM
+                }
+            }
+            NOT = {
+                original_tag = GRE #Greece
+                original_tag = R50 #Yugoslavia
+                has_global_flag = rpg_yugoslavia_thrace_flag
+            }
+        }
+        complete_effect = {
+            custom_effect_tooltip = rpg_yugoslavia_coring_states_thrace
+            custom_effect_tooltip = rpg_yugoslavia_transfer_states_thrace
+            hidden_effect = {
+                184 = { add_core_of = R50 } #Thrace
+                R50 = {
+                    transfer_state = 184 #Thrace
+                }
+            }
+            hidden_effect = {
+                set_global_flag = rpg_yugoslavia_thrace_flag
+            }
+        }
+        ai_will_do = {
+            factor = 0
+            modifier = {
+                factor = 0
+                is_historical_focus_on = yes
+            }
+        }
+    }
+    rpg_yugoslavia_burgas = {
+        allowed = {
+            NOT = {
+                original_tag = BUL #Bulgaria
+                original_tag = R50 #Yugoslavia
+            }
+        }
+        available = {
+            is_subject = no
+            custom_trigger_tooltip = {
+                tooltip = rpg_yugoslavia_required_states_burgas
+                controls_state = 211 #Burgas
+            }
+        }
+        visible = {
+            has_global_flag = rpg_yugoslavia_flag
+            R50 = {
+                OR = {
+                    is_puppet_of = FROM
+                    is_in_faction_with = FROM
+                }
+            }
+            NOT = {
+                original_tag = BUL #Bulgaria
+                original_tag = R50 #Yugoslavia
+                has_global_flag = rpg_yugoslavia_burgas_flag
+            }
+        }
+        complete_effect = {
+            custom_effect_tooltip = rpg_yugoslavia_coring_states_burgas
+            custom_effect_tooltip = rpg_yugoslavia_transfer_states_burgas
+            hidden_effect = {
+                211 = { add_core_of = R50 } #Burgas
+                R50 = {
+                    transfer_state = 211 #Burgas
+                }
+            }
+            hidden_effect = {
+                set_global_flag = rpg_yugoslavia_burgas_flag
+            }
+        }
+        ai_will_do = {
+            factor = 0
+            modifier = {
+                factor = 0
+                is_historical_focus_on = yes
+            }
+        }
+    }
+    rpg_yugoslavia_plovdiv = {
+        allowed = {
+            NOT = {
+                original_tag = BUL #Bulgaria
+                original_tag = R50 #Yugoslavia
+            }
+        }
+        available = {
+            is_subject = no
+            custom_trigger_tooltip = {
+                tooltip = rpg_yugoslavia_required_states_plovdiv
+                controls_state = 212 #Plovdiv
+            }
+        }
+        visible = {
+            has_global_flag = rpg_yugoslavia_flag
+            R50 = {
+                OR = {
+                    is_puppet_of = FROM
+                    is_in_faction_with = FROM
+                }
+            }
+            NOT = {
+                original_tag = BUL #Bulgaria
+                original_tag = R50 #Yugoslavia
+                has_global_flag = rpg_yugoslavia_plovdiv_flag
+            }
+        }
+        complete_effect = {
+            custom_effect_tooltip = rpg_yugoslavia_coring_states_plovdiv
+            custom_effect_tooltip = rpg_yugoslavia_transfer_states_plovdiv
+            hidden_effect = {
+                212 = { add_core_of = R50 } #Plovdiv
+                R50 = {
+                    transfer_state = 212 #Plovdiv
+                }
+            }
+            hidden_effect = {
+                set_global_flag = rpg_yugoslavia_plovdiv_flag
+            }
+        }
+        ai_will_do = {
+            factor = 0
+            modifier = {
+                factor = 0
+                is_historical_focus_on = yes
+            }
+        }
+    }
+    rpg_yugoslavia_edirne = {
+        allowed = {
+            NOT = {
+                original_tag = TUR #Turkey
+                original_tag = R50 #Yugoslavia
+            }
+        }
+        available = {
+            is_subject = no
+            custom_trigger_tooltip = {
+                tooltip = rpg_yugoslavia_required_states_edirne
+                controls_state = 341 #Edirne
+            }
+        }
+        visible = {
+            has_global_flag = rpg_yugoslavia_flag
+            R50 = {
+                OR = {
+                    is_puppet_of = FROM
+                    is_in_faction_with = FROM
+                }
+            }
+            NOT = {
+                original_tag = TUR #Turkey
+                original_tag = R50 #Yugoslavia
+                has_global_flag = rpg_yugoslavia_edirne_flag
+            }
+        }
+        complete_effect = {
+            custom_effect_tooltip = rpg_yugoslavia_coring_states_edirne
+            custom_effect_tooltip = rpg_yugoslavia_transfer_states_edirne
+            hidden_effect = {
+                341 = { add_core_of = R50 } #Edirne
+                R50 = {
+                    transfer_state = 341 #Edirne
+                }
+            }
+            hidden_effect = {
+                set_global_flag = rpg_yugoslavia_edirne_flag
+            }
+        }
+        ai_will_do = {
+            factor = 0
+            modifier = {
+                factor = 0
+                is_historical_focus_on = yes
+            }
+        }
+    }
+    rpg_yugoslavia_central_macedonia = {
+        allowed = {
+            NOT = {
+                original_tag = MAC #Macedonia
+                original_tag = YUG #Yugoslavia
+                original_tag = R50 #Yugoslavia
+            }
+        }
+        available = {
+            is_subject = no
+            custom_trigger_tooltip = {
+                tooltip = rpg_yugoslavia_required_states_central_macedonia
+                controls_state = 731 #Central Macedonia
+            }
+        }
+        visible = {
+            has_global_flag = rpg_yugoslavia_flag
+            R50 = {
+                OR = {
+                    is_puppet_of = FROM
+                    is_in_faction_with = FROM
+                }
+            }
+            NOT = {
+                original_tag = MAC #Macedonia
+                original_tag = YUG #Yugoslavia
+                original_tag = R50 #Yugoslavia
+                has_global_flag = rpg_yugoslavia_central_macedonia_flag
+            }
+        }
+        complete_effect = {
+            custom_effect_tooltip = rpg_yugoslavia_coring_states_central_macedonia
+            custom_effect_tooltip = rpg_yugoslavia_transfer_states_central_macedonia
+            hidden_effect = {
+                731 = { add_core_of = R50 } #Central Macedonia
+                R50 = {
+                    transfer_state = 731 #Central Macedonia
+                }
+            }
+            hidden_effect = {
+                set_global_flag = rpg_yugoslavia_central_macedonia_flag
+            }
+        }
+        ai_will_do = {
+            factor = 0
+            modifier = {
+                factor = 0
+                is_historical_focus_on = yes
+            }
+        }
+    }
+    rpg_yugoslavia_istria = {
+        allowed = {
+            NOT = {
+                original_tag = ITA #Italy
+                original_tag = SLV #Slovenia
+                original_tag = YUG #Yugoslavia
+                original_tag = R50 #Yugoslavia
+            }
+        }
+        available = {
+            is_subject = no
+            custom_trigger_tooltip = {
+                tooltip = rpg_yugoslavia_required_states_istria
+                controls_state = 736 #Istria
+            }
+        }
+        visible = {
+            has_global_flag = rpg_yugoslavia_flag
+            R50 = {
+                OR = {
+                    is_puppet_of = FROM
+                    is_in_faction_with = FROM
+                }
+            }
+            NOT = {
+                original_tag = ITA #Italy
+                original_tag = SLV #Slovenia
+                original_tag = YUG #Yugoslavia
+                original_tag = R50 #Yugoslavia
+                has_global_flag = rpg_yugoslavia_istria_flag
+            }
+        }
+        complete_effect = {
+            custom_effect_tooltip = rpg_yugoslavia_coring_states_istria
+            custom_effect_tooltip = rpg_yugoslavia_transfer_states_istria
+            hidden_effect = {
+                736 = { add_core_of = R50 } #Istria
+                R50 = {
+                    transfer_state = 736 #Istria
+                }
+            }
+            hidden_effect = {
+                set_global_flag = rpg_yugoslavia_istria_flag
+            }
+        }
+        ai_will_do = {
+            factor = 0
+            modifier = {
+                factor = 0
+                is_historical_focus_on = yes
+            }
+        }
+    }
+    rpg_yugoslavia_istanbul = {
+        allowed = {
+            NOT = {
+                original_tag = TUR #Turkey
+                original_tag = R50 #Yugoslavia
+            }
+        }
+        available = {
+            is_subject = no
+            custom_trigger_tooltip = {
+                tooltip = rpg_yugoslavia_required_states_istanbul
+                controls_state = 797 #Istanbul
+            }
+        }
+        visible = {
+            has_global_flag = rpg_yugoslavia_flag
+            R50 = {
+                OR = {
+                    is_puppet_of = FROM
+                    is_in_faction_with = FROM
+                }
+            }
+            NOT = {
+                original_tag = TUR #Turkey
+                original_tag = R50 #Yugoslavia
+                has_global_flag = rpg_yugoslavia_istanbul_flag
+            }
+        }
+        complete_effect = {
+            custom_effect_tooltip = rpg_yugoslavia_coring_states_istanbul
+            custom_effect_tooltip = rpg_yugoslavia_transfer_states_istanbul
+            hidden_effect = {
+                797 = { add_core_of = R50 } #Istanbul
+                R50 = {
+                    transfer_state = 797 #Istanbul
+                }
+            }
+            hidden_effect = {
+                set_global_flag = rpg_yugoslavia_istanbul_flag
+            }
+        }
+        ai_will_do = {
+            factor = 0
+            modifier = {
+                factor = 0
+                is_historical_focus_on = yes
+            }
+        }
+    }
+    rpg_yugoslavia_moesia = {
+        allowed = {
+            NOT = {
+                original_tag = BUL #Bulgaria
+                original_tag = R50 #Yugoslavia
+            }
+        }
+        available = {
+            is_subject = no
+            custom_trigger_tooltip = {
+                tooltip = rpg_yugoslavia_required_states_moesia
+                controls_state = 801 #Moesia
+            }
+        }
+        visible = {
+            has_global_flag = rpg_yugoslavia_flag
+            R50 = {
+                OR = {
+                    is_puppet_of = FROM
+                    is_in_faction_with = FROM
+                }
+            }
+            NOT = {
+                original_tag = BUL #Bulgaria
+                original_tag = R50 #Yugoslavia
+                has_global_flag = rpg_yugoslavia_moesia_flag
+            }
+        }
+        complete_effect = {
+            custom_effect_tooltip = rpg_yugoslavia_coring_states_moesia
+            custom_effect_tooltip = rpg_yugoslavia_transfer_states_moesia
+            hidden_effect = {
+                801 = { add_core_of = R50 } #Moesia
+                R50 = {
+                    transfer_state = 801 #Moesia
+                }
+            }
+            hidden_effect = {
+                set_global_flag = rpg_yugoslavia_moesia_flag
+            }
+        }
+        ai_will_do = {
+            factor = 0
+            modifier = {
+                factor = 0
+                is_historical_focus_on = yes
+            }
+        }
+    }
+    rpg_yugoslavia_northern_epirus = {
+        allowed = {
+            NOT = {
+                original_tag = ALB #Albania
+                original_tag = R50 #Yugoslavia
+            }
+        }
+        available = {
+            is_subject = no
+            custom_trigger_tooltip = {
+                tooltip = rpg_yugoslavia_required_states_northern_epirus
+                controls_state = 805 #Northern Epirus
+            }
+        }
+        visible = {
+            has_global_flag = rpg_yugoslavia_flag
+            R50 = {
+                OR = {
+                    is_puppet_of = FROM
+                    is_in_faction_with = FROM
+                }
+            }
+            NOT = {
+                original_tag = ALB #Albania
+                original_tag = R50 #Yugoslavia
+                has_global_flag = rpg_yugoslavia_northern_epirus_flag
+            }
+        }
+        complete_effect = {
+            custom_effect_tooltip = rpg_yugoslavia_coring_states_northern_epirus
+            custom_effect_tooltip = rpg_yugoslavia_transfer_states_northern_epirus
+            hidden_effect = {
+                805 = { add_core_of = R50 } #Northern Epirus
+                R50 = {
+                    transfer_state = 805 #Northern Epirus
+                }
+            }
+            hidden_effect = {
+                set_global_flag = rpg_yugoslavia_northern_epirus_flag
+            }
+        }
+        ai_will_do = {
+            factor = 0
+            modifier = {
+                factor = 0
+                is_historical_focus_on = yes
+            }
+        }
+    }
+}

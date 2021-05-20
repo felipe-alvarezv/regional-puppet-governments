@@ -10,62 +10,67 @@ rpg_category = {
 			is_subject = no
             #Vojvodina
             custom_trigger_tooltip = {
-                tooltip = rpg_european_russia_required_states_vojvodina
+                tooltip = rpg_yugoslavia_required_states_vojvodina
                 controls_state = 45 #Vojvodina
             }
             #Slovenia
             custom_trigger_tooltip = {
-                tooltip = rpg_european_russia_required_states_slovenia
+                tooltip = rpg_yugoslavia_required_states_slovenia
                 controls_state = 102 #Slovenia
             }
             #Dalmatia
             custom_trigger_tooltip = {
-                tooltip = rpg_european_russia_required_states_dalmatia
+                tooltip = rpg_yugoslavia_required_states_dalmatia
                 controls_state = 103 #Dalmatia
             }
             #Bosnia
             custom_trigger_tooltip = {
-                tooltip = rpg_european_russia_required_states_bosnia
+                tooltip = rpg_yugoslavia_required_states_bosnia
                 controls_state = 104 #Bosnia
             }
             #Montenegro
             custom_trigger_tooltip = {
-                tooltip = rpg_european_russia_required_states_montenegro
+                tooltip = rpg_yugoslavia_required_states_montenegro
                 controls_state = 105 #Montenegro
             }
             #Macedonia
             custom_trigger_tooltip = {
-                tooltip = rpg_european_russia_required_states_macedonia
+                tooltip = rpg_yugoslavia_required_states_macedonia
                 controls_state = 106 #Macedonia
             }
             #Serbia
             custom_trigger_tooltip = {
-                tooltip = rpg_european_russia_required_states_serbia
+                tooltip = rpg_yugoslavia_required_states_serbia
                 controls_state = 107 #Serbia
             }
             #Morava
             custom_trigger_tooltip = {
-                tooltip = rpg_european_russia_required_states_morava
+                tooltip = rpg_yugoslavia_required_states_morava
                 controls_state = 108 #Morava
             }
             #Croatia
             custom_trigger_tooltip = {
-                tooltip = rpg_european_russia_required_states_croatia
+                tooltip = rpg_yugoslavia_required_states_croatia
                 controls_state = 109 #Croatia
+            }
+            #West Banat
+            custom_trigger_tooltip = {
+                tooltip = rpg_yugoslavia_required_states_west_banat
+                controls_state = 764 #West Banat
             }
             #Kosovo
             custom_trigger_tooltip = {
-                tooltip = rpg_european_russia_required_states_kosovo
+                tooltip = rpg_yugoslavia_required_states_kosovo
                 controls_state = 802 #Kosovo
             }
             #Southern Serbia
             custom_trigger_tooltip = {
-                tooltip = rpg_european_russia_required_states_southern_serbia
+                tooltip = rpg_yugoslavia_required_states_southern_serbia
                 controls_state = 803 #Southern Serbia
             }
             #Herzegovina
             custom_trigger_tooltip = {
-                tooltip = rpg_european_russia_required_states_herzegovina
+                tooltip = rpg_yugoslavia_required_states_herzegovina
                 controls_state = 804 #Herzegovina
             }
 		}
@@ -94,6 +99,7 @@ rpg_category = {
                 107 = { add_core_of = R50 } #Serbia
                 108 = { add_core_of = R50 } #Morava
                 109 = { add_core_of = R50 } #Croatia
+                764 = { add_core_of = R50 } #West Banat
                 802 = { add_core_of = R50 } #Kosovo
                 803 = { add_core_of = R50 } #Southern Serbia
                 804 = { add_core_of = R50 } #Herzegovina
