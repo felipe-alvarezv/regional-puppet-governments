@@ -1,5 +1,5 @@
-#regional-puppet-governments
-List of nations:
+#regional-puppet-governments\
+List of nations:\
 R01 = "countries/R01.txt" #Andes\
 R02 = "countries/R02.txt" #Anglo-Celtic Isles\
 R03 = "countries/R03.txt" #Arabia\
@@ -50,4 +50,4 @@ R47 = "countries/R47.txt" #Mongolia\
 R48 = "countries/R48.txt" #Western Russia\
 R49 = "countries/R49.txt" #Bulgaria\
 R50 = "countries/R50.txt" #Yugoslavia\
-R51 = "countries/R51.txt" #Central Asia\
+R51 = "countries/R51.txt" #Central Asia
