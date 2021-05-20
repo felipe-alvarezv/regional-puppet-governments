@@ -1,6 +1,5 @@
 #U.S. Rockies
 capital = 382 #Colorado
-oob = "R23_1936"
 
 set_research_slots = 3
 set_stability = 0.7
@@ -30,7 +29,6 @@ if = {
 		early_submarine = 1
 		transport = 1
 	}
-	set_naval_oob = "R23_1936_naval_legacy"
 }
 if = {
 	limit = { has_dlc = "Man the Guns" }
@@ -46,7 +44,6 @@ if = {
 		basic_naval_mines = 1
 		submarine_mine_laying = 1
 	}
-	set_naval_oob = "R23_1936_naval_mtg"
 }
 add_political_power = 600
 set_convoys = 100
@@ -65,7 +62,7 @@ set_politics = {
 create_country_leader = {
 	name = "Military Administration"
 	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+	picture = "gfx/leaders/RPG/rpg_communism.dds"
 	expire = "1965.1.1"
 	ideology = marxism
 	traits = {
@@ -75,7 +72,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Military Administration"
 	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	picture = "gfx/leaders/RPG/rpg_democratic.dds"
 	expire = "1965.1.1"
 	ideology = conservatism
 	traits = {
@@ -85,7 +82,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Military Administration"
 	desc = ""
-	picture = "gfx/leaders/Europe/portrait_europe_generic_4.dds"
+	picture = "gfx/leaders/RPG/rpg_neutrality.dds"
 	expire = "1965.1.1"
 	ideology = centrism
 	traits = {
@@ -95,7 +92,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Military Administration"
 	desc = ""
-	picture = "gfx/leaders/Europe/portrait_europe_generic_5.dds"
+	picture = "gfx/leaders/RPG/rpg_fascism.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {

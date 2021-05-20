@@ -6476,7 +6476,7 @@ R47 = {
     }
 	callsigns = { }
 }
-#European Russia (Vanilla Russian Names)
+#Western Russia (Vanilla Russian Names)
 R48 = {
     male = {
         names = {

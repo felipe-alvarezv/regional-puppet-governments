@@ -1,6 +1,5 @@
 #Indonesia
 capital = 335 #Java
-oob = "R17_1936"
 
 set_research_slots = 3
 set_stability = 0.7
@@ -30,7 +29,6 @@ if = {
 		early_submarine = 1
 		transport = 1
 	}
-	set_naval_oob = "R17_1936_naval_legacy"
 }
 if = {
 	limit = { has_dlc = "Man the Guns" }
@@ -45,8 +43,6 @@ if = {
 		basic_battery = 1
 		basic_naval_mines = 1
 		submarine_mine_laying = 1
-	}
-	set_naval_oob = "R17_1936_naval_mtg"
 }
 add_political_power = 600
 set_convoys = 100
@@ -65,7 +61,7 @@ set_politics = {
 create_country_leader = {
 	name = "Military Administration"
 	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_1.dds"
+	picture = "gfx/leaders/RPG/rpg_communism.dds"
 	expire = "1965.1.1"
 	ideology = marxism
 	traits = {
@@ -75,7 +71,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Military Administration"
 	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_democracy.dds"
+	picture = "gfx/leaders/RPG/rpg_democratic.dds"
 	expire = "1965.1.1"
 	ideology = conservatism
 	traits = {
@@ -85,7 +81,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Military Administration"
 	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_3.dds"
+	picture = "gfx/leaders/RPG/rpg_neutrality.dds"
 	expire = "1965.1.1"
 	ideology = centrism
 	traits = {
@@ -95,7 +91,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Military Administration"
 	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_fascism.dds"
+	picture = "gfx/leaders/RPG/rpg_fascism.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {

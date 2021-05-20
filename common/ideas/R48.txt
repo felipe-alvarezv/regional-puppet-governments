@@ -1,4 +1,4 @@
-#European Russia
+#Western Russia
 ideas = {
 	political_advisor = {
 		R48_captain_of_industry = {

@@ -1,4 +1,4 @@
-﻿#European Russia
+﻿#Western Russia
 R48_DD_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_DESTROYERS
 	for_countries = { R48 }

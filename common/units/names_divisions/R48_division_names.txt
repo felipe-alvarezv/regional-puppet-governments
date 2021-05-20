@@ -1,4 +1,4 @@
-﻿#Far East Russia
+﻿#Western Russia
 R48_GAR_01 =
 {
 	name = "Garrison Division"

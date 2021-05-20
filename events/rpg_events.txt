@@ -1645,7 +1645,7 @@ news_event = {
 		}
 	}
 }
-#European Russia
+#Western Russia
 news_event = {
     id = rpg_news.48
     title = rpg_news.48.t

@@ -20,11 +20,6 @@ rpg_category = {
 				tooltip = rpg_greece_turkey_required_states_ankara
 				controls_state = 49 #Ankara
 			}
-			#Thrace
-			custom_trigger_tooltip = {
-				tooltip = rpg_greece_turkey_required_states_thrace
-				controls_state = 184 #Thrace
-			}
 			#Epirus
 			custom_trigger_tooltip = {
 				tooltip = rpg_greece_turkey_required_states_epirus
@@ -44,11 +39,6 @@ rpg_category = {
 			custom_trigger_tooltip = {
 				tooltip = rpg_greece_turkey_required_states_bursa
 				controls_state = 340 #Bursa
-			}
-			#Edirne
-			custom_trigger_tooltip = {
-				tooltip = rpg_greece_turkey_required_states_edirne
-				controls_state = 341 #Edirne
 			}
 			#Antalya
 			custom_trigger_tooltip = {
@@ -120,16 +110,6 @@ rpg_category = {
 				tooltip = rpg_greece_turkey_required_states_kastamonu
 				controls_state = 356 #Kastamonu
 			}
-			#Central Macedonia
-			custom_trigger_tooltip = {
-				tooltip = rpg_greece_turkey_required_states_central_macedonia
-				controls_state = 731 #Central Macedonia
-			}
-			#Istanbul
-			custom_trigger_tooltip = {
-				tooltip = rpg_greece_turkey_required_states_istanbul
-				controls_state = 797 #Istanbul
-			}
 			#Amasya
 			custom_trigger_tooltip = {
 				tooltip = rpg_greece_turkey_required_states_amasya
@@ -145,7 +125,6 @@ rpg_category = {
 			OR = {
                 controls_state = 47 #Attica
 				controls_state = 49 #Ankara
-				controls_state = 797 #Istanbul
 
 			}
 			NOT = {
@@ -160,12 +139,10 @@ rpg_category = {
 			hidden_effect = {
 				47 = { add_core_of = R14 } #Attica
 				49 = { add_core_of = R14 } #Ankara
-				184 = { add_core_of = R14 } #Thrace
 				185 = { add_core_of = R14 } #Epirus
 				186 = { add_core_of = R14 } #Peloponnese
 				339 = { add_core_of = R14 } #Izmir
 				340 = { add_core_of = R14 } #Bursa
-				341 = { add_core_of = R14 } #Edirne
 				342 = { add_core_of = R14 } #Antalya
 				343 = { add_core_of = R14 } #Afyon
 				344 = { add_core_of = R14 } #Adan
@@ -180,8 +157,6 @@ rpg_category = {
 				354 = { add_core_of = R14 } #Trabzon
 				355 = { add_core_of = R14 } #Samsun
 				356 = { add_core_of = R14 } #Kastamonu
-				731 = { add_core_of = R14 } #Central Macedonia
-				797 = { add_core_of = R14 } #Istanbul
 				798 = { add_core_of = R14 } #Amasya
 				800 = { add_core_of = R14 } #Van
 			}

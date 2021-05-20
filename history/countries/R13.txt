@@ -1,6 +1,5 @@
 #Germany
 capital = 64 #Brandenburg
-oob = "R13_1936"
 
 set_research_slots = 3
 set_stability = 0.7
@@ -30,7 +29,6 @@ if = {
 		early_submarine = 1
 		transport = 1
 	}
-	set_naval_oob = "R13_1936_naval_legacy"
 }
 if = {
 	limit = { has_dlc = "Man the Guns" }
@@ -46,7 +44,6 @@ if = {
 		basic_naval_mines = 1
 		submarine_mine_laying = 1
 	}
-	set_naval_oob = "R13_1936_naval_mtg"
 }
 add_political_power = 600
 set_convoys = 100
