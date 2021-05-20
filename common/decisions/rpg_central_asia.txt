@@ -1,0 +1,161 @@
+rpg_category = {
+	rpg_central_asia = {
+		allowed = {
+			NOT = {
+				original_tag = SOV #Soviet Union
+				original_tag = R51 #Central Asia
+			}
+		}
+		available = {
+			is_subject = no
+            #Akhtubinsk
+            custom_trigger_tooltip = {
+                tooltip = rpg_central_asia_required_states_akhtubinsk
+                controls_state = 402 #Akhtubinsk
+            }
+            #Kyzyl Orda
+            custom_trigger_tooltip = {
+                tooltip = rpg_central_asia_required_states_kyzyl_orda
+                controls_state = 404 #Kyzyl Orda
+            }
+            #Tashkent
+            custom_trigger_tooltip = {
+                tooltip = rpg_central_asia_required_states_tashkent
+                controls_state = 405 #Tashkent
+            }
+            #Guryev
+            custom_trigger_tooltip = {
+                tooltip = rpg_central_asia_required_states_guryev
+                controls_state = 406 #Guryev
+            }
+            #Ural'sk
+            custom_trigger_tooltip = {
+                tooltip = rpg_central_asia_required_states_uralsk
+                controls_state = 407 #Ural'sk
+            }
+            #Kustanay
+            custom_trigger_tooltip = {
+                tooltip = rpg_central_asia_required_states_kustanay
+                controls_state = 583 #Kustanay
+            }
+            #Ashkhabad
+            custom_trigger_tooltip = {
+                tooltip = rpg_central_asia_required_states_ashkhabad
+                controls_state = 584 #Ashkhabad
+            }
+            #Urgench
+            custom_trigger_tooltip = {
+                tooltip = rpg_central_asia_required_states_urgench
+                controls_state = 585 #Urgench
+            }
+            #Alma-Ata
+            custom_trigger_tooltip = {
+                tooltip = rpg_central_asia_required_states_alma_ata
+                controls_state = 586 #Alma-Ata
+            }
+            #Ust Urt
+            custom_trigger_tooltip = {
+                tooltip = rpg_central_asia_required_states_ust_urt
+                controls_state = 587 #Ust Urt
+            }
+            #Semipalatinsk
+            custom_trigger_tooltip = {
+                tooltip = rpg_central_asia_required_states_semipalatinsk
+                controls_state = 588 #Semipalatinsk
+            }
+            #Ayaguz
+            custom_trigger_tooltip = {
+                tooltip = rpg_central_asia_required_states_ayaguz
+                controls_state = 589 #Ayaguz
+            }
+            #Akmolinsk
+            custom_trigger_tooltip = {
+                tooltip = rpg_central_asia_required_states_akmolinsk
+                controls_state = 590 #Akmolinsk
+            }
+            #Pamir
+            custom_trigger_tooltip = {
+                tooltip = rpg_central_asia_required_states_pamir
+                controls_state = 732 #Pamir
+            }
+            #Stalinabad
+            custom_trigger_tooltip = {
+                tooltip = rpg_central_asia_required_states_stalinabad
+                controls_state = 742 #Stalinabad
+            }
+		}
+		visible = {
+			OR = {
+                controls_state = 405 #Tashkent
+                controls_state = 584 #Ashkhabad
+                controls_state = 590 #Akmolinsk
+                controls_state = 732 #Pamir
+                controls_state = 742 #Stalinabad
+			}
+			NOT = {
+				original_tag = SOV #Soviet Union
+                original_tag = R51 #Central Asia
+                has_global_flag = rpg_central_asia_flag
+            }
+		}
+		complete_effect = {
+			hidden_effect = {
+				402 = { add_core_of = R51 } #Akhtubinsk
+                404 = { add_core_of = R51 } #Kyzyl Orda
+                405 = { add_core_of = R51 } #Tashkent
+                406 = { add_core_of = R51 } #Guryev
+                407 = { add_core_of = R51 } #Ural'sk
+                583 = { add_core_of = R51 } #Kustanay
+                584 = { add_core_of = R51 } #Ashkhabad
+                585 = { add_core_of = R51 } #Urgench
+                586 = { add_core_of = R51 } #Alma-Ata
+                587 = { add_core_of = R51 } #Ust Urt
+                588 = { add_core_of = R51 } #Semipalatinsk
+                589 = { add_core_of = R51 } #Ayaguz
+                590 = { add_core_of = R51 } #Akmolinsk
+                732 = { add_core_of = R51 } #Pamir
+                742 = { add_core_of = R51 } #Stalinbad
+			}
+			custom_effect_tooltip = rpg_central_asia_coring_states
+			custom_effect_tooltip = rpg_central_asia_transfer_states
+			#Set compliance to 80 in all cores and instantiate collaboration government
+			custom_effect_tooltip = rpg_central_asia_puppet
+			hidden_effect = {
+				every_state = {
+					limit = {
+						is_core_of = R51
+					}
+					set_compliance = 80
+				}
+
+				if = {
+					limit = { has_dlc = "La Resistance" }
+					set_temp_variable = { country_to_initiate = R51 }
+					instantiate_collaboration_government = yes
+				}
+				else = {
+					release = R51
+					puppet = R51
+				}
+				R51 = {
+                    transfer_technology = yes
+                }
+			}
+			#News event, set local flag, and set global flag
+			hidden_effect = {
+				ROOT = {
+					set_country_flag = rpg_central_asia_country_flag
+				}
+				news_event = { id = rpg_news.51 hours = 6 }
+				set_global_flag = rpg_central_asia_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}

@@ -349,3 +349,10 @@
  rpg_news.50.b:0 "A toast to our new friends!"
  rpg_news.50.c:0 "They are nothing but a lackey!"
  rpg_news.50.d:0 "Interesting"
+ #Central Asia
+ rpg_news.51.t:0 "Formation of [R51.GetName]"
+ rpg_news.51.desc:0 "[Root.GetAdjective] military officials have announced the establishment of a regional government in Central Asia. Officially known as [R51.GetNameDef], they have been granted autonomy to maintain order and control in the region.  The military leaders of [R51.GetNameDef] have publicly announced their full support towards the [Root.GetAdjective] cause.  The nations who are aligned with [Root.GetNameDef] have supported this decision, while the rest of the world has called [R51.GetNameDef] just a [Root.GetAdjective] lapdog."
+ rpg_news.51.a:0 "We will prove our strength to the world!"
+ rpg_news.51.b:0 "A toast to our new friends!"
+ rpg_news.51.c:0 "They are nothing but a lackey!"
+ rpg_news.51.d:0 "Interesting"
