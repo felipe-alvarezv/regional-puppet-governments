@@ -1,0 +1,6 @@
+#Yugoslavia
+graphical_culture = eastern_european_gfx
+graphical_culture_2d = eastern_european_2d
+color = { 12 64 118 }
+color = rgb { 12 64 118 }
+color_ui = rgb { 12 64 118 }

@@ -342,3 +342,10 @@
  rpg_news.49.b:0 "A toast to our new friends!"
  rpg_news.49.c:0 "They are nothing but a lackey!"
  rpg_news.49.d:0 "Interesting"
+ #Yugoslavia
+ rpg_news.50.t:0 "Formation of [R50.GetName]"
+ rpg_news.50.desc:0 "[Root.GetAdjective] military officials have announced the establishment of a regional government in Yugoslavia. Officially known as [R50.GetNameDef], they have been granted autonomy to maintain order and control in the region.  The military leaders of [R50.GetNameDef] have publicly announced their full support towards the [Root.GetAdjective] cause.  The nations who are aligned with [Root.GetNameDef] have supported this decision, while the rest of the world has called [R50.GetNameDef] just a [Root.GetAdjective] lapdog."
+ rpg_news.50.a:0 "We will prove our strength to the world!"
+ rpg_news.50.b:0 "A toast to our new friends!"
+ rpg_news.50.c:0 "They are nothing but a lackey!"
+ rpg_news.50.d:0 "Interesting"

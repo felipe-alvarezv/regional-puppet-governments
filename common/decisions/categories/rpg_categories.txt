@@ -38,3 +38,4 @@ rpg_category_territories_transcaucasia = { }
 rpg_category_territories_urals = { }
 rpg_category_territories_west_africa = { }
 rpg_category_territories_western_provinces = { }
+rpg_category_territories_yugoslavia = { }

@@ -10,22 +10,22 @@ rpg_category = {
 			is_subject = no
 			#Sofia
             custom_trigger_tooltip = {
-                tooltip = rpg_european_russia_required_states_sofia
+                tooltip = rpg_bulgaria_required_states_sofia
                 controls_state = 48 #Sofia
             }
             #Burgas
             custom_trigger_tooltip = {
-                tooltip = rpg_european_russia_required_states_burgas
+                tooltip = rpg_bulgaria_required_states_burgas
                 controls_state = 211 #Burgas
             }
             #Plovdiv
             custom_trigger_tooltip = {
-                tooltip = rpg_european_russia_required_states_plovdiv
+                tooltip = rpg_bulgaria_required_states_plovdiv
                 controls_state = 212 #Plovdiv
             }
             #Moesia
             custom_trigger_tooltip = {
-                tooltip = rpg_european_russia_required_states_moesia
+                tooltip = rpg_bulgaria_required_states_moesia
                 controls_state = 801 #Moesia
             }
 		}
