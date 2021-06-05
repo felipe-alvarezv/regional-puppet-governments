@@ -1,276 +1,157 @@
 rpg_category_territories_south_germany = {
-	rpg_south_germany_lower_austria = {
-		allowed = {
-			NOT = {
-				original_tag = AUS #Austria
-				original_tag = GER #Germany
-				original_tag = R13 #Germany
-				original_tag = R25 #South Germany
-			}
-		}
-		available = {
-			is_subject = no
-			custom_trigger_tooltip = {
-				tooltip = rpg_south_germany_required_states_lower_austria
-                controls_state = 4 #Lower Austria
-			}
-		}
-		visible = {
+	rpg_south_germany_prekmurje = {
+        allowed = {
+            NOT = {
+                original_tag = SLV #Slovenia
+                original_tag = YUG #Yugoslavia
+                original_tag = R25 #South Germany
+            }
+        }
+        available = {
+            is_subject = no
+            custom_trigger_tooltip = {
+                tooltip = rpg_south_germany_required_states_prekmurje
+                controls_state = 819 #Prekmurje
+            }
+        }
+        visible = {
             has_global_flag = rpg_south_germany_flag
-			R25 = {
-				OR = {
-					is_puppet_of = FROM
-					is_in_faction_with = FROM
-				}
-			}
-			NOT = { 
-                original_tag = AUS #Austria
-				original_tag = GER #Germany
-				original_tag = R13 #Germany
-				original_tag = R25 #South Germany
-				has_global_flag = rpg_united_germany_flag
-                has_global_flag = rpg_south_germany_lower_austria_flag
+            R25 = {
+                OR = {
+                    is_puppet_of = FROM
+                    is_in_faction_with = FROM
+                }
             }
-		}
-		complete_effect = {
-			custom_effect_tooltip = rpg_south_germany_coring_states_lower_austria
-			custom_effect_tooltip = rpg_south_germany_transfer_states_lower_austria
-			hidden_effect = {
-				4 = { add_core_of = R25 } #Lower Austria
-				R25 = {
-					transfer_state = 4 #Lower Austria
-				}
-			}
-			hidden_effect = {
-				set_global_flag = rpg_south_germany_lower_austria_flag
-			}
-		}
-		ai_will_do = {
-			factor = 0
-			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
-			}
-		}
-	}
-	rpg_south_germany_south_tyrol= {
-		allowed = {
-			NOT = {
-				original_tag = AUS #Austria
-				original_tag = GER #Germany
-				original_tag = ITA #Italy
-				original_tag = R13 #Germany
-				original_tag = R25 #South Germany
-			}
-		}
-		available = {
-			is_subject = no
-			custom_trigger_tooltip = {
-				tooltip = rpg_south_germany_required_states_south_tyrol
-                controls_state = 39 #South Tyrol
-			}
-		}
-		visible = {
+            NOT = {
+                original_tag = SLV #Slovenia
+                original_tag = YUG #Yugoslavia
+                original_tag = R25 #South Germany
+                has_global_flag = rpg_south_germany_prekmurje_flag
+            }
+        }
+        complete_effect = {
+            custom_effect_tooltip = rpg_south_germany_coring_states_prekmurje
+            custom_effect_tooltip = rpg_south_germany_transfer_states_prekmurje
+            hidden_effect = {
+                819 = { add_core_of = R25 } #Prekmurje
+                R25 = {
+                    transfer_state = 819 #Prekmurje
+                }
+            }
+            hidden_effect = {
+                set_global_flag = rpg_south_germany_prekmurje_flag
+            }
+        }
+        ai_will_do = {
+            factor = 0
+            modifier = {
+                factor = 0
+                is_historical_focus_on = yes
+            }
+        }
+    }
+	rpg_south_germany_lower_styria = {
+        allowed = {
+            NOT = {
+                original_tag = SLV #Slovenia
+                original_tag = YUG #Yugoslavia
+                original_tag = R25 #South Germany
+            }
+        }
+        available = {
+            is_subject = no
+            custom_trigger_tooltip = {
+                tooltip = rpg_south_germany_required_states_lower_styria
+                controls_state = 820 #Lower Styria
+            }
+        }
+        visible = {
             has_global_flag = rpg_south_germany_flag
-			R25 = {
-				OR = {
-					is_puppet_of = FROM
-					is_in_faction_with = FROM
-				}
-			}
-			NOT = { 
-                original_tag = AUS #Austria
-				original_tag = GER #Germany
-				original_tag = ITA #Italy
-				original_tag = R13 #Germany
-				original_tag = R25 #South Germany
-				has_global_flag = rpg_united_germany_flag
-                has_global_flag = rpg_south_germany_south_tyrol_flag
+            R25 = {
+                OR = {
+                    is_puppet_of = FROM
+                    is_in_faction_with = FROM
+                }
             }
-		}
-		complete_effect = {
-			custom_effect_tooltip = rpg_south_germany_coring_states_south_tyrol
-			custom_effect_tooltip = rpg_south_germany_transfer_states_south_tyrol
-			hidden_effect = {
-				39 = { add_core_of = R25 } #South Tyrol
-				R25 = {
-					transfer_state = 39 #South Tyrol
-				}
-			}
-			hidden_effect = {
-				set_global_flag = rpg_south_germany_south_tyrol_flag
-			}
-		}
-		ai_will_do = {
-			factor = 0
-			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
-			}
-		}
-	}
-	rpg_south_germany_slovenia = {
-		allowed = {
-			NOT = {
-				original_tag = GER #Germany
-				original_tag = SVL #Slovenia
-				original_tag = YUG #Yugoslavia
-				original_tag = R13 #Germany
-				original_tag = R25 #South Germany
-			}
-		}
-		available = {
-			is_subject = no
-			custom_trigger_tooltip = {
-				tooltip = rpg_south_germany_required_states_slovenia
-                controls_state = 102 #Slovenia
-			}
-		}
-		visible = {
-			has_global_flag = rpg_south_germany_flag
-			R25 = {
-				OR = {
-					is_puppet_of = FROM
-					is_in_faction_with = FROM
-				}
-			}
-			NOT = { 
-                original_tag = GER #Germany
-				original_tag = SVL #Slovenia
-				original_tag = YUG #Yugoslavia
-				original_tag = R13 #Germany
-				original_tag = R25 #South Germany
-				has_global_flag = rpg_united_germany_flag
-                has_global_flag = rpg_south_germany_slovenia_flag
+            NOT = {
+                original_tag = SLV #Slovenia
+                original_tag = YUG #Yugoslavia
+                original_tag = R25 #South Germany
+                has_global_flag = rpg_south_germany_lower_styria_flag
             }
-		}
-		complete_effect = {
-			custom_effect_tooltip = rpg_south_germany_coring_states_slovenia
-			custom_effect_tooltip = rpg_south_germany_transfer_states_slovenia
-			hidden_effect = {
-				102 = { add_core_of = R25 } #Slovenia
-				R25 = {
-					transfer_state = 102 #Slovenia
-				}
-			}
-			hidden_effect = {
-				set_global_flag = rpg_south_germany_slovenia_flag
-			}
-		}
-		ai_will_do = {
-			factor = 0
-			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
-			}
-		}
-	}
-	rpg_south_germany_upper_austria= {
-		allowed = {
-			NOT = {
-				original_tag = AUS #Austria
-				original_tag = GER #Germany
-				original_tag = R13 #Germany
-				original_tag = R25 #South Germany
-			}
-		}
-		available = {
-			is_subject = no
-			custom_trigger_tooltip = {
-				tooltip = rpg_south_germany_required_states_upper_austria
-                controls_state = 152 #Upper Austria
-			}
-		}
-		visible = {
+        }
+        complete_effect = {
+            custom_effect_tooltip = rpg_south_germany_coring_states_lower_styria
+            custom_effect_tooltip = rpg_south_germany_transfer_states_lower_styria
+            hidden_effect = {
+                820 = { add_core_of = R25 } #Lower Styria
+                R25 = {
+                    transfer_state = 820 #Lower Styria
+                }
+            }
+            hidden_effect = {
+                set_global_flag = rpg_south_germany_lower_styria_flag
+            }
+        }
+        ai_will_do = {
+            factor = 0
+            modifier = {
+                factor = 0
+                is_historical_focus_on = yes
+            }
+        }
+    }
+    rpg_south_germany_litorale = {
+        allowed = {
+            NOT = {
+                original_tag = ITA #Italy
+                original_tag = SLV #Slovenia
+                original_tag = YUG #Yugoslavia
+                original_tag = R25 #South Germany
+            }
+        }
+        available = {
+            is_subject = no
+            custom_trigger_tooltip = {
+                tooltip = rpg_south_germany_required_states_litorale
+                controls_state = 837 #Litorale
+            }
+        }
+        visible = {
             has_global_flag = rpg_south_germany_flag
-			R25 = {
-				OR = {
-					is_puppet_of = FROM
-					is_in_faction_with = FROM
-				}
-			}
-			NOT = { 
-                original_tag = AUS #Austria
-				original_tag = GER #Germany
-				original_tag = R13 #Germany
-				original_tag = R25 #South Germany
-				has_global_flag = rpg_united_germany_flag
-                has_global_flag = rpg_south_germany_upper_austria_flag
+            R25 = {
+                OR = {
+                    is_puppet_of = FROM
+                    is_in_faction_with = FROM
+                }
             }
-		}
-		complete_effect = {
-			custom_effect_tooltip = rpg_south_germany_coring_states_upper_austria
-			custom_effect_tooltip = rpg_south_germany_transfer_states_upper_austria
-			hidden_effect = {
-				152 = { add_core_of = R25 } #Upper Austria
-				R25 = {
-					transfer_state = 152 #Upper Austria
-				}
-			}
-			hidden_effect = {
-				set_global_flag = rpg_south_germany_upper_austria_flag
-			}
-		}
-		ai_will_do = {
-			factor = 0
-			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
-			}
-		}
-	}
-	rpg_south_germany_tyrol= {
-		allowed = {
-			NOT = {
-				original_tag = AUS #Austria
-				original_tag = GER #Germany
-				original_tag = R13 #Germany
-				original_tag = R25 #South Germany
-			}
-		}
-		available = {
-			is_subject = no
-			custom_trigger_tooltip = {
-				tooltip = rpg_south_germany_required_states_tyrol
-                controls_state = 153 #Tyrol
-			}
-		}
-		visible = {
-            has_global_flag = rpg_south_germany_flag
-			R25 = {
-				OR = {
-					is_puppet_of = FROM
-					is_in_faction_with = FROM
-				}
-			}
-			NOT = { 
-                original_tag = AUS #Austria
-				original_tag = GER #Germany
-				original_tag = R13 #Germany
-				original_tag = R25 #South Germany
-				has_global_flag = rpg_united_germany_flag
-                has_global_flag = rpg_south_germany_tyrol_flag
+            NOT = {
+                original_tag = ITA #Italy
+                original_tag = SLV #Slovenia
+                original_tag = YUG #Yugoslavia
+                original_tag = R25 #South Germany
+                has_global_flag = rpg_south_germany_litorale_flag
             }
-		}
-		complete_effect = {
-			custom_effect_tooltip = rpg_south_germany_coring_states_tyrol
-			custom_effect_tooltip = rpg_south_germany_transfer_states_tyrol
-			hidden_effect = {
-				153 = { add_core_of = R25 } #Tyrol
-				R25 = {
-					transfer_state = 153 #Tyrol
-				}
-			}
-			hidden_effect = {
-				set_global_flag = rpg_south_germany_tyrol_flag
-			}
-		}
-		ai_will_do = {
-			factor = 0
-			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
-			}
-		}
-	}
+        }
+        complete_effect = {
+            custom_effect_tooltip = rpg_south_germany_coring_states_litorale
+            custom_effect_tooltip = rpg_south_germany_transfer_states_litorale
+            hidden_effect = {
+                837 = { add_core_of = R25 } #Litorale
+                R25 = {
+                    transfer_state = 837 #Litorale
+                }
+            }
+            hidden_effect = {
+                set_global_flag = rpg_south_germany_litorale_flag
+            }
+        }
+        ai_will_do = {
+            factor = 0
+            modifier = {
+                factor = 0
+                is_historical_focus_on = yes
+            }
+        }
+    }
 }
